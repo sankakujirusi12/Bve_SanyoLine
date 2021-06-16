@@ -218,7 +218,7 @@ Curve.Interpolate(0, 0);
 Curve.Interpolate(0, 0);
 126545;
 Curve.Interpolate(-500, -0.09);
-#カーブ[R400左]
+#カーブ[R500左]
 126620;
 Curve.Interpolate(-500, -0.09);
 126720;
@@ -228,7 +228,7 @@ Curve.Interpolate(0, 0);
 Curve.Interpolate(0, 0);
 126860;
 Curve.Interpolate(600, 0.085);
-#カーブ[R400右]
+#カーブ[R600右]
 127222;
 Curve.Interpolate(600, 0.085);
 127282;
@@ -335,7 +335,7 @@ Curve.Interpolate(1000, 0.04);
 128515;
 Curve.Interpolate(0, 0);
 Gradient.Interpolate(10);
-128665;
+128575;
 Gradient.Interpolate(-10);
 129615;
 repeater['TN_kudari'].End();
