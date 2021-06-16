@@ -1,0 +1,6 @@
+BveTs Train 1.01:shift_jis
+[structure]
+key=Sports2
+distance=0
+z=2
+span=4
