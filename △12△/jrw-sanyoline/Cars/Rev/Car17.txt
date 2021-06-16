@@ -1,0 +1,6 @@
+BveTs Train 1.01:shift_jis
+[structure]
+key=keiyon4Rev
+distance=0
+z=2
+span=4
