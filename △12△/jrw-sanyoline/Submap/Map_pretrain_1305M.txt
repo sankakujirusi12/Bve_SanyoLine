@@ -1,0 +1,6 @@
+BveTs Map 2.00:shift_jis
+#æs
+83941;
+PreTrain.Pass('07:05:00');
+300000;
+PreTrain.Pass('07:05:01');

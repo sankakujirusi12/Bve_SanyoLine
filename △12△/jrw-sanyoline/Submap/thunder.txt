@@ -1,0 +1,8 @@
+BveTs Map 2.00:shift_jis
+
+$Distance;
+Fog.Interpolate(0.0102,0.403,0.403,0.403);
+$Distance+1;
+Fog.Interpolate(0);
+$Distance+2;
+Fog.Interpolate(0.0102,0.403,0.403,0.403);

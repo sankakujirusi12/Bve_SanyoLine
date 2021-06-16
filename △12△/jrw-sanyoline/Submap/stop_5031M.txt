@@ -1,0 +1,20 @@
+BveTs Map 2.00:shift_jis
+83890;
+Station['Sta-2'].Put(-1,-2,2);
+88453;
+Station['Sta-1'].Put(-1,-2,2);
+91405;
+Station['Sta0'].Put(-1,-2,2);
+94100;
+Station['Sta1'].Put(-1,-2,2);
+100059;
+Station['Sta2'].Put(-1,-2,2);
+104584;
+Station['Sta3'].Put(-1,-2,2);
+112143;
+Station['Sta4'].put(-1,-2,2);
+118754;
+Station['Sta5'].put(1,-2,2);
+131313;
+Station['Sta6'].put(-1,-2,2);
+

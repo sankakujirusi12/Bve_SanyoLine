@@ -1,0 +1,7 @@
+﻿BveTs Map 2.00:shift_jis
+#R213、左へ分岐用
+$distance;
+structure['Point1R'].Put(0,0.53,0,0,0,0,0,0,0);
+$distance+10;
+structure['Point2L'].Put(0,-0.4,0.0001,-0.2,0,0,0,0,0);
+structure['Point2R'].Put(''+$point+'',0.5,0,0.1,0,0,0,0,0);
