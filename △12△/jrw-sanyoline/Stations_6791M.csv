@@ -1,0 +1,7 @@
+BveTs Station List 2.00:shift_jis,,,,,,,,,,,,
+#stationKey,stationText,arrivalTime,depertureTime,stoppageTime,defaultTime,signalFlag,alightingTime,passengers,arrivalSoundKey,depertureSoundKey,doorReopen,stuckInDoor
+Sta1,網　　干,13:23:00,13:24:00,,13:23:00,0,0,0,,,0,0
+Sta2,竜　　野,p,,,,0,0,0,,,0,0
+Sta3,相　　生,p,13:35:15,,,0,0,0,,,0,0
+Sta4,有　　年,p,,,,0,0,0,,,0,0
+Sta5,上　　郡,13:48:15,t,0,13:48:15,0,0,0,,,0,0

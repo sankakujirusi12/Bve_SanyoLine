@@ -1,0 +1,226 @@
+﻿BveTs Map 2.00:shift_jis
+#山陽本線-5031M
+
+0;
+Sound3d.Load('Sound3D.txt');
+Structure.Load('Structures.txt');
+Station.Load('Stations_9321M.csv');
+Signal.Load('Signals.csv');
+
+
+
+
+
+#駅位置定義
+include 'Submap\stop_9321M.txt';
+
+#曲線&勾配&風景
+include 'Submap\Map_himeji7.txt';
+include 'Submap\Map_pass_hime_une.txt';
+include 'Submap\Map_une_old_1.txt';
+include 'Submap\Map_pass_une_kami.txt';
+include 'Submap\Map_kami4.txt';
+include 'Submap\Map_pass_kami_oka.txt';
+include 'Submap\jyousyaichi.txt';
+include 'Submap\Map_crossNo_2012.txt';
+include 'Submap\Gradient&CurvePosts.txt';
+#信号&閉塞
+include 'Submap\Map_signal_himeji7.txt';
+include 'Submap\Map_signal_5031M.txt';
+include 'Submap\Map_section.txt';
+
+#架線&架線柱
+include 'Submap\Map_kasenchu.txt';
+include 'Submap\Map_kasenchu_une1_old.txt';
+include 'Submap\Map_kasenchu_himeji7.txt';
+
+#他列車
+include 'Trains\Trains_9321M.txt';
+
+#先行列車
+include 'Submap\Map_pretrain_9321M.txt';
+
+#音
+include 'Submap\joint_5031M.txt';
+
+#ATS
+include 'Submap\Map_beacon_9239.txt';
+
+#環境設定
+include 'Submap\Map_spring autumn.txt';
+include '設定.txt';
+
+
+80000;
+	Background.Change('Bg');
+
+CabIlluminance.Interpolate(1);
+#Fog.Interpolate(0.01,0.053,0.053,0.053);
+RollingNoise.Change(0);
+140000;
+#Fog.Interpolate(0.01,0.053,0.053,0.053);
+CabIlluminance.Interpolate(1);
+
+
+#-------------------------転動音-----------------------
+#0=ロング 1=スラブ 3=橋梁 4=トンネル 22=定尺
+0;
+	RollingNoise.Change(1);
+85320;
+	RollingNoise.Change(0);
+88935;
+	RollingNoise.Change(3);
+88950;
+	RollingNoise.Change(0);
+89095;
+	RollingNoise.Change(3);
+89110;
+	RollingNoise.Change(0);
+89221;
+	RollingNoise.Change(3);
+89471;
+	RollingNoise.Change(0);
+96531;
+	RollingNoise.Change(3);
+96699;
+	RollingNoise.Change(0);
+98938;
+	RollingNoise.Change(3);
+99249;
+	RollingNoise.Change(0);
+100246;
+	RollingNoise.Change(3);
+100258;
+	RollingNoise.Change(0);
+112794;
+	RollingNoise.Change(3);
+112852;
+	RollingNoise.Change(0);
+112928;
+	RollingNoise.Change(3);
+112944;
+	RollingNoise.Change(0);
+113902;
+	RollingNoise.Change(3);
+113912;
+	RollingNoise.Change(0);
+114004;
+	RollingNoise.Change(3);
+114017;
+	RollingNoise.Change(0);
+117467;
+	RollingNoise.Change(3);
+117482;
+	RollingNoise.Change(0);
+117497;
+	RollingNoise.Change(3);
+117925;
+	RollingNoise.Change(22);
+
+
+88700;
+	SpeedLimit.Begin(105);
+89115;
+	SpeedLimit.End();
+89465;
+	SpeedLimit.Begin(115);
+89950;
+	SpeedLimit.End();
+91425;
+	SpeedLimit.Begin(105);
+91575;
+	SpeedLimit.End();
+92125;
+	SpeedLimit.Begin(105);
+92250;
+	SpeedLimit.End();
+92915;
+	SpeedLimit.Begin(105);
+93075;
+	SpeedLimit.End();
+96710;
+	SpeedLimit.Begin(115);
+97130;
+	SpeedLimit.End();
+97215;
+	SpeedLimit.Begin(110);
+97350;
+	SpeedLimit.End();
+98375;
+	SpeedLimit.Begin(95);
+98820;
+	SpeedLimit.End();
+99265;
+	SpeedLimit.Begin(115);
+99730;
+	SpeedLimit.End();
+100130;
+	SpeedLimit.Begin(105);
+100215;
+	SpeedLimit.End();
+100250;
+	SpeedLimit.Begin(110);
+100350;
+	SpeedLimit.End();
+101750;
+	SpeedLimit.Begin(105);
+102000;
+	SpeedLimit.End();
+102900;
+	SpeedLimit.Begin(100);
+103125;
+	SpeedLimit.End();
+103700;
+	SpeedLimit.Begin(105);
+103890;
+	SpeedLimit.End();
+104075;
+	SpeedLimit.Begin(110);
+104285;
+	SpeedLimit.End();
+104725;
+	SpeedLimit.Begin(80);
+105240;
+	SpeedLimit.End();
+105700;
+	SpeedLimit.Begin(105);
+106105;
+	SpeedLimit.End();
+108380;
+	SpeedLimit.Begin(115);
+108865;
+	SpeedLimit.End();
+110440;
+	SpeedLimit.Begin(95);
+110825;
+	SpeedLimit.End();
+111660;
+	SpeedLimit.Begin(110);
+111750;
+	SpeedLimit.End();
+112090;
+	SpeedLimit.Begin(100);
+112380;
+	SpeedLimit.End();
+112800;
+	SpeedLimit.Begin(95);
+113450;
+	SpeedLimit.End();
+114000;
+	SpeedLimit.Begin(115);
+114150;
+	SpeedLimit.End();
+114475;
+	SpeedLimit.Begin(105);
+114675;
+	SpeedLimit.End();
+116050;
+	SpeedLimit.Begin(105);
+117100;
+	SpeedLimit.End();
+117320;
+	SpeedLimit.Begin(110);
+117410;
+	SpeedLimit.End();
+117850;
+	SpeedLimit.Begin(90);
