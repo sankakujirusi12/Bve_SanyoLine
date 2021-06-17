@@ -1,0 +1,26 @@
+BveTs Train 1.01:shift_jis
+[structure]
+key=Tc111_40n
+distance=0
+z=8
+span=16
+[structure]
+key=115headlight
+distance=0
+z=8
+span=16
+[structure]
+key=M113_40n
+distance=20
+z=8
+span=16
+[structure]
+key=M'112_40n
+distance=40
+z=8
+span=16
+[structure]
+key=Tc'111_40n
+distance=60
+z=8
+span=16

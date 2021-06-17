@@ -1,0 +1,16 @@
+BveTs Train 1.01:shift_jis
+[structure]
+key=Mzc141
+distance=10
+z=-8
+span=16
+[structure]
+key=Tzc141
+distance=31
+z=-8
+span=16
+[sound3D]
+Key=HOT7000run
+Distance1=-11
+Distance2=31
+Function=Rolling

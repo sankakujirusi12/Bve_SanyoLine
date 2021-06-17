@@ -1,0 +1,16 @@
+BveTs Train 1.01:shift_jis
+[structure]
+key=3000Mc_al
+distance=0
+z=8
+span=16
+[structure]
+key=3000M_al
+distance=12.3
+z=8
+span=16
+[structure]
+key=3000Tc_al
+distance=24.6
+z=8
+span=16

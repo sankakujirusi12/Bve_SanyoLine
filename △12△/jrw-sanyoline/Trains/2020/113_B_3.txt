@@ -1,0 +1,27 @@
+BveTs Train 1.01:shift_jis
+[structure]
+key=Tc111-2101_makki40n
+distance=0
+z=8
+span=16
+[structure]
+key=M113-2000_makki40n
+distance=20
+z=8
+span=16
+[structure]
+key=M'112-2000_makki40n
+distance=40
+z=8
+span=16
+[structure]
+key=Tc'111-2000_makki40n
+distance=60
+z=8
+span=16
+
+[sound3D]
+Key=115run
+Distance1=-10
+Distance2=70
+Function=Rolling
