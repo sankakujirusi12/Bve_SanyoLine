@@ -1,0 +1,19 @@
+BveTs Map 2.00:shift_jis
+0;
+Train['1'].Load('Trains\SS用\113_sn.txt', 'hoshiden5', -1);
+Train['2'].Load('Trains\SS用\115_sn.txt', 'gawa_hoshi1', -1);
+Train['3'].Load('Trains\SS用\113_re.txt', 'hoshiden8', -1);
+Train['4'].Load('Trains\SS用\113_hiro.txt', 'hoshiden7', -1);
+80;
+Train['1'].Enable('05:20:00');
+Train['2'].Enable('05:20:00');
+Train['3'].Enable('05:20:00');
+Train['4'].Enable('05:20:00');
+94972;
+Train['1'].Stop(0, 0, 0, 0);
+94977;
+Train['2'].Stop(0, 0, 0, 0);
+94982;
+Train['3'].Stop(0, 0, 0, 0);
+94987;
+Train['4'].Stop(0, 0, 0, 0);

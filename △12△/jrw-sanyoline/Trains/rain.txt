@@ -1,0 +1,6 @@
+BveTs Train 1.01:shift_jis
+[sound3D]
+Key=rain
+Distance1=0
+Distance2=200000
+Function=Stationary

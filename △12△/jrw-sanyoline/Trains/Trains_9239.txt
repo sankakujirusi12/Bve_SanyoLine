@@ -1,0 +1,12 @@
+BveTs Map 2.00:shift_jis
+83500;
+Train['325M'].Load('Trains\night\223-2000_t.txt', 'watari1', 1);
+83700;
+Train['325M'].Enable('1:33:00');
+Train['325M'].Stop(1.5, 30, 2.4, 40);
+84300;
+Train['325M'].Stop(0, 0, 0, 100);
+93900;
+Train['325M'].Stop(1, 60, 1.4, 25);
+95000;
+Train['325M'].Stop(1, 30, 2.4, 25);

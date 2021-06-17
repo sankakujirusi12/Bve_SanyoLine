@@ -1,0 +1,152 @@
+BveTs Map 2.00:shift_jis
+0;
+$113B=floor(rand(4));
+$koki=floor(rand(3));
+$hoshi=floor(rand(21));
+$sandenlocal=floor(rand(15));
+#---------------他列車定義------------------------------------------------------------------------------------------------------------------
+
+Train['1300M'].Load('Trains\2020\113_B_'+$113B+'.txt', 'sanyonobori', -1);
+Train['1300M_maku'].Load('Trains\yellowmaku.txt', 'sanyonobori', -1);
+Train['3426M'].Load('Trains\223-2000_8.txt', 'sanyonobori', -1);
+Train['xxxxM'].Load('Trains\225-0_12.txt', 'sanyonobori', -1);
+Train['5730M'].Load('Trains\223-2000_12_r.txt', 'sanyonobori', -1);
+Train['738T'].Load('Trains\223-2000_8_r.txt', 'sanyonobori', -1);
+Train['5732T'].Load('Trains\221-0_8.txt', 'sanyonobori', -1);
+#Train['56'].Load('Trains\ef66+koki20b'+$koki+'.txt', 'sanyonobori', -1);
+Train['56'].Load('Trains\ef210+koki20b1.txt', 'sanyonobori', -1);
+Train['HOT'].Load('Trains\HOT3500.txt', 'chizu', -1);
+Train['822D'].Load('Trains\DC40_2_1.txt', 'kishin', -1);
+Train['hoshi1'].Load('Trains\223-1000_8_.txt', 'hoshiden9', -1);
+Train['hoshi2'].Load('Trains\145.txt', 'hoshiden5', -1);
+Train['hoshi3'].Load('Trains\205_7.txt', 'hoshiden4', -1);
+Train['hoshi4'].Load('Trains\223-2000_12__.txt', 'hoshiden5', -1);
+Train['hoshi5'].Load('Trains\221-0_8.txt', 'gawa_hoshi1', -1);
+Train['hoshi6'].Load('Trains\225-0_8.txt', 'gawa_hoshi1', -1);
+Train['hoshi7'].Load('Trains\223-1000_8_.txt', 'hoshiden3', -1);
+Train['hoshi8'].Load('Trains\223-2000_12__.txt', 'hoshiden7', -1);
+Train['hoshi9'].Load('Trains\103_r_4.txt', 'hoshiden10', -1);
+Train['hoshi10'].Load('Trains\臨時\'+$hoshi+'.txt', 'hoshiden3', -1);
+Train['hoshi11'].Load('Trains\223-1000_8_.txt', 'gawa_hoshi1', -1);
+Train['hoshi12'].Load('Trains\225-0_12.txt', 'sanyonobori', -1);
+Train['hoshi13'].Load('Trains\223-1000_8_.txt', 'gawa_hoshi3', -1);
+Train['hoshi14'].Load('Trains\223-2000_12__.txt', 'gawa_hoshi1', -1);
+Train['sandenlocal'].Load('Trains\SY\'+$sandenlocal+'.txt', 'sandenkudari', -1);
+	#↑変なのを出したくない人はこちらの構文をご使用ください↓
+
+				#Train['hoshi10'].Load('Trains\臨時\3.txt', 'hoshiden5', -1);
+82500;
+Train['56'].Stop(3, 30, 25, 70);
+83500;
+Train['1300M_maku'].Stop(3, 30, 2.2, 90);
+Train['1300M'].Stop(3, 30, 2.2, 90);
+Train['1300M'].Enable('07:26:00');
+Train['1300M_maku'].Enable('07:26:00');
+Train['3426M'].Enable('07:21:00');
+Train['HOT'].Enable('07:21:00');
+Train['5730M'].Enable('07:04:00');
+Train['738T'].Enable('07:04:00');
+Train['822D'].Enable('07:03:00');
+Train['5732T'].Enable('07:07:30');
+Train['56'].Enable('07:24:00');
+Train['sandenlocal'].Enable('07:05:45');
+Train['738T'].Stop(3, 30, 2.5, 100);
+Train['3426M'].Stop(3, 30, 2.5, 100);
+Train['hoshi12'].Stop(3, 30, 2.5, 100);
+Train['5730M'].Stop(3, 30, 2.5, 100);
+Train['5732T'].Stop(3, 30, 2.5, 100);
+83700;
+Train['822D'].Stop(1.3, 0, 0, 0);
+84000;
+Train['hoshi4'].Enable('07:24:00');
+84140;
+Train['sandenlocal'].Stop(3, 30, 0, 60);
+84426;
+Train['sandenlocal'].Stop(3, 0, 60, 40);
+85000;
+Train['822D'].Stop(1.3, 0, 60, 45);
+88235;
+Train['5730M'].Stop(3, 30, 2.5, 100);
+Train['5732T'].Stop(3, 30, 2.5, 100);
+90000;
+
+Train['hoshi1'].Enable('07:20:00');
+Train['hoshi2'].Enable('07:20:00');
+Train['hoshi3'].Enable('07:20:00');
+Train['hoshi4'].Enable('07:20:00');
+Train['hoshi5'].Enable('07:20:00');
+Train['hoshi6'].Enable('07:20:00');
+Train['hoshi7'].Enable('07:20:00');
+Train['hoshi8'].Enable('07:20:00');
+Train['hoshi9'].Enable('07:20:00');
+Train['hoshi10'].Enable('07:20:00');
+Train['hoshi11'].Enable('07:20:00');
+Train['hoshi12'].Enable('07:20:00');
+Train['hoshi13'].Enable('07:20:00');
+Train['hoshi14'].Enable('07:20:00');
+Train['xxxxM'].Enable('07:16:00');
+91121;
+#Train['5730M'].Stop(3, 0, 2.5, 100);
+Train['5732T'].Stop(3, 30, 2.5, 100);
+Train['xxxxM'].Stop(3, 30, 2.5, 100);
+93500;
+Train['hoshi11'].Stop(0, 0, 0, 0);
+93900;
+Train['hoshi12'].Stop(3, 90, 2.5, 100);
+93840;
+Train['hoshi13'].Stop(0, 0, 0, 0);
+Train['hoshi14'].Stop(0, 0, 0, 0);
+94905;
+Train['hoshi6'].Stop(0, 0, 0, 0);
+94995;
+Train['hoshi3'].Stop(0, 0, 0, 0);
+95004;
+Train['hoshi7'].Stop(0, 0, 0, 0);
+Train['hoshi8'].Stop(0, 0, 0, 0);
+95053;
+Train['hoshi4'].Stop(0, 0, 0, 0);
+95200;
+Train['hoshi5'].Stop(0, 0, 0, 0);
+95439;
+Train['hoshi2'].Stop(0, 0, 0, 0);
+95460;
+Train['hoshi9'].Stop(0, 0, 0, 0);
+95500;
+Train['hoshi10'].Stop(0, 0, 0, 0);
+95560;
+Train['hoshi1'].Stop(0, 0, 0, 0);
+93942;
+#網干
+Train['738T'].Stop(3, 30, 2.5, 100);
+Train['3426M'].Stop(3, 30, 2.5, 100);
+93972;
+Train['1300M_maku'].Stop(3, 30, 2.2, 100);
+Train['1300M'].Stop(3, 30, 2.2, 100);
+99880;
+#竜野
+Train['xxxxM'].Stop(3, 30, 2.5, 100);
+Train['738T'].Enable('07:28:00');
+Train['738T'].Stop(3, 30, 2.5, 100);
+Train['3426M'].Stop(3, 30, 2.5, 100);
+Train['1300M_maku'].Stop(3, 30, 2.2, 90);
+Train['1300M'].Stop(3, 30, 2.2, 90);
+#相生
+104381;
+Train['3426M'].Stop(3, 30, 2.5, 100);
+Train['738T'].Stop(3, 30, 2.5, 100);
+104461;
+
+Train['1300M'].Stop(3, 0, 2.2, 100);
+Train['1300M_maku'].Stop(3, 0, 2.2, 100);
+
+111944;
+#有年
+Train['738T'].Stop(3, 30, 2.5, 100);
+Train['56'].Stop(3, 30, 25, 70);
+118587;
+#上郡
+Train['738T'].Stop(3, 30, 2.5, 100);
+118804;
+Train['HOT'].Stop(0, 0, 0, 0);
+
+#56レは仮に有年発(汗)

@@ -1,0 +1,21 @@
+BveTs Train 1.01:shift_jis
+[structure]
+key=Mzc145
+distance=0
+z=8
+span=16
+[structure]
+key=pt
+distance=0
+z=8
+span=16
+[structure]
+key=dt33
+distance=0
+z=8
+span=16
+[structure]
+key=dt33
+distance=14
+z=8
+span=16
