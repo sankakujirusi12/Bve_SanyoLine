@@ -8,40 +8,48 @@ Station.Load('Stations_9239.csv');
 Signal.Load('Signals.csv');
 
 #駅位置定義
-#曲線&勾配&風景
-#信号&閉塞
-#架線&架線柱
-#他列車
-#先行列車
-#音
-#ATS
-#環境設定
-
-include 'Trains\Trains_9239.txt';
-include 'Submap\Map_kasenchu.txt';
-include 'Submap\Map_kasenchu_une2_old.txt';
-include 'Submap\Map_kasenchu_himeji7.txt';
-include 'Submap\Map_himeji7.txt';
 include 'Submap\stop_9239.txt';
-include 'Submap\jyousyaichi.txt';
+
+#曲線&勾配&風景
+include 'Submap\Map_himeji7.txt';
 include 'Submap\Map_pass_hime_une.txt';
 include 'Submap\Map_une_old_2.txt';
 include 'Submap\Map_pass_une_kami.txt';
 include 'Submap\Map_kami3.txt';
 include 'Submap\Map_pass_kami_oka.txt';
 #include 'Submap\Map_point_1305M.txt';
-include 'Submap\Map_section.txt';
+include 'Submap\jyousyaichi.txt';
+include 'Submap\Map_crossNo_2012.txt';
+include 'Submap\Gradient&CurvePosts.txt';
+
+#信号&閉塞
 include 'Submap\Map_signal_9239.txt';
 include 'Submap\Map_signal_himeji7.txt';
-include 'Submap\Map_night.txt';
-#include 'Submap\joint_1305M.txt';
-include 'Submap\Map_beacon_9239.txt';
+include 'Submap\Map_section.txt';
+
+#架線&架線柱
+include 'Submap\Map_kasenchu.txt';
+include 'Submap\Map_kasenchu_une2_old.txt';
+include 'Submap\Map_kasenchu_himeji7.txt';
+
+#他列車
+include 'Trains\Trains_9239.txt';
+
+#先行列車
 include 'Submap\Map_pretrain_9239.txt';
+
+#音
+#include 'Submap\joint_1305M.txt';
+
+#ATS
+include 'Submap\Map_beacon_9239.txt';
+
+#環境設定
+include 'Submap\Map_night.txt';
 include '設定.txt';
-include 'Submap\Map_crossNo_2012.txt';
 
 
-
+Curve.SetGauge(1.067);
 CabIlluminance.Interpolate(0);
 Fog.Interpolate(0.01,0.0103,0.0103,0.0103);
 RollingNoise.Change(0);
