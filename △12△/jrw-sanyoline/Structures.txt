@@ -204,7 +204,7 @@ ropebase,Structures\Ntfiv\GeneralStr_png\Accessory\ropebase.x
 Bg,Structures\車警定位\shuijing\bg1.x
 Bg-sunset,
 Bg-sunrise,Structures\車警定位\shuijing\bg2.x
-Bg-thunder,Structures\Ntfiv\GeneralStr_png\BG\Bg_thunder.x
+Bg-thunder,Structures\車警定位\shuijing\bg3.x
 Grass,Structures\Ntfiv\GeneralStr_png\Nature\Ground\Grass.x
 GrassL,Structures\Ntfiv\GeneralStr_png\Nature\Ground\Lside_Grass.x
 GrassR,Structures\Ntfiv\GeneralStr_png\Nature\Ground\Rside_Grass.x
