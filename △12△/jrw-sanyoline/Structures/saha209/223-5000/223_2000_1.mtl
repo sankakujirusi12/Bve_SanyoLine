@@ -1,0 +1,78 @@
+newmtl m0
+map_Kd 223_f.dds
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Ns 5
+d 1
+
+newmtl m1
+map_Kd 223_b.dds
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Ns 5
+d 1
+
+newmtl m2
+map_Kd 223_s1a.dds
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Ns 5
+d 1
+
+newmtl m3
+map_Kd 223_s1b.dds
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Ns 5
+d 1
+
+newmtl m4
+Ka 0 0 0
+Kd 0.4 0.4 0.4
+Ks 0 0 0
+Ns 5
+d 1
+
+newmtl m5
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+Ns 5
+d 1
+
+newmtl m6
+map_Kd antena.dds
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Ns 5
+d 1
+
+newmtl m7
+map_Kd 205_k.dds
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Ns 5
+d 1
+
+newmtl m8
+map_Kd P.dds
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Ns 5
+d 1
+
+newmtl m9
+map_Kd kage.dds
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Ns 5
+d 0.8
+
