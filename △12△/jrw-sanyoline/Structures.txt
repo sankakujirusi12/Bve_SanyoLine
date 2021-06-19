@@ -1155,7 +1155,6 @@ ef66_f,Structures\kiha47_san_in\EF66\JRF\EF66.x
 dt133f,Structures\kiha47_san_in\EF66\dt133f.x
 dt134,Structures\kiha47_san_in\EF66\dt134.x
 dt133b,Structures\kiha47_san_in\EF66\dt133b.x
-#shadow_66,Structures\initg_lcset\shadow_l1.x
 ef64_1000,../../Nagoya_Common\Train\JRF\EF64_1000\641000.x
 ef64_1000_f,Structures\Nakano_Kazusa\EF64\EF64-1000_F.x
 ef210,Structures\Uchibo\EF210\EF210_c.x
