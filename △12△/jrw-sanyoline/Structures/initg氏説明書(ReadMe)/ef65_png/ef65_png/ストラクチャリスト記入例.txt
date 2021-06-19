@@ -1,0 +1,77 @@
+・ファイルパスは適宜書き換えてください。
+
+■一般型 内訳
+本体        xxx_00
+前灯＆尾灯  xxx_01～xxx_02
+・昼
+65_00,structures\initg_lcset\65_00.x
+65_01,structures\initg_lcset\65_01.x
+65_02,structures\initg_lcset\65_02.x
+shadow_l1,structures\initg_lcset\shadow_l1.x
+・夜
+65_00,structures\initg_lcset\65_00.x
+65_01,structures\initg_lcset\65_01_n.x
+65_02,structures\initg_lcset\65_02_n.x
+shadow_l1,structures\initg_lcset\shadow_l1_n.x
+
+■500番台F型 内訳
+本体        xxx_00
+前灯＆尾灯  xxx_01～xxx_02
+・昼
+65-500_00,structures\initg_lcset\65-500_00.x
+65-500_01,structures\initg_lcset\65-500_01.x
+65-500_02,structures\initg_lcset\65-500_02.x
+shadow_l1,structures\initg_lcset\shadow_l1.x
+・夜
+65-500_00,structures\initg_lcset\65-500_00.x
+65-500_01,structures\initg_lcset\65-500_01_n.x
+65-500_02,structures\initg_lcset\65-500_02_n.x
+shadow_l1,structures\initg_lcset\shadow_l1_n.x
+
+■500番台P型 内訳
+本体        xxx_10
+前灯＆尾灯  xxx_11～xxx_02
+HM          xxx_a0
+・昼
+65-500_10,structures\initg_lcset\65-500_10.x
+65-500_01,structures\initg_lcset\65-500_01.x
+65-500_02,structures\initg_lcset\65-500_02.x
+65-500_a0,structures\initg_lcset\65-500_a0.x
+shadow_l1,structures\initg_lcset\shadow_l1.x
+・夜
+65-500_10,structures\initg_lcset\65-500_10.x
+65-500_01,structures\initg_lcset\65-500_01_n.x
+65-500_02,structures\initg_lcset\65-500_02_n.x
+65-500_a0,structures\initg_lcset\65-500_a0.x
+shadow_l1,structures\initg_lcset\shadow_l1.x
+
+■1000番台初期 内訳
+本体        xxx_00
+前灯＆尾灯  xxx_01～xxx_02
+・昼
+65-1000_00,structures\initg_lcset\65-1000_00.x
+65-1000_01,structures\initg_lcset\65-1000_01.x
+65-1000_02,structures\initg_lcset\65-1000_02.x
+shadow_l1,structures\initg_lcset\shadow_l1.x
+・夜
+65-1000_00,structures\initg_lcset\65-1000_00.x
+65-1000_01,structures\initg_lcset\65-1000_01_n.x
+65-1000_02,structures\initg_lcset\65-1000_02_n.x
+shadow_l1,structures\initg_lcset\shadow_l1_n.x
+
+■1000番台後期 内訳
+本体        xxx_10
+前灯＆尾灯  xxx_11～xxx_12
+HM          xxx_a0
+・昼
+65-1000_10,structures\initg_lcset\65-1000_10.x
+65-1000_11,structures\initg_lcset\65-1000_11.x
+65-1000_12,structures\initg_lcset\65-1000_12.x
+65-1000_a0,structures\initg_lcset\65-1000_a0.x
+shadow_l1,structures\initg_lcset\shadow_l1.x
+・夜
+65-1000_10,structures\initg_lcset\65-1000_10.x
+65-1000_11,structures\initg_lcset\65-1000_11_n.x
+65-1000_12,structures\initg_lcset\65-1000_12_n.x
+65-1000_a0,structures\initg_lcset\65-1000_a0.x
+shadow_l1,structures\initg_lcset\shadow_l1_n.x

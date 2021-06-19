@@ -1,0 +1,15 @@
+・ファイルパスは適宜書き換えてください。
+
+■昼(本体00～01 , 標＆尾灯滅02 , 標＆尾灯点03)
+50_00,structures\initg_pcset\50_00.x
+50_01,structures\initg_pcset\50_01.x
+50_02,structures\initg_pcset\50_02.x
+50_03,structures\initg_pcset\50_03.x
+shadow_p,structures\initg_pcset\shadow_p.x
+
+■夜(本体00～01 , 標＆尾灯滅02 , 標＆尾灯点03)
+50_00,structures\initg_pcset\50_00_n.x
+50_01,structures\initg_pcset\50_01_n.x
+50_02,structures\initg_pcset\50_02.x
+50_03,structures\initg_pcset\50_03.x
+shadow_p,structures\initg_pcset\shadow_p_n.x

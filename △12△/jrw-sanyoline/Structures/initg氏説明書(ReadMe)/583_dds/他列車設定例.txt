@@ -1,0 +1,157 @@
+bvets train 0.01
+
+;みちのく・ゆうづる編成
+;向きは真下の標と下の方にある灯を切り替えてください。
+;※音声は各自でご用意下さい。
+
+[structure];標
+key=583_06
+;key=583_07
+distance=-246
+z=8.25
+span=16.5
+
+[structure];影
+key=shadow_e
+distance=0
+z=8.25
+span=16.5
+[structure]
+key=shadow_e
+distance=-16.5
+z=8.25
+span=16.5
+[structure]
+key=shadow_e
+distance=-41
+z=8.25
+span=16.5
+[structure]
+key=shadow_e
+distance=-61.5
+z=8.25
+span=16.5
+[structure]
+key=shadow_e
+distance=-82
+z=8.25
+span=16.5
+[structure]
+key=shadow_e
+distance=-102.5
+z=8.25
+span=16.5
+[structure]
+key=shadow_e
+distance=-123
+z=8.25
+span=16.5
+[structure]
+key=shadow_e
+distance=-143.5
+z=8.25
+span=16.5
+[structure]
+key=shadow_e
+distance=-164
+z=8.25
+span=16.5
+[structure]
+key=shadow_e
+distance=-184.5
+z=8.25
+span=16.5
+[structure]
+key=shadow_e
+distance=-205
+z=8.25
+span=16.5
+[structure]
+key=shadow_e
+distance=-225.5
+z=8.25
+span=16.5
+[structure]
+key=shadow_e
+distance=-246
+z=8.25
+span=16.5
+
+[structure];本体
+key=583_05 ;ク
+distance=0
+z=8.25
+span=16.5
+[structure]
+key=583_02 ;モ
+distance=-16.5
+z=8.25
+span=16.5
+[structure]
+key=583_01 ;モ
+distance=-41
+z=8.25
+span=16.5
+[structure]
+key=583_02 ;モ
+distance=-61.5
+z=8.25
+span=16.5
+[structure]
+key=583_01 ;モ
+distance=-82
+z=8.25
+span=16.5
+[structure]
+key=583_03 ;ロ
+distance=-102.5
+z=8.25
+span=16.5
+[structure]
+key=583_04 ;シ
+distance=-123
+z=8.25
+span=16.5
+[structure]
+key=583_02 ;モ
+distance=-143.5
+z=8.25
+span=16.5
+[structure]
+key=583_01 ;モ
+distance=-164
+z=8.25
+span=16.5
+[structure]
+key=583_02 ;モ
+distance=-184.5
+z=8.25
+span=16.5
+[structure]
+key=583_01 ;モ
+distance=-205
+z=8.25
+span=16.5
+[structure]
+key=583_01 ;サ
+distance=-225.5
+z=8.25
+span=16.5
+[structure]
+key=583_00 ;ク
+distance=-246
+z=8.25
+span=16.5
+
+[structure] ;灯
+key=583_08 ;前
+;key=583_09 ;後
+distance=-246
+z=8.25
+span=16.5
+
+[sound3d]
+key=※ジョイント音
+distance2=10.25
+distance1=-256.25
+function=run

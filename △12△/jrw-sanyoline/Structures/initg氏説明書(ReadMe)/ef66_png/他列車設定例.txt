@@ -1,0 +1,30 @@
+bvets train 0.01
+
+;単機
+;向きは下の灯を切り替えてください。
+;※音声は各自でご用意下さい。
+
+[structure];影
+key=shadow_l1
+distance=0
+z=6.8
+span=13.6
+
+[structure];本体
+key=66_00
+distance=0
+z=6.8
+span=13.6
+
+[structure];灯
+key=66_01 ;前
+;key=66_02 ;後
+distance=0
+z=6.8
+span=13.6
+
+[sound3d]
+key=※ジョイント音
+distance2=0
+distance1=0
+function=run

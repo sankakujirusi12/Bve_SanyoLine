@@ -1,0 +1,17 @@
+・ファイルパスは適宜書き換えてください。
+
+■昼(本体00～02 , 前灯＆尾灯前03 , 前灯＆尾灯後04)
+58_00,structures\initg_dcset\58_00.x
+58_01,structures\initg_dcset\58_01.x
+58_02,structures\initg_dcset\58_02.x
+58_03,structures\initg_dcset\58_03.x
+58_04,structures\initg_dcset\58_04.x
+shadow_d,structures\initg_dcset\shadow_d.x
+
+■夜(本体00～02 , 前灯＆尾灯前03 , 前灯＆尾灯後04)
+58_00,structures\initg_dcset\58_00_n.x
+58_01,structures\initg_dcset\58_01_n.x
+58_02,structures\initg_dcset\58_02_n.x
+58_03,structures\initg_dcset\58_03_n.x
+58_04,structures\initg_dcset\58_04_n.x
+shadow_d,structures\initg_dcset\shadow_d_n.x
