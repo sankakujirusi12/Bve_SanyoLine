@@ -523,6 +523,18 @@ Curve.Interpolate(0, 0);
 135985;
 curve.BeginTransition();
 136000;
+structure['Cr_L1'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_R2'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_L3'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_L3'].Put('nakage',0,0,0,0,0,0,0,2);
+structure['Cr_L3'].Put('nakajou',0,0,0,0,0,0,0,2);
+structure['Cr_L3'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_R2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_R1'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+Sound3D['cross2'].Put(-1.5, 2.3);
+Sound3D['cross2'].Put(5.5, 2.3);
 #踏切
 136030;
 curve.Begin(-700,-0.07);
@@ -685,6 +697,18 @@ repeater['ballast4'].End();
 109041;
 ##	Track['sanyonobori'].Position(4,0,0,0);
 139240;
+structure['Cr_L1'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_R2'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_L3'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_L3'].Put('nakage',0,0,0,0,0,0,0,2);
+structure['Cr_L3'].Put('nakajou',0,0,0,0,0,0,0,2);
+structure['Cr_L3'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_R2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_R1'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+Sound3D['cross2'].Put(-1.5, 2.3);
+Sound3D['cross2'].Put(5.5, 2.3);
 #踏切
 139424;
 #踏切(1車)
@@ -823,10 +847,33 @@ Track['sanyonobori'].Position(4,0,0,0);
 142844;
 #B終わり
 142929;
+structure['Cr_L1'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_R2'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_L3'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_L3'].Put('nakage',0,0,0,0,0,0,0,2);
+structure['Cr_L3'].Put('nakajou',0,0,0,0,0,0,0,2);
+structure['Cr_L3'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_R2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_R1'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+Sound3D['cross'].Put(-1.5, 2.3);
+Sound3D['cross'].Put(5.5, 2.3);
 #踏切
 143250;
 #踏切
-
+structure['Cr_L1'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_R2'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_L3'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_L3'].Put('nakage',0,0,0,0,0,0,0,2);
+structure['Cr_L3'].Put('nakajou',0,0,0,0,0,0,0,2);
+structure['Cr_L3'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_R2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_R1'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+Sound3D['cross'].Put(-1.5, 2.3);
+Sound3D['cross'].Put(5.5, 2.3);
 
 
 
@@ -840,6 +887,18 @@ Track['sanyonobori'].Position(4,0,800,0);
 Curve.End();
 Track['sanyonobori'].Position(5,0,0,0);
 143566;
+structure['Cr_L1'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_R2'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_L3'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_L3'].Put('nakage',0,0,0,0,0,0,0,2);
+structure['Cr_L3'].Put('nakajou',0,0,0,0,0,0,0,2);
+structure['Cr_L3'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_R2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_R1'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+Sound3D['cross'].Put(-1.5, 2.3);
+Sound3D['cross'].Put(5.5, 2.3);
 #踏切
 143625;
 Curve.BeginTransition();
