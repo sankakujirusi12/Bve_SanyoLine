@@ -21,6 +21,26 @@ template Mesh {
  [...]
 }
 
+template MeshNormals {
+ <f6f23f43-7686-11cf-8f52-0040333594a3>
+ DWORD nNormals;
+ array Vector normals[nNormals];
+ DWORD nFaceNormals;
+ array MeshFace faceNormals[nFaceNormals];
+}
+
+template Coords2d {
+ <f6f23f44-7686-11cf-8f52-0040333594a3>
+ FLOAT u;
+ FLOAT v;
+}
+
+template MeshTextureCoords {
+ <f6f23f40-7686-11cf-8f52-0040333594a3>
+ DWORD nTextureCoords;
+ array Coords2d textureCoords[nTextureCoords];
+}
+
 template ColorRGBA {
  <35ff44e0-6c7c-11cf-8f52-0040333594a3>
  FLOAT red;
@@ -58,69 +78,51 @@ template TextureFilename {
  STRING filename;
 }
 
-template Coords2d {
- <f6f23f44-7686-11cf-8f52-0040333594a3>
- FLOAT u;
- FLOAT v;
-}
 
-template MeshTextureCoords {
- <f6f23f40-7686-11cf-8f52-0040333594a3>
- DWORD nTextureCoords;
- array Coords2d textureCoords[nTextureCoords];
-}
-
-template MeshNormals {
- <f6f23f43-7686-11cf-8f52-0040333594a3>
- DWORD nNormals;
- array Vector normals[nNormals];
- DWORD nFaceNormals;
- array MeshFace faceNormals[nFaceNormals];
-}
-
-
-Mesh  {
+Mesh {
  4;
- 0.175000;8.500000;-0.174000;,
- 0.175000;-1.500000;-0.174000;,
- -0.175000;-1.500000;-0.174000;,
- -0.175000;8.500000;-0.174000;;
+ -2.900000;6.219999;-0.176000;,
+ 6.992772;6.219999;-0.176000;,
+ 6.992772;5.100000;-0.176000;,
+ -2.900000;5.100000;-0.176000;;
  2;
  3;0,1,2;,
  3;0,2,3;;
 
- MeshMaterialList  {
+ MeshNormals {
+  4;
+  0.000000;0.000000;-1.000000;,
+  0.000000;0.000000;-1.000000;,
+  0.000000;0.000000;-1.000000;,
+  0.000000;0.000000;-1.000000;;
+  2;
+  3;0,1,2;,
+  3;0,2,3;;
+ }
+
+ MeshTextureCoords {
+  4;
+  0.000000;0.000000;,
+  1.000000;0.000000;,
+  1.000000;1.000000;,
+  0.000000;1.000000;;
+ }
+
+ MeshMaterialList {
   1;
   2;
   0,
   0;
 
-  Material  {
-   1.000000;1.000000;1.000000;1.000000;;
+  Material {
+   1.000000;1.000000;1.000000;0.990000;;
    0.000000;
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
 
-   TextureFilename  {
-    "ConcretePole.dds";
+   TextureFilename {
+    "2D.dds";
    }
   }
- }
-
- MeshTextureCoords  {
-  4;
-  1.000000;0.001000;,
-  1.000000;1.000000;,
-  0.500000;1.000000;,
-  0.500000;0.001000;;
- }
-
- MeshNormals  {
-  2;
-  0.000000;0.000000;-1.000000;,
-  0.000000;0.000000;-1.000000;;
-  2;
-  3;0,0,0;,
-  3;1,1,1;;
  }
 }
