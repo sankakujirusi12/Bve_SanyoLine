@@ -1,7 +1,7 @@
 ﻿BveTs Scenario 2.00
 
 Route = △12△\jrw-sanyoline\Map_59D_2.txt*8|△12△\jrw-sanyoline\Map_59D_1.txt*3;
-;Vehicle = SNR\Train\HOT7000\Vehicle_txt\Vehicle_59D.txt
+;Vehicle = SNR\Train\HOT7000\Vehicle_txt\Vehicle_55D.txt
 Vehicle = dummytrain\vehicle.txt
 Title = 特急スーパーはくと 鳥取行き　59D
 Image = △12△\jrw-sanyoline\Images\HOT7000.JPG
