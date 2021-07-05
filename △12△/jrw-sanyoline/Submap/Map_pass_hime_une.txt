@@ -691,6 +691,8 @@ structure['4tei'].Put(0,-2.3,3.39,-0.1,0,0,0,0,0);
 structure['teimokupole'].Put(0,-3,1.2,0,0,0,0,0,0);
 #4両停目
 	Gradient.Interpolate(0);
+88410;
+	structure['Agaho_bridge'].Put('',-2,1,-2,0,0,0,0,2);
 88424;
 #中線8両停目
 structure['8tei'].Put('nakage',-2.3,0.8,0,0,0,0,0,0);
@@ -724,6 +726,7 @@ structure['teimokupole_short'].Put('nakage',-2.3,0.3,0.1,0,0,0,0,0);
 	Track['nakage'].Position(4,0);
 	Track['nakajou'].Position(4,0);
 88469;
+
 structure['karetei'].Put(0,-2.3,2,-0.1,0,0,0,0,0);
 structure['teimokupole_short'].Put(0,-2.3,1,0,0,0,0,0,0);
 #客レ停目
@@ -2135,6 +2138,8 @@ Sound3D['cross'].Put(5.5, 2.3);
 repeater['fence_kudari'].Begin('fence',0,0,0,0,0,0,0,5,5,'WhiteFence1');
 repeater['fence_nobori'].Begin('fence1',0,0,0,0,0,0,0,5,5,'WhiteFence1');
 94250;
+	structure['seigen40'].Put('gawa_hoshi3',-2.2,1,-1,0,0,0,0,0);
+	structure['seigenpole'].Put('gawa_hoshi3',-2.2,0,-1,0,0,0,0,0);
 	Track['fence'].Position(-11,0);
 	Track['hoshi3'].Position(-6,0,547);
 	Track['gawa_hoshi1'].Position(-6,0);
