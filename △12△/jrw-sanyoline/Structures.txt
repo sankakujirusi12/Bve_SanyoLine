@@ -787,6 +787,7 @@ Agaho_EVsign,Structures\△12△\sta\agaho\Agaho_EVsign.x
 Agaho_keikoutou,Structures\△12△\sta\agaho\Keikoutou.x
 Agaho_wall,Structures\△12△\sta\agaho\agaho_wall.x
 Agaho_norikosi,Structures\△12△\sta\agaho\agaho_norikosi.x
+Agaho_bridge,Structures\△12△\sta\agaho\agaho_bridge.x
 #はりま勝原
 Katsuform_L,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormL_katsu.x
 Katsuform_R,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormR_katsu.x
@@ -838,7 +839,7 @@ oha12,Structures\saha209\PC12\jnr\12_2.x
 #suhanehu14,Structures\fujibusa\14-15\suhanehu14_b.x
 
 TailSign../../Nagoya_Common\Train\JRF\Container\TailSign.x
-shadow_e,Structures\initg_ecset\shadow_e.x
+shadow_e,Structures\initG\initg_ecset\shadow_e.x
 koki104,../../Nagoya_Common\Train\JRF\Container\Series104_1.x
 koki106,../../Nagoya_Common\Train\JRF\Container\Series106_1.x
 koki107,../../Nagoya_Common\Train\JRF\Container\Series107_1.x
