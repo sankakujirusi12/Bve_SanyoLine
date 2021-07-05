@@ -886,6 +886,8 @@ LEDmaku_bansyuako,Structures\JRW113・115_ikisaki\destination\bansyuako.x
 LEDmaku_himeji,Structures\JRW113・115_ikisaki\destination\himeji.x
 LEDmaku_aioi,Structures\JRW113・115_ikisaki\destination\aioi.x
 
+#影
+kage_20,Structures\113west\kage_20.x
 
 #後尾
 maku_white_cafe_tail,Structures\JRW113・115_ikisaki\destination\white_cafe_tail.x
