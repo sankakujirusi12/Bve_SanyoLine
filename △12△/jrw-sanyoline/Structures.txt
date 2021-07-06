@@ -775,6 +775,12 @@ name_une,Structures\△12△\ekimeihyou\une_H.x
 name_hoshi,Structures\△12△\ekimeihyou\aboshi_H.x
 
 #------------------------------------------------------------------------駅ストラクチャ-------------------------------------------------------------------------
+#共通
+#番線表示
+Track_No1,Structures\△12△\TrackNo\1.x
+Track_No2,Structures\△12△\TrackNo\2.x
+Track_No3,Structures\△12△\TrackNo\3.x
+
 #姫路
 Himeform_L,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormL_hime.x
 Himeform_R,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormR_hime.x
