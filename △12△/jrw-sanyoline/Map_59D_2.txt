@@ -45,7 +45,7 @@ include 'Trains\Trains_59D_2018.txt';
 include 'Submap\joint_59D.txt';
 
 #ATS
-include 'Submap\Map_beacon_1305M.txt';
+include 'Submap\Map_beacon_59D.txt';
 
 
 #環境設定

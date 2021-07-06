@@ -44,7 +44,7 @@ include 'Trains\Trains_5031M.txt';
 include 'Submap\joint_5031M.txt';
 
 #ATS
-include 'Submap\Map_beacon_1305M.txt';
+include 'Submap\Map_beacon_59D.txt';
 
 #環境設定
 include 'Submap\Map_earlymorning.txt';
