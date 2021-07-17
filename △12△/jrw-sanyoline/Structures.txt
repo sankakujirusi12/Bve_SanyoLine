@@ -28,6 +28,7 @@ seigen20,Structures\Uchibo\Limit\TypeB\Lim020_A.x
 seigen20R,Structures\Uchibo\Limit\TypeB\Lim020_AR.x
 seigen25R,Structures\Uchibo\Limit\TypeB\Lim025_AR.x
 seigen30,Structures\Uchibo\Limit\TypeB\Lim030_A.x
+seigen35,Structures\Uchibo\Limit\TypeB\Lim035_A.x
 seigen35L,Structures\Uchibo\Limit\TypeB\Lim035_AL.x
 seigen35R,Structures\Uchibo\Limit\TypeB\Lim035_AR.x
 seigen40,Structures\Uchibo\Limit\TypeB\Lim040_A.x
@@ -597,6 +598,9 @@ kasen_40b,Structures\とまり\Structures\Wire\Trolley40.x
 
 kasen_15,Structures\とまり\Structures\Wire\Trolley15.x
 kasen_20,Structures\とまり\Structures\Wire\Trolley20.x
+
+kasen_50,Structures\とまり\Structures\Wire\Trolley50.x
+
 #ハンガー
 wirehanger0,Structures\とまり\Structures\Pole\DropC.x
 
@@ -830,19 +834,28 @@ mantomi_kosen,Structures\△12△\sta\mantomi\kosen.x
 suhahu12,Structures\saha209\PC12\jnr\12_1.x
 suhahu12_b,Structures\saha209\PC12\jnr\12b_1.x
 oha12,Structures\saha209\PC12\jnr\12_2.x
-#14系
-#ohahu15,Structures\m_shikoku\suhahu14.x
-#oha14,Structures\m_shikoku\oha14_b.x
-#suhahu14,Structures\m_shikoku\suhahu14_b.x
-#suhahu14-200,Structures\m_kyushu\suhahu14.x
-#oha14-200,Structures\m_kyushu\oha14_b.x
-#ohahu15-200,Structures\m_kyushu\ohahu15_b.x
-#富士ぶさ
-#suhanehu15,Structures\fujibusa\14-15\suhanehu15.x
-#ohane15,Structures\fujibusa\14-15\ohane15.x
-#ohane15-2000,Structures\fujibusa\14-15\solo15.x
-#orone15-3000,Structures\fujibusa\14-15\orone15.x
-#suhanehu14,Structures\fujibusa\14-15\suhanehu14_b.x
+oro12,Structures\saha209\PC12\jnr\12_3.x
+#14系(座席車)
+suhahu14,Structures\saha209\PC14\jnr\14_1.x
+oha14,Structures\saha209\PC14\jnr\14_2.x
+suhahu14_b,Structures\saha209\PC14\jnr\14b_1.x
+#14系(ML仕様)
+suhahu14-200,Structures\saha209\PC14\ML\14_1.x
+suhahu14-200_b,Structures\saha209\PC14\ML\14b_1.x
+oha14-200,Structures\saha209\PC14\ML\14_2.x
+ohahu15-200,Structures\saha209\PC14\ML\14_3.x
+ohahu15-200_b,Structures\saha209\PC14\ML\14b_3.x
+#14系(寝台車)
+suhanehu14,Structures\saha209\PC14_sl\14_1.x
+suhanehu14_b,Structures\saha209\PC14_sl\14b_1.x
+ohane14,Structures\saha209\PC14_sl\14_2.x
+ohane14_b,Structures\saha209\PC14_sl\14b_2.x
+suhanehu15,Structures\saha209\PC14_sl\15_1.x
+suhanehu15_b,Structures\saha209\PC14_sl\15b_1.x
+ohane15,Structures\saha209\PC14_sl\15_2.x
+ohane15_b,Structures\saha209\PC14_sl\15b_2.x
+ohane15-2000,Structures\saha209\PC14_sl\152000.x
+orone15-3000,Structures\saha209\PC14_sl\153000.x
 
 TailSign../../Nagoya_Common\Train\JRF\Container\TailSign.x
 shadow_e,Structures\initG\initg_ecset\shadow_e.x
@@ -866,7 +879,6 @@ Toki25000,Structures\initG\initg_fcset\25000.x
 Hoki800,Structures\FTN\JNR-hoki800\hoki800.x
 
 
-#--------------------------------------------------------------JR-west--------------------------------------------------------------------
 #103系
 Mc103-3500_40n_r,Structures\103\Mc103-3500_40n_r.x
 Mc'102-3500b_40n_r,Structures\103\Mc'102-3500b_40n_r.x
@@ -1160,6 +1172,7 @@ HOT7000_3,Structures\saha209\HOT7000\HOT7000_3.x
 
 #釜
 ef66,Structures\kiha47_san_in\EF66\EF66.x
+ef66b,Structures\kiha47_san_in\EF66\EF66_b.x
 ef66_f,Structures\kiha47_san_in\EF66\JRF\EF66.x
 dt133f,Structures\kiha47_san_in\EF66\dt133f.x
 dt134,Structures\kiha47_san_in\EF66\dt134.x
@@ -1169,8 +1182,9 @@ ef64_1000_f,Structures\Nakano_Kazusa\EF64\EF64-1000_F.x
 ef210,Structures\Uchibo\EF210\EF210_c.x
 dd51,Structures\Nakano_Kazusa\DD51\dd51F.x
 de10_1153,Structures\FTN\JNR-DE10\DE10-1153D.x
-
-
+ef65_2099,Structures\Uchibo\EF65_1000\EF652099_2.x
+ef65_light,Structures\Uchibo\EF65_1000\EF65headlight.x
+PS22-UP,Structures\Uchibo\EF65_1000\PS22-UP.x
 
 #踏切
 1,Structures\△12△\komono\1.x
