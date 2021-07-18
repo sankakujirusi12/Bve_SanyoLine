@@ -86,7 +86,11 @@ structure['Cr_R1'].Put('sanyonobori',0,0,0,0,0,0,0,5);
 Sound3D['cross2'].Put(-1.5, 2.3);
 Sound3D['cross2'].Put(5.5, 2.3);
 #踏切13
+112010;
+repeater['ballast5'].Begin('gawa_une1',0,-0.01,0,0,0,0,3,5,5,'Ballast');
+	Track['gawa_une1'].Position(4,0,173);
 112030;
+	Track['gawa_une1'].Position(6,0,-173);
 structure['seigen85'].Put(0,-3.5,0.7,0,0,0,10,0,0);
 structure['seigenpole'].Put(0,-3.5,-0.3,0,0,0,10,0,0);
 112033;
@@ -97,12 +101,15 @@ curve.BeginTransition();
 	repeater['Form_CL'].Begin0(0,1,5,4.9,'Katsuform_CL2');
 	structure['Formendfence2'].Put(0,-3,1.3,0,0,0,0,0,2);
 #下りホーム始端
+112050;
+	Track['gawa_une1'].Position(8,0);
 112068;
 	Track['nakajou'].Position(13,0,60000);
 	Track['sanyonobori'].Position(17,0,60000);
 112093;
 
 112103;
+repeater['ballast5'].End();
 	repeater['Form_R'].Begin0('nakage',1,5,4.9,'Katsuform_R');
 	repeater['Form_CR'].Begin0('nakage',1,5,4.9,'Katsuform_CR');
 	repeater['Form_L1'].Begin0('nakajou',1,5,4.9,'Katsuform_L');
@@ -115,6 +122,8 @@ curve.Begin(600,0.08);
 112163;
 	repeater['Form_CL'].Begin0(0,1,5,4.9,'Katsuform_CL');
 #ホーム広し
+112190;
+#出発中継の中継
 112298;
 	Track['nakajou'].Position(15,0,0);
 	Track['sanyonobori'].Position(19,0,0);
@@ -122,6 +131,8 @@ curve.Begin(600,0.08);
 	repeater['Form_CL'].End();
 	structure['Formendfence2'].Put(0,-3,1.3,0,0,0,0,0,2);
 #下りホーム終端
+112325;
+#出発中継
 112366;
 	repeater['Form_R'].End();
 	repeater['Form_CR'].End();

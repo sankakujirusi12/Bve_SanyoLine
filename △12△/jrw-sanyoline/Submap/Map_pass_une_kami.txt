@@ -141,9 +141,11 @@ Track['sanyonobori'].Cant.Interpolate(0);
 	Track['Route373'].Position(-35,0);
 113569;
 	Track['Route373'].Position(-60,0,600);
-113754;
+113724;
 Gradient.Interpolate(0);
-#L
+113754;
+Gradient.Interpolate(10);
+#+10.0‰
 113823;
 	Track['Route373'].Position(-32,0,-600);
 113902;
@@ -223,7 +225,7 @@ Repeater['DikeR'].Begin0('sanyonobori', 0, 5, 5, 'DikeR_1','DikeR_2','DikeR_3');
 
 Repeater['River'].End();
 	Track['Grass2'].Position(0,-2.5);
-114029;
+114026;
 repeater['DikeL'].End();
 repeater['DikeR'].End();
 	Track['Grass2'].Position(0,-0.85);
@@ -271,8 +273,7 @@ Repeater['bushes1'].Begin('route450',-5,0,0,0,0,0,0,20,20,'bush1','bush2','bush3
 114591-264-78;
 Gradient.Interpolate(0);
 114591-264-48;
-Gradient.Interpolate(10);
-#+10.0‰
+
 114591-264-30;
 Gradient.Interpolate(10);
 114591-264;
@@ -366,8 +367,9 @@ Repeater['River'].End();
 Repeater['DikeL'].Begin0(, 0, 5, 5, 'DikeL_1','DikeL_2','DikeL_3');
 Repeater['DikeR'].Begin0('sanyonobori', 0, 5, 5, 'DikeR_1','DikeR_2','DikeR_3');
 	Track['Grass2'].Position(0,-4.5);
-114740.6;
+114730.6;
 structure['kanko_3'].Put(0,-3,3,0,0,0,0,0,0);
+114740;
 Gradient.Interpolate(-5.7);
 114753;
 Gradient.Interpolate(-7);
@@ -393,7 +395,7 @@ structure['Cr1_R1'].Put('sanyonobori',0,0,0,0,0,0,0,2);
 Sound3D['cross2'].Put(-1.5, 2.3);
 Sound3D['cross2'].Put(5.5, 2.3);
 #踏切5(小)
-115020.6;
+115030.6;
 structure['kanko_2'].Put(0,-3,3,0,0,0,0,0,0);
 115095;
 structure['Cr_L1'].Put(0,0,0,0,0,0,0,0,2);
@@ -555,7 +557,7 @@ repeater['road_1sya'].End();
 	Track['Mt_R'].Position(84,25,0,0);
 116850;
 	Track['Mt_R'].Position(59,15,0,0);
-116860.6;
+116880.6;
 structure['kanko_1'].Put(0,-3,3,0,0,0,0,0,0);
 117000;
 	Repeater['Trees3'].Begin('Grass2',-35,-4,0,0,0,0,1,20,20,'tree15','tree14','tree12','tree17','tree12','tree13','tree11','tree15');
@@ -591,8 +593,6 @@ Track['sanyonobori'].Cant.Interpolate(0);
 	Track['douro1'].Position(-32,-6,0);
 	Track['douro2'].Position(-127,-6,0);
 117357;
-Curve.Interpolate(-560, -0.09);
-Track['sanyonobori'].Cant.Interpolate(-0.04);
 #Lカーブ[R1000]
 	Track['sanyonobori'].Position(4,0);
 	Track['Mt_R'].Position(44,25,0,0);
@@ -602,7 +602,7 @@ repeater['Ballast_gr1'].Begin(0,4,-0.01,0,0,0,0,1,1,5,'Ballast_gr');
 #第1閉塞
 117329;
 Curve.Interpolate(-560, -0.09);
-Track['sanyonobori'].Cant.Interpolate(-0.04);
+Track['sanyonobori'].Cant.Interpolate(-0.09);
 117429;
 Curve.Interpolate(0, 0);
 Track['sanyonobori'].Cant.Interpolate(0);

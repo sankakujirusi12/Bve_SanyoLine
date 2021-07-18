@@ -214,6 +214,8 @@ repeater['Ballast_gr2'].End();
 112608;
 Gradient.Interpolate(3.8);
 #+3.8‰
+112640;
+	Track['sanyonobori'].Position(4.5,0,1000);
 112670;
 	Track['sanyonobori'].Position(4,0,0);
 112739;

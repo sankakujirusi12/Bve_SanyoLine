@@ -164,7 +164,7 @@ structure['3hei'].Put(0,-2.5,3.4,0.4,0,0,0,0,0);
 structure['Signalpole1'].Put(0,-2.5,5,0,0,0,0,0,0);
 Signal['type3'].Put(0,0,-2.5,5.2,0.4,0,0,0,0,0);
 structure['2hei'].Put(0,-2.5,3.4,0.4,0,0,0,0,0);
-110970;
+110965;
 structure['Signalpole1'].Put(0,-2.5,5,0,0,0,0,0,0);
 Signal['type3'].Put(0,0,-2.5,5.2,0.4,0,0,0,0,0);
 structure['1hei'].Put(0,-2.5,3.4,0.4,0,0,0,0,0);
@@ -229,7 +229,7 @@ Signal['type30'].Put(0,0,4.3,5.4);
 118862;
 structure['Signalpole1'].Put(0,2.5,5,0,0,0,0,0,0);
 Signal['type3'].Put(0,0,2.2,5.5,0.4,0,0,0,0,0);
-structure['Signal3L0'].Put(0,2.7,3.8,0,0,0,0,0,0);
+structure['Signal3L0'].Put(0,2.7,4.6,0.4,0,0,0,0,0);
 #è„åSèoî≠
 119884;
 structure['Signalpole1'].Put(0,-2.5,5,0,0,0,0,0,0);

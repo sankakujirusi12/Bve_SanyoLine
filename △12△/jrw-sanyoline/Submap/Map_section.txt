@@ -35,7 +35,7 @@ Section.Begin(0,2,4);
 90680;
 #勝原下り0
 Section.Begin(0,2,4);
-91540;
+91530;
 #網干下り3
 Section.Begin(0,2,4);
 92035;
@@ -71,7 +71,7 @@ Section.Begin(0,2,4);
 100202;
 #相生下り3
 Section.Begin(0,2,4);
-101360;
+101355;
 #相生下り2
 Section.Begin(0,2,4);
 102876;
@@ -98,7 +98,7 @@ Section.Begin(0,2,4);
 109366;
 #有年下り2
 Section.Begin(0,2,4);
-110970;
+110965;
 #有年下り1
 Section.Begin(0,2,4);
 111376;
