@@ -598,7 +598,7 @@ kasen_40b,Structures\とまり\Structures\Wire\Trolley40.x
 
 kasen_15,Structures\とまり\Structures\Wire\Trolley15.x
 kasen_20,Structures\とまり\Structures\Wire\Trolley20.x
-
+kasen_30,Structures\とまり\Structures\Wire\Trolley30.x
 kasen_50,Structures\とまり\Structures\Wire\Trolley50.x
 
 #ハンガー
@@ -1262,6 +1262,13 @@ une_kami_10,Structures\△12△\komono\une_kami_10.x
 une_kami_11,Structures\△12△\komono\une_kami_11.x
 une_kami_12,Structures\△12△\komono\une_kami_12.x
 une_kami_13,Structures\△12△\komono\une_kami_13.x
+kami_mitsu_1,Structures\△12△\komono\kami_mitsu_1.x
+kami_mitsu_2,Structures\△12△\komono\kami_mitsu_2.x
+kami_mitsu_3,Structures\△12△\komono\kami_mitsu_3.x
+kami_mitsu_4,Structures\△12△\komono\kami_mitsu_4.x
+kami_mitsu_5,Structures\△12△\komono\kami_mitsu_5.x
+kami_mitsu_6,Structures\△12△\komono\kami_mitsu_6.x
+
 
 #-------------------------------------------------------------------------夜------------------------------------------------------------
 
