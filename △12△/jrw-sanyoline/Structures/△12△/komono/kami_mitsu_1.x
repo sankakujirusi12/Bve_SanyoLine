@@ -121,7 +121,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "kami_mitsu1.png";
+    "kami_mitsu_1.png";
    }
   }
  }
