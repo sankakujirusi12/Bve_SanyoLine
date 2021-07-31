@@ -881,8 +881,8 @@ repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,1,30,'nomalkas
 105000;
 Repeater['jrkasenchu-tan1'].End();
 105220;
-repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,1,50,'jrkasenchu-chou','jrkasenchu-tan');
-repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,1,50,'jrkasenchu-tan','jrkasenchu-chou');
+repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,1,50,'nomalkasenchu-chou','nomalkasenchu-tan');
+repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,1,50,'nomalkasenchu-tan','nomalkasenchu-chou');
 111476;
 Repeater['jrkasenchu-kudari'].End();
 Repeater['jrkasenchu-nobori'].End();

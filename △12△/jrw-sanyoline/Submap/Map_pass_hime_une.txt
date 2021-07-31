@@ -255,7 +255,7 @@ structure['over0'].Put(0,0,7,5,0,0,0,0,0);
 #中央大路
 Repeater['DikeL'].End();
 Repeater['DikeR'].End();
-85949.5;
+85959.5;
 structure['kanko_2'].Put(0,-2.5,3.2,0,0,0,0,0,0);
 86305;
 repeater['road_1sya'].Begin0('douro1',1,10,6.6,'Road_1sya_nb');
@@ -328,7 +328,7 @@ Sound3D['cross'].Put(5.5, 2.3);
 86685;
 	repeater['fence_kudari'].Begin(0,-2.5,-0.45,0,0,0,0,0,5,5,'WhiteFence1');
 	repeater['fence_nobori'].Begin('sanyonobori',2.5,-0.45,0,0,0,0,0,5,5,'WhiteFence1');
-86789.5;
+86809.5;
 structure['kanko_1'].Put(0,-2.5,3.2,0,0,0,0,0,0);
 86890;
 Repeater['fence_kudari'].End();

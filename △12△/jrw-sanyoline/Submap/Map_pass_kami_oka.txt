@@ -123,6 +123,10 @@ Curve.Interpolate(0, 0);
 Gradient.Interpolate(4.5);
 121101;
 Gradient.Interpolate(9);
+121350;
+structure['tikei1'].Put(0,0,-6,0,0,0,0,0,2);
+121500;
+structure['tikei2'].Put(0,0,-6,0,0,30,0,0,2);
 121233;
 #踏切4
 structure['Cr1_L1'].Put(0,0,0,0,0,0,0,0,2);
@@ -135,10 +139,15 @@ structure['Cr1_R2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
 structure['Cr1_R1'].Put('sanyonobori',0,0,0,0,0,0,0,2);
 Sound3D['cross2'].Put(-1.5, 2.3);
 Sound3D['cross2'].Put(5.5, 2.3);
+121650;
+structure['tikei3'].Put(0,0,-6,0,0,30,0,0,2);
 121333;
 Curve.Interpolate(-440, -0.105);
+121800;
+structure['tikei4'].Put(0,0,-6,0,0,0,0,0,2);
 121855;
 Curve.Interpolate(-440, -0.105);
+
 121955;
 Curve.Interpolate(0, 0);
 #カーブ終わり
@@ -154,18 +163,25 @@ curve.Begin(-800,-0.06);
 Gradient.Interpolate(9);
 122238;
 Gradient.Interpolate(9.3);
+122100;
+#structure['tikei5'].Put(0,0,6,0,0,0,0,0,2);
+122230;
+structure['tikei6'].Put(0,0,-6,0,0,30,0,0,2);
 122336;
 curve.Begin(-800,-0.06);
-#橋梁終わり
 #カーブ[R800左]
 122396;
 Curve.Interpolate(0, 0);
 #カーブ終わり
+122350;
+structure['tikei7'].Put(0,0,-6,0,0,0,0,0,2);
 122866;
 curve.BeginTransition();
 122886;
 curve.Begin(1200,0.04);
 #カーブ[R2000右]
+122750;
+structure['tikei8'].Put(0,0,0,0,0,-10,0,0,2);
 123067;
 Curve.Interpolate(1200, 0.04);
 123087;

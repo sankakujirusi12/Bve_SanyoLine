@@ -95,7 +95,7 @@ Repeater['Grass2'].Begin('Grass2',0,0,0,0,0,0,1,25,25,'Grass');
 112971;
 Gradient.Interpolate(0);
 #L
-113100.6;
+113080.6;
 structure['kanko_chukei'].Put(0,-3,3,0,0,0,0,0,0);
 113107;
 Gradient.Interpolate(-1.0);
