@@ -215,6 +215,8 @@ TanboL,Structures\車警定位\shuijing\t35l.x
 TanboR,Structures\車警定位\shuijing\t35r.x
 River,Structures\Ntfiv\GeneralStr_png\ACCC\Ground\River.x
 
+
+
 #------------------------------------------------------------------横取-------------------------------------------------------------------
 yokodoriL,../../Nagoya_Common\Railway_Obj\Yokodori\1067mm_L.x
 yokodoriR,../../Nagoya_Common\Railway_Obj\Yokodori\1067mm_R.x
@@ -306,6 +308,16 @@ tree22,Structures\Ntfiv\GeneralStr_png\Nature\trees_street\tree22_S.x
 tree23,Structures\Ntfiv\GeneralStr_png\Nature\trees_street\tree23_S.x
 tree24,Structures\Ntfiv\GeneralStr_png\Nature\trees_street\tree24_S.x
 tree25,Structures\Ntfiv\GeneralStr_png\Nature\trees_street\tree25_S.x
+
+#地理院地図3Dデータ
+tikei1,Structures\tikei\tikei1.x
+tikei2,Structures\tikei\tikei2.x
+tikei3,Structures\tikei\tikei3.x
+tikei4,Structures\tikei\tikei4.x
+tikei5,Structures\tikei\tikei5.x
+tikei6,Structures\tikei\tikei6.x
+tikei7,Structures\tikei\tikei7.x
+tikei8,Structures\tikei\tikei8.x
 
 #フェンスの類
 Whitefence,Structures\Uchibo\Fence\Fence.x

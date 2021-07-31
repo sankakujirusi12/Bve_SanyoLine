@@ -26,6 +26,7 @@ include 'Submap\Gradient&CurvePosts.txt';
 #信号&閉塞
 include 'Submap\Map_signal_himeji7.txt';
 include 'Submap\Map_signal_1305M.txt';
+include 'Submap\Map_signal_kami3.txt';
 include 'Submap\Map_section.txt';
 
 #架線&架線柱

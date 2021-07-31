@@ -22,3 +22,4 @@ type30,Signal30L0,,,Signal30L3,Signal30L4
 
 #進路予告機(本線用)
 CourseC,CourseOff,,CourseC,,
+CourseL,CourseOff,,CourseL,,

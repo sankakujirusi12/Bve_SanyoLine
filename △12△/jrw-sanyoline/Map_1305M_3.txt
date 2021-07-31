@@ -26,6 +26,7 @@ include 'Submap\Gradient&CurvePosts.txt';
 #信号&閉塞
 include 'Submap\Map_signal_himeji7.txt';
 include 'Submap\Map_signal_1305M.txt';
+include 'Submap\Map_signal_kami3.txt';
 include 'Submap\Map_section.txt';
 
 #架線&架線柱
@@ -55,7 +56,7 @@ include '設定.txt';
 
 
 
-
+Fog.Interpolate(0,1,1,1);
 
 Curve.SetGauge(1.067);
 
