@@ -1,4 +1,4 @@
-﻿BveTs Structure List 1.00
+﻿BveTs Structure List 1.00:UTF-8
 #使用ストラクチャの作者の方々
 #RON様
 #樽モト様
@@ -196,16 +196,18 @@ gradientpost_LU,Structures\Ntfiv\GeneralStr_png\Accessory\Posts\GradientPost\Gp_
 gradientpost_UD,Structures\Ntfiv\GeneralStr_png\Accessory\Posts\GradientPost\Gp_UD.x
 gradientpost_UL,Structures\Ntfiv\GeneralStr_png\Accessory\Posts\GradientPost\Gp_UL.x
 gradientpost_UU,Structures\Ntfiv\GeneralStr_png\Accessory\Posts\GradientPost\Gp_UU.x
-#-----------------------------------------------------------タイロー--------------------------------------------------------
+#-----------------------------------------------------------------タイロー------------------------------------------------------------------
 tigerrope5m,Structures\Ntfiv\GeneralStr_png\Accessory\rope5m.x
 ropebase,Structures\Ntfiv\GeneralStr_png\Accessory\ropebase.x
 
 
-
+#-----------------------------------------------------------------背景--------------------------------------------------------------------
 Bg,Structures\車警定位\shuijing\bg1.x
 Bg-sunset,
 Bg-sunrise,Structures\車警定位\shuijing\bg2.x
 Bg-thunder,Structures\車警定位\shuijing\bg3.x
+
+#-----------------------------------------------------------------自然--------------------------------------------------------------------
 Grass,Structures\Ntfiv\GeneralStr_png\Nature\Ground\Grass.x
 GrassL,Structures\Ntfiv\GeneralStr_png\Nature\Ground\Lside_Grass.x
 GrassR,Structures\Ntfiv\GeneralStr_png\Nature\Ground\Rside_Grass.x
@@ -287,6 +289,14 @@ pointsw,Structures\Ntfiv\GeneralStr_png\Rail\Point\PointM_NS.x
 bush1,Structures\Ntfiv\GeneralStr_png\Nature\bush\bush01.x
 bush2,Structures\Ntfiv\GeneralStr_png\Nature\bush\bush02.x
 bush3,Structures\Ntfiv\GeneralStr_png\Nature\bush\bush03.x
+
+#もこもこした茂み(夏)
+bush_L01,Structures\Uchibo\Dike\bush_L01.x
+bush_L02,Structures\Uchibo\Dike\bush_L02.x
+bush_L03,Structures\Uchibo\Dike\bush_L03.x
+bush_R01,Structures\Uchibo\Dike\bush_R01.x
+bush_R02,Structures\Uchibo\Dike\bush_R02.x
+bush_R03,Structures\Uchibo\Dike\bush_R03.x
 
 #木
 tree1,Structures\Ntfiv\GeneralStr_png\Nature\trees\tree01_S.x
@@ -622,7 +632,6 @@ wirehanger6L,Structures\とまり\Structures\Pole\DropL1R.x
 wirehanger6R,Structures\とまり\Structures\Pole\DropR1L.x
 wirehanger7L,Structures\とまり\Structures\Pole\DropL1A.x
 wirehanger7R,Structures\とまり\Structures\Pole\DropR1A.x
-#↓修正済8のみ
 wirehanger8,Structures\とまり\Structures\Pole\DropR2A.x
 wirehanger9,Structures\とまり\Structures\Pole\DropR2B.x
 wirehanger10,Structures\とまり\Structures\Pole\DropR2C.x
@@ -810,6 +819,7 @@ Agaho_keikoutou,Structures\△12△\sta\agaho\Keikoutou.x
 Agaho_wall,Structures\△12△\sta\agaho\agaho_wall.x
 Agaho_norikosi,Structures\△12△\sta\agaho\agaho_norikosi.x
 Agaho_bridge,Structures\△12△\sta\agaho\agaho_bridge.x
+Agaho_kosen,Structures\△12△\sta\agaho\agaho_kosen.x
 #はりま勝原
 Katsuform_L,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormL_katsu.x
 Katsuform_R,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormR_katsu.x
@@ -857,6 +867,12 @@ suhahu14-200_b,Structures\saha209\PC14\ML\14b_1.x
 oha14-200,Structures\saha209\PC14\ML\14_2.x
 ohahu15-200,Structures\saha209\PC14\ML\14_3.x
 ohahu15-200_b,Structures\saha209\PC14\ML\14b_3.x
+#14系(なにわ)
+surohu14,Structures\saha209\PC14\naniwa\14_1.x
+oro14,Structures\saha209\PC14\naniwa\14_2.x
+surohu14_b,Structures\saha209\PC14\naniwa\14b_1.x
+oro14_b,Structures\saha209\PC14\naniwa\14b_2.x
+
 #14系(寝台車)
 suhanehu14,Structures\saha209\PC14_sl\14_1.x
 suhanehu14_b,Structures\saha209\PC14_sl\14b_1.x
@@ -869,26 +885,8 @@ ohane15_b,Structures\saha209\PC14_sl\15b_2.x
 ohane15-2000,Structures\saha209\PC14_sl\152000.x
 orone15-3000,Structures\saha209\PC14_sl\153000.x
 
-TailSign../../Nagoya_Common\Train\JRF\Container\TailSign.x
-shadow_e,Structures\initG\initg_ecset\shadow_e.x
-koki104,../../Nagoya_Common\Train\JRF\Container\Series104_1.x
-koki106,../../Nagoya_Common\Train\JRF\Container\Series106_1.x
-koki107,../../Nagoya_Common\Train\JRF\Container\Series107_1.x
-Container_5a,../../Nagoya_Common\Train\JRF\Container\5_5_A.x
-Container_5b,../../Nagoya_Common\Train\JRF\Container\5_5_B.x
-Container_5c,../../Nagoya_Common\Train\JRF\Container\5_5_C.x
-Container_5d,../../Nagoya_Common\Train\JRF\Container\5_5_D.x
-Container_4a,../../Nagoya_Common\Train\JRF\Container\5_4_A.x
-Container_4b,../../Nagoya_Common\Train\JRF\Container\5_4_B.x
-Container_4c,../../Nagoya_Common\Train\JRF\Container\5_4_C.x
-Container_4d,../../Nagoya_Common\Train\JRF\Container\5_4_D.x
-Container_3a,../../Nagoya_Common\Train\JRF\Container\5_3_A.x
-Container_3b,../../Nagoya_Common\Train\JRF\Container\5_3_B.x
-Container_3c,../../Nagoya_Common\Train\JRF\Container\5_3_C.x
-Container_3d,../../Nagoya_Common\Train\JRF\Container\5_3_D.x
-
-Toki25000,Structures\initG\initg_fcset\25000.x
-Hoki800,Structures\FTN\JNR-hoki800\hoki800.x
+#貫通扉
+14_kantuu,Structures\△12△\kantuu\14_kantuu.x
 
 
 #103系
@@ -1194,9 +1192,40 @@ ef64_1000_f,Structures\Nakano_Kazusa\EF64\EF64-1000_F.x
 ef210,Structures\Uchibo\EF210\EF210_c.x
 dd51,Structures\Nakano_Kazusa\DD51\dd51F.x
 de10_1153,Structures\FTN\JNR-DE10\DE10-1153D.x
+ef65_1135,Structures\Uchibo\EF65_1000\EF651135_1.x
 ef65_2099,Structures\Uchibo\EF65_1000\EF652099_2.x
 ef65_light,Structures\Uchibo\EF65_1000\EF65headlight.x
 PS22-UP,Structures\Uchibo\EF65_1000\PS22-UP.x
+
+TailSign,Structures\Ntfiv\ContainerCar\reflector_kk1xx.x
+koki_shadow_20,Structures\Ntfiv\ContainerCar\_base_20m.x
+koki104,Structures\Ntfiv\ContainerCar\_koki104_JRF_pure.x
+koki106,../../Nagoya_Common\Train\JRF\Container\Series106_1.x
+koki107,Structures\Ntfiv\ContainerCar\_koki107_JRF_pure.x
+Container_5a,../../Nagoya_Common\Train\JRF\Container\5_5_A.x
+Container_5b,../../Nagoya_Common\Train\JRF\Container\5_5_B.x
+Container_5c,../../Nagoya_Common\Train\JRF\Container\5_5_C.x
+Container_5d,../../Nagoya_Common\Train\JRF\Container\5_5_D.x
+Container_4a,../../Nagoya_Common\Train\JRF\Container\5_4_A.x
+Container_4b,../../Nagoya_Common\Train\JRF\Container\5_4_B.x
+Container_4c,../../Nagoya_Common\Train\JRF\Container\5_4_C.x
+Container_4d,../../Nagoya_Common\Train\JRF\Container\5_4_D.x
+Container_3a,../../Nagoya_Common\Train\JRF\Container\5_3_A.x
+Container_3b,../../Nagoya_Common\Train\JRF\Container\5_3_B.x
+Container_3c,../../Nagoya_Common\Train\JRF\Container\5_3_C.x
+Container_3d,../../Nagoya_Common\Train\JRF\Container\5_3_D.x
+
+Con_31ft_FTS01_0A,Structures\Ntfiv\_Containers\Con_31ft_FTS01_0A.x
+Con_31ft_FTS01_AA,Structures\Ntfiv\_Containers\Con_31ft_FTS01_AA.x
+Con_31ft_FTS02_A0,Structures\Ntfiv\_Containers\Con_31ft_FTS02_A0.x
+Con_31ft_FTS02_AA,Structures\Ntfiv\_Containers\Con_31ft_FTS02_AA.x
+
+
+Toki25000,Structures\initG\initg_fcset\25000.x
+Hoki800,Structures\FTN\JNR-hoki800\hoki800.x
+
+
+
 
 #踏切
 1,Structures\△12△\komono\1.x
