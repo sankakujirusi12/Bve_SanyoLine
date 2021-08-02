@@ -721,6 +721,8 @@ Repeater['bushes1'].Begin('Grass',-5,-1,0,0,0,0,0,40,40,'bush1','bush2','bush3')
 Repeater['bushes2'].Begin('Grass',-8,-2,0,0,0,0,0,20,20,'bush3','bush2',,'bush1');
 Repeater['bushes3'].Begin('Grass',11,-1,0,0,0,0,0,25,25,'bush1','bush2','bush3');
 Repeater['bushes4'].Begin('Grass',15,-2,0,0,0,0,0,60,60,,,'bush3',,'bush2','bush1');
+Repeater['bushL'].Begin0(, 1, 25, 25, 'bush_L01','bush_L02','bush_L03');
+Repeater['bushR'].Begin0('sanyonobori', 1, 25, 25, 'bush_R01','bush_R02','bush_R03');
 Repeater['Ballast1'].End();
 Repeater['Ballast1'].Begin('sanyonobori',0,0,0,0,0,0,3,5,5,'Ballast');
 Repeater['Bridge2'].End();
@@ -754,7 +756,7 @@ Repeater['bushes3'].End();
 Repeater['bushes4'].End();
 118141;
 Repeater['DikeR'].Begin0('gawa_kami2', 0, 5, 5, 'DikeR_1','DikeR_2','DikeR_3');
-
+Repeater['bushR'].Begin0('gawa_kami2', 1, 25, 25, 'bush_R01','bush_R02','bush_R03');
 repeater['ballast9'].Begin('gawa_kami2',0,0,0,0,0,0,3,5,5,'Ballast');
 	Track['sanyonobori'].Position(4,0);
 	Track['gawa_kami2'].Position(8,0,0);
@@ -769,6 +771,8 @@ Track['sanyonobori'].Cant.Interpolate(0.09);
 118301;
 Repeater['bushes1'].End();
 Repeater['bushes2'].End();
+Repeater['bushL'].End();
+Repeater['bushR'].End();
 118331;
 repeater['DikeL'].End();
 repeater['DikeR'].End();

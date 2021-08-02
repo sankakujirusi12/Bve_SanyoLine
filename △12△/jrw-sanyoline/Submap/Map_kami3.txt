@@ -315,6 +315,8 @@ Sound3D['cross2'].Put(10.5, 2.3);
 #“¥Ø1
 Gradient.Interpolate(0.2);
 119017;
+Repeater['bushL'].Begin0('gawa_kami12', 1, 25, 25, 'bush_L01','bush_L02','bush_L03');
+Repeater['bushR'].Begin0('sanyonobori', 1, 25, 25, 'bush_R01','bush_R02','bush_R03');
 Gradient.Interpolate(3.9);
 #+3.9ñ
 119015;

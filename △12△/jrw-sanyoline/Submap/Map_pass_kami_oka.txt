@@ -7,6 +7,7 @@
 #側線終了
 repeater['ballast12'].End();
 	Track['gawa_kami12'].Position(-4,0);
+	Repeater['bushL'].Begin0(0, 1, 25, 25, 'bush_L01','bush_L02','bush_L03');
 119232;
 Repeater['bushes3'].Begin('Grass',-4,-2,0,0,0,0,0,22,22,,'bush3',,'bush2','bush1',);
 Repeater['bushes1'].Begin('Grass',-5,-1,0,0,0,0,0,60,60,'bush1',,'bush2','bush3',);
@@ -42,6 +43,8 @@ Gradient.Interpolate(8.6);
 Repeater['bushes1'].End();
 Repeater['bushes2'].End();
 Repeater['bushes3'].End();
+Repeater['bushL'].End();
+Repeater['bushR'].End();
 119666;
 Gradient.Interpolate(1.6);
 119670;
@@ -370,14 +373,14 @@ Curve.Interpolate(0, 0);
 130449;
 curve.BeginTransition();
 130519;
-curve.Begin(-800,-0.06);
-#カーブ[R800左]
+curve.Begin(-880,-0.06);
+#カーブ[R880左]
 	Track['sanyonobori'].Position(40,0,0);
 130732;
 	Track['sanyonobori'].Position(4,0,0);
 #上り本線4M右
 131002;
-Curve.Interpolate(-800, -0.06);
+Curve.Interpolate(-880, -0.06);
 131005;
 	Track['sanyonobori'].Position(4,0,600);
 #上り本線4M右
@@ -444,19 +447,19 @@ repeater['Form_R'].End();
 repeater['Form_CR'].End();
 #ホーム終わり
 Curve.Interpolate(0, 0);
-	Track['sanyonobori'].Position(9.5,0,-800);
+	Track['sanyonobori'].Position(9.5,0,-940);
 #上り側線分岐
 	Track['gawa_mitsu1'].Position(13.5,0,-308);
 131358;
 	Track['gawa_mitsu1'].Position(10,0,308);
 131388;
 #上りに側線1合流
-Curve.Interpolate(800, 0.06);
-	Track['sanyonobori'].Position(6,0,800);
-	Track['gawa_mitsu1'].Position(6,0,800);
+Curve.Interpolate(940, 0.05);
+	Track['sanyonobori'].Position(6,0,940);
+	Track['gawa_mitsu1'].Position(6,0,940);
 repeater['Ballast2'].End();
 131393;
-Curve.Interpolate(800, 0.06);
+Curve.Interpolate(940, 0.05);
 131413;
 repeater['Ballast2'].Begin('gawa_mitsu1',0,0,0,0,0,0,3,5,5,'Ballast');
 	Track['gawa_mitsu1'].Position(4.6,0,-137);
@@ -1265,7 +1268,7 @@ repeater['Oldform_CR'].Begin0(0,1,5,5,'Oldform_CR');
 148240+100;
 repeater['Oldform_R2'].Begin0('sanyonobori',1,5,5,'Oldform_R');
 repeater['Oldform_CR2'].Begin0('sanyonobori',1,5,5,'Oldform_CR');
-148260+100;
+148255+100;
 repeater['Form_R'].Begin0(0,1,5,5,'Form_R');
 repeater['Form_CR'].Begin0(0,1,5,5,'Form_CR');
 repeater['Form_R1'].Begin0('sanyonobori',1,5,5,'Form_R');
@@ -1276,7 +1279,7 @@ repeater['Oldform_R'].End();
 repeater['Oldform_CR'].End();
 repeater['Oldform_R2'].End();
 repeater['Oldform_CR2'].End();
-148500;
+148570;
 repeater['Form_L'].End();
 repeater['Form_R'].End();
 repeater['Form_CR'].End();
@@ -1293,60 +1296,87 @@ repeater['Oldform_R'].End();
 repeater['Oldform_CR'].End();
 repeater['Oldform_R2'].End();
 repeater['Oldform_CR2'].End();
+#148850;下りー中線合流
 
 ##熊山-万富
-148530;
+148480;
 Curve.BeginTransition();
 Track[107].Position(9,0,0,0);
 Track['sanyonobori'].Position(13,0,0,0);
-148550;
-Curve.Begin(600,0.03);
-148780;
+148560;
+Curve.Begin(600,0.085);
+148670;
 Curve.BeginTransition();
-148800;
+148750;
 Curve.End();
 Track[107].Position(4,0,0,0);
 Track['sanyonobori'].Position(8,0,0,0);
-148828;
+148778;
 Track[107].Position(4,0,279,0);
-148852;
+148802;
 Track[107].Position(5,0,0,0);
-148876;
+148826;
 Track[107].Position(7,0,-279,0);
-148900;
+148850;
 Track[107].Position(8,0,0,0);
 repeater['ballast107'].End();
+148935;
+#踏切1
 148930;
 Curve.BeginTransition();
 Track['sanyonobori'].Position(8,0,0,0);
-148950;
-Curve.Begin(600,0.03);
-149280;
+149010;
+Curve.Begin(600,0.085);
+149220;
 Curve.BeginTransition();
 149300;
 Curve.End();
 Track['sanyonobori'].Position(4,0,0,0);
+149345;
+#オーバークロス
+149565;
+#踏切2
 149680;
 Curve.BeginTransition();
 149700;
-Curve.Begin(-800,-0.03);
-150030;
+#踏切3
+149740;
+Curve.Begin(-800,-0.06);
+149990;
 Curve.BeginTransition();
+150010;
+#山陽道上り線
 150050;
+#山陽道下り線
 Curve.End();
+150285;
+#川(5m)
+150325;
+#踏切4
+150400;
+#踏切5
 150780;
 Curve.BeginTransition();
-150800;
-Curve.Begin(600,0.03);
-151480;
+150860;
+Curve.Begin(600,0.085);
+151125;
+#吉井川橋梁
+151178;
+#県道79号
+151245;
+#土手
+151350;
 Curve.BeginTransition();
-151500;
+151435;
 Curve.End();
-151730;
-Curve.BeginTransition();
+151635;
+#吉井川橋梁終了
+#踏切6
 151750;
-Curve.Begin(-800,-0.03);
-152080;
+Curve.BeginTransition();
+151810;
+Curve.Begin(-800,-0.06);
+152040;
 Curve.BeginTransition();
 152100;
 Curve.End();
@@ -1357,11 +1387,17 @@ Track['sanyonobori'].Position(4,0,800,0);
 152200;
 Curve.End();
 Track['sanyonobori'].Position(5,0,0,0);
+152220;
+#踏切7
 152325;
 Curve.BeginTransition();
 Curve.BeginCircular(1500,0.02);
 Track[108].Position(7.3,0,-1500,0);
 Track['sanyonobori'].Position(11.3,0,-1500,0);
+152370;
+#万富下りホーム
+152380;
+#万富上りホーム
 152400;
 Curve.End();
 Track[108].Position(9,0,0,0);
@@ -1386,24 +1422,28 @@ Track['sanyonobori'].Position(13,0,0,0);
 	Track[109].Position(5.9,0,0,0);
 	repeater['ballast109'].End();
 #万富ホーム
-152350;
+152370;
 repeater['Oldform_L'].Begin0(108,1,5,5,'Oldform_L');
 repeater['Oldform_R'].Begin0(0,1,5,5,'Oldform_R');
 repeater['Oldform_CR'].Begin0(0,1,5,5,'Oldform_CR');
+152380;
 repeater['Oldform_R2'].Begin0('sanyonobori',1,5,5,'Oldform_R');
 repeater['Oldform_CR2'].Begin0('sanyonobori',1,5,5,'Oldform_CR');
-152420;
-repeater['Form_R'].Begin0(0,1,5,5,'Form_R');
-repeater['Form_CR'].Begin0(0,1,5,5,'Form_CR');
+152390;
 repeater['Form_R1'].Begin0('sanyonobori',1,5,5,'Form_R');
 repeater['Form_CR1'].Begin0('sanyonobori',1,5,5,'Form_CR');
+repeater['Oldform_R2'].End();
+repeater['Oldform_CR2'].End();
+152440;
+repeater['Form_R'].Begin0(0,1,5,5,'Form_R');
+repeater['Form_CR'].Begin0(0,1,5,5,'Form_CR');
 repeater['Form_L'].Begin0(108,1,5,5,'Form_L');
 repeater['Oldform_L'].End();
 repeater['Oldform_R'].End();
 repeater['Oldform_CR'].End();
-repeater['Oldform_R2'].End();
-repeater['Oldform_CR2'].End();
-152600;
+152520;
+#跨線橋
+152585;
 repeater['Form_L'].End();
 repeater['Form_R'].End();
 repeater['Form_CR'].End();
@@ -1414,7 +1454,7 @@ repeater['Oldform_R'].Begin0(0,1,5,5,'Oldform_R');
 repeater['Oldform_CR'].Begin0(0,1,5,5,'Oldform_CR');
 repeater['Oldform_R2'].Begin0('sanyonobori',1,5,5,'Oldform_R');
 repeater['Oldform_CR2'].Begin0('sanyonobori',1,5,5,'Oldform_CR');
-152650;
+152610;
 repeater['Oldform_L'].End();
 repeater['Oldform_R'].End();
 repeater['Oldform_CR'].End();
@@ -1700,13 +1740,16 @@ repeater['Form_CR1'].End();
 #曲線データ
 163580+300;
 Curve.BeginTransition();
-163600+300;
+163640+300;
 Curve.Begin(800,0.04);
-163980+300;
+163940+300;
 Curve.BeginTransition();
 164000+300;
 Curve.End();
 #東岡山配線
+164150;
+Track[115].Position(-275,0,-400,0);
+repeater['ballast115'].Begin(115,0,0,0,0,0,0,3,5,5,'Ballast');
 164000+300;
 Track['sanyonobori'].Position(4,0,2400,0);
 164040+300;
@@ -1717,7 +1760,6 @@ Track['sanyonobori'].Position(12,0,-2400,0);
 Track['sanyonobori'].Position(13,0,0,0);
 164150+300;
 Track[115].Position(-7.5,0,0,0);
-repeater['ballast115'].Begin(115,0,0,0,0,0,0,3,5,5,'Ballast');
 164200+300;
 Track[115].Position(-4.7,0,-1250,0);
 164250+300;
