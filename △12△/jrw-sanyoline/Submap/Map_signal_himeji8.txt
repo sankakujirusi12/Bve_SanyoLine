@@ -4,9 +4,9 @@ BveTs Map 2.00:shift_jis
 structure['Signalpole6'].Put('hime7',-2.8,2.5,0,0,0,0,0,0);
 structure['7syutsu'].Put('hime7',-2.55,3.6,-0.1,0,0,0,0,0);
 #Signal['type3'].Put('hime7',0,-2.8,3.4);
-structure['Signal3L0'].Put('hime7',-2.2,3.6,0,0,0,0,0,0);
+structure['Signal3L0'].Put('hime7',-2.2,3.6,0.4,0,0,0,0,0);
 structure['Clamp3R'].Put('hime7',-2.2,2.8,0,0,0,0,0,0);
-structure['Signal3L0'].Put('hime7',-2.8,3.6,0.4,0,0,0,0,0);
+structure['Signal3L0'].Put('hime7',-2.8,4.2,0.4,0,0,0,0,0);
 structure['himesyutsu'].Put('hime7',-1.95,3.2,-0.1,0,0,0,0,0);
 #
 structure['Signalpole6'].Put(0,2,2.5,0,0,0,0,0,0);
