@@ -1,8 +1,10 @@
-﻿BveTs Map 2.00:shift_jis
+BveTs Map 2.00:UTF-8
 #山陽本線 201? (上郡～岡山)
 
 #参考になるかは分かりませんが、おおまかな地形・設備については#で記述してあります。
-
+119157;
+repeater['wallL'].Begin('chizu',0.2,0,0,0,0,0,3,5,5,'shinkan_wallL');
+repeater['wallR'].Begin('chizu',-0.2,0,0,0,0,0,3,5,5,'shinkan_wallR');
 119222;
 #側線終了
 repeater['ballast12'].End();
@@ -12,9 +14,7 @@ repeater['ballast12'].End();
 Repeater['bushes3'].Begin('Grass',-4,-2,0,0,0,0,0,22,22,,'bush3',,'bush2','bush1',);
 Repeater['bushes1'].Begin('Grass',-5,-1,0,0,0,0,0,60,60,'bush1',,'bush2','bush3',);
 Repeater['bushes2'].Begin('Grass',-8,0,0,0,0,0,0,21,21,'bush3',,'bush2','bush1',);
-119257;
-repeater['wallL'].Begin('chizu',0.2,0,0,0,0,0,3,5,5,'shinkan_wallL');
-repeater['wallR'].Begin('chizu',-0.2,0,0,0,0,0,3,5,5,'shinkan_wallR');
+
 Curve.Interpolate(-600, -0.085);
 Track['sanyonobori'].Cant.Interpolate(-0.085);
 119299;
@@ -79,13 +79,13 @@ curve.Begin(650,0.085);
 Gradient.Interpolate(1.6);
 119934;
 Gradient.Interpolate(5);
-120070;
-Curve.Interpolate(650, 0.085);
 120080;
 Gradient.Interpolate(5);
 120090;
 Gradient.Interpolate(1.4);
-120170;
+120295;
+Curve.Interpolate(650, 0.085);
+120370;
 Curve.Interpolate(0, 0);
 #カーブ終わり
 	Track['sanyonobori'].Position(4,0);
@@ -154,11 +154,11 @@ Curve.Interpolate(-440, -0.105);
 121955;
 Curve.Interpolate(0, 0);
 #カーブ終わり
-122036;
+122136;
 curve.BeginTransition();
-122079;
+122179;
 #橋梁
-122096;
+122196;
 curve.Begin(-800,-0.06);
 #橋梁終わり
 #カーブ[R800左]
@@ -170,10 +170,10 @@ Gradient.Interpolate(9.3);
 #structure['tikei5'].Put(0,0,6,0,0,0,0,0,2);
 122230;
 structure['tikei6'].Put(0,0,-6,0,0,30,0,0,2);
-122336;
+122276;
 curve.Begin(-800,-0.06);
 #カーブ[R800左]
-122396;
+122336;
 Curve.Interpolate(0, 0);
 #カーブ終わり
 122350;
@@ -195,22 +195,23 @@ curve.BeginTransition();
 123387;
 curve.Begin(-450,-0.105);
 #カーブ[R450左]
-123634;
+123534;
 Curve.Interpolate(-450, -0.105);
-123744;
+123644;
 Curve.Interpolate(0, 0);
 #カーブ終わり
-123916;
+123886;
 curve.BeginTransition();
-123946;
+123916;
 curve.Begin(1200,0.04);
 #カーブ[R1250右]
-124267;
+124237;
 Curve.Interpolate(1200, 0.04);
-124297;
+124267;
 Curve.Interpolate(0, 0);
 #カーブ終わり
 124477;
+	Track['sanyonobori'].Position(4,0);
 curve.BeginTransition();
 124597;
 curve.Begin(400,0.105);
@@ -222,6 +223,7 @@ Gradient.Interpolate(9.3);
 125122;
 Gradient.Interpolate(10);
 125187;
+	Track['sanyonobori'].Position(8,0,0);
 Curve.Interpolate(0, 0);
 #カーブ終わり
 curve.BeginTransition();
