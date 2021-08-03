@@ -36,7 +36,7 @@ include 'Submap\Map_kasenchu_une1_old.txt';
 include 'Submap\Map_kasenchu_himeji8.txt';
 
 #他列車
-include 'Trains\Trains_5031M.txt';
+#include 'Trains\Trains_5031M.txt';
 
 #先行列車
 #include 'Submap\Map_pretrain_1305M.txt';
