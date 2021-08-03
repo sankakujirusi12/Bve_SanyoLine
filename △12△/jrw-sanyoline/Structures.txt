@@ -947,7 +947,7 @@ Tc111-811_setouchi,Structures\FTN\JRW113-30N_setouchi\Tc111-811.x
 Tc111-812_setouchi,Structures\FTN\JRW113-30N_setouchi\Tc111-812.x
 Tc111-0_setouchi,Structures\FTN\JRW113-30N_setouchi\Tc111-0.x
 Tc111-300_setouchi,Structures\FTN\JRW113-30N_setouchi\Tc111-300.x
-Tc115-556_setouchi,Structures\FTN\JRW113-30N_setouchi\Tc111-556.x
+Tc115-556_setouchi,Structures\FTN\JRW113-30N_setouchi\Tc115-556.x
 Tc111-261_setouchi,Structures\FTN\JRW113-30N_setouchi\Tc111-261.x
 Tc115-2616_setouchi30n,Structures\FTN\JRW113-30N_setouchi\Tc115-2616.x
 Tc115-2520_setouchi30n,Structures\FTN\JRW113-30N_setouchi\Tc115-2520.x
