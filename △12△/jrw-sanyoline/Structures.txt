@@ -839,6 +839,9 @@ Uneform_CR,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCR_une.x
 Chizu0,Structures\△12△\sta\kami\kami_chizu.x
 Chizu1,../../Nagoya_Common\Build\Station\Ekisya2\Obj1.x
 kami_kosen,Structures\△12△\sta\kamigori kumayama\kosen.x
+
+#吉永
+
 #万富
 mantomi_kosen,Structures\△12△\sta\mantomi\kosen.x
 
@@ -938,6 +941,18 @@ Tc111_30n,Structures\113west\113_30N\Tc111_1.x
 M'112_30n,Structures\113west\113_30N\M112b.x
 M113_30n,Structures\113west\113_30N\M113.x
 Tc'111_30n,Structures\113west\113_30N\Tc111_1b.x
+
+#113,115系(瀬戸内色)
+Tc111-811_setouchi,Structures\FTN\JRW113-30N_setouchi\Tc111-811.x
+Tc111-812_setouchi,Structures\FTN\JRW113-30N_setouchi\Tc111-812.x
+Tc111-0_setouchi,Structures\FTN\JRW113-30N_setouchi\Tc111-0.x
+Tc111-300_setouchi,Structures\FTN\JRW113-30N_setouchi\Tc111-300.x
+Tc111-556_setouchi,Structures\FTN\JRW113-30N_setouchi\Tc111-556.x
+Tc111-261_setouchi,Structures\FTN\JRW113-30N_setouchi\Tc111-261.x
+Tc111-2616_setouchi30n,Structures\FTN\JRW113-30N_setouchi\Tc111-2616.x
+Tc111-2520_setouchi30n,Structures\FTN\JRW113-30N_setouchi\Tc111-2520.x
+M114-1193_setouchi,Structures\FTN\JRW113-30N_setouchi\M114-1193.x
+M115-1109_setouchi,Structures\FTN\JRW113-30N_setouchi\M115-1109.x
 
 #113系(30N 末期色)
 Tc'111-2000_makki30n,Structures\FTN\JRW113-30N_yellow\Tc111-2000.x
