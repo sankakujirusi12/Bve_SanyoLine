@@ -23,4 +23,8 @@ Signal['type30'].Put(1,0,4.3,5.4);
 structure['Signalpole1'].Put(0,2.5,5,0,0,0,0,0,0);
 Signal['type3'].Put(1,0,2.2,5.5,0.4,0,0,0,0,0);
 structure['Signal3L0'].Put(0,2.7,4.6,0.4,0,0,0,0,0);
-#è„åSèoî≠
+#è„åS3èoî≠
+118997;
+structure['Signalpole1'].Put('gawa_kami3',-2,4.6,0,0,0,0,0,0);
+structure['Signal3L0'].Put('gawa_kami3',-2,4.8,0.4,0,0,0,0,0);
+#è„åS4èoî≠

@@ -1,4 +1,4 @@
-BveTs Map 2.00:UTF-8
+﻿BveTs Map 2.00:UTF-8
 #架線
 82000;
 Repeater['架線'].Begin0(, 1, 50, 50, 'kasen_50');
@@ -119,7 +119,7 @@ Repeater['架線1'].Begin0('sanyonobori', 1, 30, 30, 'kasen_30');
 104990;
 Repeater['架線5'].End();
 105220;
-Repeater['架線'].Begin0(, 1, 50, 50, 'kasen_50');
+Repeater['架線'].Begin0('sanyokudari', 1, 50, 50, 'kasen_50');
 Repeater['架線1'].Begin0('sanyonobori', 1, 50, 50, 'kasen_50');
 118141;
 Repeater['架線6'].Begin0('gawa_kami2', 2, 50, 50, 'kasen_50');
