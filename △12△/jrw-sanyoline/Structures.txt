@@ -217,6 +217,57 @@ TanboL,Structures\車警定位\shuijing\t35l.x
 TanboR,Structures\車警定位\shuijing\t35r.x
 River,Structures\Ntfiv\GeneralStr_png\ACCC\Ground\River.x
 
+#茂み
+bush1,Structures\Ntfiv\GeneralStr_png\Nature\bush\bush01.x
+bush2,Structures\Ntfiv\GeneralStr_png\Nature\bush\bush02.x
+bush3,Structures\Ntfiv\GeneralStr_png\Nature\bush\bush03.x
+
+#もこもこした茂み(夏)
+bush_L01,Structures\Uchibo\Dike\bush_L01.x
+bush_L02,Structures\Uchibo\Dike\bush_L02.x
+bush_L03,Structures\Uchibo\Dike\bush_L03.x
+bush_R01,Structures\Uchibo\Dike\bush_R01.x
+bush_R02,Structures\Uchibo\Dike\bush_R02.x
+bush_R03,Structures\Uchibo\Dike\bush_R03.x
+
+#木
+tree1,Structures\Ntfiv\GeneralStr_png\Nature\trees\tree01_S.x
+tree2,Structures\Ntfiv\GeneralStr_png\Nature\trees\tree02_S.x
+tree3,Structures\Ntfiv\GeneralStr_png\Nature\trees\tree03_S.x
+tree4,Structures\Ntfiv\GeneralStr_png\Nature\trees\tree04_S.x
+tree5,Structures\Ntfiv\GeneralStr_png\Nature\trees\tree05_S.x
+tree10,Structures\Ntfiv\GeneralStr_png\Nature\treesB\trees01.x
+tree11,Structures\Ntfiv\GeneralStr_png\Nature\treesB\trees02.x
+tree12,Structures\Ntfiv\GeneralStr_png\Nature\treesB\trees03.x
+tree13,Structures\Ntfiv\GeneralStr_png\Nature\treesB\trees11.x
+tree14,Structures\Ntfiv\GeneralStr_png\Nature\treesB\trees11n.x
+tree15,Structures\Ntfiv\GeneralStr_png\Nature\treesB\trees12.x
+tree16,Structures\Ntfiv\GeneralStr_png\Nature\treesB\trees12n.x
+tree17,Structures\Ntfiv\GeneralStr_png\Nature\treesB\trees13.x
+tree18,Structures\Ntfiv\GeneralStr_png\Nature\treesB\trees13n.x
+tree21,Structures\Ntfiv\GeneralStr_png\Nature\trees_street\tree21_S.x
+tree22,Structures\Ntfiv\GeneralStr_png\Nature\trees_street\tree22_S.x
+tree23,Structures\Ntfiv\GeneralStr_png\Nature\trees_street\tree23_S.x
+tree24,Structures\Ntfiv\GeneralStr_png\Nature\trees_street\tree24_S.x
+tree25,Structures\Ntfiv\GeneralStr_png\Nature\trees_street\tree25_S.x
+
+#隙間埋め
+BlankL_01,Structures\Uchibo\Dike\blank_L01.x
+BlankL_02,Structures\Uchibo\Dike\blank_L02.x
+BlankL_03,Structures\Uchibo\Dike\blank_L03.x
+BlankR_01,Structures\Uchibo\Dike\blank_R01.x
+BlankR_02,Structures\Uchibo\Dike\blank_R02.x
+BlankR_03,Structures\Uchibo\Dike\blank_R03.x
+
+#地理院地図3Dデータ
+tikei1,Structures\tikei\tikei1.x
+tikei2,Structures\tikei\tikei2.x
+tikei3,Structures\tikei\tikei3.x
+tikei4,Structures\tikei\tikei4.x
+tikei5,Structures\tikei\tikei5.x
+tikei6,Structures\tikei\tikei6.x
+tikei7,Structures\tikei\tikei7.x
+tikei8,Structures\tikei\tikei8.x
 
 
 #------------------------------------------------------------------横取-------------------------------------------------------------------
@@ -285,49 +336,6 @@ jyousyaR,Structures\jyousyaichi\jyousyaR.x
 #ポイント
 pointsw,Structures\Ntfiv\GeneralStr_png\Rail\Point\PointM_NS.x
 
-#茂み
-bush1,Structures\Ntfiv\GeneralStr_png\Nature\bush\bush01.x
-bush2,Structures\Ntfiv\GeneralStr_png\Nature\bush\bush02.x
-bush3,Structures\Ntfiv\GeneralStr_png\Nature\bush\bush03.x
-
-#もこもこした茂み(夏)
-bush_L01,Structures\Uchibo\Dike\bush_L01.x
-bush_L02,Structures\Uchibo\Dike\bush_L02.x
-bush_L03,Structures\Uchibo\Dike\bush_L03.x
-bush_R01,Structures\Uchibo\Dike\bush_R01.x
-bush_R02,Structures\Uchibo\Dike\bush_R02.x
-bush_R03,Structures\Uchibo\Dike\bush_R03.x
-
-#木
-tree1,Structures\Ntfiv\GeneralStr_png\Nature\trees\tree01_S.x
-tree2,Structures\Ntfiv\GeneralStr_png\Nature\trees\tree02_S.x
-tree3,Structures\Ntfiv\GeneralStr_png\Nature\trees\tree03_S.x
-tree4,Structures\Ntfiv\GeneralStr_png\Nature\trees\tree04_S.x
-tree5,Structures\Ntfiv\GeneralStr_png\Nature\trees\tree05_S.x
-tree10,Structures\Ntfiv\GeneralStr_png\Nature\treesB\trees01.x
-tree11,Structures\Ntfiv\GeneralStr_png\Nature\treesB\trees02.x
-tree12,Structures\Ntfiv\GeneralStr_png\Nature\treesB\trees03.x
-tree13,Structures\Ntfiv\GeneralStr_png\Nature\treesB\trees11.x
-tree14,Structures\Ntfiv\GeneralStr_png\Nature\treesB\trees11n.x
-tree15,Structures\Ntfiv\GeneralStr_png\Nature\treesB\trees12.x
-tree16,Structures\Ntfiv\GeneralStr_png\Nature\treesB\trees12n.x
-tree17,Structures\Ntfiv\GeneralStr_png\Nature\treesB\trees13.x
-tree18,Structures\Ntfiv\GeneralStr_png\Nature\treesB\trees13n.x
-tree21,Structures\Ntfiv\GeneralStr_png\Nature\trees_street\tree21_S.x
-tree22,Structures\Ntfiv\GeneralStr_png\Nature\trees_street\tree22_S.x
-tree23,Structures\Ntfiv\GeneralStr_png\Nature\trees_street\tree23_S.x
-tree24,Structures\Ntfiv\GeneralStr_png\Nature\trees_street\tree24_S.x
-tree25,Structures\Ntfiv\GeneralStr_png\Nature\trees_street\tree25_S.x
-
-#地理院地図3Dデータ
-tikei1,Structures\tikei\tikei1.x
-tikei2,Structures\tikei\tikei2.x
-tikei3,Structures\tikei\tikei3.x
-tikei4,Structures\tikei\tikei4.x
-tikei5,Structures\tikei\tikei5.x
-tikei6,Structures\tikei\tikei6.x
-tikei7,Structures\tikei\tikei7.x
-tikei8,Structures\tikei\tikei8.x
 
 #フェンスの類
 Whitefence,Structures\Uchibo\Fence\Fence.x
@@ -929,17 +937,64 @@ M'114-1000,Structures\115\300_sh\M114b.x
 M115-1000,Structures\115\300_sh\M115.x
 Tc'115-1000,Structures\115\300_sh\Tc115b.x
 
-#113系700番台(湘南色・鉄仮面)
-Tc111B_sn_oshi,..\..\Nagoya_Common\Train\JRW\113\kito\TcB_sn_oshi.x
-for_Local,Structures\JRW113・115_ikisaki\destination\for113700\light12.x
-M'112_sn_oshi,..\..\Nagoya_Common\Train\JRW\113\kito\M_sn_oshi.x
-M113_sn_oshi,..\..\Nagoya_Common\Train\JRW\113\kito\T_sn_oshi.x
-Tc111_sn_oshi,..\..\Nagoya_Common\Train\JRW\113\kito\Tc_sn_oshi.x
+#113系0/700番台(湘南色)
+#湘南白熱灯 押込通風機 AU75 非ユニット窓 スリットタイフォン スノプロ無し
+Tc111-0jnr_1,Structures\initG\initg_ecset\113_00.x
+#湘南シールド 押込通風機 AU75 非ユニット窓 スリットタイフォン
+Tc111-0jnr_2,Structures\initG\initg_ecset\113_10.x
+#湘南白熱灯 グロベン AU75 非ユニット窓 スリットタイフォン スノプロ無し
+Tc111-0jnr_3,Structures\initG\initg_ecset\113_20.x
+#湘南シールド 押込通風機 AU75 ユニット窓 シャッター付きタイフォン
+Tc111-0jnr_4,Structures\initG\initg_ecset\113_30.x
+#湘南シールド 押込通風機 AU75 ユニット窓 鉄仮面 シャッター付きタイフォン
+Tc111-0jnr_5,Structures\initG\initg_ecset\113_40.x
+#湘南白熱灯 押込通風機 AU75 非ユニット窓 鉄仮面 スリットタイフォン
+Tc111-0jnr_6,Structures\initG\initg_ecset\113_50.x
+#湘南白熱灯 グロベン AU75 非ユニット窓 鉄仮面 スリットタイフォン
+Tc111-0jnr_7,Structures\initG\initg_ecset\113_60.x
+#湘南白熱灯 グロベン WAU102 非ユニット窓 スリットタイフォン
+Tc111-0jnr_8,Structures\initG\initg_ecset\113_70.x
+#湘南シールド 押込通風機 AU75 非ユニット窓 お椀型タイフォン
+Tc111-0jnr_9,Structures\initG\initg_ecset\113_80.x
+#湘南シールド グロベン AU75 非ユニット窓 お椀型タイフォン
+Tc111-0jnr_10,Structures\initG\initg_ecset\113_90.x
+#湘南白熱灯 グロベン WAU102 非ユニット窓 鉄仮面 スリットタイフォン
+Tc111-0jnr_11,Structures\initG\initg_ecset\113_100.x
+#湘南白熱灯 グロベン AU75 非ユニット窓 お椀型タイフォン スノプロ無し
+Tc111-0jnr_12,Structures\initG\initg_ecset\113_110.x
+#湘南白熱灯 押込通風機 AU75 非ユニット窓 お椀型タイフォン スノプロ無し
+Tc111-0jnr_13,Structures\initG\initg_ecset\113_120.x
+
+#押込通風機 AU75 非ユニット窓
+Tc'111-0jnr_1,Structures\initG\initg_ecset\113_03.x
+#グロベン AU75 非ユニット窓
+Tc'111-0jnr_2,Structures\initG\initg_ecset\113_23.x
+#押込通風機 AU75 ユニット窓
+Tc'111-0jnr_3,Structures\initG\initg_ecset\113_33.x
+#グロベン WAU102 非ユニット窓
+Tc'111-0jnr_4,Structures\initG\initg_ecset\113_43.x
+
+#押込通風機 AU75 非ユニット窓
+M113-0jnr_1,Structures\initG\initg_ecset\113_01.x
+#押込通風機 AU75 ユニット窓
+M113-0jnr_2,Structures\initG\initg_ecset\113_21.x
+#グロベン AU75 非ユニット窓
+M113-0jnr_3,Structures\initG\initg_ecset\113_31.x
+
+#押込通風機 AU75 非ユニット窓
+M'112-0jnr_1,Structures\initG\initg_ecset\113_02.x
+#押込通風機 AU75 ユニット窓
+M'112-0jnr_2,Structures\initG\initg_ecset\113_22.x
+#押込通風機 AU75 ユニット窓 Wパンタ
+M'112-0jnr_3,Structures\initG\initg_ecset\113_32.x
+#グロベン AU75 非ユニット窓
+M'112-0jnr_4,Structures\initG\initg_ecset\113_42.x
 
 #113系(30N)
 Tc111_30n,Structures\113west\113_30N\Tc111_1.x
-M'112_30n,Structures\113west\113_30N\M112b.x
+M'112_30n,Structures\113west\113_30N\M112.x
 M113_30n,Structures\113west\113_30N\M113.x
+T111_40n,Structures\113west\113_30N\T111.x
 Tc'111_30n,Structures\113west\113_30N\Tc111_1b.x
 
 #113,115系(瀬戸内色)
@@ -963,6 +1018,9 @@ M113-2000_makki30n,Structures\FTN\JRW113-30N_yellow\M113-2000.x
 M'112-2000_makki30n,Structures\FTN\JRW113-30N_yellow\M112-2000.x
 M'112-2023_makki30n,Structures\FTN\JRW113-30N_yellow\M112-2023.x
 #↑Wパン
+#113系(末期色)
+Tc111-254_makki,Structures\113west\113_30Nmakki\Tc111_2.x
+Tc'111-561_makki,Structures\113west\113_30Nmakki\Tc111_2b.x
 
 #113系(阪和色)
 Tc111_hanwa_30n,Structures\113west\113_40N\Tc111_1.x
@@ -970,8 +1028,9 @@ Tc'111_hanwa_30n,Structures\113west\113_40N\Tc111_1b.x
 
 #113系(40N)
 Tc111_40n,Structures\113west\113_40N\Tc111_1.x
-M'112_40n,Structures\113west\113_40N\M112b.x
+M'112_40n,Structures\113west\113_40N\M112.x
 M113_40n,Structures\113west\113_40N\M113.x
+T111_40n,Structures\113west\113_40N\T111.x
 Tc'111_40n,Structures\113west\113_40N\Tc111_1b.x
 
 #113系(40N　末期色)
@@ -991,8 +1050,8 @@ Mc115-1501_30n,Structures\115\1000_ok30N\Mc115.x
 Tc115-1142_30n,Structures\115\1000_ok30N\Tc115_2.x
 #Tc115-301_30n,Structures\FTN\JRW115-30N\Tc115-301.x
 #Tc'115-302_30n,Structures\FTN\JRW115-30N\Tc115-302.x
-M'114-1000_30n,Structures\115\1000_ok30N\M114b.x
-M'114-3500_30n,Structures\115\1000_ok30N\3500\M114b.x
+M'114-1000_30n,Structures\115\1000_ok30N\M114.x
+M'114-3500_30n,Structures\115\1000_ok30N\3500\M114.x
 M115-1000_30n,Structures\115\1000_ok30N\M115b.x
 M115-3500_30n,Structures\115\1000_ok30N\3500\M115b.x
 
@@ -1034,7 +1093,7 @@ Tc115-1142_makki40n,Structures\FTN\JRW115-Y40N\Tc115-1142.x
 
 #113系(広島)
 Tc111_30n_hiro,Structures\113west\113_30Nhiro\Tc111_1.x
-M'112_30n_hiro,Structures\113west\113_30Nhiro\M112b.x
+M'112_30n_hiro,Structures\113west\113_30Nhiro\M112.x
 M113_30n_hiro,Structures\113west\113_30Nhiro\M113.x
 Tc'111_30n_hiro,Structures\113west\113_30Nhiro\Tc111_1b.x
 #117系
@@ -1332,6 +1391,15 @@ kami_mitsu_6,Structures\△12△\komono\kami_mitsu_6.x
 light,Structures\△12△\light\light.x
 light_circle,Structures\△12△\light\light_circle.x
 city_light,Structures\△12△\light\city_light.x
+
+#113系用
+for_Local_big,Structures\initG\initg_ecset\113_05_n.x
+for_Local,Structures\initG\initg_ecset\113_15_n.x
+for_White_big,Structures\initG\initg_ecset\113_08_n.x
+for_White,Structures\initG\initg_ecset\113_18_n.x
+113headlight_big,Structures\initG\initg_ecset\113_07_n.x
+113headlight,Structures\initG\initg_ecset\113_17_n.x
+
 #115系300番台用
 #前照灯(1000も共通)
 115headlight,Structures\115\113_17_n.x
