@@ -15,7 +15,7 @@ Releaseとして出されていない状態のファイルでも運転はでき�
 構文コピペは大歓迎です。自分でも路線を制作したい…けど構文わからない…という方は是非お使いください。なお、神戸線PJ様の構文を参考にさせていただいている箇所があります(他列車ランダム構文)。
 
 # ダウンロード
-(08/15更新ver1.0.6のダウンロード)[https://github.com/sankakujirusi12/Bve_SanyoLine/releases/download/1.0.6%CE%B2/Bve_SanyoLine_1.0.6.zip]  
+[08/15更新ver1.0.6のダウンロード](https://github.com/sankakujirusi12/Bve_SanyoLine/releases/download/1.0.6%CE%B2/Bve_SanyoLine_1.0.6.zip)  
 
 # バージョン情報
 ※路線延伸は1上げる。マップファイルの微修正は0.01上げる。  
