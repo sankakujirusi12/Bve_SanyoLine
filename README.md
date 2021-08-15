@@ -16,6 +16,7 @@ Releaseとして出されていない状態のファイルでも運転はでき�
 
 # ダウンロード
 [08/15更新ver1.0.6のダウンロード](https://github.com/sankakujirusi12/Bve_SanyoLine/releases/download/1.0.6%CE%B2/Bve_SanyoLine_1.0.6.zip)  
+  
 [上ファイルが文字化けする方はこちらをお試しください](https://github.com/sankakujirusi12/Bve_SanyoLine/archive/refs/heads/main.zip)  
 
 # バージョン情報
