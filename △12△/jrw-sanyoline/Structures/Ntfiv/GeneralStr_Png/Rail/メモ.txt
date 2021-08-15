@@ -1,0 +1,16 @@
+Long_sw.x
+
+guardr_L/R_3	…　ガーダーレール3m
+guardr_L/R	…　ガーダーレール5m
+
+
+【Ballast01フォルダ】
+BallastPC_K_Xa/b	…　PC製枕木
+BallastPC_H_Xa/b	…　PC製枕木・草あり
+
+BallastTR_K_Xa/b	…　木製枕木
+BallastTR_H_Xa/b	…　PC製枕木・草あり
+
+Bl_CraBalL/R
+Bl_CraBalL/R_5m
+
