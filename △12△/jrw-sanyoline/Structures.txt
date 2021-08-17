@@ -260,6 +260,8 @@ BlankR_02,Structures\Uchibo\Dike\blank_R02.x
 BlankR_03,Structures\Uchibo\Dike\blank_R03.x
 
 #地理院地図3Dデータ
+tikei1(hime_aho),Structures\tikei\tikei1(hime_aho).x
+tikei2(hime_aho),Structures\tikei\tikei2(hime_aho).x
 tikei1,Structures\tikei\tikei1.x
 tikei2,Structures\tikei\tikei2.x
 tikei3,Structures\tikei\tikei3.x
@@ -614,6 +616,7 @@ jrkasenchu_old_2sen,../../Nagoya_Common\Railway_Obj\Pole\Pole1_3.x
 jrkasenchu_1sen_1,../../Nagoya_Common\Railway_Obj\Pole\Pole0_3.x
 jrkasenchu_1sen_2,../../Nagoya_Common\Railway_Obj\Pole\Pole0_4.x
 jrkasenchu_1sen_3,../../Nagoya_Common\Railway_Obj\Pole\Pole0_5.x
+jrkasenchu_1sen_4,Structures\Uchibo\Pole\Pole_VCA_1.x
 #架線柱(パイプ型)　1は端が角形、2は丸型
 Pype_1L,..\..\Nagoya_Common\Railway_Obj\Pole\Pype_1L.x
 Pype_1R,..\..\Nagoya_Common\Railway_Obj\Pole\Pype_1R.x
@@ -629,6 +632,9 @@ kasen_40b,Structures\とまり\Structures\Wire\Trolley40.x
 kasen_15,Structures\とまり\Structures\Wire\Trolley15.x
 kasen_20,Structures\とまり\Structures\Wire\Trolley20.x
 kasen_30,Structures\とまり\Structures\Wire\Trolley30.x
+kasen_35,Structures\とまり\Structures\Wire\Trolley35.x
+kasen_40b,Structures\とまり\Structures\Wire\Trolley40.x
+kasen_45,Structures\とまり\Structures\Wire\Trolley45.x
 kasen_50,Structures\とまり\Structures\Wire\Trolley50.x
 
 #ハンガー
