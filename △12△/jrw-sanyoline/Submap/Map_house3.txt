@@ -69,7 +69,7 @@ Repeater['house1'].Begin('douro1',12,0,0,0,0,0,0,10,20,'3dhouse15','3dhouse11','
 Repeater['house2'].End();
 structure['3dhouse5'].Put('douro2',-12,0,0,0,0,0,0,0);
 88340;
-Repeater['house'].End();
+Repeater['house1'].End();
 Repeater['ensen'].End();
 88490;
 structure['サンパチ05'].Put('douro1',18,0,0,0,-90,0,0,0);
