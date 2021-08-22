@@ -5,8 +5,8 @@ Repeater['架線'].Begin0(, 1, 50, 50, 'kasen_50');
 Repeater['架線1'].Begin0('sanyonobori', 1, 50, 50, 'kasen_50');
 
 84140;
-Repeater['架線2'].Begin0('sandenkudari', 1, 23, 23, 'kasen_40a','kasen_40b');
-Repeater['架線3'].Begin0('sandennobori', 1, 23, 23, 'kasen_40a','kasen_40b');
+Repeater['架線2'].Begin0('sandenkudari', 1, 23, 23, 'kasen_40');
+Repeater['架線3'].Begin0('sandennobori', 1, 23, 23, 'kasen_40');
 
 84426;
 Repeater['架線2'].End();
@@ -109,7 +109,7 @@ Repeater['架線4'].Begin0('jyouge', 1, 20, 20, 'kasen_20');
 Repeater['架線5'].Begin0('akose', 1, 15, 15, 'kasen_15');
 104759;
 Repeater['架線4'].End();
-Repeater['架線5'].Begin0('akose', 1, 40, 40, 'kasen_40a');
+Repeater['架線5'].Begin0('akose', 1, 40, 40, 'kasen_40');
 104760;
 Repeater['架線'].Begin0(, 1, 20, 20, 'kasen_20');
 #Repeater['架線1'].Begin0('sanyonobori', 1, 20, 20, 'kasen_20');
@@ -1033,54 +1033,295 @@ structure['jrkasenchu-7B'].Put(0,0,-0.5,0,0,0,0,0,0);
 119542;
 repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,50,50,'nomalkasenchu-chou','nomalkasenchu-tan');
 repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,50,50,'nomalkasenchu-tan','nomalkasenchu-chou');
-121242;
+121233;
+#踏切4(目印)
+Repeater['jrkasenchu-nobori'].End();
+Repeater['jrkasenchu-kudari'].End();
+121268;
 repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,30,30,'jrkasenchu-chou');
 repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,30,30,'nomalkasenchu-tan');
-121962;
-repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,60,60,'nomalkasenchu-chou');
-repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,60,60,'nomalkasenchu-tan');
-122562;
+Repeater['架線'].Begin0('sanyokudari', 1, 30, 30, 'kasen_30');
+Repeater['架線1'].Begin0('sanyonobori', 1, 30, 30, 'kasen_30');
+#30m間隔
+122018;
+Repeater['架線'].Begin0('sanyokudari', 1, 40, 40, 'kasen_40');
+Repeater['架線1'].Begin0('sanyonobori', 1, 40, 40, 'kasen_40');
+repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,40,40,'jrkasenchu-chou');
+repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,40,40,'nomalkasenchu-tan');
+#これより40m間隔
+122098;
+Repeater['架線'].Begin0('sanyokudari', 1, 45, 45, 'kasen_45');
+Repeater['架線1'].Begin0('sanyonobori', 1, 45, 45, 'kasen_45');
+repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,45,45,'nomalkasenchu-chou','nomalkasenchu-tan');
+repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,45,45,'nomalkasenchu-tan','nomalkasenchu-chou');
+#45m
+122143;
+Repeater['架線'].Begin0('sanyokudari', 1, 50, 50, 'kasen_50');
+Repeater['架線1'].Begin0('sanyonobori', 1, 50, 50, 'kasen_50');
+repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,50,50,'nomalkasenchu-chou','nomalkasenchu-tan');
+repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,50,50,'nomalkasenchu-tan','nomalkasenchu-chou');
+#50m
+122443;
+Repeater['架線'].Begin0('sanyokudari', 1, 60, 60, 'kasen_60');
+Repeater['架線1'].Begin0('sanyonobori', 1, 60, 60, 'kasen_60');
 repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,60,60,'nomalkasenchu-chou','nomalkasenchu-tan');
 repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,60,60,'nomalkasenchu-tan','nomalkasenchu-chou');
-123342;
-repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,30,30,'nomalkasenchu-chou');
-repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,30,30,'nomalkasenchu-tan');
-123611;
-repeater['jrkasenchu-kudari'].End();
-repeater['jrkasenchu-nobori'].End();
-123622;
+#60m
+122983;
+Repeater['架線'].Begin0('sanyokudari', 1, 50, 50, 'kasen_50');
+Repeater['架線1'].Begin0('sanyonobori', 1, 50, 50, 'kasen_50');
+repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,50,50,'nomalkasenchu-chou','nomalkasenchu-tan');
+repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,50,50,'nomalkasenchu-tan','nomalkasenchu-chou');
+#50m
+123133;
+Repeater['架線'].Begin0('sanyokudari', 1, 60, 60, 'kasen_60');
+Repeater['架線1'].Begin0('sanyonobori', 1, 60, 60, 'kasen_60');
 repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,60,60,'nomalkasenchu-chou','nomalkasenchu-tan');
 repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,60,60,'nomalkasenchu-tan','nomalkasenchu-chou');
-124102;
-repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,30,30,'jrkasenchu-tan');
-repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,30,30,'jrkasenchu-chou');
-124672;
+#60m
+123433;
+Repeater['架線'].Begin0('sanyokudari', 1, 50, 50, 'kasen_50');
+Repeater['架線1'].Begin0('sanyonobori', 1, 50, 50, 'kasen_50');
 repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,50,50,'nomalkasenchu-chou','nomalkasenchu-tan');
 repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,50,50,'nomalkasenchu-tan','nomalkasenchu-chou');
-124912;
+#50m
+123483;
+Repeater['架線'].Begin0('sanyokudari', 1, 40, 40, 'kasen_40');
+Repeater['架線1'].Begin0('sanyonobori', 1, 40, 40, 'kasen_40');
+repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,40,40,'nomalkasenchu-chou');
+repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,40,40,'nomalkasenchu-tan');
+#40m
+123523;
+Repeater['架線'].Begin0('sanyokudari', 1, 30, 30, 'kasen_30');
+Repeater['架線1'].Begin0('sanyonobori', 1, 30, 30, 'kasen_30');
 repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,30,30,'nomalkasenchu-chou');
 repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,30,30,'nomalkasenchu-tan');
-125032;
+#30m
+123823;
+Repeater['架線'].Begin0('sanyokudari', 1, 40, 40, 'kasen_40');
+Repeater['架線1'].Begin0('sanyonobori', 1, 40, 40, 'kasen_40');
+repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,40,40,'nomalkasenchu-chou','nomalkasenchu-tan');
+repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,40,40,'nomalkasenchu-tan','nomalkasenchu-chou');
+#40m
+123863;
+Repeater['架線'].Begin0('sanyokudari', 1, 50, 50, 'kasen_50');
+Repeater['架線1'].Begin0('sanyonobori', 1, 50, 50, 'kasen_50');
 repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,50,50,'nomalkasenchu-chou','nomalkasenchu-tan');
 repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,50,50,'nomalkasenchu-tan','nomalkasenchu-chou');
-126232;
-repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,30,30,'nomalkasenchu-chou');
-repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,30,30,'nomalkasenchu-tan');
-126412;
+#50m
+123913;
+Repeater['架線'].Begin0('sanyokudari', 1, 60, 60, 'kasen_60');
+Repeater['架線1'].Begin0('sanyonobori', 1, 60, 60, 'kasen_60');
+repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,60,60,'nomalkasenchu-chou','nomalkasenchu-tan');
+repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,60,60,'nomalkasenchu-tan','nomalkasenchu-chou');
+#60m
+124033;
+Repeater['架線'].Begin0('sanyokudari', 1, 50, 50, 'kasen_50');
+Repeater['架線1'].Begin0('sanyonobori', 1, 50, 50, 'kasen_50');
 repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,50,50,'nomalkasenchu-chou','nomalkasenchu-tan');
 repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,50,50,'nomalkasenchu-tan','nomalkasenchu-chou');
-126452;
+#50m
+124333;
+Repeater['架線'].Begin0('sanyokudari', 1, 60, 60, 'kasen_60');
+Repeater['架線1'].Begin0('sanyonobori', 1, 60, 60, 'kasen_60');
+repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,60,60,'nomalkasenchu-chou','nomalkasenchu-tan');
+repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,60,60,'nomalkasenchu-tan','nomalkasenchu-chou');
+#60m
+124633;
+Repeater['架線'].Begin0('sanyokudari', 1, 50, 50, 'kasen_50');
+Repeater['架線1'].Begin0('sanyonobori', 1, 50, 50, 'kasen_50');
+repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,50,50,'nomalkasenchu-chou','nomalkasenchu-tan');
+repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,50,50,'nomalkasenchu-tan','nomalkasenchu-chou');
+#50m
+124683;
+Repeater['架線'].Begin0('sanyokudari', 1, 40, 40, 'kasen_40');
+Repeater['架線1'].Begin0('sanyonobori', 1, 40, 40, 'kasen_40');
+repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,40,40,'nomalkasenchu-chou','nomalkasenchu-tan');
+repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,40,40,'nomalkasenchu-tan','nomalkasenchu-chou');
+#40m
+124723;
+Repeater['架線'].Begin0('sanyokudari', 1, 30, 30, 'kasen_30');
+Repeater['架線1'].Begin0('sanyonobori', 1, 30, 30, 'kasen_30');
 repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,30,30,'nomalkasenchu-tan');
 repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,30,30,'nomalkasenchu-chou');
-126542;
-repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,50,50,'nomalkasenchu-tan');
-repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,50,50,'nomalkasenchu-chou');
-127142;
+#30m
+125083;
+#配電柱(鉄柱より給電)
+125293;
+Repeater['架線'].Begin0('sanyokudari', 1, 40, 40, 'kasen_40');
+Repeater['架線1'].Begin0('sanyonobori', 1, 40, 40, 'kasen_40');
+repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,40,40,'nomalkasenchu-chou','nomalkasenchu-tan');
+repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,40,40,'nomalkasenchu-tan','nomalkasenchu-chou');
+#40m
+125493;
+Repeater['架線'].Begin0('sanyokudari', 1, 30, 30, 'kasen_30');
+Repeater['架線1'].Begin0('sanyonobori', 1, 30, 30, 'kasen_30');
+repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,30,30,'nomalkasenchu-chou');
+repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,30,30,'nomalkasenchu-tan');
+#30m
+125523;
+Repeater['架線'].Begin0('sanyokudari', 1, 40, 40, 'kasen_40');
+Repeater['架線1'].Begin0('sanyonobori', 1, 40, 40, 'kasen_40');
+repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,40,40,'nomalkasenchu-chou','nomalkasenchu-tan');
+repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,40,40,'nomalkasenchu-tan','nomalkasenchu-chou');
+#40m
+125563;
+Repeater['架線'].Begin0('sanyokudari', 1, 30, 30, 'kasen_30');
+Repeater['架線1'].Begin0('sanyonobori', 1, 30, 30, 'kasen_30');
+repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,30,30,'nomalkasenchu-chou','nomalkasenchu-tan');
+repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,30,30,'nomalkasenchu-tan','nomalkasenchu-chou');
+#30m
+125593;
+Repeater['架線'].Begin0('sanyokudari', 1, 40, 40, 'kasen_40');
+Repeater['架線1'].Begin0('sanyonobori', 1, 40, 40, 'kasen_40');
+repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,40,40,'nomalkasenchu-chou','nomalkasenchu-tan');
+repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,40,40,'nomalkasenchu-tan','nomalkasenchu-chou');
+#40m
+125713;
+Repeater['架線'].Begin0('sanyokudari', 1, 50, 50, 'kasen_50');
+Repeater['架線1'].Begin0('sanyonobori', 1, 50, 50, 'kasen_50');
 repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,50,50,'nomalkasenchu-chou','nomalkasenchu-tan');
 repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,50,50,'nomalkasenchu-tan','nomalkasenchu-chou');
-128302;
-repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,30,30,'nomalkasenchu-chou');
-128392;
-#内房線同梱のトラス柱4を使用
-128422;
-#同上
+#50m
+125813;
+Repeater['架線'].Begin0('sanyokudari', 1, 60, 60, 'kasen_60');
+Repeater['架線1'].Begin0('sanyonobori', 1, 60, 60, 'kasen_60');
+repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,60,60,'nomalkasenchu-chou','nomalkasenchu-tan');
+repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,60,60,'nomalkasenchu-tan','nomalkasenchu-chou');
+#60m
+126593;
+Repeater['架線'].Begin0('sanyokudari', 1, 50, 50, 'kasen_50');
+Repeater['架線1'].Begin0('sanyonobori', 1, 50, 50, 'kasen_50');
+repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,50,50,'nomalkasenchu-chou','nomalkasenchu-tan');
+repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,50,50,'nomalkasenchu-tan','nomalkasenchu-chou');
+#50m
+126643;
+Repeater['架線'].Begin0('sanyokudari', 1, 40, 40, 'kasen_40');
+Repeater['架線1'].Begin0('sanyonobori', 1, 40, 40, 'kasen_40');
+repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,40,40,'nomalkasenchu-chou','nomalkasenchu-tan');
+repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,40,40,'nomalkasenchu-tan','nomalkasenchu-chou');
+#40m
+126843;
+Repeater['架線'].Begin0('sanyokudari', 1, 50, 50, 'kasen_50');
+Repeater['架線1'].Begin0('sanyonobori', 1, 50, 50, 'kasen_50');
+repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,50,50,'nomalkasenchu-chou','nomalkasenchu-tan');
+repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,50,50,'nomalkasenchu-tan','nomalkasenchu-chou');
+#50m
+126893;
+Repeater['架線'].Begin0('sanyokudari', 1, 30, 30, 'kasen_30');
+Repeater['架線1'].Begin0('sanyonobori', 1, 30, 30, 'kasen_30');
+repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,30,30,'nomalkasenchu-chou','nomalkasenchu-tan');
+repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,30,30,'nomalkasenchu-tan','nomalkasenchu-chou');
+#30m
+126953;
+Repeater['架線'].Begin0('sanyokudari', 1, 35, 35, 'kasen_35');
+Repeater['架線1'].Begin0('sanyonobori', 1, 35, 35, 'kasen_35');
+repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,35,35,'nomalkasenchu-chou','nomalkasenchu-tan');
+repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,35,35,'nomalkasenchu-tan','nomalkasenchu-chou');
+#35m
+127048;
+Repeater['架線'].Begin0('sanyokudari', 1, 40, 40, 'kasen_40');
+Repeater['架線1'].Begin0('sanyonobori', 1, 40, 40, 'kasen_40');
+repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,40,40,'nomalkasenchu-chou','nomalkasenchu-tan');
+repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,40,40,'nomalkasenchu-tan','nomalkasenchu-chou');
+#40m
+127368;
+Repeater['架線'].Begin0('sanyokudari', 1, 50, 50, 'kasen_50');
+Repeater['架線1'].Begin0('sanyonobori', 1, 50, 50, 'kasen_50');
+repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,50,50,'nomalkasenchu-chou','nomalkasenchu-tan');
+repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,50,50,'nomalkasenchu-tan','nomalkasenchu-chou');
+#50m
+127418;
+Repeater['架線'].Begin0('sanyokudari', 1, 60, 60, 'kasen_60');
+Repeater['架線1'].Begin0('sanyonobori', 1, 60, 60, 'kasen_60');
+repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,60,60,'nomalkasenchu-chou','nomalkasenchu-tan');
+repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,60,60,'nomalkasenchu-tan','nomalkasenchu-chou');
+#60m
+127838;
+Repeater['架線'].Begin0('sanyokudari', 1, 50, 50, 'kasen_50');
+Repeater['架線1'].Begin0('sanyonobori', 1, 50, 50, 'kasen_50');
+repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,50,50,'nomalkasenchu-chou','nomalkasenchu-tan');
+repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,50,50,'nomalkasenchu-tan','nomalkasenchu-chou');
+#50m
+128188;
+Repeater['架線'].Begin0('sanyokudari', 1, 60, 60, 'kasen_60');
+Repeater['架線1'].Begin0('sanyonobori', 1, 60, 60, 'kasen_60');
+repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,60,60,'nomalkasenchu-chou','nomalkasenchu-tan');
+repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,60,60,'nomalkasenchu-tan','nomalkasenchu-chou');
+#60m
+128308;
+Repeater['架線'].Begin0('sanyokudari', 1, 50, 50, 'kasen_50');
+Repeater['架線1'].Begin0('sanyonobori', 1, 50, 50, 'kasen_50');
+repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,50,50,'nomalkasenchu-chou','nomalkasenchu-tan');
+repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,50,50,'nomalkasenchu-tan','nomalkasenchu-chou');
+#50m
+128358;
+Repeater['架線'].Begin0('sanyokudari', 1, 40, 40, 'kasen_40');
+Repeater['架線1'].Begin0('sanyonobori', 1, 40, 40, 'kasen_40');
+repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,40,40,'nomalkasenchu-chou','nomalkasenchu-tan');
+repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,40,40,'nomalkasenchu-tan','nomalkasenchu-chou');
+#40m
+128398;
+repeater['jrkasenchu-kudari'].End();
+repeater['jrkasenchu-nobori'].End();
+#40m終端
+128438;
+Repeater['架線'].Begin0('sanyokudari', 1, 35, 35, 'kasen_35');
+Repeater['架線1'].Begin0('sanyonobori', 1, 35, 35, 'kasen_35');
+repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,35,35,'jrkasenchu_1sen_4');
+#トラス(単線用)
+128473;
+repeater['jrkasenchu-kudari'].End();
+#トラス(単線用)
+
+129620;
+#TN終わり
+129655;
+#30m
+129745;
+#40m
+129785;
+#50m
+129835;
+#70m
+129905;
+#50m
+130355;
+#60m
+130475;
+#60m終端
+130570;
+#40m
+130610;
+#50m
+130710;
+#60m
+130780;
+#トラス柱
+130830;
+#トラス柱
+130880;
+#トラス柱
+130925;
+#トラス柱
+130965;
+#トラス柱
+131015;
+#トラス柱
+131065;
+#トラス柱
+131115;
+#トラス柱(ホーム刺さり)
+131155;
+#トラス柱
+131190;
+#トラス柱
+131235;
+#トラス柱
+131285;
+#トラス柱
+131325;
+#トラス柱(ホーム刺さり最後)
+
+
+

@@ -1,22 +1,22 @@
-BveTs Map 2.00:shift_jis
-#‰Ëü
+BveTs Map 2.00:UTF-8
+#æ¶ç·š
 82000;
-Repeater['‰Ëü4'].Begin0('sanyokudari', 1, 40, 40, 'kasen_40a','kasen_40b');
-Repeater['‰Ëü5'].Begin0('hime6', 1, 40, 40, 'kasen_40a','kasen_40b');
-Repeater['‰Ëü6'].Begin0('hime7', 1, 40, 40, 'kasen_40a','kasen_40b');
+Repeater['æ¶ç·š4'].Begin0('sanyokudari', 1, 40, 40, 'kasen_40');
+Repeater['æ¶ç·š5'].Begin0('hime6', 1, 40, 40, 'kasen_40');
+Repeater['æ¶ç·š6'].Begin0('hime7', 1, 40, 40, 'kasen_40');
 83970;
-Repeater['‰Ëü7'].Begin0('watari1', 1, 40, 40, 'kasen_40a','kasen_40b');
-Repeater['‰Ëü8'].Begin0('watari2', 1, 40, 40, 'kasen_40a','kasen_40b');
+Repeater['æ¶ç·š7'].Begin0('watari1', 1, 40, 40, 'kasen_40');
+Repeater['æ¶ç·š8'].Begin0('watari2', 1, 40, 40, 'kasen_40');
 84030;
-Repeater['‰Ëü7'].End();
-Repeater['‰Ëü8'].End();
+Repeater['æ¶ç·š7'].End();
+Repeater['æ¶ç·š8'].End();
 84100;
-Repeater['‰Ëü5'].End();
-Repeater['‰Ëü6'].End();
+Repeater['æ¶ç·š5'].End();
+Repeater['æ¶ç·š6'].End();
 84140;
-Repeater['‰Ëü4'].End();
+Repeater['æ¶ç·š4'].End();
 
-#‰Ëü’Œ
+#æ¶ç·šæŸ±
 83845;
 structure['Pype_1L'].Put('hime7',-14,0,0,0,0,0,0,2);
 structure['Pype_CR'].Put('hime7',-14,0,0,0,0,0,0,2);
