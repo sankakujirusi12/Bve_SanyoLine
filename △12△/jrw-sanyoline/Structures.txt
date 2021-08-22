@@ -262,14 +262,12 @@ BlankR_03,Structures\Uchibo\Dike\blank_R03.x
 #地理院地図3Dデータ
 tikei1(hime_aho),Structures\tikei\tikei1(hime_aho).x
 tikei2(hime_aho),Structures\tikei\tikei2(hime_aho).x
-tikei1,Structures\tikei\tikei1.x
-tikei2,Structures\tikei\tikei2.x
-tikei3,Structures\tikei\tikei3.x
-tikei4,Structures\tikei\tikei4.x
-tikei5,Structures\tikei\tikei5.x
-tikei6,Structures\tikei\tikei6.x
-tikei7,Structures\tikei\tikei7.x
-tikei8,Structures\tikei\tikei8.x
+tikei1(kami_mitsu),Structures\tikei\tikei1(kami_mitsu).x
+tikei2(kami_mitsu),Structures\tikei\tikei2(kami_mitsu).x
+tikei3(kami_mitsu),Structures\tikei\tikei3(kami_mitsu).x
+tikei4(kami_mitsu),Structures\tikei\tikei4(kami_mitsu).x
+tikei5(kami_mitsu),Structures\tikei\tikei5(kami_mitsu).x
+tikei6(kami_mitsu),Structures\tikei\tikei6(kami_mitsu).x
 
 
 #------------------------------------------------------------------横取-------------------------------------------------------------------
@@ -626,16 +624,14 @@ Pype_CL,..\..\Nagoya_Common\Railway_Obj\Pole\Pype_CL.x
 Pype_CR,..\..\Nagoya_Common\Railway_Obj\Pole\Pype_CR.x
 
 #架線
-kasen_40a,Structures\とまり\Structures\Wire\Trolley40.x
-kasen_40b,Structures\とまり\Structures\Wire\Trolley40.x
-
 kasen_15,Structures\とまり\Structures\Wire\Trolley15.x
 kasen_20,Structures\とまり\Structures\Wire\Trolley20.x
 kasen_30,Structures\とまり\Structures\Wire\Trolley30.x
 kasen_35,Structures\とまり\Structures\Wire\Trolley35.x
-kasen_40b,Structures\とまり\Structures\Wire\Trolley40.x
+kasen_40,Structures\とまり\Structures\Wire\Trolley40.x
 kasen_45,Structures\とまり\Structures\Wire\Trolley45.x
 kasen_50,Structures\とまり\Structures\Wire\Trolley50.x
+kasen_60,Structures\とまり\Structures\Wire\Trolley60.x
 
 #ハンガー
 wirehanger0,Structures\とまり\Structures\Pole\DropC.x
@@ -1416,8 +1412,8 @@ for_White,Structures\initG\initg_ecset\113_18_n.x
 #223系用
 223-2000taillight,Structures\headlight\light_223tail.x
 #先頭
-223-2000light1,Structures\saha209\223-2000\223-2000light1.x
-223-2000light2,Structures\saha209\223-2000\223-2000light2.x
+223-2000light1,Structures\saha209\223-2000\223-2000light2.x
+223-2000light2,Structures\saha209\223-2000\223-2000light1.x
 223-2000light3,Structures\saha209\223-2000\223-2000light3.x
 #EF210用
 EF210light,Structures\headlight\light_EF210.x
