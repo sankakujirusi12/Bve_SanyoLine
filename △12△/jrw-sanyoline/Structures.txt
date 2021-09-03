@@ -378,7 +378,7 @@ Ballast_25,Structures\Ntfiv\GeneralStr_png\Rail\Ballast01\BallastPC_K_25.x
 Ballast_old,../../Nagoya_Common\Railway_Obj\Discontinued\Tie1.x
 Ballast_1435,../../Nagoya_Common\Railway_Obj\Rail\Han_Line\Ballast.x
 Ballast_gr,Structures\Ntfiv\GeneralStr_png\Rail\Ballast01\Ballastwithoutrail.x
-
+Ballast_gr_25,Structures\Ntfiv\GeneralStr_png\Rail\Ballast01\Ballastwithoutrail_25.x
 
 Slab,Structures\Ntfiv\GeneralStr_png\Wall\Slab_W2_5m.x
 Slab_teimen,Structures\Ntfiv\GeneralStr_png\Wall\teimen.x
@@ -1062,7 +1062,7 @@ M115-3500_30n,Structures\115\1000_ok30N\3500\M115b.x
 Tc'115-1000o_makki30n,Structures\115\1000_ok_y\Tc115b_m.x
 Tc115-1101_makki30n,Structures\FTN\JRW115-Y\Tc115-1101.x
 Mc115-301_makki30n,Structures\FTN\JRW115-Y\Mc115-301.x
-Mc115-1653_makki30n,Structures\FTN\JRW115-Y\Mc115-1653.x
+Mc115-1653_makki30n,Structures\115\1000_ok_y\Mc115_1653_m.x
 Mc115-1501_makki30n,Structures\115\1000_ok_y\Mc115_m.x
 Tc115-301o_makki30n,Structures\FTN\JRW115-Y\Tc115-301o.x
 Tc'115-302o_makki30n,Structures\FTN\JRW115-Y\Tc115-302o.x
