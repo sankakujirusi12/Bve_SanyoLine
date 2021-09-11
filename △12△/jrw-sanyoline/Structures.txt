@@ -908,7 +908,7 @@ Mc'102-3500b_40n_r,Structures\103\Mc'102-3500b_40n_r.x
 
 #Mc103-3500_40n_r,../../../../103\Tc103.x
 #Mc'102-3500b_40n_r,../../../../103\T103.x
-T103_40n_o,Structures\103\T103_40n_o.x
+T103_40n_o,Structures\103_40N\T103.x
 Tc103_NA_b,Structures\103_NA\103_hine\103_Tc.x
 Tc'103_NA_b,Structures\103_NA\103_hine\103_Tc2.x
 M103_NA_b,Structures\103_NA\103_hine\103_MP.x
