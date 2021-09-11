@@ -45,7 +45,7 @@ Train['HOT'].Enable('07:21:00');
 Train['5730M'].Enable('07:04:00');
 Train['738T'].Enable('07:04:00');
 Train['5732T'].Enable('07:07:30');
-Train['56'].Enable('07:24:00');
+Train['56'].Enable('07:04:00');
 Train['sandenlocal'].Enable('07:05:45');
 Train['738T'].Stop(3, 30, 2.5, 100);
 Train['3426M'].Stop(3, 30, 2.5, 100);
@@ -143,3 +143,7 @@ Train['738T'].Stop(3, 30, 2.5, 100);
 Train['HOT'].Stop(0, 0, 0, 0);
 
 #56ƒŒ‚Í‰¼‚É—L”N”­(Š¾)
+
+131075;
+#OÎ
+Train['56'].Stop(3, 30, 25, 70);
