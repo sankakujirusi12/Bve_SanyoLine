@@ -1,4 +1,4 @@
-BveTs Map 2.00:UTF-8
+﻿BveTs Map 2.00:UTF-8
 #山陽本線 201? (上郡～岡山)
 
 #参考になるかは分かりませんが、おおまかな地形・設備については#で記述してあります。
@@ -10,6 +10,7 @@ repeater['wallR'].Begin('chizu',-0.2,0,0,0,0,0,3,5,5,'shinkan_wallR');
 repeater['ballast12'].End();
 	Track['gawa_kami12'].Position(-4,0);
 	Repeater['bushL'].Begin0(0, 1, 25, 25, 'bush_L01','bush_L02','bush_L03');
+	Repeater['bushR'].Begin0('sanyonobori', 1, 25, 25, 'bush_R01','bush_R02','bush_R03');
 119232;
 Repeater['bushes3'].Begin('Grass',-4,-2,0,0,0,0,0,22,22,,'bush3',,'bush2','bush1',);
 Repeater['bushes1'].Begin('Grass',-5,-1,0,0,0,0,0,60,60,'bush1',,'bush2','bush3',);
@@ -22,6 +23,36 @@ repeater['Dike_L2'].End();
 repeater['Dike_R2'].End();
 repeater['teimen'].Begin('chizu',0,0,0,0,0,0,0,25,25,'WallUnder');
 repeater['teimen2'].Begin('chizu',0,0,0,0,0,0,1,5,5,'chizuteimen');
+119299;
+Structure['BlankR_01'].PutBetween('0', 'sanyonobori');
+119374;
+Structure['BlankR_01'].PutBetween('0', 'sanyonobori');
+119449;
+Structure['BlankR_01'].PutBetween('0', 'sanyonobori');
+119524;
+Structure['BlankR_01'].PutBetween('0', 'sanyonobori');
+119599;
+Structure['BlankR_01'].PutBetween('0', 'sanyonobori');
+119324;
+Structure['BlankR_02'].PutBetween('0', 'sanyonobori');
+119399;
+Structure['BlankR_02'].PutBetween('0', 'sanyonobori');
+119474;
+Structure['BlankR_02'].PutBetween('0', 'sanyonobori');
+119549;
+Structure['BlankR_02'].PutBetween('0', 'sanyonobori');
+119624;
+Structure['BlankR_02'].PutBetween('0', 'sanyonobori');
+119349;
+Structure['BlankR_03'].PutBetween('0', 'sanyonobori');
+119424;
+Structure['BlankR_03'].PutBetween('0', 'sanyonobori');
+119499;
+Structure['BlankR_03'].PutBetween('0', 'sanyonobori');
+119574;
+Structure['BlankR_03'].PutBetween('0', 'sanyonobori');
+119649;
+Structure['BlankR_03'].PutBetween('0', 'sanyonobori');
 119342;
 Curve.Interpolate(0, 0);
 Track['sanyonobori'].Cant.Interpolate(0);
@@ -34,6 +65,9 @@ Gradient.Interpolate(8.6);
 repeater['teimen'].End();
 #智頭4.5
 	Track['sanyonobori'].Position(8,0);
+	Track['Grass2'].Position(0,-0.45);
+Repeater['DikeL'].Begin0(, 1, 5, 5, 'DikeL_1','DikeL_2','DikeL_3');
+Repeater['DikeR'].Begin0('sanyonobori', 1, 5, 5, 'DikeR_1','DikeR_2','DikeR_3');
 119452;
 structure['Pier_sk'].Put('sanyonobori',4,0,0,0,0,0,0,0);
 119482;
@@ -48,31 +82,85 @@ Repeater['bushR'].End();
 119666;
 Gradient.Interpolate(1.6);
 119670;
+structure['Levee_B'].Put(0,-0.5,0,0,0,0,0,0,2);
+	Track['Grass2'].Position(0,-4.45);
 	Track['sanyonobori'].Position(10,0);
 	Track['chizu'].Position(84,6.5,0);
 repeater['teimen2'].End();
 repeater['wallL'].End();
 repeater['wallR'].End();
+Repeater['DikeL'].End();
+Repeater['DikeR'].End();
 repeater['ballast6'].End();
 #橋梁
 repeater['BridgeL'].Begin(0,0,0,0,0,0,0,1,25,25,'BridgeL');
 repeater['BridgeR'].Begin(0,0,0,0,0,0,0,1,25,25,'BridgeR');
 repeater['BridgeL1'].Begin('sanyonobori',0,0,0,0,0,0,1,25,25,'BridgeL');
 repeater['BridgeR1'].Begin('sanyonobori',0,0,0,0,0,0,1,25,25,'BridgeR');
+repeater['River'].Begin('Grass2',0,0,0,0,0,0,1,25,25,'River');
+119700;
+structure['Pier'].Put(0,-0.5,0,0,0,0,0,0,2);
+structure['Pier'].Put('sanyonobori',-0.5,0,0,0,0,0,0,2);
 119758;
+structure['Levee_B'].Put(0,-0.5,0,0,0,0,0,0,2);
 repeater['BridgeL'].End();
 repeater['BridgeR'].End();
 repeater['BridgeL1'].End();
 repeater['BridgeR1'].End();
 #橋梁終わり
+repeater['River'].End();
+	Track['Grass2'].Position(0,-4.45);
 	Track['sanyonobori'].Position(10,0);
+	Repeater['bushL'].Begin0(0, 1, 25, 25, 'bush_L01','bush_L02','bush_L03');
+	Repeater['bushR'].Begin0('sanyonobori', 1, 25, 25, 'bush_R01','bush_R02','bush_R03');
+	Repeater['Grass2'].Begin('Grass2',0,0,0,0,0,0,1,25,25,'Grass');
+	Structure['BlankR_01'].PutBetween('0', 'sanyonobori');
+119783;
+Structure['BlankR_02'].PutBetween('0', 'sanyonobori');
 119708;
 curve.BeginTransition();
 119808;
+Repeater['bushL'].End();
+Repeater['bushR'].End();
 curve.Begin(650,0.085);
 #橋梁カーブ[R650右]
+Repeater['Grass2'].End();
+Repeater['Ballast'].End();
+Repeater['Ballast1'].End();
+Repeater['Ballast'].Begin(,0,0,0,0,0,0,3,5,5,'BridgeRail_5');
+Repeater['Ballast1'].Begin('sanyonobori',0,0,0,0,0,0,3,5,5,'BridgeRail_5');
+repeater['Bridge'].Begin(0,0,0,0,0,0,0,1,5,5,'Bridge1');
+repeater['Bridge1'].Begin(0,0,0,0,0,0,0,1,5,5,'Bridge1L');
+repeater['Bridge2'].Begin('sanyonobori',0,0,0,0,0,0,1,5,5,'Bridge1');
+repeater['Bridge3'].Begin('sanyonobori',0,0,0,0,0,0,1,5,5,'Bridge1R');
+	Track['Grass2'].Position(0,-4.5);
+#橋梁
+structure['Levee_B'].Put(0,-0.5,0,0,0,0,0,0,2);
+repeater['River'].Begin('Grass2',0,0,0,0,0,0,1,25,25,'River');
 119838;
 #橋梁終わり
+Repeater['Grass2'].Begin('Grass2',0,0,0,0,0,0,1,25,25,'Grass');
+structure['Levee_B'].Put(0,-0.5,0,0,0,0,0,0,2);
+Repeater['Ballast'].End();
+Repeater['Ballast1'].End();
+Repeater['Bridge'].End();
+Repeater['Bridge1'].End();
+Repeater['Bridge2'].End();
+Repeater['Bridge3'].End();
+Repeater['Ballast'].Begin(,0,0,0,0,0,0,3,5,5,'Ballast');
+Repeater['Ballast1'].Begin('sanyonobori',0,0,0,0,0,0,3,5,5,'Ballast');
+#終わり
+Repeater['River'].End();
+	Track['Grass2'].Position(0,-4.5);
+Repeater['bushL'].Begin0(0, 1, 25, 25, 'bush_L01','bush_L02','bush_L03');
+Repeater['bushR'].Begin0('sanyonobori', 1, 25, 25, 'bush_R01','bush_R02','bush_R03');
+Repeater['DikeL'].Begin0(, 1, 5, 5, 'DikeL_1','DikeL_2','DikeL_3');
+Repeater['DikeR'].Begin0('sanyonobori', 1, 5, 5, 'DikeR_1','DikeR_2','DikeR_3');
+119858;
+Repeater['bushes3'].Begin('Grass',-5,-3,0,0,0,0,0,42,42,,'bush3','bush2','bush1',);
+Repeater['bushes1'].Begin('Grass',-7,-2,0,0,0,0,0,70,70,'bush1',,'bush2','bush3',);
+Repeater['bushes4'].Begin('sanyonobori',7,-2,0,0,0,0,0,62,62,,'bush3','bush2','bush1',);
+Repeater['bushes2'].Begin('sanyonobori',5,-3,0,0,0,0,0,40,40,'bush1',,'bush2','bush3',);
 119878;
 #13閉塞
 119924;
@@ -84,6 +172,8 @@ Gradient.Interpolate(5);
 120090;
 Gradient.Interpolate(1.4);
 120295;
+Repeater['bushes4'].Begin('sanyonobori',7,-1,0,0,0,0,0,62,62,,'bush3','bush2','bush1',);
+Repeater['bushes2'].Begin('sanyonobori',5,-2,0,0,0,0,0,40,40,'bush1',,'bush2','bush3',);
 Curve.Interpolate(650, 0.085);
 120370;
 Curve.Interpolate(0, 0);
@@ -93,7 +183,16 @@ Curve.Interpolate(0, 0);
 Gradient.Interpolate(1.4);
 120441;
 Gradient.Interpolate(4.5);
+120500;
+Repeater['bushes1'].End();
+Repeater['bushes3'].End();
+Repeater['bushes2'].End();
+Repeater['bushes4'].End();
+120563;
+Repeater['bushL'].End();
+Repeater['bushR'].End();
 120588;
+	Track['Grass2'].Position(0,-0.45);
 structure['Cr_L1'].Put(0,0,0,0,0,0,0,0,2);
 structure['Cr_L2'].Put(0,0,0,0,0,0,0,0,2);
 structure['Cr_R2'].Put(0,0,0,0,0,0,0,0,2);
@@ -105,6 +204,14 @@ structure['Cr_R1'].Put('sanyonobori',0,0,0,0,0,0,0,2);
 Sound3D['cross2'].Put(-1.5, 2.3);
 Sound3D['cross2'].Put(5.5, 2.3);
 #踏切2
+120598;
+Repeater['bushL'].Begin0(0, 1, 25, 25, 'bush_L01','bush_L02','bush_L03');
+Repeater['bushR'].Begin0('sanyonobori', 1, 25, 25, 'bush_R01','bush_R02','bush_R03');
+120613;
+	Track['Grass2'].Position(0,-1.45);
+120972;
+Repeater['bushL'].End();
+Repeater['bushR'].End();
 120997;
 structure['Cr_L1'].Put(0,0,0,0,0,0,0,0,2);
 structure['Cr_L2'].Put(0,0,0,0,0,0,0,0,2);
@@ -117,7 +224,11 @@ structure['Cr_R1'].Put('sanyonobori',0,0,0,0,0,0,0,2);
 Sound3D['cross2'].Put(-1.5, 2.3);
 Sound3D['cross2'].Put(5.5, 2.3);
 #踏切3
+121007;
+Repeater['bushL'].Begin0(0, 1, 25, 25, 'bush_L01','bush_L02','bush_L03');
+Repeater['bushR'].Begin0('sanyonobori', 1, 25, 25, 'bush_R01','bush_R02','bush_R03');
 121133;
+Track['sanyonobori'].Cant.Interpolate(0);
 Curve.Interpolate(0, 0);
 121183;
 #制限80標(高性能車用)
@@ -126,10 +237,9 @@ Curve.Interpolate(0, 0);
 Gradient.Interpolate(4.5);
 121101;
 Gradient.Interpolate(9);
-121350;
-structure['tikei1'].Put(0,0,-6,0,0,0,0,0,2);
-121500;
-structure['tikei2'].Put(0,0,-6,0,0,30,0,0,2);
+121208;
+Repeater['bushL'].End();
+Repeater['bushR'].End();
 121233;
 #踏切4
 structure['Cr1_L1'].Put(0,0,0,0,0,0,0,0,2);
@@ -142,97 +252,104 @@ structure['Cr1_R2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
 structure['Cr1_R1'].Put('sanyonobori',0,0,0,0,0,0,0,2);
 Sound3D['cross2'].Put(-1.5, 2.3);
 Sound3D['cross2'].Put(5.5, 2.3);
-121650;
-structure['tikei3'].Put(0,0,-6,0,0,30,0,0,2);
+	Track['Grass2'].Position(0,-1.45);
+Repeater['DikeL'].Begin('sanyokudari',-1.5,0,0,0,0,0,1,5,5,'DikeL_1','DikeL_2','DikeL_3');
+Repeater['DikeR'].Begin('sanyonobori',1.5,0,0,0,0,0,1,5,5,'DikeR_1','DikeR_2','DikeR_3');
+Repeater['blankL'].Begin('sanyokudari',0.5,0,0,0,0,0,1,25,25,'blankL_01','blankL_02','blankL_03');
+Repeater['blankR'].Begin('sanyonobori',-0.5,0,0,0,0,0,1,25,25,'blankR_01','blankR_02','blankR_03');
+121243;
+Repeater['bushL'].Begin('sanyokudari',-1.5,-0.8,0,0,0,0,1,25,25,'bush_L03','bush_L02','bush_L01');
+Repeater['bushR'].Begin('sanyonobori',1.5,-0.8,0,0,0,0,1,25,25,'bush_R01','bush_R03','bush_R02');
+Repeater['bushes2'].Begin('sanyonobori',7,-3,0,0,0,0,0,40,40,'bush1',,'bush2','bush3',);
+121263;
+	Track['Grass2'].Position(0,-1.45);
 121333;
+Track['sanyonobori'].Cant.Interpolate(-0.105);
 Curve.Interpolate(-440, -0.105);
-121800;
-structure['tikei4'].Put(0,0,-6,0,0,0,0,0,2);
+121683;
+#structure['tikei1(kami_mitsu)'].Put(0,0,0,0,0,0,0,0,0);
 121855;
 Curve.Interpolate(-440, -0.105);
-
+Track['sanyonobori'].Cant.Interpolate(-0.105);
+121900;
+	Track['Grass2'].Position(0,-5.45);
+#橋梁
+121905;
+#橋梁終わり
 121955;
+Track['sanyonobori'].Cant.Interpolate(0);
 Curve.Interpolate(0, 0);
 #カーブ終わり
-122136;
-curve.BeginTransition();
-122179;
+122155;
 #橋梁
-122196;
-curve.Begin(-800,-0.06);
+122175;
 #橋梁終わり
-#カーブ[R800左]
+curve.BeginTransition();
 122233;
+curve.Begin(-800,-0.06);
 Gradient.Interpolate(9);
 122238;
 Gradient.Interpolate(9.3);
-122100;
-#structure['tikei5'].Put(0,0,6,0,0,0,0,0,2);
-122230;
-structure['tikei6'].Put(0,0,-6,0,0,30,0,0,2);
-122276;
+122416;
 curve.Begin(-800,-0.06);
 #カーブ[R800左]
-122336;
+122476;
 Curve.Interpolate(0, 0);
 #カーブ終わり
-122350;
-structure['tikei7'].Put(0,0,-6,0,0,0,0,0,2);
-122866;
+122966;
 curve.BeginTransition();
-122886;
+122986;
 curve.Begin(1200,0.04);
-#カーブ[R2000右]
-122750;
-structure['tikei8'].Put(0,0,0,0,0,-10,0,0,2);
+#カーブ[R1200右]
 123067;
 Curve.Interpolate(1200, 0.04);
 123087;
 Curve.Interpolate(0, 0);
 #カーブ終わり
-123277;
+123417;
 curve.BeginTransition();
-123387;
+123527;
 curve.Begin(-450,-0.105);
 #カーブ[R450左]
-123534;
+123844;
 Curve.Interpolate(-450, -0.105);
-123644;
+123954;
 Curve.Interpolate(0, 0);
 #カーブ終わり
-123886;
+124154;
 curve.BeginTransition();
-123916;
+124194;
 curve.Begin(1200,0.04);
 #カーブ[R1250右]
-124237;
+124437;
 Curve.Interpolate(1200, 0.04);
-124267;
+124477;
 Curve.Interpolate(0, 0);
 #カーブ終わり
-124477;
+124847;
 	Track['sanyonobori'].Position(4,0);
 curve.BeginTransition();
-124597;
+124947;
 curve.Begin(400,0.105);
 #カーブ[R400右]
-125087;
+125187;
 Curve.Interpolate(400, 0.105);
 125117;
 Gradient.Interpolate(9.3);
 125122;
 Gradient.Interpolate(10);
-125187;
+125287;
 	Track['sanyonobori'].Position(8,0,0);
 Curve.Interpolate(0, 0);
 #カーブ終わり
 curve.BeginTransition();
-125287;
+125367;
 curve.Begin(-600,-0.085);
 #カーブ[R600左]
 125525;
 Curve.Interpolate(-600, -0.085);
 125625;
+	Track['sanyonobori'].Position(4,0);
 Curve.Interpolate(0, 0);
 #カーブ終わり
 126425;
@@ -258,8 +375,8 @@ Curve.Interpolate(0, 0);
 127500;
 	Repeater['bushes3'].Begin('sanyonobori',4.4,-3.7,0,0,0,0,0,20,20,'bush1',,'bush2',,,'bush3');
 	Track['Mt_R'].Position(29,5,0,0);
-	Repeater['Trees2'].Begin('Mt_R',0,-12,0,0,0,0,1,3,3,'tree12',,'tree11','tree13',,,'tree14','tree18','tree15','tree16','tree17');
-	Repeater['Trees3'].Begin('Mt_R',-15,-26,0,0,0,0,1,4,4,,,'tree15','tree14',,'tree12',,'tree17',,'tree12','tree13','tree11','tree15');
+	Repeater['Trees2'].Begin('Mt_R',0,-12,0,0,0,0,1,13,13,'tree12',,'tree11','tree13',,,'tree14','tree18','tree15','tree16','tree17');
+	Repeater['Trees3'].Begin('Mt_R',-15,-26,0,0,0,0,1,14,14,,,'tree15','tree14',,'tree12',,'tree17',,'tree12','tree13','tree11','tree15');
 	repeater['Mt_R1'].Begin('Mt_R',0,0,0,0,0,0,0,55,55,'Mt_R1','Mt_R2');
 127768;
 Curve.Interpolate(0, 0);
@@ -270,6 +387,7 @@ Curve.Interpolate(-800, -0.06);
 	Track['sanyonobori'].Position(4,0,0);
 	Track['concR'].Position(1,-7,0);
 	Repeater['Conc'].Begin('concR',0,0,0,0,0,0,1,10,10,'Rside_Conc1','Rside_Conc2');
+repeater['Ballast_gr'].Begin('',4,-0.05,0,0,0,0,0,25,23,'Ballast_gr_25');
 128008;
 	Repeater['bushes1'].Begin(0,4.4,-4.7,0,0,0,0,0,20,20,'bush1','bush2','bush3');
 	Repeater['bushes2'].Begin(0,4.4,-4.1,1,0,0,0,0,31,31,,'bush1',,'bush2',,'bush3',);
@@ -297,7 +415,7 @@ Curve.Interpolate(0, 0);
 structure['TN1_potal'].Put('sanyonobori',0,0,0,0,0,0,1,2);
 structure['TN1_ent'].Put('sanyonobori',0,0,0,0,0,0,1,5);
 #TN(上り)
-
+repeater['Ballast_gr'].End();
 	Track['Mt_R'].Position(52,25,0,0);
 128253;
 	Repeater['Conc'].Begin(0,1,0,0,0,0,0,1,10,10,'Rside_Conc1','Rside_Conc2');
@@ -476,8 +594,10 @@ repeater['Ballast2'].End();
 131517;
 curve.BeginTransition();
 131617;
-curve.Begin(600,0.085);
-#カーブ[R600右]
+curve.Begin(400,0.105);
+#カーブ[R400右]
+132133;
+curve.Interpolate(400,0.105);
 132233;
 Curve.Interpolate(0, 0);
 #カーブ終わり
@@ -1750,7 +1870,7 @@ Curve.BeginTransition();
 Curve.End();
 #東岡山配線
 164150;
-Track[115].Position(-275,0,-400,0);
+Track[115].Position(-175,0,-400,0);
 repeater['ballast115'].Begin(115,0,0,0,0,0,0,3,5,5,'Ballast');
 164000+300;
 Track['sanyonobori'].Position(4,0,2400,0);
