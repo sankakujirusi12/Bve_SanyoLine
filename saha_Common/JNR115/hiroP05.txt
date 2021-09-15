@@ -1,0 +1,7 @@
+Bvets Vehicle 1.00
+PerformanceCurve = ..\..\Rock_On\Train\JR\Vehicle\113\notch\notch_4.txt
+Parameters = ..\..\Rock_On\Train\JR\Formation\hine\Param\G401.txt
+Panel = panel\hiroP\panel.txt
+Sound = ..\..\Rock_On\Train\JR\Formation\hine\Sound\Tc111-5568.txt
+Ats = ..\..\Rock_On\Train\JR\Formation\hine\Detail\G401\DetailManager.dll
+MotorNoise = ..\..\Rock_On\Train\JR\Vehicle\115\motornoise\motornoise.txt

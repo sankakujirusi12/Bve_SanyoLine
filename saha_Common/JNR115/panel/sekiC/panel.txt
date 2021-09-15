@@ -1,0 +1,416 @@
+BveTs Instrument Panel 2.00
+
+[This]
+Resolution = 2048
+Left = 147
+Top = 1
+Right = 2048
+Bottom = 1700
+Center = 1250, 750
+Origin = 1250, 628
+
+
+[PilotLamp]
+Subject = true
+Location = 0, 0
+DaytimeImage = panel.png
+NighttimeImage = panel_n.png
+Layer = 2
+
+[PilotLamp]
+Subject = true
+Location = 0, 0
+DaytimeImage = ..\okaD\light.png
+Layer = 15
+
+[PilotLamp]
+Subject = true
+Location = 1105, 962
+DaytimeImage = ..\okaD\futa1.png
+NighttimeImage = ..\okaD\futa1_n.png
+Layer = 14
+
+[PilotLamp]
+Subject = true
+Location = 759, 988
+DaytimeImage = ..\okaD\futa2.png
+NighttimeImage = ..\okaD\futa2_n.png
+Layer = 14
+
+[PilotLamp]
+Subject = true
+Location = 944, 988
+DaytimeImage = ..\okaD\futa2.png
+NighttimeImage = ..\okaD\futa2_n.png
+Layer = 14
+
+[PilotLamp]
+Subject = true
+Location = 1442, 988
+DaytimeImage = ..\okaD\futa2.png
+NighttimeImage = ..\okaD\futa2_n.png
+Layer = 14
+
+[PilotLamp]
+Subject = true
+Location = 1570, 928
+DaytimeImage = ..\okaD\futa3.png
+NighttimeImage = ..\okaD\futa3_n.png
+Layer = 14
+
+[PilotLamp]
+Subject = true
+Location = 1756, 928
+DaytimeImage = ..\okaD\futa3.png
+NighttimeImage = ..\okaD\futa3_n.png
+Layer = 14
+
+
+
+;速度計
+[Needle]
+Subject = kmph
+Location = 1137, 992
+DaytimeImage = ..\needle1.png
+NighttimeImage = ..\needle1_n.png
+TransparentColor = 000000
+Origin = 16, 256
+Layer = 6
+Radius = 70
+InitialAngle = -120
+LastAngle = 120
+Minimum = 0
+Maximum = 120
+NaturalFreq = 5
+DampingRatio = 0.8
+
+
+
+;圧力計1
+[Needle]
+Subject = mr
+Location = 767,995
+DaytimeImage = ..\needle2.png
+NighttimeImage = ..\needle2_n.png
+TransparentColor = 000000
+Origin = 64, 180
+Layer = 5
+Radius = 62
+InitialAngle = -129
+LastAngle = 134
+Minimum = 10
+Maximum = 1000
+NaturalFreq = 0
+
+[Needle]
+Subject = er
+Location = 767,995
+DaytimeImage = ..\needle3.png
+NighttimeImage = ..\needle3_n.png
+TransparentColor = 000000
+Origin = 64, 180
+Layer = 6
+Radius = 62
+InitialAngle = -129
+LastAngle = 134
+Minimum = 10
+Maximum = 1000
+NaturalFreq = 80
+DampingRatio = 0.1
+
+
+;圧力計2
+[Needle]
+Subject = bc
+Location = 951,995
+DaytimeImage = ..\needle2.png
+NighttimeImage = ..\needle2_n.png
+TransparentColor = 000000
+Origin = 64, 180
+Layer = 5
+Radius = 62
+InitialAngle = -128
+LastAngle = 134
+Minimum = 10
+Maximum = 1000
+NaturalFreq = 80
+DampingRatio = 0.1
+
+[Needle]
+Subject = sap
+Location = 951,995
+DaytimeImage = ..\needle3.png
+NighttimeImage = ..\needle3_n.png
+TransparentColor = 000000
+Origin = 64, 180
+Layer = 6
+Radius = 62
+InitialAngle = -128
+LastAngle = 134
+Minimum = 10
+Maximum = 1000
+NaturalFreq = 80
+DampingRatio = 0.1
+
+;圧力計3
+[Needle]
+Subject = true
+Location = 1449,995
+DaytimeImage = ..\needle2.png
+NighttimeImage = ..\needle2_n.png
+TransparentColor = 000000
+Origin = 64, 180
+Layer = 5
+Radius = 62
+InitialAngle = -3
+LastAngle = -3
+Minimum = 10
+Maximum = 1000
+NaturalFreq = 80
+DampingRatio = 0.1
+
+[Needle]
+Subject = bp
+Location = 1449,995
+DaytimeImage = ..\needle3.png
+NighttimeImage = ..\needle3_n.png
+TransparentColor = 000000
+Origin = 64, 180
+Layer = 6
+Radius = 62
+InitialAngle = -128
+LastAngle = 134
+Minimum = 10
+Maximum = 1000
+NaturalFreq = 80
+DampingRatio = 0.1
+
+
+
+;高電圧計
+[Needle]
+Subject = kmph
+Location = 1633, 992
+DaytimeImage = ..\needle1.png
+NighttimeImage = ..\needle1_n.png
+TransparentColor = 000000
+Origin = 16, 256
+Layer = 6
+Radius = 70
+InitialAngle = 75
+LastAngle = 70
+Minimum = 0
+Maximum = 120
+NaturalFreq = 5
+DampingRatio = 0.8
+
+;低電圧計
+[Needle]
+Subject = kmph
+Location = 1821, 992
+DaytimeImage = ..\needle1.png
+NighttimeImage = ..\needle1_n.png
+TransparentColor = 000000
+Origin = 16, 256
+Layer = 6
+Radius = 70
+InitialAngle = 45
+LastAngle = 46
+Minimum = 0
+Maximum = 120
+NaturalFreq = 5
+DampingRatio = 0.8
+
+;以下影
+
+;速度計
+[Needle]
+Subject = kmph
+Location = 1137, 1002
+DaytimeImage = ..\needle1_kage.png
+TransparentColor = 000000
+Origin = 16, 256
+Layer = 3
+Radius = 70
+InitialAngle = -112
+LastAngle = 112
+Minimum = 0
+Maximum = 120
+NaturalFreq = 5
+DampingRatio = 0.8
+
+
+
+;圧力計1
+[Needle]
+Subject = mr
+Location = 767,1005
+DaytimeImage = ..\needle2_kage.png
+TransparentColor = 000000
+Origin = 64, 180
+Layer = 3
+Radius = 62
+InitialAngle = -129
+LastAngle = 134
+Minimum = 10
+Maximum = 1000
+NaturalFreq = 0
+
+[Needle]
+Subject = er
+Location = 767,1005
+DaytimeImage = ..\needle3_kage.png
+TransparentColor = 000000
+Origin = 64, 180
+Layer = 4
+Radius = 62
+InitialAngle = -129
+LastAngle = 134
+Minimum = 10
+Maximum = 1000
+NaturalFreq = 80
+DampingRatio = 0.1
+
+
+;圧力計2
+[Needle]
+Subject = bc
+Location = 951,1005
+DaytimeImage = ..\needle2_kage.png
+TransparentColor = 000000
+Origin = 64, 180
+Layer = 3
+Radius = 62
+InitialAngle = -128
+LastAngle = 134
+Minimum = 10
+Maximum = 1000
+NaturalFreq = 80
+DampingRatio = 0.1
+
+[Needle]
+Subject = sap
+Location = 951,1005
+DaytimeImage = ..\needle3_kage.png
+TransparentColor = 000000
+Origin = 64, 180
+Layer = 4
+Radius = 62
+InitialAngle = -128
+LastAngle = 134
+Minimum = 10
+Maximum = 1000
+NaturalFreq = 80
+DampingRatio = 0.1
+
+;圧力計3
+[Needle]
+Subject = true
+Location = 1449,1005
+DaytimeImage = ..\needle2_kage.png
+TransparentColor = 000000
+Origin = 64, 180
+Layer = 3
+Radius = 62
+InitialAngle = -3
+LastAngle = -3
+Minimum = 10
+Maximum = 1000
+NaturalFreq = 80
+DampingRatio = 0.1
+
+[Needle]
+Subject = bp
+Location = 1449,1005
+DaytimeImage = ..\needle3_kage.png
+TransparentColor = 000000
+Origin = 64, 180
+Layer = 4
+Radius = 62
+InitialAngle = -128
+LastAngle = 134
+Minimum = 10
+Maximum = 1000
+NaturalFreq = 80
+DampingRatio = 0.1
+
+
+;高電圧計
+[Needle]
+Subject = kmph
+Location = 1633, 1002
+DaytimeImage = ..\needle1_kage.png
+TransparentColor = 000000
+Origin = 16, 256
+Layer = 6
+Radius = 70
+InitialAngle = 75
+LastAngle = 70
+Minimum = 0
+Maximum = 120
+NaturalFreq = 5
+DampingRatio = 0.8
+
+;低電圧計
+[Needle]
+Subject = kmph
+Location = 1821, 1002
+DaytimeImage = ..\needle1_kage.png
+TransparentColor = 000000
+Origin = 16, 256
+Layer = 6
+Radius = 70
+InitialAngle = 45
+LastAngle = 46
+Minimum = 0
+Maximum = 120
+NaturalFreq = 5
+DampingRatio = 0.8
+
+
+
+;ドアランプ
+[PilotLamp]
+Subject = door
+Location = 1168,849
+DaytimeImage = ..\hiroP\door.png
+Layer = 5
+
+
+
+;直通
+[PilotLamp]
+Subject = ats35
+Location = 1072, 1176
+DaytimeImage = ..\okaD\ats\chokutuu.png
+Layer = 5
+
+;発電
+[Pilotlamp]
+Subject = ats210
+Location = 1121, 1176
+DaytimeImage = ..\okaD\ats\hatsuden.png
+Layer = 5
+
+;抑速
+[Pilotlamp]
+Subject = ats211
+Location = 1171, 1176
+DaytimeImage = ..\okaD\ats\yokusoku.png
+Layer = 5
+
+
+;ATS
+[PilotLamp]
+Subject = ats0
+Location = 1428, 1175
+DaytimeImage = ..\okaD\ats\ATS.png
+Layer = 6
+
+;ATS赤
+[PilotLamp]
+Subject = ats1
+Location = 1497, 1175
+DaytimeImage = ..\okaD\ats\ATS_r.png
+Layer = 6
+

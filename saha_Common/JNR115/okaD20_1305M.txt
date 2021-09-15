@@ -1,7 +1,8 @@
-Bvets Vehicle 1.00
+Bvets Vehicle 2.00
 PerformanceCurve = ..\..\Rock_On\Train\JR\Vehicle\115\notch\notch.txt
-Parameters = ..\..\Rock_On\Train\JR\Formation\oka\Param\D-14.txt
-Panel = panel\oka30N\panel_1305M.txt
-Sound = ..\..\Rock_On\Train\JR\Formation\oka\Sound\Mc115-1514.txt
-Ats = ..\..\Rock_On\Train\JR\Formation\oka\Detail\D-14\DetailManager.dll
+Parameters = Param\Tc115_1237_1305M.txt
+Panel = panel\okaD\panel_1305M.txt
+Sound = Sound\Tc115.txt
+Ats32 = Detail\ATS-SWP2\DetailManager.dll
+Ats64 = Detail\ATS-SWP2\DetailManager_.dll
 MotorNoise = ..\..\Rock_On\Train\JR\Vehicle\115\motornoise\motornoise.txt
