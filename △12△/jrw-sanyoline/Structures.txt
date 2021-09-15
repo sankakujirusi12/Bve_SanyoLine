@@ -407,9 +407,9 @@ Cr1_R2,../../Nagoya_Common\Railway_Obj\Cross\Normal\SCR.x
 #-------------------------------------------------------------------道路関係---------------------------------------------------------------------
 
 #道路(nb=nonblock)
-Road_1sya_nb,../../Nagoya_Common\Build\Road\Road1_nonblock.x
-Road_2sya,../../Nagoya_Common\Build\Road\Road2.x
-Road_2sya_nb,../../Nagoya_Common\Build\Road\Road2_nonblock.x
+Road_1sya_nb,Structures\サンパチタテモノ\road\road_045a.x
+Road_2sya,Structures\サンパチタテモノ\road\road_070a.x
+Road_2sya_nb,Structures\サンパチタテモノ\road\road_070a.x
 Road_4sya,../../Nagoya_Common\Build\Road\Road4.x
 Couse,
 seigen50,../../Nagoya_Common\Build\Road\Sign\50.x
@@ -821,6 +821,7 @@ Himeform_L,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormL_hime.x
 Himeform_R,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormR_hime.x
 Himeform_CL,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCL_hime.x
 Himeform_CR,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCR_hime.x
+Himeji_teimoku,Structures\△12△\sta\himeji\Himeji_teimoku.x
 #英賀保
 AgahoRoofL,Structures\△12△\sta\agaho\Agahoroof.x
 Agaho_EV,Structures\△12△\sta\agaho\Agaho_EV.x
@@ -839,6 +840,8 @@ Katsuform_CL2,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCL_katsu2.x
 Katsuform_CR2,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCR_katsu2.x
 #網干
 #竜野
+Tatsuno_hassyahyou,Structures\△12△\sta\tatsuno\Tatsuno_hassyahyou.x
+Tatsuno_board,Structures\△12△\sta\tatsuno\Tatsuno_board.x
 #相生
 Aioi_sta,Structures\△12△\sta\aioi\Aioi_sta.x
 Aioi_shinkansen,Structures\△12△\sta\aioi\Aioi_sks.x
@@ -849,12 +852,15 @@ Uneform_CR,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCR_une.x
 Chizu0,Structures\△12△\sta\kami\kami_chizu.x
 Chizu1,../../Nagoya_Common\Build\Station\Ekisya2\Obj1.x
 kami_kosen,Structures\△12△\sta\kamigori kumayama\kosen.x
-
+Kamigori_tumesyo,Structures\△12△\sta\kami\Kamigori_tumesyo.x
 #吉永
-
+Yoshinaga_oidensee,Structures\△12△\sta\yoshinaga\yoshinaga_oidensee.x
 #万富
 mantomi_kosen,Structures\△12△\sta\mantomi\kosen.x
-
+#瀬戸
+Seto_light,Structures\△12△\sta\seto\seto_light.x
+Seto_sta1,Structures\△12△\sta\seto\seto_sta1.x
+Seto_sta2,Structures\△12△\sta\seto\seto_sta2.x
 
 
 
