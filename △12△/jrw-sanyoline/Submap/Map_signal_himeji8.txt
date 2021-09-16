@@ -1,6 +1,6 @@
 BveTs Map 2.00:shift_jis
 #M†
-83920;
+$sanyo_distance+83920;
 structure['Signalpole6'].Put('hime7',-2.8,2.5,0,0,0,0,0,0);
 structure['7syutsu'].Put('hime7',-2.55,3.6,-0.1,0,0,0,0,0);
 #Signal['type3'].Put('hime7',0,-2.8,3.4);
@@ -21,3 +21,7 @@ structure['Signal3L0'].Put('hime6',3.4,3.6,0.4,0,0,0,0,0);
 structure['Clamp3R'].Put('hime6',3.4,2.8,0,0,0,0,0,0);
 structure['Signal3L0'].Put('hime6',2.8,4.2,0.4,0,0,0,0,0);
 structure['himesyutsu'].Put('hime6',3.15,3.3,-0.1,0,0,0,0,0);
+
+$sanyo_distance+84100;
+structure['Signal3L0'].Put('sanyokudari',-2.5,6.1,0.4,0,0,0,0,0);
+structure['Signalpole1'].Put('sanyokudari',-2.5,6,0,0,0,0,0,0);

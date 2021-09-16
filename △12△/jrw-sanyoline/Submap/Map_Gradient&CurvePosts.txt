@@ -1,1 +1,2 @@
 BveTs Map 2.00:shift_jis
+$sanyo_distance+0;

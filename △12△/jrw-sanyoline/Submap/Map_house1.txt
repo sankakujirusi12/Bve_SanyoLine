@@ -1,4 +1,4 @@
-BveTs Map 2.00:shift_jis
-0;
+BveTs Map 2.00:UTF-8
+$sanyo_distance+0;
 
-#’´Œy—Ê
+#è¶…è»½é‡

@@ -1,5 +1,5 @@
 ﻿BveTs Map 2.00:shift_jis
-81000;
+$sanyo_distance+81000;
 	Repeater['Ballast2'].Begin('sanyokudari',0,-0.01,0,0,0,0,3,5,5,'Slab');
 	Track['sanyokudari'].Position(-14,0);
 	Track['sanyonobori'].Position(16,0);
@@ -34,7 +34,7 @@
 	repeater['roof_hime2'].Begin('hime2',0,0,0,0,0,0,1,25,25,'Roof1L');
 	repeater['roof_kishin'].Begin('kishin',0,0,0,0,0,0,1,25,25,'Roof1R');
 
-83875;
+$sanyo_distance+83875;
 structure['retsutei_'].Put(0,-2.3,2,0,0,0,0,0,0);
 	Track['sinkad'].Position(-45,8,0,0);
 	Track['sinkau'].Position(-35,8,0,0);
@@ -46,10 +46,10 @@ structure['retsutei_'].Put(0,-2.3,2,0,0,0,0,0,0);
 	repeater['roof_nobori1'].End();
 	#屋根終端
 	Track['sanyokudari'].Position(-14,0);
-83890;
+$sanyo_distance+83890;
 structure['karetei'].Put(0,-2.5,3.39,-0.1,0,0,0,0,0);
 structure['teimokupole'].Put(0,-3,1.2,0,0,0,0,0,0);
-83895;
+$sanyo_distance+83895;
 	repeater['Form_L'].End();
 	repeater['Form_R'].End();
 	repeater['Form_CL'].End();
@@ -73,12 +73,12 @@ structure['teimokupole'].Put(0,-3,1.2,0,0,0,0,0,0);
 	Track['kishin'].Position(19,0);
 	repeater['teimen2'].Begin(0,0,-0.001,0,0,0,0,1,20,20,'Slab_teimen');
 
-83965;
+$sanyo_distance+83965;
 	structure['seigen45R'].Put(0,-2.5,1,0,0,0,0,0,0);
 	structure['seigenpole'].Put(0,-2.5,0,0,0,0,0,0,0);
 	structure['seigen45L'].Put('hime6',-2,1,0,0,0,0,0,0);
 	structure['seigenpole'].Put('hime6',-2,0,0,0,0,0,0,0);
-83970;
+$sanyo_distance+83970;
 	#シーサス
 	Repeater['Ballast5'].Begin('watari3',0,-0.01,0,0,0,0,3,5,5,'Slab');
 	Repeater['Ballast6'].Begin('watari2',0,-0.011,0,0,0,0,3,5,5,'Slab');
@@ -90,19 +90,19 @@ structure['teimokupole'].Put(0,-3,1.2,0,0,0,0,0,0);
 	Track['hime6'].Position(4,0);
 	Track['hime2'].Position(30,0);
 	Track['hime1'].Position(34,0);
-83985;
+$sanyo_distance+83985;
 #	Track['hime2'].Position(27,0);
 #	Track['hime1'].Position(31,0);
 	repeater['roof_hime2'].End();
 	repeater['roof_kishin'].End();
 #姫新線屋根終端
-83995;
+$sanyo_distance+83995;
 
-84000;
+$sanyo_distance+84000;
 	Track['watari2'].Position(2.3,0,308);
 	Track['watari3'].Position(2.3,0,-800);
 
-84010;
+$sanyo_distance+84010;
 	SpeedLimit.Begin(45);
 	structure['seigen45R'].Put(0,-2.5,1,-1,0,0,0,0,0);
 	structure['seigenpole'].Put(0,-2.5,0,-1,0,0,0,0,0);
@@ -124,7 +124,7 @@ structure['teimokupole'].Put(0,-3,1.2,0,0,0,0,0,0);
 #姫新線ホーム終端
 	repeater['WallR2'].Begin('hime1',0,0,0,0,0,0,1,5,4.5,'shinkan_wallR');
 
-84030;
+$sanyo_distance+84030;
 	structure['pointsw'].Put(0,-2,0,0,0,0,0,0,0);
 	Repeater['Ballast6'].End();
 	Repeater['teimen1'].End();
@@ -141,37 +141,37 @@ structure['teimokupole'].Put(0,-3,1.2,0,0,0,0,0,0);
 	Track['hime2'].Position(22,0);
 	Track['sanyonobori'].Position(11,0);
 	Track['kishin'].Position(15,0);
-84035;
+$sanyo_distance+84035;
 	
 	Curve.Begin(1800);
-84048;
+$sanyo_distance+84048;
 	Repeater['teimen2'].End();
 	Track['hime6'].Position(9,0);
 	Track['watari3'].Position(9,0);
 	Curve.End();
 	repeater['WallL1'].Begin('hime6',0,0,0,0,0,0,1,5,5,'shinkan_wallL');
 	repeater['WallR'].Begin(0,0,0,0,0,0,0,1,5,5,'shinkan_wallR');
-84060;
+$sanyo_distance+84060;
 	Repeater['Ballast9'].End();
 	Track['hime1'].Position(20,0);
 	Track['hime2'].Position(20,0);
 	repeater['WallR2'].Begin('hime2',0,0,0,0,0,0,1,5,5,'shinkan_wallR');
-84070;
+$sanyo_distance+84070;
 	Track['hime8'].Position(-2.5,0,-308);
 	Track['watari3'].Position(-2.5,0,-308);
 	Track['sanyokudari'].Position(-6.5,0);
-84074;
+$sanyo_distance+84074;
 	Track['hime6'].Position(10.5,0,-308);
-84085;
+$sanyo_distance+84085;
 	Track['hime2'].Position(18,0,-308);
-84090;
+$sanyo_distance+84090;
 	Repeater['WallR'].End();
-84093;
+$sanyo_distance+84093;
 	structure['shinkan_wallR_p'].Put(0,0,0,0,0,0,0,0,2);
 
 
 
-84100;
+$sanyo_distance+84100;
 	Repeater['WallL1'].End();
 	structure['shinkan_wallL_p'].Put('sanyonobori',0,0,3,0,0,0,0,2);
 	structure['pointsw'].Put(0,1.6,0,0,0,0,0,0,0);
@@ -187,18 +187,18 @@ structure['teimokupole'].Put(0,-3,1.2,0,0,0,0,0,0);
 	Repeater['teimen3'].End();
 	Track['hime2'].Position(17,0);
 	repeater['WallR2'].Begin('kishin',0,0,0,0,0,0,1,5,5,'shinkan_wallR');
-84103;
+$sanyo_distance+84103;
 	repeater['WallR'].Begin(0,0,0,0,0,0,0,1,5,5,'shinkan_wallR');
-84110;
+$sanyo_distance+84110;
 	Repeater['teimen2'].End();
 	structure['seigen45'].Put(0,2.5,2,0,0,0,0,0,0);
 	Curve.BeginTransition();
 	Curve.Begin(308);
-84113;
+$sanyo_distance+84113;
 	repeater['WallL1'].Begin('sanyonobori',0,0,0,0,0,0,1,5,5,'shinkan_wallL');
-84130;
+$sanyo_distance+84130;
 	structure['pointsw'].Put(0,-2,0,0,0,0,0,0,0);
-84140;
+$sanyo_distance+84140;
 	SpeedLimit.End();
 	Repeater['Ballast2'].End();
 	Track['sanyokudari'].Position(0,0);
