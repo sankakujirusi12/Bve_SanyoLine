@@ -1,11 +1,15 @@
-﻿BveTs Map 2.00:shift_jis
+BveTs Map 2.00:UTF-8
 #山陽本線-9239レ
 
 0;
+
 Sound3d.Load('Sound3D.txt');
 Structure.Load('Structures.txt');
 Station.Load('Stations_9239.csv');
 Signal.Load('Signals.csv');
+
+#******関数を定義******
+$sanyo_distance = 0;
 
 #駅位置定義
 include 'Submap\stop_9239.txt';

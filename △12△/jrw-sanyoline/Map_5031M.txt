@@ -1,4 +1,4 @@
-﻿BveTs Map 2.00:shift_jis
+BveTs Map 2.00:UTF-8
 #山陽本線-5031M
 
 0;
@@ -7,9 +7,8 @@ Structure.Load('Structures.txt');
 Station.Load('Stations_5031M.csv');
 Signal.Load('Signals.csv');
 
-
-
-
+#******関数を定義******
+$sanyo_distance = 0;
 
 #駅位置定義
 include 'Submap\stop_5031M.txt';
@@ -36,7 +35,7 @@ include 'Submap\Map_kasenchu_une1_old.txt';
 include 'Submap\Map_kasenchu_himeji8.txt';
 
 #他列車
-#include 'Trains\Trains_5031M.txt';
+include 'Trains\Trains_5031M.txt';
 
 #先行列車
 #include 'Submap\Map_pretrain_1305M.txt';
