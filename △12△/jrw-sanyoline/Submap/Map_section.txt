@@ -125,40 +125,59 @@ Section.Begin(0,2,3,4);
 $sanyo_distance+118251;
 #上郡場内
 Section.Begin(0,2,4);
+
 $sanyo_distance+118862;
-#上郡出発
-Section.Begin(0,2,4);
+	#上郡出発
+	Section.Begin(0,2,4);
+
 $sanyo_distance+119884;
-#三石下り13
-Section.Begin(0,2,4);
-$sanyo_distance+120794;
-#三石下り12
-Section.Begin(0,2,4);
-$sanyo_distance+121775;
-#三石下り11
-Section.Begin(0,2,4);
-$sanyo_distance+122892;
-#三石下り10
-Section.Begin(0,2,4);
-$sanyo_distance+123512;
-#三石下り9
-Section.Begin(0,2,4);
-$sanyo_distance+123832;
-#三石下り8
-Section.Begin(0,2,4);
+	#三石下り13
+	Section.Begin(0,2,4);
+
+$sanyo_distance+120804;
+	#三石下り12
+	Section.Begin(0,2,4);
+	
+$sanyo_distance+121875;
+	#三石下り11
+	Section.Begin(0,2,4);
+
+$sanyo_distance+122922;
+	#三石下り10
+	Section.Begin(0,2,4);
+
+$sanyo_distance+123582;
+	#三石下り9
+	Section.Begin(0,2,4);
+
 $sanyo_distance+124682;
-#三石下り7
-Section.Begin(0,2,4);
+	#三石下り8
+	Section.Begin(0,2,4);
+
 $sanyo_distance+125442;
-#三石下り5
+	#三石下り7
+	Section.Begin(0,2,4);
+
 $sanyo_distance+126082;
-#三石下り4
-$sanyo_distance+126750;
-#三石下り3
-Section.Begin(0,2,3,4);
+	#三石下り6
+	Section.Begin(0,2,4);
+
+$sanyo_distance+126250;
+	#三石下り5
+	Section.Begin(0,2,4);
+
+$sanyo_distance+126850;
+	#三石下り4
+	Section.Begin(0,2,4);
+
+$sanyo_distance+127610;
+	#三石下り3
+	Section.Begin(0,2,3,4);
+
 $sanyo_distance+128366;
-#三石下り2
-Section.Begin(0,2,3,4);
+	#三石下り2
+	Section.Begin(0,2,3,4);
+
 $sanyo_distance+144165;
 #和気出発
 Section.Begin(0,2,4);
