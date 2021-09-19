@@ -262,13 +262,12 @@ BlankR_03,Structures\Uchibo\Dike\blank_R03.x
 #地理院地図3Dデータ
 tikei1(hime_aho),Structures\tikei\tikei1(hime_aho).x
 tikei2(hime_aho),Structures\tikei\tikei2(hime_aho).x
-tikei1(kami_mitsu),Structures\tikei\tikei1(kami_mitsu).x
-tikei2(kami_mitsu),Structures\tikei\tikei2(kami_mitsu).x
-tikei3(kami_mitsu),Structures\tikei\tikei3(kami_mitsu).x
-tikei4(kami_mitsu),Structures\tikei\tikei4(kami_mitsu).x
-tikei5(kami_mitsu),Structures\tikei\tikei5(kami_mitsu).x
-tikei6(kami_mitsu),Structures\tikei\tikei6(kami_mitsu).x
-
+tikei13(kami_mitsu),Structures\tikei\tikei13(kami_mitsu).x
+tikei14(kami_mitsu),Structures\tikei\tikei14(kami_mitsu).x
+tikei15(kami_mitsu),Structures\tikei\tikei15(kami_mitsu).x
+tikei16(kami_mitsu),Structures\tikei\tikei16(kami_mitsu).x
+tikei17(kami_mitsu),Structures\tikei\tikei17(kami_mitsu).x
+tikei18(kami_mitsu),Structures\tikei\tikei18(kami_mitsu).x
 
 #------------------------------------------------------------------横取-------------------------------------------------------------------
 yokodoriL,../../Nagoya_Common\Railway_Obj\Yokodori\1067mm_L.x
@@ -372,7 +371,7 @@ End2,../../Nagoya_Common\Railway_Obj\End\2_End.x
 
 #---------------------------------------------------------------------線路-----------------------------------------------------------------------
 Ballast,Structures\Ntfiv\GeneralStr_png\Rail\Ballast01\BallastPC_K_5a.x
-Ballast_n,
+Ballast_n,Structures\Ntfiv\GeneralStr_png\Rail\Ballast01\BallastPC_K_5aD.x
 
 Ballast_25,Structures\Ntfiv\GeneralStr_png\Rail\Ballast01\BallastPC_K_25.x
 Ballast_old,../../Nagoya_Common\Railway_Obj\Discontinued\Tie1.x
