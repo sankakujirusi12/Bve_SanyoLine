@@ -3,8 +3,9 @@
 
 #参考になるかは分かりませんが、おおまかな地形・設備については#で記述してあります。
 $sanyo_distance+119157;
-repeater['wallL'].Begin('chizu',0.2,0,0,0,0,0,3,5,5,'shinkan_wallL');
-repeater['wallR'].Begin('chizu',-0.2,0,0,0,0,0,3,5,5,'shinkan_wallR');
+repeater['wallL'].End();
+repeater['wallR'].End();
+repeater['teimen'].Begin('chizu',-0.25,0,0,0,0,0,1,10,10,'WallC');
 $sanyo_distance+119222;
 #側線終了
 repeater['ballast12'].End();
@@ -21,8 +22,8 @@ Track['sanyonobori'].Cant.Interpolate(-0.085);
 $sanyo_distance+119299;
 repeater['Dike_L2'].End();
 repeater['Dike_R2'].End();
-repeater['teimen'].Begin('chizu',0,0,0,0,0,0,0,25,25,'WallUnder');
-repeater['teimen2'].Begin('chizu',0,0,0,0,0,0,1,5,5,'chizuteimen');
+
+repeater['teimen2'].Begin('chizu',0,0,0,0,0,0,1,25,25,'Pier');
 $sanyo_distance+119299;
 Structure['BlankR_01'].PutBetween('0', 'sanyonobori');
 $sanyo_distance+119374;
@@ -233,13 +234,17 @@ Curve.Interpolate(0, 0);
 $sanyo_distance+121183;
 #制限80標(高性能車用)
 #カーブ[R440左]
+
 $sanyo_distance+121081;
 Gradient.Interpolate(4.5);
+
 $sanyo_distance+121101;
 Gradient.Interpolate(9);
+
 $sanyo_distance+121208;
 Repeater['bushL'].End();
 Repeater['bushR'].End();
+
 $sanyo_distance+121233;
 #踏切4
 structure['Cr1_L1'].Put(0,0,0,0,0,0,0,0,2);
@@ -311,7 +316,26 @@ curve.Begin(-800,-0.06);
 $sanyo_distance+122536;
 Curve.Interpolate(0, 0);
 #カーブ終わり
+
+$sanyo_distance+122733;
+#側線開始(上り寄り19m)
+
+$sanyo_distance+122818;
+#側線終了
+
+$sanyo_distance+125095;
+#受電用架線柱
+
+
+
+
+
+
+
+
+
 $sanyo_distance+122766;
+
 curve.BeginTransition();
 $sanyo_distance+122786;
 curve.Begin(1200,0.04);
