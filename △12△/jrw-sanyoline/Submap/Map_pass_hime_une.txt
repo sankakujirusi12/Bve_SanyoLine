@@ -3700,7 +3700,7 @@ structure['tree12'].Put(0,26,0,0,0,0,0,0,0);
 $sanyo_distance+104700;
 structure['tree11'].Put(0,26,0,0,0,0,0,0,0);
 $sanyo_distance+104717;
-repeater['road_1sya'].Begin0('douro1',1,10,9,'Road_1sya_nb');
+repeater['road_1sya'].Begin0('douro1',1,6,5.5,'Road_1sya_nb');
 	Track['douro1'].Position(-100,-8,0);
 #赤穂線分岐
 	Track['akose'].Position(0,0,-214,0);

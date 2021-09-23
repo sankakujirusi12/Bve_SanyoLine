@@ -193,7 +193,7 @@ $sanyo_distance+84100;
 	Track['hime2'].Position(17,0);
 	repeater['WallR2'].Begin('kishin',0,0,0,0,0,0,1,10,10,'wallR');
 $sanyo_distance+84103;
-	repeater['WallR'].Begin(0,0,0,0,0,0,0,1,10,10,'shinkan_wallR');
+	repeater['WallR'].Begin(0,0,0,0,0,0,0,1,10,10,'wallR');
 $sanyo_distance+84110;
 	Track['sanyokudari'].Position(-1.7,0,-308);
 	structure['seigen45'].Put(0,2.5,2,0,0,0,0,0,0);
