@@ -792,9 +792,14 @@ FootL,..\..\Nagoya_Common\Build\Footbridge\L.x
 FootR,..\..\Nagoya_Common\Build\Footbridge\R.x
 
 
-#高架(智頭)
+#高架
 WallUnder,Structures\Ntfiv\GeneralStr_png\Wall\WallUnder_QN_25m_tansen.x
 Pier,../../Nagoya_Common\Railway_Obj\Dike\Pier.x
+WallL,../../Nagoya_Common\Railway_Obj\Wall\Wall_L.x
+WallL_p,../../Nagoya_Common\Railway_Obj\Wall\Wall_L_Pole.x
+WallC,../../Nagoya_Common\Railway_Obj\Wall\Wall_C.x
+WallR,../../Nagoya_Common\Railway_Obj\Wall\Wall_R.x
+WallR_p,../../Nagoya_Common\Railway_Obj\Wall\Wall_R_Pole.x
 
 #モニタ
 Mon,Structures\△12△\monitor\monitor.x
