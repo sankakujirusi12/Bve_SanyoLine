@@ -14,7 +14,6 @@
 #Tech_Otter様
 #サーバーの肥やし様
 #飯田保線区様
-#瀬戸内鉄道部様
 #サハ209様
 #車警定位様
 #Bve内房線プロジェクト様
@@ -155,8 +154,8 @@ kanko_5,Structures\e_line\sign\kanko\5_n.x
 kanko_6,Structures\e_line\sign\kanko\6_n.x
 kanko_7,Structures\e_line\sign\kanko\7.x
 kanko_8,Structures\e_line\sign\kanko\8.x
-kanko_7,Structures\e_line\sign\kanko\9.x
-kanko_8,Structures\e_line\sign\kanko\10.x
+kanko_9,Structures\e_line\sign\kanko\9.x
+kanko_10,Structures\e_line\sign\kanko\10.x
 kanko_jounai,Structures\e_line\sign\kanko\jounai.x
 kanko_chukei,Structures\e_line\sign\kanko\chukei.x
 kanko_syuppatsu,Structures\e_line\sign\kanko\shuppatsu.x
@@ -524,6 +523,7 @@ DikeCnL_3,Structures\Ntfiv\GeneralStr_png\Dike\Dike1Cnc5mL3.x
 DikeCnR_1,Structures\Ntfiv\GeneralStr_png\Dike\Dike1Cnc5mR1.x
 DikeCnR_2,Structures\Ntfiv\GeneralStr_png\Dike\Dike1Cnc5mR2.x
 DikeCnR_3,Structures\Ntfiv\GeneralStr_png\Dike\Dike1Cnc5mR3.x
+
 #TN
 #単線(ミツカミ)
 #ポータル
@@ -541,18 +541,13 @@ TN1_ext,Structures\Ntfiv\GeneralStr_png\Tunnel\1go_c1_ext.x
 
 
 #停目(_はぶら下げ、__は短い)
-teimokupole,Structures\△12△\teimoku\teimokupole.x
+teimokupole,Structures\NS\stop\stoppole1L.x
+teimokupole2,Structures\△12△\teimoku\teimokupole2.x
 teimokupole_short,Structures\△12△\teimoku\teimokupole_short.x
 8tei,Structures\△12△\teimoku\8.x
-8tei_,Structures\停止位置標識\stop_8_⊥.x
 6tei,Structures\△12△\teimoku\6.x
 4tei,Structures\△12△\teimoku\4.x
-4tei_,Structures\停止位置標識\stop_4_⊥.x
-#2tei,Structures\△12△\teimoku
-#12tei,Structures\△12△\teimoku
 retsutei,Structures\△12△\teimoku\retsu.x
-retsutei_,Structures\停止位置標識\stop_x_⊥.x
-retsutei__,Structures\停止位置標識\stop_x.x
 karetei,Structures\△12△\teimoku\kare.x
 kyaku8tei,Structures\△12△\teimoku\kyaku8.x
 2you,Structures\△12△\komono\2you.x
@@ -623,14 +618,15 @@ Pype_CL,..\..\Nagoya_Common\Railway_Obj\Pole\Pype_CL.x
 Pype_CR,..\..\Nagoya_Common\Railway_Obj\Pole\Pype_CR.x
 
 #架線
-kasen_15,Structures\とまり\Structures\Wire\Trolley15.x
-kasen_20,Structures\とまり\Structures\Wire\Trolley20.x
-kasen_30,Structures\とまり\Structures\Wire\Trolley30.x
-kasen_35,Structures\とまり\Structures\Wire\Trolley35.x
-kasen_40,Structures\とまり\Structures\Wire\Trolley40.x
-kasen_45,Structures\とまり\Structures\Wire\Trolley45.x
-kasen_50,Structures\とまり\Structures\Wire\Trolley50.x
-kasen_60,Structures\とまり\Structures\Wire\Trolley60.x
+kasen_10,Structures\Uchibo\Pole\kasen\kasen+10S.x
+#kasen_15,Structures\Uchibo\Pole\kasen\kasen15S.x
+kasen_20,Structures\Uchibo\Pole\kasen\kasen20S.x
+kasen_30,Structures\Uchibo\Pole\kasen\kasen30S.x
+kasen_35,Structures\Uchibo\Pole\kasen\kasen35S.x
+kasen_40,Structures\Uchibo\Pole\kasen\kasen40S.x
+kasen_45,Structures\Uchibo\Pole\kasen\kasen45S.x
+kasen_50,Structures\Uchibo\Pole\kasen\kasen50S.x
+kasen_60,Structures\Uchibo\Pole\kasen\kasen60S.x
 
 #ハンガー
 wirehanger0,Structures\とまり\Structures\Pole\DropC.x
@@ -1403,6 +1399,10 @@ kami_mitsu_6,Structures\△12△\komono\kami_mitsu_6.x
 light,Structures\△12△\light\light.x
 light_circle,Structures\△12△\light\light_circle.x
 city_light,Structures\△12△\light\city_light.x
+
+light_signal_g,Structures\△12△\light\light_signal_g.x
+light_signal_y,Structures\△12△\light\light_signal_y.x
+light_signal_r,Structures\△12△\light\light_signal_r.x
 
 #113系用
 for_Local_big,Structures\initG\initg_ecset\113_05_n.x
