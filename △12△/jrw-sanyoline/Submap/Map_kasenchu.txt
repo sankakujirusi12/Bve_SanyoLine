@@ -106,7 +106,7 @@ Repeater['架線4'].End();
 $sanyo_distance+104690;
 Repeater['架線4'].Begin0('jyouge', 1, 20, 20, 'kasen_20');
 $sanyo_distance+104717;
-Repeater['架線5'].Begin0('akose', 1, 15, 15, 'kasen_15');
+Repeater['架線5'].Begin0('akose', 1, 10, 10, 'kasen_10');
 $sanyo_distance+104759;
 Repeater['架線4'].End();
 Repeater['架線5'].Begin0('akose', 1, 40, 40, 'kasen_40');

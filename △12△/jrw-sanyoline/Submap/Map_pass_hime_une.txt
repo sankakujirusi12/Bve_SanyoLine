@@ -679,8 +679,8 @@ $sanyo_distance+88390;
 	repeater['dentouW'].Begin('nakage',5,0,0,0,0,0,1,20,20,'dentouW');
 	repeater['fence_kudari'].Begin(0,-6.7,1,0,0,0,0,0,2,2,'WhiteFence');
 $sanyo_distance+88404;
-structure['4tei'].Put(0,-2.3,3.39,-0.1,0,0,0,0,0);
-structure['teimokupole'].Put(0,-3,1.2,0,0,0,0,0,0);
+structure['4tei'].Put(0,-2.3,3.4,-0.1,0,0,0,0,0);
+structure['teimokupole'].Put(0,-2.3,3.6,0,0,0,0,0,0);
 #4両停目
 	Gradient.Interpolate(0);
 $sanyo_distance+88410;
@@ -695,13 +695,13 @@ structure['teimokupole_short'].Put('nakage',-2.3,0.3,0.1,0,0,0,0,0);
 #+3.5‰
 $sanyo_distance+88432;
 structure['8tei'].Put(0,-2.3,3.39,-0.1,0,0,0,0,0);
-structure['teimokupole'].Put(0,-3,1.2,0,0,0,0,0,0);
+structure['teimokupole'].Put(0,-2.3,3.6,0,0,0,0,0,0);
 #8両停目
 $sanyo_distance+88443;
 	repeater['dentou2'].End();
 $sanyo_distance+88453;
 structure['retsutei'].Put(0,-2.3,3.39,-0.1,0,0,0,0,0);
-structure['teimokupole'].Put(0,-3,1.2,0,0,0,0,0,0);
+structure['teimokupole'].Put(0,-2.3,3.6,0,0,0,0,0,0);
 #全停目
 structure['retsutei'].Put('nakage',-2.3,1.1,0,0,0,0,0,0);
 structure['karetei'].Put('nakage',-2.3,0.8,0,0,0,0,0,0);
@@ -1344,7 +1344,8 @@ structure['kyoujyou'].Put(0,8,6.5,4,0,0,0,0,0);
 	repeater['fence_kudari'].Begin(0,-7,1,0,0,0,0,0,5,5,'WhiteFence1');
 $sanyo_distance+91346;
 	#橋上終端
-structure['4tei_'].Put(0,-2.3,2,0,0,0,0,0,0);
+structure['teimokupole2'].Put(0,-2.3,3,0.3,0,0,0,0,0);
+structure['4tei'].Put(0,-2.3,3,0,0,0,0,0,0);
 $sanyo_distance+91349;
 structure['Whitefence1'].Put(0,-3.5,1,0,0,-90,0,0,0);
 	repeater['fence_kudari'].End();
@@ -1362,7 +1363,8 @@ $sanyo_distance+91366;
 	repeater['roof_nobori'].End();
 	repeater['roof_nobori1'].End();
 	#屋根終端
-structure['8tei_'].Put(0,-2.3,2,0,0,0,0,0,0);
+structure['teimokupole2'].Put(0,-2.3,3,0,0,0,0,0,0);
+structure['8tei'].Put(0,-2.3,3,0,0,0,0,0,0);
 $sanyo_distance+91400;
 Curve.Interpolate(0,0);
 Track['sanyonobori'].Cant.Interpolate(0);
@@ -2036,7 +2038,8 @@ Repeater['roof_nobori'].End();
 Repeater['roof_nobori1'].End();
 #上りホーム屋根終わり
 $sanyo_distance+94055;
-structure['8tei_'].Put(0,-2.3,2,0,0,0,0,0,0);
+structure['teimokupole2'].Put(0,-2.3,3,0.3,0,0,0,0,0);
+structure['8tei'].Put(0,-2.3,3,0,0,0,0,0,0);
 Repeater['roof_kudari'].End();
 Repeater['roof_kudari1'].End();
 #下りホーム屋根owari
@@ -3612,7 +3615,8 @@ $sanyo_distance+104532;
 repeater['ballast5'].Begin('gawa_aioi2',0,0,0,0,0,0,3,5,5,'Ballast');
 	Track['gawa_aioi2'].Position(-10,0,0,0);
 $sanyo_distance+104552;
-structure['8tei_'].Put(0,-2.3,2,0,0,0,0,0,0);
+structure['teimokupole2'].Put(0,-2.3,3,0.3,0,0,0,0,0);
+structure['8tei'].Put(0,-2.3,3,0.3,0,0,0,0,0);
 $sanyo_distance+104554;
 repeater['Aioi_sks'].End();
 repeater['Aioi_sks1'].End();

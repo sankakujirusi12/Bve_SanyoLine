@@ -115,7 +115,8 @@ repeater['whitefence2'].End();
 #上りホーム屋根
 $sanyo_distance+112143;
 #カーブ
-structure['retsutei_'].Put(0,-2.3,2,0,0,0,0,0,0);
+structure['teimokupole2'].Put(0,-2.3,2.5,0,0,0,0,0,0);
+structure['retsutei'].Put(0,-2.3,2.5,0,0,0,0,0,0);
 curve.Begin(700,0.06);
 $sanyo_distance+112139;
 repeater['roof_nobori'].End();
