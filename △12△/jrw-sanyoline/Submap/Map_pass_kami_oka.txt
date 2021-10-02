@@ -226,13 +226,15 @@ Sound3D['cross2'].Put(-1.5, 2.3);
 Sound3D['cross2'].Put(5.5, 2.3);
 #踏切3
 $sanyo_distance+121007;
-Repeater['bushL'].Begin0(0, 1, 25, 25, 'bush_L01','bush_L02','bush_L03');
-Repeater['bushR'].Begin0('sanyonobori', 1, 25, 25, 'bush_R01','bush_R02','bush_R03');
+Repeater['bushL'].Begin('',0,-1,0,0,0,0,1,25,25,'bush_L01','bush_L02','bush_L03');
+Repeater['bushR'].Begin('sanyonobori',0,-1,0,0,0,0,1,25,25,'bush_R01','bush_R02','bush_R03');
 $sanyo_distance+121133;
 Track['sanyonobori'].Cant.Interpolate(0);
 Curve.Interpolate(0, 0);
 $sanyo_distance+121183;
 #制限80標(高性能車用)
+	structure['seigen80'].Put(0,-2.8,2,0,0,0,0,0,0);
+	structure['seigenpole'].Put(0,-2.6,0.8,0,0,0,0,0,0);
 #カーブ[R440左]
 
 $sanyo_distance+121081;
@@ -280,7 +282,7 @@ structure['tikei15(kami_mitsu)'].Put(0,0,0,0,0,0,0,0,0);
 $sanyo_distance+121493;
 structure['tikei18(kami_mitsu)'].Put(0,0,0,0,0,0,0,0,0);
 $sanyo_distance+121593;
-structure['tikei16(kami_mitsu)'].Put(0,0,-2,0,0,-2,0,0,0);
+structure['tikei16(kami_mitsu)'].Put(0,-10,-2,0,0,-2,0,0,0);
 
 $sanyo_distance+121823;
 structure['tikei17(kami_mitsu)'].Put(0,0,-5,0,0,-4,0,0,0);
@@ -309,77 +311,93 @@ Gradient.Interpolate(9);
 $sanyo_distance+122238;
 Gradient.Interpolate(9.3);
 
-$sanyo_distance+122476;
+$sanyo_distance+122446;
 curve.Begin(-800,-0.06);
 #カーブ[R800左]
 
-$sanyo_distance+122536;
+$sanyo_distance+122506;
 Curve.Interpolate(0, 0);
 #カーブ終わり
 
+$sanyo_distance+122551;
+#下道路
+
 $sanyo_distance+122733;
-#側線開始(上り寄り19m)
+#側線開始(上り線右19m)
 
 $sanyo_distance+122818;
 #側線終了
 
+$sanyo_distance+122979;
+#カーブ[R1200右]
+
+$sanyo_distance+123112;
+#カーブ終わり
+
+$sanyo_distance+123474;
+#カーブ[R450左]
+
+$sanyo_distance+123866;
+#カーブ終わり
+
+$sanyo_distance+124045;
+#カーブ[R1250右]
+
+$sanyo_distance+124329;
+#カーブ終わり
+
+$sanyo_distance+124389;
+#工場
+
+$sanyo_distance+124695;
+#カーブ[R400右]
+
+$sanyo_distance+125000;
+#車寄せ
+
 $sanyo_distance+125095;
 #受電用架線柱
 
-
-
-
-
-
-
-
-
-$sanyo_distance+122766;
-
-curve.BeginTransition();
-$sanyo_distance+122786;
-curve.Begin(1200,0.04);
-#カーブ[R1200右]
-$sanyo_distance+122967;
-Curve.Interpolate(1200, 0.04);
-$sanyo_distance+122987;
-Curve.Interpolate(0, 0);
+$sanyo_distance+125339;
 #カーブ終わり
-$sanyo_distance+123217;
-curve.BeginTransition();
-$sanyo_distance+123327;
-curve.Begin(-450,-0.105);
-#カーブ[R450左]
-$sanyo_distance+123644;
-Curve.Interpolate(-450, -0.105);
-$sanyo_distance+123754;
-Curve.Interpolate(0, 0);
-#カーブ終わり
-$sanyo_distance+124154;
-curve.BeginTransition();
-$sanyo_distance+124194;
-curve.Begin(1200,0.04);
-#カーブ[R1250右]
-$sanyo_distance+124437;
-Curve.Interpolate(1200, 0.04);
-$sanyo_distance+124477;
-Curve.Interpolate(0, 0);
-#カーブ終わり
-$sanyo_distance+124847;
-	Track['sanyonobori'].Position(4,0);
-curve.BeginTransition();
-$sanyo_distance+124947;
-curve.Begin(400,0.105);
-#カーブ[R400右]
-$sanyo_distance+125187;
-Curve.Interpolate(400, 0.105);
+
+$sanyo_distance+126088;
+#側線開始(左5m)
+
+$sanyo_distance+126183;
+#側線左から合流
+
+$sanyo_distance+126414;
+#側線開始(上り線から)
+
+$sanyo_distance+126479;
+#側線終了(右14m)
+
+$sanyo_distance+127745;
+#踏切(西国街道)
+
+$sanyo_distance+128360;
+#上り線TN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 $sanyo_distance+125117;
 Gradient.Interpolate(9.3);
 $sanyo_distance+125122;
 Gradient.Interpolate(10);
 $sanyo_distance+125287;
 	Track['sanyonobori'].Position(8,0,0);
-Curve.Interpolate(0, 0);
 #カーブ終わり
 curve.BeginTransition();
 $sanyo_distance+125367;

@@ -2928,7 +2928,7 @@ $sanyo_distance+99654;
 	Track['fence1'].Position(8,0);
 	Track['sanyonobori'].Position(4,0);
 Repeater['bushes1'].End();
-repeater['Ballast_gr'].Begin(0,4,-0.1,0,0,0,0,0,1,5,'Ballast_gr');
+repeater['Ballast_gr'].Begin(0,4,-0.01,0,0,0,0,0,25,25,'Ballast_gr_25');
 
 $sanyo_distance+99715;
 	Track['Grass'].Position(0,-0.45);
@@ -2941,7 +2941,7 @@ Repeater['fence_kudari'].End();
 Repeater['fence_nobori'].End();
 $sanyo_distance+99725;
 Gradient.Interpolate(-10);
-repeater['Ballast_gr2'].Begin(0,8,-0.1,0,0,0,0,0,1,5,'Ballast_gr');
+repeater['Ballast_gr2'].Begin(0,8,-0.01,0,0,0,0,0,25,25,'Ballast_gr_25');
 structure['Cr_L1'].Put(0,0,0,0,0,0,0,0,2);
 structure['Cr_L2'].Put(0,0,0,0,0,0,0,0,2);
 structure['Cr_R2'].Put(0,0,0,0,0,0,0,0,2);
@@ -3030,8 +3030,8 @@ structure['stairs'].Put(0,31,6.5,4,0,180,0,0,0);
 $sanyo_distance+100000;
 #0M
 #4両停目
-structure['4tei'].Put(0,-2.3,3.39,-0.1,0,0,0,0,0);
-structure['teimokupole'].Put(0,-3,1.2,0,0,0,0,0,0);
+structure['4tei'].Put(0,-2.3,3.4,-0.1,0,0,0,0,0);
+structure['teimokupole'].Put(0,-3,3.55,0,0,0,0,0,0);
 	Track['sinkau'].Position(-596,11);
 	Track['sinkad'].Position(-600,11);
 	repeater['road_2sya'].Begin0('douro2',1,6,6,'Road_2sya');
@@ -3045,8 +3045,8 @@ structure['teimokupole'].Put(0,-3,1.2,0,0,0,0,0,0);
 	Track['route2'].Position(56,0);
 
 $sanyo_distance+100020;
-structure['8tei'].Put(0,-2.3,3.39,-0.1,0,0,0,0,0);
-structure['teimokupole'].Put(0,-3,1.2,0,0,0,0,0,0);
+structure['8tei'].Put(0,-2.3,3.4,-0.1,0,0,0,0,0);
+structure['teimokupole'].Put(0,-3,3.55,0,0,0,0,0,0);
 #20M
 #8両停目
 $sanyo_distance+100033;
@@ -3130,6 +3130,7 @@ Track['sanyonobori'].Cant.Interpolate(-0.06);
 structure['3Dhouse12'].Put(0,-50,0,0,0,0,0,0,0);
 #155M-393M
 #踏切後左R800
+
 $sanyo_distance+100246;
 Curve.Interpolate(0, 0);
 Track['sanyonobori'].Cant.Interpolate(0);
@@ -3159,9 +3160,15 @@ repeater['Rail'].End();
 repeater['Rail_1'].End();
 Repeater['Ballast'].Begin(,0,0,0,0,0,0,3,5,5,'Ballast');
 Repeater['Ballast1'].Begin('sanyonobori',0,0,0,0,0,0,3,5,5,'Ballast');
+
+Repeater['Tatsuno_board'].Begin('sanyonobori',5,0,0,0,0,0,1,20,20,'Tatsuno_board');
+
+$sanyo_distance+100318;
+Repeater['Tatsuno_board'].End();
 $sanyo_distance+100353;
 Curve.Interpolate(-1000, -0.03);
 $sanyo_distance+100393;
+
 Curve.Interpolate(0, 0);
 $sanyo_distance+100400;
 	Track['route2'].Position(144,0,0);
@@ -3638,7 +3645,7 @@ $sanyo_distance+104584;
 #全停目(客ﾚ)
 
 structure['retsutei'].Put(0,-2.3,3.39,-0.1,0,0,0,0,0);
-structure['teimokupole'].Put(0,-3,1.2,0,0,0,0,0,0);
+structure['teimokupole'].Put(0,-3,3.55,0,0,0,0,0,0);
 $sanyo_distance+104586;
 #上下ホーム終端(以降は「古い」)
 #渡線
