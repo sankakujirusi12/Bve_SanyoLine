@@ -1,0 +1,51 @@
+BveTs Map 2.00
+//////Announce
+83835;	//	Himeji
+84135;
+	Sound['next_agaho_1339M'].Play();
+87632;
+	Sound['arv_agaho'].Play();
+88432;  //	Agaho
+
+88782;
+	Sound['next_katsu'].Play();
+
+90566;
+	Sound['arv_katsu'].Play();
+91366;  //	Katsuhara
+
+91716;
+	Sound['next_hoshi'].Play();
+93255; 
+	Sound['arv_hoshi_1339M'].Play();
+94055;  //	Aboshi
+
+94305;
+	Sound['next_tatsu'].Play();
+98820;
+	Sound['arv_tatsu'].Play();
+100020;  //	Tatsuno
+
+100370;
+	Sound['next_aioi'].Play();
+103452;
+	Sound['arv_aioi_1339M'].Play();
+
+104552;  //	Aioi
+
+104902;
+	Sound['next_une'].Play();
+111343;
+	Sound['arv_une'].Play();
+112143;	 //	Une
+
+112493;
+	Sound['next_kami'].Play();
+117316;
+	Sound['arv_kami'].Play();
+118716;	 //	Kamigori
+
+119066;
+#	Sound['next_isi'].Play();
+120716;
+#	Sound['arv_isi'].Play();
