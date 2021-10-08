@@ -17,3 +17,9 @@ next_une,Sound\announce\next_une.wav
 arv_une,Sound\announce\arv_une.wav
 next_kami,Sound\announce\next_kamigori.wav
 arv_kami,Sound\announce\arv_kamigori.wav
+
+#1339M—p
+himeji_1339M,Sound\Announce\1339M\himeji.wav
+arv_hoshi_1339M,Sound\Announce\1339M\arv_aboshi.wav
+arv_aioi_1339M,Sound\Announce\1339M\arv_aioi.wav
+next_agaho_1339M,Sound\Announce\1339M\next_agaho.wav

@@ -1,6 +1,6 @@
 BveTs Station List 2.00:shift_jis,,,,,,,,,,,,
 #stationKey,stationText,arrivalTime,departureTime,stoppageTime,defaultTime,signalFlag,alightingTime,passengers,arrivalSoundKey,depertureSoundKey,doorReopen,stuckInDoor
-Sta-2,ïPÅ@Å@òH,,20:37:35,40,20:36:30,1,0,0.42,,,0.2,0.04
+Sta-2,ïPÅ@Å@òH,,20:37:35,40,20:36:30,1,0,0.42,himeji_1339M,,0.2,0.04
 Sta-1,âp âÍ ï€,20:41:45,20:42:05,10,20:41:45,0,0,0.07,,,0.25,0.03
 Sta0,ÇÕÇËÇ‹èüå¥,20:45:00,20:45:20,10,20:45:00,0,0,0.032,,,0.12,0.03
 Sta1,ñ‘Å@Å@ä±,20:48:10,20:48:40,20,20:48:10,0,0,0.027,,,0.35,0.03
