@@ -1,0 +1,91 @@
+BveTs Vehicle Sound 3.00
+
+[Run]
+;長尺
+0 = ..\..\..\..\..\SNR\Train\HOT7000\Sound_sl\Run_long0.wav
+
+;定尺
+4 = ..\..\..\..\..\SNR\Train\HOT7000\Sound_sl\Run_25m0.wav
+
+;スラブ
+3 = ..\..\..\..\..\SNR\Train\HOT7000\Sound_sl\Run_slab0.wav
+
+;橋梁
+2 = ..\..\..\..\..\SNR\Train\HOT7000\Sound_sl\Run_bridge0.wav
+
+;トンネル
+5 = ..\..\..\..\..\SNR\Train\HOT7000\Sound_sl\Run_tunnel0.wav
+
+[Flange]
+0 = ..\..\..\..\..\SNR\Train\HOT7000\Sound_sl\Flange0.wav
+1 = ..\..\..\..\..\SNR\Train\HOT7000\Sound_sl\Flange0.wav
+
+[Joint]
+0 = ..\..\..\..\..\SNR\Train\HOT7000\Sound_sl\Point0.wav
+1 = ..\..\..\..\..\SNR\Train\HOT7000\Sound_sl\Point_45.wav
+
+10 = ..\..\..\..\..\SNR\Train\HOT7000\Sound_sl\Joint.wav
+
+20  =  ..\..\..\..\..\SNR\Train\HOT7000\Sound_sl\Point_crossing1.wav
+21  =  ..\..\..\..\..\SNR\Train\HOT7000\Sound_sl\Point_crossing1.wav
+22  =  ..\..\..\..\..\SNR\Train\HOT7000\Sound_sl\Point_crossing1.wav
+23  =  ..\..\..\..\..\SNR\Train\HOT7000\Sound_sl\Point_crossing1.wav
+
+
+[Brake]
+BC Release High = ..\..\..\..\..\SNR\Train\HOT7000\Sound_sl\AirHigh.wav
+BC Release      = ..\..\..\..\..\SNR\Train\HOT7000\Sound_sl\Air.wav
+BC Release Full = ..\..\..\..\..\SNR\Train\HOT7000\Sound_sl\AirZero.wav
+[Brake Handle]
+
+[Compressor]
+
+[Horn]
+Primary  = ..\..\..\..\..\SNR\Train\HOT7000\Sound_sl\Klaxon.wav
+PrimaryRelease  = ..\..\..\..\..\SNR\Train\HOT7000\Sound_sl\Klaxon_Release.wav
+
+[Door]
+OpenLeft = ..\..\..\..\..\SNR\Train\HOT7000\Sound_sl\DoorOpn.wav
+OpenRight = ..\..\..\..\..\SNR\Train\HOT7000\Sound_sl\DoorOpn.wav
+CloseLeft = ..\..\..\..\..\SNR\Train\HOT7000\Sound_sl\DoorCls.wav
+CloseRight = ..\..\..\..\..\SNR\Train\HOT7000\Sound_sl\DoorCls.wav
+
+[Ats]
+0 = ..\..\..\..\..\SNR\Train\HOT7000\Sound_sl\Ats.wav
+1 = ..\..\..\..\..\SNR\Train\HOT7000\Sound_sl\AtsCnt.wav
+3 = ..\..\..\..\..\SNR\Train\HOT7000\Sound\Eb.wav
+
+[Buzzer]
+
+[Pilot Lamp]
+On  = ..\..\..\..\..\SNR\Train\HOT7000\Sound_sl\Leave.wav
+
+[Suspension]
+Left  = ..\..\..\..\..\SNR\Train\HOT7000\Sound_sl\Airsus.wav
+Right = ..\..\..\..\..\SNR\Train\HOT7000\Sound_sl\Airsus.wav
+
+[AirSpring]
+LeftApply = ..\..\..\..\..\SNR\Train\HOT7000\Sound_sl\springL.wav
+RightApply = ..\..\..\..\..\SNR\Train\HOT7000\Sound_sl\springR.wav
+
+[Reverser]
+On  = ..\..\..\..\..\SNR\Train\HOT7000\Sound_mc\RevF.wav
+Off = ..\..\..\..\..\SNR\Train\HOT7000\Sound_mc\RevN.wav
+
+[Brake Handle]
+Min = ..\..\..\..\..\SNR\Train\HOT7000\sound_mc\BrOff.wav
+Apply = ..\..\..\..\..\SNR\Train\HOT7000\sound_mc\BrUp.wav
+Release = ..\..\..\..\..\SNR\Train\HOT7000\sound_mc\BrDown.wav
+;ApplyFast = ..\..\..\..\..\SNR\Train\HOT7000\sound\h_br_fast.wav
+;ReleaseFast = ..\..\..\..\..\SNR\Train\HOT7000\sound\h_br_fast.wav
+Max = ..\..\..\..\..\SNR\Train\HOT7000\sound_mc\BrOff.wav
+
+[MasterController]
+Up = ..\..\..\..\..\SNR\Train\HOT7000\sound_mc\McUp.wav
+Down = ..\..\..\..\..\SNR\Train\HOT7000\sound_mc\McDown.wav
+Min = ..\..\..\..\..\SNR\Train\HOT7000\sound_mc\McOff.wav
+Max = ..\..\..\..\..\SNR\Train\HOT7000\sound_mc\McFull.wav
+
+[Others]
+;Noise = ..\..\..\..\..\SNR\Train\HOT7000\Sound_sl\Idle.wav
+Shoe  = ..\..\..\..\..\SNR\Train\HOT7000\Sound_sl\Rub.wav
