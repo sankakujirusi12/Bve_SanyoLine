@@ -106,7 +106,7 @@ repeater['whitefence1'].End();
 #下りホーム屋根
 $sanyo_distance+112135;
 	Track['sanyonobori'].Position(4,0,0);
-repeater['Ballast_gr1'].Begin(0,4,-0.1,0,0,0,0,1,1,5,'Ballast_gr');
+repeater['Ballast_gr1'].Begin(0,4,-0.01,0,0,0,0,1,5,5,'Ballast_gr');
 
 repeater['wall_nobori'].Begin0('sanyonobori',1,10,9.9,'formwallR2');
 repeater['roof_nobori'].Begin0('sanyonobori',0,25,25,'Roof1R');
@@ -115,7 +115,7 @@ repeater['whitefence2'].End();
 #上りホーム屋根
 $sanyo_distance+112143;
 #カーブ
-structure['teimokupole2'].Put(0,-2.3,2.5,0,0,0,0,0,0);
+structure['teimokupole2'].Put(0,-2.3,2.5,0.4,0,0,0,0,0);
 structure['retsutei'].Put(0,-2.3,2.5,0,0,0,0,0,0);
 curve.Begin(700,0.06);
 $sanyo_distance+112139;
@@ -145,7 +145,7 @@ Repeater['DikeL'].Begin0(, 0, 5, 5, 'DikeL_1','DikeL_2','DikeL_3');
 Repeater['DikeR'].Begin0('sanyonobori', 0, 5, 5, 'DikeR_1','DikeR_2','DikeR_3');
 	Track['Grass2'].Position(0,-0.45);
 $sanyo_distance+112000;
-repeater['Ballast_gr2'].Begin(0,8,-0.1,0,0,0,0,1,1,5,'Ballast_gr');
+repeater['Ballast_gr2'].Begin(0,8,-0.01,0,0,0,0,1,5,5,'Ballast_gr');
 $sanyo_distance+112210;
 Gradient.Interpolate(-0.2);
 #-0.2‰
@@ -185,7 +185,7 @@ Sound3D['cross'].Put(15.5, 2.3);
 #踏切1(上り10m右)
 	Track['Grass2'].Position(0,-0.45);
 $sanyo_distance+112438;
-structure['End2'].Put('gawa_une1',0,0,0,0,180,0,0,2);
+structure['End2'].Put('gawa_une1',0,0,7,0,180,0,0,2);
 repeater['ballast7'].Begin('gawa_une1',0,0,0,0,0,0,3,5,5,'Ballast_old');
 	Track['gawa_une1'].Position(6,0,0);
 #もがれた中線の残骸(6m右)

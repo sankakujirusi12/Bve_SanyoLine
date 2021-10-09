@@ -767,6 +767,8 @@ $sanyo_distance+103037;
 repeater['kasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,50,50,'jrkasenchu-chou','jrkasenchu-tan',);
 $sanyo_distance+103047;
 repeater['kasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,50,50,'jrkasenchu-tan','jrkasenchu-chou');
+$sanyo_distance+103440;
+structure['jrkasenchu-tan'].Put(0,0,0,0,0,0,0,0,0);
 $sanyo_distance+103747;
 structure['jrkasenchu-tan'].Put(0,0,0,0,0,0,0,0,0);
 $sanyo_distance+103870;
