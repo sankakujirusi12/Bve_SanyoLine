@@ -1,4 +1,4 @@
-BveTs Map 2.00:UTF-8
+﻿BveTs Map 2.00:UTF-8
 #山陽本線-1305M
 
 0;
@@ -40,6 +40,7 @@ include 'Submap\Map_kasen_section.txt';
 
 #他列車
 include 'Trains\Trains_1305M_0_2018.txt';
+include 'Trains\arriving_melody.txt';
 include 'Cars\Cars.txt';
 
 #先行列車
@@ -47,7 +48,8 @@ include 'Submap\Map_pretrain_1305M.txt';
 
 #音
 include 'Submap\joint_1305M.txt';
-include 'Sound\Announce\Announce.txt';
+include 'Trains\arriving_melody.txt';
+include 'Sound\Announce\Announce_1305M.txt';
 
 #ATS
 include 'Submap\Map_beacon_1305M.txt';

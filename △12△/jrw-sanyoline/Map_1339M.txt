@@ -1,4 +1,4 @@
-BveTs Map 2.00:UTF-8
+﻿BveTs Map 2.00:UTF-8
 #山陽本線-1339M
 
 0;
@@ -44,6 +44,7 @@ include 'Trains\Trains_1339M.txt';
 
 #音
 #include 'Submap\joint_1305M.txt';
+include 'Sound\Announce\Announce_1339M.txt';
 
 #ATS
 include 'Submap\Map_beacon_1305M.txt';
