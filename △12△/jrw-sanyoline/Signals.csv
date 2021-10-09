@@ -18,7 +18,7 @@ type4yy_b,Signal4L0_b,Signal4L1_b,Signal4L2_b,,Signal4L4_b
 ,Signal4G0,Signal4G1,Signal4G2,,Signal4G4
 
 #’†Œp
-type30,Signal30L0,,,Signal30L3,Signal30L4
+type30,Signal30L0,Signal30L3,,,Signal30L4
 
 #i˜H—\‹@(–{ü—p)
 CourseC,CourseOff,,CourseC,,
