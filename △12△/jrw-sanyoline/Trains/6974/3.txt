@@ -1,0 +1,21 @@
+BveTs Train 1.01:shift_jis
+[structure]
+key=ef65_1135
+distance=0
+z=8
+span=16
+[structure]
+key=ef65_light
+distance=0
+z=8
+span=16
+[structure]
+key=PS22-UP
+distance=0
+z=8
+span=16
+[structure]
+key=suhahu12_b
+distance=10.5
+z=8
+span=16
