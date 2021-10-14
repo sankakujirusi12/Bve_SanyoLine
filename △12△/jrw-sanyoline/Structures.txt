@@ -250,6 +250,20 @@ tree23,Structures\Ntfiv\GeneralStr_png\Nature\trees_street\tree23_S.x
 tree24,Structures\Ntfiv\GeneralStr_png\Nature\trees_street\tree24_S.x
 tree25,Structures\Ntfiv\GeneralStr_png\Nature\trees_street\tree25_S.x
 
+
+Grove00,..\..\Nagoya_Common\Nature\Wood\Grove00.x
+Grove01,..\..\Nagoya_Common\Nature\Wood\Grove01.x
+Grove02,..\..\Nagoya_Common\Nature\Wood\Grove02.x
+Grove03,..\..\Nagoya_Common\Nature\Wood\Grove03.x
+Grove04,..\..\Nagoya_Common\Nature\Wood\Grove04.x
+Wood00,..\..\Nagoya_Common\Nature\Wood\Wood00.x
+Wood01,..\..\Nagoya_Common\Nature\Wood\Wood01.x
+Wood02,..\..\Nagoya_Common\Nature\Wood\Wood02.x
+Wood03,..\..\Nagoya_Common\Nature\Wood\Wood03.x
+Wood04,..\..\Nagoya_Common\Nature\Wood\Wood04.x
+Wood05,..\..\Nagoya_Common\Nature\Wood\Wood05.x
+Wood06,..\..\Nagoya_Common\Nature\Wood\Wood06.x
+
 #隙間埋め
 BlankL_01,Structures\Uchibo\Dike\blank_L01.x
 BlankL_02,Structures\Uchibo\Dike\blank_L02.x
@@ -401,6 +415,9 @@ Cr1_R1,../../Nagoya_Common\Railway_Obj\Cross\Normal\SR.x
 Cr1_R2,../../Nagoya_Common\Railway_Obj\Cross\Normal\SCR.x
 #上から順に本体、道路接合部、軌道部
 
+shoken2,Structures\Ntfiv\GeneralStr_png\Accessory\Cross\CrossAcc\shoken2.x
+FmBox,Structures\Ntfiv\GeneralStr_png\Accessory\Cross\CrossAcc\FmBox.x
+shoken1,Structures\Ntfiv\GeneralStr_png\Accessory\Cross\CrossAcc\shoken1.x
 
 #-------------------------------------------------------------------道路関係---------------------------------------------------------------------
 
@@ -409,8 +426,11 @@ Road_1sya_nb,Structures\サンパチタテモノ\road\road_045a.x
 Road_2sya,Structures\サンパチタテモノ\road\road_070a.x
 Road_2sya_nb,Structures\サンパチタテモノ\road\road_070a.x
 Road_4sya,../../Nagoya_Common\Build\Road\Road4.x
-Couse,
-seigen50,../../Nagoya_Common\Build\Road\Sign\50.x
+peopleroad_L,Structures\サンパチタテモノ\road\peopleroad_045L.x
+peopleroad_R,Structures\サンパチタテモノ\road\peopleroad_045R.x
+seigen50_road,../../Nagoya_Common\Build\Road\Sign\50.x
+Road_1sya_L,Structures\サンパチタテモノ\road\road_045L.x
+Road_1sya_R,Structures\サンパチタテモノ\road\road_045R.x
 Azemichi,../../Nagoya_Common\Nature\Farm\Road_C.x
 AzemichiL,../../Nagoya_Common\Nature\Farm\Road_L.x
 AzemichiR,../../Nagoya_Common\Nature\Farm\Road_R.x
@@ -497,7 +517,9 @@ dentou2,Structures\△12△\Denchu\light2.x
 dentouW,Structures\△12△\Denchu\lightW.x
 #電柱
 denchu,Structures\△12△\Denchu\pole.x
-denchu_light,Structures\△12△\Denchu\polelight.x
+denchu1,Structures\△12△\Denchu\pole1.x
+
+denchu3,Structures\△12△\Denchu\pole3.x
 densen,../../Nagoya_Common\Build\Road\Line.x
 #沿線セット
 ensen0L,../../Nagoya_Common\Build\EnsenSet\0L.x
@@ -553,8 +575,9 @@ kyaku8tei,Structures\△12△\teimoku\kyaku8.x
 2you,Structures\△12△\komono\2you.x
 #--------------------------------------------------------------------ATS-----------------------------------------------------------------------
 #SW地上子
-Sw,../../Nagoya_Common\Railway_Obj\Signal\Beacon\SN1.x
-Sw_stop,../../Nagoya_Common\Railway_Obj\Signal\Beacon\SN2.x
+Sw,Structures\Ntfiv\GeneralStr_png\Accessory\Beacon\ats_a_W.x
+Sw_stop,Structures\Ntfiv\GeneralStr_png\Accessory\Beacon\ats_a_R.x
+Sw_faildepart,Structures\Ntfiv\GeneralStr_png\Accessory\Beacon\ats_a_O.x
 #P地上子
 P1,../../Nagoya_Common\Railway_Obj\Signal\Beacon\P.x
 P2,../../Nagoya_Common\Railway_Obj\Signal\Beacon\P2.x
@@ -909,11 +932,41 @@ orone15-3000,Structures\saha209\PC14_sl\153000.x
 
 
 #103系
-Mc103-3500_40n_r,Structures\103\Mc103-3500_40n_r.x
-Mc'102-3500b_40n_r,Structures\103\Mc'102-3500b_40n_r.x
+#車両本体
+103-3500 A,Structures\harimate\103-3500\Mc103 A.x
+102-3500 A,Structures\harimate\103-3500\Mc102 A.x
+103-3500 B,Structures\harimate\103-3500\Mc103 B.x
+102-3500 B,Structures\harimate\103-3500\Mc102 B.x
 
-#Mc103-3500_40n_r,../../../../103\Tc103.x
-#Mc'102-3500b_40n_r,../../../../103\T103.x
+
+＃車番
+103 BH1,Structures\harimate\103-3500\103 BH1.x
+102 BH1,Structures\harimate\103-3500\102 BH1.x
+103 BH3,Structures\harimate\103-3500\103 BH3.x
+102 BH3,Structures\harimate\103-3500\102 BH3.x
+103 BH6,Structures\harimate\103-3500\103 BH6.x
+102 BH6,Structures\harimate\103-3500\102 BH6.x
+103 BH9,Structures\harimate\103-3500\103 BH9.x
+102 BH9,Structures\harimate\103-3500\102 BH9.x
+
+#種別幕
+Not in A,Structures\harimate\103-3500\Not in A.x
+
+
+#ライト
+hed,Structures\harimate\103-3500\hed.x
+tail,Structures\harimate\103-3500\tail.x
+
+#パンタグラフ
+#panta d,Structures\harimate\103-3500\panta d.x
+#panta dd,Structures\harimate\103-3500\panta dd.x
+panta u,Structures\harimate\103-3500\panta u.x
+#panta ur,Structures\harimate\103-3500\panta ur.x
+#panta dr,Structures\harimate\103-3500\panta dr.x
+#panta ud,Structures\harimate\103-3500\panta ud.x
+#panta udr,Structures\harimate\103-3500\panta udr.x
+#panta uu,Structures\harimate\103-3500\panta uu.x
+
 T103_40n_o,Structures\103_40N\T103.x
 Tc103_NA_b,Structures\103_NA\103_hine\103_Tc.x
 Tc'103_NA_b,Structures\103_NA\103_hine\103_Tc2.x
@@ -1180,6 +1233,9 @@ Mc320,../../Nagoya_Common\Train\JRW\321\Mc320.x
 #キヤ141
 Mzc141,Structures\Shirasagi\jr141dc\Mzc.x
 Tzc141,Structures\Shirasagi\jr141dc\Tzc.x
+
+#キハ120
+DC120_kame,Structures\Kotobuki\DC120_2end\DC120_kame.x
 
 #145
 Mzc145,Structures\kyu_roku\Mzc145\Mzc145-1000.x

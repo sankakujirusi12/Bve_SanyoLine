@@ -9,6 +9,7 @@ kokirun_joint,Sound3D\kty_LandscapeSounds\コンテナ貨物対向音\koki_run_joint.wav
 cross,Sound3D\kty_LandscapeSounds\踏切音s\crossing3.wav,4
 cross2,Sound3D\kty_LandscapeSounds\踏切音s\crossing1.wav,4
 rain,../..\Nagoya_Common\Sound\3D\Environmental_Rain.wav
+103,Structures\harimate\103.wav
 115run,Sound3D\通過音\115通過音.wav,3
 221run,Sound3D\通過音\221通過音.wav,3
 223-1000run,Sound3D\通過音\223-1000通過音1.wav,8
@@ -18,6 +19,6 @@ rain,../..\Nagoya_Common\Sound\3D\Environmental_Rain.wav
 213run,
 HOT7000run,Sound3D\通過音\HOT7000通過音.wav
 sazanami,Sound3D\△12△\sazanami.wav,6
-hyoujyun,Sound3D\△12△\hyoujyun.wav
+hyoujyun,Sound3D\△12△\hyoujyun.wav,4
 DC_engine,Sound3D\通過音\DC187エンジン音.wav,3
 DC40run,Sound3D\通過音\DC47W通過音.wav
