@@ -1,8 +1,8 @@
 BveTs Map 2.00:shift_jis
-0;
+$sanyo_distance+0;
 $113B=floor(rand(4));
 $9345M=floor(rand(24));
-$6974=floor(rand(40));
+$9974=floor(rand(40));
 $115D=floor(rand(4));
 $115D1=floor(rand(4));
 $koki=floor(rand(3));
@@ -12,15 +12,15 @@ $sandenlocal=floor(rand(15));
 
 Train['1322MF'].Load('Trains\115_D_'+$115D+'.txt', 'sanyonobori', -1);
 Train['1322MB'].Load('Trains\115_D_'+$115D1+'.txt', 'sanyonobori', -1);
-#Train['1322M_maku'].Load('Trains\LEDmaku_aioi.txt', 'sanyonobori', -1);
 Train['3498M'].Load('Trains\223-1000_8.txt', 'sanyonobori', -1);
 #Train['806T'].Load('Trains\dd51+chiki14b.txt', 'sanyonobori', -1);
 Train['806T'].Load('Trains\221-0_8.txt', 'sanyonobori', -1);
 Train['60D'].Load('Trains\HOT7000_5.txt', 'sanyonobori', -1);
-Train['6974'].Load('Trains\6974\'+$6974+'.txt', 'nakage', 1);
+Train['9974'].Load('Trains\9974\'+$9974+'.txt', 'sanyonobori', -1);
+
 #Train['9301 9321'].Load('Trains\9301 9321\2.txt', 'gawa_kami3', 1);
 Train['9345M'].Load('Trains\9345M\'+$9345M+'.txt', 'nakage', 1);
-Train['6794M'].Load('Trains\207_7.txt', 'gawa_hoshi2', -1);
+#Train['6794M'].Load('Trains\207_7.txt', 'gawa_hoshi2', -1);
 
 Train['hoshi1'].Load('Trains\223-1000_8_.txt', 'hoshiden9', -1);
 Train['hoshi2'].Load('Trains\145.txt', 'hoshiden5', -1);
@@ -39,32 +39,34 @@ Train['sandenlocal'].Load('Trains\SY\'+$sandenlocal+'.txt', 'sandenkudari', -1);
 
 				#Train['hoshi10'].Load('Trains\ó’éû\3.txt', 'hoshiden5', -1);
 
-83500;
+$sanyo_distance+83500;
 Train['806T'].Stop(3, 30, 2.2, 100);
 Train['60D'].Stop(3, 30, 2.2, 110);
-Train['6974'].Stop(2, 0, 2.5, 0);
+Train['9974'].Stop(2, 0, 2.5, 0);
 Train['1322MF'].Enable('16:35:00');
 Train['1322MB'].Enable('16:35:00');
 #Train['1322M_maku'].Enable('16:35:00');
-Train['3498M'].Enable('16:18:00');
-Train['3498M'].Enable('16:18:00');
+Train['3498M'].Enable('16:23:00');
 Train['806T'].Enable('16:19:00');
 Train['60D'].Enable('16:20:00');
 Train['9345M'].Enable('16:01:00');
-Train['6974'].Enable('16:23:00');
+Train['9974'].Enable('16:23:00');
 #Train['9301 9321'].Enable('16:18:00');
-84000;
-84140;
+$sanyo_distance+84000;
+
+$sanyo_distance+84140;
 Train['sandenlocal'].Stop(3, 30, 0, 60);
-84426;
+
+$sanyo_distance+84426;
 Train['sandenlocal'].Stop(3, 0, 60, 40);
-88135;
-Train['6974'].Stop(0, 0, 2.5, 35);
-88235;
+
+$sanyo_distance+88135;
+
+$sanyo_distance+88235;
 Train['806T'].Stop(3, 30, 2.5, 100);
 Train['3498M'].Stop(3, 30, 2.5, 100);
-90000;
 
+$sanyo_distance+90000;
 Train['hoshi1'].Enable('16:20:00');
 Train['hoshi2'].Enable('16:20:00');
 Train['hoshi3'].Enable('16:20:00');
@@ -76,58 +78,59 @@ Train['hoshi8'].Enable('16:20:00');
 Train['hoshi9'].Enable('16:20:00');
 Train['hoshi10'].Enable('16:20:00');
 #Train['hoshi11'].Enable('16:20:00');
-91121;
+
+$sanyo_distance+91121;
 Train['60D'].Stop(3, 0, 30, 110);
 Train['806T'].Stop(3, 30, 2.5, 100);
 Train['3498M'].Stop(3, 30, 2.5, 100);
-93905;
-Train['6794M'].Stop(0, 0, 0, 0);
-93900;
 
-94905;
+$sanyo_distance+93905;
+#Train['6794M'].Stop(0, 0, 0, 0);
+
+$sanyo_distance+93900;
+
+$sanyo_distance+94905;
 Train['hoshi6'].Stop(0, 0, 0, 0);
-94995;
+$sanyo_distance+94995;
 Train['hoshi3'].Stop(0, 0, 0, 0);
-95004;
+$sanyo_distance+95004;
 Train['hoshi7'].Stop(0, 0, 0, 0);
 Train['hoshi8'].Stop(0, 0, 0, 0);
-95053;
+$sanyo_distance+95053;
 Train['hoshi4'].Stop(0, 0, 0, 0);
-95200;
+$sanyo_distance+95200;
 Train['hoshi5'].Stop(0, 0, 0, 0);
-95439;
+$sanyo_distance+95439;
 Train['hoshi2'].Stop(0, 0, 0, 0);
-95460;
+$sanyo_distance+95460;
 Train['hoshi9'].Stop(0, 0, 0, 0);
-95500;
+$sanyo_distance+95500;
 Train['hoshi10'].Stop(0, 0, 0, 0);
-95560;
+$sanyo_distance+95560;
 Train['hoshi1'].Stop(0, 0, 0, 0);
-93942;
+$sanyo_distance+93942;
 #ñ‘ä±
+Train['9974'].Stop(2, 0, 2.5, 70);
 Train['3498M'].Stop(3, 30, 2.5, 100);
-99880;
+$sanyo_distance+99880;
 #ó≥ñÏ
 Train['3498M'].Stop(3, 30, 2.5, 100);
 #ëäê∂
-104381;
+$sanyo_distance+104381;
 Train['9345M'].Stop(0, 0, 0, 0);
 Train['1322MF'].Stop(3, 30, 0, 100);
-#Train['1322M_maku'].Stop(3, 30, 0, 100);
-104441;
+$sanyo_distance+104441;
 Train['1322MB'].Stop(3, 30, 0, 100);
-111944;
+$sanyo_distance+111944;
 #óLîN
 Train['1322MF'].Stop(3, 30, 2.5, 100);
-#Train['1322M_maku'].Stop(3, 30, 0, 100);
-112004;
+$sanyo_distance+112004;
 Train['1322MB'].Stop(3, 30, 2.5, 100);
-118587;
+$sanyo_distance+118587;
 #è„åS
 Train['1322MF'].Stop(3, 30, 2.5, 100);
-#Train['1322M_maku'].Stop(3, 30, 2.5, 100);
-118647;
+$sanyo_distance+118647;
 Train['1322MB'].Stop(3, 30, 2.5, 100);
-118877;
+$sanyo_distance+118877;
 #âºÇ≈Ç∑
 #Train['9301 9321'].Stop(0, 0, 2.5, 35);

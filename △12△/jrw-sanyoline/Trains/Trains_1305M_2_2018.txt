@@ -1,5 +1,5 @@
 BveTs Map 2.00:shift_jis
-0;
+$sanyo_distance+0;
 $113B=floor(rand(4));
 $koki=floor(rand(3));
 $hoshi=floor(rand(21));
@@ -23,7 +23,7 @@ Train['hoshi5'].Load('Trains\221-0_8.txt', 'gawa_hoshi1', -1);
 Train['hoshi6'].Load('Trains\225-0_8.txt', 'gawa_hoshi1', -1);
 Train['hoshi7'].Load('Trains\223-1000_8_.txt', 'hoshiden3', -1);
 Train['hoshi8'].Load('Trains\223-2000_12__.txt', 'hoshiden7', -1);
-Train['hoshi9'].Load('Trains\103_r_4.txt', 'hoshiden10', -1);
+Train['hoshi9'].Load('Trains\3501+3506 Not in.txt', 'hoshiden10', -1);
 Train['hoshi10'].Load('Trains\臨時\'+$hoshi+'.txt', 'hoshiden3', -1);
 Train['hoshi11'].Load('Trains\223-1000_8_.txt', 'gawa_hoshi1', -1);
 Train['hoshi12'].Load('Trains\223-2000_12.txt', 'sanyonobori', -1);
@@ -33,9 +33,9 @@ Train['sandenlocal'].Load('Trains\SY\'+$sandenlocal+'.txt', 'sandenkudari', -1);
 	#↑変なのを出したくない人はこちらの構文をご使用ください↓
 
 				#Train['hoshi10'].Load('Trains\臨時\3.txt', 'hoshiden5', -1);
-82500;
+$sanyo_distance+82500;
 Train['56'].Stop(3, 30, 25, 70);
-83500;
+$sanyo_distance+83500;
 Train['1300M_maku'].Stop(3, 30, 2.2, 90);
 Train['1300M'].Stop(3, 30, 2.2, 90);
 Train['1300M'].Enable('07:26:00');
@@ -52,16 +52,16 @@ Train['3426M'].Stop(3, 30, 2.5, 100);
 Train['hoshi12'].Stop(3, 30, 2.5, 100);
 Train['5730M'].Stop(3, 30, 2.5, 100);
 Train['5732T'].Stop(3, 30, 2.5, 100);
-84000;
+$sanyo_distance+84000;
 Train['hoshi4'].Enable('07:24:00');
-84140;
+$sanyo_distance+84140;
 Train['sandenlocal'].Stop(3, 30, 0, 60);
-84426;
+$sanyo_distance+84426;
 Train['sandenlocal'].Stop(3, 0, 60, 40);
-88235;
+$sanyo_distance+88235;
 Train['5730M'].Stop(3, 30, 2.5, 100);
 Train['5732T'].Stop(3, 30, 2.5, 100);
-90000;
+$sanyo_distance+90000;
 
 Train['hoshi1'].Enable('07:20:00');
 Train['hoshi2'].Enable('07:20:00');
@@ -78,44 +78,44 @@ Train['hoshi12'].Enable('07:20:00');
 Train['hoshi13'].Enable('07:20:00');
 Train['hoshi14'].Enable('07:20:00');
 Train['xxxxM'].Enable('07:16:00');
-91121;
+$sanyo_distance+91121;
 #Train['5730M'].Stop(3, 0, 2.5, 100);
 Train['5732T'].Stop(3, 30, 2.5, 100);
 Train['xxxxM'].Stop(3, 30, 2.5, 100);
-93500;
+$sanyo_distance+93500;
 Train['hoshi11'].Stop(0, 0, 0, 0);
-93840;
+$sanyo_distance+93840;
 Train['hoshi13'].Stop(0, 0, 0, 0);
 Train['hoshi14'].Stop(0, 0, 0, 0);
-93900;
+$sanyo_distance+93900;
 Train['hoshi12'].Stop(3, 90, 2.5, 100);
-94905;
+$sanyo_distance+94905;
 Train['hoshi6'].Stop(0, 0, 0, 0);
-94995;
+$sanyo_distance+94995;
 Train['hoshi3'].Stop(0, 0, 0, 0);
-95004;
+$sanyo_distance+95004;
 Train['hoshi7'].Stop(0, 0, 0, 0);
 Train['hoshi8'].Stop(0, 0, 0, 0);
-95053;
+$sanyo_distance+95053;
 Train['hoshi4'].Stop(0, 0, 0, 0);
-95200;
+$sanyo_distance+95200;
 Train['hoshi5'].Stop(0, 0, 0, 0);
-95439;
+$sanyo_distance+95439;
 Train['hoshi2'].Stop(0, 0, 0, 0);
-95460;
+$sanyo_distance+95460;
 Train['hoshi9'].Stop(0, 0, 0, 0);
-95500;
+$sanyo_distance+95500;
 Train['hoshi10'].Stop(0, 0, 0, 0);
-95560;
+$sanyo_distance+95560;
 Train['hoshi1'].Stop(0, 0, 0, 0);
-93942;
+$sanyo_distance+93942;
 #網干
 Train['738T'].Stop(3, 30, 2.5, 100);
 Train['3426M'].Stop(3, 30, 2.5, 100);
-93972;
+$sanyo_distance+93972;
 Train['1300M_maku'].Stop(3, 30, 2.2, 100);
 Train['1300M'].Stop(3, 30, 2.2, 100);
-99880;
+$sanyo_distance+99880;
 #竜野
 Train['xxxxM'].Stop(3, 30, 2.5, 100);
 Train['738T'].Enable('07:28:00');
@@ -124,26 +124,27 @@ Train['3426M'].Stop(3, 30, 2.5, 100);
 Train['1300M_maku'].Stop(3, 30, 2.2, 90);
 Train['1300M'].Stop(3, 30, 2.2, 90);
 #相生
-104381;
+$sanyo_distance+104381;
 Train['3426M'].Stop(3, 30, 2.5, 100);
 Train['738T'].Stop(3, 30, 2.5, 100);
-104461;
+
+$sanyo_distance+104461;
 
 Train['1300M'].Stop(3, 0, 2.2, 100);
 Train['1300M_maku'].Stop(3, 0, 2.2, 100);
 
-111944;
+$sanyo_distance+111944;
 #有年
 Train['738T'].Stop(3, 30, 2.5, 100);
-Train['56'].Stop(3, 30, 25, 70);
-118587;
+
+$sanyo_distance+118587;
 #上郡
 Train['738T'].Stop(3, 30, 2.5, 100);
-118804;
+$sanyo_distance+118804;
 Train['HOT'].Stop(0, 0, 0, 0);
 
 #56レは仮に有年発(汗)
 
-131075;
+$sanyo_distance+131075;
 #三石
 Train['56'].Stop(3, 30, 25, 70);

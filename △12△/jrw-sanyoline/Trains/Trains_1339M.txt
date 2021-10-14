@@ -1,8 +1,8 @@
 BveTs Map 2.00:shift_jis
-80000;
+$sanyo_distance+80000;
 Train['1332M'].Load('Trains\night\115_D_2.txt', 'sanyonobori', -1);
-83500;
+$sanyo_distance+83500;
 Train['1332M'].Enable('20:35:00');
 Train['1332M'].Stop(1.5, 30, 2.2, 100);
-88265;
+$sanyo_distance+88265;
 Train['1332M'].Stop(3, 30, 2.2, 100);
