@@ -35,6 +35,8 @@ include 'Submap\Map_beacon_1305M.txt';
 include '設定.txt';
 include 'Submap\Map_crossNo.txt';
 
+Background.Change('Bg');
+
 #-------------------------転動音-----------------------
 #0=ロング 1=スラブ 3=橋梁 4=トンネル 22=定尺
 0;
