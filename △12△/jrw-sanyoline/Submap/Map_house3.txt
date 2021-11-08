@@ -74,6 +74,10 @@ $sanyo_distance+88490;
 structure['サンパチ05'].Put('douro1',18,0,0,0,-90,0,0,0);
 $sanyo_distance+88505;
 structure['サンパチ05'].Put('douro1',18,0,0,0,-90,0,0,0);
+Repeater['house'].Begin('douro1',-8,0,0,0,0,0,0,10,10,'3dhouse14','3dhouse12','3dhouse9','3dhouse3','3dhouse5','3dhouse8',,'3dhouse9','3dhouse15','3dhouse12','3dhouse11','3dhouse22','3dhouse23','3dhouse14','3dhouse9','3dhouse10','3dhouse16','3dhouse8');
+$sanyo_distance+88585;
+Repeater['house'].End();
+
 $sanyo_distance+88692;
 repeater['road_1sya'].Begin0('douro1',1,50,50,'ensen0L','ensen1L');
 #endはpassに記載

@@ -149,7 +149,7 @@ $sanyo_distance+118716;
 structure['8tei'].Put(0,-2,0,0,0,0,0,0,2);
 #8B’â–Ú
 structure['retsutei'].Put('nakage',-2.3,3.39,-0.1,0,0,0,0,0);
-structure['teimokupole'].Put('nakage',-3,1.2,0,0,0,0,0,0);
+structure['teimokupole'].Put('nakage',-2.3,3.5,0,0,0,0,0,0);
 $sanyo_distance+118754;
 structure['retsutei'].Put(0,-2,0,0,0,0,0,0,2);
 #‘S’â–Ú

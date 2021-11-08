@@ -723,6 +723,7 @@ $sanyo_distance+88457;
 	Track['nakage'].Position(4,0);
 	Track['nakajou'].Position(4,0);
 	Structure['SW_faildepart'].Put('nakage', 0, 0, 0, 0, 0, 0, 3, 5);
+	repeater['fence_kudari'].Begin(0,-3,0,0,0,0,0,0,5,5,'WhiteFence1');
 $sanyo_distance+88469;
 
 structure['karetei'].Put(0,-2.3,2,-0.1,0,0,0,0,0);
@@ -760,7 +761,7 @@ Repeater['bushes1'].End();
 $sanyo_distance+88507;
 	Track['nakajou'].Position(5,0,0);
 $sanyo_distance+88517;
-
+	Track['douro1'].Position(-20,0,0);
 	Track['nakage'].Position(2,0,173);
 $sanyo_distance+88547;
 structure['pointsw'].Put(0,-2,0,0,0,0,0,0,0);
@@ -777,15 +778,24 @@ $sanyo_distance+88577;
 	Track['nakajou'].Position(7,0,0);
 $sanyo_distance+88585.6;
 structure['kanko_chukei'].Put(0,-2.6,3,0,0,0,0,0,0);
+
+$sanyo_distance+88585;
+	repeater['fence_douro'].Begin('douro1',-3,0,0,0,0,0,0,5,5,'WhiteFence1');
 $sanyo_distance+88597;
 	repeater['Ballast_gr4'].End();
-	Track['douro1'].Position(-11,0,0);
+	Track['douro1'].Position(-7,0,0);
 	Track['gawa_agaho1'].Position(4,0,0);
+
+
 $sanyo_distance+88617;
 	Track['nakajou'].Position(12,0,-308);
 	Track['gawa_agaho1'].Position(4,0,308);
 $sanyo_distance+88627;
 	Track['douro1'].Position(-7,0,0);
+	structure['Mt_wall_10a'].Put('douro1',-10,0,0,0,0,0,0,0);
+	structure['Mt_wall_11b'].Put('douro1',-10,0,5,0,0,0,0,0);
+	structure['Mt_wall_12a'].Put('douro1',-15,5,15,0,0,0,0,0);
+	structure['Mt_wall_13a'].Put('douro1',-20,0,20,0,0,0,0,0);
 $sanyo_distance+88637;
 	Track['gawa_agaho1'].Position(5,0,0);
 $sanyo_distance+88642;
@@ -805,7 +815,10 @@ $sanyo_distance+88677;
 	repeater['Ballast3'].End();
 	Track['gawa_agaho1'].Position(8,0,0);
 repeater['road_1sya_3'].End();
+
 $sanyo_distance+88682;
+	repeater['fence_douro'].End();
+	repeater['fence_kudari'].End();
 	Track['douro1'].Position(-7,-0.1,0);
 structure['Cr_L1'].Put(0,0,0,0,0,0,0,0,2);
 structure['Cr_L2'].Put(0,0,0,0,0,0,0,0,2);
