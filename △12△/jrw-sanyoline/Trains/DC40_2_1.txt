@@ -1,0 +1,21 @@
+BveTs Train 1.01:shift_jis
+[structure]
+key=DC40-2000N
+distance=0
+z=8
+span=16
+[structure]
+key=DC40light
+distance=0
+z=8
+span=16
+[structure]
+key=DC40-2000N
+distance=21
+z=8
+span=16
+[sound3D]
+Key=DC40run
+Distance1=-10
+Distance2=31
+Function=Rolling

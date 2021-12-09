@@ -1,0 +1,28 @@
+BveTs Train 1.01:shift_jis
+;K-01 K-02 K-03
+[structure]
+key=Tc115-1101_30n
+distance=0
+z=8
+span=16
+[structure]
+key=M115-3500_30n
+distance=20
+z=8
+span=16
+[structure]
+key=M'114-3500_30n
+distance=40
+z=8
+span=16
+[structure]
+key=Tc'115-1000_30n
+Distance=60
+z=8
+span=16
+
+[sound3D]
+Key=115run
+Distance1=-10
+Distance2=70
+Function=Rolling

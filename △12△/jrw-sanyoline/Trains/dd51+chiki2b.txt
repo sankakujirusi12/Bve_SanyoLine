@@ -1,0 +1,16 @@
+BveTs Train 1.01:shift_jis
+[structure]
+key=dd51
+distance=0
+z=8
+span=16
+[structure]
+key=chiki6305
+distance=9
+z=8
+span=16
+[structure]
+key=chiki6781
+distance=26.4
+z=8
+span=16

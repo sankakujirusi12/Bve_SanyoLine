@@ -1,0 +1,137 @@
+bvets train 0.01
+
+;東海道線 11両編成。
+;向きは真下の標と下の方にある灯を切り替えてください。
+;※音声は各自でご用意下さい。
+
+[structure] ;標
+key=113_05 ;前
+;key=113_06 ;後
+distance=-200
+z=8
+span=16
+
+[structure];影
+key=shadow_e
+distance=0
+z=8
+span=16
+[structure]
+key=shadow_e
+distance=-20
+z=8
+span=16
+[structure]
+key=shadow_e
+distance=-40
+z=8
+span=16
+[structure]
+key=shadow_e
+distance=-60
+z=8
+span=16
+[structure]
+key=shadow_e
+distance=-80
+z=8
+span=16
+[structure]
+key=shadow_e
+distance=-100
+z=8
+span=16
+[structure]
+key=shadow_e
+distance=-120
+z=8
+span=16
+[structure]
+key=shadow_e
+distance=-140
+z=8
+span=16
+[structure]
+key=shadow_e
+distance=-160
+z=8
+span=16
+[structure]
+key=shadow_e
+distance=-180
+z=8
+span=16
+[structure]
+key=shadow_e
+distance=-200
+z=8
+span=16
+
+[structure];本体
+key=113_03 ;ク
+distance=0
+z=8
+span=16
+[structure]
+key=113_02 ;モ
+distance=-20
+z=8
+span=16
+[structure]
+key=113_01 ;モ
+distance=-40
+z=8
+span=16
+[structure]
+key=113_04 ;ロ
+distance=-60
+z=8
+span=16
+[structure]
+key=113_04 ;ロ
+distance=-80
+z=8
+span=16
+[structure]
+key=113_02 ;モ
+distance=-100
+z=8
+span=16
+[structure]
+key=113_01 ;モ
+distance=-120
+z=8
+span=16
+[structure]
+key=113_01 ;サ
+distance=-140
+z=8
+span=16
+[structure]
+key=113_02 ;モ
+distance=-160
+z=8
+span=16
+[structure]
+key=113_01 ;モ
+distance=-180
+z=8
+span=16
+[structure]
+key=113_00 ;ク
+distance=-200
+z=8
+span=16
+
+[structure] ;灯
+key=113_07 ;前
+;key=113_08 ;後
+distance=-200
+z=8
+span=16
+
+[sound3d]
+key=※ジョイント音
+distance2=10
+distance1=-210
+function=run

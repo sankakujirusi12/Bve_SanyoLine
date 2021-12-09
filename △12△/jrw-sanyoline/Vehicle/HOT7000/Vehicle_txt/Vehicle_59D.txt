@@ -1,0 +1,7 @@
+﻿BveTs Vehicle 1.00
+
+PerformanceCurve = ..\..\..\..\..\SNR\Train\HOT7000\Notch\Notch.txt
+Parameters = ..\..\..\..\..\SNR\Train\HOT7000\Notch\Parameters5M.txt
+Sound = ..\Sound_txt\Sound_sanyo.txt
+Ats = ..\..\..\..\..\SNR\Train\HOT7000\ATS\PluginOrganizer.dll
+Panel = ..\Panel\panel_59D.txt

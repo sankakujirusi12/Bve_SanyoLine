@@ -1,0 +1,41 @@
+﻿BveTs Map 2.00:shift_jis
+$sanyo_distance+87872;
+$distance=distance;
+$point='nakage';
+include 'Submap\PointR.txt';
+$sanyo_distance+93554;
+$distance=distance;
+$point='watari2';
+include 'Submap\PointL.txt';
+$sanyo_distance+94330;
+$distance=distance;
+$point='hoshi3';
+include 'Submap\PointR.txt';
+$sanyo_distance+94390;
+$distance=distance;
+$point='watari1';
+include 'Submap\PointL2.txt';
+$sanyo_distance+104000;
+$distance=distance;
+$point='nakage';
+include 'Submap\PointR.txt';
+$sanyo_distance+118360;
+$distance=distance;
+$point='gawa_kami3';
+include 'Submap\PointL.txt';
+$sanyo_distance+118397.3;
+$distance=distance;
+$point='nakage';
+include 'Submap\PointR.txt';
+
+
+
+
+
+
+
+
+
+
+
+

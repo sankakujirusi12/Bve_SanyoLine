@@ -1,0 +1,26 @@
+BveTs Train 1.01:shift_jis
+[structure]
+key=Tc222-2000
+distance=0
+z=8
+span=16
+[structure]
+key=M223-2000
+distance=20
+z=8
+span=16
+[structure]
+key=T223-2000
+distance=40
+z=8
+span=16
+[structure]
+key=Mc223-2000
+distance=60
+z=8
+span=16
+[sound3D]
+Key=223-2000run
+Distance1=-10
+Distance2=70
+Function=Rolling

@@ -1,0 +1,19 @@
+﻿BveTs Map 2.00:UTF-8
+0;
+
+Track['sekkinL'].Position(-2,3);
+Track['sekkinR'].Position(2,3);
+
+#---------------接近メロディー定義------------------------------------------------------------------------------------------------------------------
+
+Train['mitsuishi_sekkin1'].Load('Trains\hyoujyun.txt', 'sekkinR', -1);
+Train['mitsuishi_sekkin2'].Load('Trains\hyoujyun.txt', 'sekkinR', -1);
+Train['mitsuishi_sekkin1'].Stop(0, 5, 0, 100000);
+Train['mitsuishi_sekkin2'].Stop(0, 5, 0, 100000);
+131248;
+Train['mitsuishi_sekkin1'].Stop(0, 5, 0, 100000);
+
+131280;
+Train['mitsuishi_sekkin2'].Stop(0, 5, 0, 100000);
+Train['mitsuishi_sekkin1'].Enable('00:00:00');
+Train['mitsuishi_sekkin2'].Enable('00:00:00');

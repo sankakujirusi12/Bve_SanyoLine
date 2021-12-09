@@ -1,0 +1,47 @@
+・ファイルパスは適宜書き換えてください。
+・昼
+153_00,structures\initg_ecset\153_00.x  ;クハ153（高運転台）
+153_01,structures\initg_ecset\153_01.x  ;サハ153（モハ153）
+153_02,structures\initg_ecset\153_02.x  ;モハ152
+153_03,structures\initg_ecset\153_03.x  ;サロ152
+153_04,structures\initg_ecset\153_04.x  ;クハ153（逆向き）
+153_05,structures\initg_ecset\153_05.x  ;灯（前・高運転台用）
+153_06,structures\initg_ecset\153_06.x  ;灯（後・高運転台用）
+153_10,structures\initg_ecset\153_10.x  ;クハ153（低運転台）
+153_15,structures\initg_ecset\153_15.x  ;灯（前・低運転台用）
+153_16,structures\initg_ecset\153_16.x  ;灯（後・低運転台用）
+153_20,structures\initg_ecset\153_20.x  ;クハ153（新快速高運転台）
+153_21,structures\initg_ecset\153_21.x  ;サハ153（モハ153 新快速）
+153_22,structures\initg_ecset\153_22.x  ;モハ152（新快速）
+153_24,structures\initg_ecset\153_24.x  ;クハ153（新快速逆向き）
+153_30,structures\initg_ecset\153_30.x  ;クハ153（新快速低運転台）
+153_a0,structures\initg_ecset\153_a0.x  ;HM（東海・高運転台用）
+153_a1,structures\initg_ecset\153_a1.x  ;HM（東海・低運転台用）
+153_b0,structures\initg_ecset\153_b0.x  ;HM（新快速・高運転台用）
+153_b1,structures\initg_ecset\153_b1.x  ;HM（新快速・低運転台用）
+153_c0,structures\initg_ecset\153_c0.x  ;HM（山陽・高運転台用）
+153_c1,structures\initg_ecset\153_c1.x  ;HM（山陽・低運転台用）
+shadow_e,structures\initg_ecset\shadow_e.x
+・夜
+153_00,structures\initg_ecset\153_00.x_n  ;クハ153（高運転台）
+153_01,structures\initg_ecset\153_01.x_n  ;サハ153（モハ153）
+153_02,structures\initg_ecset\153_02.x_n  ;モハ152
+153_03,structures\initg_ecset\153_03.x_n  ;サロ152
+153_04,structures\initg_ecset\153_04.x_n  ;クハ153（逆向き）
+153_05,structures\initg_ecset\153_05.x_n  ;灯（前・高運転台用）
+153_06,structures\initg_ecset\153_06.x_n  ;灯（後・高運転台用）
+153_10,structures\initg_ecset\153_10.x_n  ;クハ153（低運転台）
+153_15,structures\initg_ecset\153_15.x_n  ;灯（前・低運転台用）
+153_16,structures\initg_ecset\153_16.x_n  ;灯（後・低運転台用）
+153_20,structures\initg_ecset\153_20.x_n  ;クハ153（新快速高運転台）
+153_21,structures\initg_ecset\153_21.x_n  ;サハ153（モハ153 新快速）
+153_22,structures\initg_ecset\153_22.x_n  ;モハ152（新快速）
+153_24,structures\initg_ecset\153_24.x_n  ;クハ153（新快速逆向き）
+153_30,structures\initg_ecset\153_30.x_n  ;クハ153（新快速低運転台）
+153_a0,structures\initg_ecset\153_a0.x  ;HM（東海・高運転台用）
+153_a1,structures\initg_ecset\153_a1.x  ;HM（東海・低運転台用）
+153_b0,structures\initg_ecset\153_b0.x  ;HM（新快速・高運転台用）
+153_b1,structures\initg_ecset\153_b1.x  ;HM（新快速・低運転台用）
+153_c0,structures\initg_ecset\153_c0.x  ;HM（山陽・高運転台用）
+153_c1,structures\initg_ecset\153_c1.x  ;HM（山陽・低運転台用）
+shadow_e,structures\initg_ecset\shadow_e_n.x

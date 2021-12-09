@@ -1,0 +1,50 @@
+BveTs Map 2.02:shift_jis
+
+//ATS-SW/P2プラグイン用地上子
+//閉塞信号機の地上子配置(パターン600,180,85m手前,即時停止30m手前)
+
+$Beacon - 30; //即時停止
+	Beacon.Put(5,1,0);
+	Beacon.Put(3,1,1);
+	Beacon.Put(3,2,2);
+	Beacon.Put(3,3,3);
+	Beacon.Put(3,4,4);
+	Beacon.Put(3,5,5);
+	Beacon.Put(3,6,6);
+	Beacon.Put(3,7,7);
+	Beacon.Put(3,8,8);
+	Beacon.Put(3,9,9);
+	//Structure['P2'].Put(0, 0, 0, 0, 0, 0, 0, 3, 5);
+$Beacon - 85;
+	Beacon.Put(3,1,1);
+	Beacon.Put(3,2,2);
+	Beacon.Put(3,3,3);
+	Beacon.Put(3,4,4);
+	Beacon.Put(3,5,5);
+	Beacon.Put(3,6,6);
+	Beacon.Put(3,7,7);
+	Beacon.Put(3,8,8);
+	Beacon.Put(3,9,9);
+	//Structure['P1'].Put(0, 0, 0, 0, 0, 0, 0, 3, 5);
+$Beacon - 180;
+	Beacon.Put(3,1,1);
+	Beacon.Put(3,2,2);
+	Beacon.Put(3,3,3);
+	Beacon.Put(3,4,4);
+	Beacon.Put(3,5,5);
+	Beacon.Put(3,6,6);
+	Beacon.Put(3,7,7);
+	Beacon.Put(3,8,8);
+	Beacon.Put(3,9,9);
+	//Structure['P1'].Put(0, 0, 0, 0, 0, 0, 0, 3, 5);
+$Beacon - 600;
+	Beacon.Put(3,1,1);
+	Beacon.Put(3,2,2);
+	Beacon.Put(3,3,3);
+	Beacon.Put(3,4,4);
+	Beacon.Put(3,5,5);
+	Beacon.Put(3,6,6);
+	Beacon.Put(3,7,7);
+	Beacon.Put(3,8,8);
+	Beacon.Put(3,9,9);
+	//Structure['P1'].Put(0, 0, 0, 0, 0, 0, 0, 3, 5);

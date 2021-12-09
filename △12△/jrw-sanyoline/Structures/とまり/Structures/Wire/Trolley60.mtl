@@ -1,0 +1,22 @@
+newmtl m0
+Ka 0 0 0
+Kd 0.078431 0.078431 0.078431
+Ks 0 0 0
+Ns 0
+d 1
+
+newmtl m1
+Ka 0 0 0
+Kd 0.078431 0.078431 0.078431
+Ks 0 0 0
+Ns 0
+d 1
+
+newmtl m2
+map_Kd Hanger.dds
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Ns 0
+d 1
+

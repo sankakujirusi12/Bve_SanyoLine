@@ -1,0 +1,12 @@
+BveTs Map 2.00:shift_jis
+#æs
+$sanyo_distance+87500;
+PreTrain.Pass('01:36:52');
+$sanyo_distance+87789;
+PreTrain.Pass('01:37:03');
+$sanyo_distance+93320;
+PreTrain.Pass('01:40:25');
+$sanyo_distance+94140;
+PreTrain.Pass('01:44:26');
+$sanyo_distance+300000;
+PreTrain.Pass('01:44:51');

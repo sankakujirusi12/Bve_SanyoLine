@@ -1,0 +1,796 @@
+﻿BveTs Map 2.00:shift_jis
+#山陽本線 201? (有年～上郡)
+
+#参考になるかは分かりませんが、おおまかな地形・設備については#で記述してあります。
+
+$sanyo_distance+112608;
+Gradient.Interpolate(3.8);
+#+3.8‰
+$sanyo_distance+112670;
+#	Track['sanyonobori'].Position(4,0,0);
+$sanyo_distance+112739;
+#	Track['sanyonobori'].Position(4,0,0);
+repeater['Ballast_gr1'].End();
+#(上り4m右)
+$sanyo_distance+112785;
+Gradient.Interpolate(6.2);
+#+6.2‰
+$sanyo_distance+112785;
+curve.BeginTransition();
+Track['sanyonobori'].Cant.Interpolate(0);
+$sanyo_distance+112794;
+structure['Levee_B'].Put(0,-0.5,0,0,0,0,0,0,2);
+	Track['Grass2'].Position(0,-4.5);
+Repeater['Ballast'].End();
+Repeater['Ballast1'].End();
+Repeater['Ballast'].Begin(,0,0,0,0,0,0,3,5,5,'BridgeRail_5');
+Repeater['Ballast1'].Begin('sanyonobori',0,0,0,0,0,0,3,5,5,'BridgeRail_5');
+repeater['Bridge'].Begin(0,0,0,0,0,0,0,1,5,5,'Bridge1');
+repeater['Bridge1'].Begin(0,0,0,0,0,0,0,1,5,5,'Bridge1L');
+repeater['Bridge2'].Begin('sanyonobori',0,0,0,0,0,0,1,5,5,'Bridge1');
+repeater['Bridge3'].Begin('sanyonobori',0,0,0,0,0,0,1,5,5,'Bridge1R');
+#矢野川橋梁
+repeater['DikeL'].End();
+repeater['DikeR'].End();
+repeater['River'].Begin('Grass2',0,0,0,0,0,0,3,25,25,'River');
+$sanyo_distance+112852;
+structure['Levee_B'].Put(0,-0.5,0,0,0,0,0,0,2);
+Repeater['Ballast'].End();
+Repeater['Ballast1'].End();
+Repeater['Bridge'].End();
+Repeater['Bridge1'].End();
+Repeater['Bridge2'].End();
+Repeater['Bridge3'].End();
+Repeater['Ballast'].Begin(,0,0,0,0,0,0,3,5,5,'Ballast');
+Repeater['Ballast1'].Begin('sanyonobori',0,0,0,0,0,0,3,5,5,'Ballast');
+	Track['Grass2'].Position(0,-4.5);
+#終わり
+structure['Levee_B'].Put(0,-0.5,0,0,0,0,0,0,2);
+Repeater['River'].End();
+Repeater['Grass2'].Begin('Grass2',0,0,0,0,0,0,1,25,25,'Grass');
+Repeater['DikeL'].Begin0(, 0, 5, 5, 'DikeL_1','DikeL_2','DikeL_3');
+Repeater['DikeR'].Begin0('sanyonobori', 0, 5, 5, 'DikeR_1','DikeR_2','DikeR_3');
+$sanyo_distance+112885;
+#	Track['Grass2'].Position(0,-1.5);
+#カーブ(二本の架線柱の間)[R600]
+curve.Begin(600,0.085);
+Track['sanyonobori'].Cant.Interpolate(0.085);
+	Track['Route373'].Position(-135,-1);
+repeater['road_2sya'].Begin0('route373',1,6,5,'Road_2sya_nb');
+	repeater['denchu'].Begin('route373',-6,0,0,0,0,0,1,40,40,'denchu','denchu1','denchu','denchu','denchu3','denchu1','denchu');
+	repeater['densen'].Begin('route373',-6,0,0,0,0,0,1,40,40,'densen');
+$sanyo_distance+112928;
+	Track['Grass2'].Position(0,-4.5);
+repeater['DikeL'].End();
+repeater['DikeR'].End();
+structure['Levee_B'].Put(0,-0.5,0,0,0,0,0,0,2);
+Repeater['Grass2'].End();
+Repeater['Ballast'].End();
+Repeater['Ballast1'].End();
+Repeater['Ballast'].Begin(,0,0,0,0,0,0,3,5,5,'BridgeRail_5');
+Repeater['Ballast1'].Begin('sanyonobori',0,0,0,0,0,0,3,5,5,'BridgeRail_5');
+repeater['Bridge'].Begin(0,0,0,0,0,0,0,1,5,5,'Bridge1');
+repeater['Bridge1'].Begin(0,0,0,0,0,0,0,1,5,5,'Bridge1L');
+repeater['Bridge2'].Begin('sanyonobori',0,0,0,0,0,0,1,5,5,'Bridge1');
+repeater['Bridge3'].Begin('sanyonobori',0,0,0,0,0,0,1,5,5,'Bridge1R');
+#橋梁
+repeater['River'].Begin('Grass2',0,0,0,0,0,0,3,25,25,'River');
+$sanyo_distance+112944;
+
+Repeater['Ballast'].End();
+Repeater['Ballast1'].End();
+Repeater['Ballast'].Begin(,0,0,0,0,0,0,3,5,5,'Ballast');
+Repeater['Ballast1'].Begin('sanyonobori',0,0,0,0,0,0,3,5,5,'Ballast');
+Repeater['Bridge'].End();
+Repeater['Bridge1'].End();
+Repeater['Bridge2'].End();
+Repeater['Bridge3'].End();
+#終わり
+	Track['Grass2'].Position(0,-4.5);
+Repeater['DikeL'].Begin0(, 0, 5, 5, 'DikeL_1','DikeL_2','DikeL_3');
+Repeater['DikeR'].Begin0('sanyonobori', 0, 5, 5, 'DikeR_1','DikeR_2','DikeR_3');
+structure['Levee_B'].Put(0,-0.5,0,0,0,0,0,0,2);
+Repeater['River'].End();
+Repeater['Grass2'].Begin('Grass2',0,0,0,0,0,0,1,25,25,'Grass');
+$sanyo_distance+112971;
+Gradient.Interpolate(0);
+#L
+$sanyo_distance+113080.6;
+structure['kanko_chukei'].Put(0,-3,3,0,0,0,0,0,0);
+$sanyo_distance+113107;
+Gradient.Interpolate(-1.0);
+#-1.0‰
+	Track['Route373'].Position(-50,0,-600);
+$sanyo_distance+113154;
+structure['Cr1_L1'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr1_L2'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr1_R2'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr1_L3'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr1_L3'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr1_L2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr1_R2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr1_R1'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+Sound3D['cross2'].Put(-1.5, 2.3);
+Sound3D['cross2'].Put(5.5, 2.3);
+	Track['Grass2'].Position(0,-0.45);
+#踏切1(小)
+$sanyo_distance+113280;
+structure['kanko_5'].Put(0,-3.5,4,0,0,0,0,0,0);
+$sanyo_distance+113305;
+	Track['Route373'].Position(-10,0,-600);
+$sanyo_distance+113389;
+structure['Cr_L1'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_R2'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_L3'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_L3'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_R2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_R1'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+Sound3D['cross2'].Put(-1.5, 2.3);
+Sound3D['cross2'].Put(5.5, 2.3);
+#踏切2
+Curve.Interpolate(600, 0.085);
+Track['sanyonobori'].Cant.Interpolate(0.085);
+	Track['Grass2'].Position(0,-0.45);
+$sanyo_distance+113469;
+	Track['Grass2'].Position(0,-1);
+Curve.Interpolate(0, 0);
+Track['sanyonobori'].Cant.Interpolate(0);
+#終わり(R373の横、古墳の山の近くの駐車場の５つめの区画)
+	Track['Route373'].Position(-35,0);
+$sanyo_distance+113569;
+	Track['Route373'].Position(-60,0,600);
+$sanyo_distance+113724;
+Gradient.Interpolate(0);
+$sanyo_distance+113754;
+Gradient.Interpolate(10);
+#+10.0‰
+$sanyo_distance+113823;
+	Track['Route373'].Position(-32,0,-600);
+$sanyo_distance+113902;
+repeater['DikeL'].End();
+repeater['DikeR'].End();
+structure['Levee_B'].Put(0,-0.5,0,0,0,0,0,0,2);
+Repeater['Grass2'].End();
+Repeater['Ballast'].End();
+Repeater['Ballast1'].End();
+Repeater['Ballast'].Begin(,0,0,0,0,0,0,3,5,5,'BridgeRail_5');
+Repeater['Ballast1'].Begin('sanyonobori',0,0,0,0,0,0,3,5,5,'BridgeRail_5');
+repeater['Bridge'].Begin(0,0,0,0,0,0,0,1,5,5,'Bridge1');
+repeater['Bridge1'].Begin(0,0,0,0,0,0,0,1,5,5,'Bridge1L');
+repeater['Bridge2'].Begin('sanyonobori',0,0,0,0,0,0,1,5,5,'Bridge1');
+repeater['Bridge3'].Begin('sanyonobori',0,0,0,0,0,0,1,5,5,'Bridge1R');
+#橋梁
+repeater['River'].Begin('Grass2',0,0,0,0,0,0,1,25,25,'River');
+	Track['Grass2'].Position(0,-2.5);
+
+$sanyo_distance+113912;
+structure['Levee_B'].Put(0,-0.5,0,0,0,0,0,0,2);
+Repeater['Ballast'].End();
+Repeater['Ballast1'].End();
+Repeater['Bridge'].End();
+Repeater['Bridge1'].End();
+Repeater['Bridge2'].End();
+Repeater['Bridge3'].End();
+Repeater['Ballast'].Begin(,0,0,0,0,0,0,3,5,5,'Ballast');
+Repeater['Ballast1'].Begin('sanyonobori',0,0,0,0,0,0,3,5,5,'Ballast');
+Repeater['Grass2'].Begin('Grass2',0,0,0,0,0,0,1,25,25,'Grass');
+Repeater['River'].End();
+Repeater['DikeL'].Begin0(, 0, 5, 5, 'DikeL_1','DikeL_2','DikeL_3');
+Repeater['DikeR'].Begin0('sanyonobori', 0, 5, 5, 'DikeR_1','DikeR_2','DikeR_3');
+#終わり
+$sanyo_distance+113923;
+
+	Track['Route373'].Position(-10,0);
+	Track['Mt_R'].Position(164,25,0,0);
+	Repeater['Trees2'].Begin('Mt_R',-10,-12,0,0,0,0,1,3,3,'tree12','tree11','tree13','tree14','tree18','tree15','tree16','tree17');
+	Repeater['Trees3'].Begin('Mt_R',-15,-26,0,0,0,0,1,4,4,'tree15','tree14','tree12','tree17','tree12','tree13','tree11','tree15');
+	repeater['Mt_R1'].Begin('Mt_R',0,0,0,0,0,0,0,55,55,'Mt_R1','Mt_R2');
+$sanyo_distance+114000;
+structure['kanko_4'].Put(0,-3,3,0,0,0,0,0,0);
+structure['teimokupole_short'].Put(0,-3,2,0,0,0,0,0,0);
+$sanyo_distance+114004;
+repeater['DikeL'].End();
+repeater['DikeR'].End();
+Repeater['Grass2'].End();
+Repeater['Ballast'].End();
+Repeater['Ballast1'].End();
+Repeater['Ballast'].Begin(,0,0,0,0,0,0,3,5,5,'BridgeRail_5');
+Repeater['Ballast1'].Begin('sanyonobori',0,0,0,0,0,0,3,5,5,'BridgeRail_5');
+repeater['Bridge'].Begin(0,0,0,0,0,0,0,1,5,5,'Bridge1');
+repeater['Bridge1'].Begin(0,0,0,0,0,0,0,1,5,5,'Bridge1L');
+repeater['Bridge2'].Begin('sanyonobori',0,0,0,0,0,0,1,5,5,'Bridge1');
+repeater['Bridge3'].Begin('sanyonobori',0,0,0,0,0,0,1,5,5,'Bridge1R');
+	Track['Grass2'].Position(0,-2.5);
+Curve.Interpolate(0, 0);
+Track['sanyonobori'].Cant.Interpolate(0);
+#橋梁
+structure['Levee_B'].Put(0,-0.5,0,0,0,0,0,0,2);
+repeater['River'].Begin('Grass2',0,0,0,0,0,0,1,25,25,'River');
+$sanyo_distance+114017;
+	Track['Mt_R'].Position(44,25,0,0);
+structure['Levee_B'].Put(0,-0.5,0,0,0,0,0,0,2);
+Repeater['Ballast'].End();
+Repeater['Ballast1'].End();
+Repeater['Bridge'].End();
+Repeater['Bridge1'].End();
+Repeater['Bridge2'].End();
+Repeater['Bridge3'].End();
+Repeater['Ballast'].Begin(,0,0,0,0,0,0,3,5,5,'Ballast');
+Repeater['Ballast1'].Begin('sanyonobori',0,0,0,0,0,0,3,5,5,'Ballast');
+#終わり
+Repeater['DikeL'].Begin0(, 0, 5, 5, 'DikeL_1','DikeL_2','DikeL_3');
+Repeater['DikeR'].Begin0('sanyonobori', 0, 5, 5, 'DikeR_1','DikeR_2','DikeR_3');
+
+Repeater['River'].End();
+	Track['Grass2'].Position(0,-2.5);
+$sanyo_distance+114026;
+repeater['DikeL'].End();
+repeater['DikeR'].End();
+	Track['Grass2'].Position(0,-0.85);
+structure['Cr_L1'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_R2'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_L3'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_L3'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_R2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_R1'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+Sound3D['cross2'].Put(-1.5, 2.3);
+Sound3D['cross2'].Put(5.5, 2.3);
+Repeater['Grass2'].Begin('Grass2',0,0,0,0,0,0,1,25,25,'Grass');
+Curve.Interpolate(1200, 0.03);
+Track['sanyonobori'].Cant.Interpolate(0.03);
+#踏切3
+$sanyo_distance+114039;
+Repeater['bushes2'].Begin(0,-2.5,-5,0,0,0,0,0,20,20,'bush1','bush2','bush3');
+Repeater['DikeL'].Begin0(, 0, 5, 5, 'DikeL_1','DikeL_2','DikeL_3');
+Repeater['DikeR'].Begin0('sanyonobori', 0, 5, 5, 'DikeR_1','DikeR_2','DikeR_3');
+$sanyo_distance+114129;
+Curve.Interpolate(1200, 0.03);
+Track['sanyonobori'].Cant.Interpolate(0.03);
+$sanyo_distance+114159;
+Curve.Interpolate(0, 0);
+Track['sanyonobori'].Cant.Interpolate(0);
+$sanyo_distance+114240;
+	Track['Mt_R'].Position(133,25,0,0);
+$sanyo_distance+114352;
+	Track['Route373'].Position(-10,-2,-800);
+	Track['Grass2'].Position(0,-2.45);
+$sanyo_distance+114458;
+repeater['road_1sya'].Begin0('route450',1,6,5,'Road_1sya_nb');
+	Track['Route373'].Position(-15,-2,-400);
+	Track['Route450'].Position(-15,-2,-100);
+$sanyo_distance+114478;
+Repeater['bushes1'].Begin('route450',-5,0,0,0,0,0,0,20,20,'bush1','bush2','bush3');
+	Track['Grass2'].Position(0,-2.45);
+	Track['Route450'].Position(-7,-2,0);
+$sanyo_distance+114502;
+	repeater['denchu'].End();
+	repeater['densen'].End();
+	Track['Route373'].Position(-58,0,0);
+$sanyo_distance+114591-264-78;
+Gradient.Interpolate(0);
+$sanyo_distance+114591-264-48;
+
+$sanyo_distance+114591-264-30;
+Gradient.Interpolate(10);
+$sanyo_distance+114591-264;
+Gradient.Interpolate(0);
+#L
+$sanyo_distance+114473;
+curve.BeginTransition();
+Track['sanyonobori'].Cant.Interpolate(0);
+$sanyo_distance+114513;
+#カーブ[R1200左]
+curve.Begin(-800,-0.06);
+Track['sanyonobori'].Cant.Interpolate(-0.06);
+$sanyo_distance+114548;
+repeater['road_1sya'].End();
+Repeater['bushes2'].End();
+$sanyo_distance+114558;
+repeater['DikeL'].End();
+repeater['DikeR'].End();
+	Track['Grass2'].Position(0,-0.45);
+structure['Cr_L1'].Put(0,-7,0,0,-2,-90,0,0,2);
+structure['Cr_L2'].Put(0,-7,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put(0,-6.5,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put(0,-6,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put(0,-5.5,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put(0,-5,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put(0,-4.5,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put(0,-4,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put(0,-3.5,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put(0,-3,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put(0,-2.5,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put(0,-2,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put(0,-1.5,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put(0,-1,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put(0,-0.5,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_R2'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_L3'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_L3'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_R2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_R1'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+Sound3D['cross2'].Put(-1.5, 2.3);
+Sound3D['cross2'].Put(5.5, 2.3);
+#踏切4
+repeater['Mt_R1'].End();
+repeater['trees2'].End();
+repeater['trees3'].End();
+	Track['Mt_R'].Position(34,15,0,0);
+	Track['Route450'].Position(-7,0,0);
+	Track['Route373'].Position(-112,0,0);
+repeater['road_2sya'].End();
+Repeater['bushes1'].End();
+Gradient.Interpolate(0);
+$sanyo_distance+114568;
+Repeater['DikeL'].Begin0(, 0, 5, 5, 'DikeL_1','DikeL_2','DikeL_3');
+Repeater['DikeR'].Begin0('sanyonobori', 0, 5, 5, 'DikeR_1','DikeR_2','DikeR_3');
+$sanyo_distance+114575;
+#structure['tree12'].Put(0,-15,0,0,0,0,0,0,2);
+#structure['tree11'].Put(0,-35,0,1,0,0,0,0,2);
+Gradient.Interpolate(-7.6);
+#-7.6‰
+$sanyo_distance+114592;
+
+	Track['Grass2'].Position(0,-4.5);
+repeater['DikeL'].End();
+repeater['DikeR'].End();
+Repeater['Grass2'].End();
+repeater['Bridge'].Begin(0,0,-0.5,0,0,0,0,1,20,20,'Truss_B_in','Truss_B_c','Truss_B_c','Truss_B_c','Truss_B_c','Truss_B_c','Truss_B_c');
+repeater['River'].Begin('Grass2',0,0,0,0,0,0,1,26,26,'River');
+structure['Levee_B'].Put(0,-0.5,0,0,0,0,0,0,2);
+#トラス橋
+$sanyo_distance+114643;
+Curve.Interpolate(-800, -0.06);
+Track['sanyonobori'].Cant.Interpolate(-0.06);
+$sanyo_distance+114658;
+repeater['Bridge'].End();
+Gradient.Interpolate(-7.6);
+$sanyo_distance+114663;
+Gradient.Interpolate(-5.7);
+#-5.7‰
+$sanyo_distance+114672;
+structure['Truss_B_out'].Put(0,0,-0.5,0,0,0,0,0,2);
+$sanyo_distance+114683;
+Curve.Interpolate(0, 0);
+Track['sanyonobori'].Cant.Interpolate(0);
+#橋、カーブ終わり
+
+structure['Levee_B'].Put(0,-0.5,0,0,0,0,0,0,2);
+Repeater['Grass2'].Begin('Grass2',0,0,0,0,0,0,1,25,25,'Grass');
+Repeater['River'].End();
+Repeater['DikeL'].Begin0(, 0, 5, 5, 'DikeL_1','DikeL_2','DikeL_3');
+Repeater['DikeR'].Begin0('sanyonobori', 0, 5, 5, 'DikeR_1','DikeR_2','DikeR_3');
+	Track['Grass2'].Position(0,-4.5);
+$sanyo_distance+114730.6;
+structure['kanko_3'].Put(0,-3,3,0,0,0,0,0,0);
+$sanyo_distance+114740;
+Gradient.Interpolate(-5.7);
+$sanyo_distance+114753;
+Gradient.Interpolate(-7);
+#-7.0‰
+$sanyo_distance+114846;
+Gradient.Interpolate(-7);
+$sanyo_distance+114866;
+Gradient.Interpolate(0);
+#L
+$sanyo_distance+114869;
+
+repeater['DikeL'].End();
+repeater['DikeR'].End();
+	Track['Grass2'].Position(0,-0.85);
+structure['Cr1_L1'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr1_L2'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr1_R2'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr1_L3'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr1_L3'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr1_L2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr1_R2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr1_R1'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+Sound3D['cross2'].Put(-1.5, 2.3);
+Sound3D['cross2'].Put(5.5, 2.3);
+#踏切5(小)
+$sanyo_distance+115030.6;
+structure['kanko_2'].Put(0,-3,3,0,0,0,0,0,0);
+$sanyo_distance+115095;
+structure['Cr_L1'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_R2'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_L3'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_L3'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_R2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_R1'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+Sound3D['cross2'].Put(-1.5, 2.3);
+Sound3D['cross2'].Put(5.5, 2.3);
+#踏切6
+$sanyo_distance+115570;
+Gradient.Interpolate(0);
+$sanyo_distance+115576;
+Gradient.Interpolate(2.2);
+#+2.2‰
+$sanyo_distance+115586;
+structure['Cr1_L1'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr1_L2'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr1_R2'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr1_L3'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr1_L3'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr1_L2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr1_R2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr1_R1'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+Sound3D['cross2'].Put(-1.5, 2.3);
+Sound3D['cross2'].Put(5.5, 2.3);
+#踏切7(小)
+$sanyo_distance+115756;
+Gradient.Interpolate(2.2);
+$sanyo_distance+115762;
+Gradient.Interpolate(3.5);
+#+3.5‰
+$sanyo_distance+115772;
+structure['Cr1_L1'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr1_L2'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr1_R2'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr1_L3'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr1_L3'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr1_L2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr1_R2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr1_R1'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+Sound3D['cross2'].Put(-1.5, 2.3);
+Sound3D['cross2'].Put(5.5, 2.3);
+#踏切8(小)
+	Track['Grass2'].Position(0,-0.45);
+Repeater['DikeL'].Begin0(, 0, 5, 5, 'DikeL_1','DikeL_2','DikeL_3');
+Repeater['DikeR'].Begin0('sanyonobori', 0, 5, 5, 'DikeR_1','DikeR_2','DikeR_3');
+$sanyo_distance+115800;
+repeater['road_1sya_1'].Begin0('douro2',1,10,8,'Azemichi');
+	Track['Grass2'].Position(0,-2.45);
+	Track['douro2'].Position(-25,-2,0);
+$sanyo_distance+115824;
+repeater['road_1sya_1'].Begin0('douro2',1,10,9,'Azemichi');
+	Track['douro2'].Position(-10,-2,0);
+$sanyo_distance+116030;
+curve.BeginTransition();
+Track['sanyonobori'].Cant.Interpolate(0);
+$sanyo_distance+116090;
+curve.Begin(-800,-0.06);
+Track['sanyonobori'].Cant.Interpolate(-0.06);
+#Rカーブ[R800]
+$sanyo_distance+116142;
+repeater['road_1sya_1'].End();
+	Track['Grass2'].Position(0,-1.45);
+	Track['douro2'].Position(-10,-1,0);
+$sanyo_distance+116194;
+	Track['Grass2'].Position(0,-0.45);
+structure['Cr_L1'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_R2'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_L3'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_L3'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_R2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_R1'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+Sound3D['cross2'].Put(-1.5, 2.3);
+Sound3D['cross2'].Put(5.5, 2.3);
+#踏切9
+	Track['douro2'].Position(-14,0,0);
+repeater['road_1sya'].Begin0('douro2',1,6,6,'Road_1sya_nb');
+	Repeater['Trees2'].Begin('Mt_R',-10,-12,0,0,0,0,1,3,3,'tree12','tree11','tree13','tree14','tree18','tree15','tree16','tree17');
+	Repeater['Trees3'].Begin('Mt_R',-15,-26,0,0,0,0,1,4,4,'tree15','tree14','tree12','tree17','tree12','tree13','tree11','tree15');
+	repeater['Mt_R1'].Begin('Mt_R',0,0,0,0,0,0,0,55,55,'Mt_R1','Mt_R2');
+	Track['Mt_R'].Position(333,25,0,0);
+$sanyo_distance+116197;
+	Track['Grass2'].Position(0,-0.45);
+$sanyo_distance+116204;
+	repeater['denchu'].Begin('douro2',-3,0,0,0,0,0,1,40,40,'denchu','denchu1','denchu','denchu','denchu3','denchu1','denchu');
+	repeater['densen'].Begin('douro2',-3,0,0,0,0,0,1,40,40,'densen');
+	Track['Grass2'].Position(0,-1.95);
+	Track['douro2'].Position(-10,-1.5,0);
+$sanyo_distance+116306;
+	Track['Grass2'].Position(0,-2.95);
+	Track['douro2'].Position(-10,-2.5,0);
+$sanyo_distance+116336;
+	Track['Grass2'].Position(0,-0.45);
+structure['Cr_L1'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_R2'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_L3'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_L3'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_R2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_R1'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+Sound3D['cross2'].Put(-1.5, 2.3);
+Sound3D['cross2'].Put(5.5, 2.3);
+#踏切10
+	Track['douro2'].Position(-10,0,0);
+$sanyo_distance+116346;
+	Track['Grass2'].Position(0,-2.95);
+$sanyo_distance+116366;
+	Track['douro2'].Position(-10,-2.5,0);
+$sanyo_distance+116656;
+Gradient.Interpolate(3.5);
+$sanyo_distance+116686;
+Gradient.Interpolate(10);
+#+10‰
+$sanyo_distance+116736;
+	Track['Mt_R'].Position(104,25,0,0);
+	Track['Grass2'].Position(0,-2.95);
+	Track['douro2'].Position(-10,-2.5,0);
+$sanyo_distance+116776;
+	Track['Grass2'].Position(0,-0.45);
+	Track['douro2'].Position(-10,0,0);
+$sanyo_distance+116786;
+	Track['Grass2'].Position(0,-0.45);
+structure['Cr_L1'].Put(0,-2.5,0,0,0,40,0,0,2);
+structure['Cr_L2'].Put(0,-3,0.007,1,0,28,0,0,2);
+structure['Cr_L2'].Put(0,-3,0.006,0.8,0,25,0,0,2);
+structure['Cr_L2'].Put(0,-2.5,0.005,0.6,0,22,0,0,2);
+structure['Cr_L2'].Put(0,-2,0.004,0,0,19,0,0,2);
+structure['Cr_L2'].Put(0,-1.5,0.003,0,0,16,0,0,2);
+structure['Cr_L2'].Put(0,-1,0.002,0,0,13,0,0,2);
+structure['Cr_L2'].Put(0,-0.5,0.001,0,0,10,0,0,2);
+structure['Cr_L2'].Put(0,-0.5,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_R2'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_L3'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_L3'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_R2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_R1'].Put('sanyonobori',2.5,0,0,0,40,0,0,2);
+Sound3D['cross2'].Put(-1.5, 2.3);
+Sound3D['cross2'].Put(5.5, 2.3);
+#踏切11
+	Track['Mt_R'].Position(84,25,0,0);
+$sanyo_distance+116796;
+Repeater['bushes1'].Begin('Grass',-5,0,0,0,0,0,0,20,20,'bush1','bush2','bush3');
+Repeater['bushes2'].Begin('Grass',-8,-2,0,0,0,0,0,40,40,'bush1','bush2','bush3');
+$sanyo_distance+116810;
+repeater['road_1sya'].End();
+$sanyo_distance+116816;
+	repeater['denchu'].End();
+	repeater['densen'].End();
+	Track['douro2'].Position(-37,0,0);
+	Track['Mt_R'].Position(84,25,0,0);
+$sanyo_distance+116850;
+	Track['Mt_R'].Position(59,15,0,0);
+$sanyo_distance+116880.6;
+structure['kanko_1'].Put(0,-3,3,0,0,0,0,0,0);
+$sanyo_distance+117000;
+	Repeater['Trees3'].Begin('Grass2',-35,-4,0,0,0,0,1,20,20,'tree15','tree14','tree12','tree17','tree12','tree13','tree11','tree15');
+	Track['Mt_R'].Position(49,25,0,0);
+Gradient.Interpolate(10);
+$sanyo_distance+117037;
+Curve.Interpolate(-800, -0.06);
+Track['sanyonobori'].Cant.Interpolate(-0.06);
+Gradient.Interpolate(0);
+#L
+	Track['douro2'].Position(-62,-6,0);
+	repeater['road'].Begin0('douro2',1,10,9,'Road_1sya_nb');
+$sanyo_distance+117137;
+Track['sanyonobori'].Cant.Interpolate(0);
+Curve.Interpolate(0, 0);
+#カーブ終わり
+	Track['Mt_R'].Position(44,15,0,0);
+
+$sanyo_distance+117187;
+	repeater['road1'].Begin0('douro1',1,10,9,'Road_1sya_nb');
+	Track['douro1'].Position(-47,-6,0);
+	Track['douro2'].Position(-47,-6,0);
+$sanyo_distance+117200;
+	Track['Mt_R'].Position(44,15,0,0);
+$sanyo_distance+117240;
+	Track['Mt_R'].Position(40,25,0,0);
+$sanyo_distance+117257;
+Curve.Interpolate(0, 0);
+Track['sanyonobori'].Cant.Interpolate(0);
+$sanyo_distance+117307;
+	Track['Mt_R'].Position(54,15,0,0);
+$sanyo_distance+117340;
+	Track['douro1'].Position(-32,-6,0);
+	Track['douro2'].Position(-127,-6,0);
+$sanyo_distance+117357;
+#Lカーブ[R1000]
+	Track['sanyonobori'].Position(4,0);
+	Track['Mt_R'].Position(44,25,0,0);
+$sanyo_distance+117397;
+#第1閉塞
+$sanyo_distance+117329;
+Curve.Interpolate(-560, -0.09);
+Track['sanyonobori'].Cant.Interpolate(-0.09);
+$sanyo_distance+117429;
+Curve.Interpolate(0, 0);
+Track['sanyonobori'].Cant.Interpolate(0);
+#カーブ終わり
+$sanyo_distance+117424;
+	repeater['road1'].End();
+	Track['douro1'].Position(-37,-7,0);
+	Track['douro2'].Position(-37,-7,0);
+	Repeater['Trees3'].End();
+$sanyo_distance+117467;
+	Track['Mt_R'].Position(144,25,0,0);
+	Track['Grass2'].Position(0,-7.5);
+repeater['Mt_R1'].End();
+repeater['trees2'].End();
+repeater['trees3'].End();
+repeater['DikeL'].End();
+
+Repeater['Ballast'].End();
+Repeater['Ballast'].Begin(,0,0,0,0,0,0,3,5,5,'BridgeRail_5');
+Repeater['Grass2'].End();
+repeater['Bridge'].Begin(0,0,0,0,0,0,0,1,5,5,'Bridge1');
+repeater['Bridge1'].Begin(0,0,0,0,0,0,0,1,5,5,'Bridge1L');
+repeater['River'].Begin('Grass2',0,0,0,0,0,0,1,25,25,'River');
+structure['Levee_B'].Put(0,-0.5,0,0,0,0,0,0,2);
+#橋梁
+$sanyo_distance+117471;
+repeater['DikeR'].End();
+Repeater['Ballast1'].End();
+Repeater['Ballast1'].Begin('sanyonobori',0,0,0,0,0,0,3,5,5,'BridgeRail_5');
+repeater['Bridge2'].Begin('sanyonobori',0,0,0,0,0,0,1,5,5,'Bridge1');
+repeater['Bridge3'].Begin('sanyonobori',0,0,0,0,0,0,1,5,5,'Bridge1R');
+#上り橋梁
+$sanyo_distance+117478;
+Repeater['Ballast'].End();
+Repeater['Bridge'].End();
+Repeater['Bridge1'].End();
+Repeater['Ballast'].Begin(,0,0,0,0,0,0,3,5,5,'Ballast');
+Repeater['Grass2'].Begin('Grass2',0,0,0,0,0,0,1,25,25,'Grass');
+Repeater['River'].End();
+#終わり
+Repeater['DikeL'].Begin0(, 0, 5, 5, 'DikeL_1','DikeL_2','DikeL_3');
+	structure['DikeWall'].Put('',0,0,0,0,0,0,0,2);
+	structure['DikeWall'].Put('',4,0,0,0,0,0,0,2);
+	structure['DikeWall'].Put('sanyonobori',-4,0,0,0,0,0,0,2);
+	structure['DikeWall'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+$sanyo_distance+117482;
+Repeater['Ballast1'].End();
+Repeater['Bridge2'].End();
+Repeater['Bridge3'].End();
+Repeater['Ballast1'].Begin('sanyonobori',0,0,0,0,0,0,3,5,5,'Ballast');
+#終わり
+Structure['Ballast_gr'].PutBetween('sanyokudari', 'sanyonobori');
+Repeater['DikeR'].Begin0('sanyonobori', 0, 5, 5, 'DikeR_1','DikeR_2','DikeR_3');
+structure['Levee_B'].Put(0,0,0,0,0,0,0,0,2);
+Repeater['River'].End();
+$sanyo_distance+117487;
+Structure['Ballast_gr'].PutBetween('sanyokudari', 'sanyonobori');
+$sanyo_distance+117492;
+Structure['Ballast_gr'].PutBetween('sanyokudari', 'sanyonobori');
+$sanyo_distance+117497;
+Repeater['bushes1'].End();
+Repeater['bushes2'].End();
+repeater['DikeL'].End();
+
+Repeater['Ballast'].End();
+
+Repeater['Ballast'].Begin(,0,0,0,0,0,0,3,5,5,'BridgeRail_5');
+
+repeater['Bridge'].Begin(0,0,0,0,0,0,0,1,5,5,'Bridge1');
+repeater['Bridge1'].Begin(0,0,0,0,0,0,0,1,5,5,'Bridge1L');
+
+#橋梁
+repeater['Pier'].Begin(0,0,-0.5,0,0,0,0,1,25,25,'Pier');
+repeater['Pier1'].Begin('sanyonobori',0,-0.5,0,0,0,0,1,25,25,'Pier');
+repeater['Ballast_gr1'].End();
+
+$sanyo_distance+117501;
+	Track['sanyonobori'].Position(8,0);
+repeater['DikeR'].End();
+#上り橋梁
+Repeater['Ballast1'].End();
+Repeater['Ballast1'].Begin('sanyonobori',0,0,0,0,0,0,3,5,5,'BridgeRail_5');
+repeater['Bridge2'].Begin('sanyonobori',0,0,0,0,0,0,1,5,5,'Bridge1');
+repeater['Bridge3'].Begin('sanyonobori',0,0,0,0,0,0,1,5,5,'Bridge1R');
+$sanyo_distance+117514;
+structure['Levee_B'].Put(0,0,-3.5,0,-20,0,0,0,0);
+$sanyo_distance+117524;
+	repeater['road'].End();
+	Track['douro2'].Position(55,-7,0);
+$sanyo_distance+117570;
+Repeater['Grass2'].End();
+repeater['River'].Begin('Grass2',0,0,0,0,0,0,1,25,26,'River');
+$sanyo_distance+117825;
+Repeater['River'].End();
+Repeater['Grass2'].Begin('Grass2',0,0,0,0,0,0,1,25,25,'Grass');
+$sanyo_distance+117840;
+curve.BeginTransition();
+Track['sanyonobori'].Cant.Interpolate(0);
+$sanyo_distance+117866;
+structure['kanko_chukei'].Put(0,-2.5,3,0,0,0,0,0,0);
+$sanyo_distance+117925;
+Repeater['Ballast'].End();
+Repeater['Ballast'].Begin(,0,0,0,0,0,0,3,5,5,'Ballast');
+Repeater['Bridge'].End();
+Repeater['Bridge1'].End();
+Repeater['Pier'].End();
+Repeater['Pier1'].End();
+
+#終わり
+Repeater['DikeL'].Begin0(, 0, 5, 5, 'DikeL_1','DikeL_2','DikeL_3');
+	structure['DikeWall'].Put('',0,0,0,0,0,0,0,2);
+	structure['DikeWall'].Put('',4,0,0,0,0,0,0,2);
+
+$sanyo_distance+117929;
+Repeater['bushes1'].Begin('Grass',-5,-1,0,0,0,0,0,40,40,'bush1','bush2','bush3');
+Repeater['bushes2'].Begin('Grass',-8,-2,0,0,0,0,0,20,20,'bush3','bush2',,'bush1');
+Repeater['bushes3'].Begin('Grass',11,-1,0,0,0,0,0,25,25,'bush1','bush2','bush3');
+Repeater['bushes4'].Begin('Grass',15,-2,0,0,0,0,0,60,60,,,'bush3',,'bush2','bush1');
+Repeater['bushL'].Begin0(, 1, 25, 25, 'bush_L01','bush_L02','bush_L03');
+Repeater['bushR'].Begin0('sanyonobori', 1, 25, 25, 'bush_R01','bush_R02','bush_R03');
+Repeater['Ballast1'].End();
+Repeater['Ballast1'].Begin('sanyonobori',0,0,0,0,0,0,3,5,5,'Ballast');
+Repeater['Bridge2'].End();
+Repeater['Bridge3'].End();
+	Track['sanyonobori'].Position(8,0);
+#上り終わり
+Repeater['DikeR'].Begin0('sanyonobori', 0, 5, 5, 'DikeR_1','DikeR_2','DikeR_3');
+	structure['DikeWall'].Put('sanyonobori',-4,0,0,0,0,0,0,2);
+	structure['DikeWall'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+repeater['Ballast_gr'].Begin(0,4,-0.01,0,0,0,0,1,5,5,'Ballast_gr');
+Gradient.Interpolate(0);
+$sanyo_distance+117950;
+	structure['seigen85num'].Put(0,-2.5,2,-1,0,0,0,0,0);
+	structure['seigenpole'].Put(0,-2.5,1,-1,0,0,0,0,0);
+	Track['Grass2'].Position(0,-7.5);
+curve.Begin(600,0.085);
+Track['sanyonobori'].Cant.Interpolate(0.09);
+#右カーブ[R600]、下に道路
+SpeedLimit.Begin(85);
+#制限85
+$sanyo_distance+117972;
+Gradient.Interpolate(-4.7);
+#-4.7‰
+$sanyo_distance+118035.3;
+structure['kanko_jounai'].Put(0,-3.5,3,0,0,0,0,0,0);
+$sanyo_distance+118131;
+repeater['ballast9'].Begin('gawa_kami2',0,0,0,0,0,0,3,5,3,'Ballast_gr');
+	Track['gawa_kami2'].Position(4,0,0);
+Repeater['DikeR'].Begin0('gawa_kami2', 0, 5, 3, 'DikeR_1','DikeR_2','DikeR_3');
+Repeater['bushes3'].End();
+Repeater['bushes4'].End();
+$sanyo_distance+118141;
+Repeater['DikeR'].Begin0('gawa_kami2', 0, 5, 5, 'DikeR_1','DikeR_2','DikeR_3');
+Repeater['bushR'].Begin0('gawa_kami2', 1, 25, 25, 'bush_R01','bush_R02','bush_R03');
+repeater['ballast9'].Begin('gawa_kami2',0,0,0,0,0,0,3,5,5,'Ballast');
+	Track['sanyonobori'].Position(4,0);
+	Track['gawa_kami2'].Position(8,0,0);
+#側線(8m右)開始
+$sanyo_distance+118245;
+Gradient.Interpolate(-4.7);
+$sanyo_distance+118265;
+Gradient.Interpolate(1.2);
+#+1.2‰
+Curve.Interpolate(600, 0.085);
+Track['sanyonobori'].Cant.Interpolate(0.09);
+$sanyo_distance+118301;
+Repeater['bushes1'].End();
+Repeater['bushes2'].End();
+Repeater['bushL'].End();
+Repeater['bushR'].End();
+$sanyo_distance+118331;
+repeater['DikeL'].End();
+repeater['DikeR'].End();
+	Track['Grass2'].Position(0,-0.45);
+
+#終わり・踏切
+structure['Cr_L1'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_R2'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_L3'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_L3'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_R2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_L3'].Put('gawa_kami2',0,0,0,0,0,0,0,2);
+structure['Cr_L2'].Put('gawa_kami2',0,0,0,0,0,0,0,2);
+structure['Cr_R2'].Put('gawa_kami2',0,0,0,0,0,0,0,2);
+structure['Cr_R1'].Put('gawa_kami2',0,0,0,0,0,0,0,2);
+structure['Cr_R2'].Put(0,0.5,0,0,0,0,0,0,2);
+structure['Cr_R2'].Put(0,1,0,0,0,0,0,0,2);
+structure['Cr_R2'].Put(0,1.5,0,0,0,0,0,0,2);
+structure['Cr_R2'].Put(0,2,0,0,0,0,0,0,2);
+Sound3D['cross2'].Put(-1.5, 2.3);
+Sound3D['cross2'].Put(5.5, 2.3);

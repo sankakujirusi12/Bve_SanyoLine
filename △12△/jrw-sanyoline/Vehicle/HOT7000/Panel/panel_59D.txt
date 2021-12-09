@@ -1,0 +1,535 @@
+BveTs Instrument Panel 2.00
+
+;/////////////////////////////////////////////////////////
+[PilotLamp]
+Subject = true
+Location  = 2793,1510
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\MON\59D.png
+Layer = 3
+
+[PilotLamp]
+Subject = true
+Location  = 390,48
+DaytimeImage = 59D\59D.png
+NighttimeImage = 59D\59D_N.png
+Layer = 4
+
+[PilotLamp]
+Subject = true
+Location  = 838,1019
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\59D\59G.png
+NighttimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\59D\59G_N.png
+Layer = 3
+;/////////////////////////////////////////////////////////
+[Needle]
+Layer = 10
+Subject = hour
+Location = 1251, 1647
+DaytimeImage   = ..\..\..\..\..\SNR\Train\HOT7000\Panel\needle\west\H.png
+NighttimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\needle\west\H_N.png
+Origin = 32,235
+Radius = 39
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 12
+NaturalFreq = 0
+
+[Needle]
+Layer = 11
+Subject = min
+Location = 1251, 1647
+DaytimeImage   = ..\..\..\..\..\SNR\Train\HOT7000\Panel\needle\west\M.png
+NighttimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\needle\west\M_N.png
+Origin = 32,237
+Radius = 48
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 60
+NaturalFreq = 0
+
+[Needle]
+Layer = 12
+Subject = sec
+Location = 1251, 1647
+DaytimeImage   = ..\..\..\..\..\SNR\Train\HOT7000\Panel\needle\west\S.png
+NighttimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\needle\west\S_N.png
+Origin = 32,406
+Radius = 77
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 60
+NaturalFreq = 0
+DampingRatio = 0.5
+;/////////////////////////////////////////////////////////
+
+
+[This]
+Resolution = 3456
+Left = 50
+Top = 0
+Right = 3068
+Bottom = 1914
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\panel.png
+NighttimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\panel_N.png
+Center = 1666,995
+Origin = 1666,995
+
+;速度計
+[PilotLamp]
+Subject = true
+Location  = 1444,1552
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\smcover.png
+NighttimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\smcovern.png
+Layer = 3
+
+[Needle]
+;Subject = kmph
+Subject = ats252
+Location = 1490,1600
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\needle\smneedle.png
+NighttimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\needle\smneedlen.png
+Color = 323232
+Origin = 32,256
+Layer = 2
+Radius = 88
+
+;InitialAngle = -120
+;LastAngle = 115
+;MInimum = 0
+;Maximum = 160
+InitialAngle = -180
+LastAngle = 180
+Minimum = 0
+Maximum = 360000
+
+NaturalFreq = 6.3
+DampingRatio = 0.5
+
+;圧力計
+[PilotLamp]
+Subject = true
+Location  = 1749,1590
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\mmcover.png
+NighttimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\mmcovern.png
+Layer = 4
+
+;MR
+[Needle]
+;Subject = mr
+Subject = ats250
+Location = 1756,1596
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\needle\mrneedle.png
+NighttimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\needle\mrneedlen.png
+Color = c63a33
+Origin = 32,178
+Layer = 2
+Radius = 86
+
+;InitialAngle = -130
+;LastAngle = 140
+;MInimum = 0
+;Maximum = 1500
+InitialAngle = -180
+LastAngle = 180
+Minimum = 0
+Maximum = 360000
+
+NaturalFreq = 90
+DampingRatio = 0.03
+
+;BC
+[Needle]
+;Subject = bc
+Subject = ats251
+Location = 1756,1596
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\needle\bcneedle.png
+NighttimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\needle\bcneedlen.png
+Color = 323232
+Origin = 32,178
+Layer = 3
+Radius = 86
+
+;InitialAngle = -130
+;LastAngle = 140
+;MInimum = 0
+;Maximum = 1500
+InitialAngle = -180
+LastAngle = 180
+Minimum = 0
+Maximum = 360000
+
+NaturalFreq = 90
+DampingRatio = 0.03
+
+
+
+;非常B
+[PilotLamp]
+Subject = ats31
+Location = 1948,1464
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\Ebrake.png
+NighttimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\Ebrake_N.png
+Layer = 4
+
+;常用B
+[DigitalNumber]
+;Subject = ats30
+Subject = brake
+Location = 1898,1461
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\brake.png
+NighttimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\brake_N.png
+Layer = 3
+Interval = 266
+
+;排気B
+[PilotLamp]
+Subject = ats18
+Location = 2014,1473
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\Exbrake.png
+NighttimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\Exbrake_N.png
+Layer = 4
+
+;戸閉燈
+[PilotLamp]
+Subject = door
+Location = 1187,1385
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\pl.png
+NighttimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\pl_N.png
+Layer = 2
+
+;ATS動作燈
+[PilotLamp]
+Subject = ats1
+Location = 806,1684
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\ATSPLpOp.png
+NighttimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\ATSPLpOp_N.png
+Layer = 2
+
+;ATS電源燈(投入時)
+[PilotLamp]
+Subject = ats0
+Location = 756,1684
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\ATSPLpPs-On.png
+NighttimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\ATSPLpPs-On_N.png
+Layer = 2
+
+;ATS電源燈（動作時）
+[PilotLamp]
+Subject = ats1
+Location = 756,1684
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\ATSPLpPs-Off.png
+NighttimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\ATSPLpPs-Off_N.png
+Layer = 3
+
+;EB
+[PilotLamp]
+Subject = ats10
+Location = 853,1684
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\EB.png
+NighttimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\EB_N.png
+Layer = 2
+
+;振子抑止燈
+[PilotLamp]
+Subject = true
+Location = 900,1726
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\pd.png
+NighttimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\pd_N.png
+Layer = 2
+
+;全車制御燈
+;[PilotLamp]
+;Subject = true
+;Location = 755,1721
+;DaytimeImage = ac.png
+;NighttimeImage = ac_N.png
+;Layer = 2
+
+;逆転機前
+[PilotLamp]
+Subject = ats8
+Location = 974,1680
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\RvF.png
+NighttimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\RvF_N.png
+Layer = 2
+
+;逆転機後
+[PilotLamp]
+Subject = ats9
+Location = 967,1748
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\RvB.png
+NighttimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\RvB_N.png
+Layer = 2
+
+;機関
+[PilotLamp]
+Subject = true
+Location = 751,1760
+DaytimeImage   = ..\..\..\..\..\SNR\Train\HOT7000\Panel\engine.png
+NighttimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\engine_N.png
+Layer = 2
+
+;P電源
+[PilotLamp]
+Subject = ats2
+Location = 1464,1367
+DaytimeImage   = ..\..\..\..\..\SNR\Train\HOT7000\Panel\P\power.png
+NighttimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\P\power_N.png
+Layer = 2
+
+;パターン接近
+[PilotLamp]
+Subject = ats3
+Location = 1521,1367
+DaytimeImage   = ..\..\..\..\..\SNR\Train\HOT7000\Panel\P\pattern.png
+NighttimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\P\pattern_N.png
+Layer = 2
+
+;ブレーキ動作
+[PilotLamp]
+Subject = ats5
+Location = 1579,1367
+DaytimeImage   = ..\..\..\..\..\SNR\Train\HOT7000\Panel\P\movement.png
+NighttimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\P\movement_N.png
+Layer = 2
+
+;ブレーキ開放
+[PilotLamp]
+Subject = ats4
+Location = 1637,1367
+DaytimeImage   = ..\..\..\..\..\SNR\Train\HOT7000\Panel\P\release.png
+NighttimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\P\release_N.png
+Layer = 2
+
+;ATS-P
+[PilotLamp]
+Subject = ats6
+Location = 1696,1367
+DaytimeImage   = ..\..\..\..\..\SNR\Train\HOT7000\Panel\P\ATSP.png
+NighttimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\P\ATSP_N.png
+Layer = 2
+
+;故障
+[PilotLamp]
+Subject = ats7
+Location = 1756,1367
+DaytimeImage   = ..\..\..\..\..\SNR\Train\HOT7000\Panel\P\Malfunction.png
+NighttimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\P\Malfunction_N.png
+Layer = 2
+
+;MON圧力
+;1号車
+;100
+[DigitalNumber]
+Subject = bcd2
+Location = 871,1508
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\MON\num.png
+Interval =12
+Layer = 4
+;10
+[DigitalNumber]
+Subject = bcd1
+Location = 877,1508
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\MON\num.png
+Interval =12
+Layer = 3
+;1
+[PilotLamp]
+Subject = true
+Location = 883,1508
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\MON\0.png
+Layer = 2
+;かくし
+[PilotLamp]
+Subject = true
+Location = 871,1518
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\MON\cover.png
+Layer = 5
+
+;2号車
+;100
+[DigitalNumber]
+Subject = bcd2
+Location = 886,1521
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\MON\num.png
+Interval =12
+Layer = 4
+;10
+[DigitalNumber]
+Subject = bcd1
+Location = 892,1521
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\MON\num.png
+Interval =12
+Layer = 3
+;1
+[PilotLamp]
+Subject = true
+Location = 898,1521
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\MON\0.png
+Layer = 2
+;かくし
+[PilotLamp]
+Subject = true
+Location = 886,1531
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\MON\cover2.png
+Layer = 5
+
+;3号車
+;100
+[DigitalNumber]
+Subject = bcd2
+Location = 906,1510
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\MON\num.png
+Interval =12
+Layer = 4
+;10
+[DigitalNumber]
+Subject = bcd1
+Location = 912,1510
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\MON\num.png
+Interval =12
+Layer = 3
+;1
+[PilotLamp]
+Subject = true
+Location = 918,1510
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\MON\0.png
+Layer = 2
+;かくし
+[PilotLamp]
+Subject = true
+Location = 906,1520
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\MON\cover.png
+Layer = 5
+
+;4号車
+;100
+[DigitalNumber]
+Subject = bcd2
+Location = 920,1523
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\MON\num.png
+Interval =12
+Layer = 4
+;10
+[DigitalNumber]
+Subject = bcd1
+Location = 926,1523
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\MON\num.png
+Interval =12
+Layer = 3
+;1
+[PilotLamp]
+Subject = true
+Location = 932,1523
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\MON\0.png
+Layer = 2
+;かくし
+[PilotLamp]
+Subject = true
+Location = 920,1533
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\MON\cover2.png
+Layer = 5
+
+;5号車
+;100
+[DigitalNumber]
+Subject = bcd2
+Location = 940,1511
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\MON\num.png
+Interval =12
+Layer = 4
+;10
+[DigitalNumber]
+Subject = bcd1
+Location = 946,1511
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\MON\num.png
+Interval =12
+Layer = 3
+;1
+[PilotLamp]
+Subject = true
+Location = 952,1511
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\MON\0.png
+Layer = 2
+;かくし
+[PilotLamp]
+Subject = true
+Location = 940,1521
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\MON\cover.png
+Layer = 5
+
+;R側
+;1号車
+[PilotLamp]
+Subject = doorr0
+Location = 877,1432
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\MON\open.png
+Layer = 2
+
+;2号車
+[PilotLamp]
+Subject = doorr1
+Location = 894,1433
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\MON\open.png
+Layer = 2
+
+;3号車
+[PilotLamp]
+Subject = doorr2
+Location = 911,1434
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\MON\open.png
+Layer = 2
+
+;4号車
+[PilotLamp]
+Subject = doorr3
+Location = 929,1435
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\MON\open.png
+Layer = 2
+
+;5号車
+[PilotLamp]
+Subject = doorr4
+Location = 946,1436
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\MON\open.png
+Layer = 2
+
+;L側
+;1号車
+[PilotLamp]
+Subject = doorl0
+Location = 877,1432
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\MON\open.png
+Layer = 2
+
+;2号車
+[PilotLamp]
+Subject = doorl1
+Location = 894,1433
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\MON\open.png
+Layer = 2
+
+;3号車
+[PilotLamp]
+Subject = doorl2
+Location = 911,1434
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\MON\open.png
+Layer = 2
+
+;4号車
+[PilotLamp]
+Subject = doorl3
+Location = 929,1435
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\MON\open.png
+Layer = 2
+
+;5号車
+[PilotLamp]
+Subject = doorl4
+Location = 946,1436
+DaytimeImage = ..\..\..\..\..\SNR\Train\HOT7000\Panel\MON\open.png
+Layer = 2
+

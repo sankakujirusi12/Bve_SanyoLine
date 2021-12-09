@@ -1,0 +1,30 @@
+・ファイルパスは適宜書き換えてください。
+
+■内訳
+本体　  　xxx_00～xxx_05
+尾灯＆標  xxx_06～xxx_07
+前灯      xxx_08～xxx_09
+・昼
+583_00,structures\initg_ecset\583_00.x
+583_01,structures\initg_ecset\583_01.x
+583_02,structures\initg_ecset\583_02.x
+583_03,structures\initg_ecset\583_03.x
+583_04,structures\initg_ecset\583_04.x
+583_05,structures\initg_ecset\583_05.x
+583_06,structures\initg_ecset\583_06.x
+583_07,structures\initg_ecset\583_07.x
+583_08,structures\initg_ecset\583_08.x
+583_09,structures\initg_ecset\583_09.x
+shadow_e,structures\initg_ecset\shadow_e.x
+・夜
+583_00,structures\initg_ecset\583_00_n.x
+583_01,structures\initg_ecset\583_01_n.x
+583_02,structures\initg_ecset\583_02_n.x
+583_03,structures\initg_ecset\583_03_n.x
+583_04,structures\initg_ecset\583_04_n.x
+583_05,structures\initg_ecset\583_05_n.x
+583_06,structures\initg_ecset\583_06_n.x
+583_07,structures\initg_ecset\583_07_n.x
+583_08,structures\initg_ecset\583_08_n.x
+583_09,structures\initg_ecset\583_09.x
+shadow_e,structures\initg_ecset\shadow_e_n.x

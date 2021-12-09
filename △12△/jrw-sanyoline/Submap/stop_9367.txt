@@ -1,0 +1,17 @@
+BveTs Map 2.00:shift_jis
+$sanyo_distance+83890;
+Station['Sta-2'].Put(-1,-2,2);
+$sanyo_distance+88453;
+Station['Sta-1'].Put(-1,-2,2);
+$sanyo_distance+91405;
+Station['Sta0'].Put(-1,-2,2);
+$sanyo_distance+94100;
+Station['Sta1'].Put(-1,-2,2);
+$sanyo_distance+100059;
+Station['Sta2'].Put(-1,-2,2);
+$sanyo_distance+104584;
+Station['Sta3'].Put(-1,-2,2);
+$sanyo_distance+112143;
+Station['Sta4'].put(-1,-2,2);
+$sanyo_distance+118907;
+Station['Sta5'].put(1,-2,2);

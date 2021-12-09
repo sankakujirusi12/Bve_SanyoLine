@@ -1,0 +1,25 @@
+BveTs Sound List 2.00:shift_jis
+
+himeji,Sound\announce\1305M\himeji_teishachu.wav
+hassha_long,Sound\announce\1305M\hassha_long.wav
+gojosha,Sound\announce\1305M\gojosha.wav
+arv_agaho,Sound\announce\1305M\arv_agaho.wav
+next_katsu,Sound\announce\1305M\next_katsuhara.wav
+arv_katsu,Sound\announce\1305M\arv_katsuhara.wav
+next_hoshi,Sound\announce\1305M\next_aboshi.wav
+arv_hoshi,Sound\announce\1305M\arv_aboshi.wav
+next_tatsu,Sound\announce\1305M\next_tatsuno.wav
+arv_tatsu,Sound\announce\1305M\arv_tatsuno.wav
+next_aioi,Sound\announce\1305M\next_aioi.wav
+arv_aioi,Sound\announce\1305M\arv_aioi.wav
+aioi,Sound\announce\1305M\aioi_teishachu.wav
+next_une,Sound\announce\1305M\next_une.wav
+arv_une,Sound\announce\1305M\arv_une.wav
+next_kami,Sound\announce\1305M\next_kamigori.wav
+arv_kami,Sound\announce\1305M\arv_kamigori.wav
+
+#1339M—p
+himeji_1339M,Sound\Announce\1339M\himeji.wav
+arv_hoshi_1339M,Sound\Announce\1339M\arv_aboshi.wav
+arv_aioi_1339M,Sound\Announce\1339M\arv_aioi.wav
+next_agaho_1339M,Sound\Announce\1339M\next_agaho.wav

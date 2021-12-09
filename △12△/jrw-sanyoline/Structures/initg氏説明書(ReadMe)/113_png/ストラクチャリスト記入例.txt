@@ -1,0 +1,55 @@
+・ファイルパスは適宜書き換えてください。
+
+■湘南色　内訳
+本体　  　xxx_00～xxx_04
+尾灯＆標  xxx_05～xxx_06
+前灯      xxx_07～xxx_08
+・昼
+113_00,structures\initg_ecset\113_00.x
+113_01,structures\initg_ecset\113_01.x
+113_02,structures\initg_ecset\113_02.x
+113_03,structures\initg_ecset\113_03.x
+113_04,structures\initg_ecset\113_04.x
+113_05,structures\initg_ecset\113_05.x
+113_06,structures\initg_ecset\113_06.x
+113_07,structures\initg_ecset\113_07.x
+113_08,structures\initg_ecset\113_08.x
+shadow_e,structures\initg_ecset\shadow_e.x
+・夜
+113_00,structures\initg_ecset\113_00_n.x
+113_01,structures\initg_ecset\113_01_n.x
+113_02,structures\initg_ecset\113_02_n.x
+113_03,structures\initg_ecset\113_03_n.x
+113_04,structures\initg_ecset\113_04_n.x
+113_05,structures\initg_ecset\113_05_n.x
+113_06,structures\initg_ecset\113_06_n.x
+113_07,structures\initg_ecset\113_07_n.x
+113_08,structures\initg_ecset\113_08.x
+shadow_e,structures\initg_ecset\shadow_e_n.x
+
+■スカ色　内訳
+本体　  　xxx_10～xxx_14
+尾灯＆標  xxx_15～xxx_16
+前灯      xxx_17～xxx_08
+・昼
+113_10,structures\initg_ecset\113_10.x
+113_11,structures\initg_ecset\113_11.x
+113_12,structures\initg_ecset\113_12.x
+113_13,structures\initg_ecset\113_13.x
+113_14,structures\initg_ecset\113_14.x
+113_15,structures\initg_ecset\113_15.x
+113_16,structures\initg_ecset\113_16.x
+113_17,structures\initg_ecset\113_17.x
+113_08,structures\initg_ecset\113_08.x
+shadow_e,structures\initg_ecset\shadow_e.x
+・夜
+113_10,structures\initg_ecset\113_10_n.x
+113_11,structures\initg_ecset\113_11_n.x
+113_12,structures\initg_ecset\113_12_n.x
+113_13,structures\initg_ecset\113_13_n.x
+113_14,structures\initg_ecset\113_14_n.x
+113_15,structures\initg_ecset\113_15_n.x
+113_16,structures\initg_ecset\113_16_n.x
+113_17,structures\initg_ecset\113_17_n.x
+113_08,structures\initg_ecset\113_08.x
+shadow_e,structures\initg_ecset\shadow_e_n.x

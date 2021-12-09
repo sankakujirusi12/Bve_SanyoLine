@@ -1,0 +1,138 @@
+newmtl m0
+map_Kd sideA-1.png
+Ka 0 0 0
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Ns 5
+d 1
+
+newmtl m1
+map_Kd sideB-1.png
+Ka 0 0 0
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Ns 5
+d 1
+
+newmtl m2
+Ka 0 0 0
+Kd 0.132 0.132 0.132
+Ks 0 0 0
+Ns 5
+d 1
+
+newmtl m3
+map_Kd frontF-1.png
+Ka 0 0 0
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Ns 5
+d 1
+
+newmtl m4
+map_Kd frontB-1.png
+Ka 0 0 0
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Ns 5
+d 1
+
+newmtl m5
+Ka 0 0 0
+Kd 0.2416 0.4992 0.656
+Ks 0 0 0
+Ns 5
+d 1
+
+newmtl m6
+Ka 0 0 0
+Kd 0.3296 0.3296 0.3296
+Ks 0 0 0
+Ns 5
+d 1
+
+newmtl m7
+map_Kd sharin.png
+Ka 0 0 0
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Ns 5
+d 1
+
+newmtl m8
+map_Kd daishaA.png
+Ka 0 0 0
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Ns 5
+d 1
+
+newmtl m9
+map_Kd daishaB.png
+Ka 0 0 0
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Ns 5
+d 1
+
+newmtl m10
+map_Kd daishaC.png
+Ka 0 0 0
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Ns 5
+d 1
+
+newmtl m11
+map_Kd skirt.png
+Ka 0 0 0
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Ns 5
+d 1
+
+newmtl m12
+Ka 0 0 0
+Kd 0.4992 0.5272 0.5488
+Ks 0 0 0
+Ns 5
+d 1
+
+newmtl m13
+map_Kd coupler.png
+Ka 0 0 0
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Ns 5
+d 1
+
+newmtl m14
+Ka 0 0 0
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Ns 5
+d 1
+
+newmtl m15
+map_Kd panta.png
+Ka 0 0 0
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Ns 5
+d 1
+
+newmtl m16
+map_Kd suriita.png
+Ka 0 0 0
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Ns 5
+d 1
+
+newmtl m17
+Ka 0 0 0
+Kd 0.555294 0.567843 0.558431
+Ks 0 0 0
+Ns 5
+d 1
+

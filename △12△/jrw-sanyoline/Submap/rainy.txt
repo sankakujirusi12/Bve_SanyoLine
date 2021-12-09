@@ -1,0 +1,9 @@
+BveTs Map 2.00:shift_jis
+$sanyo_distance+80000;
+#‰J
+Light.Ambient(0.4, 0.4, 0.46);
+Light.Diffuse(0.5, 0.5, 0.5);
+Light.Direction(55, -70);
+Adhesion.Change(0.16, 0, 0.013);
+Train['rain'].Load('Trains\rain.txt', 0, 1);
+Train['rain'].Stop(0,0,0,0);

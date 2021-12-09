@@ -1,0 +1,7 @@
+BveTs Train 1.01:shift_jis
+
+[sound3D]
+Key=hyoujyun
+Distance1=0
+Distance2=0.2
+Function=Stationary

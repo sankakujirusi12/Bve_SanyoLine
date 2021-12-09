@@ -1,0 +1,102 @@
+フォルダ名について
+
+フォルダ名は「①車種_②色③向き.x」の構成です。
+
+①車種について
+　Compact：コンパクトタイプ（3車種）
+　Keitora：軽トラック（1車種）
+　Keiyon：軽自動車（3車種）
+　Miniban：ミニバンタイプ（1車種）
+　Sports：スポーツカー（1車種）
+　Track：大型トラック（2車種）
+　Wagon：ワゴンタイプ（1車種）
+
+②色
+　1：赤系
+　2：黄色系
+　3：青系
+　4：白
+　5：黒
+　6：シルバー
+
+③向き
+　記載なし：自列車と逆向き
+　Rev：自列車と同じ向き
+
+以下は改変してストラクチャリストにご利用ください。
+Compact1_1,../../Automobile\Compact1_1.x
+Compact1_3,../../Automobile\Compact1_3.x
+Compact1_4,../../Automobile\Compact1_4.x
+Compact1_5,../../Automobile\Compact1_5.x
+Compact1_6,../../Automobile\Compact1_6.x
+Compact1_1Rev,../../Automobile\Compact1_1Rev.x
+Compact1_3Rev,../../Automobile\Compact1_3Rev.x
+Compact1_4Rev,../../Automobile\Compact1_4Rev.x
+Compact1_5Rev,../../Automobile\Compact1_5Rev.x
+Compact1_6Rev,../../Automobile\Compact1_6Rev.x
+Compact2_1,../../Automobile\Compact2_1.x
+Compact2_2,../../Automobile\Compact2_2.x
+Compact2_3,../../Automobile\Compact2_3.x
+Compact2_1Rev,../../Automobile\Compact2_1Rev.x
+Compact2_2Rev,../../Automobile\Compact2_2Rev.x
+Compact2_3Rev,../../Automobile\Compact2_3Rev.x
+Compact3_1,../../Automobile\Compact3_1.x
+Compact3_3,../../Automobile\Compact3_3.x
+Compact3_5,../../Automobile\Compact3_5.x
+Compact3_6,../../Automobile\Compact3_6.x
+Compact3_1Rev,../../Automobile\Compact3_1Rev.x
+Compact3_3Rev,../../Automobile\Compact3_3Rev.x
+Compact3_5Rev,../../Automobile\Compact3_5Rev.x
+Compact3_6Rev,../../Automobile\Compact3_6Rev.x
+
+Keitora1_4,../../Automobile\Keitora1_4.x
+Keitora1_4Rev,../../Automobile\Keitora1_4Rev.x
+
+Keiyon1_1,../../Automobile\Keiyon1_1.x
+Keiyon1_2,../../Automobile\Keiyon1_2.x
+Keiyon1_3,../../Automobile\Keiyon1_3.x
+Keiyon1_1Rev,../../Automobile\Keiyon1_1Rev.x
+Keiyon1_2Rev,../../Automobile\Keiyon1_2Rev.x
+Keiyon1_3Rev,../../Automobile\Keiyon1_3Rev.x
+Keiyon2_4,../../Automobile\Keiyon2_4.x
+Keiyon2_5,../../Automobile\Keiyon2_5.x
+Keiyon2_6,../../Automobile\Keiyon2_6.x
+Keiyon2_4Rev,../../Automobile\Keiyon2_4Rev.x
+Keiyon2_5Rev,../../Automobile\Keiyon2_5Rev.x
+Keiyon2_6Rev,../../Automobile\Keiyon2_6Rev.x
+Keiyon3_2,../../Automobile\Keiyon3_2.x
+Keiyon3_3,../../Automobile\Keiyon3_3.x
+Keiyon3_4,../../Automobile\Keiyon3_4.x
+Keiyon3_5,../../Automobile\Keiyon3_5.x
+Keiyon3_2Rev,../../Automobile\Keiyon3_2Rev.x
+Keiyon3_3Rev,../../Automobile\Keiyon3_3Rev.x
+Keiyon3_4Rev,../../Automobile\Keiyon3_4Rev.x
+Keiyon3_5Rev,../../Automobile\Keiyon3_5Rev.x
+
+Miniban1_4,../../Automobile\Miniban1_4.x
+Miniban1_5,../../Automobile\Miniban1_5.x
+Miniban1_4Rev,../../Automobile\Miniban1_4Rev.x
+Miniban1_5Rev,../../Automobile\Miniban1_5Rev.x
+
+Sports1_1,../../Automobile\Sports1_1.x
+Sports1_4,../../Automobile\Sports1_4.x
+Sports1_5,../../Automobile\Sports1_5.x
+Sports1_6,../../Automobile\Sports1_6.x
+Sports1_1Rev,../../Automobile\Sports1_1Rev.x
+Sports1_4Rev,../../Automobile\Sports1_4Rev.x
+Sports1_5Rev,../../Automobile\Sports1_5Rev.x
+Sports1_6Rev,../../Automobile\Sports1_6Rev.x
+
+Track1_1,../../Automobile\Track1_1.x
+Track1_4,../../Automobile\Track1_4.x
+Track1_1Rev,../../Automobile\Track1_1Rev.x
+Track1_4Rev,../../Automobile\Track1_4Rev.x
+Track2_1,../../Automobile\Track2_1.x
+Track2_3,../../Automobile\Track2_3.x
+Track2_4,../../Automobile\Track2_4.x
+Track2_1Rev,../../Automobile\Track2_1Rev.x
+Track2_3Rev,../../Automobile\Track2_3Rev.x
+Track2_4Rev,../../Automobile\Track2_4Rev.x
+
+Wagon1_5,../../Automobile\Wagon1_5.x
+Wagon1_5Rev,../../Automobile\Wagon1_5Rev.x

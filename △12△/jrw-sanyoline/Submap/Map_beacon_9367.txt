@@ -1,0 +1,107 @@
+BveTs Map 2.00:shift_jis
+#モード切替
+#SW
+#全信号機用
+$sanyo_distance+83920;
+$dis=distance;
+include 'Submap\Map_beacon_ats-sw.txt';
+$sanyo_distance+84613;
+$dis=distance;
+include 'Submap\Map_beacon_ats-s.txt';
+$sanyo_distance+85497;
+$dis=distance;
+include 'Submap\Map_beacon_ats-s.txt';
+$sanyo_distance+85754;
+$dis=distance;
+include 'Submap\Map_beacon_ats-s.txt';
+$sanyo_distance+86690;
+$dis=distance;
+include 'Submap\Map_beacon_ats-s.txt';
+$sanyo_distance+87490;
+$dis=distance;
+include 'Submap\Map_beacon_ats-s.txt';
+$sanyo_distance+87786;
+$dis=distance;
+include 'Submap\Map_beacon_ats-sw.txt';
+$sanyo_distance+88489;
+$dis=distance;
+include 'Submap\Map_beacon_ats-sw.txt';
+$sanyo_distance+94130;
+$dis=distance;
+include 'Submap\Map_beacon_ats-sw.txt';
+$sanyo_distance+100202;
+$dis=distance;
+include 'Submap\Map_beacon_ats-s.txt';
+$sanyo_distance+101360;
+$dis=distance;
+include 'Submap\Map_beacon_ats-s.txt';
+$sanyo_distance+102876;
+$dis=distance;
+include 'Submap\Map_beacon_ats-s.txt';
+$sanyo_distance+103828;
+$dis=distance;
+include 'Submap\Map_beacon_ats-sw.txt';
+$sanyo_distance+104629;
+$dis=distance;
+include 'Submap\Map_beacon_ats-sw.txt';
+$sanyo_distance+105527;
+$dis=distance;
+include 'Submap\Map_beacon_ats-s.txt';
+$sanyo_distance+106011;
+$dis=distance;
+include 'Submap\Map_beacon_ats-s.txt';
+$sanyo_distance+106338;
+$dis=distance;
+include 'Submap\Map_beacon_ats-s.txt';
+$sanyo_distance+107058;
+$dis=distance;
+include 'Submap\Map_beacon_ats-s.txt';
+$sanyo_distance+108090;
+$dis=distance;
+include 'Submap\Map_beacon_ats-s.txt';
+$sanyo_distance+109366;
+$dis=distance;
+include 'Submap\Map_beacon_ats-s.txt';
+$sanyo_distance+110970;
+$dis=distance;
+include 'Submap\Map_beacon_ats-s.txt';
+$sanyo_distance+111376;
+$dis=distance;
+include 'Submap\Map_beacon_ats-sw.txt';
+$sanyo_distance+112309;
+$dis=distance;
+include 'Submap\Map_beacon_ats-sw.txt';
+$sanyo_distance+113649;
+$dis=distance;
+include 'Submap\Map_beacon_ats-s.txt';
+$sanyo_distance+114502;
+$dis=distance;
+include 'Submap\Map_beacon_ats-s.txt';
+$sanyo_distance+115286;
+$dis=distance;
+include 'Submap\Map_beacon_ats-s.txt';
+$sanyo_distance+116094;
+$dis=distance;
+include 'Submap\Map_beacon_ats-s.txt';
+$sanyo_distance+117397;
+$dis=distance;
+include 'Submap\Map_beacon_ats-s.txt';
+$sanyo_distance+118251;
+$dis=distance;
+include 'Submap\Map_beacon_ats-sw.txt';
+$sanyo_distance+118862;
+$dis=distance;
+include 'Submap\Map_beacon_ats-sw.txt';
+
+#他線
+$sanyo_distance+83920;
+$dis=distance;
+$Track='hime6';
+include 'Submap\Map_beacon_ats-sw_othertrack.txt';
+
+
+
+
+
+
+

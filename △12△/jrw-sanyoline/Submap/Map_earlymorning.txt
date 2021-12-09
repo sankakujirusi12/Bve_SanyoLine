@@ -1,0 +1,8 @@
+﻿BveTs Map 2.00:shift_jis
+#山陽本線-5031M用・環境設定
+#早朝
+
+$sanyo_distance+0;
+Light.Ambient(0.3, 0.33, 0.36);
+Light.Diffuse(0.2, 0.2, 0.22);
+Light.Direction(15, 10);

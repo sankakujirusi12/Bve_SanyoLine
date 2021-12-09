@@ -1,0 +1,385 @@
+﻿BveTs Map 2.00:UTF-8
+#山陽本線-1305M
+
+#******関数を定義******
+$sanyo_distance = 0;
+
+
+0+$sanyo_distance;
+Sound.Load('Sound.txt');
+Sound3d.Load('Sound3D.txt');
+Structure.Load('Structures.txt');
+Station.Load('Stations_1305M.csv');
+Signal.Load('Signals.csv');
+
+
+#駅位置定義
+include 'Submap\stop_1305M.txt';
+
+#曲線&勾配&風景
+include 'Submap\Map_himeji7.txt';
+include 'Submap\Map_pass_hime_une.txt';
+include 'Submap\Map_une_new.txt';
+include 'Submap\Map_pass_une_kami.txt';
+include 'Submap\Map_kami3.txt';
+include 'Submap\Map_pass_kami_oka.txt';
+include 'Submap\Map_point_1305M.txt';
+include 'Submap\jyousyaichi.txt';
+include 'Submap\Map_crossNo.txt';
+include 'Submap\Gradient&CurvePosts.txt';
+
+#信号&閉塞
+include 'Submap\Map_signal_himeji7.txt';
+include 'Submap\Map_signal_1305M.txt';
+include 'Submap\Map_signal_kami3.txt';
+include 'Submap\Map_section.txt';
+
+#架線&架線柱
+include 'Submap\Map_kasenchu.txt';
+include 'Submap\Map_kasenchu_une_new.txt';
+include 'Submap\Map_kasenchu_himeji7.txt';
+include 'Submap\Map_kasen_section.txt';
+
+#他列車
+include 'Trains\Trains_1305M_0_2018.txt';
+include 'Trains\arriving_melody.txt';
+include 'Cars\Cars.txt';
+
+#先行列車
+include 'Submap\Map_pretrain_1305M.txt';
+
+#音
+include 'Submap\joint_1305M.txt';
+include 'Trains\arriving_melody.txt';
+include 'Sound\Announce\Announce_1305M.txt';
+
+#ATS
+include 'Submap\Map_beacon_1305M.txt';
+
+#環境設定
+include 'Submap\Map_spring autumn.txt';
+
+
+
+
+
+
+
+
+
+include '設定.txt';
+
+
+Background.Change('Bg');
+
+
+Fog.Interpolate(0,1,1,1);
+
+Curve.SetGauge(1.067);
+
+RollingNoise.Change(0);
+84442+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+84500+$sanyo_distance;
+CabIlluminance.Interpolate(0.6);
+84512+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+85746+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+85756+$sanyo_distance;
+CabIlluminance.Interpolate(0.6);
+85766+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+86640+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+86650+$sanyo_distance;
+CabIlluminance.Interpolate(0.6);
+86660+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+87621+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+87631+$sanyo_distance;
+CabIlluminance.Interpolate(0.6);
+87641+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+88375+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+88385+$sanyo_distance;
+CabIlluminance.Interpolate(0.6);
+88395+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+91306+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+91316+$sanyo_distance;
+CabIlluminance.Interpolate(0.6);
+91346+$sanyo_distance;
+CabIlluminance.Interpolate(0.6);
+91356+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+92680+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+92690+$sanyo_distance;
+CabIlluminance.Interpolate(0.6);
+92700+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+93995+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+94005+$sanyo_distance;
+CabIlluminance.Interpolate(0.5);
+94030+$sanyo_distance;
+CabIlluminance.Interpolate(0.5);
+94040+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+94707+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+94717+$sanyo_distance;
+CabIlluminance.Interpolate(0.6);
+94727+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+95564+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+95574+$sanyo_distance;
+CabIlluminance.Interpolate(0.6);
+95584+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+98287+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+98297+$sanyo_distance;
+CabIlluminance.Interpolate(0.6);
+98307+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+99895+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+99905+$sanyo_distance;
+CabIlluminance.Interpolate(0.6);
+99915+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+99965+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+99975+$sanyo_distance;
+CabIlluminance.Interpolate(0.6);
+99995+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+102056+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+102060+$sanyo_distance;
+CabIlluminance.Interpolate(0.6);
+102064+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+102689+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+102693+$sanyo_distance;
+CabIlluminance.Interpolate(0.6);
+102697+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+103832+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+103836+$sanyo_distance;
+CabIlluminance.Interpolate(0.6);
+103840+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+104497+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+104501+$sanyo_distance;
+CabIlluminance.Interpolate(0.5);
+104504+$sanyo_distance;
+CabIlluminance.Interpolate(0.5);
+104507+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+105721+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+105731+$sanyo_distance;
+CabIlluminance.Interpolate(0.6);
+105741+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+106031+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+106041+$sanyo_distance;
+CabIlluminance.Interpolate(0.6);
+106051+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+110586+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+110596+$sanyo_distance;
+CabIlluminance.Interpolate(0.6);
+110606+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+112148+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+112158+$sanyo_distance;
+CabIlluminance.Interpolate(0.6);
+112168+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+118620+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+118630+$sanyo_distance;
+CabIlluminance.Interpolate(0.6);
+118640+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+
+
+#-------------------------転動音-----------------------
+#0=ロング 1=なし 3=橋梁 4=スラブ 2=25m
+0+$sanyo_distance;
+	RollingNoise.Change(4);
+85320+$sanyo_distance;
+	RollingNoise.Change(0);
+88935+$sanyo_distance;
+	RollingNoise.Change(3);
+88950+$sanyo_distance;
+	RollingNoise.Change(0);
+89095+$sanyo_distance;
+	RollingNoise.Change(3);
+89110+$sanyo_distance;
+	RollingNoise.Change(0);
+89221+$sanyo_distance;
+	RollingNoise.Change(3);
+89471+$sanyo_distance;
+	RollingNoise.Change(0);
+96531+$sanyo_distance;
+	RollingNoise.Change(3);
+96699+$sanyo_distance;
+	RollingNoise.Change(0);
+98938+$sanyo_distance;
+	RollingNoise.Change(3);
+99249+$sanyo_distance;
+	RollingNoise.Change(0);
+100246+$sanyo_distance;
+	RollingNoise.Change(3);
+100258+$sanyo_distance;
+	RollingNoise.Change(0);
+112794+$sanyo_distance;
+	RollingNoise.Change(3);
+112852+$sanyo_distance;
+	RollingNoise.Change(0);
+112928+$sanyo_distance;
+	RollingNoise.Change(3);
+112944+$sanyo_distance;
+	RollingNoise.Change(0);
+113902+$sanyo_distance;
+	RollingNoise.Change(3);
+113912+$sanyo_distance;
+	RollingNoise.Change(0);
+114004+$sanyo_distance;
+	RollingNoise.Change(3);
+114017+$sanyo_distance;
+	RollingNoise.Change(0);
+117467+$sanyo_distance;
+	RollingNoise.Change(3);
+117482+$sanyo_distance;
+	RollingNoise.Change(0);
+117497+$sanyo_distance;
+	RollingNoise.Change(3);
+117925+$sanyo_distance;
+	RollingNoise.Change(2);
+
+
+
+88700+$sanyo_distance;
+	SpeedLimit.Begin(105);
+89115+$sanyo_distance;
+	SpeedLimit.End();
+89465+$sanyo_distance;
+	SpeedLimit.Begin(115);
+89950+$sanyo_distance;
+	SpeedLimit.End();
+91425+$sanyo_distance;
+	SpeedLimit.Begin(105);
+91575+$sanyo_distance;
+	SpeedLimit.End();
+92125+$sanyo_distance;
+	SpeedLimit.Begin(105);
+92250+$sanyo_distance;
+	SpeedLimit.End();
+92915+$sanyo_distance;
+	SpeedLimit.Begin(105);
+93075+$sanyo_distance;
+	SpeedLimit.End();
+96710+$sanyo_distance;
+	SpeedLimit.Begin(115);
+97130+$sanyo_distance;
+	SpeedLimit.End();
+97215+$sanyo_distance;
+	SpeedLimit.Begin(110);
+97350+$sanyo_distance;
+	SpeedLimit.End();
+98375+$sanyo_distance;
+	SpeedLimit.Begin(95);
+98820+$sanyo_distance;
+	SpeedLimit.End();
+99265+$sanyo_distance;
+	SpeedLimit.Begin(115);
+99730+$sanyo_distance;
+	SpeedLimit.End();
+100130+$sanyo_distance;
+	SpeedLimit.Begin(105);
+100215+$sanyo_distance;
+	SpeedLimit.End();
+100250+$sanyo_distance;
+	SpeedLimit.Begin(110);
+100350+$sanyo_distance;
+	SpeedLimit.End();
+101750+$sanyo_distance;
+	SpeedLimit.Begin(105);
+102000+$sanyo_distance;
+	SpeedLimit.End();
+102900+$sanyo_distance;
+	SpeedLimit.Begin(100);
+103125+$sanyo_distance;
+	SpeedLimit.End();
+103700+$sanyo_distance;
+	SpeedLimit.Begin(105);
+103890+$sanyo_distance;
+	SpeedLimit.End();
+104075+$sanyo_distance;
+	SpeedLimit.Begin(110);
+104285+$sanyo_distance;
+	SpeedLimit.End();
+104725+$sanyo_distance;
+	SpeedLimit.Begin(80);
+105240+$sanyo_distance;
+	SpeedLimit.End();
+105700+$sanyo_distance;
+	SpeedLimit.Begin(105);
+106105+$sanyo_distance;
+	SpeedLimit.End();
+108380+$sanyo_distance;
+	SpeedLimit.Begin(115);
+108865+$sanyo_distance;
+	SpeedLimit.End();
+110440+$sanyo_distance;
+	SpeedLimit.Begin(95);
+110825+$sanyo_distance;
+	SpeedLimit.End();
+111660+$sanyo_distance;
+	SpeedLimit.Begin(110);
+111750+$sanyo_distance;
+	SpeedLimit.End();
+112090+$sanyo_distance;
+	SpeedLimit.Begin(100);
+112380+$sanyo_distance;
+	SpeedLimit.End();
+112800+$sanyo_distance;
+	SpeedLimit.Begin(95);
+113450+$sanyo_distance;
+	SpeedLimit.End();
+114000+$sanyo_distance;
+	SpeedLimit.Begin(115);
+114150+$sanyo_distance;
+	SpeedLimit.End();
+114475+$sanyo_distance;
+	SpeedLimit.Begin(105);
+114675+$sanyo_distance;
+	SpeedLimit.End();
+116050+$sanyo_distance;
+	SpeedLimit.Begin(105);
+117100+$sanyo_distance;
+	SpeedLimit.End();
+117320+$sanyo_distance;
+	SpeedLimit.Begin(110);
+117410+$sanyo_distance;
+	SpeedLimit.End();
+117850+$sanyo_distance;
+	SpeedLimit.Begin(90);
+
+

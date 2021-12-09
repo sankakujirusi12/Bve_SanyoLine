@@ -1,0 +1,113 @@
+・ファイルパスは適宜書き換えてください。
+
+■昼
+00001,structures\initg_fcset\00001.x
+03500,structures\initg_fcset\03500.x
+05000_00,structures\initg_fcset\05000_00.x
+05000_01,structures\initg_fcset\05000_01.x
+05000_10,structures\initg_fcset\05000_10.x
+05450_0,structures\initg_fcset\05450_0.x
+05450_1,structures\initg_fcset\05450_1.x
+05500,structures\initg_fcset\05500.x
+25000,structures\initg_fcset\25000.x
+35000_00,structures\initg_fcset\35000_00.x
+35000_01,structures\initg_fcset\35000_01.x
+35000_10,structures\initg_fcset\35000_10.x
+35000_11,structures\initg_fcset\35000_11.x
+40000,structures\initg_fcset\40000.x
+55000_0,structures\initg_fcset\55000_0.x
+55000_1,structures\initg_fcset\55000_1.x
+80000_0,structures\initg_fcset\80000_0.x
+80000_1,structures\initg_fcset\80000_1.x
+90000,structures\initg_fcset\90000.x
+ctf_1,structures\initg_fcset\ctf_1.x
+ctf_2-1,structures\initg_fcset\ctf_2-1.x
+ctf_2-2,structures\initg_fcset\ctf_2-2.x
+ctf_3-1,structures\initg_fcset\ctf_3-1.x
+ctf_3-2,structures\initg_fcset\ctf_3-2.x
+ctf_4,structures\initg_fcset\ctf_4.x
+ctf_5,structures\initg_fcset\ctf_5.x
+ctl_1-1,structures\initg_fcset\ctl_1-1.x
+ctl_1-2,structures\initg_fcset\ctl_1-2.x
+ctl_2,structures\initg_fcset\ctl_2.x
+ctl_3-1,structures\initg_fcset\ctl_3-1.x
+ctl_3-2,structures\initg_fcset\ctl_3-2.x
+ctl_4,structures\initg_fcset\ctl_4.x
+ctn_1,structures\initg_fcset\ctn_1.x
+ctn_2-1,structures\initg_fcset\ctn_2-1.x
+ctn_2-2,structures\initg_fcset\ctn_2-2.x
+ctn_3-1,structures\initg_fcset\ctn_3-1.x
+ctn_3-2,structures\initg_fcset\ctn_3-2.x
+ctn_4,structures\initg_fcset\ctn_4.x
+ctn_5,structures\initg_fcset\ctn_5.x
+shadow_f1,structures\initg_fcset\shadow_f1.x
+shadow_f2,structures\initg_fcset\shadow_f2.x
+shadow_f3,structures\initg_fcset\shadow_f3.x
+
+■夜
+00001,structures\initg_fcset\00001.x
+03500,structures\initg_fcset\03500.x
+05000_00,structures\initg_fcset\05000_00_n.x
+05000_01,structures\initg_fcset\05000_01_n.x
+05000_10,structures\initg_fcset\05000_10.x
+05450_0,structures\initg_fcset\05450_0.x
+05450_1,structures\initg_fcset\05450_1.x
+05500,structures\initg_fcset\05500.x
+25000,structures\initg_fcset\25000.x
+35000_00,structures\initg_fcset\35000_00.x
+35000_01,structures\initg_fcset\35000_01.x
+35000_10,structures\initg_fcset\35000_10_n.x
+35000_11,structures\initg_fcset\35000_11_n.x
+40000,structures\initg_fcset\40000.x
+55000_0,structures\initg_fcset\55000_0.x
+55000_1,structures\initg_fcset\55000_1.x
+80000_0,structures\initg_fcset\80000_0.x
+80000_1,structures\initg_fcset\80000_1.x
+90000,structures\initg_fcset\90000.x
+ctf_1,structures\initg_fcset\ctf_1.x
+ctf_2-1,structures\initg_fcset\ctf_2-1.x
+ctf_2-2,structures\initg_fcset\ctf_2-2.x
+ctf_3-1,structures\initg_fcset\ctf_3-1.x
+ctf_3-2,structures\initg_fcset\ctf_3-2.x
+ctf_4,structures\initg_fcset\ctf_4.x
+ctf_5,structures\initg_fcset\ctf_5.x
+ctl_1-1,structures\initg_fcset\ctl_1-1.x
+ctl_1-2,structures\initg_fcset\ctl_1-2.x
+ctl_2,structures\initg_fcset\ctl_2.x
+ctl_3-1,structures\initg_fcset\ctl_3-1.x
+ctl_3-2,structures\initg_fcset\ctl_3-2.x
+ctl_4,structures\initg_fcset\ctl_4.x
+ctn_1,structures\initg_fcset\ctn_1.x
+ctn_2-1,structures\initg_fcset\ctn_2-1.x
+ctn_2-2,structures\initg_fcset\ctn_2-2.x
+ctn_3-1,structures\initg_fcset\ctn_3-1.x
+ctn_3-2,structures\initg_fcset\ctn_3-2.x
+ctn_4,structures\initg_fcset\ctn_4.x
+ctn_5,structures\initg_fcset\ctn_5.x
+shadow_f1,structures\initg_fcset\shadow_f1_n.x
+shadow_f2,structures\initg_fcset\shadow_f2_n.x
+shadow_f3,structures\initg_fcset\shadow_f3_n.x
+
+・内訳
+00001 = ワラ1
+03500_00 = ホキ3500
+05000_00 = ヨ5000(黒)
+05000_01 = ヨ5000(黄緑)
+05000_10 = ワキ5000
+05450_0 = タキ5450(日本曹達)
+05450_1 = タキ5450(日本陸運)
+05500 = コキ5500
+25000 = トキ25000
+35000_00 = タキ35000(日本石油)
+35000_01 = タキ35000(オイルターミナル)
+35000_10 = ワフ35000(正)
+35000_11 = ワフ35000(逆)
+40000 = タキ40000
+55000_0 = トラ55000(木製)
+55000_1 = トラ55000(鋼体)
+80000_0 = ワム80000(茶)
+80000_1 = ワム80000(青)
+90000 = ワム90000
+ctf_xx = V11型(数字はコンテナ数)
+ctl_xx = C20-21型(数字はコンテナ数)
+ctn_xx = 6000型(数字はコンテナ数)
