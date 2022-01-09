@@ -1,0 +1,130 @@
+BveTs Train 1.00
+
+;103系3500番台 BH3+BH9 回送
+
+
+[structure]
+key=103-3500 B
+distance=0
+z=8
+span=16
+
+[structure]
+key=102-3500 B
+distance=20.5
+z=8
+span=16
+
+[structure]
+key=103-3500 B
+distance=41
+z=8
+span=16
+
+[structure]
+key=102-3500 B
+distance=61.5
+z=8
+span=16
+
+[structure]
+key=light 103
+distance=0
+z=8
+span=16
+
+[structure]
+key=light 102
+distance=20.5
+z=8
+span=16
+
+[structure]
+key=light 103
+distance=41
+z=8
+span=16
+
+[structure]
+key=light 102
+distance=61.5
+z=8
+span=16
+
+[structure]
+key=C57
+distance=0
+z=8
+span=16
+
+[structure]
+key=C57
+distance=0
+z=8
+span=16
+
+[structure]
+key=103 BH3
+distance=0
+z=8
+span=16
+
+[structure]
+key=panta uu
+distance=0
+z=8
+span=16
+
+[structure]
+key=102 BH3
+distance=20.5
+z=8
+span=16
+
+[structure]
+key=C51
+distance=41
+z=8
+span=16
+
+[structure]
+key=103 BH9
+distance=41
+z=8
+span=16
+
+[structure]
+key=panta uu
+distance=41
+z=8
+span=16
+
+[structure]
+key=102 BH9
+distance=61.5
+z=8
+span=16
+
+[structure]
+key=Not in A
+distance=0
+z=8
+span=16
+
+[structure]
+key=Not in A
+distance=41
+z=8
+span=16
+
+[structure]
+key=tail
+distance=0
+z=8
+span=16
+
+[sound3D]
+Key=103
+Distance1= 0
+Distance2= 82
+Function=Stationary

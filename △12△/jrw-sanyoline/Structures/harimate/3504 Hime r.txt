@@ -1,0 +1,64 @@
+BveTs Train 1.00
+
+;103系3500番台 BH4 姫路行  ワンマン
+
+[structure]
+key=102-3500 Br
+distance=0
+z=8
+span=16
+
+[structure]
+key=103-3500 Br
+distance=20.5
+z=8
+span=16
+
+[structure]
+key=102 BH4r
+distance=0
+z=8
+span=16
+
+[structure]
+key=103 BH4r
+distance=20.5
+z=8
+span=16
+
+[structure]
+key=panta ur
+distance=20.5
+z=8
+span=16
+
+
+[structure]
+key=Hime one B
+distance=0
+z=8
+span=16
+
+[structure]
+key=Hime one B 103
+distance=20.5
+z=8
+span=16
+
+[structure]
+key=A56
+distance=0
+z=8
+span=16
+
+[structure]
+key=hed
+distance=0
+z=8
+span=16
+
+[sound3D]
+Key=103
+Distance1= 0
+Distance2= 42
+Function=Stationary

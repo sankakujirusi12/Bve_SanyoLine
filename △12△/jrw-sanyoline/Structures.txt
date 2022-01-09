@@ -963,30 +963,64 @@ orone15-3000,Structures\saha209\PC14_sl\153000.x
 ＃車番
 103 BH1,Structures\harimate\103-3500\103 BH1.x
 102 BH1,Structures\harimate\103-3500\102 BH1.x
+103 BH2,Structures\harimate\103-3500\103 BH2.x
+102 BH2,Structures\harimate\103-3500\102 BH2.x
 103 BH3,Structures\harimate\103-3500\103 BH3.x
 102 BH3,Structures\harimate\103-3500\102 BH3.x
+103 BH3 CT,Structures\harimate\103-3500\103 BH3 CT.x
+102 BH3 CT,Structures\harimate\103-3500\102 BH3 CT.x
+103 BH4,Structures\harimate\103-3500\103 BH4.x
+102 BH4,Structures\harimate\103-3500\102 BH4.x
+103 BH5,Structures\harimate\103-3500\103 BH5.x
+102 BH5,Structures\harimate\103-3500\102 BH5.x
 103 BH6,Structures\harimate\103-3500\103 BH6.x
 102 BH6,Structures\harimate\103-3500\102 BH6.x
+103 BH7,Structures\harimate\103-3500\103 BH7.x
+102 BH7,Structures\harimate\103-3500\102 BH7.x
+103 BH8,Structures\harimate\103-3500\103 BH8.x
+102 BH8,Structures\harimate\103-3500\102 BH8.x
 103 BH9,Structures\harimate\103-3500\103 BH9.x
 102 BH9,Structures\harimate\103-3500\102 BH9.x
 
 #種別幕
 Not in A,Structures\harimate\103-3500\Not in A.x
 
+#運番
+A51,Structures\harimate\103-3500\A51.x
+A52,Structures\harimate\103-3500\A52.x
+A53,Structures\harimate\103-3500\A53.x
+A54,Structures\harimate\103-3500\A54.x
+A55,Structures\harimate\103-3500\A55.x
+A56,Structures\harimate\103-3500\A56.x
+A57,Structures\harimate\103-3500\A57.x
+A58,Structures\harimate\103-3500\A58.x
+C51,Structures\harimate\103-3500\C51.x
+C52,Structures\harimate\103-3500\C52.x
+C53,Structures\harimate\103-3500\C53.x
+C54,Structures\harimate\103-3500\C54.x
+C55,Structures\harimate\103-3500\C55.x
+C56,Structures\harimate\103-3500\C56.x
+C57,Structures\harimate\103-3500\C57.x
+C58,Structures\harimate\103-3500\C58.x
 
-#ライト
+#ライト類
 hed,Structures\harimate\103-3500\hed.x
 tail,Structures\harimate\103-3500\tail.x
+light 102,Structures\harimate\103-3500\light 102.x
+light 102 r,Structures\harimate\103-3500\light 102 r.x
+light 103,Structures\harimate\103-3500\light 103.x
+light 103 r,Structures\harimate\103-3500\light 103 r.x
+
 
 #パンタグラフ
-#panta d,Structures\harimate\103-3500\panta d.x
-#panta dd,Structures\harimate\103-3500\panta dd.x
+panta d,Structures\harimate\103-3500\panta d.x
+panta dd,Structures\harimate\103-3500\panta dd.x
 panta u,Structures\harimate\103-3500\panta u.x
-#panta ur,Structures\harimate\103-3500\panta ur.x
-#panta dr,Structures\harimate\103-3500\panta dr.x
-#panta ud,Structures\harimate\103-3500\panta ud.x
-#panta udr,Structures\harimate\103-3500\panta udr.x
-#panta uu,Structures\harimate\103-3500\panta uu.x
+panta ur,Structures\harimate\103-3500\panta ur.x
+panta dr,Structures\harimate\103-3500\panta dr.x
+panta ud,Structures\harimate\103-3500\panta ud.x
+panta udr,Structures\harimate\103-3500\panta udr.x
+panta uu,Structures\harimate\103-3500\panta uu.x
 
 T103_40n_o,Structures\103_40N\T103.x
 Tc103_NA_b,Structures\103_NA\103_hine\103_Tc.x
