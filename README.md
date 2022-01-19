@@ -16,7 +16,7 @@ Releaseとして出されていない状態のファイルでも運転はでき�
 
 # ダウンロード  
 **08/15 22:20以前にダウンロードされた方と、08/21 22:05以前に文字化け対応版をダウンロードされたは再DLお願いいたします**  
-[08/15更新ver1.0.6.1βのダウンロード](https://github.com/sankakujirusi12/Bve_SanyoLine/archive/refs/tags/1.0.6.1%CE%B2.zip)  
+[**`ver1.0.8β`のダウンロード**](https://github.com/sankakujirusi12/Bve_SanyoLine/releases/tag/1.0.8%CE%B2)  
   
 # バージョン情報
 ※路線延伸は1、マップファイルの微修正は0.01、バグ修正版は0.001上げる。  
