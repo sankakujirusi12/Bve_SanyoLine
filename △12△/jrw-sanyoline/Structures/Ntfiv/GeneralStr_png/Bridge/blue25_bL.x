@@ -886,7 +886,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "tk_b_03.png";
+    "tk_b_03.dds";
    }
   }
 
@@ -897,7 +897,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "tk_b_03.png";
+    "tk_b_03.dds";
    }
   }
 
@@ -1076,7 +1076,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "tk_b_01.png";
+    "tk_b_01.dds";
    }
   }
  }

@@ -339,7 +339,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "Yamanashi1.png";
+    "Yamanashi1.dds";
    }
   }
 
@@ -350,7 +350,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "Yamanashi1.png";
+    "Yamanashi1.dds";
    }
   }
 
@@ -361,7 +361,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "Yamanashi1.png";
+    "Yamanashi1.dds";
    }
   }
 
@@ -372,7 +372,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "Yamanashi1.png";
+    "Yamanashi1.dds";
    }
   }
 
@@ -383,7 +383,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "Yamanashi1.png";
+    "Yamanashi1.dds";
    }
   }
 
@@ -394,7 +394,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "Yamanashi1.png";
+    "Yamanashi1.dds";
    }
   }
 
@@ -405,7 +405,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "Yamanashi1.png";
+    "Yamanashi1.dds";
    }
   }
 
@@ -416,7 +416,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "Yamanashi1.png";
+    "Yamanashi1.dds";
    }
   }
 
@@ -427,7 +427,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "Ground1.png";
+    "Ground1.dds";
    }
   }
  }

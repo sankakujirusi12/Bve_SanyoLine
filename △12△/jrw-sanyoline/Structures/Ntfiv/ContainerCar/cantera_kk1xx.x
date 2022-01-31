@@ -415,7 +415,7 @@ Mesh {
    1.000000;1.000000;1.000000;;
 
    TextureFilename {
-    "cantera.png";
+    "cantera.dds";
    }
   }
 
@@ -426,7 +426,7 @@ Mesh {
    1.000000;1.000000;1.000000;;
 
    TextureFilename {
-    "cantera_light.png";
+    "cantera_light.dds";
    }
   }
  }

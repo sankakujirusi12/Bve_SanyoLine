@@ -397,7 +397,7 @@ Mesh {
    0.200000;0.200000;0.200000;;
 
    TextureFilename {
-    "Pole_sec.png";
+    "Pole_sec.dds";
    }
   }
  }

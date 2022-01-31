@@ -121,7 +121,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "une_kami_9.png";
+    "une_kami_9.dds";
    }
   }
  }

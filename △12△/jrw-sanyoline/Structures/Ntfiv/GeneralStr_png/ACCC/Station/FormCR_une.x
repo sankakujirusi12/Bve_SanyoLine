@@ -139,7 +139,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "Asphalt1.png";
+    "Asphalt1.dds";
    }
   }
 
@@ -150,7 +150,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "Wall.png";
+    "Wall.dds";
    }
   }
  }

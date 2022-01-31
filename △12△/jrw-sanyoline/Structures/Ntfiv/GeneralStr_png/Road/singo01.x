@@ -121,7 +121,7 @@ Mesh {
    0.150000;0.150000;0.150000;;
 
    TextureFilename {
-    "singo.png";
+    "singo.dds";
    }
   }
  }

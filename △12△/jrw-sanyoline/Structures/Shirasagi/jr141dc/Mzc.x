@@ -4504,7 +4504,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "frontMzc.png";
+    "frontMzc.dds";
    }
   }
 
@@ -4522,7 +4522,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "skirt.png";
+    "skirt.dds";
    }
   }
 
@@ -4547,7 +4547,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "light_on.png";
+    "light_on.dds";
    }
   }
 
@@ -4558,7 +4558,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "sideMzc.png";
+    "sideMzc.dds";
    }
   }
 
@@ -4569,7 +4569,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "side.png";
+    "side.dds";
    }
   }
 
@@ -4622,7 +4622,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "ac1.png";
+    "ac1.dds";
    }
   }
 
@@ -4661,7 +4661,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "underMzc.png";
+    "underMzc.dds";
    }
   }
 
@@ -4756,7 +4756,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "daishaMzc.png";
+    "daishaMzc.dds";
    }
   }
 
@@ -4767,7 +4767,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "ladder.png";
+    "ladder.dds";
    }
   }
 
@@ -4918,7 +4918,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "antenna1.png";
+    "antenna1.dds";
    }
   }
 
@@ -4971,7 +4971,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "antenna2.png";
+    "antenna2.dds";
    }
   }
 

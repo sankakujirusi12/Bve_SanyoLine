@@ -259,7 +259,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "mitsuisi.png";
+    "mitsuisi.dds";
    }
   }
   Material {

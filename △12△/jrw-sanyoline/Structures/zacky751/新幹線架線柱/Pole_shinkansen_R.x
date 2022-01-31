@@ -18388,7 +18388,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "silver_mut.png";
+    "silver_mut.dds";
    }
   }
   Material {
@@ -18409,7 +18409,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "silver_mut.png";
+    "silver_mut.dds";
    }
   }
   Material {
@@ -18418,7 +18418,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "silver_mut.png";
+    "silver_mut.dds";
    }
   }
  }

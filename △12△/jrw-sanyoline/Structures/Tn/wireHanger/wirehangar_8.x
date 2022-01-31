@@ -290,7 +290,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "pole_1.png";
+    "pole_1.dds";
    }
   }
 
@@ -301,7 +301,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "hunger_3.png";
+    "hunger_3.dds";
    }
   }
 
@@ -312,7 +312,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "kaishi_2.png";
+    "kaishi_2.dds";
    }
   }
 
@@ -323,7 +323,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "kaishi_3.png";
+    "kaishi_3.dds";
    }
   }
  }

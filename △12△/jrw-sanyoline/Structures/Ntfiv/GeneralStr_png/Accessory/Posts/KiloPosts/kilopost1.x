@@ -4,7 +4,7 @@ Material _1000_1000_png {
 5.0000;
 0.1000;0.1000;0.1000;;	
 0.2000;0.2000;0.2000;;	
-   TextureFilename { "1000.png"; }
+   TextureFilename { "1000.dds"; }
 }
 Material __Color_008_ {
 0.1176;0.1176;0.1176;1.0000;;

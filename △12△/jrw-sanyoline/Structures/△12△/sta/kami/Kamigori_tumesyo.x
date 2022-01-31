@@ -183,7 +183,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "Kamigori_tumesyo.png";
+    "Kamigori_tumesyo.dds";
    }
   }
  }

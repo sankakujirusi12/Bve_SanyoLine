@@ -139,7 +139,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "kanko_02.png";
+    "kanko_02.dds";
    }
   }
 

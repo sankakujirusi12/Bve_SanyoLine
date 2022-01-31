@@ -851,7 +851,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "4_n.png";
+    "4_n.dds";
    }
   }
   Material {
@@ -860,7 +860,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "white_base.png";
+    "white_base.dds";
    }
   }
   Material {

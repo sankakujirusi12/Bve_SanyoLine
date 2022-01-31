@@ -4524,7 +4524,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "taki40000_base.png";
+    "taki40000_base.dds";
    }
   }
 
@@ -4535,7 +4535,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "taki40000_base.png";
+    "taki40000_base.dds";
    }
   }
 
@@ -4546,7 +4546,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "taki40000_base2.png";
+    "taki40000_base2.dds";
    }
   }
 
@@ -4557,7 +4557,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "taki40000_base2.png";
+    "taki40000_base2.dds";
    }
   }
 
@@ -4568,7 +4568,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "taki40000_base3.png";
+    "taki40000_base3.dds";
    }
   }
 
@@ -4579,7 +4579,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "taki40000_base3.png";
+    "taki40000_base3.dds";
    }
   }
 
@@ -4590,7 +4590,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "taki40000_base4.png";
+    "taki40000_base4.dds";
    }
   }
 
@@ -4601,7 +4601,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "taki40000_tank01.png";
+    "taki40000_tank01.dds";
    }
   }
 
@@ -4612,7 +4612,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "taki40000_tank01.png";
+    "taki40000_tank01.dds";
    }
   }
 
@@ -4623,7 +4623,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "taki40000_tank02.png";
+    "taki40000_tank02.dds";
    }
   }
 
@@ -4634,7 +4634,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "taki40000_tank02.png";
+    "taki40000_tank02.dds";
    }
   }
 
@@ -4645,7 +4645,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "taki40000_tank03.png";
+    "taki40000_tank03.dds";
    }
   }
 
@@ -4656,7 +4656,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "taki40000_tank03.png";
+    "taki40000_tank03.dds";
    }
   }
 
@@ -4667,7 +4667,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "taki40000_tank03.png";
+    "taki40000_tank03.dds";
    }
   }
 
@@ -4678,7 +4678,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "taki40000_tank03.png";
+    "taki40000_tank03.dds";
    }
   }
 
@@ -4689,7 +4689,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "taki40000_tank04.png";
+    "taki40000_tank04.dds";
    }
   }
 
@@ -4700,7 +4700,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "taki40000_tank06.png";
+    "taki40000_tank06.dds";
    }
   }
 
@@ -4711,7 +4711,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "taki40000_tank05.png";
+    "taki40000_tank05.dds";
    }
   }
 
@@ -4722,7 +4722,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "taki40000_tank07.png";
+    "taki40000_tank07.dds";
    }
   }
 
@@ -4733,7 +4733,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "taki40000_tank08.png";
+    "taki40000_tank08.dds";
    }
   }
 
@@ -4744,7 +4744,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "taki40000_tank08.png";
+    "taki40000_tank08.dds";
    }
   }
 
@@ -4755,7 +4755,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "taki40000_base5.png";
+    "taki40000_base5.dds";
    }
   }
 
@@ -4766,7 +4766,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "taki40000_base6.png";
+    "taki40000_base6.dds";
    }
   }
 
@@ -4777,7 +4777,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "taki40000_base7.png";
+    "taki40000_base7.dds";
    }
   }
 
@@ -4788,7 +4788,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "taki40000_tank09.png";
+    "taki40000_tank09.dds";
    }
   }
 
@@ -4834,7 +4834,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "d40000.png";
+    "d40000.dds";
    }
   }
 
@@ -4845,7 +4845,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "d40000.png";
+    "d40000.dds";
    }
   }
 
@@ -4856,7 +4856,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "koki106_roll.png";
+    "koki106_roll.dds";
    }
   }
 
@@ -4867,7 +4867,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "koki106_roll.png";
+    "koki106_roll.dds";
    }
   }
 
@@ -4885,7 +4885,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "Knuckl.png";
+    "Knuckl.dds";
    }
   }
 
@@ -4896,7 +4896,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "conect01.png";
+    "conect01.dds";
    }
   }
 
@@ -4907,7 +4907,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "conect02.png";
+    "conect02.dds";
    }
   }
 
@@ -4918,7 +4918,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "r2.png";
+    "r2.dds";
    }
   }
 
@@ -4929,7 +4929,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "r2.png";
+    "r2.dds";
    }
   }
 
@@ -4940,7 +4940,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "r2.png";
+    "r2.dds";
    }
   }
 
@@ -4958,7 +4958,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "Knuckl.png";
+    "Knuckl.dds";
    }
   }
 
@@ -4969,7 +4969,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "conect01.png";
+    "conect01.dds";
    }
   }
 
@@ -4980,7 +4980,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "conect02.png";
+    "conect02.dds";
    }
   }
 
@@ -4991,7 +4991,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "r2.png";
+    "r2.dds";
    }
   }
 
@@ -5002,7 +5002,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "r2.png";
+    "r2.dds";
    }
   }
 
@@ -5013,7 +5013,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "r2.png";
+    "r2.dds";
    }
   }
 

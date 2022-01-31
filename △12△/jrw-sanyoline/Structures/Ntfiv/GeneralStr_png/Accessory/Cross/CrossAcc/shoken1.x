@@ -319,7 +319,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "shoken2.png";
+    "shoken2.dds";
    }
   }
 
@@ -337,7 +337,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "shoken1.png";
+    "shoken1.dds";
    }
   }
 
@@ -348,7 +348,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "shoken3.png";
+    "shoken3.dds";
    }
   }
  }

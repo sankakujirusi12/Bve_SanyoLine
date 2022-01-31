@@ -4300,7 +4300,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "sideA-1.png";
+    "sideA-1.dds";
    }
   }
   Material {
@@ -4309,7 +4309,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "sideB-1.png";
+    "sideB-1.dds";
    }
   }
   Material {
@@ -4324,7 +4324,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "frontF-2.png";
+    "frontF-2.dds";
    }
   }
   Material {
@@ -4333,7 +4333,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "frontB-2.png";
+    "frontB-2.dds";
    }
   }
   Material {
@@ -4354,7 +4354,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "sharin.png";
+    "sharin.dds";
    }
   }
   Material {
@@ -4363,7 +4363,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "daishaA.png";
+    "daishaA.dds";
    }
   }
   Material {
@@ -4372,7 +4372,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "daishaB.png";
+    "daishaB.dds";
    }
   }
   Material {
@@ -4381,7 +4381,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "daishaC.png";
+    "daishaC.dds";
    }
   }
   Material {
@@ -4390,7 +4390,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "skirt.png";
+    "skirt.dds";
    }
   }
   Material {
@@ -4405,7 +4405,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "coupler.png";
+    "coupler.dds";
    }
   }
   Material {
@@ -4420,7 +4420,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "panta.png";
+    "panta.dds";
    }
   }
   Material {
@@ -4429,7 +4429,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "suriita.png";
+    "suriita.dds";
    }
   }
   Material {

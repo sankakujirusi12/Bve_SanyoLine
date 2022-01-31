@@ -4,7 +4,7 @@ Material _syuzenji_syuzenji_png {
 5.0000;
 0.1000;0.1000;0.1000;;	
 0.2000;0.2000;0.2000;;	
-   TextureFilename { "ooito.png"; }
+   TextureFilename { "ooito.dds"; }
 }
 Mesh mesh_0{
 13;

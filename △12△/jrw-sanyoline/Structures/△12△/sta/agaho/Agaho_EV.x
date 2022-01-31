@@ -193,7 +193,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.500000;0.500000;0.500000;;
    TextureFilename {
-    "Agaho_EV.png";
+    "Agaho_EV.dds";
    }
   }
   Material {
@@ -202,7 +202,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.500000;0.500000;0.500000;;
    TextureFilename {
-    "Agaho_EVside.png";
+    "Agaho_EVside.dds";
    }
   }
   Material {

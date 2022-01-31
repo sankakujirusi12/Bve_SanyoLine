@@ -325,7 +325,7 @@ Mesh {
    1.000000;1.000000;1.000000;;
 
    TextureFilename {
-    "reflector.png";
+    "reflector.dds";
    }
   }
  }

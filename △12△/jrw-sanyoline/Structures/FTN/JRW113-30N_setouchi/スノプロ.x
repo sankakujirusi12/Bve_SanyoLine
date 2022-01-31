@@ -271,7 +271,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "skirt13.png";
+    "skirt13.dds";
    }
   }
 

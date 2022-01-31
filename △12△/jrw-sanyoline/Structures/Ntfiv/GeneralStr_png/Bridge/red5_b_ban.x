@@ -157,7 +157,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "tk_r_02.png";
+    "tk_r_02.dds";
    }
   }
  }

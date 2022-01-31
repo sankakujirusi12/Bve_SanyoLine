@@ -193,7 +193,7 @@ Mesh {
    0.521569;0.137255;0.137255;;
 
    TextureFilename {
-    "ats_a.png";
+    "ats_a.dds";
    }
   }
 
@@ -204,7 +204,7 @@ Mesh {
    0.500000;0.500000;0.500000;;
 
    TextureFilename {
-    "kage.png";
+    "kage.dds";
    }
   }
  }

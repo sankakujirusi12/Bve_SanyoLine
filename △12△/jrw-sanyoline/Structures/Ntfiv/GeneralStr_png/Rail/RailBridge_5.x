@@ -229,7 +229,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "rail1.png";
+    "rail1.dds";
    }
   }
 
@@ -240,7 +240,7 @@ Mesh {
    0.500000;0.500000;0.500000;;
 
    TextureFilename {
-    "Tie_brgB.png";
+    "Tie_brgB.dds";
    }
   }
  }

@@ -10076,7 +10076,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "handle.png";
+    "handle.dds";
    }
   }
 
@@ -10101,7 +10101,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "handle.png";
+    "handle.dds";
    }
   }
 
@@ -10126,7 +10126,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "stair.png";
+    "stair.dds";
    }
   }
 
@@ -10193,7 +10193,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "Ballast.png";
+    "Ballast.dds";
    }
   }
 
@@ -10204,7 +10204,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "plate2.png";
+    "plate2.dds";
    }
   }
 
@@ -10215,7 +10215,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "plate1_1252.png";
+    "plate1_1252.dds";
    }
   }
 
@@ -10226,7 +10226,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "plate3.png";
+    "plate3.dds";
    }
   }
 
@@ -10244,7 +10244,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "tex1.png";
+    "tex1.dds";
    }
   }
 
@@ -10276,7 +10276,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "tex2.png";
+    "tex2.dds";
    }
   }
 
@@ -10287,7 +10287,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "tex2.png";
+    "tex2.dds";
    }
   }
 
@@ -10368,7 +10368,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "stair.png";
+    "stair.dds";
    }
   }
 
@@ -10582,7 +10582,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "handle.png";
+    "handle.dds";
    }
   }
 
@@ -10817,7 +10817,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "TR225.png";
+    "TR225.dds";
    }
   }
 
@@ -10828,7 +10828,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "sharin.png";
+    "sharin.dds";
    }
   }
 
@@ -10867,7 +10867,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "sharin.png";
+    "sharin.dds";
    }
   }
 
@@ -10920,7 +10920,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "TR225.png";
+    "TR225.dds";
    }
   }
 
@@ -10931,7 +10931,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "sharin.png";
+    "sharin.dds";
    }
   }
 
@@ -10970,7 +10970,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "sharin.png";
+    "sharin.dds";
    }
   }
 

@@ -14797,7 +14797,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "side002.png";
+    "side002.dds";
    }
   }
 
@@ -14808,7 +14808,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "side001.png";
+    "side001.dds";
    }
   }
 
@@ -14819,7 +14819,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "front001.png";
+    "front001.dds";
    }
   }
 
@@ -14830,7 +14830,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "front001.png";
+    "front001.dds";
    }
   }
 
@@ -14841,7 +14841,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "front001.png";
+    "front001.dds";
    }
   }
 
@@ -14852,7 +14852,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "front001.png";
+    "front001.dds";
    }
   }
 
@@ -14874,7 +14874,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "front002.png";
+    "front002.dds";
    }
   }
 

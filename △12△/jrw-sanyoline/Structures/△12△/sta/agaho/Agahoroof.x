@@ -243,7 +243,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.600000;0.600000;0.600000;;
    TextureFilename {
-    "Agahoformpole1.png";
+    "Agahoformpole1.dds";
    }
   }
   Material {
@@ -252,7 +252,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "agahoformroof2.png";
+    "agahoformroof2.dds";
    }
   }
   Material {
@@ -261,7 +261,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.600000;0.600000;0.600000;;
    TextureFilename {
-    "formroof.png";
+    "formroof.dds";
    }
   }
  }

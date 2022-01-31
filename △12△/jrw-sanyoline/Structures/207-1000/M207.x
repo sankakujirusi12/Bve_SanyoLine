@@ -15919,7 +15919,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "M207s2.png";
+    "M207s2.dds";
    }
   }
 
@@ -15930,7 +15930,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "M207s1.png";
+    "M207s1.dds";
    }
   }
 
@@ -15941,7 +15941,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "207f2.png";
+    "207f2.dds";
    }
   }
 
@@ -15952,7 +15952,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "roof.png";
+    "roof.dds";
    }
   }
 
@@ -15963,7 +15963,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "cooler2.png";
+    "cooler2.dds";
    }
   }
 
@@ -15974,7 +15974,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "cooler2.png";
+    "cooler2.dds";
    }
   }
 
@@ -15985,7 +15985,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "cooler3.png";
+    "cooler3.dds";
    }
   }
 
@@ -15996,7 +15996,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "cooler3.png";
+    "cooler3.dds";
    }
   }
 
@@ -16007,7 +16007,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "u2.png";
+    "u2.dds";
    }
   }
 
@@ -16018,7 +16018,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "gaishi.png";
+    "gaishi.dds";
    }
   }
 
@@ -16029,7 +16029,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "pan3.png";
+    "pan3.dds";
    }
   }
 
@@ -16040,7 +16040,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "pan1.png";
+    "pan1.dds";
    }
   }
 
@@ -16051,7 +16051,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "pan2.png";
+    "pan2.dds";
    }
   }
 
@@ -16062,7 +16062,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "ef65r3.png";
+    "ef65r3.dds";
    }
   }
 
@@ -16073,7 +16073,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "fuse1.png";
+    "fuse1.dds";
    }
   }
 
@@ -16084,7 +16084,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "fuse2.png";
+    "fuse2.dds";
    }
   }
 
@@ -16095,7 +16095,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "gaishi.png";
+    "gaishi.dds";
    }
   }
 
@@ -16106,7 +16106,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "pan3.png";
+    "pan3.dds";
    }
   }
 
@@ -16117,7 +16117,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "pan1.png";
+    "pan1.dds";
    }
   }
 
@@ -16128,7 +16128,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "pan2.png";
+    "pan2.dds";
    }
   }
 

@@ -5,7 +5,7 @@ Material part1 {
 	0.0000;
 	0.0000;0.0000;0.0000;;
 	0.0000;0.0000;0.0000;;
-	TextureFilename { "point2.png"; }
+	TextureFilename { "point2.dds"; }
 }
 Mesh {
 	4;

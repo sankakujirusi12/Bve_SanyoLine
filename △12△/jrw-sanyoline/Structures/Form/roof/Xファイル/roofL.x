@@ -130,7 +130,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "roof.png";
+    "roof.dds";
    }
   }
 
@@ -141,7 +141,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "roof2.png";
+    "roof2.dds";
    }
   }
 
@@ -152,7 +152,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "roofH.png";
+    "roofH.dds";
    }
   }
 
@@ -163,7 +163,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "roofH.png";
+    "roofH.dds";
    }
   }
  }

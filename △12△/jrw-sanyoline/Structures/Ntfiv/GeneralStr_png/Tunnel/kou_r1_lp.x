@@ -4,7 +4,7 @@ Material ______2_renga01_wall_png {
    5.000000;
    0.100000;0.100000;0.100000;;
    0.200000;0.200000;0.200000;;
-   TextureFilename { "renga01_wall.png"; }
+   TextureFilename { "renga01_wall.dds"; }
 }
 Material Default_Material { 
    0.000000;0.000000;0.000000;1.000000;;

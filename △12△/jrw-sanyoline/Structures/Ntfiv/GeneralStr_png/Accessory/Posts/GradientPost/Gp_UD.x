@@ -10,7 +10,7 @@ Material _grd1_grd_png {
 5.0000;
 0.1000;0.1000;0.1000;;	
 0.2000;0.2000;0.2000;;	
-   TextureFilename { "grd.png"; }
+   TextureFilename { "grd.dds"; }
 }
 Material __Color_002_ {
 0.7765;0.7765;0.7765;1.0000;;

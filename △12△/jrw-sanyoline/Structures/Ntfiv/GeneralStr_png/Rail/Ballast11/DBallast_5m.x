@@ -265,7 +265,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "Dtie.png";
+    "Dtie.dds";
    }
   }
 
@@ -276,7 +276,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "SlabW2.png";
+    "SlabW2.dds";
    }
   }
 
@@ -287,7 +287,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "rail1.png";
+    "rail1.dds";
    }
   }
  }

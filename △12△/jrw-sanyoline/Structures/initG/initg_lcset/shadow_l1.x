@@ -33,7 +33,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "shadow_l.png";
+    "shadow_l.dds";
    }
   }
  }

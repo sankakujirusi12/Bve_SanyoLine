@@ -157,7 +157,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "1s_road.png";
+    "1s_road.dds";
    }
   }
 
@@ -168,7 +168,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "1s_road.png";
+    "1s_road.dds";
    }
   }
 
@@ -179,7 +179,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "1s_road.png";
+    "1s_road.dds";
    }
   }
  }

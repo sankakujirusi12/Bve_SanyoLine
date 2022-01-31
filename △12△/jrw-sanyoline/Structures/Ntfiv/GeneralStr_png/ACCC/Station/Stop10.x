@@ -110,7 +110,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "Stop10.png";
+    "Stop10.dds";
    }
   }
 

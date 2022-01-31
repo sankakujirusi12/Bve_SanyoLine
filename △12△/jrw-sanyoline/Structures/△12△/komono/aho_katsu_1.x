@@ -121,7 +121,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "aho_katsu_1.png";
+    "aho_katsu_1.dds";
    }
   }
  }

@@ -110,7 +110,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "Form_seto_old.png";
+    "Form_seto_old.dds";
    }
   }
 
@@ -121,7 +121,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "Wall.png";
+    "Wall.dds";
    }
   }
  }

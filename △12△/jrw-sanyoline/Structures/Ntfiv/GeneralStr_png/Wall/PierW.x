@@ -253,7 +253,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "Pier.png";
+    "Pier.dds";
    }
   }
 
@@ -264,7 +264,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "Pier.png";
+    "Pier.dds";
    }
   }
 
@@ -275,7 +275,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "Pier.png";
+    "Pier.dds";
    }
   }
  }

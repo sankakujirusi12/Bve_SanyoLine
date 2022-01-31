@@ -3850,7 +3850,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "f3.png";
+    "f3.dds";
    }
   }
 
@@ -3861,7 +3861,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "s3.png";
+    "s3.dds";
    }
   }
 
@@ -3872,7 +3872,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "r3.png";
+    "r3.dds";
    }
   }
 
@@ -3890,7 +3890,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "t.png";
+    "t.dds";
    }
   }
  }

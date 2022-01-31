@@ -1773,7 +1773,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "Sig0_Arm.png";
+    "Sig0_Arm.dds";
    }
   }
   Material {
@@ -1782,7 +1782,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "Fence005.png";
+    "Fence005.dds";
    }
   }
   Material {

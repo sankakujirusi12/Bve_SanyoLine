@@ -121,7 +121,7 @@ Mesh {
    1.000000;1.000000;1.000000;;
 
    TextureFilename {
-    "Y.png";
+    "Y.dds";
    }
   }
  }

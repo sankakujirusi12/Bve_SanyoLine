@@ -16,14 +16,14 @@ Material _8_8_png {
 5.0000;
 0.1000;0.1000;0.1000;;	
 0.2000;0.2000;0.2000;;	
-   TextureFilename { "6.png"; }
+   TextureFilename { "6.dds"; }
 }
 Material _888_888_png {
 1.0000;1.0000;1.0000;  1.0000;;
 5.0000;
 0.1000;0.1000;0.1000;;	
 0.2000;0.2000;0.2000;;	
-   TextureFilename { "888.png"; }
+   TextureFilename { "888.dds"; }
 }
 Mesh mesh_0{
 26;

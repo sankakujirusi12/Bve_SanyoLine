@@ -96,7 +96,7 @@ Mesh {
    1.000000;1.000000;1.000000;;
 
    TextureFilename {
-    "bg.png";
+    "bg.dds";
    }
   }
  }

@@ -120,7 +120,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "pole2.png";
+    "pole2.dds";
    }
   }
  }

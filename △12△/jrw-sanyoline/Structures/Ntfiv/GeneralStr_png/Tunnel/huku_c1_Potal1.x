@@ -4,7 +4,7 @@ Material ______2_huku_potal_png {
 5.0000;
 0.1000;0.1000;0.1000;;	
 0.2000;0.2000;0.2000;;	
-   TextureFilename { "fconc01_potal.png"; }
+   TextureFilename { "fconc01_potal.dds"; }
 }
 Mesh mesh_0{
 28;

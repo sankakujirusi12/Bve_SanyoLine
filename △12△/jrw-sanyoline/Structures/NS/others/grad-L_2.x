@@ -102,7 +102,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "grad-L_2.png";
+    "grad-L_2.dds";
    }
   }
  }

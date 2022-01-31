@@ -139,7 +139,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "Form_katsu.png";
+    "Form_katsu.dds";
    }
   }
 
@@ -150,7 +150,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "Wall.png";
+    "Wall.dds";
    }
   }
  }

@@ -283,7 +283,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "pole4.png";
+    "pole4.dds";
    }
   }
 
@@ -294,7 +294,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "pole4_top.png";
+    "pole4_top.dds";
    }
   }
  }

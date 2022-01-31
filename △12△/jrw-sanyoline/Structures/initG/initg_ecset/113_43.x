@@ -4017,7 +4017,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "000_00.png";
+    "000_00.dds";
    }
   }
 
@@ -4028,7 +4028,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "000_10.png";
+    "000_10.dds";
    }
   }
 
@@ -4039,7 +4039,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "113_00.png";
+    "113_00.dds";
    }
   }
 
@@ -4050,7 +4050,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "113_03.png";
+    "113_03.dds";
    }
   }
 
@@ -4072,7 +4072,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "cooler.png";
+    "cooler.dds";
    }
   }
 
@@ -4090,7 +4090,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "cooler.png";
+    "cooler.dds";
    }
   }
 
@@ -4108,7 +4108,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "cooler.png";
+    "cooler.dds";
    }
   }
 
@@ -4133,7 +4133,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "113_03.png";
+    "113_03.dds";
    }
   }
  }

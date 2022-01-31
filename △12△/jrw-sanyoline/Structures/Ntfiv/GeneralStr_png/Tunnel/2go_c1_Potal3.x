@@ -343,7 +343,7 @@ Mesh {
    0.200000;0.200000;0.200000;;
 
    TextureFilename {
-    "conc01a_potal.png";
+    "conc01a_potal.dds";
    }
   }
  }

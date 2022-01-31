@@ -128,7 +128,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "w.png";
+    "w.dds";
    }
   }
 
@@ -139,7 +139,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "t.png";
+    "t.dds";
    }
   }
  }

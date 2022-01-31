@@ -175,7 +175,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "aioi_sta.png";
+    "aioi_sta.dds";
    }
   }
   Material {
@@ -184,7 +184,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "black.png";
+    "black.dds";
    }
   }
   Material {
@@ -193,7 +193,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.500000;0.500000;0.500000;;
    TextureFilename {
-    "aioi_sta.png";
+    "aioi_sta.dds";
    }
   }
  }

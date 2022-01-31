@@ -121,7 +121,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "ai_une_7.png";
+    "ai_une_7.dds";
    }
   }
  }

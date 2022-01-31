@@ -11371,7 +11371,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "115_f.png";
+    "115_f.dds";
    }
   }
 
@@ -11382,7 +11382,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "115_sr2.png";
+    "115_sr2.dds";
    }
   }
 
@@ -11393,7 +11393,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "115_sl2.png";
+    "115_sl2.dds";
    }
   }
 
@@ -11411,7 +11411,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "115_fs.png";
+    "115_fs.dds";
    }
   }
 
@@ -11422,7 +11422,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "115_b.png";
+    "115_b.dds";
    }
   }
 
@@ -11433,7 +11433,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "115_u.png";
+    "115_u.dds";
    }
   }
 
@@ -11444,7 +11444,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "AU75.png";
+    "AU75.dds";
    }
   }
 
@@ -11455,7 +11455,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "benti.png";
+    "benti.dds";
    }
   }
 
@@ -11466,7 +11466,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "antena.png";
+    "antena.dds";
    }
   }
 
@@ -11477,7 +11477,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "kage.png";
+    "kage.dds";
    }
   }
 
@@ -11488,7 +11488,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "benti.png";
+    "benti.dds";
    }
   }
  }

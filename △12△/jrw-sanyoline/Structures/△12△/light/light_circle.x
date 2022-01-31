@@ -121,7 +121,7 @@ Mesh {
    0.500000;0.500000;0.500000;;
 
    TextureFilename {
-    "light_circle.png";
+    "light_circle.dds";
    }
   }
  }

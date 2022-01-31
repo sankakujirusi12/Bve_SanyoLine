@@ -193,7 +193,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "BallastBH_.png";
+    "BallastBH_.dds";
    }
   }
 
@@ -204,7 +204,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "BallastBH_.png";
+    "BallastBH_.dds";
    }
   }
  }

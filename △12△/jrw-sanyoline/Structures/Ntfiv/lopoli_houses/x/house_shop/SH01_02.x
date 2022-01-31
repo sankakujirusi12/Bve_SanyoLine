@@ -760,7 +760,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "kawara_gray.png";
+    "kawara_gray.dds";
    }
   }
 
@@ -778,7 +778,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "tent_red.png";
+    "tent_red.dds";
    }
   }
 
@@ -789,7 +789,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "sh_wall02b.png";
+    "sh_wall02b.dds";
    }
   }
 
@@ -800,7 +800,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "sh_wall02.png";
+    "sh_wall02.dds";
    }
   }
 
@@ -811,7 +811,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "h_wall02a.png";
+    "h_wall02a.dds";
    }
   }
 
@@ -822,7 +822,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "cooler.png";
+    "cooler.dds";
    }
   }
 
@@ -833,7 +833,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "cooler.png";
+    "cooler.dds";
    }
   }
 
@@ -844,7 +844,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "solar.png";
+    "solar.dds";
    }
   }
  }

@@ -247,7 +247,7 @@ Mesh {
    0.500000;0.500000;0.500000;;
 
    TextureFilename {
-    "mirror_base.png";
+    "mirror_base.dds";
    }
   }
 
@@ -272,7 +272,7 @@ Mesh {
    0.500000;0.500000;0.500000;;
 
    TextureFilename {
-    "mirror_baseU.png";
+    "mirror_baseU.dds";
    }
   }
  }

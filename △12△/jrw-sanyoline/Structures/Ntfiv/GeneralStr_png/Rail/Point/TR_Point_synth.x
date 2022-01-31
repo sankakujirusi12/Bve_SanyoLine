@@ -175,7 +175,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "TieTr_syn.png";
+    "TieTr_syn.dds";
    }
   }
 
@@ -186,7 +186,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "TieTr_syn.png";
+    "TieTr_syn.dds";
    }
   }
 
@@ -197,7 +197,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "TieTr_synY.png";
+    "TieTr_synY.dds";
    }
   }
  }

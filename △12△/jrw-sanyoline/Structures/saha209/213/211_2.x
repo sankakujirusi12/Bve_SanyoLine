@@ -2119,7 +2119,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "211_s2.png";
+    "211_s2.dds";
    }
   }
 
@@ -2130,7 +2130,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "211_s2b.png";
+    "211_s2b.dds";
    }
   }
 
@@ -2148,7 +2148,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "horo.png";
+    "horo.dds";
    }
   }
 
@@ -2159,7 +2159,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "211_u.png";
+    "211_u.dds";
    }
   }
 
@@ -2170,7 +2170,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "AU75.png";
+    "AU75.dds";
    }
   }
 
@@ -2181,7 +2181,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "benti.png";
+    "benti.dds";
    }
   }
  }

@@ -477,7 +477,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "xss2.png";
+    "xss2.dds";
    }
   }
 
@@ -488,7 +488,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "xss1.png";
+    "xss1.dds";
    }
   }
 
@@ -499,7 +499,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "rmp2.png";
+    "rmp2.dds";
    }
   }
 
@@ -510,7 +510,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "ter1.png";
+    "ter1.dds";
    }
   }
 
@@ -521,7 +521,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "conc_dai.png";
+    "conc_dai.dds";
    }
   }
  }

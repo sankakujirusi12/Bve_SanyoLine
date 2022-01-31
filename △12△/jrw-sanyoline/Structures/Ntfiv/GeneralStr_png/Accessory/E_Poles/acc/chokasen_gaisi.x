@@ -121,7 +121,7 @@ Mesh {
    0.500000;0.500000;0.500000;;
 
    TextureFilename {
-    "chokasen_gaisi.png";
+    "chokasen_gaisi.dds";
    }
   }
  }

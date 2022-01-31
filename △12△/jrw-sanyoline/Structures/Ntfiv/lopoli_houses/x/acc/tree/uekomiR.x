@@ -193,7 +193,7 @@ Mesh {
    0.500000;0.500000;0.500000;;
 
    TextureFilename {
-    "uekomi01.png";
+    "uekomi01.dds";
    }
   }
 
@@ -204,7 +204,7 @@ Mesh {
    0.500000;0.500000;0.500000;;
 
    TextureFilename {
-    "uekomi02.png";
+    "uekomi02.dds";
    }
   }
  }

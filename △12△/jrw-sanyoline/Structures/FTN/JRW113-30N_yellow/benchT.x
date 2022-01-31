@@ -1183,7 +1183,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "bench.png";
+    "bench.dds";
    }
   }
 
@@ -1194,7 +1194,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "bench.png";
+    "bench.dds";
    }
   }
 
@@ -1205,7 +1205,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "bench.png";
+    "bench.dds";
    }
   }
 
@@ -1216,7 +1216,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "bench.png";
+    "bench.dds";
    }
   }
 
@@ -1227,7 +1227,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "bench.png";
+    "bench.dds";
    }
   }
 
@@ -1238,7 +1238,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "bench.png";
+    "bench.dds";
    }
   }
  }

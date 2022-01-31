@@ -508,7 +508,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "agaho_kosen1.png";
+    "agaho_kosen1.dds";
    }
   }
   Material {
@@ -517,7 +517,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "agaho_kosen2.png";
+    "agaho_kosen2.dds";
    }
   }
   Material {
@@ -532,7 +532,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "agaho_kosen4.png";
+    "agaho_kosen4.dds";
    }
   }
   Material {
@@ -547,7 +547,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "agaho_kosen3.png";
+    "agaho_kosen3.dds";
    }
   }
  }

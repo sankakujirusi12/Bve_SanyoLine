@@ -139,7 +139,7 @@ Mesh {
    1.000000;1.000000;1.000000;;
 
    TextureFilename {
-    "223_light2.png";
+    "223_light2.dds";
    }
   }
  }

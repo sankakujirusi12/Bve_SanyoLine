@@ -186,7 +186,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "Okayama.png";
+    "Okayama.dds";
    }
   }
 
@@ -197,7 +197,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "light_on.png";
+    "light_on.dds";
    }
   }
 
@@ -208,7 +208,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "light-tail.png";
+    "light-tail.dds";
    }
   }
  }

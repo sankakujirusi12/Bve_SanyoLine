@@ -239,7 +239,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "road1.png";
+    "road1.dds";
    }
   }
   Material {
@@ -248,7 +248,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "enseki.png";
+    "enseki.dds";
    }
   }
  }

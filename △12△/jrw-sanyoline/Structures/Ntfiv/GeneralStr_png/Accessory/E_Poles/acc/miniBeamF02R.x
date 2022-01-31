@@ -193,7 +193,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "BeamF01.png";
+    "BeamF01.dds";
    }
   }
 
@@ -204,7 +204,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "BeamF12.png";
+    "BeamF12.dds";
    }
   }
 
@@ -215,7 +215,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "BeamF01.png";
+    "BeamF01.dds";
    }
   }
  }

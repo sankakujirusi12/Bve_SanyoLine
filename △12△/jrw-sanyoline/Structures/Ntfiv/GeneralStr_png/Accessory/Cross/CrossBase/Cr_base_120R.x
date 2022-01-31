@@ -199,7 +199,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "asphalt_N.png";
+    "asphalt_N.dds";
    }
   }
 
@@ -210,7 +210,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "asphalt_N.png";
+    "asphalt_N.dds";
    }
   }
  }

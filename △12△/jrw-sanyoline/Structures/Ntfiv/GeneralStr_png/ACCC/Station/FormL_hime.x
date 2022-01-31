@@ -136,7 +136,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "FormC_hime.png";
+    "FormC_hime.dds";
    }
   }
 
@@ -147,7 +147,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "FormSide1.png";
+    "FormSide1.dds";
    }
   }
 
@@ -158,7 +158,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "Wall.png";
+    "Wall.dds";
    }
   }
  }

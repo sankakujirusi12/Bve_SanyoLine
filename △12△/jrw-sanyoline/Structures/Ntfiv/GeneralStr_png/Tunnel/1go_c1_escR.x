@@ -445,7 +445,7 @@ Mesh {
    1.000000;1.000000;1.000000;;
 
    TextureFilename {
-    "conc01_wall.png";
+    "conc01_wall.dds";
    }
   }
 
@@ -456,7 +456,7 @@ Mesh {
    1.000000;1.000000;1.000000;;
 
    TextureFilename {
-    "conc01_taihi.png";
+    "conc01_taihi.dds";
    }
   }
 

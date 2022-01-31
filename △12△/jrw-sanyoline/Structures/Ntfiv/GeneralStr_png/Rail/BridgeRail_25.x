@@ -190,7 +190,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "Tie_brg.png";
+    "Tie_brg.dds";
    }
   }
 
@@ -201,7 +201,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "rail1.png";
+    "rail1.dds";
    }
   }
 
@@ -212,7 +212,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "rail1.png";
+    "rail1.dds";
    }
   }
 

@@ -313,7 +313,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "noize.png";
+    "noize.dds";
    }
   }
 
@@ -324,7 +324,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "Fmbox2.png";
+    "Fmbox2.dds";
    }
   }
 
@@ -335,7 +335,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "Fmbox1.png";
+    "Fmbox1.dds";
    }
   }
 
@@ -346,7 +346,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "conc_dai.png";
+    "conc_dai.dds";
    }
   }
  }

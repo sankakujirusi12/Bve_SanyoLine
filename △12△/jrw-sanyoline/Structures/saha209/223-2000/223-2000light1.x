@@ -943,7 +943,7 @@ Mesh {
    1.000000;1.000000;1.000000;;
 
    TextureFilename {
-    "223_fn.png";
+    "223_fn.dds";
    }
   }
 
@@ -965,7 +965,7 @@ Mesh {
    1.000000;1.000000;1.000000;;
 
    TextureFilename {
-    "223_light.png";
+    "223_light.dds";
    }
   }
 
@@ -976,7 +976,7 @@ Mesh {
    1.000000;1.000000;1.000000;;
 
    TextureFilename {
-    "223_light.png";
+    "223_light.dds";
    }
   }
  }

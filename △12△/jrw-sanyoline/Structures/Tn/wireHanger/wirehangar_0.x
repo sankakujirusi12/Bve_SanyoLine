@@ -151,7 +151,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "pole_1.png";
+    "pole_1.dds";
    }
   }
   Material {
@@ -160,7 +160,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "pole_2.png";
+    "pole_2.dds";
    }
   }
   Material {
@@ -169,7 +169,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "hunger_1.png";
+    "hunger_1.dds";
    }
   }
   Material {
@@ -178,7 +178,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "kaishi_1.png";
+    "kaishi_1.dds";
    }
   }
   Material {
@@ -187,7 +187,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "kaishi_2.png";
+    "kaishi_2.dds";
    }
   }
  }

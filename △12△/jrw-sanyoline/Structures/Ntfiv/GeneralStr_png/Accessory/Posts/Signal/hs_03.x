@@ -102,7 +102,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "hs_03.png";
+    "hs_03.dds";
    }
   }
  }

@@ -3265,7 +3265,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "Truss_b.png";
+    "Truss_b.dds";
    }
   }
 
@@ -3276,7 +3276,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "Truss2_w.png";
+    "Truss2_w.dds";
    }
   }
  }

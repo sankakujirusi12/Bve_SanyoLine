@@ -4,7 +4,7 @@ Material _ent_conc2_ent_conc_png {
 5.0000;
 0.1000;0.1000;0.1000;;	
 0.2000;0.2000;0.2000;;	
-   TextureFilename { "conc01b_potal.png"; }
+   TextureFilename { "conc01b_potal.dds"; }
 }
 Mesh mesh_0{
 30;

@@ -102,7 +102,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "rope1.png";
+    "rope1.dds";
    }
   }
  }

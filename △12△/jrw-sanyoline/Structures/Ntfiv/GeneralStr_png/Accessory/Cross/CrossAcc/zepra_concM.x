@@ -175,7 +175,7 @@ Mesh {
    0.500000;0.500000;0.500000;;
 
    TextureFilename {
-    "zebra.png";
+    "zebra.dds";
    }
   }
  }

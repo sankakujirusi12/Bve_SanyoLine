@@ -4402,7 +4402,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "chiki5500_02_pure.png";
+    "chiki5500_02_pure.dds";
    }
   }
   Material {
@@ -4411,7 +4411,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "chiki5500_01_pure.png";
+    "chiki5500_01_pure.dds";
    }
   }
   Material {
@@ -4426,7 +4426,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "Coupler.png";
+    "Coupler.dds";
    }
   }
   Material {
@@ -4471,7 +4471,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "syarin.png";
+    "syarin.dds";
    }
   }
   Material {
@@ -4492,7 +4492,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "FT1.png";
+    "FT1.dds";
    }
   }
   Material {
@@ -4501,7 +4501,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "FT1.png";
+    "FT1.dds";
    }
   }
   Material {
@@ -4510,7 +4510,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "FT1.png";
+    "FT1.dds";
    }
   }
   Material {
@@ -4519,7 +4519,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "FT1.png";
+    "FT1.dds";
    }
   }
   Material {
@@ -4528,7 +4528,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "chiki5500_03_pure.png";
+    "chiki5500_03_pure.dds";
    }
   }
   Material {
@@ -4537,7 +4537,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "chiki5500_01_pure.png";
+    "chiki5500_01_pure.dds";
    }
   }
   Material {
@@ -4546,7 +4546,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "chiki5500_01_pure.png";
+    "chiki5500_01_pure.dds";
    }
   }
   Material {
@@ -4555,7 +4555,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "tesuri_104.png";
+    "tesuri_104.dds";
    }
   }
   Material {
@@ -4570,7 +4570,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "handle_y2.png";
+    "handle_y2.dds";
    }
   }
  }

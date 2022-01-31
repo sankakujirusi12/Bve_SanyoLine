@@ -4,7 +4,7 @@ Material _renga_potal3_renga_potal_png {
 5.0000;
 0.1000;0.1000;0.1000;;	
 0.2000;0.2000;0.2000;;	
-   TextureFilename { "renga02_potal.png"; }
+   TextureFilename { "renga02_potal.dds"; }
 }
 Mesh mesh_0{
 28;

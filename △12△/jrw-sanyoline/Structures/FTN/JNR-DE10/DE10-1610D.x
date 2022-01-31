@@ -16348,7 +16348,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "1.png";
+    "1.dds";
    }
   }
 
@@ -16359,7 +16359,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "6.png";
+    "6.dds";
    }
   }
 
@@ -16370,7 +16370,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "6.png";
+    "6.dds";
    }
   }
 
@@ -16381,7 +16381,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "3.png";
+    "3.dds";
    }
   }
 
@@ -16392,7 +16392,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "s1.png";
+    "s1.dds";
    }
   }
 
@@ -16403,7 +16403,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "s6.png";
+    "s6.dds";
    }
   }
 
@@ -16414,7 +16414,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "s6.png";
+    "s6.dds";
    }
   }
 
@@ -16425,7 +16425,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "s3.png";
+    "s3.dds";
    }
   }
 
@@ -16576,7 +16576,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "light-tail.png";
+    "light-tail.dds";
    }
   }
 
@@ -16594,7 +16594,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "light-tail.png";
+    "light-tail.dds";
    }
   }
 
@@ -16605,7 +16605,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "plug.png";
+    "plug.dds";
    }
   }
 
@@ -16637,7 +16637,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "airhose1.png";
+    "airhose1.dds";
    }
   }
 
@@ -16648,7 +16648,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "skirt_shadow.png";
+    "skirt_shadow.dds";
    }
   }
 
@@ -16659,7 +16659,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "airhose1.png";
+    "airhose1.dds";
    }
   }
 
@@ -16670,7 +16670,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "skirt_shadow.png";
+    "skirt_shadow.dds";
    }
   }
 
@@ -16681,7 +16681,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "airhose1.png";
+    "airhose1.dds";
    }
   }
 
@@ -16692,7 +16692,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "skirt_shadow.png";
+    "skirt_shadow.dds";
    }
   }
 
@@ -16703,7 +16703,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "airhose1.png";
+    "airhose1.dds";
    }
   }
 
@@ -16714,7 +16714,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "skirt_shadow.png";
+    "skirt_shadow.dds";
    }
   }
 
@@ -16725,7 +16725,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "airhose1.png";
+    "airhose1.dds";
    }
   }
 
@@ -16736,7 +16736,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "skirt_shadow.png";
+    "skirt_shadow.dds";
    }
   }
 
@@ -16915,7 +16915,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "chain.png";
+    "chain.dds";
    }
   }
 
@@ -16926,7 +16926,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "front2.png";
+    "front2.dds";
    }
   }
 
@@ -16937,7 +16937,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "roof.png";
+    "roof.dds";
    }
   }
 
@@ -16948,7 +16948,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "side1.png";
+    "side1.dds";
    }
   }
 
@@ -17106,7 +17106,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "front_cab.png";
+    "front_cab.dds";
    }
   }
 
@@ -17117,7 +17117,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "side-cab.png";
+    "side-cab.dds";
    }
   }
 
@@ -17128,7 +17128,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "front_cab.png";
+    "front_cab.dds";
    }
   }
 
@@ -17314,7 +17314,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "front1.png";
+    "front1.dds";
    }
   }
 
@@ -17325,7 +17325,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "roof.png";
+    "roof.dds";
    }
   }
 
@@ -17336,7 +17336,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "side2_2.png";
+    "side2_2.dds";
    }
   }
 
@@ -17347,7 +17347,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "side3.png";
+    "side3.dds";
    }
   }
 
@@ -17358,7 +17358,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "side3.png";
+    "side3.dds";
    }
   }
 
@@ -17516,7 +17516,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "plug.png";
+    "plug.dds";
    }
   }
 
@@ -17548,7 +17548,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "airhose1.png";
+    "airhose1.dds";
    }
   }
 
@@ -17559,7 +17559,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "skirt_shadow.png";
+    "skirt_shadow.dds";
    }
   }
 
@@ -17570,7 +17570,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "airhose1.png";
+    "airhose1.dds";
    }
   }
 
@@ -17581,7 +17581,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "skirt_shadow.png";
+    "skirt_shadow.dds";
    }
   }
 
@@ -17592,7 +17592,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "airhose1.png";
+    "airhose1.dds";
    }
   }
 
@@ -17603,7 +17603,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "skirt_shadow.png";
+    "skirt_shadow.dds";
    }
   }
 
@@ -17614,7 +17614,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "airhose1.png";
+    "airhose1.dds";
    }
   }
 
@@ -17625,7 +17625,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "skirt_shadow.png";
+    "skirt_shadow.dds";
    }
   }
 
@@ -17636,7 +17636,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "airhose1.png";
+    "airhose1.dds";
    }
   }
 
@@ -17647,7 +17647,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "skirt_shadow.png";
+    "skirt_shadow.dds";
    }
   }
 
@@ -17826,7 +17826,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "chain.png";
+    "chain.dds";
    }
   }
 
@@ -17907,7 +17907,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "light-tail.png";
+    "light-tail.dds";
    }
   }
 
@@ -17925,7 +17925,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "light-tail.png";
+    "light-tail.dds";
    }
   }
 
@@ -18006,7 +18006,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "DT131.png";
+    "DT131.dds";
    }
   }
 
@@ -18024,7 +18024,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "sharin.png";
+    "sharin.dds";
    }
   }
 
@@ -18056,7 +18056,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "DT131.png";
+    "DT131.dds";
    }
   }
 
@@ -18109,7 +18109,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "sharin.png";
+    "sharin.dds";
    }
   }
 
@@ -18162,7 +18162,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "DT141.png";
+    "DT141.dds";
    }
   }
 
@@ -18180,7 +18180,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "DT141.png";
+    "DT141.dds";
    }
   }
 
@@ -18198,7 +18198,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "DT141.png";
+    "DT141.dds";
    }
   }
 
@@ -18216,7 +18216,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "DT141.png";
+    "DT141.dds";
    }
   }
 
@@ -18262,7 +18262,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "sharin.png";
+    "sharin.dds";
    }
   }
 
@@ -18301,7 +18301,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "sharin.png";
+    "sharin.dds";
    }
   }
 
@@ -18340,7 +18340,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "brakeshoe.png";
+    "brakeshoe.dds";
    }
   }
 
@@ -18365,7 +18365,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "sharin.png";
+    "sharin.dds";
    }
   }
 
@@ -18425,7 +18425,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "under.png";
+    "under.dds";
    }
   }
 

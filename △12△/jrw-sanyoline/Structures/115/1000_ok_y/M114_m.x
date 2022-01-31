@@ -9034,7 +9034,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "115_sr5.png";
+    "115_sr5.dds";
    }
   }
 
@@ -9045,7 +9045,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "115_sr5.png";
+    "115_sr5.dds";
    }
   }
 
@@ -9063,7 +9063,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "115_b_.png";
+    "115_b_.dds";
    }
   }
 
@@ -9074,7 +9074,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "115_u.png";
+    "115_u.dds";
    }
   }
 
@@ -9085,7 +9085,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "AU75.png";
+    "AU75.dds";
    }
   }
 
@@ -9096,7 +9096,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "benti.png";
+    "benti.dds";
    }
   }
 
@@ -9107,7 +9107,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "horo2.png";
+    "horo2.dds";
    }
   }
 
@@ -9118,7 +9118,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "kage.png";
+    "kage.dds";
    }
   }
 
@@ -9129,7 +9129,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "P2.png";
+    "P2.dds";
    }
   }
  }

@@ -217,7 +217,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "Agaho_EVsign.png";
+    "Agaho_EVsign.dds";
    }
   }
   Material {
@@ -226,7 +226,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.790000;0.790000;0.790000;;
    TextureFilename {
-    "Agaho_EVsign.png";
+    "Agaho_EVsign.dds";
    }
   }
  }

@@ -229,7 +229,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "conc_brg.png";
+    "conc_brg.dds";
    }
   }
 
@@ -240,7 +240,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "Asphalt1.png";
+    "Asphalt1.dds";
    }
   }
 
@@ -251,7 +251,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "Asphalt1.png";
+    "Asphalt1.dds";
    }
   }
 
@@ -262,7 +262,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "Asphalt1.png";
+    "Asphalt1.dds";
    }
   }
  }

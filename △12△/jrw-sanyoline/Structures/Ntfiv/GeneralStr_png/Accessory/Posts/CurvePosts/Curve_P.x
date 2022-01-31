@@ -10,7 +10,7 @@ Material _000_000_png {
 5.0000;
 0.1000;0.1000;0.1000;;	
 0.2000;0.2000;0.2000;;	
-   TextureFilename { "cvp.png"; }
+   TextureFilename { "cvp.dds"; }
 }
 Material __Color_002_ {
 0.7765;0.7765;0.7765;1.0000;;
@@ -23,7 +23,7 @@ Material _cvp_ura1_cvp_ura_png {
 5.0000;
 0.1000;0.1000;0.1000;;	
 0.2000;0.2000;0.2000;;	
-   TextureFilename { "cvp_ura.png"; }
+   TextureFilename { "cvp_ura.dds"; }
 }
 Material Default_Material { 
 1.0000;1.0000;1.0000;1.0;;

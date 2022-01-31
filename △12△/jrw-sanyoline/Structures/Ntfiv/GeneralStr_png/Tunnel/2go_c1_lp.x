@@ -391,7 +391,7 @@ Mesh {
    1.000000;1.000000;1.000000;;
 
    TextureFilename {
-    "conc01_wall.png";
+    "conc01_wall.dds";
    }
   }
 

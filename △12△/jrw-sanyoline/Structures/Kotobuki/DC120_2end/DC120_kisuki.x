@@ -4,70 +4,70 @@ Material _DC120_2_DC120_2_png {
 5.0000;
 0.1000;0.1000;0.1000;;	
 0.2000;0.2000;0.2000;;	
-   TextureFilename { "DC120_kisuki2.png"; }
+   TextureFilename { "DC120_kisuki2.dds"; }
 }
 Material _120_reibo_2_120_reibo_2_png {
 1.0000;1.0000;1.0000;  1.0000;;
 5.0000;
 0.1000;0.1000;0.1000;;	
 0.2000;0.2000;0.2000;;	
-   TextureFilename { "120_reibo_2.png"; }
+   TextureFilename { "120_reibo_2.dds"; }
 }
 Material _120_mira1_120_mira1_png {
 1.0000;1.0000;1.0000;  1.0000;;
 5.0000;
 0.1000;0.1000;0.1000;;	
 0.2000;0.2000;0.2000;;	
-   TextureFilename { "120_mira1.png"; }
+   TextureFilename { "120_mira1.dds"; }
 }
 Material _120_yane_120_yane_png {
 1.0000;1.0000;1.0000;  1.0000;;
 5.0000;
 0.1000;0.1000;0.1000;;	
 0.2000;0.2000;0.2000;;	
-   TextureFilename { "120_yane.png"; }
+   TextureFilename { "120_yane.dds"; }
 }
 Material _120_antena_120_antena_png {
 1.0000;1.0000;1.0000;  1.0000;;
 5.0000;
 0.1000;0.1000;0.1000;;	
 0.2000;0.2000;0.2000;;	
-   TextureFilename { "120_antena.png"; }
+   TextureFilename { "120_antena.dds"; }
 }
 Material _120_sus_120_sus_png {
 1.0000;1.0000;1.0000;  1.0000;;
 5.0000;
 0.1000;0.1000;0.1000;;	
 0.2000;0.2000;0.2000;;	
-   TextureFilename { "120_sus.png"; }
+   TextureFilename { "120_sus.dds"; }
 }
 Material _120_reibo_1_120_reibo_1_png {
 1.0000;1.0000;1.0000;  1.0000;;
 5.0000;
 0.1000;0.1000;0.1000;;	
 0.2000;0.2000;0.2000;;	
-   TextureFilename { "120_reibo_1.png"; }
+   TextureFilename { "120_reibo_1.dds"; }
 }
 Material _120_mira2_120_mira2_png {
 1.0000;1.0000;1.0000;  1.0000;;
 5.0000;
 0.1000;0.1000;0.1000;;	
 0.2000;0.2000;0.2000;;	
-   TextureFilename { "120_mira2.png"; }
+   TextureFilename { "120_mira2.dds"; }
 }
 Material _DC120_mae_DC120_mae_png {
 1.0000;1.0000;1.0000;  1.0000;;
 5.0000;
 0.1000;0.1000;0.1000;;	
 0.2000;0.2000;0.2000;;	
-   TextureFilename { "DC120_kisuki.png"; }
+   TextureFilename { "DC120_kisuki.dds"; }
 }
 Material _120kiki_120kiki_png {
 1.0000;1.0000;1.0000;  1.0000;;
 5.0000;
 0.1000;0.1000;0.1000;;	
 0.2000;0.2000;0.2000;;	
-   TextureFilename { "120kiki.png"; }
+   TextureFilename { "120kiki.dds"; }
 }
 Material ______1 {
 0.0784;0.0784;0.0784;1.0000;;
@@ -80,7 +80,7 @@ Material _120_renketu_120_renketu_png {
 5.0000;
 0.1000;0.1000;0.1000;;	
 0.2000;0.2000;0.2000;;	
-   TextureFilename { "120_renketu.png"; }
+   TextureFilename { "120_renketu.dds"; }
 }
 Material __Charcoal_ {
 0.1373;0.1373;0.1373;1.0000;;
@@ -99,7 +99,7 @@ Material _kage_kage_png {
 5.0000;
 0.1000;0.1000;0.1000;;	
 0.2000;0.2000;0.2000;;	
-   TextureFilename { "kage.png"; }
+   TextureFilename { "kage.dds"; }
 }
 Mesh mesh_0{
 1711;

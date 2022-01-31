@@ -320,7 +320,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "sigbox2.png";
+    "sigbox2.dds";
    }
   }
 
@@ -331,7 +331,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "sigbox1.png";
+    "sigbox1.dds";
    }
   }
 
@@ -342,7 +342,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "conc_dai.png";
+    "conc_dai.dds";
    }
   }
 

@@ -121,7 +121,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "sectionclear_2.png";
+    "sectionclear_2.dds";
    }
   }
  }

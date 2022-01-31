@@ -102,7 +102,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "tei_tu.png";
+    "tei_tu.dds";
    }
   }
  }

@@ -129,7 +129,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "GroundGrass.png";
+    "GroundGrass.dds";
    }
   }
  }

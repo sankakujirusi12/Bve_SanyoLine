@@ -53,7 +53,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "ctn.png";
+    "ctn.dds";
    }
   }
 
@@ -64,7 +64,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "ctn.png";
+    "ctn.dds";
    }
   }
  }

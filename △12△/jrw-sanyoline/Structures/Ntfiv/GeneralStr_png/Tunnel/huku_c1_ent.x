@@ -529,7 +529,7 @@ Mesh {
    1.000000;1.000000;1.000000;;
 
    TextureFilename {
-    "fconc01_ent.png";
+    "fconc01_ent.dds";
    }
   }
 

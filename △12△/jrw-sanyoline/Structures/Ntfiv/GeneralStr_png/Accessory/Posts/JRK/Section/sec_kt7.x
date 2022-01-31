@@ -102,7 +102,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "sec_kt7.png";
+    "sec_kt7.dds";
    }
   }
  }

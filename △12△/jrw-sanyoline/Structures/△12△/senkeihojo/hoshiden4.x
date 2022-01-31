@@ -151,7 +151,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "hoshiden4.png";
+    "hoshiden4.dds";
    }
   }
  }

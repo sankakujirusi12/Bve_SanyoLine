@@ -229,7 +229,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "SlabW2.png";
+    "SlabW2.dds";
    }
   }
 
@@ -240,7 +240,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "ssk.png";
+    "ssk.dds";
    }
   }
 
@@ -251,7 +251,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "WallW.png";
+    "WallW.dds";
    }
   }
 
@@ -262,7 +262,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "WallW2.png";
+    "WallW2.dds";
    }
   }
 

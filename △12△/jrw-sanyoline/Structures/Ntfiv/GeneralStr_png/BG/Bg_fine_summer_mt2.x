@@ -96,7 +96,7 @@ Mesh {
    1.000000;1.000000;1.000000;;
 
    TextureFilename {
-    "fine_summer_mt2.png";
+    "fine_summer_mt2.dds";
    }
   }
  }

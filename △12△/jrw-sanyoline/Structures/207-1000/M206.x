@@ -15181,7 +15181,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "T207s2.png";
+    "T207s2.dds";
    }
   }
 
@@ -15192,7 +15192,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "T207s1.png";
+    "T207s1.dds";
    }
   }
 
@@ -15203,7 +15203,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "207f2.png";
+    "207f2.dds";
    }
   }
 
@@ -15214,7 +15214,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "roof.png";
+    "roof.dds";
    }
   }
 
@@ -15225,7 +15225,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "cooler2.png";
+    "cooler2.dds";
    }
   }
 
@@ -15236,7 +15236,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "cooler2.png";
+    "cooler2.dds";
    }
   }
 
@@ -15247,7 +15247,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "cooler3.png";
+    "cooler3.dds";
    }
   }
 
@@ -15258,7 +15258,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "cooler3.png";
+    "cooler3.dds";
    }
   }
 
@@ -15269,7 +15269,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "u3.png";
+    "u3.dds";
    }
   }
 

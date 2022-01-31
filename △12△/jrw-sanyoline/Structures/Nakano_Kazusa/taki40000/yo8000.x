@@ -1662,7 +1662,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "yo8000base01.png";
+    "yo8000base01.dds";
    }
   }
 
@@ -1673,7 +1673,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "yo8000_1.png";
+    "yo8000_1.dds";
    }
   }
 
@@ -1684,7 +1684,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "yo8000_2.png";
+    "yo8000_2.dds";
    }
   }
 
@@ -1695,7 +1695,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "yo8000_3.png";
+    "yo8000_3.dds";
    }
   }
 
@@ -1706,7 +1706,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "yo8000_4.png";
+    "yo8000_4.dds";
    }
   }
 
@@ -1724,7 +1724,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "yo8000_5.png";
+    "yo8000_5.dds";
    }
   }
 
@@ -1735,7 +1735,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "yo8000_5.png";
+    "yo8000_5.dds";
    }
   }
 
@@ -1746,7 +1746,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "yo8000_roof.png";
+    "yo8000_roof.dds";
    }
   }
 
@@ -1757,7 +1757,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "yo8000base02.png";
+    "yo8000base02.dds";
    }
   }
 
@@ -1768,7 +1768,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "yo8000base03a.png";
+    "yo8000base03a.dds";
    }
   }
 
@@ -1779,7 +1779,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "yo8000base03.png";
+    "yo8000base03.dds";
    }
   }
 
@@ -1790,7 +1790,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "yo8000base04a.png";
+    "yo8000base04a.dds";
    }
   }
 
@@ -1801,7 +1801,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "yo8000base04.png";
+    "yo8000base04.dds";
    }
   }
 
@@ -1812,7 +1812,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "yo8000base05.png";
+    "yo8000base05.dds";
    }
   }
 
@@ -1823,7 +1823,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "yo8000base05.png";
+    "yo8000base05.dds";
    }
   }
 
@@ -1834,7 +1834,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "yo8000base06.png";
+    "yo8000base06.dds";
    }
   }
 
@@ -1845,7 +1845,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "yo8000base06.png";
+    "yo8000base06.dds";
    }
   }
 
@@ -1856,7 +1856,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "d8000.png";
+    "d8000.dds";
    }
   }
 
@@ -1867,7 +1867,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "koki106_roll.png";
+    "koki106_roll.dds";
    }
   }
 
@@ -1878,7 +1878,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "bench02.png";
+    "bench02.dds";
    }
   }
 
@@ -1889,7 +1889,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "bench01.png";
+    "bench01.dds";
    }
   }
 
@@ -1900,7 +1900,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "bench02.png";
+    "bench02.dds";
    }
   }
 
@@ -1911,7 +1911,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "bench01.png";
+    "bench01.dds";
    }
   }
 
@@ -1922,7 +1922,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "Knuckl.png";
+    "Knuckl.dds";
    }
   }
 
@@ -1933,7 +1933,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "conect01.png";
+    "conect01.dds";
    }
   }
 
@@ -1944,7 +1944,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "conect02.png";
+    "conect02.dds";
    }
   }
 
@@ -1955,7 +1955,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "r2.png";
+    "r2.dds";
    }
   }
 
@@ -1966,7 +1966,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "r2.png";
+    "r2.dds";
    }
   }
 
@@ -1977,7 +1977,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "r2.png";
+    "r2.dds";
    }
   }
 
@@ -1995,7 +1995,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "Knuckl.png";
+    "Knuckl.dds";
    }
   }
 
@@ -2006,7 +2006,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "conect01.png";
+    "conect01.dds";
    }
   }
 
@@ -2017,7 +2017,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "conect02.png";
+    "conect02.dds";
    }
   }
 
@@ -2028,7 +2028,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "r2.png";
+    "r2.dds";
    }
   }
 
@@ -2039,7 +2039,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "r2.png";
+    "r2.dds";
    }
   }
 
@@ -2050,7 +2050,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "r2.png";
+    "r2.dds";
    }
   }
 

@@ -643,7 +643,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "cooler.png";
+    "cooler.dds";
    }
   }
 
@@ -661,7 +661,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "cooler.png";
+    "cooler.dds";
    }
   }
 
@@ -679,7 +679,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "cooler.png";
+    "cooler.dds";
    }
   }
 

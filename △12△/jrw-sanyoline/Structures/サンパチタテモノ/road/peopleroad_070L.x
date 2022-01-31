@@ -319,7 +319,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "enseki.png";
+    "enseki.dds";
    }
   }
 
@@ -330,7 +330,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "tile.png";
+    "tile.dds";
    }
   }
  }

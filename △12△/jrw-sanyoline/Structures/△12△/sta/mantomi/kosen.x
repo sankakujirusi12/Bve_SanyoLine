@@ -525,7 +525,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "mantomi.png";
+    "mantomi.dds";
    }
   }
   Material {
@@ -540,7 +540,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "mantomitotan.png";
+    "mantomitotan.dds";
    }
   }
   Material {
@@ -549,7 +549,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "mantomi.png";
+    "mantomi.dds";
    }
   }
   Material {
@@ -564,7 +564,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "mantomitotan.png";
+    "mantomitotan.dds";
    }
   }
   Material {
@@ -579,7 +579,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "stairs.png";
+    "stairs.dds";
    }
   }
  }

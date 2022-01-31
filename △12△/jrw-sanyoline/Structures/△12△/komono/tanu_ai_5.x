@@ -121,7 +121,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "tanu_ai_5.png";
+    "tanu_ai_5.dds";
    }
   }
  }

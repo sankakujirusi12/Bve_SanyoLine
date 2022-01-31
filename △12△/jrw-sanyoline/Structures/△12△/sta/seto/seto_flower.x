@@ -151,7 +151,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "seto_flower.png";
+    "seto_flower.dds";
    }
   }
  }

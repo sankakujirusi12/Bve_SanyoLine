@@ -427,7 +427,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "kawara_black.png";
+    "kawara_black.dds";
    }
   }
 
@@ -445,7 +445,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "h_wall04b.png";
+    "h_wall04b.dds";
    }
   }
 
@@ -456,7 +456,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "h_wall04a.png";
+    "h_wall04a.dds";
    }
   }
  }

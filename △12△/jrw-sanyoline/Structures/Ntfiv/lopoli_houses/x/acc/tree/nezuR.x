@@ -193,7 +193,7 @@ Mesh {
    0.500000;0.500000;0.500000;;
 
    TextureFilename {
-    "nezu01.png";
+    "nezu01.dds";
    }
   }
 
@@ -204,7 +204,7 @@ Mesh {
    0.500000;0.500000;0.500000;;
 
    TextureFilename {
-    "nezu02.png";
+    "nezu02.dds";
    }
   }
 
@@ -215,7 +215,7 @@ Mesh {
    0.500000;0.500000;0.500000;;
 
    TextureFilename {
-    "nezu03.png";
+    "nezu03.dds";
    }
   }
 
@@ -226,7 +226,7 @@ Mesh {
    0.500000;0.500000;0.500000;;
 
    TextureFilename {
-    "nezu04.png";
+    "nezu04.dds";
    }
   }
 
@@ -237,7 +237,7 @@ Mesh {
    0.500000;0.500000;0.500000;;
 
    TextureFilename {
-    "nezu02.png";
+    "nezu02.dds";
    }
   }
  }

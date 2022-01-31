@@ -121,7 +121,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "TieTrPointM.png";
+    "TieTrPointM.dds";
    }
   }
  }

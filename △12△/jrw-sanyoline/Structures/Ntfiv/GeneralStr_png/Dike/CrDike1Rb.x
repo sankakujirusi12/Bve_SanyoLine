@@ -157,7 +157,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "Dike1.png";
+    "Dike1.dds";
    }
   }
  }

@@ -197,7 +197,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "light_off1.png";
+    "light_off1.dds";
    }
   }
 
@@ -208,7 +208,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "light-tailon1.png";
+    "light-tailon1.dds";
    }
   }
  }

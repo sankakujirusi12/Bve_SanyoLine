@@ -102,7 +102,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "2s_road2.png";
+    "2s_road2.dds";
    }
   }
  }

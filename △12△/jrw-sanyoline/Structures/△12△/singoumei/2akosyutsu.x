@@ -151,7 +151,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "2akosyutsu.png";
+    "2akosyutsu.dds";
    }
   }
  }

@@ -121,7 +121,7 @@ Mesh {
    0.500000;0.500000;0.500000;;
 
    TextureFilename {
-    "city_light.png";
+    "city_light.dds";
    }
   }
  }

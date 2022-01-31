@@ -4386,7 +4386,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "koki200_01.png";
+    "koki200_01.dds";
    }
   }
   Material {
@@ -4395,7 +4395,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "koki200_01.png";
+    "koki200_01.dds";
    }
   }
   Material {
@@ -4410,7 +4410,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "Coupler.png";
+    "Coupler.dds";
    }
   }
   Material {
@@ -4449,7 +4449,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "syarin.png";
+    "syarin.dds";
    }
   }
   Material {
@@ -4470,7 +4470,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "FT3A.png";
+    "FT3A.dds";
    }
   }
   Material {
@@ -4479,7 +4479,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "FT3A.png";
+    "FT3A.dds";
    }
   }
   Material {
@@ -4488,7 +4488,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "FT3A.png";
+    "FT3A.dds";
    }
   }
   Material {
@@ -4497,7 +4497,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "FT3A.png";
+    "FT3A.dds";
    }
   }
   Material {
@@ -4506,7 +4506,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "FT3A.png";
+    "FT3A.dds";
    }
   }
   Material {
@@ -4515,7 +4515,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "FT3A.png";
+    "FT3A.dds";
    }
   }
   Material {
@@ -4524,7 +4524,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "FT3A.png";
+    "FT3A.dds";
    }
   }
   Material {
@@ -4533,7 +4533,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "FT3A.png";
+    "FT3A.dds";
    }
   }
   Material {
@@ -4542,7 +4542,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "koki200_03.png";
+    "koki200_03.dds";
    }
   }
   Material {
@@ -4557,7 +4557,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "tesuri_200.png";
+    "tesuri_200.dds";
    }
   }
   Material {
@@ -4566,7 +4566,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "handle_y2.png";
+    "handle_y2.dds";
    }
   }
  }

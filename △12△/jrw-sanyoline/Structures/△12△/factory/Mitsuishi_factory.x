@@ -337,7 +337,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "Mitsuishi_factory1.png";
+    "Mitsuishi_factory1.dds";
    }
   }
   Material {
@@ -346,7 +346,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "Mitsuishi_factory2.png";
+    "Mitsuishi_factory2.dds";
    }
   }
   Material {
@@ -355,7 +355,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "Mitsuishi_factory3.png";
+    "Mitsuishi_factory3.dds";
    }
   }
   Material {
@@ -364,7 +364,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "Mitsuishi_factory4.png";
+    "Mitsuishi_factory4.dds";
    }
   }
   Material {
@@ -373,7 +373,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "Mitsuishi_factory5.png";
+    "Mitsuishi_factory5.dds";
    }
   }
   Material {
@@ -382,7 +382,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "Mitsuishi_factory6.png";
+    "Mitsuishi_factory6.dds";
    }
   }
   Material {
@@ -391,7 +391,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "Mitsuishi_factory7.png";
+    "Mitsuishi_factory7.dds";
    }
   }
   Material {
@@ -400,7 +400,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "Mitsuishi_factory8.png";
+    "Mitsuishi_factory8.dds";
    }
   }
  }

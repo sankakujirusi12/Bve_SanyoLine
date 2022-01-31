@@ -487,7 +487,7 @@ Mesh {
    0.200000;0.200000;0.200000;;
 
    TextureFilename {
-    "renga01_wall.png";
+    "renga01_wall.dds";
    }
   }
 
@@ -505,7 +505,7 @@ Mesh {
    0.200000;0.200000;0.200000;;
 
    TextureFilename {
-    "conc01_wall.png";
+    "conc01_wall.dds";
    }
   }
  }

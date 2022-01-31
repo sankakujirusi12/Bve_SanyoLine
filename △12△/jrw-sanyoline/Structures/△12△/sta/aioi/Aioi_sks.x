@@ -331,7 +331,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "aioi_shinkan.png";
+    "aioi_shinkan.dds";
    }
   }
   Material {
@@ -340,7 +340,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.700000;0.700000;0.700000;;
    TextureFilename {
-    "aioi_shinkan.png";
+    "aioi_shinkan.dds";
    }
   }
  }

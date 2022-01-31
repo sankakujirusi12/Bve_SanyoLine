@@ -293,15 +293,9 @@ BlankR_01,Structures\Uchibo\Dike\blank_R01.x
 BlankR_02,Structures\Uchibo\Dike\blank_R02.x
 BlankR_03,Structures\Uchibo\Dike\blank_R03.x
 
-#地理院地図3Dデータ
-tikei1(hime_aho),Structures\tikei\tikei1(hime_aho).x
-tikei2(hime_aho),Structures\tikei\tikei2(hime_aho).x
-tikei13(kami_mitsu),Structures\tikei\tikei13(kami_mitsu).x
-tikei14(kami_mitsu),Structures\tikei\tikei14(kami_mitsu).x
-tikei15(kami_mitsu),Structures\tikei\tikei15(kami_mitsu).x
-tikei16(kami_mitsu),Structures\tikei\tikei16(kami_mitsu).x
-tikei17(kami_mitsu),Structures\tikei\tikei17(kami_mitsu).x
-tikei18(kami_mitsu),Structures\tikei\tikei18(kami_mitsu).x
+#山(自作)
+Mt1L,Structures\△12△\Nature\Mt1L.x
+Mt1R,Structures\△12△\Nature\Mt1R.x
 
 #------------------------------------------------------------------横取-------------------------------------------------------------------
 yokodoriL,../../Nagoya_Common\Railway_Obj\Yokodori\1067mm_L.x
@@ -722,7 +716,7 @@ BridgeA,..\..\Nagoya_Common\Railway_Obj\Bridge\Through\BridgeA.x
 Truss_B_c,..\..\Nagoya_Common\Railway_Obj\Bridge\Truss\Truss_B_c.x
 Truss_B_in,..\..\Nagoya_Common\Railway_Obj\Bridge\Truss\Truss_B_in.x
 Truss_B_out,..\..\Nagoya_Common\Railway_Obj\Bridge\Truss\Truss_B_out.x
-
+#白
 Truss_W_c,..\..\Nagoya_Common\Railway_Obj\Bridge\Truss\Truss_W_c.x
 Truss_W_in,..\..\Nagoya_Common\Railway_Obj\Bridge\Truss\Truss_W_in.x
 Truss_W_out,..\..\Nagoya_Common\Railway_Obj\Bridge\Truss\Truss_W_out.x

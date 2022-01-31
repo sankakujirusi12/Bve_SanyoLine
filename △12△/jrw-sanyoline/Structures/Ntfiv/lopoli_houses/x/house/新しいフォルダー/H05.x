@@ -427,7 +427,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "kawara_gray.png";
+    "kawara_gray.dds";
    }
   }
 
@@ -438,7 +438,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "kawara.png";
+    "kawara.dds";
    }
   }
 
@@ -449,7 +449,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "H05_wall01b.png";
+    "H05_wall01b.dds";
    }
   }
 
@@ -460,7 +460,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "H05_wall01a.png";
+    "H05_wall01a.dds";
    }
   }
 
@@ -471,7 +471,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "kawara_gray.png";
+    "kawara_gray.dds";
    }
   }
 
@@ -482,7 +482,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "kawara_gray.png";
+    "kawara_gray.dds";
    }
   }
  }

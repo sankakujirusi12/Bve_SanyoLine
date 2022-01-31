@@ -340,7 +340,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "Sig_Arm.png";
+    "Sig_Arm.dds";
    }
   }
   Material {

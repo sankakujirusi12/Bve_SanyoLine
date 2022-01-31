@@ -121,7 +121,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "hoshi_tanu_4.png";
+    "hoshi_tanu_4.dds";
    }
   }
  }

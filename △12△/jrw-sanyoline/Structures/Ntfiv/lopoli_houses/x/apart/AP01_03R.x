@@ -1123,7 +1123,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "totan_green.png";
+    "totan_green.dds";
    }
   }
 
@@ -1141,7 +1141,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "AP_wall02c.png";
+    "AP_wall02c.dds";
    }
   }
 
@@ -1152,7 +1152,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "AP_wall02b.png";
+    "AP_wall02b.dds";
    }
   }
 
@@ -1163,7 +1163,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "totan_green.png";
+    "totan_green.dds";
    }
   }
 
@@ -1181,7 +1181,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "cooler.png";
+    "cooler.dds";
    }
   }
  }

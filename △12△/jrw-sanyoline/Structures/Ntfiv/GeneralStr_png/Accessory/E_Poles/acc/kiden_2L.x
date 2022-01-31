@@ -121,7 +121,7 @@ Mesh {
    0.500000;0.500000;0.500000;;
 
    TextureFilename {
-    "kiden_2.png";
+    "kiden_2.dds";
    }
   }
  }

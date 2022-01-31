@@ -391,7 +391,7 @@ Mesh {
    1.000000;1.000000;1.000000;;
 
    TextureFilename {
-    "renga01_ext.png";
+    "renga01_ext.dds";
    }
   }
 

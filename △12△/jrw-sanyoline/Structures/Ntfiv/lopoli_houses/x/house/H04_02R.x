@@ -313,7 +313,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "slate_black.png";
+    "slate_black.dds";
    }
   }
 
@@ -331,7 +331,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "h_wall102a.png";
+    "h_wall102a.dds";
    }
   }
 
@@ -342,7 +342,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "h_wall102b.png";
+    "h_wall102b.dds";
    }
   }
  }

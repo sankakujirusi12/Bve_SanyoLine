@@ -313,7 +313,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.500000;0.500000;0.500000;;
    TextureFilename {
-    "keikoutou.png";
+    "keikoutou.dds";
    }
   }
   Material {
@@ -322,7 +322,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    1.000000;1.000000;1.000000;;
    TextureFilename {
-    "keikoutou.png";
+    "keikoutou.dds";
    }
   }
  }

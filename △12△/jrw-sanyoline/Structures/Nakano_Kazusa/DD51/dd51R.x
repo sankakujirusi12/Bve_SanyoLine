@@ -3290,7 +3290,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51front1.png";
+    "dd51front1.dds";
    }
   }
 
@@ -3301,7 +3301,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51side1.png";
+    "dd51side1.dds";
    }
   }
 
@@ -3312,7 +3312,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51side1.png";
+    "dd51side1.dds";
    }
   }
 
@@ -3323,7 +3323,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51side2.png";
+    "dd51side2.dds";
    }
   }
 
@@ -3334,7 +3334,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51side3.png";
+    "dd51side3.dds";
    }
   }
 
@@ -3345,7 +3345,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51side2b.png";
+    "dd51side2b.dds";
    }
   }
 
@@ -3356,7 +3356,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51side3.png";
+    "dd51side3.dds";
    }
   }
 
@@ -3367,7 +3367,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51top1.png";
+    "dd51top1.dds";
    }
   }
 
@@ -3378,7 +3378,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51front1.png";
+    "dd51front1.dds";
    }
   }
 
@@ -3389,7 +3389,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51side1.png";
+    "dd51side1.dds";
    }
   }
 
@@ -3400,7 +3400,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51side1.png";
+    "dd51side1.dds";
    }
   }
 
@@ -3411,7 +3411,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51side2b.png";
+    "dd51side2b.dds";
    }
   }
 
@@ -3422,7 +3422,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51side3.png";
+    "dd51side3.dds";
    }
   }
 
@@ -3433,7 +3433,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51side2.png";
+    "dd51side2.dds";
    }
   }
 
@@ -3444,7 +3444,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51side3.png";
+    "dd51side3.dds";
    }
   }
 
@@ -3455,7 +3455,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51top1.png";
+    "dd51top1.dds";
    }
   }
 
@@ -3466,7 +3466,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51side4.png";
+    "dd51side4.dds";
    }
   }
 
@@ -3477,7 +3477,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51side4.png";
+    "dd51side4.dds";
    }
   }
 
@@ -3488,7 +3488,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51side5.png";
+    "dd51side5.dds";
    }
   }
 
@@ -3499,7 +3499,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51front2.png";
+    "dd51front2.dds";
    }
   }
 
@@ -3510,7 +3510,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51front2.png";
+    "dd51front2.dds";
    }
   }
 
@@ -3521,7 +3521,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51front3a.png";
+    "dd51front3a.dds";
    }
   }
 
@@ -3532,7 +3532,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51front3a.png";
+    "dd51front3a.dds";
    }
   }
 
@@ -3543,7 +3543,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51top2.png";
+    "dd51top2.dds";
    }
   }
 
@@ -3554,7 +3554,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51top3.png";
+    "dd51top3.dds";
    }
   }
 
@@ -3565,7 +3565,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51top4.png";
+    "dd51top4.dds";
    }
   }
 
@@ -3583,7 +3583,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51side6a.png";
+    "dd51side6a.dds";
    }
   }
 
@@ -3594,7 +3594,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51side6a.png";
+    "dd51side6a.dds";
    }
   }
 
@@ -3605,7 +3605,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51side3.png";
+    "dd51side3.dds";
    }
   }
 
@@ -3616,7 +3616,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51side3.png";
+    "dd51side3.dds";
    }
   }
 
@@ -3627,7 +3627,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51side3.png";
+    "dd51side3.dds";
    }
   }
 
@@ -3638,7 +3638,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51ftont1R.png";
+    "dd51ftont1R.dds";
    }
   }
 
@@ -3649,7 +3649,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51ftont2.png";
+    "dd51ftont2.dds";
    }
   }
 
@@ -3660,7 +3660,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51ftont2.png";
+    "dd51ftont2.dds";
    }
   }
 
@@ -3671,7 +3671,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51step.png";
+    "dd51step.dds";
    }
   }
 
@@ -3682,7 +3682,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51step.png";
+    "dd51step.dds";
    }
   }
 
@@ -3693,7 +3693,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51handle01.png";
+    "dd51handle01.dds";
    }
   }
 
@@ -3704,7 +3704,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51handle01.png";
+    "dd51handle01.dds";
    }
   }
 
@@ -3715,7 +3715,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51handle01.png";
+    "dd51handle01.dds";
    }
   }
 
@@ -3726,7 +3726,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51handle02.png";
+    "dd51handle02.dds";
    }
   }
 
@@ -3737,7 +3737,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51handle03.png";
+    "dd51handle03.dds";
    }
   }
 
@@ -3748,7 +3748,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51handle04.png";
+    "dd51handle04.dds";
    }
   }
 
@@ -3759,7 +3759,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51tube01.png";
+    "dd51tube01.dds";
    }
   }
 
@@ -3770,7 +3770,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51handle02.png";
+    "dd51handle02.dds";
    }
   }
 
@@ -3781,7 +3781,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51handle03.png";
+    "dd51handle03.dds";
    }
   }
 
@@ -3792,7 +3792,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51handle04.png";
+    "dd51handle04.dds";
    }
   }
 
@@ -3803,7 +3803,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51tube01.png";
+    "dd51tube01.dds";
    }
   }
 
@@ -3814,7 +3814,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51yuka.png";
+    "dd51yuka.dds";
    }
   }
 
@@ -3846,7 +3846,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51yuka01.png";
+    "dd51yuka01.dds";
    }
   }
 
@@ -3864,7 +3864,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "dd51yuka01.png";
+    "dd51yuka01.dds";
    }
   }
 
@@ -3882,7 +3882,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "Knuckl.png";
+    "Knuckl.dds";
    }
   }
 
@@ -3893,7 +3893,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "conect01.png";
+    "conect01.dds";
    }
   }
 
@@ -3904,7 +3904,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "conect02.png";
+    "conect02.dds";
    }
   }
 
@@ -3915,7 +3915,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "r2.png";
+    "r2.dds";
    }
   }
 
@@ -3926,7 +3926,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "r2.png";
+    "r2.dds";
    }
   }
 
@@ -3937,7 +3937,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "r2.png";
+    "r2.dds";
    }
   }
 
@@ -3955,7 +3955,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "Knuckl.png";
+    "Knuckl.dds";
    }
   }
 
@@ -3966,7 +3966,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "conect01.png";
+    "conect01.dds";
    }
   }
 
@@ -3977,7 +3977,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "conect02.png";
+    "conect02.dds";
    }
   }
 
@@ -3988,7 +3988,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "r2.png";
+    "r2.dds";
    }
   }
 
@@ -3999,7 +3999,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "r2.png";
+    "r2.dds";
    }
   }
 
@@ -4010,7 +4010,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "r2.png";
+    "r2.dds";
    }
   }
 

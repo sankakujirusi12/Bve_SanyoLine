@@ -1607,7 +1607,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "TR63Fside.png";
+    "TR63Fside.dds";
    }
   }
   Material {

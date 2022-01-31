@@ -980,7 +980,7 @@ Mesh {
    0.500000;0.500000;0.500000;;
 
    TextureFilename {
-    "kage.png";
+    "kage.dds";
    }
   }
 
@@ -991,7 +991,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "PointM.png";
+    "PointM.dds";
    }
   }
  }

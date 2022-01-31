@@ -16,7 +16,7 @@ Material _half_half_png {
 5.0000;
 0.1000;0.1000;0.1000;;	
 0.2000;0.2000;0.2000;;	
-   TextureFilename { "half.png"; }
+   TextureFilename { "half.dds"; }
 }
 Mesh mesh_0{
 18;

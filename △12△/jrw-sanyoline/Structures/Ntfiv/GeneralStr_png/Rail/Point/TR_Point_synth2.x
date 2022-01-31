@@ -121,7 +121,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "TieTr_syn2.png";
+    "TieTr_syn2.dds";
    }
   }
  }

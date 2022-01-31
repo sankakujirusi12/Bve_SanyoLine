@@ -122,7 +122,7 @@ Mesh {
 
 
    TextureFilename {
-    "rinjisignal_3.png";
+    "rinjisignal_3.dds";
    }
   }
  }

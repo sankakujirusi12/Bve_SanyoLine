@@ -307,7 +307,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "Local.png";
+    "Local.dds";
    }
   }
 
@@ -318,7 +318,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "light_on.png";
+    "light_on.dds";
    }
   }
 
@@ -329,7 +329,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "light-tail.png";
+    "light-tail.dds";
    }
   }
  }

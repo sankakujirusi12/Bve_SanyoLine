@@ -427,7 +427,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "slate_blue.png";
+    "slate_blue.dds";
    }
   }
 
@@ -445,7 +445,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "h_wall51b.png";
+    "h_wall51b.dds";
    }
   }
 
@@ -456,7 +456,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "h_wall51a.png";
+    "h_wall51a.dds";
    }
   }
  }

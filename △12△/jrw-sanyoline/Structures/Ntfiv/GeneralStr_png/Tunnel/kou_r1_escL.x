@@ -397,7 +397,7 @@ Mesh {
    1.000000;1.000000;1.000000;;
 
    TextureFilename {
-    "renga01_wall.png";
+    "renga01_wall.dds";
    }
   }
 
@@ -415,7 +415,7 @@ Mesh {
    1.000000;1.000000;1.000000;;
 
    TextureFilename {
-    "renga01_taihi.png";
+    "renga01_taihi.dds";
    }
   }
  }

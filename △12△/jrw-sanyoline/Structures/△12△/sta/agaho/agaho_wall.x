@@ -205,7 +205,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.600000;0.600000;0.600000;;
    TextureFilename {
-    "agaho_wall.png";
+    "agaho_wall.dds";
    }
   }
   Material {
@@ -214,7 +214,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.600000;0.600000;0.600000;;
    TextureFilename {
-    "agaho_wall.png";
+    "agaho_wall.dds";
    }
   }
  }

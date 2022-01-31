@@ -102,7 +102,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "sig_rev.png";
+    "sig_rev.dds";
    }
   }
  }

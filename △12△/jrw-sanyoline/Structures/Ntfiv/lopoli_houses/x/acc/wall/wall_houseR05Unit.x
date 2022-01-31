@@ -235,7 +235,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "wall_house05.png";
+    "wall_house05.dds";
    }
   }
 
@@ -246,7 +246,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "wall_house05.png";
+    "wall_house05.dds";
    }
   }
  }

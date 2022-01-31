@@ -185,7 +185,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "soko1.png";
+    "soko1.dds";
    }
   }
   Material {
@@ -194,7 +194,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "soko2.png";
+    "soko2.dds";
    }
   }
   Material {

@@ -1651,7 +1651,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "seigen_chu.png";
+    "seigen_chu.dds";
    }
   }
 
@@ -1662,7 +1662,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "seigen_ko.png";
+    "seigen_ko.dds";
    }
   }
 
@@ -1673,7 +1673,7 @@ Mesh {
    0.200000;0.200000;0.200000;;
 
    TextureFilename {
-    "Pole_conc_cross.png";
+    "Pole_conc_cross.dds";
    }
   }
 
@@ -1705,7 +1705,7 @@ Mesh {
    0.500000;0.500000;0.500000;;
 
    TextureFilename {
-    "koudenatu.png";
+    "koudenatu.dds";
    }
   }
 
@@ -1723,7 +1723,7 @@ Mesh {
    0.500000;0.500000;0.500000;;
 
    TextureFilename {
-    "koudenatu2.png";
+    "koudenatu2.dds";
    }
   }
  }

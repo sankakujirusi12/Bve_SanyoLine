@@ -169,7 +169,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "wall_house52.png";
+    "wall_house52.dds";
    }
   }
  }

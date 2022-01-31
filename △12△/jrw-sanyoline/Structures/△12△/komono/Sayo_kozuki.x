@@ -397,7 +397,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "Sayo_kozuki.png";
+    "Sayo_kozuki.dds";
    }
   }
   Material {

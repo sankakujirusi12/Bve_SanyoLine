@@ -301,7 +301,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "sb2.png";
+    "sb2.dds";
    }
   }
 
@@ -312,7 +312,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "SlabW1.png";
+    "SlabW1.dds";
    }
   }
 
@@ -323,7 +323,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "rail1.png";
+    "rail1.dds";
    }
   }
  }

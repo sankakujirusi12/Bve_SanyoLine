@@ -247,7 +247,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "box.png";
+    "box.dds";
    }
   }
 
@@ -258,7 +258,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "bar.png";
+    "bar.dds";
    }
   }
 
@@ -269,7 +269,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "conc_dai.png";
+    "conc_dai.dds";
    }
   }
  }

@@ -8464,7 +8464,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "103F1.png";
+    "103F1.dds";
    }
   }
 
@@ -8475,7 +8475,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "Roof.png";
+    "Roof.dds";
    }
   }
 
@@ -8486,7 +8486,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "Yuka.png";
+    "Yuka.dds";
    }
   }
 
@@ -8497,7 +8497,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "Yuka2.png";
+    "Yuka2.dds";
    }
   }
 
@@ -8508,7 +8508,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "103F2.png";
+    "103F2.dds";
    }
   }
 
@@ -8519,7 +8519,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "AU75.png";
+    "AU75.dds";
    }
   }
 
@@ -8530,7 +8530,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "103S2.png";
+    "103S2.dds";
    }
   }
 
@@ -8541,7 +8541,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "103S2.png";
+    "103S2.dds";
    }
   }
 
@@ -8552,7 +8552,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "115_u.png";
+    "115_u.dds";
    }
   }
 
@@ -8563,7 +8563,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "kage.png";
+    "kage.dds";
    }
   }
 
@@ -8574,7 +8574,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "115_u.png";
+    "115_u.dds";
    }
   }
 

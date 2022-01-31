@@ -3202,7 +3202,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "orange.png";
+    "orange.dds";
    }
   }
 
@@ -3213,7 +3213,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "103s6.png";
+    "103s6.dds";
    }
   }
 
@@ -3231,7 +3231,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "103s6.png";
+    "103s6.dds";
    }
   }
 
@@ -3242,7 +3242,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "orange.png";
+    "orange.dds";
    }
   }
 
@@ -3512,7 +3512,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "103_um.png";
+    "103_um.dds";
    }
   }
  }

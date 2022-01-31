@@ -301,7 +301,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "Tiesanyo2.png";
+    "Tiesanyo2.dds";
    }
   }
 
@@ -312,7 +312,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "BallastBH_.png";
+    "BallastBH_.dds";
    }
   }
 

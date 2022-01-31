@@ -134,7 +134,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "form2.png";
+    "form2.dds";
    }
   }
 
@@ -145,7 +145,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "FormSide2.png";
+    "FormSide2.dds";
    }
   }
 
@@ -156,7 +156,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "FormSide2.png";
+    "FormSide2.dds";
    }
   }
 
@@ -167,7 +167,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "FormSide2b.png";
+    "FormSide2b.dds";
    }
   }
 
@@ -178,7 +178,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "FormSide2b.png";
+    "FormSide2b.dds";
    }
   }
  }

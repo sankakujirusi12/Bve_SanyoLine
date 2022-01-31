@@ -460,7 +460,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "slate_blue.png";
+    "slate_blue.dds";
    }
   }
 
@@ -478,7 +478,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "h_wall02b.png";
+    "h_wall02b.dds";
    }
   }
 
@@ -489,7 +489,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "h_wall02a2.png";
+    "h_wall02a2.dds";
    }
   }
 
@@ -500,7 +500,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "solar.png";
+    "solar.dds";
    }
   }
  }

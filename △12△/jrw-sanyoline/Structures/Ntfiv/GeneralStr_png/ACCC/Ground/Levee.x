@@ -182,7 +182,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "River.png";
+    "River.dds";
    }
   }
 
@@ -193,7 +193,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "ConcreteTileWall.png";
+    "ConcreteTileWall.dds";
    }
   }
  }

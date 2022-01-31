@@ -199,7 +199,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "Tatsuno_hassyahyou.png";
+    "Tatsuno_hassyahyou.dds";
    }
   }
  }

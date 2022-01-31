@@ -466,7 +466,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "kodan01.png";
+    "kodan01.dds";
    }
   }
 
@@ -477,7 +477,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "kodan01.png";
+    "kodan01.dds";
    }
   }
 
@@ -488,7 +488,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "kodan02.png";
+    "kodan02.dds";
    }
   }
 

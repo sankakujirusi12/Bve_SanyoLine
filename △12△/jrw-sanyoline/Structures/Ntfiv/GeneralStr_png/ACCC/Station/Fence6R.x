@@ -126,7 +126,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "Fence6.png";
+    "Fence6.dds";
    }
   }
 
@@ -137,7 +137,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "Wall.png";
+    "Wall.dds";
    }
   }
  }

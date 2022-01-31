@@ -5180,7 +5180,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "bi kensa.png";
+    "bi kensa.dds";
    }
   }
   Material {
@@ -5195,7 +5195,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "TR63F.png";
+    "TR63F.dds";
    }
   }
   Material {
@@ -5204,7 +5204,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "syarin.png";
+    "syarin.dds";
    }
   }
   Material {
@@ -5213,7 +5213,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "6394.png";
+    "6394.dds";
    }
   }
   Material {
@@ -5228,7 +5228,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "ni,ji.png";
+    "ni,ji.dds";
    }
   }
   Material {
@@ -5237,7 +5237,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "2.png";
+    "2.dds";
    }
   }
   Material {
@@ -5246,7 +5246,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "oka fuku.png";
+    "oka fuku.dds";
    }
   }
   Material {
@@ -5255,7 +5255,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "sekikuu.png";
+    "sekikuu.dds";
    }
   }
   Material {
@@ -5264,7 +5264,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "keisiki.png";
+    "keisiki.dds";
    }
   }
   Material {
@@ -5273,7 +5273,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "syarin.png";
+    "syarin.dds";
    }
   }
   Material {
@@ -5282,7 +5282,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "black.png";
+    "black.dds";
    }
   }
   Material {
@@ -5297,7 +5297,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "black.png";
+    "black.dds";
    }
   }
   Material {
@@ -5306,7 +5306,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "ue.png";
+    "ue.dds";
    }
   }
   Material {
@@ -5315,7 +5315,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "ue2.png";
+    "ue2.dds";
    }
   }
   Material {
@@ -5324,7 +5324,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "orange.png";
+    "orange.dds";
    }
   }
   Material {
@@ -5333,7 +5333,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "orange2.png";
+    "orange2.dds";
    }
   }
  }

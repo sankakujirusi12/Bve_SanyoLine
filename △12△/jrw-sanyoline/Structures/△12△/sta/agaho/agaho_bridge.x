@@ -767,7 +767,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "Agaho_bridge.png";
+    "Agaho_bridge.dds";
    }
   }
   Material {
@@ -782,7 +782,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "Agaho_bridge1.png";
+    "Agaho_bridge1.dds";
    }
   }
  }

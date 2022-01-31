@@ -193,7 +193,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "dike_bo.png";
+    "dike_bo.dds";
    }
   }
 

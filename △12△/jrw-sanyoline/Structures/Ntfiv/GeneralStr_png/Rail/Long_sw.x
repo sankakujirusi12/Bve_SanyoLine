@@ -265,7 +265,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "rail_tugi.png";
+    "rail_tugi.dds";
    }
   }
 
@@ -276,7 +276,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "Tie_sinsyukutugime.png";
+    "Tie_sinsyukutugime.dds";
    }
   }
 

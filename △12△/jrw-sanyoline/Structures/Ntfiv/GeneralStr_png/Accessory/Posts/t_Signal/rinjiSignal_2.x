@@ -121,7 +121,7 @@ Mesh {
    0.500000;0.500000;0.500000;;
 
    TextureFilename {
-    "rinjisignal_2.png";
+    "rinjisignal_2.dds";
    }
   }
  }
