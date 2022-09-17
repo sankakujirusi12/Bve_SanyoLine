@@ -283,7 +283,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "31ft_free_CatGreen.dds";
+    "31ft_NECO01.dds";
    }
   }
 
@@ -294,7 +294,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "31ft_free_CatGreen.dds";
+    "31ft_NECO01.dds";
    }
   }
  }

@@ -19,6 +19,8 @@
 #Bve内房線プロジェクト様
 #ヒヨドリ様
 #とまり様
+#XP_USER様
+
 
 #----------------------------------------------------------------速度制限標----------------------------------------------------------------------
 seigen15,Structures\Uchibo\Limit\TypeB\Lim015_A.x
@@ -145,20 +147,20 @@ Clamp3R,../../Nagoya_Common\Railway_Obj\SigPole\Clamp\3R.x
 
 
 #信号喚呼位置標
-kanko_0,Structures\e_line\sign\kanko\0_n.x
-kanko_1,Structures\e_line\sign\kanko\1_n.x
-kanko_2,Structures\e_line\sign\kanko\2_n.x
-kanko_3,Structures\e_line\sign\kanko\3_n.x
-kanko_4,Structures\e_line\sign\kanko\4_n.x
-kanko_5,Structures\e_line\sign\kanko\5_n.x
-kanko_6,Structures\e_line\sign\kanko\6_n.x
-kanko_7,Structures\e_line\sign\kanko\7.x
-kanko_8,Structures\e_line\sign\kanko\8.x
-kanko_9,Structures\e_line\sign\kanko\9.x
-kanko_10,Structures\e_line\sign\kanko\10.x
-kanko_jounai,Structures\e_line\sign\kanko\jounai.x
-kanko_chukei,Structures\e_line\sign\kanko\chukei.x
-kanko_syuppatsu,Structures\e_line\sign\kanko\shuppatsu.x
+kanko_0,Structures\e_line\sign\kanko\0_o.x
+kanko_1,Structures\e_line\sign\kanko\1_o.x
+kanko_2,Structures\e_line\sign\kanko\2_o.x
+kanko_3,Structures\e_line\sign\kanko\3_o.x
+kanko_4,Structures\e_line\sign\kanko\4_o.x
+kanko_5,Structures\e_line\sign\kanko\5_o.x
+kanko_6,Structures\e_line\sign\kanko\6_o.x
+kanko_7,Structures\e_line\sign\kanko\7_o.x
+kanko_8,Structures\e_line\sign\kanko\8_o.x
+kanko_9,Structures\e_line\sign\kanko\9_o.x
+kanko_10,Structures\e_line\sign\kanko\10_o.x
+kanko_jounai,Structures\e_line\sign\kanko\jounai_n.x
+kanko_chukei,Structures\e_line\sign\kanko\chukei_n.x
+kanko_syuppatsu,Structures\e_line\sign\kanko\shuppatsu_n.x
 
 #信号名称標
 1syutsu,Structures\△12△\singoumei\1syutsu.x
@@ -536,15 +538,6 @@ denchu1,Structures\△12△\Denchu\pole1.x
 
 denchu3,Structures\△12△\Denchu\pole3.x
 densen,../../Nagoya_Common\Build\Road\Line.x
-#沿線セット
-ensen0L,../../Nagoya_Common\Build\EnsenSet\0L.x
-ensen0R,../../Nagoya_Common\Build\EnsenSet\0R.x
-ensen1L,../../Nagoya_Common\Build\EnsenSet\1L.x
-ensen1R,../../Nagoya_Common\Build\EnsenSet\1R.x
-ensen10L,../../Nagoya_Common\Build\EnsenSet\10L.x
-ensen10R,../../Nagoya_Common\Build\EnsenSet\10R.x
-ensen21L,../../Nagoya_Common\Build\EnsenSet\21L.x
-ensen21R,../../Nagoya_Common\Build\EnsenSet\21R.x
 
 #築堤
 DikeL_1,Structures\Ntfiv\GeneralStr_png\ACCC\Ground\DikeGrs5m2L1.x
@@ -725,13 +718,6 @@ Bridge1,Structures\Ntfiv\GeneralStr_png\Bridge\blue5_b_ban.x
 Bridge1L,Structures\Ntfiv\GeneralStr_png\Bridge\blue5_bL.x
 Bridge1R,Structures\Ntfiv\GeneralStr_png\Bridge\blue5_bR.x
 
-
-#山
-Mt_L1,Structures\Ntfiv\GeneralStr_png\Nature\mount\GrsWallL.x
-Mt_L2,Structures\Ntfiv\GeneralStr_png\Nature\mount\GrsWallL_.x
-Mt_R1,Structures\Ntfiv\GeneralStr_png\Nature\mount\GrsWallR.x
-Mt_R2,Structures\Ntfiv\GeneralStr_png\Nature\mount\GrsWallR_.x
-
 #新幹線
 shinkan_pole,Structures\zacky751\新幹線架線柱\Pole_shinkansen.x
 shinkan_poleL,Structures\zacky751\新幹線架線柱\Pole_shinkansen_L.x
@@ -745,11 +731,6 @@ shinkan_wallL_p,Structures\Ntfiv\GeneralStr_png\Wall\Wall_QN_ofset_L10m.x
 shinkan_wallR,Structures\Ntfiv\GeneralStr_png\Wall\Wall_QN_R5m.x
 shinkan_wallR_25,Structures\Ntfiv\GeneralStr_png\Wall\Wall_QN_R25m.x
 shinkan_wallR_p,Structures\Ntfiv\GeneralStr_png\Wall\Wall_QN_ofset_R10m.x
-#橋上駅舎
-kyoujyou,../../Nagoya_Common\Build\Station\Over_Tr_Sta\Build1.x
-stairs,../../Nagoya_Common\Build\Station\Over_Tr_Sta\Stairs1.x
-form_stairs,../../Nagoya_Common\Build\Station\Over_Tr_Sta\Form_Stairs1.x
-EV,../../Nagoya_Common\Build\Form\EV\Ev.x
 
 #家(3D)lopoli_houses
 3dhouse1,Structures\Ntfiv\lopoli_houses\x\house\H01_01.x
@@ -788,28 +769,7 @@ Mansion7,../../Nagoya_Common\Build\mansion\07.x
 Mansion8,../../Nagoya_Common\Build\mansion\08.x
 Mansion9,../../Nagoya_Common\Build\mansion\09.x
 Mansion10,../../Nagoya_Common\Build\mansion\10.x
-#ビル
-saha_20_15_00,..\..\Nagoya_Common\Build\OmnibusBuilding\saha_20_15_00.x
-saha_20_15_01,..\..\Nagoya_Common\Build\OmnibusBuilding\saha_20_15_01.x
-saha_20_15_02,..\..\Nagoya_Common\Build\OmnibusBuilding\saha_20_15_02.x
-saha_20_15_03,..\..\Nagoya_Common\Build\OmnibusBuilding\saha_20_15_03.x
-saha_20_15_04,..\..\Nagoya_Common\Build\OmnibusBuilding\saha_20_15_04.x
-saha_20_15_05,..\..\Nagoya_Common\Build\OmnibusBuilding\saha_20_15_05.x
-saha_20_15_06,..\..\Nagoya_Common\Build\OmnibusBuilding\saha_20_15_06.x
-Taru_10_10_00,..\..\Nagoya_Common\Build\OmnibusBuilding\Taru_10_10_00.x
-Taru_15_15_01,..\..\Nagoya_Common\Build\OmnibusBuilding\Taru_15_15_01.x
-Taru_25_15_02,..\..\Nagoya_Common\Build\OmnibusBuilding\Taru_25_15_02.x
-Taru_30_15_03,..\..\Nagoya_Common\Build\OmnibusBuilding\Taru_30_15_03.x
-Taru_30_15_04,..\..\Nagoya_Common\Build\OmnibusBuilding\Taru_30_15_04.x
-Taru_30_15_05,..\..\Nagoya_Common\Build\OmnibusBuilding\Taru_30_15_05.x
-Taru_30_15_06,..\..\Nagoya_Common\Build\OmnibusBuilding\Taru_30_15_06.x
-saha_10_10_00,..\..\Nagoya_Common\Build\OmnibusBuilding\saha_10_10_00.x
-saha_10_10_01,..\..\Nagoya_Common\Build\OmnibusBuilding\saha_10_10_01.x
-saha_10_10_02,..\..\Nagoya_Common\Build\OmnibusBuilding\saha_10_10_02.x
-saha_10_10_03,..\..\Nagoya_Common\Build\OmnibusBuilding\saha_10_10_03.x
-saha_10_10_04,..\..\Nagoya_Common\Build\OmnibusBuilding\saha_10_10_04.x
-saha_10_10_05,..\..\Nagoya_Common\Build\OmnibusBuilding\saha_10_10_05.x
-saha_10_10_06,..\..\Nagoya_Common\Build\OmnibusBuilding\saha_10_10_06.x
+
 #四角い建物
 サンパチ05,Structures\サンパチタテモノ\build\build\05.x
 サンパチ02,Structures\サンパチタテモノ\build\build\02.x
@@ -1216,8 +1176,6 @@ M'116-100
 M117-100,
 Tc117-100,
 Tc117-100_e08,
-#201系(網干)
-#201系(40N)
 
 #205系(宮原)
 Tc205,Structures\サーバの肥やし\205kobe\Tc205.x
@@ -1376,7 +1334,8 @@ dt134,Structures\kiha47_san_in\EF66\dt134.x
 dt133b,Structures\kiha47_san_in\EF66\dt133b.x
 ef64_1000,../../Nagoya_Common\Train\JRF\EF64_1000\641000.x
 ef64_1000_f,Structures\Nakano_Kazusa\EF64\EF64-1000_F.x
-ef210,Structures\Uchibo\EF210\EF210_c.x
+ef210,Structures\XP_USER\EF210-0\EF210.x
+ef210_b,Structures\XP_USER\EF210-0\EF210_NON.x
 dd51,Structures\Nakano_Kazusa\DD51\dd51F.x
 de10_1153,Structures\FTN\JNR-DE10\DE10-1153D.x
 ef65_1135,Structures\Uchibo\EF65_1000\EF651135_1.x
@@ -1386,9 +1345,9 @@ PS22-UP,Structures\Uchibo\EF65_1000\PS22-UP.x
 
 TailSign,Structures\Ntfiv\ContainerCar\reflector_kk1xx.x
 koki_shadow_20,Structures\Ntfiv\ContainerCar\_base_20m.x
-koki104,Structures\Ntfiv\ContainerCar\_koki104_JRF_pure.x
-koki106,../../Nagoya_Common\Train\JRF\Container\Series106_1.x
-koki107,Structures\Ntfiv\ContainerCar\_koki107_JRF_pure.x
+koki104,Structures\Ntfiv\ContainerCar\koki104\_koki104_JRF_pure.x
+koki106,Structures\Ntfiv\ContainerCar\koki104\_koki106_JRF_pure.x
+koki107,Structures\Ntfiv\ContainerCar\koki107\_koki107_JRF_pure.x
 Container_5a,../../Nagoya_Common\Train\JRF\Container\5_5_A.x
 Container_5b,../../Nagoya_Common\Train\JRF\Container\5_5_B.x
 Container_5c,../../Nagoya_Common\Train\JRF\Container\5_5_C.x
@@ -1503,7 +1462,6 @@ kami_mitsu_6,Structures\△12△\komono\kami_mitsu_6.x
 #電灯用
 light,Structures\△12△\light\light.x
 light_circle,Structures\△12△\light\light_circle.x
-city_light,Structures\△12△\light\city_light.x
 
 light_signal_g,Structures\△12△\light\light_signal_g.x
 light_signal_y,Structures\△12△\light\light_signal_y.x
@@ -1517,8 +1475,8 @@ for_White,Structures\initG\initg_ecset\113_18_n.x
 113headlight_big,Structures\initG\initg_ecset\113_07_n.x
 113headlight,Structures\initG\initg_ecset\113_17_n.x
 
-#115系300番台用
-#前照灯(1000も共通)
+#115系用
+#前照灯
 115headlight,Structures\115\113_17_n.x
 #側面
 115-300light1,Structures\115\300_sh\115light_1.x

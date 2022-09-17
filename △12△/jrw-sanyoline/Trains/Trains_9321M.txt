@@ -1,7 +1,13 @@
 BveTs Map 2.00:shift_jis
 $sanyo_distance+83500;
 Train['300M'].Load('Trains\2012\115\D\115_D_1.txt', 'nakage', -1);
+Train['1053'].Load('Trains\ef210+koki20b1_b.txt', 'sanyokudari', 1);
+Train['1053'].Enable('9:05:00');
+Train['1053'].Stop(3, 0, 1.5, 90);
 $sanyo_distance+83700;
 Train['300M'].Enable('8:33:00');
 $sanyo_distance+118630;
 Train['300M'].Stop(0, 0, 0, 0);
+
+$sanyo_distance+318630;
+Train['1053'].Stop(3, 0, 3, 20);
