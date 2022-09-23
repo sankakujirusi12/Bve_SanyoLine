@@ -1,0 +1,7 @@
+bvets vehicle 0.03
+performancecurve=..\..\..\..\..\..\jnr_locopack\notch\65_notch.txt
+parameters=..\Param\65_parametersg.txt
+panel=..\Panel\65_panelg.txt
+sound=..\..\..\..\..\..\jnr_locopack\sound\65_sound.txt
+ats=..\Detail\ATS-SWP2\DetailManager.dll
+motornoise=..\..\..\..\..\..\jnr_locopack\motornoise\65_motornoise.txt

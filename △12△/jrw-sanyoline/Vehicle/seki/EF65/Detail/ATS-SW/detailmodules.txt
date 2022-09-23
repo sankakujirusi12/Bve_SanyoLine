@@ -1,0 +1,2 @@
+../../../../../../jnr_locopack\plugins\65_ats.dll
+sankakujirusi12\ATS-SW_x86.dll
