@@ -158,7 +158,7 @@ kanko_7,Structures\e_line\sign\kanko\7_o.x
 kanko_8,Structures\e_line\sign\kanko\8_o.x
 kanko_9,Structures\e_line\sign\kanko\9_o.x
 kanko_10,Structures\e_line\sign\kanko\10_o.x
-kanko_jounai,Structures\e_line\sign\kanko\jounai_n.x
+kanko_jounai,Structures\e_line\sign\kanko\jonai_n.x
 kanko_chukei,Structures\e_line\sign\kanko\chukei_n.x
 kanko_syuppatsu,Structures\e_line\sign\kanko\shuppatsu_n.x
 
@@ -400,11 +400,11 @@ chizuteimen,Structures\Ntfiv\GeneralStr_png\Bridge\conc_5m.x
 End2,../../Nagoya_Common\Railway_Obj\End\2_End.x
 
 #---------------------------------------------------------------------線路-----------------------------------------------------------------------
-Ballast,Structures\Ntfiv\GeneralStr_png\Rail\Ballast01\BallastPC_K_5a.x
-Ballast_n,Structures\Ntfiv\GeneralStr_png\Rail\Ballast01\BallastPC_K_5aD.x
+Ballast,Structures\Ntfiv\GeneralStr_png\Rail\Ballast01\BallastPC_Sanyo_5.x
+Ballast_n,Structures\Ntfiv\GeneralStr_png\Rail\Ballast01\BallastPC_Sanyo_5D.x
 
-Ballast_25,Structures\Ntfiv\GeneralStr_png\Rail\Ballast01\BallastPC_K_25.x
-Ballast_old,../../Nagoya_Common\Railway_Obj\Discontinued\Tie1.x
+Ballast_25,Structures\Ntfiv\GeneralStr_png\Rail\Ballast01\BallastPC_Sanyo_25.x
+Ballast_old,Structures\Ntfiv\GeneralStr_png\Rail\Ballast01\BallastPC_Sanyo_sokusen_5.x
 Ballast_1435,../../Nagoya_Common\Railway_Obj\Rail\Han_Line\Ballast.x
 Ballast_gr,Structures\Ntfiv\GeneralStr_png\Rail\Ballast01\Ballastwithoutrail.x
 Ballast_gr_25,Structures\Ntfiv\GeneralStr_png\Rail\Ballast01\Ballastwithoutrail_25.x
@@ -571,7 +571,7 @@ TN1_ext,Structures\Ntfiv\GeneralStr_png\Tunnel\1go_c1_ext.x
 
 
 #停目(_はぶら下げ、__は短い)
-teimokupole,Structures\NS\stop\stoppole1L.x
+teimokupole,Structures\△12△\teimoku\teimokupole.x
 teimokupole2,Structures\△12△\teimoku\teimokupole2.x
 teimokupole_short,Structures\△12△\teimoku\teimokupole_short.x
 8tei,Structures\△12△\teimoku\8.x
@@ -1115,7 +1115,7 @@ Tc'111-300_makki40n,Structures\FTN\JRW113-40N_yellow\Tc111-300.x
 
 #115系(30N)
 Tc'115-1000_30n,Structures\115\1000_ok30N\Tc115_1b.x
-#Mc115-1653_30n,Structures\FTN\JRW115-30N\Mc115-1653.x
+#Mc115-1653_30n,Structures\115\1000_ok30N\Mc115-1653.x
 Mc115-1501_30n,Structures\115\1000_ok30N\Mc115.x
 Tc115-1142_30n,Structures\115\1000_ok30N\Tc115_2.x
 #Tc115-301_30n,Structures\FTN\JRW115-30N\Tc115-301.x
@@ -1346,7 +1346,7 @@ PS22-UP,Structures\Uchibo\EF65_1000\PS22-UP.x
 TailSign,Structures\Ntfiv\ContainerCar\reflector_kk1xx.x
 koki_shadow_20,Structures\Ntfiv\ContainerCar\_base_20m.x
 koki104,Structures\Ntfiv\ContainerCar\koki104\_koki104_JRF_pure.x
-koki106,Structures\Ntfiv\ContainerCar\koki104\_koki106_JRF_pure.x
+koki106,Structures\Ntfiv\ContainerCar\koki106\_koki106_JRF_pure.x
 koki107,Structures\Ntfiv\ContainerCar\koki107\_koki107_JRF_pure.x
 Container_5a,../../Nagoya_Common\Train\JRF\Container\5_5_A.x
 Container_5b,../../Nagoya_Common\Train\JRF\Container\5_5_B.x
