@@ -582,6 +582,7 @@ Gradient.Interpolate(-10);
 $sanyo_distance+129615;
 repeater['TN_kudari'].End();
 structure['TN1_ext'].Put(0,0,0,0,0,0,0,1,5);
+	Track['Grass2'].Position(0,-0.45);
 $sanyo_distance+129620;
 repeater['TN_nobori'].End();
 #TN明け
@@ -598,7 +599,7 @@ curve.BeginTransition();
 $sanyo_distance+130519;
 curve.Begin(-880,-0.06);
 #カーブ[R880左]
-	Track['sanyonobori'].Position(40,0,0);
+	Track['sanyonobori'].Position(40,0,600);
 $sanyo_distance+130732;
 	Track['sanyonobori'].Position(4,0,0);
 #上り本線4M右
@@ -622,6 +623,7 @@ repeater['Oldform_R'].Begin0(0,1,5,5,'Oldform_R');
 	Track['sanyonobori'].Position(7,0,-1000);
 	Track['gawa_mitsu1'].Position(11,0,-1000);
 #ホーム(三石)上り本線7M右
+	Track['Grass2'].Position(0,-9);
 Structure['OldForm_CR'].PutBetween(0,'sanyonobori');
 $sanyo_distance+131075+5;
 Structure['OldForm_CR'].PutBetween(0,'sanyonobori');

@@ -383,8 +383,7 @@ Formendfence4,Structures\Uchibo\Sta_Fence\F_endfence_A4.x
 BlockFence,../../Nagoya_Common\Build\Fence\06.x
 
 #堤防
-#Levee_A,../../Nagoya_Common\Nature\levee\Levee_A.x
-#↓これ道路なし
+#↓道路なし
 Levee_B,Structures\Ntfiv\GeneralStr_png\Nature\Ground\Level_Grass.x
 
 #隔壁
@@ -661,9 +660,6 @@ kasen_60,Structures\Uchibo\Pole\kasen\kasen60S.x
 
 #ハンガー
 wirehanger0,Structures\とまり\Structures\Pole\DropC.x
-
-
-
 wirehanger6L,Structures\とまり\Structures\Pole\DropL1R.x
 wirehanger6R,Structures\とまり\Structures\Pole\DropR1L.x
 wirehanger7L,Structures\とまり\Structures\Pole\DropL1A.x
@@ -674,7 +670,6 @@ wirehanger10,Structures\とまり\Structures\Pole\DropR2C.x
 wirehanger11,Structures\とまり\Structures\Pole\DropR2D.x
 
 #セクションクリア標
-
 section,Structures\△12△\komono\section.x
 sectionclear_2,Structures\△12△\komono\sectionclear_2.x
 sectionclear_4,Structures\△12△\komono\sectionclear_4.x
@@ -691,10 +686,6 @@ R600_,Structures\△12△\komono\R600_.x
 R700_,Structures\△12△\komono\R700_.x
 R800_,Structures\△12△\komono\R800_.x
 R1000_,Structures\△12△\komono\R1000_.x
-
-
-
-
 
 #橋
 BridgeL,Structures\Uchibo\Bridge\BridgeL.x
@@ -860,16 +851,19 @@ Seto_light,Structures\△12△\sta\seto\seto_light.x
 Seto_sta1,Structures\△12△\sta\seto\seto_sta1.x
 Seto_sta2,Structures\△12△\sta\seto\seto_sta2.x
 
+#--------------------------------------------沿線建物ストラクチャ-------------------------------------------
 
+#勝原～網干
+Katsu_hoshi_souko,Structures\△12△\ensen\Katsu_hoshi_souko.x
+katsu_hoshi_apart1,Structures\△12△\ensen\katsu_hoshi_apart1.x
 
-
-
-
+#網干駅
+Aboshi_kanban,Structures\△12△\ensen\Aboshi_kanban.x
 
 
 #---------------------------------------------Train----------------------------
 
-#12系
+#12系(四国所属車)
 suhahu12,Structures\saha209\PC12\jnr\12_1.x
 suhahu12_b,Structures\saha209\PC12\jnr\12b_1.x
 oha12,Structures\saha209\PC12\jnr\12_2.x
@@ -878,18 +872,17 @@ oro12,Structures\saha209\PC12\jnr\12_3.x
 suhahu14,Structures\saha209\PC14\jnr\14_1.x
 oha14,Structures\saha209\PC14\jnr\14_2.x
 suhahu14_b,Structures\saha209\PC14\jnr\14b_1.x
-#14系(ML仕様)
+#14系(200代)
 suhahu14-200,Structures\saha209\PC14\ML\14_1.x
 suhahu14-200_b,Structures\saha209\PC14\ML\14b_1.x
 oha14-200,Structures\saha209\PC14\ML\14_2.x
 ohahu15-200,Structures\saha209\PC14\ML\14_3.x
 ohahu15-200_b,Structures\saha209\PC14\ML\14b_3.x
-#14系(なにわ)
+#14系(サロンカーはにわ)
 surohu14,Structures\saha209\PC14\naniwa\14_1.x
 oro14,Structures\saha209\PC14\naniwa\14_2.x
 surohu14_b,Structures\saha209\PC14\naniwa\14b_1.x
 oro14_b,Structures\saha209\PC14\naniwa\14b_2.x
-
 #14系(寝台車)
 suhanehu14,Structures\saha209\PC14_sl\14_1.x
 suhanehu14_b,Structures\saha209\PC14_sl\14b_1.x
@@ -988,12 +981,7 @@ M103_NA_g,Structures\103_NA\103_nara\103_MP.x
 M'102_NA_g,Structures\103_NA\103_nara\103_M.x
 
 #113:Tc 東京寄り Tc' 下関寄り M'Pつき M Pなし(3500番除く)
-
 #幕
-maku_yellow,Structures\JRW113・115_ikisaki\destination\yellow.x
-LEDmaku_bansyuako,Structures\JRW113・115_ikisaki\destination\bansyuako.x
-LEDmaku_himeji,Structures\JRW113・115_ikisaki\destination\himeji.x
-LEDmaku_aioi,Structures\JRW113・115_ikisaki\destination\aioi.x
 
 #影
 kage_20,Structures\113west\kage_20.x
@@ -1009,56 +997,56 @@ Tc'115-1000,Structures\115\300_sh\Tc115b.x
 
 #113系0/700番台(湘南色)
 #湘南白熱灯 押込通風機 AU75 非ユニット窓 スリットタイフォン スノプロ無し
-Tc111-0jnr_1,Structures\initG\initg_ecset\113_00.x
+;Tc111-0jnr_1,Structures\initG\initg_ecset\113_00.x
 #湘南シールド 押込通風機 AU75 非ユニット窓 スリットタイフォン
-Tc111-0jnr_2,Structures\initG\initg_ecset\113_10.x
+;Tc111-0jnr_2,Structures\initG\initg_ecset\113_10.x
 #湘南白熱灯 グロベン AU75 非ユニット窓 スリットタイフォン スノプロ無し
-Tc111-0jnr_3,Structures\initG\initg_ecset\113_20.x
+;Tc111-0jnr_3,Structures\initG\initg_ecset\113_20.x
 #湘南シールド 押込通風機 AU75 ユニット窓 シャッター付きタイフォン
-Tc111-0jnr_4,Structures\initG\initg_ecset\113_30.x
+;Tc111-0jnr_4,Structures\initG\initg_ecset\113_30.x
 #湘南シールド 押込通風機 AU75 ユニット窓 鉄仮面 シャッター付きタイフォン
-Tc111-0jnr_5,Structures\initG\initg_ecset\113_40.x
+;Tc111-0jnr_5,Structures\initG\initg_ecset\113_40.x
 #湘南白熱灯 押込通風機 AU75 非ユニット窓 鉄仮面 スリットタイフォン
-Tc111-0jnr_6,Structures\initG\initg_ecset\113_50.x
+;Tc111-0jnr_6,Structures\initG\initg_ecset\113_50.x
 #湘南白熱灯 グロベン AU75 非ユニット窓 鉄仮面 スリットタイフォン
-Tc111-0jnr_7,Structures\initG\initg_ecset\113_60.x
+;Tc111-0jnr_7,Structures\initG\initg_ecset\113_60.x
 #湘南白熱灯 グロベン WAU102 非ユニット窓 スリットタイフォン
-Tc111-0jnr_8,Structures\initG\initg_ecset\113_70.x
+;Tc111-0jnr_8,Structures\initG\initg_ecset\113_70.x
 #湘南シールド 押込通風機 AU75 非ユニット窓 お椀型タイフォン
-Tc111-0jnr_9,Structures\initG\initg_ecset\113_80.x
+;Tc111-0jnr_9,Structures\initG\initg_ecset\113_80.x
 #湘南シールド グロベン AU75 非ユニット窓 お椀型タイフォン
-Tc111-0jnr_10,Structures\initG\initg_ecset\113_90.x
+;Tc111-0jnr_10,Structures\initG\initg_ecset\113_90.x
 #湘南白熱灯 グロベン WAU102 非ユニット窓 鉄仮面 スリットタイフォン
-Tc111-0jnr_11,Structures\initG\initg_ecset\113_100.x
+;Tc111-0jnr_11,Structures\initG\initg_ecset\113_100.x
 #湘南白熱灯 グロベン AU75 非ユニット窓 お椀型タイフォン スノプロ無し
-Tc111-0jnr_12,Structures\initG\initg_ecset\113_110.x
+;Tc111-0jnr_12,Structures\initG\initg_ecset\113_110.x
 #湘南白熱灯 押込通風機 AU75 非ユニット窓 お椀型タイフォン スノプロ無し
-Tc111-0jnr_13,Structures\initG\initg_ecset\113_120.x
+;Tc111-0jnr_13,Structures\initG\initg_ecset\113_120.x
 
 #押込通風機 AU75 非ユニット窓
-Tc'111-0jnr_1,Structures\initG\initg_ecset\113_03.x
+;Tc'111-0jnr_1,Structures\initG\initg_ecset\113_03.x
 #グロベン AU75 非ユニット窓
-Tc'111-0jnr_2,Structures\initG\initg_ecset\113_23.x
+;Tc'111-0jnr_2,Structures\initG\initg_ecset\113_23.x
 #押込通風機 AU75 ユニット窓
-Tc'111-0jnr_3,Structures\initG\initg_ecset\113_33.x
+;Tc'111-0jnr_3,Structures\initG\initg_ecset\113_33.x
 #グロベン WAU102 非ユニット窓
-Tc'111-0jnr_4,Structures\initG\initg_ecset\113_43.x
+;Tc'111-0jnr_4,Structures\initG\initg_ecset\113_43.x
 
 #押込通風機 AU75 非ユニット窓
-M113-0jnr_1,Structures\initG\initg_ecset\113_01.x
+;M113-0jnr_1,Structures\initG\initg_ecset\113_01.x
 #押込通風機 AU75 ユニット窓
-M113-0jnr_2,Structures\initG\initg_ecset\113_21.x
+;M113-0jnr_2,Structures\initG\initg_ecset\113_21.x
 #グロベン AU75 非ユニット窓
-M113-0jnr_3,Structures\initG\initg_ecset\113_31.x
+;M113-0jnr_3,Structures\initG\initg_ecset\113_31.x
 
 #押込通風機 AU75 非ユニット窓
-M'112-0jnr_1,Structures\initG\initg_ecset\113_02.x
+;M'112-0jnr_1,Structures\initG\initg_ecset\113_02.x
 #押込通風機 AU75 ユニット窓
-M'112-0jnr_2,Structures\initG\initg_ecset\113_22.x
+;M'112-0jnr_2,Structures\initG\initg_ecset\113_22.x
 #押込通風機 AU75 ユニット窓 Wパンタ
-M'112-0jnr_3,Structures\initG\initg_ecset\113_32.x
+;M'112-0jnr_3,Structures\initG\initg_ecset\113_32.x
 #グロベン AU75 非ユニット窓
-M'112-0jnr_4,Structures\initG\initg_ecset\113_42.x
+;M'112-0jnr_4,Structures\initG\initg_ecset\113_42.x
 
 #113系(30N)
 Tc111_30n,Structures\113west\113_30N\Tc111_1.x
@@ -1068,16 +1056,16 @@ T111_40n,Structures\113west\113_30N\T111.x
 Tc'111_30n,Structures\113west\113_30N\Tc111_1b.x
 
 #113,115系(瀬戸内色)
-Tc111-811_setouchi,Structures\FTN\JRW113-30N_setouchi\Tc111-811.x
-Tc111-812_setouchi,Structures\FTN\JRW113-30N_setouchi\Tc111-812.x
-Tc111-0_setouchi,Structures\FTN\JRW113-30N_setouchi\Tc111-0.x
-Tc111-300_setouchi,Structures\FTN\JRW113-30N_setouchi\Tc111-300.x
-Tc115-556_setouchi,Structures\FTN\JRW113-30N_setouchi\Tc115-556.x
-Tc111-261_setouchi,Structures\FTN\JRW113-30N_setouchi\Tc111-261.x
-Tc115-2616_setouchi30n,Structures\FTN\JRW113-30N_setouchi\Tc115-2616.x
-Tc115-2520_setouchi30n,Structures\FTN\JRW113-30N_setouchi\Tc115-2520.x
-M114-1193_setouchi,Structures\FTN\JRW113-30N_setouchi\M114-1193.x
-M115-1109_setouchi,Structures\FTN\JRW113-30N_setouchi\M115-1109.x
+;Tc111-811_setouchi,Structures\FTN\JRW113-30N_setouchi\Tc111-811.x
+;Tc111-812_setouchi,Structures\FTN\JRW113-30N_setouchi\Tc111-812.x
+;Tc111-0_setouchi,Structures\FTN\JRW113-30N_setouchi\Tc111-0.x
+;Tc111-300_setouchi,Structures\FTN\JRW113-30N_setouchi\Tc111-300.x
+;Tc115-556_setouchi,Structures\FTN\JRW113-30N_setouchi\Tc115-556.x
+;Tc111-261_setouchi,Structures\FTN\JRW113-30N_setouchi\Tc111-261.x
+;Tc115-2616_setouchi30n,Structures\FTN\JRW113-30N_setouchi\Tc115-2616.x
+;Tc115-2520_setouchi30n,Structures\FTN\JRW113-30N_setouchi\Tc115-2520.x
+;M114-1193_setouchi,Structures\FTN\JRW113-30N_setouchi\M114-1193.x
+;M115-1109_setouchi,Structures\FTN\JRW113-30N_setouchi\M115-1109.x
 
 #113系(30N 末期色)
 Tc'111-2000_makki30n,Structures\FTN\JRW113-30N_yellow\Tc111-2000.x
@@ -1203,7 +1191,7 @@ Mc221,Structures\saha209\221\221_1.x
 Mc221_tail,Structures\saha209\221\221_1_t.x
 T221,Structures\saha209\221\221_2.x
 
-#221系(HID)
+#221系(更新車)
 Mc221new,Structures\saha209\221\221_1_rn.x
 
 #223系1000番台
@@ -1241,10 +1229,7 @@ Mc320,../../Nagoya_Common\Train\JRW\321\Mc320.x
 Mzc141,Structures\Shirasagi\jr141dc\Mzc.x
 Tzc141,Structures\Shirasagi\jr141dc\Tzc.x
 
-#キハ120
-DC120_kame,Structures\Kotobuki\DC120_2end\DC120_kame.x
-
-#145
+#クモヤ145
 Mzc145,Structures\kyu_roku\Mzc145\Mzc145-1000.x
 pt,Structures\kyu_roku\Mzc145\Fdown_Rup.x
 dt33,Structures\iida_hosenku\dt33.x
@@ -1257,14 +1242,10 @@ DC47-0N,Structures\FTN\JRW-DC40_Kishin\DC47-0N.x
 DC47-1000,Structures\FTN\JRW-DC40_Kishin\DC47-1000.x
 DC47-1000N,Structures\FTN\JRW-DC40_Kishin\DC47-1000N.x
 
+#キハ120
+DC120_kame,Structures\Kotobuki\DC120_2end\DC120_kame.x
 
-#阪神7801
-Mc7801,../../Nagoya_Common\Train\HS\7860_Mc.x
-#逆
-Mc'7801,../../Nagoya_Common\Train\HS\7860_McB.x
-T3000,../../Nagoya_Common\Train\HS\3000_T.x
-7801head,../../Nagoya_Common\Train\HS\7860_Front_On.x
-7801destination,
+#キハ122,127
 
 #山陽3000
 3630N,Structures\Sanyo3000\3630N.x
@@ -1348,18 +1329,6 @@ koki_shadow_20,Structures\Ntfiv\ContainerCar\_base_20m.x
 koki104,Structures\Ntfiv\ContainerCar\koki104\_koki104_JRF_pure.x
 koki106,Structures\Ntfiv\ContainerCar\koki106\_koki106_JRF_pure.x
 koki107,Structures\Ntfiv\ContainerCar\koki107\_koki107_JRF_pure.x
-Container_5a,../../Nagoya_Common\Train\JRF\Container\5_5_A.x
-Container_5b,../../Nagoya_Common\Train\JRF\Container\5_5_B.x
-Container_5c,../../Nagoya_Common\Train\JRF\Container\5_5_C.x
-Container_5d,../../Nagoya_Common\Train\JRF\Container\5_5_D.x
-Container_4a,../../Nagoya_Common\Train\JRF\Container\5_4_A.x
-Container_4b,../../Nagoya_Common\Train\JRF\Container\5_4_B.x
-Container_4c,../../Nagoya_Common\Train\JRF\Container\5_4_C.x
-Container_4d,../../Nagoya_Common\Train\JRF\Container\5_4_D.x
-Container_3a,../../Nagoya_Common\Train\JRF\Container\5_3_A.x
-Container_3b,../../Nagoya_Common\Train\JRF\Container\5_3_B.x
-Container_3c,../../Nagoya_Common\Train\JRF\Container\5_3_C.x
-Container_3d,../../Nagoya_Common\Train\JRF\Container\5_3_D.x
 
 Con_31ft_FTS01_0A,Structures\Ntfiv\_Containers\Con_31ft_FTS01_0A.x
 Con_31ft_FTS01_AA,Structures\Ntfiv\_Containers\Con_31ft_FTS01_AA.x
@@ -1369,9 +1338,6 @@ Con_31ft_FTS02_AA,Structures\Ntfiv\_Containers\Con_31ft_FTS02_AA.x
 
 Toki25000,Structures\initG\initg_fcset\25000.x
 Hoki800,Structures\FTN\JNR-hoki800\hoki800.x
-
-
-
 
 #踏切
 1,Structures\△12△\komono\1.x

@@ -1,12 +1,12 @@
 BveTs Train 1.01:shift_jis
 [structure]
 key=ef210
-distance=0
+distance=10
 z=8
 span=16
 [structure]
 key=ef210light
-distance=0
+distance=10
 z=8
 span=16
 [structure]

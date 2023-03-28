@@ -4,8 +4,8 @@ Format Text Ver 1.0
 Scene {
 	pos 0.0000 0.0000 937.5000
 	lookat 0.0000 0.0000 0.0000
-	head -0.5836
-	pich 0.0108
+	head -0.2036
+	pich 0.2208
 	bank 0.0000
 	ortho 0
 	zoom2 8.0000
@@ -19,7 +19,7 @@ Scene {
 }
 Material 2 {
 	"mat1" col(1.000 1.000 1.000 1.000) dif(0.800) amb(0.600) emi(0.000) spc(0.000) power(5.00) tex("Agaho_EVsign.png")
-	"mat2" col(1.000 1.000 1.000 1.000) dif(0.800) amb(0.600) emi(0.790) spc(0.000) power(5.00) tex("Agaho_EVsign.png")
+	"mat2" col(1.000 1.000 1.000 1.000) dif(0.800) amb(0.600) emi(0.300) spc(0.000) power(5.00) tex("Agaho_EVsign.png")
 }
 Object "obj1" {
 	visible 15

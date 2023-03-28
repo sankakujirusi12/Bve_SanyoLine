@@ -1,10 +1,4 @@
 ﻿BveTs Map 2.00:shift_jis
-$sanyo_distance+84700;
-Repeater['house'].Begin('Grass',-14,0,0,0,-90,0,0,10,35,'saha_10_10_05','saha_20_15_01','saha_20_15_02','saha_20_15_03','saha_20_15_04','saha_20_15_05','saha_20_15_06','Taru_10_10_00');
-#Repeater['house'].Begin('Grass',-5,0,0,0,0,0,0,10,25,'saha_10_10_05','saha_20_15_01','saha_20_15_02','saha_20_15_03','saha_20_15_04','saha_20_15_05','saha_20_15_06','Taru_10_10_00','Taru_15_15_01','Taru_15_15_02','Taru_25_15_01','saha_10_10_00','saha_20_15_00');
-#Repeater['house'].Begin('Grass',-5,0,0,0,-90,0,0,10,25,'saha_10_10_05','saha_20_15_01','saha_20_15_02','saha_20_15_03','saha_20_15_04','saha_20_15_05','saha_20_15_06','Taru_10_10_00','Taru_15_15_01','Taru_15_15_02','Taru_25_15_01','saha_10_10_00','saha_20_15_00');
-$sanyo_distance+85100;
-Repeater['house'].End();
 $sanyo_distance+85120;
 track['house1'].Position(12,-5);
 repeater['road_1sya'].Begin0('house1',1,50,50,'ensen0R','ensen1R');
@@ -308,6 +302,12 @@ structure['3dhouse12'].Put('Grass',-40,0,0,0,0,0,0,2);
 structure['3dhouse1'].Put('Grass',-60,0,0,0,0,0,0,2);
 structure['3dhouse3'].Put('Grass',-80,0,0,0,0,0,0,2);
 structure['3dhouse2'].Put('Grass',-100,0,0,0,0,0,0,2);
+$sanyo_distance+92317;
+
+
+
+
+structure['katsu_hoshi_apart1'].Put('sanyonobori',20,0,0,0,0,0,0,0);
 $sanyo_distance+92340;
 structure['3dhouse3'].Put('Grass',-40,0,0,0,0,0,0,0);
 $sanyo_distance+92355;

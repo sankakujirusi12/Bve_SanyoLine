@@ -1,0 +1,22 @@
+newmtl m0
+Ka 0 0 0
+Kd 0.116 0.116 0.116
+Ks 0 0 0
+Ns 5
+d 1
+
+newmtl m1
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+Ns 5
+d 1
+
+newmtl m2
+map_Kd light.dds
+Ka 0 0 0
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Ns 5
+d 1
+
