@@ -1,4 +1,4 @@
-﻿BveTs Map 2.00:shift_jis
+BveTs Map 2.00:UTF-8
 #山陽本線 2020 試6791/3M (網干～有年)
 
 #網干から先でpassファイルを分割!!

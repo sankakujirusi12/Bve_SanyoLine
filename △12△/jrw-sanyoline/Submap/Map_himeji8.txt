@@ -1,9 +1,9 @@
-BveTs Map 2.00:shift_jis
+BveTs Map 2.00:UTF-8
 
-#hime8‚ğ©ü‚ÉA0‚ğhime7‚É
+#hime8ã‚’è‡ªç·šã«ã€0ã‚’hime7ã«
 
 $sanyo_distance+81000;
-#‘Š‘ÎÀ•W10M³‚É
+#ç›¸å¯¾åº§æ¨™10Mæ­£ã«
 	Repeater['Ballast2'].Begin('sanyokudari',0,-0.01,0,0,0,0,3,5,5,'Slab');
 	Track['sanyokudari'].Position(-4,0);
 	Track['sanyonobori'].Position(6,0);
@@ -49,7 +49,7 @@ structure['retsutei_'].Put('hime7',-2.3,2,0,0,0,0,0,0);
 	repeater['roof_hime6'].End();
 	repeater['roof_nobori'].End();
 	repeater['roof_nobori1'].End();
-	#‰®ªI’[
+	#å±‹æ ¹çµ‚ç«¯
 	Track['sanyokudari'].Position(-4,0);
 $sanyo_distance+83890;
 structure['karetei'].Put('hime7',-2.5,3.39,-0.1,0,0,0,0,0);
@@ -64,7 +64,7 @@ $sanyo_distance+83895;
 	repeater['Form_R1'].End();
 	repeater['Form_CL1'].End();
 	repeater['Form_CR1'].End();
-	#ƒz[ƒ€I’[
+	#ãƒ›ãƒ¼ãƒ çµ‚ç«¯
 	structure['Formendfence2'].Put('hime7',-3,1.3,0,0,0,0,0,2);
 	structure['Formendfence3'].Put(0,5,1.3,0,0,0,0,0,2);
 	structure['Formendfence2'].Put(0,3,1.3,0,0,0,0,0,2);
@@ -86,7 +86,7 @@ $sanyo_distance+83965;
 	structure['seigen45L'].Put('hime6',-2,1,0,0,0,0,0,0);
 	structure['seigenpole'].Put('hime6',-2,0,0,0,0,0,0,0);
 $sanyo_distance+83970;
-	#ƒV[ƒTƒX
+	#ã‚·ãƒ¼ã‚µã‚¹
 	Repeater['Ballast5'].Begin('watari1',0,-0.01,0,0,0,0,3,5,5,'Slab');
 	Repeater['Ballast6'].Begin('watari2',0,-0.011,0,0,0,0,3,5,5,'Slab');
 	Track['watari1'].Position(9,0,308);
@@ -101,7 +101,7 @@ $sanyo_distance+83985;
 #	Track['hime1'].Position(31,0);
 	repeater['roof_hime2'].End();
 	repeater['roof_kishin'].End();
-#•PVü‰®ªI’[
+#å§«æ–°ç·šå±‹æ ¹çµ‚ç«¯
 $sanyo_distance+84000;
 	Track['watari1'].Position(11.5,0,-329);
 	Track['watari2'].Position(11,0,308);
@@ -125,7 +125,7 @@ $sanyo_distance+84010;
 	Track['sanyonobori'].Position(20,0,0);
 	Track['kishin'].Position(24,0,0);
 	#repeater['teimen5'].Begin('hime7',4,-0.001,0,0,0,0,1,9,9,'Slab_teimen');
-#•PVüƒz[ƒ€I’[
+#å§«æ–°ç·šãƒ›ãƒ¼ãƒ çµ‚ç«¯
 	repeater['WallR2'].Begin('hime1',0,0,0,0,0,0,1,10,9,'WallR');
 
 $sanyo_distance+84030;
@@ -210,4 +210,4 @@ $sanyo_distance+84140;
 	Repeater['Ballast2'].End();
 	Track['sanyokudari'].Position(0,0);
 	Curve.End();
-	#‡—¬
+	#åˆæµ

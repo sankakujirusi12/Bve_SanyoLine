@@ -1,5 +1,5 @@
-BveTs Map 2.00:shift_jis
-#M†
+BveTs Map 2.00:UTF-8
+#ä¿¡å·
 
 $sanyo_distance+84284;
 structure['Signalpole4'].Put(0,-2.7,5.4,0,0,0,0,0,0);
@@ -66,7 +66,7 @@ structure['Signalpole3'].Put(0,-2.8,5,0,0,0,0,0,0);
 Signal['type3'].Put(1,0,-2.8,5.2,0.4,0,0,0,0,0);
 structure['2hei'].Put(0,-2.8,3.4,0.4,0,0,0,0,0);
 $sanyo_distance+92180;
-#’†Œp
+#ä¸­ç¶™
 structure['Signalpole1'].Put(0,7.5,7,0,0,0,0,0,0);
 Signal['type30'].Put(1,0,7.5,6.7);
 $sanyo_distance+92660;
@@ -169,7 +169,7 @@ structure['Signalpole1'].Put(0,-2.5,5,0,0,0,0,0,0);
 Signal['type3'].Put(1,0,-2.5,5.2,0.4,0,0,0,0,0);
 structure['1hei'].Put(0,-2.5,3.4,0.4,0,0,0,0,0);
 $sanyo_distance+111575;
-#ê“à
+#å ´å†…
 structure['Signalpole1'].Put(0,-2.5,5,0,0,0,0,0,0);
 Signal['type3_b'].Put(1,0,-2.3,3.8);
 structure['Signal3L0_b'].Put(0,-2.7,4.8,0,0,0,0,0,0);
@@ -177,7 +177,7 @@ structure['Signal3L0_b'].Put(0,-2.7,4.8,0,0,0,0,0,0);
 $sanyo_distance+113280;
 structure['Signalpole1'].Put(0,-3.5,5,0,0,0,0,0,0);
 Signal['type30'].Put(1,0,-3.5,5);
-#’†Œp
+#ä¸­ç¶™
 $sanyo_distance+113649;
 structure['Signalpole1'].Put(0,-2.5,5,0,0,0,0,0,0);
 Signal['type3'].Put(1,0,-2.5,4.4);
@@ -211,7 +211,7 @@ Signal['type3'].Put(1,0,-3.5,4.9);
 structure['3jou'].Put(0,-3.3,5,-0.1,0,0,0,0,0);
 structure['Clamp3R'].Put(0,-3.1,2.8,0,0,0,0,0,0);
 structure['Signal4L0'].Put(0,-3.1,3,0,0,0,0,0,0);
-#ê“à
+#å ´å†…
 $sanyo_distance+118750;
 structure['Signalpole1'].Put(0,4.5,6,0,0,0,0,0,0);
 Signal['type30'].Put(1,0,4.3,5.4);
@@ -219,7 +219,7 @@ $sanyo_distance+118862;
 structure['Signalpole1'].Put(0,2.5,5,0,0,0,0,0,0);
 Signal['type3'].Put(1,0,2.2,4.7);
 structure['Signal3L0'].Put(0,2.7,3.8,0,0,0,0,0,0);
-#‘¼ü
+#ä»–ç·š
 
 $sanyo_distance+88489;
 structure['2syutsu'].Put('nakage',-2.4,4.2,-0.2,0,0,0,0,0);
@@ -247,7 +247,7 @@ structure['Signalpole1'].Put('sanyonobori',-2.8,5,0,0,0,0,0,0);
 structure['Signal3L0'].Put('sanyonobori',-2.8,5.2,0.4,0,0,0,0,0);
 structure['3syutsu'].Put('sanyonobori',-2.6,4.6,-0.1,0,0,0,0,0);
 $sanyo_distance+131333;
-#ã‚èüOÎo”­
+#ä¸Šã‚Šç·šä¸‰çŸ³å‡ºç™º
 structure['Signalpole1'].Put('sanyonobori',-3.2,4.1,0,0,0,0,0,0);
 structure['Signal3L0_b'].Put('sanyonobori',-3.2,4.1,0.4,0,0,0,0,0);
 structure['iresin0R'].Put('sanyonobori',-3.2,3.1,0,0,0,0,0,0);

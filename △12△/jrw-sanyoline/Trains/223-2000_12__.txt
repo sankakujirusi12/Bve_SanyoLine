@@ -1,6 +1,6 @@
-BveTs Train 1.01:shift_jis
+BveTs Train 1.01:UTF-8
 
-#�Ԍɗp
+#車庫用
 [structure]
 key=Mc223-2000_tail
 distance=0

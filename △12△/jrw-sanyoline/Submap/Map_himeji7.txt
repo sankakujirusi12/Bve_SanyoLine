@@ -1,4 +1,4 @@
-﻿BveTs Map 2.00:shift_jis
+BveTs Map 2.00:UTF-8
 $sanyo_distance+81000;
 	Repeater['Ballast2'].Begin('sanyokudari',0,-0.01,0,0,0,0,3,5,5,'Slab');
 	Track['sanyokudari'].Position(-14,0);

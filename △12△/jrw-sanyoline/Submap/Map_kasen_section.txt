@@ -1,4 +1,4 @@
-﻿BveTs Map 2.00:shift_jis
+BveTs Map 2.00:UTF-8
 #セクション(架線ストラクチャ、クリア標)
 
 $sanyo_distance+85309;

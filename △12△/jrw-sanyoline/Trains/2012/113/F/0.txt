@@ -1,4 +1,4 @@
-BveTs Train 1.01:shift_jis
+BveTs Train 1.01:UTF-8
 ;F01 F02 F16 F17
 [structure]
 key=for_Local

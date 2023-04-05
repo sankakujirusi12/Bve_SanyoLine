@@ -1,4 +1,4 @@
-BveTs Map 2.00:shift_jis
+BveTs Map 2.00:UTF-8
 0;
 $cars=floor(rand(35));
 $cars1=floor(rand(35));

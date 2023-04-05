@@ -1,10 +1,10 @@
-BveTs Map 2.00:shift_jis
+BveTs Map 2.00:UTF-8
 $sanyo_distance+0;
 $113B=floor(rand(4));
 $koki=floor(rand(3));
 $hoshi=floor(rand(21));
 $sandenlocal=floor(rand(15));
-#---------------‘¼—ñÔ’è‹`------------------------------------------------------------------------------------------------------------------
+#---------------ä»–åˆ—è»Šå®šç¾©------------------------------------------------------------------------------------------------------------------
 
 Train['1300M'].Load('Trains\2020\113_B_'+$113B+'.txt', 'sanyonobori', -1);
 Train['1300M_maku'].Load('Trains\yellowmaku.txt', 'sanyonobori', -1);
@@ -24,15 +24,15 @@ Train['hoshi6'].Load('Trains\225-0_8.txt', 'gawa_hoshi1', -1);
 Train['hoshi7'].Load('Trains\223-1000_8_.txt', 'hoshiden3', -1);
 Train['hoshi8'].Load('Trains\223-2000_12__.txt', 'hoshiden7', -1);
 Train['hoshi9'].Load('Trains\3501+3506 Not in.txt', 'hoshiden10', -1);
-Train['hoshi10'].Load('Trains\—Õ\'+$hoshi+'.txt', 'hoshiden3', -1);
+Train['hoshi10'].Load('Trains\è‡¨æ™‚\'+$hoshi+'.txt', 'hoshiden3', -1);
 Train['hoshi11'].Load('Trains\223-1000_8_.txt', 'gawa_hoshi1', -1);
 Train['hoshi12'].Load('Trains\223-2000_12.txt', 'sanyonobori', -1);
 Train['hoshi13'].Load('Trains\223-2000_12__.txt', 'gawa_hoshi3', -1);
 Train['hoshi14'].Load('Trains\223-2000_12__.txt', 'gawa_hoshi1', -1);
 Train['sandenlocal'].Load('Trains\SY\'+$sandenlocal+'.txt', 'sandenkudari', -1);
-	#ª•Ï‚È‚Ì‚ğo‚µ‚½‚­‚È‚¢l‚Í‚±‚¿‚ç‚Ì\•¶‚ğ‚²g—p‚­‚¾‚³‚¢«
+	#â†‘å¤‰ãªã®ã‚’å‡ºã—ãŸããªã„äººã¯ã“ã¡ã‚‰ã®æ§‹æ–‡ã‚’ã”ä½¿ç”¨ãã ã•ã„â†“
 
-				#Train['hoshi10'].Load('Trains\—Õ\3.txt', 'hoshiden5', -1);
+				#Train['hoshi10'].Load('Trains\è‡¨æ™‚\3.txt', 'hoshiden5', -1);
 $sanyo_distance+82500;
 Train['56'].Stop(3, 30, 25, 70);
 $sanyo_distance+83500;
@@ -109,21 +109,21 @@ Train['hoshi10'].Stop(0, 0, 0, 0);
 $sanyo_distance+95560;
 Train['hoshi1'].Stop(0, 0, 0, 0);
 $sanyo_distance+93942;
-#–ÔŠ±
+#ç¶²å¹²
 Train['738T'].Stop(3, 30, 2.5, 100);
 Train['3426M'].Stop(3, 30, 2.5, 100);
 $sanyo_distance+93972;
 Train['1300M_maku'].Stop(3, 30, 2.2, 100);
 Train['1300M'].Stop(3, 30, 2.2, 100);
 $sanyo_distance+99880;
-#—³–ì
+#ç«œé‡
 Train['xxxxM'].Stop(3, 30, 2.5, 100);
 Train['738T'].Enable('07:28:00');
 Train['738T'].Stop(3, 30, 2.5, 100);
 Train['3426M'].Stop(3, 30, 2.5, 100);
 Train['1300M_maku'].Stop(3, 30, 2.2, 90);
 Train['1300M'].Stop(3, 30, 2.2, 90);
-#‘Š¶
+#ç›¸ç”Ÿ
 $sanyo_distance+104381;
 Train['3426M'].Stop(3, 30, 2.5, 100);
 Train['738T'].Stop(3, 30, 2.5, 100);
@@ -134,17 +134,17 @@ Train['1300M'].Stop(3, 0, 2.2, 100);
 Train['1300M_maku'].Stop(3, 0, 2.2, 100);
 
 $sanyo_distance+111944;
-#—L”N
+#æœ‰å¹´
 Train['738T'].Stop(3, 30, 2.5, 100);
 
 $sanyo_distance+118587;
-#ãŒS
+#ä¸Šéƒ¡
 Train['738T'].Stop(3, 30, 2.5, 100);
 $sanyo_distance+118804;
 Train['HOT'].Stop(0, 0, 0, 0);
 
-#56ƒŒ‚Í‰¼‚É—L”N”­(Š¾)
+#56ãƒ¬ã¯ä»®ã«æœ‰å¹´ç™º(æ±—)
 
 $sanyo_distance+131075;
-#OÎ
+#ä¸‰çŸ³
 Train['56'].Stop(3, 30, 25, 70);

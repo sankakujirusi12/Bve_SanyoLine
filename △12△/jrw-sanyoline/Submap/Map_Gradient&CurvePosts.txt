@@ -1,2 +1,2 @@
-BveTs Map 2.00:shift_jis
+BveTs Map 2.00:UTF-8
 $sanyo_distance+0;

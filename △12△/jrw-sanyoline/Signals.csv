@@ -9,13 +9,13 @@ type4yy,Signal4L0,Signal4L1,Signal4L2,,Signal4L4
 type5,Signal5L0,Signal5L1,Signal5L2,Signal5L3,Signal5L4
 ,Signal5G0,Signal5G1,Signal5G2,Signal5G3,Signal5G4
 
-#‘¼ü’â~—pLED
+#ä»–ç·šåœæ­¢ç”¨LED
 type300,Signal3L0,,,,
 ,Signal3G0,,,,
 type400,Signal4L0,,,,
 ,Signal4G0,,,,
 
-#“d‹…
+#é›»çƒ
 type3_b,Signal3L0_b,,Signal3L2_b,,Signal3L4_b
 ,Signal3G0,,Signal3G2,,Signal3G4
 type4_b,Signal3L0_b,,Signal3L2_b,,Signal3L4_b
@@ -23,15 +23,15 @@ type4_b,Signal3L0_b,,Signal3L2_b,,Signal3L4_b
 type4yy_b,Signal4L0_b,Signal4L1_b,Signal4L2_b,,Signal4L4_b
 ,Signal4G0,Signal4G1,Signal4G2,,Signal4G4
 
-#‘¼ü’â~—p“d‹…
+#ä»–ç·šåœæ­¢ç”¨é›»çƒ
 type300_b,Signal3L0_b,,,,
 ,Signal3G0,,,,
 type400_b,Signal4L0_b,,,,
 ,Signal4G0,,,,
 
-#’†Œp
+#ä¸­ç¶™
 type30,Signal30L0,Signal30L3,,,Signal30L4
 
-#i˜H—\‹@(–{ü—p)
+#é€²è·¯äºˆå‘Šæ©Ÿ(æœ¬ç·šç”¨)
 CourseC,CourseOff,,CourseC,,
 CourseL,CourseOff,,CourseL,,

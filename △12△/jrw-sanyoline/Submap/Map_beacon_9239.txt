@@ -1,7 +1,7 @@
-BveTs Map 2.00:shift_jis
-#ƒ‚[ƒhØ‘Ö
+BveTs Map 2.00:UTF-8
+#ãƒ¢ãƒ¼ãƒ‰åˆ‡æ›¿
 #SW
-#‘SM†‹@—p
+#å…¨ä¿¡å·æ©Ÿç”¨
 $sanyo_distance+83920;
 $dis=distance;
 include 'Submap\Map_beacon_ats-sw.txt';
@@ -93,7 +93,7 @@ $sanyo_distance+118862;
 $dis=distance;
 include 'Submap\Map_beacon_ats-sw.txt';
 
-#‘¼ü
+#ä»–ç·š
 $sanyo_distance+83920;
 $dis=distance;
 $Track='hime6';

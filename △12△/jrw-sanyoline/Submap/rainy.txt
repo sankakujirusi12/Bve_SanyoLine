@@ -1,6 +1,6 @@
-BveTs Map 2.00:shift_jis
+BveTs Map 2.00:UTF-8
 $sanyo_distance+80000;
-#‰J
+#é›¨
 Light.Ambient(0.4, 0.4, 0.46);
 Light.Diffuse(0.5, 0.5, 0.5);
 Light.Direction(55, -70);

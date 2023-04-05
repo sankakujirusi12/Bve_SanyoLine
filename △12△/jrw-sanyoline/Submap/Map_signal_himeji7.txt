@@ -1,8 +1,8 @@
-BveTs Map 2.00:shift_jis
+BveTs Map 2.00:UTF-8
 $sanyo_distance+83920;
 structure['Signalpole6'].Put(0,-2.8,2.5,0,0,0,0,0,0);
 structure['7syutsu'].Put(0,-2.55,3.6,-0.1,0,0,0,0,0);
-#‚à‚ÆyÀ•W«3.4
+#ã‚‚ã¨yåº§æ¨™â†“3.4
 Signal['type3'].Put(1,0,-2.8,4.2,0.4,0,0,0,0,0);
 structure['Clamp3R'].Put(0,-2.2,2.8,0,0,0,0,0,0);
 Signal['type300_b'].Put(1,0,-2.2,3.6,0.4,0,0,0,0,0);

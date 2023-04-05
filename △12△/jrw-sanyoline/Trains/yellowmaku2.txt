@@ -1,5 +1,5 @@
-BveTs Train 1.01:shift_jis
-#‘O“”•s“_
+BveTs Train 1.01:UTF-8
+#å‰ç¯ä¸ç‚¹
 [structure]
 key=maku_yellow
 distance=0

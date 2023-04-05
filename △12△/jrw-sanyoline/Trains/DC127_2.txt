@@ -1,4 +1,4 @@
-BveTs Train 1.01:shift_jis
+BveTs Train 1.01:UTF-8
 [structure]
 key=DC40-2000N
 distance=0

@@ -1,6 +1,6 @@
-BveTs Map 2.00:shift_jis
+BveTs Map 2.00:UTF-8
 
-#•ªŠòŠí
+#åˆ†å²å™¨
 $sanyo_distance+83970;
 JointNoise.Play(0);
 $sanyo_distance+84030;
@@ -39,7 +39,7 @@ $sanyo_distance+119079;
 JointNoise.Play(0);
 
 
-#“¥Ø
+#è¸åˆ‡
 $sanyo_distance+86375;
 JointNoise.Play(2);
 $sanyo_distance+86680;

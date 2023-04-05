@@ -1,4 +1,4 @@
-BveTs Train 1.01:shift_jis
+BveTs Train 1.01:UTF-8
 [structure]
 key=Mc115-1501_30n
 distance=0

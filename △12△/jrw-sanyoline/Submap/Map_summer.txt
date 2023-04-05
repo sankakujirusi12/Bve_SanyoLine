@@ -1,4 +1,4 @@
-﻿BveTs Map 2.00:shift_jis
+BveTs Map 2.00:UTF-8
 #山陽本線-1305M用・環境設定
 #夏
 

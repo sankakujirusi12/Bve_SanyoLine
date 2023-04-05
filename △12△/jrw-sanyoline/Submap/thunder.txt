@@ -1,4 +1,4 @@
-BveTs Map 2.00:shift_jis
+BveTs Map 2.00:UTF-8
 
 $Distance;
 Fog.Interpolate(0.0102,0.403,0.403,0.403);

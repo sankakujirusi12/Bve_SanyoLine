@@ -1,4 +1,4 @@
-BveTs Map 2.00:shift_jis
+BveTs Map 2.00:UTF-8
 $sanyo_distance+0;
 $113B=floor(rand(4));
 $9345M=floor(rand(24));
@@ -8,7 +8,7 @@ $115D1=floor(rand(4));
 $koki=floor(rand(3));
 $hoshi=floor(rand(21));
 $sandenlocal=floor(rand(15));
-#---------------‘¼—ñÔ’è‹`------------------------------------------------------------------------------------------------------------------
+#---------------ä»–åˆ—è»Šå®šç¾©------------------------------------------------------------------------------------------------------------------
 
 Train['1322MF'].Load('Trains\115_D_'+$115D+'.txt', 'sanyonobori', -1);
 Train['1322MB'].Load('Trains\115_D_'+$115D1+'.txt', 'sanyonobori', -1);
@@ -31,13 +31,13 @@ Train['hoshi6'].Load('Trains\225-0_8.txt', 'gawa_hoshi1', -1);
 Train['hoshi7'].Load('Trains\223-1000_8_.txt', 'hoshiden3', -1);
 Train['hoshi8'].Load('Trains\223-2000_12__.txt', 'hoshiden7', -1);
 Train['hoshi9'].Load('Trains\103_r_4.txt', 'hoshiden10', -1);
-Train['hoshi10'].Load('Trains\—Õ\'+$hoshi+'.txt', 'hoshiden3', -1);
+Train['hoshi10'].Load('Trains\è‡¨æ™‚\'+$hoshi+'.txt', 'hoshiden3', -1);
 #Train['hoshi11'].Load('Trains\223-1000_8_.txt', 'hoshi3', -1);
 Train['sandenlocal'].Load('Trains\SY\'+$sandenlocal+'.txt', 'sandenkudari', -1);
 
-	#ª•Ï‚È‚Ì‚ğo‚µ‚½‚­‚È‚¢l‚Í‚±‚¿‚ç‚Ì\•¶‚ğ‚²g—p‚­‚¾‚³‚¢«
+	#â†‘å¤‰ãªã®ã‚’å‡ºã—ãŸããªã„äººã¯ã“ã¡ã‚‰ã®æ§‹æ–‡ã‚’ã”ä½¿ç”¨ãã ã•ã„â†“
 
-				#Train['hoshi10'].Load('Trains\—Õ\3.txt', 'hoshiden5', -1);
+				#Train['hoshi10'].Load('Trains\è‡¨æ™‚\3.txt', 'hoshiden5', -1);
 
 $sanyo_distance+83500;
 Train['806T'].Stop(3, 30, 2.2, 100);
@@ -109,28 +109,28 @@ Train['hoshi10'].Stop(0, 0, 0, 0);
 $sanyo_distance+95560;
 Train['hoshi1'].Stop(0, 0, 0, 0);
 $sanyo_distance+93942;
-#–ÔŠ±
+#ç¶²å¹²
 Train['9974'].Stop(2, 0, 2.5, 70);
 Train['3498M'].Stop(3, 30, 2.5, 100);
 $sanyo_distance+99880;
-#—³–ì
+#ç«œé‡
 Train['3498M'].Stop(3, 30, 2.5, 100);
-#‘Š¶
+#ç›¸ç”Ÿ
 $sanyo_distance+104381;
 Train['9345M'].Stop(0, 0, 0, 0);
 Train['1322MF'].Stop(3, 30, 0, 100);
 $sanyo_distance+104441;
 Train['1322MB'].Stop(3, 30, 0, 100);
 $sanyo_distance+111944;
-#—L”N
+#æœ‰å¹´
 Train['1322MF'].Stop(3, 30, 2.5, 100);
 $sanyo_distance+112004;
 Train['1322MB'].Stop(3, 30, 2.5, 100);
 $sanyo_distance+118587;
-#ãŒS
+#ä¸Šéƒ¡
 Train['1322MF'].Stop(3, 30, 2.5, 100);
 $sanyo_distance+118647;
 Train['1322MB'].Stop(3, 30, 2.5, 100);
 $sanyo_distance+118877;
-#‰¼‚Å‚·
+#ä»®ã§ã™
 #Train['9301 9321'].Stop(0, 0, 2.5, 35);

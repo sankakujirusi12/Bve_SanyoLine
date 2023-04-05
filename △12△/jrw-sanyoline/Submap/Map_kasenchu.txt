@@ -1,4 +1,4 @@
-﻿BveTs Map 2.00:UTF-8
+BveTs Map 2.00:UTF-8
 #架線
 $sanyo_distance+82000;
 Repeater['架線'].Begin0(, 1, 50, 50, 'kasen_50');

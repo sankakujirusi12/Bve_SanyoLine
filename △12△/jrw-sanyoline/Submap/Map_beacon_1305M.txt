@@ -1,7 +1,7 @@
-BveTs Map 2.00:shift_jis
+BveTs Map 2.00:UTF-8
 
-#‹’“_P
-#â‘ÎM†‹@—p
+#æ‹ ç‚¹P
+#çµ¶å¯¾ä¿¡å·æ©Ÿç”¨
 $sanyo_distance+83920;
 $Absolute=distance;
 include 'Submap\Absolute_ATS-P_380.txt';
@@ -35,7 +35,7 @@ $Absolute=distance;
 include 'Submap\Absolute_ATS-P_380.txt';
 Beacon.Put(25,0,2);
 #SW
-#‘SM†‹@—p
+#å…¨ä¿¡å·æ©Ÿç”¨
 $sanyo_distance+83920;
 $dis=distance;
 include 'Submap\Map_beacon_ats-sw.txt';
@@ -127,7 +127,7 @@ $sanyo_distance+118862;
 $dis=distance;
 include 'Submap\Map_beacon_ats-sw.txt';
 
-#‘¼ü
+#ä»–ç·š
 $sanyo_distance+83920;
 $dis=distance;
 $Track='hime6';

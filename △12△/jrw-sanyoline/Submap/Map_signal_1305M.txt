@@ -1,4 +1,4 @@
-﻿BveTs Map 2.00:UTF-8
+BveTs Map 2.00:UTF-8
 #信号
 
 $sanyo_distance+84284;

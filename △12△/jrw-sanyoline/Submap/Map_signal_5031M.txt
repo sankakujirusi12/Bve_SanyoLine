@@ -1,5 +1,5 @@
-BveTs Map 2.00:shift_jis
-#M†
+BveTs Map 2.00:UTF-8
+#ä¿¡å·
 
 $sanyo_distance+84284;
 structure['Signalpole4'].Put(0,-2.7,5.4,0,0,0,0,0,0);
@@ -66,7 +66,7 @@ structure['Signalpole3'].Put(0,-2.8,5,0,0,0,0,0,0);
 Signal['type3'].Put(1,0,-2.8,5.2,0.4,0,0,0,0,0);
 structure['2hei'].Put(0,-2.8,3.4,0.4,0,0,0,0,0);
 $sanyo_distance+92180;
-#’†Œp
+#ä¸­ç¶™
 structure['Signalpole1'].Put(0,7.5,7,0,0,0,0,0,0);
 Signal['type30'].Put(1,0,7.5,6.7);
 $sanyo_distance+92660;
@@ -169,12 +169,12 @@ structure['Signalpole1'].Put(0,-2.5,5,0,0,0,0,0,0);
 Signal['type3'].Put(1,0,-2.5,5.2,0.4,0,0,0,0,0);
 structure['1hei'].Put(0,-2.5,3.4,0.4,0,0,0,0,0);
 $sanyo_distance+111575;
-#ê“à
+#å ´å†…
 structure['Signalpole1'].Put(0,-2.5,5,0,0,0,0,0,0);
 Signal['type3_b'].Put(1,0,-2.7,5.6,0.4,0,0,0,0,0);
 structure['Signal3L0_b'].Put(0,-2.3,4.6,0,0,0,0,0,0);
 $sanyo_distance+112106;
-#’†Œp
+#ä¸­ç¶™
 structure['Signalpole4'].Put(0,-5.5,6,0,0,0,0,0,0);
 $sanyo_distance+112106-1;
 Signal['type30'].Put(1,0,-5.5,5.4);
@@ -185,7 +185,7 @@ structure['6hei'].Put(0,-2.5,3.4,0.4,0,0,0,0,0);
 $sanyo_distance+113280;
 structure['Signalpole1'].Put(0,-3.5,5,0,0,0,0,0,0);
 Signal['type30'].Put(1,0,-3.5,5);
-#’†Œp
+#ä¸­ç¶™
 $sanyo_distance+113649;
 structure['Signalpole1'].Put(0,-2.5,5,0,0,0,0,0,0);
 Signal['type3'].Put(1,0,-2.5,5.2,0.4,0,0,0,0,0);
@@ -210,7 +210,7 @@ $sanyo_distance+118035;
 structure['Signalpole1'].Put(0,-3.5,5,0,0,0,0,0,0);
 Signal['type30'].Put(1,0,-3.5,5);
 Signal['CourseC'].Put(1,0,-3.5,4);
-#ê“à’†Œp
+#å ´å†…ä¸­ç¶™
 $sanyo_distance+118251;
 structure['Signalpole1'].Put(0,-4.4,4.6,0,0,0,0,0,0);
 structure['Signal3L0'].Put(0,-4.4,4.8,0,0,0,0,0,0);
@@ -221,38 +221,38 @@ Signal['type3'].Put(1,0,-3.5,5.7,0.4,0,0,0,0,0);
 structure['3jou'].Put(0,-3.3,5,-0.1,0,0,0,0,0);
 structure['Clamp3R'].Put(0,-3.1,2.8,0,0,0,0,0,0);
 structure['Signal4L0'].Put(0,-3.1,3.8,0,0,0,0,0,0);
-#ê“à
+#å ´å†…
 $sanyo_distance+118750;
 structure['Signalpole1'].Put(0,4.5,6,0,0,0,0,0,0);
 Signal['type30'].Put(1,0,4.3,5.4);
-#o”­’†Œp
+#å‡ºç™ºä¸­ç¶™
 $sanyo_distance+118862;
 structure['Signalpole1'].Put(0,2.5,5,0,0,0,0,0,0);
 Signal['type3'].Put(1,0,2.2,5.5,0.4,0,0,0,0,0);
 structure['Signal3L0'].Put(0,2.7,4.6,0.4,0,0,0,0,0);
-#ãŒSo”­
+#ä¸Šéƒ¡å‡ºç™º
 $sanyo_distance+119884;
 structure['Signalpole1'].Put(0,-2.5,5,0,0,0,0,0,0);
 Signal['type3'].Put(1,0,-2.5,5.2,0.4,0,0,0,0,0);
-#OÎ‰º‚è13
+#ä¸‰çŸ³ä¸‹ã‚Š13
 $sanyo_distance+120794;
 structure['Signalpole1'].Put(0,-2.5,5,0,0,0,0,0,0);
 Signal['type3'].Put(1,0,-2.5,5.2,0.4,0,0,0,0,0);
-#OÎ‰º‚è12
+#ä¸‰çŸ³ä¸‹ã‚Š12
 $sanyo_distance+121775;
 structure['Signalpole1'].Put(0,-2.5,5,0,0,0,0,0,0);
 Signal['type3'].Put(1,0,-2.5,5.2,0.4,0,-7,0,0,0);
-#OÎ‰º‚è11
+#ä¸‰çŸ³ä¸‹ã‚Š11
 $sanyo_distance+128366;
 structure['Signalpole1'].Put(0,3.5,5,0,0,0,0,0,0);
 Signal['type4'].Put(1,0,3.5,5.2,0.4,0,0,0,0,0);
 structure['2hei'].Put(0,3.5,3.4,0.4,0,0,0,0,0);
-#OÎ‰º‚è2
+#ä¸‰çŸ³ä¸‹ã‚Š2
 $sanyo_distance+144165;
 structure['Signalpole3'].Put(0,-7.8,6,0,0,0,0,0,0);
 Signal['type3'].Put(1,0,-7.8,6.2,0.4,0,0,0,0,0);
-#˜a‹Co”­
-#‘¼ü
+#å’Œæ°—å‡ºç™º
+#ä»–ç·š
 $sanyo_distance+88489;
 structure['2syutsu'].Put('nakage',-2.4,4.2,-0.2,0,0,0,0,0);
 structure['Signalpole1'].Put('nakage',-2.2,4.6,0,0,0,0,0,0);

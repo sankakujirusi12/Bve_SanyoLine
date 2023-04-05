@@ -1,6 +1,6 @@
-BveTs Instrument Panel 2.00:shift_jis
+BveTs Instrument Panel 2.00:UTF-8
 
-;‚Ï‚Ë‚é
+;ã±ã­ã‚‹
 [This]
 Resolution = 1370
 Left   = 7
@@ -13,7 +13,7 @@ Center = 1180, 639
 Origin = 1173, 638
 
 
-;ˆ³—ÍŒv1
+;åœ§åŠ›è¨ˆ1
 [PilotLamp]
 Subject = true
 Location = 684,1033
@@ -53,7 +53,7 @@ Maximum = 1000
 NaturalFreq = 60
 DampingRatio = 0.02
 
-;ˆ³—ÍŒv2
+;åœ§åŠ›è¨ˆ2
 [PilotLamp]
 Subject = true
 Location = 856,1030
@@ -93,7 +93,7 @@ Maximum = 1000
 NaturalFreq = 60
 DampingRatio = 0.02
 
-;‘¬“xŒv
+;é€Ÿåº¦è¨ˆ
 [PilotLamp]
 Subject = true
 Location = 1006, 1001
@@ -117,7 +117,7 @@ Maximum = 122
 NaturalFreq = 5
 DampingRatio = 0.5
 
-;ˆ³—ÍŒv3
+;åœ§åŠ›è¨ˆ3
 [PilotLamp]
 Subject = true
 Location = 1326, 1032
@@ -157,7 +157,7 @@ Maximum = 1000
 NaturalFreq = 60
 DampingRatio = 0.02
 
-;‚ˆ³“dˆ³Œv
+;é«˜åœ§é›»åœ§è¨ˆ
 [PilotLamp]
 Subject = true
 Location = 1443, 977
@@ -183,7 +183,7 @@ Maximum = 2000
 NaturalFreq = 5
 DampingRatio = 0.5
 
-;’áˆ³“dˆ³Œv
+;ä½åœ§é›»åœ§è¨ˆ
 [PilotLamp]
 Subject = true
 Location = 1614, 977
@@ -215,7 +215,7 @@ DaytimeImage   = ../../../../../../Rock_On\Train\JR\Vehicle\115\panel_O\plon.png
 NighttimeImage = ../../../../../../Rock_On\Train\JR\Vehicle\115\panel_O\plon_N.png
 Layer = 1
 
-;ÔF“”
+;èµ¤è‰²ç¯
 ;[PilotLamp]
 ;Subject = 
 ;Location = 851, 1192
@@ -223,7 +223,7 @@ Layer = 1
 ;NighttimeImage = red_N.png
 ;Layer = 1
 
-;’¼’Ê
+;ç›´é€š
 [PilotLamp]
 Subject = ats35
 Location = 990, 1197
@@ -231,7 +231,7 @@ DaytimeImage   = ../../../../../../Rock_On\Train\JR\Vehicle\115\panel_O\direct.p
 NighttimeImage = ../../../../../../Rock_On\Train\JR\Vehicle\115\panel_O\direct_N.png
 Layer = 1
 
-;”­“d
+;ç™ºé›»
 [PilotLamp]
 Subject = ats210
 Location = 1038, 1197
@@ -239,7 +239,7 @@ DaytimeImage   = ../../../../../../Rock_On\Train\JR\Vehicle\115\panel_O\generati
 NighttimeImage = ../../../../../../Rock_On\Train\JR\Vehicle\115\panel_O\generation_N.png
 Layer = 1
 
-;—}‘¬
+;æŠ‘é€Ÿ
 [Pilotlamp]
 Subject = ats211
 Location = 1085, 1197
@@ -247,7 +247,7 @@ DaytimeImage = ../../../../../../Rock_On\Train\JR\Vehicle\115\panel_O\holdingbra
 NighttimeImage = ../../../../../../Rock_On\Train\JR\Vehicle\115\panel_O\holdingbrake_N.png
 Layer = 4
 
-;O‘Š
+;ä¸‰ç›¸
 ;[PilotLamp]
 ;Subject = 
 ;Location = 1255, 1197
@@ -264,7 +264,7 @@ DaytimeImage   = ../../../../../../Rock_On\Train\JR\Vehicle\115\panel_O\ats.png
 NighttimeImage = ../../../../../../Rock_On\Train\JR\Vehicle\115\panel_O\ats_N.png
 Layer = 1
 
-;ATS“®ì
+;ATSå‹•ä½œ
 [PilotLamp]
 Subject = ats1
 Location = 1385, 1197
@@ -272,7 +272,7 @@ DaytimeImage = ../../../../../../Rock_On\Train\JR\Vehicle\115\panel_O\atswork.pn
 NighttimeImage = ../../../../../../Rock_On\Train\JR\Vehicle\115\panel_O\atswork_N.png
 Layer = 1
 
-;‘ÏáƒuƒŒ[ƒL
+;è€é›ªãƒ–ãƒ¬ãƒ¼ã‚­
 ;[PilotLamp]
 ;Subject = true
 ;Location = 1427, 1197
@@ -280,7 +280,7 @@ Layer = 1
 ;NighttimeImage = snow_N.png
 ;Layer = 1
 
-;—\”õ
+;äºˆå‚™
 ;[PilotLamp]
 ;Subject = true
 ;Location = 1469, 1197
@@ -288,8 +288,8 @@ Layer = 1
 ;NighttimeImage = extra_N.png
 ;Layer = 1
 
-;ˆÈ‰ºATS-P
-;P“dŒ¹
+;ä»¥ä¸‹ATS-P
+;Pé›»æº
 [PilotLamp]
 Subject = ats2
 Location = 1774, 578
@@ -297,7 +297,7 @@ DaytimeImage   = ../../../../../../Rock_On\Train\JR\Vehicle\115\panel_O\p_power.
 NighttimeImage = ../../../../../../Rock_On\Train\JR\Vehicle\115\panel_O\p_powerN.png
 Layer = 1
 
-;PÚ‹ß
+;Pæ¥è¿‘
 [PilotLamp]
 Subject = ats3
 Location = 1774, 629
@@ -305,7 +305,7 @@ DaytimeImage   = ../../../../../../Rock_On\Train\JR\Vehicle\115\panel_O\pattern.
 NighttimeImage = ../../../../../../Rock_On\Train\JR\Vehicle\115\panel_O\pattern_N.png
 Layer = 1
 
-;B“®ì
+;Bå‹•ä½œ
 [PilotLamp]
 Subject = ats5
 Location = 1774, 673
@@ -313,7 +313,7 @@ DaytimeImage   = ../../../../../../Rock_On\Train\JR\Vehicle\115\panel_O\p_apply.
 NighttimeImage = ../../../../../../Rock_On\Train\JR\Vehicle\115\panel_O\p_applyN.png
 Layer = 1
 
-;BŠJ•ú
+;Bé–‹æ”¾
 [PilotLamp]
 Subject = ats4
 Location = 1774, 716
@@ -329,7 +329,7 @@ DaytimeImage   = ../../../../../../Rock_On\Train\JR\Vehicle\115\panel_O\p_atsp.p
 NighttimeImage = ../../../../../../Rock_On\Train\JR\Vehicle\115\panel_O\p_atspN.png
 Layer = 1
 
-;ATS-P(SW‹’“_P‹æŠÔ—p)
+;ATS-P(SWæ‹ ç‚¹PåŒºé–“ç”¨)
 [PilotLamp]
 Subject = ats64
 Location = 1774, 762
@@ -337,7 +337,7 @@ DaytimeImage   = ../../../../../../Rock_On\Train\JR\Vehicle\115\panel_O\p_atsp.p
 NighttimeImage = ../../../../../../Rock_On\Train\JR\Vehicle\115\panel_O\p_atspN.png
 Layer = 2
 
-;ŒÌá
+;æ•…éšœ
 [PilotLamp]
 Subject = ats7
 Location = 1774, 802
@@ -345,7 +345,7 @@ DaytimeImage   = ../../../../../../Rock_On\Train\JR\Vehicle\115\panel_O\p_failur
 NighttimeImage = ../../../../../../Rock_On\Train\JR\Vehicle\115\panel_O\p_failureN.png
 Layer = 1
 
-;Œv
+;æ™‚è¨ˆ
 [Needle]
 Location = 1185, 1095
 Subject = hour

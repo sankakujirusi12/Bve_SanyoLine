@@ -1,4 +1,4 @@
-BveTs Train 1.01:shift_jis
+BveTs Train 1.01:UTF-8
 [structure]
 key=ef65pf
 distance=-8
@@ -60,7 +60,7 @@ distance=200
 z=8
 span=16
 
-;‰e
+;å½±
 [structure]
 key=shadow_66
 distance=-8

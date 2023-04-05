@@ -1,5 +1,5 @@
-BveTs Map 2.00:shift_jis
-#æs
+BveTs Map 2.00:UTF-8
+#å…ˆè¡Œ
 $sanyo_distance+84789;
 PreTrain.Pass('22:10:10');
 $sanyo_distance+119320;

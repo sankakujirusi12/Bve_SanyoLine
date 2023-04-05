@@ -1,4 +1,4 @@
-﻿BveTs Map 2.00:shift_jis
+BveTs Map 2.00:UTF-8
 #R308、右へ分岐用
 $distance;
 structure['Point1L'].Put(0,-0.4,0,0,0,0,0,0,0);

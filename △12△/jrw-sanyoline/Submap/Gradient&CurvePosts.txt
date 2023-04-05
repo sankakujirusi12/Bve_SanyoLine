@@ -1,12 +1,12 @@
-BveTs Map 2.00:shift_jis
+BveTs Map 2.00:UTF-8
 
 
-#‹Èü•W
+#æ›²ç·šæ¨™
 $sanyo_distance+87411;
 structure['curvepost'].Put('sanyokudari',-2.3,-0.2,0,0,0,0,0,0);
 
 
-#Œù”z•W
+#å‹¾é…æ¨™
 $sanyo_distance+85614;
 structure['gradientpost_LU'].Put('sanyokudari',-2,-0.2,0,0,0,0,0,0);
 $sanyo_distance+86676;

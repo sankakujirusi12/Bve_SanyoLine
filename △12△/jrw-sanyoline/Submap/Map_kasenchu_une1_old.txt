@@ -1,4 +1,4 @@
-﻿BveTs Map 2.00:UTF-8
+BveTs Map 2.00:UTF-8
 $sanyo_distance+111716;
 Repeater['架線6'].Begin0('nakajou2', 1, 40, 40, 'kasen_40');
 Repeater['架線7'].Begin0('nakajou2', 1, 40, 40, 'kasen_40');

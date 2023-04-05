@@ -1,4 +1,4 @@
-BveTs Train 1.01:shift_jis
+BveTs Train 1.01:UTF-8
 [structure]
 key=Tc222-2000
 distance=0

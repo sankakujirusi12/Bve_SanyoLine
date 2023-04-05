@@ -1,4 +1,4 @@
-BveTs Map 2.00:shift_jis
+BveTs Map 2.00:UTF-8
 $sanyo_distance+83500;
 Train['325M'].Load('Trains\night\223-2000_t.txt', 'watari1', 1);
 Train['1068'].Load('Trains\ef210+koki20b1.txt', 'sanyonobori', -1);

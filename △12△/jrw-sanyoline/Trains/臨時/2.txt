@@ -1,5 +1,5 @@
-BveTs Train 1.01:shift_jis
-#113Œnƒ†ƒjƒbƒg
+BveTs Train 1.01:UTF-8
+#113ç³»ãƒ¦ãƒ‹ãƒƒãƒˆ
 [structure]
 key=M113_40n
 distance=0

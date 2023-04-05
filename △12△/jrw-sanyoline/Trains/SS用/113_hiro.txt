@@ -1,4 +1,4 @@
-BveTs Train 1.01:shift_jis
+BveTs Train 1.01:UTF-8
 [structure]
 key=Tc111_30n_hiro
 distance=0

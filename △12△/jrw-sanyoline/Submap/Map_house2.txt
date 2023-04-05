@@ -1,8 +1,8 @@
-BveTs Map 2.00:shift_jis
+BveTs Map 2.00:UTF-8
 $sanyo_distance+101390;
 track['house'].Position(-8,0);
 track['house1'].Position(28,0);
-#Ç‹Ç†èdÇﬂ
+#„Åæ„ÅÇÈáç„ÇÅ
 Repeater['house'].Begin('house',0,0,0,0,0,0,0,10,30,'h9','h1','h2','h3','h4','h5','h6','h15',,'h18',,,,,'h19','h20',,,'h21','h22','h23','h24','h25','h26','h28','h29','h30');
 Repeater['house1'].Begin('house1',0,0,0,0,0,0,0,10,30,'h1','h22','h23','h24','h25','h26','h2',,,,,,,,,,,'h15','h18',,'h19','h20',,'h21','h28',,'h29','h30',,,'h3','h4','h5','h6','h9');
 $sanyo_distance+102220;

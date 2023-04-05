@@ -1,4 +1,4 @@
-﻿BveTs Map 2.00:shift_jis
+BveTs Map 2.00:UTF-8
 $sanyo_distance+85120;
 track['house1'].Position(12,-5);
 repeater['road_1sya'].Begin0('house1',1,50,50,'ensen0R','ensen1R');

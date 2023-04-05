@@ -1,4 +1,4 @@
-﻿BveTs Map 2.00:shift_jis
+BveTs Map 2.00:UTF-8
 $sanyo_distance+86359.6;
 structure['1'].Put(0,-2.6,2,0,0,0,0,0,0);
 structure['hime_aho_1'].Put(0,-2.6,2,0,0,0,0,0,0);

@@ -1,4 +1,4 @@
-BveTs Train 1.01:shift_jis
+BveTs Train 1.01:UTF-8
 ;K-01 K-02 K-03
 [structure]
 key=Tc115-1101_30n
