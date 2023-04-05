@@ -147,20 +147,20 @@ Clamp3R,../../Nagoya_Common\Railway_Obj\SigPole\Clamp\3R.x
 
 
 #信号喚呼位置標
-kanko_0,Structures\e_line\sign\kanko\0_o.x
-kanko_1,Structures\e_line\sign\kanko\1_o.x
-kanko_2,Structures\e_line\sign\kanko\2_o.x
-kanko_3,Structures\e_line\sign\kanko\3_o.x
-kanko_4,Structures\e_line\sign\kanko\4_o.x
-kanko_5,Structures\e_line\sign\kanko\5_o.x
-kanko_6,Structures\e_line\sign\kanko\6_o.x
-kanko_7,Structures\e_line\sign\kanko\7_o.x
-kanko_8,Structures\e_line\sign\kanko\8_o.x
-kanko_9,Structures\e_line\sign\kanko\9_o.x
-kanko_10,Structures\e_line\sign\kanko\10_o.x
-kanko_jounai,Structures\e_line\sign\kanko\jonai_n.x
-kanko_chukei,Structures\e_line\sign\kanko\chukei_n.x
-kanko_syuppatsu,Structures\e_line\sign\kanko\shuppatsu_n.x
+kanko_0,Structures\FCS_TM\sign\kanko\0_o.x
+kanko_1,Structures\FCS_TM\sign\kanko\1_o.x
+kanko_2,Structures\FCS_TM\sign\kanko\2_o.x
+kanko_3,Structures\FCS_TM\sign\kanko\3_o.x
+kanko_4,Structures\FCS_TM\sign\kanko\4_o.x
+kanko_5,Structures\FCS_TM\sign\kanko\5_o.x
+kanko_6,Structures\FCS_TM\sign\kanko\6_o.x
+kanko_7,Structures\FCS_TM\sign\kanko\7_o.x
+kanko_8,Structures\FCS_TM\sign\kanko\8_o.x
+kanko_9,Structures\FCS_TM\sign\kanko\9_o.x
+kanko_10,Structures\FCS_TM\sign\kanko\10_o.x
+kanko_jounai,Structures\FCS_TM\sign\kanko\jonai_n.x
+kanko_chukei,Structures\FCS_TM\sign\kanko\chukei_n.x
+kanko_syuppatsu,Structures\FCS_TM\sign\kanko\shuppatsu_n.x
 
 #信号名称標
 1syutsu,Structures\△12△\singoumei\1syutsu.x
@@ -298,7 +298,7 @@ BlankR_03,Structures\Uchibo\Dike\blank_R03.x
 #山(自作)
 Mt1L,Structures\△12△\Nature\Mt1L.x
 Mt1R,Structures\△12△\Nature\Mt1R.x
-
+Mt2,Structures\△12△\Nature\Mt2.x
 #------------------------------------------------------------------横取-------------------------------------------------------------------
 yokodoriL,../../Nagoya_Common\Railway_Obj\Yokodori\1067mm_L.x
 yokodoriR,../../Nagoya_Common\Railway_Obj\Yokodori\1067mm_R.x
@@ -838,10 +838,10 @@ Aioi_shinkansen,Structures\△12△\sta\aioi\Aioi_sks.x
 Uneform_CL,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCL_une.x
 Uneform_CR,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCR_une.x
 #上郡
-Chizu0,Structures\△12△\sta\kami\kami_chizu.x
+Chizu0,Structures\△12△\sta\kamigori\kami_chizu.x
 Chizu1,../../Nagoya_Common\Build\Station\Ekisya2\Obj1.x
-kami_kosen,Structures\△12△\sta\kamigori kumayama\kosen.x
-Kamigori_tumesyo,Structures\△12△\sta\kami\Kamigori_tumesyo.x
+kami_kosen,Structures\△12△\sta\kumayama\kosen.x
+Kamigori_tumesyo,Structures\△12△\sta\kamigori\Kamigori_tumesyo.x
 #吉永
 Yoshinaga_oidensee,Structures\△12△\sta\yoshinaga\yoshinaga_oidensee.x
 #万富

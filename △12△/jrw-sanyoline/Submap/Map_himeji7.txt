@@ -50,7 +50,7 @@ structure['himeji_teimoku'].Put(0,2,-0.2,0,0,0,0,0,0);
 	Track['sanyokudari'].Position(-14,0);
 $sanyo_distance+83890;
 structure['karetei'].Put(0,-2.5,3.39,-0.1,0,0,0,0,0);
-structure['teimokupole'].Put(0,-2.5,3.59,0,0,0,0,0,0);
+structure['teimokupole'].Put(0,-2.8,1.2,0,0,0,0,0,0);
 $sanyo_distance+83895;
 	repeater['Form_L'].End();
 	repeater['Form_R'].End();

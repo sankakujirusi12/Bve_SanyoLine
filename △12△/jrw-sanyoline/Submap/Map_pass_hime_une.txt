@@ -1386,6 +1386,8 @@ $sanyo_distance+91366;
 structure['teimokupole2'].Put(0,-2.3,3,0.1,0,0,0,0,0);
 structure['8tei'].Put(0,-2.3,3,0,0,0,0,0,0);
 $sanyo_distance+91400;
+
+structure['Mt2'].Put('',110,-10,0,0,0,0,0,0);
 Curve.Interpolate(0,0);
 Track['sanyonobori'].Cant.Interpolate(0);
 $sanyo_distance+91405;
@@ -3575,16 +3577,12 @@ $sanyo_distance+104486;
 structure['hassya3'].Put(0,-5.5,5,0,0,0,0,0,0);
 #Sound3D['sazanami'].Put(-6.5, 4);
 $sanyo_distance+104501;
-structure['form_stairs'].Put(0,-4,6.5,4,0,0,0,0,0);
-structure['form_stairs'].Put(0,8,6.5,4,0,0,0,0,0);
 structure['Aioi_sta'].Put(0,-8.9,0,0,0,0,0,0,0);
 structure['Aioi_sta'].Put(0,0.8,0,0,0,0,0,0,0);
 structure['Aioi_sta'].Put(0,10.4,0,0,0,0,0,0,0);
 structure['Aioi_sta'].Put(0,20,0,0,0,0,0,0,0);
 structure['EV'].Put(0,-4,0,0,0,0,0,0,0);
 structure['EV'].Put(0,8,0,0,0,0,0,0,0);
-structure['form_stairs'].Put(0,-4,6.5,10,0,180,0,0,0);
-structure['form_stairs'].Put(0,8,6.5,10,0,180,0,0,0);
 #オサアイ上屋
 	Track['sinkad'].Position(27, 14);
 	Track['sinkau'].Position(31, 14);
@@ -3622,7 +3620,7 @@ $sanyo_distance+104584;
 #全停目(客ﾚ)
 
 structure['retsutei'].Put(0,-2.3,3.39,-0.1,0,0,0,0,0);
-structure['teimokupole'].Put(0,-2.3,3.55,0,0,0,0,0,0);
+structure['teimokupole'].Put(0,-2.8,1.2,0,0,0,0,0,0);
 $sanyo_distance+104586;
 #上下ホーム終端(以降は「古い」)
 #渡線
@@ -3643,7 +3641,7 @@ repeater['Oldform_CL'].Begin0(0,1,5,5,'Oldform_CL');
 $sanyo_distance+104594;
 #全停
 structure['karetei'].Put(0,-2.3,3.39,-0.1,0,0,0,0,0);
-structure['teimokupole'].Put(0,-2.3,3.5,0,0,0,0,0,0);
+structure['teimokupole'].Put(0,-2.8,1.2,0,0,0,0,0,0);
 repeater['Ballast_gr4'].End();
 	Track['nakajou'].Position(4,0,214,0);
 $sanyo_distance+104601;
@@ -3764,7 +3762,7 @@ repeater['ballast8'].End();
 repeater['DikeL1'].End();
 repeater['DikeR1'].End();
 	Track['Mt_L'].Position(-140,-10,0,0);
-repeater['Mt_L1'].Begin('Mt_L',0,0,0,0,0,0,0,50,50,'Mt1L');
+
 $sanyo_distance+105015;
 
 $sanyo_distance+105025;
@@ -3773,6 +3771,7 @@ $sanyo_distance+105025;
 $sanyo_distance+105037;
 	repeater['densen'].End();
 $sanyo_distance+105045;
+
 repeater['kyoukyaku'].Begin('sinkau',0,0,0,0,0,0,0,25,25,'shinkan_kyoukyaku');
 repeater['kyoukyaku1'].Begin('sinkad',0,0,0,0,0,0,0,25,25,'shinkan_kyoukyaku');
 $sanyo_distance+105069.6;
@@ -3795,6 +3794,9 @@ $sanyo_distance+105237;
 repeater['road_1sya'].Begin0('douro3',1,10,2.5,'Road_1sya_nb');
 $sanyo_distance+105256;
 #交差点
+structure['Mt2'].Put('',-122,-10,-30,0,0,0,0,0);
+structure['Mt2'].Put('',-122,-10,-30,50,0,0,0,0);
+repeater['Mt_L1'].Begin('',-82,-15,0,0,0,0,0,55,55,'Mt2');
 repeater['zas2'].Begin('Grass2',-20.5,4,0,0,0,0,1,20,20,'Mt_wall_18a','Mt_wall_10a','Mt_wall_14b','Mt_wall_16a',,'Mt_wall_15b','Mt_wall_13b');
 	Track['douro3'].Position(36,-6,0);
 repeater['road_1sya'].End();
@@ -3810,6 +3812,7 @@ repeater['kyoukyaku'].End();
 repeater['kyoukyaku1'].End();
 	Track['sinkad'].Position(-207,11,0,0);
 	Track['sinkau'].Position(-202,11,0,0);
+
 $sanyo_distance+105310;
 #山
 	Track['Mt_L'].Position(-60,-5,0,0);
@@ -3854,9 +3857,9 @@ repeater['zas4'].Begin('Grass2',24.5,4,0,0,0,0,1,20,20,'Mt_wall_18a','Mt_wall_10
 $sanyo_distance+105962;
 
 $sanyo_distance+106001;
-structure['Mt1R'].Put('Mt_R',55,0,0,0,0,0,0,0);
+structure['Mt2'].Put('Mt_R',55,0,0,0,0,0,0,0);
 	Track['Mt_R'].Position(42,-10,0,0);
-repeater['Mt_R1'].Begin('Mt_R',0,0,0,0,0,0,0,55,55,'Mt1R');
+repeater['Mt_R1'].Begin('Mt_R',38,0,0,0,0,0,0,55,55,'Mt2');
 $sanyo_distance+106041;
 repeater['DikeL2'].End();
 repeater['DikeR2'].End();
