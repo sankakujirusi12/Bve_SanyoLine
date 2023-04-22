@@ -147,20 +147,20 @@ Clamp3R,../../Nagoya_Common\Railway_Obj\SigPole\Clamp\3R.x
 
 
 #信号喚呼位置標
-kanko_0,Structures\FCS_TM\sign\kanko\0_o.x
-kanko_1,Structures\FCS_TM\sign\kanko\1_o.x
-kanko_2,Structures\FCS_TM\sign\kanko\2_o.x
-kanko_3,Structures\FCS_TM\sign\kanko\3_o.x
-kanko_4,Structures\FCS_TM\sign\kanko\4_o.x
-kanko_5,Structures\FCS_TM\sign\kanko\5_o.x
-kanko_6,Structures\FCS_TM\sign\kanko\6_o.x
-kanko_7,Structures\FCS_TM\sign\kanko\7_o.x
-kanko_8,Structures\FCS_TM\sign\kanko\8_o.x
-kanko_9,Structures\FCS_TM\sign\kanko\9_o.x
-kanko_10,Structures\FCS_TM\sign\kanko\10_o.x
-kanko_jounai,Structures\FCS_TM\sign\kanko\jonai_n.x
-kanko_chukei,Structures\FCS_TM\sign\kanko\chukei_n.x
-kanko_syuppatsu,Structures\FCS_TM\sign\kanko\shuppatsu_n.x
+kanko_0,Structures\FCS_TM\kanko\0_o.x
+kanko_1,Structures\FCS_TM\kanko\1_o.x
+kanko_2,Structures\FCS_TM\kanko\2_o.x
+kanko_3,Structures\FCS_TM\kanko\3_o.x
+kanko_4,Structures\FCS_TM\kanko\4_o.x
+kanko_5,Structures\FCS_TM\kanko\5_o.x
+kanko_6,Structures\FCS_TM\kanko\6_o.x
+kanko_7,Structures\FCS_TM\kanko\7_o.x
+kanko_8,Structures\FCS_TM\kanko\8_o.x
+kanko_9,Structures\FCS_TM\kanko\9_o.x
+kanko_10,Structures\FCS_TM\kanko\10_o.x
+kanko_jounai,Structures\FCS_TM\kanko\jonai_n.x
+kanko_chukei,Structures\FCS_TM\kanko\chukei_n.x
+kanko_syuppatsu,Structures\FCS_TM\kanko\shuppatsu_n.x
 
 #信号名称標
 1syutsu,Structures\△12△\singoumei\1syutsu.x
@@ -793,10 +793,7 @@ Mon1,Structures\△12△\monitor\monitor_wide.x
 over0,../../Nagoya_Common\Build\Over\00.x
 
 #-------------------------------------------------------------------------駅名標-----------------------------------------------------------------------------
-name_tanu,Structures\△12△\ekimeihyou\tatsuno_H.x
-name_ai,Structures\△12△\ekimeihyou\aioi_H.x
-name_une,Structures\△12△\ekimeihyou\une_H.x
-name_hoshi,Structures\△12△\ekimeihyou\aboshi_H.x
+
 
 #------------------------------------------------------------------------駅ストラクチャ-------------------------------------------------------------------------
 #共通
@@ -811,6 +808,7 @@ Himeform_R,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormR_hime.x
 Himeform_CL,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCL_hime.x
 Himeform_CR,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCR_hime.x
 Himeji_teimoku,Structures\△12△\sta\himeji\Himeji_teimoku.x
+Himeji_roof,Structures\△12△\sta\himeji\Himeji_roof.x
 #英賀保
 AgahoRoofL,Structures\△12△\sta\agaho\Agahoroof.x
 Agaho_EV,Structures\△12△\sta\agaho\Agaho_EV.x
@@ -860,6 +858,8 @@ katsu_hoshi_apart1,Structures\△12△\ensen\katsu_hoshi_apart1.x
 #網干駅
 Aboshi_kanban,Structures\△12△\ensen\Aboshi_kanban.x
 
+#有年～上郡
+Sayo_kozuki,Structures\△12△\ensen\Sayo_kozuki.x
 
 #---------------------------------------------Train----------------------------
 
@@ -1068,13 +1068,7 @@ Tc'111_30n,Structures\113west\113_30N\Tc111_1b.x
 ;M115-1109_setouchi,Structures\FTN\JRW113-30N_setouchi\M115-1109.x
 
 #113系(30N 末期色)
-Tc'111-2000_makki30n,Structures\FTN\JRW113-30N_yellow\Tc111-2000.x
-Tc111-2101_makki30n,Structures\FTN\JRW113-30N_yellow\Tc111-2101.x
-Tc111-811_makki,Structures\FTN\JRW115-Y\Tc111-811.x
-Tc'111-812_makki,Structures\FTN\JRW115-Y\Tc111-812.x
-M113-2000_makki30n,Structures\FTN\JRW113-30N_yellow\M113-2000.x
-M'112-2000_makki30n,Structures\FTN\JRW113-30N_yellow\M112-2000.x
-M'112-2023_makki30n,Structures\FTN\JRW113-30N_yellow\M112-2023.x
+
 #↑Wパン
 #113系(末期色)
 Tc111-254_makki,Structures\113west\113_30Nmakki\Tc111_2.x

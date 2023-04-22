@@ -583,7 +583,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "beam_sanyo.dds";
+    "beam_sanyo_B.dds";
    }
   }
 

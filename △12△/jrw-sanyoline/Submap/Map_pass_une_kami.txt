@@ -255,6 +255,10 @@ Curve.Interpolate(0, 0);
 Track['sanyonobori'].Cant.Interpolate(0);
 $sanyo_distance+114240;
 	Track['Mt_R'].Position(133,25,0,0);
+
+$sanyo_distance+114292;
+structure['Sayo_kozuki'].Put('Route373',-3.5,0,0,0,0,0,0,2);
+
 $sanyo_distance+114352;
 	Track['Route373'].Position(-10,-2,-800);
 	Track['Grass2'].Position(0,-2.45);
