@@ -1,7 +1,7 @@
-BveTs Station List 2.00:shift_jis,,,,,,,,,,,,
+BveTs Station List 2.00:UTF-8,,,,,,,,,,,,
 #stationKey,stationText,arrivalTime,depertureTime,stoppageTime,defaultTime,signalFlag,alightingTime,passengers,arrivalSoundKey,depertureSoundKey,doorReopen,stuckInDoor
-Sta1,–Ô@@Š±,13:23:00,13:24:00,,13:23:00,0,0,0,,,0,0
-Sta2,—³@@–ì,p,,,,0,0,0,,,0,0
-Sta3,‘Š@@¶,p,13:35:15,,,0,0,0,,,0,0
-Sta4,—L@@”N,p,,,,0,0,0,,,0,0
-Sta5,ã@@ŒS,13:48:15,t,0,13:48:15,0,0,0,,,0,0
+Sta1,ç¶²ã€€ã€€å¹²,13:23:00,13:24:00,,13:23:00,0,0,0,,,0,0
+Sta2,ç«œã€€ã€€é‡,p,,,,0,0,0,,,0,0
+Sta3,ç›¸ã€€ã€€ç”Ÿ,p,13:35:15,,,0,0,0,,,0,0
+Sta4,æœ‰ã€€ã€€å¹´,p,,,,0,0,0,,,0,0
+Sta5,ä¸Šã€€ã€€éƒ¡,13:48:15,t,0,13:48:15,0,0,0,,,0,0
