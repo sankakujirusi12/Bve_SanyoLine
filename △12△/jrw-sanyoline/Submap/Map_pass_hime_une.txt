@@ -187,8 +187,8 @@ $sanyo_distance+85095;
 	Repeater['Trees'].Begin('route415',-5,0,0,0,0,0,1,10,10,'tree21','tree22','tree23',,'tree24','tree25');
 	Repeater['Trees1'].Begin('route415',5,0,0,0,0,0,1,10,10,'tree25',,'tree24','tree21','tree23','tree22');
 	repeater['road_2sya'].Begin0('route415',1,6,6,'Road_2sya');
-	repeater['peopleroad_L'].Begin('route415',-1,0,0,0,0,0,1,6,6,'peopleroad_L');
-	repeater['peopleroad_R'].Begin('route415',1,0,0,0,0,0,1,6,6,'peopleroad_R');
+	repeater['peopleroad_L'].Begin('route415',0,0,0,0,0,0,1,6,6,'peopleroad_L');
+	repeater['peopleroad_R'].Begin('route415',0,0,0,0,0,0,1,6,6,'peopleroad_R');
 	repeater['denchu'].Begin('route415',-6,0,0,0,0,0,1,40,40,'denchu','denchu1','denchu','denchu','denchu3','denchu1','denchu');
 	repeater['densen'].Begin('route415',-6,0,0,0,0,0,1,40,40,'densen');
 	repeater['seigen50_road'].Begin('route415',-5,0,10,0,0,0,1,40,200,'seigen50_road');
@@ -257,17 +257,51 @@ structure['Road_1sya_nb'].Put('douro1',0,0,0,0,0,0,0,2);
 $sanyo_distance+86360;
 repeater['road_1sya'].Begin0('douro1',1,7,6,'Road_2sya_nb');
 	Track['douro1'].Position(20,0);
+$sanyo_distance+86370;
+Repeater['fence_kudari'].End();
+Repeater['fence_nobori'].End();
 $sanyo_distance+86375;
-structure['Cr1_L1'].Put(0,0,0,0,0,0,0,0,2);
-structure['Cr1_L2'].Put(0,0,0,0,0,0,0,0,2);
-structure['Cr1_R2'].Put(0,0,0,0,0,0,0,0,2);
-structure['Cr1_L3'].Put(0,0,0,0,0,0,0,0,2);
-structure['Cr1_L3'].Put('sanyonobori',0,0,0,0,0,0,0,2);
-structure['Cr1_L2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
-structure['Cr1_R2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
-structure['Cr1_R1'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+
+#*********************************踏切統一構文(単線用)**************************
+
+structure['CrossSign'].Put(0,-2,0,2.5,0,90,0,0,2);
+structure['CrossPole'].Put(0,-2,0,2.5,0,90,0,0,2);
+structure['CrossSig'].Put(0,-2,0,2.5,0,90,0,0,2);
+structure['CrossTrap'].Put(0,-2,0,2.5,0,90,0,0,2);
+
+structure['Gatebox'].Put(0,-2,0,-0.5,0,90,0,0,2);
+structure['Gate250L'].Put(0,-2,0,-0.5,0,90,0,0,2);
+
+structure['TollBarSLt'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_Crossing_SR'].Put(0,0,0,0,0,0,0,0,2);
+structure['Crossing_S'].Put(0,0,0,0,0,0,0,0,2);
+structure['Crossing_S'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['Cr_Crossing_SL'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+structure['TollBarSRt'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+
+structure['Gate250R'].Put('sanyonobori',2,0,-0.5,0,-90,0,0,2);
+structure['Gatebox'].Put('sanyonobori',2,0,-0.5,0,-90,0,0,2);
+
+structure['CrossSign'].Put('sanyonobori',2,0,-1.5,0,-90,0,0,2);
+structure['CrossPole'].Put('sanyonobori',2,0,-1.5,0,-90,0,0,2);
+structure['CrossSig'].Put('sanyonobori',2,0,-1.5,0,-90,0,0,2);
+structure['CrossTrap'].Put('sanyonobori',2,0,-1.5,0,-90,0,0,2);
+
+
 Sound3D['cross'].Put(-1.5, 2.3);
 Sound3D['cross'].Put(5.5, 2.3);
+
+structure['shoken2'].Put(0,-1.5,0,-4,0,0,0,0,2);
+structure['shoken1'].Put(0,-1.5,0,4,0,0,0,0,2);
+structure['shoken2'].Put(0,1.4,0,-4,0,0,0,0,2);
+structure['shoken1'].Put(0,1.4,0,4,0,0,0,0,2);
+structure['shoken2'].Put('sanyonobori',1.5,0,-4,0,0,0,0,2);
+structure['shoken1'].Put('sanyonobori',1.5,0,4,0,0,0,0,2);
+structure['shoken2'].Put('sanyonobori',-1.4,0,-4,0,0,0,0,2);
+structure['shoken1'].Put('sanyonobori',-1.4,0,4,0,0,0,0,2);
+
+#********************************************************************
+
 #踏切1(小)
 $sanyo_distance+86480;
 repeater['road_1sya_1'].Begin0('douro2',1,7,6.9,'Road_1sya_nb');
@@ -1636,14 +1670,8 @@ repeater['Bridge2'].Begin('sanyonobori',0,0,0,0,0,0,1,5,5,'Bridge1');
 repeater['Bridge3'].Begin('sanyonobori',0,0,0,0,0,0,1,5,5,'Bridge1R');
 #下道路
 $sanyo_distance+93015;
-	structure['Road_1sya_nb'].Put('Grass',-30,0.4,0,0,-90,0,0,2);
-	structure['Road_1sya_nb'].Put('Grass',-20,0.4,0,0,-90,0,0,2);
-	structure['Road_1sya_nb'].Put('Grass',-10,0.4,0,0,-90,0,0,2);
-	structure['Road_1sya_nb'].Put('Grass',0,0.4,0,0,-90,0,0,2);
-	structure['Road_1sya_nb'].Put('Grass',0,0.4,0,0,90,0,0,2);
-	structure['Road_1sya_nb'].Put('Grass',10,0.4,0,0,90,0,0,2);
-	structure['Road_1sya_nb'].Put('Grass',20,0.4,0,0,90,0,0,2);
-	structure['Road_1sya_nb'].Put('Grass',30,0.4,0,0,90,0,0,2);
+	structure['Road_1sya_L'].Put('Grass',0,0.4,0,0,0,0,0,2);
+	structure['Road_1sya_R'].Put('Grass',0,0.4,0,0,0,0,0,2);
 $sanyo_distance+93025;
 Repeater['Bridge'].End();
 Repeater['Bridge1'].End();
@@ -1678,7 +1706,9 @@ repeater['Ballast_gr2'].End();
 repeater['DikeL'].End();
 repeater['DikeR'].End();
 repeater['BridgeL'].Begin(0,0,0,0,0,0,0,1,25,25,'BridgeL');
-repeater['BridgeR'].Begin('sanyonobori',0,0,0,0,0,0,1,25,25,'BridgeR');
+repeater['BridgeR'].Begin(0,0,0,0,0,0,0,1,25,25,'BridgeR');
+repeater['BridgeL1'].Begin('sanyonobori',0,0,0,0,0,0,1,25,25,'BridgeL');
+repeater['BridgeR1'].Begin('sanyonobori',0,0,0,0,0,0,1,25,25,'BridgeR');
 	#橋
 	Track['Grass'].Position(0,-4.45);
 Repeater['Grass'].End();
@@ -1688,6 +1718,8 @@ Gradient.Interpolate(0);
 structure['Levee_B'].Put(0,0,0,0,0,0,0,0,2);
 repeater['BridgeL'].End();
 repeater['BridgeR'].End();
+repeater['BridgeL1'].End();
+repeater['BridgeR1'].End();
 	#橋end
 Repeater['Grass'].Begin('Grass',0,0,0,0,0,0,1,25,25,'Grass');
 Repeater['River'].End();
@@ -2029,7 +2061,7 @@ $sanyo_distance+94095;
 $sanyo_distance+94100;
 structure['retsutei'].Put(0,-2.5,3.39,-0.1,0,0,0,0,0);
 structure['karetei'].Put(0,-2.8,3.39,-0.1,0,0,0,0,0);
-structure['teimokupole'].Put(0,-2.5,3.45,0,0,0,0,0,0);
+structure['teimokupole'].Put(0,-2.8,1.2,0,0,0,0,0,0);
 $sanyo_distance+94105;
 	structure['Formendfence4'].Put(0,-5.3,1.3,0,0,0,0,0,2);
 	structure['Formendfence2'].Put(0,-2.8,1.3,0,0,0,0,0,2);
@@ -3008,7 +3040,7 @@ $sanyo_distance+100000;
 #0M
 #4両停目
 structure['4tei'].Put(0,-2.3,3.4,-0.1,0,0,0,0,0);
-structure['teimokupole'].Put(0,-2.3,3.55,0,0,0,0,0,0);
+structure['teimokupole'].Put(0,-2.8,1.2,0,0,0,0,0,0);
 	Track['sinkau'].Position(-596,11);
 	Track['sinkad'].Position(-600,11);
 	repeater['road_2sya'].Begin0('douro2',1,6,6,'Road_2sya');
@@ -3023,7 +3055,7 @@ structure['teimokupole'].Put(0,-2.3,3.55,0,0,0,0,0,0);
 
 $sanyo_distance+100020;
 structure['8tei'].Put(0,-2.3,3.4,-0.1,0,0,0,0,0);
-structure['teimokupole'].Put(0,-2.3,3.55,0,0,0,0,0,0);
+structure['teimokupole'].Put(0,-2.8,1.2,0,0,0,0,0,0);
 #20M
 #8両停目
 $sanyo_distance+100033;
@@ -3031,7 +3063,7 @@ structure['name_tanu'].Put(0,-6.7,0.6,0,0,0,0,0,0);
 $sanyo_distance+100059;
 #列停
 structure['retsutei'].Put(0,-2.3,3.39,-0.1,0,0,0,0,0);
-structure['teimokupole'].Put(0,-2.3,3.55,0,0,0,0,0,0);
+structure['teimokupole'].Put(0,-2.8,1.2,0,0,0,0,0,0);
 $sanyo_distance+100062;
 repeater['Form_L'].End();
 repeater['Form_CL'].End();

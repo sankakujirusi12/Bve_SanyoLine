@@ -253,20 +253,6 @@ tree24,Structures\Ntfiv\GeneralStr_png\Nature\trees_street\tree24_S.x
 tree25,Structures\Ntfiv\GeneralStr_png\Nature\trees_street\tree25_S.x
 
 
-Grove00,..\..\Nagoya_Common\Nature\Wood\Grove00.x
-Grove01,..\..\Nagoya_Common\Nature\Wood\Grove01.x
-Grove02,..\..\Nagoya_Common\Nature\Wood\Grove02.x
-Grove03,..\..\Nagoya_Common\Nature\Wood\Grove03.x
-Grove04,..\..\Nagoya_Common\Nature\Wood\Grove04.x
-Wood00,..\..\Nagoya_Common\Nature\Wood\Wood00.x
-Wood01,..\..\Nagoya_Common\Nature\Wood\Wood01.x
-Wood02,..\..\Nagoya_Common\Nature\Wood\Wood02.x
-Wood03,..\..\Nagoya_Common\Nature\Wood\Wood03.x
-Wood04,..\..\Nagoya_Common\Nature\Wood\Wood04.x
-Wood05,..\..\Nagoya_Common\Nature\Wood\Wood05.x
-Wood06,..\..\Nagoya_Common\Nature\Wood\Wood06.x
-
-
 Mt_wall_10a,..\..\Nagoya_Common\Nature\Mt\Mt_wall_10a.x
 Mt_wall_10b,..\..\Nagoya_Common\Nature\Mt\Mt_wall_10b.x
 Mt_wall_11a,..\..\Nagoya_Common\Nature\Mt\Mt_wall_11a.x
@@ -418,18 +404,39 @@ Point2L,Structures\Ntfiv\GeneralStr_png\Rail\Point\point2L.x
 Point2R,Structures\Ntfiv\GeneralStr_png\Rail\Point\point2R.x
 
 #---------------------------------------------------------------------踏切-----------------------------------------------------------------------
-Cr_L1,../../Nagoya_Common\Railway_Obj\Cross\Normal\DL.x
-Cr_L2,../../Nagoya_Common\Railway_Obj\Cross\Normal\DCL.x
-Cr_L3,../../Nagoya_Common\Railway_Obj\Cross\Normal\DC.x
-Cr_R1,../../Nagoya_Common\Railway_Obj\Cross\Normal\DR.x
-Cr_R2,../../Nagoya_Common\Railway_Obj\Cross\Normal\DCR.x
-
-Cr1_L1,../../Nagoya_Common\Railway_Obj\Cross\Normal\SL.x
-Cr1_L2,../../Nagoya_Common\Railway_Obj\Cross\Normal\SCL.x
-Cr1_L3,../../Nagoya_Common\Railway_Obj\Cross\Normal\SC.x
-Cr1_R1,../../Nagoya_Common\Railway_Obj\Cross\Normal\SR.x
-Cr1_R2,../../Nagoya_Common\Railway_Obj\Cross\Normal\SCR.x
-#上から順に本体、道路接合部、軌道部
+#警報機
+CrossSign,..\..\Nagoya_Common\Railway_Obj\Cross\General\signal\Mei\CrossSign.x
+CrossPole,..\..\Nagoya_Common\Railway_Obj\Cross\General\signal\A_Pole.x
+#左滅右点
+CrossSig,..\..\Nagoya_Common\Railway_Obj\Cross\General\signal\A_Sig.x
+#左点
+CrossSig_L,..\..\Nagoya_Common\Railway_Obj\Cross\General\signal\A_SigL.x
+#右点
+CrossSig_R,..\..\Nagoya_Common\Railway_Obj\Cross\General\signal\A_SigR.x
+CrossTrap,..\..\Nagoya_Common\Railway_Obj\Cross\General\signal\A_Trap.x
+#遮断機
+#箱
+#250の場合のみbox
+GateBox,..\..\Nagoya_Common\Railway_Obj\Cross\General\gate\GateBox.x"
+GateL,..\..\Nagoya_Common\Railway_Obj\Cross\General\gate\GateL.x
+GateR,..\..\Nagoya_Common\Railway_Obj\Cross\General\gate\GateR.x
+#竿
+Gate250L,..\..\Nagoya_Common\Railway_Obj\Cross\General\gate\Gate250L_Mei.x
+Gate250R,..\..\Nagoya_Common\Railway_Obj\Cross\General\gate\Gate250R_Mei.x
+Gate450L,..\..\Nagoya_Common\Railway_Obj\Cross\General\gate\Gate450L.x
+Gate450R,..\..\Nagoya_Common\Railway_Obj\Cross\General\gate\Gate450R.x
+#道路
+TollBarSLt,Structures\Uchibo\Crossing\TollBarSLt.x
+TollBarSRt,Structures\Uchibo\Crossing\TollBarSRt.x
+Cr_Crossing_SL,Structures\Uchibo\Crossing\Cr_CrossingSL.x
+Cr_Crossing_SR,Structures\Uchibo\Crossing\Cr_CrossingSR.x
+Crossing_S,Structures\Uchibo\Crossing\CrossingS.x
+#道路
+TollBarDLt,Structures\Uchibo\Crossing\TollBarDLt.x
+TollBarDRt,Structures\Uchibo\Crossing\TollBarDRt.x
+Cr_Crossing_DL,Structures\Uchibo\Crossing\Cr_CrossingDL.x
+Cr_Crossing_DR,Structures\Uchibo\Crossing\Cr_CrossingDR.x
+Crossing_D,Structures\Uchibo\Crossing\CrossingD.x
 
 shoken2,Structures\Ntfiv\GeneralStr_png\Accessory\Cross\CrossAcc\shoken2.x
 FmBox,Structures\Ntfiv\GeneralStr_png\Accessory\Cross\CrossAcc\FmBox.x
@@ -442,19 +449,14 @@ Road_1sya_nb,Structures\サンパチタテモノ\road\road_045a.x
 Road_2sya,Structures\サンパチタテモノ\road\road_070a.x
 Road_2sya_nb,Structures\サンパチタテモノ\road\road_070a.x
 Road_4sya,../../Nagoya_Common\Build\Road\Road4.x
-peopleroad_L,Structures\サンパチタテモノ\road\peopleroad_045L.x
-peopleroad_R,Structures\サンパチタテモノ\road\peopleroad_045R.x
+peopleroad_L,Structures\サンパチタテモノ\road\peopleroad_070L.x
+peopleroad_R,Structures\サンパチタテモノ\road\peopleroad_070R.x
 seigen50_road,../../Nagoya_Common\Build\Road\Sign\50.x
 Road_1sya_L,Structures\サンパチタテモノ\road\road_045L.x
 Road_1sya_R,Structures\サンパチタテモノ\road\road_045R.x
-Azemichi,../../Nagoya_Common\Nature\Farm\Road_C.x
-AzemichiL,../../Nagoya_Common\Nature\Farm\Road_L.x
-AzemichiR,../../Nagoya_Common\Nature\Farm\Road_R.x
 
 #道路用信号機
-SingoB,Structures\Ntfiv\GeneralStr_png\Road\singo_01B.x
-SingoY,Structures\Ntfiv\GeneralStr_png\Road\singo_01Y.x
-SingoR,Structures\Ntfiv\GeneralStr_png\Road\singo_01R.x
+
 
 #あなたの車←京急ェ
 Compact1,Structures\Hiyodori1914\Automobile\Compact1_1.x
