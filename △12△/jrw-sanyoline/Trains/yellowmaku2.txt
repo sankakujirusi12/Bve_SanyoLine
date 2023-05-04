@@ -1,7 +1,0 @@
-BveTs Train 1.01:UTF-8
-#前灯不点
-[structure]
-key=maku_yellow
-distance=0
-z=8
-span=16

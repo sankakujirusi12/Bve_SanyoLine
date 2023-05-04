@@ -293,16 +293,19 @@ Sound3D['cross'].Put(5.5, 2.3);
 
 structure['shoken2'].Put(0,-1.5,0,-4,0,0,0,0,2);
 structure['shoken1'].Put(0,-1.5,0,4,0,0,0,0,2);
-structure['shoken2'].Put(0,1.4,0,-4,0,0,0,0,2);
-structure['shoken1'].Put(0,1.4,0,4,0,0,0,0,2);
+structure['shoken2'].Put(0,2,0,-4,0,0,0,0,2);
+structure['shoken1'].Put(0,2,0,4,0,0,0,0,2);
 structure['shoken2'].Put('sanyonobori',1.5,0,-4,0,0,0,0,2);
 structure['shoken1'].Put('sanyonobori',1.5,0,4,0,0,0,0,2);
-structure['shoken2'].Put('sanyonobori',-1.4,0,-4,0,0,0,0,2);
-structure['shoken1'].Put('sanyonobori',-1.4,0,4,0,0,0,0,2);
+structure['shoken2'].Put('sanyonobori',-2,0,-6,0,0,0,0,2);
+structure['shoken1'].Put('sanyonobori',-2,0,6,0,0,0,0,2);
 
 #********************************************************************
 
 #踏切1(小)
+$sanyo_distance+86380;
+	repeater['fence_kudari'].Begin(0,-2.9,-0.45,0,0,0,0,0,5,5,'WhiteFence1');
+	repeater['fence_nobori'].Begin('sanyonobori',2.9,-0.45,0,0,0,0,0,5,5,'WhiteFence1');
 $sanyo_distance+86480;
 repeater['road_1sya_1'].Begin0('douro2',1,7,6.9,'Road_1sya_nb');
 	Track['douro2'].Position(11,0);

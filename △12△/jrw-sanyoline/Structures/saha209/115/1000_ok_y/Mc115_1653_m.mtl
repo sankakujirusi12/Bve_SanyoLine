@@ -1,0 +1,55 @@
+newmtl m0
+map_Kd 115_sl2.png
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Ns 5
+d 1
+
+newmtl m1
+map_Kd 115_sl2.png
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Ns 5
+d 1
+
+newmtl m2
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+Ns 0
+d 1
+
+newmtl m3
+map_Kd 115_b_.png
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Ns 5
+d 1
+
+newmtl m4
+map_Kd 115_u.png
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Ns 5
+d 1
+
+newmtl m5
+map_Kd AU75.png
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Ns 5
+d 1
+
+newmtl m6
+map_Kd kage.png
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Ns 0
+d 1
+

@@ -972,24 +972,20 @@ panta udr,Structures\harimate\103-3500\panta udr.x
 panta uu,Structures\harimate\103-3500\panta uu.x
 
 T103_40n_o,Structures\103_40N\T103.x
-Tc103_NA_b,Structures\103_NA\103_hine\103_Tc.x
-Tc'103_NA_b,Structures\103_NA\103_hine\103_Tc2.x
-M103_NA_b,Structures\103_NA\103_hine\103_MP.x
-M'102_NA_b,Structures\103_NA\103_hine\103_M.x
-M103_NA_o,Structures\103_NA\103_mori\103_MP.x
-M'102_NA_o,Structures\103_NA\103_mori\103_M.x
-T103_NA_o,Structures\103_NA\103_mori\103_T.x
-M103_NA_g,Structures\103_NA\103_nara\103_MP.x
-M'102_NA_g,Structures\103_NA\103_nara\103_M.x
+Tc103_NA_b,Structures\saha209\103_NA\103_hine\103_Tc.x
+Tc'103_NA_b,Structures\saha209\103_NA\103_hine\103_Tc2.x
+M103_NA_b,Structures\saha209\103_NA\103_hine\103_MP.x
+M'102_NA_b,Structures\saha209\103_NA\103_hine\103_M.x
+M103_NA_o,Structures\saha209\103_NA\103_mori\103_MP.x
+M'102_NA_o,Structures\saha209\103_NA\103_mori\103_M.x
+T103_NA_o,Structures\saha209\103_NA\103_mori\103_T.x
+M103_NA_g,Structures\saha209\103_NA\103_nara\103_MP.x
+M'102_NA_g,Structures\saha209\103_NA\103_nara\103_M.x
 
 #113:Tc 東京寄り Tc' 下関寄り M'Pつき M Pなし(3500番除く)
-#幕
-
 #影
-kage_20,Structures\113west\kage_20.x
+kage_20,Structures\saha209\113west\kage_20.x
 
-#後尾
-maku_white_cafe_tail,Structures\JRW113・115_ikisaki\destination\white_cafe_tail.x
 #115系300番台(湘南色)
 Tc115-1100,Structures\115\300_sh\Tc115.x
 Mc115-1000,Structures\115\300_sh\Mc115.x
@@ -1051,11 +1047,11 @@ Tc'115-1000,Structures\115\300_sh\Tc115b.x
 ;M'112-0jnr_4,Structures\initG\initg_ecset\113_42.x
 
 #113系(30N)
-Tc111_30n,Structures\113west\113_30N\Tc111_1.x
-M'112_30n,Structures\113west\113_30N\M112.x
-M113_30n,Structures\113west\113_30N\M113.x
-T111_40n,Structures\113west\113_30N\T111.x
-Tc'111_30n,Structures\113west\113_30N\Tc111_1b.x
+Tc111_30n,Structures\saha209\113west\113_30N\Tc111_1.x
+M'112_30n,Structures\saha209\113west\113_30N\M112.x
+M113_30n,Structures\saha209\113west\113_30N\M113.x
+T111_40n,Structures\saha209\113west\113_30N\T111.x
+Tc'111_30n,Structures\saha209\113west\113_30N\Tc111_1b.x
 
 #113,115系(瀬戸内色)
 ;Tc111-811_setouchi,Structures\FTN\JRW113-30N_setouchi\Tc111-811.x
@@ -1073,19 +1069,19 @@ Tc'111_30n,Structures\113west\113_30N\Tc111_1b.x
 
 #↑Wパン
 #113系(末期色)
-Tc111-254_makki,Structures\113west\113_30Nmakki\Tc111_2.x
-Tc'111-561_makki,Structures\113west\113_30Nmakki\Tc111_2b.x
+Tc111-254_makki,Structures\saha209\113west\113_30Nmakki\Tc111_2.x
+Tc'111-561_makki,Structures\saha209\113west\113_30Nmakki\Tc111_2b.x
 
 #113系(阪和色)
-Tc111_hanwa_30n,Structures\113west\113_40N\Tc111_1.x
-Tc'111_hanwa_30n,Structures\113west\113_40N\Tc111_1b.x
+Tc111_hanwa_30n,Structures\saha209\113west\113_40N\Tc111_1.x
+Tc'111_hanwa_30n,Structures\saha209\113west\113_40N\Tc111_1b.x
 
 #113系(40N)
-Tc111_40n,Structures\113west\113_40N\Tc111_1.x
-M'112_40n,Structures\113west\113_40N\M112.x
-M113_40n,Structures\113west\113_40N\M113.x
-T111_40n,Structures\113west\113_40N\T111.x
-Tc'111_40n,Structures\113west\113_40N\Tc111_1b.x
+Tc111_40n,Structures\saha209\113west\113_40N\Tc111_1.x
+M'112_40n,Structures\saha209\113west\113_40N\M112.x
+M113_40n,Structures\saha209\113west\113_40N\M113.x
+T111_40n,Structures\saha209\113west\113_40N\T111.x
+Tc'111_40n,Structures\saha209\113west\113_40N\Tc111_1b.x
 
 #113系(40N　末期色)
 Tc'111-2000_makki40n,Structures\FTN\JRW113-40N_yellow\Tc111-2000.x
@@ -1098,28 +1094,28 @@ Tc111-0_makki40n,Structures\FTN\JRW113-40N_yellow\Tc111-0o.x
 Tc'111-300_makki40n,Structures\FTN\JRW113-40N_yellow\Tc111-300.x
 
 #115系(30N)
-Tc'115-1000_30n,Structures\115\1000_ok30N\Tc115_1b.x
-#Mc115-1653_30n,Structures\115\1000_ok30N\Mc115-1653.x
-Mc115-1501_30n,Structures\115\1000_ok30N\Mc115.x
-Tc115-1142_30n,Structures\115\1000_ok30N\Tc115_2.x
+Tc'115-1000_30n,Structures\saha209\115\1000_ok30N\Tc115_1b.x
+#Mc115-1653_30n,Structures\saha209\115\1000_ok30N\Mc115-1653.x
+Mc115-1501_30n,Structures\saha209\115\1000_ok30N\Mc115.x
+Tc115-1142_30n,Structures\saha209\115\1000_ok30N\Tc115_2.x
 #Tc115-301_30n,Structures\FTN\JRW115-30N\Tc115-301.x
 #Tc'115-302_30n,Structures\FTN\JRW115-30N\Tc115-302.x
-M'114-1000_30n,Structures\115\1000_ok30N\M114.x
-M'114-3500_30n,Structures\115\1000_ok30N\3500\M114.x
-M115-1000_30n,Structures\115\1000_ok30N\M115b.x
-M115-3500_30n,Structures\115\1000_ok30N\3500\M115b.x
+M'114-1000_30n,Structures\saha209\115\1000_ok30N\M114.x
+M'114-3500_30n,Structures\saha209\115\1000_ok30N\3500\M114.x
+M115-1000_30n,Structures\saha209\115\1000_ok30N\M115b.x
+M115-3500_30n,Structures\saha209\115\1000_ok30N\3500\M115b.x
 
 ##115系(30N　末期色)
 #↓乗務員次位窓あり
-Tc'115-1000o_makki30n,Structures\115\1000_ok_y\Tc115b_m.x
-Tc115-1101_makki30n,Structures\FTN\JRW115-Y\Tc115-1101.x
+Tc'115-1000o_makki30n,Structures\saha209\115\1000_ok_y\Tc115b_m.x
+Tc115-1101_makki30n,Structures\saha209\FTN\JRW115-Y\Tc115-1101.x
 Mc115-301_makki30n,Structures\FTN\JRW115-Y\Mc115-301.x
-Mc115-1653_makki30n,Structures\115\1000_ok_y\Mc115_1653_m.x
-Mc115-1501_makki30n,Structures\115\1000_ok_y\Mc115_m.x
+Mc115-1653_makki30n,Structures\saha209\115\1000_ok_y\Mc115_1653_m.x
+Mc115-1501_makki30n,Structures\saha209\115\1000_ok_y\Mc115_m.x
 Tc115-301o_makki30n,Structures\FTN\JRW115-Y\Tc115-301o.x
 Tc'115-302o_makki30n,Structures\FTN\JRW115-Y\Tc115-302o.x
 M'114-300_makki30n,Structures\FTN\JRW115-Y\M114-300o.x
-M'114-1000No_makki30n,Structures\115\1000_ok_y\M114_m.x
+M'114-1000No_makki30n,Structures\saha209\115\1000_ok_y\M114_m.x
 M'114-1034No_makki30n,Structures\FTN\JRW115-Y\M114-1034No.x
 M115-1000No_makki30n,Structures\FTN\JRW115-Y\M115-1000No.x
 
@@ -1146,10 +1142,10 @@ Tc115-1101_makki40n,Structures\FTN\JRW115-Y40N\Tc115-1101.x
 Tc115-1142_makki40n,Structures\FTN\JRW115-Y40N\Tc115-1142.x
 
 #113系(広島)
-Tc111_30n_hiro,Structures\113west\113_30Nhiro\Tc111_1.x
-M'112_30n_hiro,Structures\113west\113_30Nhiro\M112.x
-M113_30n_hiro,Structures\113west\113_30Nhiro\M113.x
-Tc'111_30n_hiro,Structures\113west\113_30Nhiro\Tc111_1b.x
+Tc111_30n_hiro,Structures\saha209\113west\113_30Nhiro\Tc111_1.x
+M'112_30n_hiro,Structures\saha209\113west\113_30Nhiro\M112.x
+M113_30n_hiro,Structures\saha209\113west\113_30Nhiro\M113.x
+Tc'111_30n_hiro,Structures\saha209\113west\113_30Nhiro\Tc111_1b.x
 #117系
 Tc'116-0,
 M'116-0
@@ -1244,55 +1240,48 @@ DC120_kame,Structures\Kotobuki\DC120_2end\DC120_kame.x
 #キハ122,127
 
 #山陽3000
-3630N,Structures\Sanyo3000\3630N.x
-3000M,Structures\Sanyo3000\3000M.x
-3000Mc1,Structures\Sanyo3000\3000Mc1.x
-3000Mc1N,Structures\Sanyo3000\3000Mc1N.x
-3000Mc2,Structures\Sanyo3000\3000Mc2.x
-3000Mc2N,Structures\Sanyo3000\3000Mc2N.x
-3000MN,Structures\Sanyo3000\3000MN.x
-3000T,Structures\Sanyo3000\3000T.x
-3000Tc1,Structures\Sanyo3000\3000Tc1.x
-3000Tc1N,Structures\Sanyo3000\3000Tc1N.x
-3000Tc2,Structures\Sanyo3000\3000Tc2.x
-3000Tc2N,Structures\Sanyo3000\3000Tc2N.x
-3050,Structures\Sanyo3000\3050.x
-3050N,Structures\Sanyo3000\3050N.x
-3051,Structures\Sanyo3000\3051.x
-3051_0,Structures\Sanyo3000\3051_0.x
-3051N,Structures\Sanyo3000\3051N.x
-3200Mc1,Structures\Sanyo3000\3200Mc1.x
-3200Mc2,Structures\Sanyo3000\3200Mc2.x
-3200Mc2N,Structures\Sanyo3000\3200Mc2N.x
-3200Tc1,Structures\Sanyo3000\3200Tc1.x
-3200Tc2,Structures\Sanyo3000\3200Tc2.x
-3200Tc2N,Structures\Sanyo3000\3200Tc2N.x
-3530,Structures\Sanyo3000\3530.x
-3530N,Structures\Sanyo3000\3530N.x
-3630,Structures\Sanyo3000\3630.x
+3630N,Structures\FTN\Sanyo3000\3630N.x
+3000M,Structures\FTN\Sanyo3000\3000M.x
+3000Mc1,Structures\FTN\Sanyo3000\3000Mc1.x
+3000Mc1N,Structures\FTN\Sanyo3000\3000Mc1N.x
+3000Mc2,Structures\FTN\Sanyo3000\3000Mc2.x
+3000Mc2N,Structures\FTN\Sanyo3000\3000Mc2N.x
+3000MN,Structures\FTN\Sanyo3000\3000MN.x
+3000T,Structures\FTN\Sanyo3000\3000T.x
+3000Tc1,Structures\FTN\Sanyo3000\3000Tc1.x
+3000Tc1N,Structures\FTN\Sanyo3000\3000Tc1N.x
+3000Tc2,Structures\FTN\Sanyo3000\3000Tc2.x
+3000Tc2N,Structures\FTN\Sanyo3000\3000Tc2N.x
+3050,Structures\FTN\Sanyo3000\3050.x
+3050N,Structures\FTN\Sanyo3000\3050N.x
+3051,Structures\FTN\Sanyo3000\3051.x
+3051_0,Structures\FTN\Sanyo3000\3051_0.x
+3051N,Structures\FTN\Sanyo3000\3051N.x
+3200Mc1,Structures\FTN\Sanyo3000\3200Mc1.x
+3200Mc2,Structures\FTN\Sanyo3000\3200Mc2.x
+3200Mc2N,Structures\FTN\Sanyo3000\3200Mc2N.x
+3200Tc1,Structures\FTN\Sanyo3000\3200Tc1.x
+3200Tc2,Structures\FTN\Sanyo3000\3200Tc2.x
+3200Tc2N,Structures\FTN\Sanyo3000\3200Tc2N.x
+3530,Structures\FTN\Sanyo3000\3530.x
+3530N,Structures\FTN\Sanyo3000\3530N.x
+3630,Structures\FTN\Sanyo3000\3630.x
 #山陽3000アルミ
-3000Tc_al,Structures\Sanyo3000_AL\3000Tc_al.x
-3000M_al,Structures\Sanyo3000_AL\3000M_al.x
-3000Mc_al,Structures\Sanyo3000_AL\3000Mc_al.x
-3000T_al,Structures\Sanyo3000_AL\3000T_al.x
+3000Tc_al,Structures\FTN\Sanyo3000_AL\3000Tc_al.x
+3000M_al,Structures\FTN\Sanyo3000_AL\3000M_al.x
+3000Mc_al,Structures\FTN\Sanyo3000_AL\3000Mc_al.x
+3000T_al,Structures\FTN\Sanyo3000_AL\3000T_al.x
 #山陽3050アルミ
-3530_al,Structures\Sanyo3050_AL\3530_al.x
-3630_al,Structures\Sanyo3050_AL\3630_al.x
-3050_al,Structures\Sanyo3050_AL\3050_al.x
-3051_al,Structures\Sanyo3050_AL\3051_al.x
-#キハ35-300
-kiha35-300,Structures\RON\kiha35-300\kiha35-300.x
-kikuha35-300,Structures\RON\kiha35-300\kikuha35-300.x
+3530_al,Structures\FTN\Sanyo3050_AL\3530_al.x
+3630_al,Structures\FTN\Sanyo3050_AL\3630_al.x
+3050_al,Structures\FTN\Sanyo3050_AL\3050_al.x
+3051_al,Structures\FTN\Sanyo3050_AL\3051_al.x
 #キハ58
 #kiha58,Structures\initg_dcset\58_00.x
 #kiha58_gyaku,Structures\initg_dcset\58_01.x
 #shadow_d,Structures\initg_dcset\shadow_d.x
 #kiha58_tailon,Structures\initg_dcset\58_04.x
-#貨車
-chiki6383,Structures\△12△\chiki6000\chiki6383.x
-chiki6394,Structures\△12△\chiki6000\chiki6394.x
-chiki6410,Structures\△12△\chiki6000\chiki6410.x
-chiki6274,Structures\△12△\chiki6000\chiki6274.x
+
 #HOT3500
 HOT3500,Structures\FTN\HOT3500\HOT3500.x
 #HOT7000
@@ -1320,11 +1309,16 @@ ef65_2099,Structures\Uchibo\EF65_1000\EF652099_2.x
 ef65_light,Structures\Uchibo\EF65_1000\EF65headlight.x
 PS22-UP,Structures\Uchibo\EF65_1000\PS22-UP.x
 
+#貨車
 TailSign,Structures\Ntfiv\ContainerCar\reflector_kk1xx.x
 koki_shadow_20,Structures\Ntfiv\ContainerCar\_base_20m.x
-koki104,Structures\Ntfiv\ContainerCar\koki104\_koki104_JRF_pure.x
-koki106,Structures\Ntfiv\ContainerCar\koki106\_koki106_JRF_pure.x
-koki107,Structures\Ntfiv\ContainerCar\koki107\_koki107_JRF_pure.x
+koki104,Structures\Ntfiv\ContainerCar\koki104\_koki104_JRF.x
+koki106,Structures\Ntfiv\ContainerCar\koki106\_koki106_JRF.x
+koki107,Structures\Ntfiv\ContainerCar\koki107\_koki107_JRF.x
+koki200,Structures\Ntfiv\ContainerCar\koki200\_koki200_JRF.x
+koki50000,Structures\Ntfiv\ContainerCar\koki50000\_koki50000.x
+koki250000,Structures\Ntfiv\ContainerCar\koki50000\_koki250000.x
+
 
 Con_31ft_FTS01_0A,Structures\Ntfiv\_Containers\Con_31ft_FTS01_0A.x
 Con_31ft_FTS01_AA,Structures\Ntfiv\_Containers\Con_31ft_FTS01_AA.x
@@ -1334,6 +1328,11 @@ Con_31ft_FTS02_AA,Structures\Ntfiv\_Containers\Con_31ft_FTS02_AA.x
 
 Toki25000,Structures\initG\initg_fcset\25000.x
 Hoki800,Structures\FTN\JNR-hoki800\hoki800.x
+chiki5500,Structures\initG\initg_fcset\05500.x
+chiki6383,Structures\△12△\chiki6000\chiki6383.x
+chiki6394,Structures\△12△\chiki6000\chiki6394.x
+chiki6410,Structures\△12△\chiki6000\chiki6410.x
+chiki6274,Structures\△12△\chiki6000\chiki6274.x
 
 #踏切
 1,Structures\△12△\komono\1.x

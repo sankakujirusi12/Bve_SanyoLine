@@ -1,0 +1,60 @@
+フォルダ名について
+
+フォルダ名は「①車種_②色③向き.x」の構成です。
+
+①車種について
+　Bus：バス（路線バスタイプ）（1車種）
+　Compact：コンパクトカー（2車種）
+　Keiyon：軽自動車（2車種）
+　SUV：SUVタイプ（1車種）
+　Track：大型トラック（1車種）
+
+②色
+　1：赤
+　2：黄色
+　3：青
+　4：白
+　5：黒
+　6：シルバー
+
+③向き
+　F：自列車と逆向き
+　R：自列車と同じ向き
+　※自列車から見て、前側が見えているものがF、後側が見えているものがRです。
+
+
+
+以下は改変してストラクチャリストにご利用ください。
+※bus1、keiyon1は欠番です。
+
+Bus2_3F,../../Automobile_FMC\bus2\bus2_3F.x
+Bus2_3R,../../Automobile_FMC\bus2\bus2_3R.x
+
+Compact1_1F,../../Automobile_FMC\Compact1\Compact1_1F.x
+Compact1_3F,../../Automobile_FMC\Compact1\Compact1_3F.x
+Compact1_5F,../../Automobile_FMC\Compact1\Compact1_5F.x
+Compact1_1R,../../Automobile_FMC\Compact1\Compact1_1R.x
+Compact1_3R,../../Automobile_FMC\Compact1\Compact1_3R.x
+Compact1_5R,../../Automobile_FMC\Compact1\Compact1_5R.x
+Compact2_5F,../../Automobile_FMC\Compact2\Compact2_5F.x
+Compact2_6F,../../Automobile_FMC\Compact2\Compact2_6F.x
+Compact2_5R,../../Automobile_FMC\Compact2\Compact2_5R.x
+Compact2_6R,../../Automobile_FMC\Compact2\Compact2_6R.x
+
+Keiyon2_4F,../../Automobile_FMC\Keiyon2\Keiyon2_4F.x
+Keiyon2_6F,../../Automobile_FMC\Keiyon2\Keiyon2_6F.x
+Keiyon2_4R,../../Automobile_FMC\Keiyon2\Keiyon2_4R.x
+Keiyon2_6R,../../Automobile_FMC\Keiyon2\Keiyon2_6R.x
+Keiyon3_3F,../../Automobile_FMC\Keiyon3\Keiyon3_3F.x
+Keiyon3_3R,../../Automobile_FMC\Keiyon3\Keiyon3_3R.x
+
+SUV1_5F,../../Automobile_FMC\SUV1\SUV1_5F.x
+SUV1_5R,../../Automobile_FMC\SUV1\SUV1_5R.x
+
+Track1_6F,../../Automobile_FMC\track1\track1_6F.x
+Track1_6R,../../Automobile_FMC\track1\track1_6R.x
+
+
+
+
+

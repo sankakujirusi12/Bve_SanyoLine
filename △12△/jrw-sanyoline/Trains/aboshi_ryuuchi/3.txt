@@ -1,0 +1,6 @@
+BveTs Train 1.01:UTF-8
+[structure]
+key=oha12
+distance=0
+z=8
+span=16

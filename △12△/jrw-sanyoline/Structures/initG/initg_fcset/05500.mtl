@@ -1,0 +1,47 @@
+newmtl m0
+map_Kd 05500.dds
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Ns 0
+d 1
+
+newmtl m1
+Ka 0 0 0
+Kd 0.078 0.078 0.078
+Ks 0 0 0
+Ns 0
+d 1
+
+newmtl m2
+map_Kd 00000_01.dds
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Ns 0
+d 1
+
+newmtl m3
+map_Kd 00000_01.dds
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Ns 0
+d 1
+
+newmtl m4
+map_Kd 00000_05.dds
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Ns 0
+d 1
+
+newmtl m5
+map_Kd 00000_33.dds
+Ka 0 0 0
+Kd 0.509804 0.352941 0.352941
+Ks 0 0 0
+Ns 0
+d 1
+
