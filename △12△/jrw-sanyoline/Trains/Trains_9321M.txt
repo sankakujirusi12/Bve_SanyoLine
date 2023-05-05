@@ -1,11 +1,16 @@
 BveTs Map 2.00:UTF-8
 $sanyo_distance+83500;
+
+#Train['Test'].Load('Trains\8866\2.txt', 'nakage', -1);
 Train['300M'].Load('Trains\2012\115\D\115_D_1.txt', 'nakage', -1);
 Train['1053'].Load('Trains\ef210+koki20b1_b.txt', 'sanyokudari', 1);
 Train['1053'].Enable('9:05:00');
 Train['1053'].Stop(3, 0, 1.5, 90);
 $sanyo_distance+83700;
+#Train['Test'].Enable('8:33:00');
 Train['300M'].Enable('8:33:00');
+$sanyo_distance+88200;
+#Train['Test'].Stop(0, 0, 0, 0);
 $sanyo_distance+118630;
 Train['300M'].Stop(0, 0, 0, 0);
 

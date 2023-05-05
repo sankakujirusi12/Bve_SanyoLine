@@ -126,7 +126,7 @@ Mesh  {
    1.000000;1.000000;1.000000;;
 
    TextureFilename  {
-    "65taillight.dds";
+    "65taillight.png";
    }
   }
  }

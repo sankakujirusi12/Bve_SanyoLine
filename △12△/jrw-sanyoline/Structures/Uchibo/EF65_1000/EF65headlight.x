@@ -158,7 +158,7 @@ Mesh  {
    1.000000;1.000000;1.000000;;
 
    TextureFilename  {
-    "65headlight.dds";
+    "65headlight.png";
    }
   }
  }

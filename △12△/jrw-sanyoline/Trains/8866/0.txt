@@ -1,0 +1,67 @@
+BveTs Train 1.01:UTF-8
+[Structure]
+key = ef66_100
+distance = 3.89718
+span = 10.5266
+z = 5.2633
+[Structure]
+key = dt133f
+distance = 2.47218
+span = 2.85
+z = 1.425
+[Structure]
+key = dt134
+distance = 7.73548
+span = 2.85
+z = 1.425
+[Structure]
+key = dt133b
+distance = 12.99878
+span = 2.85
+z = 1.425
+[structure]
+key=koki104_JRF_pure
+distance=20
+z=8
+span=16
+[structure]
+key=koki104_JRF_pure
+distance=40
+z=8
+span=16
+[structure]
+key=koki104_JRF_pure
+distance=60
+z=8
+span=16
+[structure]
+key=koki104_JRF_pure
+distance=80
+z=8
+span=16
+[structure]
+key=chiki6383
+distance=95.7
+z=8
+span=10
+[structure]
+key=chiki6383
+distance=111.4
+z=8
+span=10
+
+[sound3D]
+Key=ef65run
+Distance1=0
+Distance2=19
+Function=Rolling
+[sound3D]
+Key=kokirun_tttt
+Distance1=20
+Distance2=40
+Function=Rolling
+[sound3D]
+Key=kokirun_joint
+Distance1=40
+Distance2=130
+Function=Rolling

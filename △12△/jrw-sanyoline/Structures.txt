@@ -987,11 +987,11 @@ M'102_NA_g,Structures\saha209\103_NA\103_nara\103_M.x
 kage_20,Structures\saha209\113west\kage_20.x
 
 #115系300番台(湘南色)
-Tc115-1100,Structures\115\300_sh\Tc115.x
-Mc115-1000,Structures\115\300_sh\Mc115.x
-M'114-1000,Structures\115\300_sh\M114b.x
-M115-1000,Structures\115\300_sh\M115.x
-Tc'115-1000,Structures\115\300_sh\Tc115b.x
+Tc115-1100,Structures\saha209\115\300_sh\Tc115.x
+Mc115-1000,Structures\saha209\115\300_sh\Mc115.x
+M'114-1000,Structures\saha209\115\300_sh\M114b.x
+M115-1000,Structures\saha209\115\300_sh\M115.x
+Tc'115-1000,Structures\saha209\115\300_sh\Tc115b.x
 
 #113系0/700番台(湘南色)
 #湘南白熱灯 押込通風機 AU75 非ユニット窓 スリットタイフォン スノプロ無し
@@ -1292,30 +1292,41 @@ HOT7000_3,Structures\saha209\HOT7000\HOT7000_3.x
 
 
 #釜
+ef64_1000,../../Nagoya_Common\Train\JRF\EF64_1000\641000.x
+ef64_1000_f,Structures\Nakano_Kazusa\EF64\EF64-1000_F.x
+ef65_0,Structures\initG\initg_lcset\65_00.x
+ef65_57,Structures\initG\initg_lcset\65_03.x
+ef65_100,Structures\initG\initg_lcset\65_04.x
+ef65_114,Structures\saha209\EF65\EF65_114.x
+ef65_115,Structures\saha209\EF65\EF65_115.x
+ef65_1032,Structures\Uchibo\EF65_1000\EF651032_1.x
+ef65_1135,Structures\Uchibo\EF65_1000\EF651135_1.x
+ef65_2099,Structures\Uchibo\EF65_1000\EF652099_2.x
+ef65_light,Structures\Uchibo\EF65_1000\EF65headlight.x
 ef66,Structures\kiha47_san_in\EF66\EF66.x
 ef66b,Structures\kiha47_san_in\EF66\EF66_b.x
 ef66_f,Structures\kiha47_san_in\EF66\JRF\EF66.x
+ef66_100,Structures\△12△\Train\EF66-100\EF66 100.x
+ef66_110,Structures\△12△\Train\EF66-100\EF66 110.x
 dt133f,Structures\kiha47_san_in\EF66\dt133f.x
 dt134,Structures\kiha47_san_in\EF66\dt134.x
 dt133b,Structures\kiha47_san_in\EF66\dt133b.x
-ef64_1000,../../Nagoya_Common\Train\JRF\EF64_1000\641000.x
-ef64_1000_f,Structures\Nakano_Kazusa\EF64\EF64-1000_F.x
 ef210,Structures\XP_USER\EF210-0\EF210.x
 ef210_b,Structures\XP_USER\EF210-0\EF210_NON.x
 dd51,Structures\Nakano_Kazusa\DD51\dd51F.x
 de10_1153,Structures\FTN\JNR-DE10\DE10-1153D.x
-ef65_1135,Structures\Uchibo\EF65_1000\EF651135_1.x
-ef65_2099,Structures\Uchibo\EF65_1000\EF652099_2.x
-ef65_light,Structures\Uchibo\EF65_1000\EF65headlight.x
+PS17-UP,Structures\initG\initg_lcset\PS17-UP.x
 PS22-UP,Structures\Uchibo\EF65_1000\PS22-UP.x
 
 #貨車
 TailSign,Structures\Ntfiv\ContainerCar\reflector_kk1xx.x
 koki_shadow_20,Structures\Ntfiv\ContainerCar\_base_20m.x
-koki104,Structures\Ntfiv\ContainerCar\koki104\_koki104_JRF.x
-koki106,Structures\Ntfiv\ContainerCar\koki106\_koki106_JRF.x
-koki107,Structures\Ntfiv\ContainerCar\koki107\_koki107_JRF.x
-koki200,Structures\Ntfiv\ContainerCar\koki200\_koki200_JRF.x
+koki104,Structures\Ntfiv\ContainerCar\koki104\_koki104.x
+koki104_JRF_pure,Structures\Ntfiv\ContainerCar\koki104\_koki104_JRF_pure.x
+koki106,Structures\Ntfiv\ContainerCar\koki106\_koki106.x
+koki106_JRF_pure,Structures\Ntfiv\ContainerCar\koki106\_koki106_JRF_pure.x
+koki107,Structures\Ntfiv\ContainerCar\koki107\_koki107.x
+koki200,Structures\Ntfiv\ContainerCar\koki200\_koki200_pure.x
 koki50000,Structures\Ntfiv\ContainerCar\koki50000\_koki50000.x
 koki250000,Structures\Ntfiv\ContainerCar\koki50000\_koki250000.x
 
@@ -1324,11 +1335,14 @@ Con_31ft_FTS01_0A,Structures\Ntfiv\_Containers\Con_31ft_FTS01_0A.x
 Con_31ft_FTS01_AA,Structures\Ntfiv\_Containers\Con_31ft_FTS01_AA.x
 Con_31ft_FTS02_A0,Structures\Ntfiv\_Containers\Con_31ft_FTS02_A0.x
 Con_31ft_FTS02_AA,Structures\Ntfiv\_Containers\Con_31ft_FTS02_AA.x
+Con_ZM8C_11111_50k,Structures\Ntfiv\_Containers50k\Con_ZM8C_11111.x
 
-
+Tora45000,Structures\initG\initg_fcset\55000_1.x
 Toki25000,Structures\initG\initg_fcset\25000.x
 Hoki800,Structures\FTN\JNR-hoki800\hoki800.x
-chiki5500,Structures\initG\initg_fcset\05500.x
+Yo8000,Structures\Nakano_Kazusa\taki40000\yo8000.x
+chiki5500,Structures\Ntfiv\ContainerCar\chiki5500\_chiki5500.x
+chiki5600,Structures\Ntfiv\ContainerCar\chiki5500\_chiki5600.x
 chiki6383,Structures\△12△\chiki6000\chiki6383.x
 chiki6394,Structures\△12△\chiki6000\chiki6394.x
 chiki6410,Structures\△12△\chiki6000\chiki6410.x

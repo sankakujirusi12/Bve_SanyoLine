@@ -1,3 +1,5 @@
 *.db
 *.xcf
 *.mqo
+*.obj
+*.mtl

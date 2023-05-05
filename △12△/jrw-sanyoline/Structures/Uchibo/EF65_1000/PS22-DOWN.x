@@ -2302,7 +2302,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "Pt0.dds";
+    "Pt0.png";
    }
   }
 
@@ -2320,7 +2320,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "Pt0.dds";
+    "Pt0.png";
    }
   }
 
