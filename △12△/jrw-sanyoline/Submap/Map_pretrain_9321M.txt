@@ -2,5 +2,7 @@ BveTs Map 2.00:UTF-8
 #先行
 $sanyo_distance+83070;
 PreTrain.Pass('08:49:30');
-$sanyo_distance+300000;
+$sanyo_distance+118996;
 PreTrain.Pass('08:49:31');
+$sanyo_distance+120788;
+PreTrain.Pass('09:30:39');
