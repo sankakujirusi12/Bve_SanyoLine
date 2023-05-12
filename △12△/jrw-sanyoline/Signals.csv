@@ -36,3 +36,6 @@ type30,Signal30L0,Signal30L3,,,Signal30L4
 CourseC,CourseOff,,CourseC,,
 CourseL,CourseOff,,CourseL,,
 CourseR,CourseOff,,CourseR,,
+
+#出発反応標識
+StartReact,Starting reaction indicator,Starting reaction indicator_on,,,

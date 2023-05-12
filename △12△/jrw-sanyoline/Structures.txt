@@ -125,6 +125,10 @@ CourseL,../../Nagoya_Common\Railway_Obj\Signal\Switch\Course\warning\L_On.x
 CourseR,../../Nagoya_Common\Railway_Obj\Signal\Switch\Course\warning\R_On.x
 CourseOff,../../Nagoya_Common\Railway_Obj\Signal\Switch\Course\warning\Off.x
 
+#-----------------------------------------------------------------反応灯------------------------------------------------------------------
+Starting reaction indicator,Structures\Starting_reaction_indicator\Starting reaction indicator2.x
+Starting reaction indicator_on,Structures\Starting_reaction_indicator\Starting reaction indicator2_on.x
+
 #信号柱
 #真ん中に
 Signalpole1,../../Nagoya_Common\Railway_Obj\SigPole\Pole_C.x
@@ -213,9 +217,6 @@ Grass,Structures\Ntfiv\GeneralStr_png\Nature\Ground\Grass.x
 GrassL,Structures\Ntfiv\GeneralStr_png\Nature\Ground\Lside_Grass.x
 GrassR,Structures\Ntfiv\GeneralStr_png\Nature\Ground\Rside_Grass.x
 
-
-TanboL,Structures\車警定位\shuijing\t35l.x
-TanboR,Structures\車警定位\shuijing\t35r.x
 River,Structures\Ntfiv\GeneralStr_png\ACCC\Ground\River.x
 
 #茂み
@@ -232,20 +233,6 @@ bush_R02,Structures\Uchibo\Dike\bush_R02.x
 bush_R03,Structures\Uchibo\Dike\bush_R03.x
 
 #木
-tree1,Structures\Ntfiv\GeneralStr_png\Nature\trees\tree01_S.x
-tree2,Structures\Ntfiv\GeneralStr_png\Nature\trees\tree02_S.x
-tree3,Structures\Ntfiv\GeneralStr_png\Nature\trees\tree03_S.x
-tree4,Structures\Ntfiv\GeneralStr_png\Nature\trees\tree04_S.x
-tree5,Structures\Ntfiv\GeneralStr_png\Nature\trees\tree05_S.x
-tree10,Structures\Ntfiv\GeneralStr_png\Nature\treesB\trees01.x
-tree11,Structures\Ntfiv\GeneralStr_png\Nature\treesB\trees02.x
-tree12,Structures\Ntfiv\GeneralStr_png\Nature\treesB\trees03.x
-tree13,Structures\Ntfiv\GeneralStr_png\Nature\treesB\trees11.x
-tree14,Structures\Ntfiv\GeneralStr_png\Nature\treesB\trees11n.x
-tree15,Structures\Ntfiv\GeneralStr_png\Nature\treesB\trees12.x
-tree16,Structures\Ntfiv\GeneralStr_png\Nature\treesB\trees12n.x
-tree17,Structures\Ntfiv\GeneralStr_png\Nature\treesB\trees13.x
-tree18,Structures\Ntfiv\GeneralStr_png\Nature\treesB\trees13n.x
 tree21,Structures\Ntfiv\GeneralStr_png\Nature\trees_street\tree21_S.x
 tree22,Structures\Ntfiv\GeneralStr_png\Nature\trees_street\tree22_S.x
 tree23,Structures\Ntfiv\GeneralStr_png\Nature\trees_street\tree23_S.x
@@ -285,6 +272,13 @@ BlankR_03,Structures\Uchibo\Dike\blank_R03.x
 Mt1L,Structures\△12△\Nature\Mt1L.x
 Mt1R,Structures\△12△\Nature\Mt1R.x
 Mt2,Structures\△12△\Nature\Mt2.x
+
+#草
+kusa1,Structures\△12△\Nature\kusa1.x
+kusa2,Structures\△12△\Nature\kusa2.x
+kusa3,Structures\△12△\Nature\kusa3.x
+kusa4,Structures\△12△\Nature\kusa4.x
+
 #------------------------------------------------------------------横取-------------------------------------------------------------------
 yokodoriL,../../Nagoya_Common\Railway_Obj\Yokodori\1067mm_L.x
 yokodoriR,../../Nagoya_Common\Railway_Obj\Yokodori\1067mm_R.x
@@ -641,6 +635,7 @@ jrkasenchu_1sen_1,../../Nagoya_Common\Railway_Obj\Pole\Pole0_3.x
 jrkasenchu_1sen_2,../../Nagoya_Common\Railway_Obj\Pole\Pole0_4.x
 jrkasenchu_1sen_3,../../Nagoya_Common\Railway_Obj\Pole\Pole0_5.x
 jrkasenchu_1sen_4,Structures\Uchibo\Pole\Pole_VCA_1.x
+jrkasenchu_1sen_5,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs04A_funasaka.x
 #架線柱(パイプ型)　1は端が角形、2は丸型
 Pype_1L,..\..\Nagoya_Common\Railway_Obj\Pole\Pype_1L.x
 Pype_1R,..\..\Nagoya_Common\Railway_Obj\Pole\Pype_1R.x
@@ -1452,11 +1447,11 @@ for_White,Structures\initG\initg_ecset\113_18_n.x
 
 #115系用
 #前照灯
-115headlight,Structures\115\113_17_n.x
+115headlight,Structures\saha209\115\113_17_n.x
 #側面
-115-300light1,Structures\115\300_sh\115light_1.x
-115-300light2,Structures\115\300_sh\115light_2.x
-115-300light3,Structures\115\300_sh\115light_3.x
+115-300light1,Structures\saha209\115\300_sh\115light_1.x
+115-300light2,Structures\saha209\115\300_sh\115light_2.x
+115-300light3,Structures\saha209\115\300_sh\115light_3.x
 #223系用
 223-2000taillight,Structures\headlight\light_223tail.x
 #先頭

@@ -1263,17 +1263,17 @@ Repeater['架線1'].Begin0('sanyonobori', 1, 40, 40, 'kasen_40');
 repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,40,40,'nomalkasenchu-chou','nomalkasenchu-tan');
 repeater['jrkasenchu-nobori'].Begin('sanyonobori',0,0,0,0,180,0,0,40,40,'nomalkasenchu-tan','nomalkasenchu-chou');
 #40m
-$sanyo_distance+128398;
+$sanyo_distance+128399;
 repeater['jrkasenchu-kudari'].End();
 repeater['jrkasenchu-nobori'].End();
 #40m終端
 $sanyo_distance+128438;
 Repeater['架線'].Begin0('sanyokudari', 1, 35, 35, 'kasen_35');
 Repeater['架線1'].Begin0('sanyonobori', 1, 35, 35, 'kasen_35');
-repeater['jrkasenchu-kudari'].Begin(0,0,0,0,0,0,0,0,35,35,'jrkasenchu_1sen_4');
+structure['jrkasenchu_1sen_5'].Put(0,0,0,0,0,0,0,0,0);
 #トラス(単線用)
 $sanyo_distance+128473;
-repeater['jrkasenchu-kudari'].End();
+structure['jrkasenchu_1sen_5'].Put(0,0,0,0,0,0,0,0,0);
 #トラス(単線用)
 
 $sanyo_distance+129620;

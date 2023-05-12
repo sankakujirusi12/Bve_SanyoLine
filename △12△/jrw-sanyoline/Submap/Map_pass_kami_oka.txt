@@ -554,14 +554,16 @@ repeater['Ballast_gr'].End();
 #上り線TN
 
 	Repeater['Conc'].Begin(0,1,0,0,0,0,0,1,10,10,'Rside_Conc1','Rside_Conc2');
-
+Curve.Interpolate(0,0);
 
 
 $sanyo_distance+128408;
+Curve.Interpolate(-800, -0.06);
 Gradient.Interpolate(5);
 $sanyo_distance+128438;
 	Repeater['Trees4'].Begin(0,22,2,0,0,0,0,1,7,7,'tree12',,'tree11','tree13','tree14','tree18',,'tree15','tree16',,'tree17');
-
+$sanyo_distance+128470;
+Curve.Interpolate(-800, -0.06);
 $sanyo_distance+128510;
 Curve.Interpolate(0, 0);
 $sanyo_distance+128517;
@@ -576,7 +578,7 @@ $sanyo_distance+128560;
 #下り線TN
 structure['TN1_potal'].Put(0,0,0,0,0,0,0,1,2);
 structure['TN1_ent'].Put(0,0,0,0,0,0,0,1,5);
-
+structure['TN1_potal'].Put(0,5,0,0,0,0,0,1,2);
 
 structure['tree15'].Put(0,-8,10,4.7,0,0,0,1,5);
 structure['tree14'].Put(0,-13,2,0.7,0,0,0,1,5);
@@ -622,6 +624,42 @@ curve.Begin(1000,0.04);
 $sanyo_distance+130189;
 Curve.Interpolate(0, 0);
 #カーブ終わり
+
+$sanyo_distance+130242;
+#*********************************踏切統一構文(一車線用)**************************
+
+structure['CrossSign'].Put(0,-2,0,2.5,0,90,0,0,2);
+structure['CrossPole'].Put(0,-2,0,2.5,0,90,0,0,2);
+structure['CrossSig'].Put(0,-2,0,2.5,0,90,0,0,2);
+structure['CrossTrap'].Put(0,-2,0,2.5,0,90,0,0,2);
+
+structure['Gatebox'].Put(0,-2,0,-0.5,0,90,0,0,2);
+structure['Gate250L'].Put(0,-2,0,-0.5,0,90,0,0,2);
+
+structure['TollBarSLt'].Put(0,0,0,0,0,0,0,0,2);
+structure['Cr_Crossing_SR'].Put(0,0,0,0,0,0,0,0,2);
+structure['Crossing_S'].Put(0,0,0,0,0,0,0,0,2);
+structure['TollBarSRt'].Put(0,0,0,0,0,0,0,0,2);
+
+structure['Gate250R'].Put(0,2,0,-0.5,0,-90,0,0,2);
+structure['Gatebox'].Put(0,2,0,-0.5,0,-90,0,0,2);
+
+structure['CrossSign'].Put(0,2,0,-1.5,0,-90,0,0,2);
+structure['CrossPole'].Put(0,2,0,-1.5,0,-90,0,0,2);
+structure['CrossSig'].Put(0,2,0,-1.5,0,-90,0,0,2);
+structure['CrossTrap'].Put(0,2,0,-1.5,0,-90,0,0,2);
+
+
+Sound3D['cross'].Put(-1.5, 2.3);
+Sound3D['cross'].Put(1.5, 2.3);
+
+structure['shoken2'].Put(0,-1.5,0,-4,0,0,0,0,2);
+structure['shoken1'].Put(0,-1.5,0,4,0,0,0,0,2);
+structure['shoken2'].Put(0,1.5,0,-4,0,0,0,0,2);
+structure['shoken1'].Put(0,1.5,0,4,0,0,0,0,2);
+
+#********************************************************************
+
 $sanyo_distance+130449;
 curve.BeginTransition();
 $sanyo_distance+130519;
