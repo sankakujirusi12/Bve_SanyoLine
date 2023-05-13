@@ -1,21 +1,11 @@
 BveTs Train 1.01:UTF-8
 [structure]
-key=DC40-2000N
+key=DC127-1000
 distance=0
 z=8
 span=16
 [structure]
-key=DC40light
-distance=0
-z=8
-span=16
-[structure]
-key=DC40-2000N
+key=DC127-1000b
 distance=21
 z=8
 span=16
-[sound3D]
-Key=DC40run
-Distance1=-10
-Distance2=31
-Function=Rolling

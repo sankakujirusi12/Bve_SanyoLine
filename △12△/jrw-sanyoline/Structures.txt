@@ -605,9 +605,12 @@ jrkasenchu-8B,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTr
 jrtetsukasenchu-8,Structures\Uchibo\Pole\Pole_VTA_3hL.x
 jrtetsukasenchu-12,Structures\Uchibo\Pole\Pole_VTA_4.x
 jrkasenchu-9A,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs09A.x
+jrkasenchu-9AR,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs09A_R.x
 jrkasenchu-9B,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs09B.x
 jrkasenchu-10A,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs10A.x
+jrkasenchu-10AR,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs10A_R.x
 jrkasenchu-10B,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs10B.x
+jrkasenchu-10BR,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs10B_R.x
 jrkasenchu-11A,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs11A.x
 jrkasenchu-11B,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs11B.x
 jrkasenchu-12A,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs12A.x
