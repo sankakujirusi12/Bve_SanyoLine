@@ -586,10 +586,6 @@ P1,../../Nagoya_Common\Railway_Obj\Signal\Beacon\P.x
 P2,../../Nagoya_Common\Railway_Obj\Signal\Beacon\P2.x
 #P標識
 p chijou,Structures\△12△\ats\p chijou.x
-#---------------------------------------------------------------------謎------------------------------------------------------------------------
-pien,Structures\△12△\komono\ぴえん.x
-koukoku1,Structures\koukoku\1.x
-
 #-------------------------------------------------------------------架線柱----------------------------------------------------------------------
 #Bは端が扁平、Rは片側
 jrkasenchu-5A,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs05A.x
@@ -643,6 +639,11 @@ Pype_2L,..\..\Nagoya_Common\Railway_Obj\Pole\Pype_2L.x
 Pype_2R,..\..\Nagoya_Common\Railway_Obj\Pole\Pype_2R.x
 Pype_CL,..\..\Nagoya_Common\Railway_Obj\Pole\Pype_CL.x
 Pype_CR,..\..\Nagoya_Common\Railway_Obj\Pole\Pype_CR.x
+
+Himeji_kasenchu_1,Structures\△12△\sta\himeji\Himeji_kasenchu.x
+Himeji_kasenchu_2,Structures\△12△\sta\himeji\Himeji_kasenchu2.x
+Himeji_kasenchu_3,Structures\△12△\sta\himeji\Himeji_kasenchu3.x
+Himeji_kasenchu_4,Structures\△12△\sta\himeji\Himeji_kasenchu4.x
 
 #架線
 kasen_10,Structures\Uchibo\Pole\kasen\kasen+10S.x
@@ -1233,6 +1234,8 @@ DC47-1000N,Structures\FTN\JRW-DC40_Kishin\DC47-1000N.x
 DC120_kame,Structures\Kotobuki\DC120_2end\DC120_kame.x
 
 #キハ122,127
+DC127_1000,Structures\saha209\DC122_127\127_1000.x
+DC127_1000b,Structures\saha209\DC122_127\127_1000b.x
 
 #山陽3000
 3630N,Structures\FTN\Sanyo3000\3630N.x
