@@ -276,7 +276,6 @@ structure['TollBarSLt'].Put(0,0,0,0,0,0,0,0,2);
 structure['Cr_Crossing_SR'].Put(0,0,0,0,0,0,0,0,2);
 structure['Crossing_S'].Put(0,0,0,0,0,0,0,0,2);
 structure['Crossing_S'].Put('sanyonobori',0,0,0,0,0,0,0,2);
-structure['Cr_Crossing_SL'].Put('sanyonobori',0,0,0,0,0,0,0,2);
 structure['TollBarSRt'].Put('sanyonobori',0,0,0,0,0,0,0,2);
 
 structure['Gate250R'].Put('sanyonobori',2,0,-0.5,0,-90,0,0,2);
@@ -343,30 +342,32 @@ $sanyo_distance+86676;
 $sanyo_distance+86680;
 #*********************************踏切統一構文(二車線用)**************************
 
-structure['CrossSign'].Put(0,-2,0,5,0,90,0,0,2);
-structure['CrossPole'].Put(0,-2,0,5,0,90,0,0,2);
-structure['CrossSig'].Put(0,-2,0,5,0,90,0,0,2);
-structure['CrossTrap'].Put(0,-2,0,5,0,90,0,0,2);
+structure['CrossSign'].Put(0,-2,0,5.5,0,90,0,0,2);
+structure['CrossPole'].Put(0,-2,0,5.5,0,90,0,0,2);
+structure['CrossSig'].Put(0,-2,0,5.5,0,90,0,0,2);
+structure['CrossTrap'].Put(0,-2,0,5.5,0,90,0,0,2);
 
-structure['GateboxL'].Put(0,-2,0,4.5,0,90,0,0,2);
-structure['Gate450L'].Put(0,-2,0,4.5,0,90,0,0,2);
-structure['GateboxR'].Put(0,-2,0,-4.5,0,90,0,0,2);
+structure['GateL'].Put(0,-2,0,5,0,90,0,0,2);
+structure['Gate450L'].Put(0,-2,0,5,0,90,0,0,2);
+structure['GateR'].Put(0,-2,0,-4.5,0,90,0,0,2);
 structure['Gate450R'].Put(0,-2,0,-4.5,0,90,0,0,2);
 
 structure['TollBarDLt'].Put(0,0,0,-2,0,0,0,0,2);
 structure['Cr_Crossing_DR'].Put(0,0,0,-2,0,0,0,0,2);
 structure['Crossing_D'].Put(0,0,0,-2,0,0,0,0,2);
 structure['Crossing_D'].Put('sanyonobori',0,0,-2,0,0,0,0,2);
-structure['Cr_Crossing_DL'].Put('sanyonobori',0,0,-2,0,0,0,0,2);
 structure['TollBarDRt'].Put('sanyonobori',0,0,-2,0,0,0,0,2);
 
-structure['Gate450R'].Put('sanyonobori',2,0,2.5,0,90,0,0,2);
-structure['Gatebox'].Put('sanyonobori',2,0,2.5,0,90,0,0,2);
+structure['GateR'].Put('sanyonobori',2,0,5,0,-90,0,0,2);
+structure['Gate450R'].Put('sanyonobori',2,0,5,0,-90,0,0,2);
+structure['GateL'].Put('sanyonobori',2,0,-4.5,0,-90,0,0,2);
+structure['Gate450L'].Put('sanyonobori',2,0,-4.5,0,-90,0,0,2);
 
-structure['CrossSign'].Put('sanyonobori',2,0,-4,0,-90,0,0,2);
-structure['CrossPole'].Put('sanyonobori',2,0,-4,0,-90,0,0,2);
-structure['CrossSig'].Put('sanyonobori',2,0,-4,0,-90,0,0,2);
-structure['CrossTrap'].Put('sanyonobori',2,0,-4,0,-90,0,0,2);
+
+structure['CrossSign'].Put('sanyonobori',2,0,-5,0,-90,0,0,2);
+structure['CrossPole'].Put('sanyonobori',2,0,-5,0,-90,0,0,2);
+structure['CrossSig'].Put('sanyonobori',2,0,-5,0,-90,0,0,2);
+structure['CrossTrap'].Put('sanyonobori',2,0,-5,0,-90,0,0,2);
 
 
 Sound3D['cross'].Put(-1.5, 2.3);
@@ -407,7 +408,6 @@ structure['TollBarSLt'].Put(0,0,0,0,0,0,0,0,2);
 structure['Cr_Crossing_SR'].Put(0,0,0,0,0,0,0,0,2);
 structure['Crossing_S'].Put(0,0,0,0,0,0,0,0,2);
 structure['Crossing_S'].Put('sanyonobori',0,0,0,0,0,0,0,2);
-structure['Cr_Crossing_SL'].Put('sanyonobori',0,0,0,0,0,0,0,2);
 structure['TollBarSRt'].Put('sanyonobori',0,0,0,0,0,0,0,2);
 
 structure['Gate250R'].Put('sanyonobori',2,0,-0.5,0,-90,0,0,2);
@@ -642,8 +642,12 @@ structure['Gate250L'].Put(0,-2,0,-0.5,0,90,0,0,2);
 structure['TollBarSLt'].Put(0,0,0,0,0,0,0,0,2);
 structure['Cr_Crossing_SR'].Put(0,0,0,0,0,0,0,0,2);
 structure['Crossing_S'].Put(0,0,0,0,0,0,0,0,2);
+
+structure['Crossing_S'].Put('nakage',0,0,0,0,0,0,0,2);
+structure['Cr_Crossing_SR'].Put('nakage',0,0,0,0,0,0,0,2);
+
 structure['Crossing_S'].Put('sanyonobori',0,0,0,0,0,0,0,2);
-structure['Cr_Crossing_SL'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+
 structure['TollBarSRt'].Put('sanyonobori',0,0,0,0,0,0,0,2);
 
 structure['Gate250R'].Put('sanyonobori',2,0,-0.5,0,-90,0,0,2);
@@ -1217,7 +1221,6 @@ structure['TollBarSLt'].Put(0,0,0,0,0,0,0,0,2);
 structure['Cr_Crossing_SR'].Put(0,0,0,0,0,0,0,0,2);
 structure['Crossing_S'].Put(0,0,0,0,0,0,0,0,2);
 structure['Crossing_S'].Put('sanyonobori',0,0,0,0,0,0,0,2);
-structure['Cr_Crossing_SL'].Put('sanyonobori',0,0,0,0,0,0,0,2);
 structure['TollBarSRt'].Put('sanyonobori',0,0,0,0,0,0,0,2);
 
 structure['Gate250R'].Put('sanyonobori',2,0,-0.5,0,-90,0,0,2);
@@ -1673,7 +1676,7 @@ structure['TollBarSLt'].Put(0,0,0,0,0,0,0,0,2);
 structure['Cr_Crossing_SR'].Put(0,0,0,0,0,0,0,0,2);
 structure['Crossing_S'].Put(0,0,0,0,0,0,0,0,2);
 structure['Crossing_S'].Put('sanyonobori',0,0,0,0,0,0,0,2);
-structure['Cr_Crossing_SL'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+
 structure['TollBarSRt'].Put('sanyonobori',0,0,0,0,0,0,0,2);
 
 structure['Gate250R'].Put('sanyonobori',2,0,-0.5,0,-90,0,0,2);
@@ -1729,7 +1732,7 @@ structure['TollBarSLt'].Put(0,0,0,0,0,0,0,0,2);
 structure['Cr_Crossing_SR'].Put(0,0,0,0,0,0,0,0,2);
 structure['Crossing_S'].Put(0,0,0,0,0,0,0,0,2);
 structure['Crossing_S'].Put('sanyonobori',0,0,0,0,0,0,0,2);
-structure['Cr_Crossing_SL'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+
 structure['TollBarSRt'].Put('sanyonobori',0,0,0,0,0,0,0,2);
 
 structure['Gate250R'].Put('sanyonobori',2,0,-0.5,0,-90,0,0,2);
@@ -2084,7 +2087,7 @@ structure['TollBarSLt'].Put(0,0,0,0,0,0,0,0,2);
 structure['Cr_Crossing_SR'].Put(0,0,0,0,0,0,0,0,2);
 structure['Crossing_S'].Put(0,0,0,0,0,0,0,0,2);
 structure['Crossing_S'].Put('sanyonobori',0,0,0,0,0,0,0,2);
-structure['Cr_Crossing_SL'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+
 structure['TollBarSRt'].Put('sanyonobori',0,0,0,0,0,0,0,2);
 
 structure['Gate250R'].Put('sanyonobori',2,0,-0.5,0,-90,0,0,2);
@@ -2321,17 +2324,25 @@ Repeater['fence_nobori'].End();
 $sanyo_distance+94400;
 #*********************************踏切統一構文(一車線用)**************************
 
-structure['CrossSign'].Put(0,-2,0,2.5,0,90,0,0,2);
-structure['CrossPole'].Put(0,-2,0,2.5,0,90,0,0,2);
-structure['CrossSig'].Put(0,-2,0,2.5,0,90,0,0,2);
-structure['CrossTrap'].Put(0,-2,0,2.5,0,90,0,0,2);
+structure['CrossSign'].Put('gawa_hoshi1',-2,0,2.5,0,90,0,0,2);
+structure['CrossPole'].Put('gawa_hoshi1',-2,0,2.5,0,90,0,0,2);
+structure['CrossSig'].Put('gawa_hoshi1',-2,0,2.5,0,90,0,0,2);
+structure['CrossTrap'].Put('gawa_hoshi1',-2,0,2.5,0,90,0,0,2);
 
-structure['Gatebox'].Put(0,-2,0,-0.5,0,90,0,0,2);
-structure['Gate250L'].Put(0,-2,0,-0.5,0,90,0,0,2);
+structure['Gatebox'].Put('gawa_hoshi1',-2,0,-0.5,0,90,0,0,2);
+structure['Gate250L'].Put('gawa_hoshi1',-2,0,-0.5,0,90,0,0,2);
 
-structure['TollBarSLt'].Put(0,0,0,0,0,0,0,0,2);
-structure['Cr_Crossing_SR'].Put(0,0,0,0,0,0,0,0,2);
-structure['Crossing_S'].Put(0,0,0,0,0,0,0,0,2);
+structure['TollBarSLt'].Put('gawa_hoshi1',0,0,0,0,0,0,0,2);
+structure['Cr_Crossing_SR'].Put('gawa_hoshi1',0,0,0,0,0,0,0,2);
+structure['Crossing_S'].Put('gawa_hoshi1',0,0,0,0,0,0,0,2);
+
+structure['Crossing_S'].Put('gawa_hoshi3',0,0,0,0,0,0,0,2);
+structure['Crossing_S'].Put('watari1',0,0,0,0,0,0,0,2);
+
+structure['Crossing_S'].Put('sanyokudari',0,0,0,0,0,0,0,2);
+structure['Cr_Crossing_SL'].Put('sanyokudari',0,0,0,0,0,0,0,2);
+#structure['Cr_Crossing_SR'].Put('sanyokudari',0,0,0,0,0,0,0,2);
+
 structure['Crossing_S'].Put('sanyonobori',0,0,0,0,0,0,0,2);
 structure['Cr_Crossing_SL'].Put('sanyonobori',0,0,0,0,0,0,0,2);
 structure['TollBarSRt'].Put('sanyonobori',0,0,0,0,0,0,0,2);
@@ -3875,9 +3886,8 @@ $sanyo_distance+104694;
 	Track['gawa_aioi3'].Position(-7.35,0,0,0);
 repeater['ballast3'].End();
 repeater['ballast6'].End();
-structure['tree12'].Put(0,26,0,0,0,0,0,0,0);
 $sanyo_distance+104700;
-structure['tree11'].Put(0,26,0,0,0,0,0,0,0);
+
 $sanyo_distance+104717;
 repeater['road_1sya'].Begin0('douro1',1,6,5.5,'Road_1sya_nb');
 	Track['douro1'].Position(-100,-8,0);
@@ -3900,7 +3910,7 @@ Repeater['DikeR'].Begin0('sanyonobori', 0, 5, 5, 'DikeR_1','DikeR_2','DikeR_3');
 $sanyo_distance+104748;
 repeater['Ballast_gr5'].End();
 	Track['akose'].Position(-2,0,308,0);
-structure['tree10'].Put(0,26,0,0,0,0,0,0,0);
+
 $sanyo_distance+104759;
 #下り～上り渡線終了。
 	Track['jyouge'].Position(0,0);
@@ -3908,7 +3918,7 @@ repeater['tigerrope5m'].Begin(0,2,0,0,0,0,0,1,5,5,'tigerrope5m');
 repeater['ropebase'].Begin(0,2,0,0,0,0,0,1,5,5,'ropebase');
 JointNoise.Play(0);
 repeater['ballast7'].End();
-structure['tree10'].Put(0,26,0,0,0,0,0,0,0);
+
 $sanyo_distance+104765;
 repeater['Ballast_gr2'].End();
 
@@ -3919,26 +3929,28 @@ $sanyo_distance+104778;
 Repeater['DikeL2'].Begin('route2',-8,0,0,0,0,0,3,5,5, 'DikeL_1','DikeL_2','DikeL_3');
 Repeater['DikeR2'].Begin('route2',8,0,0,0,0,0,3,5,5, 'DikeR_1','DikeR_2','DikeR_3');
 	Track['route2'].Position(75,0);
-#R600
+#R400
 #赤穂線に側線が合流
 structure['seigen35L'].Put(0,-2.5,1.3,0,0,0,0,0,0);
 structure['seigenpole'].Put(0,-2.5,0.3,0,0,0,0,0,0);
 	Track['akose'].Position(-6,0,-308,0);
 	Track['gawa_aioi2'].Position(-6,0,0,0);
 	Track['sanyonobori'].Position(4,0);
-structure['tree11'].Put(0,26,0,0,0,0,0,0,0);
 Repeater['DikeL1'].Begin0('akose', 0, 5, 5, 'DikeL_1','DikeL_2','DikeL_3');
 Repeater['DikeR1'].Begin0('akose', 0, 5, 5, 'DikeR_1','DikeR_2','DikeR_3');
+structure['Mt2'].Put('Grass2',47,-40,0,0,40,0,0,0);
 $sanyo_distance+104798;
-structure['tree12'].Put(0,26,0,0,0,0,0,0,0);
+structure['Mt2'].Put('Grass2',37,-30,0,0,40,0,0,0);
 $sanyo_distance+104817;
 	Track['douro1'].Position(-55,-6,-400);
 curve.Begin(400,0.105);
 Track['sanyonobori'].Cant.Interpolate(0.105);
 $sanyo_distance+104858;
+structure['Mt2'].Put('Grass2',37,-30,0,0,40,0,0,0);
 $sanyo_distance+104890;
 	repeater['denchu'].Begin('douro1',-2,0,0,0,0,0,1,40,40,'denchu','denchu1','denchu','denchu','denchu3','denchu1','denchu');
 	repeater['densen'].Begin('douro1',-2,0,0,0,0,0,1,40,40,'densen');
+	structure['Mt2'].Put('Grass2',37,-30,0,0,40,0,0,0);
 $sanyo_distance+104917;
 	Track['douro1'].Position(-10,-6,-400);
 $sanyo_distance+104940;
@@ -3946,9 +3958,13 @@ repeater['kyoukyaku'].End();
 repeater['kyoukyaku1'].End();
 	Track['sinkad'].Position(25,14,-400);
 	Track['sinkau'].Position(29,14,-400);
+
 $sanyo_distance+105000;
 	Track['Grass2'].Position(0,-8);
 	Track['akose'].Position(-100,-4);
+	structure['Mt2'].Put('akose',0,-10,5,0,-50,0,0,0);
+	structure['TN1_potal'].Put('akose',0,0,0,0,-50,0,1,2);
+	structure['TN1_ent'].Put('akose',0,0,0,0,-50,0,1,5);
 repeater['ballast8'].End();
 repeater['DikeL1'].End();
 repeater['DikeR1'].End();
@@ -3968,6 +3984,7 @@ repeater['kyoukyaku1'].Begin('sinkad',0,0,0,0,0,0,0,25,25,'shinkan_kyoukyaku');
 $sanyo_distance+105069.6;
 structure['kanko_6'].Put(0,-2.6,3,0,0,0,0,0,0);
 $sanyo_distance+105077;
+
 	repeater['denchu'].End();
 	Track['Mt_L'].Position(-110,-10,0,0);
 repeater['road_1sya'].Begin0('douro2',1,10,9,'Road_1sya_nb');
@@ -3975,6 +3992,9 @@ repeater['road_1sya'].Begin0('douro2',1,10,9,'Road_1sya_nb');
 	Track['douro2'].Position(-90,-6,-400);
 repeater['zas1'].Begin('Grass2',-12.5,0,0,0,0,0,1,10,10,'Mt_wall_18a','Mt_wall_10a','Mt_wall_14b','Mt_wall_16a',,'Mt_wall_15b','Mt_wall_13b');
 $sanyo_distance+105156;
+	structure['Mt2'].Put('sinkau',-100,-20,0,0,-40,0,0,0);
+	structure['Mt2'].Put('sinkau',0,-20,0,0,-40,0,0,0);
+	structure['Mt2'].Put('sinkau',-50,-40,0,0,-40,0,0,0);
 Curve.Interpolate(400, 0.105);
 Track['sanyonobori'].Cant.Interpolate(0.105);
 $sanyo_distance+105237;
@@ -4224,7 +4244,7 @@ structure['TollBarSLt'].Put(0,0,0,0,0,0,0,0,2);
 structure['Cr_Crossing_SR'].Put(0,0,0,0,0,0,0,0,2);
 structure['Crossing_S'].Put(0,0,0,0,0,0,0,0,2);
 structure['Crossing_S'].Put('sanyonobori',0,0,0,0,0,0,0,2);
-structure['Cr_Crossing_SL'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+
 structure['TollBarSRt'].Put('sanyonobori',0,0,0,0,0,0,0,2);
 
 structure['Gate250R'].Put('sanyonobori',2,0,-0.5,0,-90,0,0,2);
@@ -4394,7 +4414,7 @@ structure['TollBarSLt'].Put(0,0,0,0,0,0,0,0,2);
 structure['Cr_Crossing_SR'].Put(0,0,0,0,0,0,0,0,2);
 structure['Crossing_S'].Put(0,0,0,0,0,0,0,0,2);
 structure['Crossing_S'].Put('sanyonobori',0,0,0,0,0,0,0,2);
-structure['Cr_Crossing_SL'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+
 structure['TollBarSRt'].Put('sanyonobori',0,0,0,0,0,0,0,2);
 
 structure['Gate250R'].Put('sanyonobori',2,0,-0.5,0,-90,0,0,2);
@@ -4464,7 +4484,7 @@ structure['TollBarSLt'].Put(0,0,0,0,0,0,0,0,2);
 structure['Cr_Crossing_SR'].Put(0,0,0,0,0,0,0,0,2);
 structure['Crossing_S'].Put(0,0,0,0,0,0,0,0,2);
 structure['Crossing_S'].Put('sanyonobori',0,0,0,0,0,0,0,2);
-structure['Cr_Crossing_SL'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+
 structure['TollBarSRt'].Put('sanyonobori',0,0,0,0,0,0,0,2);
 
 structure['Gate250R'].Put('sanyonobori',2,0,-0.5,0,-90,0,0,2);
@@ -4521,7 +4541,7 @@ structure['TollBarSLt'].Put(0,0,0,0,0,0,0,0,2);
 structure['Cr_Crossing_SR'].Put(0,0,0,0,0,0,0,0,2);
 structure['Crossing_S'].Put(0,0,0,0,0,0,0,0,2);
 structure['Crossing_S'].Put('sanyonobori',0,0,0,0,0,0,0,2);
-structure['Cr_Crossing_SL'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+
 structure['TollBarSRt'].Put('sanyonobori',0,0,0,0,0,0,0,2);
 
 structure['Gate250R'].Put('sanyonobori',2,0,-0.5,0,-90,0,0,2);
@@ -4599,7 +4619,7 @@ structure['TollBarSLt'].Put(0,0,0,0,0,0,0,0,2);
 structure['Cr_Crossing_SR'].Put(0,0,0,0,0,0,0,0,2);
 structure['Crossing_S'].Put(0,0,0,0,0,0,0,0,2);
 structure['Crossing_S'].Put('sanyonobori',0,0,0,0,0,0,0,2);
-structure['Cr_Crossing_SL'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+
 structure['TollBarSRt'].Put('sanyonobori',0,0,0,0,0,0,0,2);
 
 structure['Gate250R'].Put('sanyonobori',2,0,-0.5,0,-90,0,0,2);
@@ -4710,7 +4730,7 @@ structure['TollBarSLt'].Put(0,0,0,0,0,0,0,0,2);
 structure['Cr_Crossing_SR'].Put(0,0,0,0,0,0,0,0,2);
 structure['Crossing_S'].Put(0,0,0,0,0,0,0,0,2);
 structure['Crossing_S'].Put('sanyonobori',0,0,0,0,0,0,0,2);
-structure['Cr_Crossing_SL'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+
 structure['TollBarSRt'].Put('sanyonobori',0,0,0,0,0,0,0,2);
 
 structure['Gate250R'].Put('sanyonobori',2,0,-0.5,0,-90,0,0,2);
