@@ -2,7 +2,7 @@ BveTs Map 2.00:UTF-8
 #山陽本線・夜設定
 
 0;
-Light.Ambient(0.2, 0.2, 0.2);
+Light.Ambient(0.17, 0.17, 0.17);
 Light.Diffuse(0.13, 0.13, 0.13);
 $sanyo_distance+83000;
 #repeater['Formlight'].Begin(0,-4,1.2,0,0,0,0,0,4.5,4.5,'light','light','light','light','light',);

@@ -12,6 +12,13 @@ NighttimeImage = ../../../../../../Rock_On\Train\JR\Vehicle\115\panel_O\D14panel
 Center = 1180, 639
 Origin = 1173, 638
 
+;1305M
+[PilotLamp]
+Subject = true
+Location = 1480,0
+DaytimeImage   = 1305M.png
+NighttimeImage = 1305M_n.png
+Layer = 3
 
 ;圧力計1
 [PilotLamp]
@@ -391,14 +398,3 @@ Minimum = 0
 Maximum = 60
 NaturalFreq = 63
 DampingRatio = 0.5
-
-[Needle]
-Subject = true
-Origin = 0,235
-Location = 1498, 240
-Radius = 115
-InitialAngle = 0
-LastAngle = 0
-DaytimeImage = 1305M.png
-NighttimeImage = 1305M_d.png
-Layer = 3

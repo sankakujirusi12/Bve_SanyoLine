@@ -1,0 +1,79 @@
+version 1.0
+
+[run]
+0=..\..\..\..\..\..\jnr_locopack\sound\66_sound\runa.wav ;25m
+1=..\..\..\..\..\..\jnr_locopack\sound\64_sound\runb.wav ;tunnel
+2=..\..\..\..\..\..\jnr_locopack\sound\66_sound\runc.wav ;bridge
+3=..\..\..\..\..\..\jnr_locopack\sound\64_sound\rund.wav ;slab
+4=..\..\..\..\..\..\jnr_locopack\sound\64_sound\rune.wav ;long
+
+[flange]
+0=..\..\..\..\..\..\jnr_locopack\sound\00_sound\flangea.wav
+
+[motor]
+0=..\..\..\..\..\..\jnr_locopack\sound\00_sound\motor2a.wav
+1=..\..\..\..\..\..\jnr_locopack\sound\00_sound\motor2b.wav
+2=..\..\..\..\..\..\jnr_locopack\sound\00_sound\motor2c.wav
+3=..\..\..\..\..\..\jnr_locopack\sound\00_sound\motor1a.wav
+
+[switch]
+0=..\..\..\..\..\..\jnr_locopack\sound\00_sound\pointb.wav
+
+[suspension]
+left=..\..\..\..\..\..\jnr_locopack\sound\00_sound\noiseb.wav
+right=..\..\..\..\..\..\jnr_locopack\sound\00_sound\noisec.wav
+
+[brake]
+emergency=..\..\..\..\..\..\jnr_locopack\sound\00_sound\brakec.wav
+
+[compressor]
+attack=..\..\..\..\..\..\jnr_locopack\sound\00_sound\comp2a.wav
+loop=..\..\..\..\..\..\jnr_locopack\sound\00_sound\comp2b.wav
+release=..\..\..\..\..\..\jnr_locopack\sound\00_sound\comp2c.wav
+
+[horn]
+primary=..\..\..\..\..\..\jnr_locopack\sound\00_sound\klaxon1a.wav
+primaryrelease=..\..\..\..\..\..\jnr_locopack\sound\00_sound\klaxon1b.wav
+
+[ats]
+0=..\..\..\..\..\..\jnr_locopack\sound\00_sound\atsa.wav
+1=..\..\..\..\..\..\jnr_locopack\sound\00_sound\atsb.wav
+2=..\..\..\..\..\..\Rock_On\Train\JR\Vehicle\common\Sound\P.wav
+8=..\..\..\..\..\..\jnr_locopack\sound\00_sound\atsc.wav
+9=..\..\..\..\..\..\jnr_locopack\sound\00_sound\buzza.wav
+10=..\..\..\..\..\..\jnr_locopack\sound\66_sound\blowa.wav
+11=..\..\..\..\..\..\jnr_locopack\sound\66_sound\blowb.wav
+12=..\..\..\..\..\..\jnr_locopack\sound\66_sound\blowc.wav
+13=..\..\..\..\..\..\jnr_locopack\sound\00_sound\reve.wav
+14=..\..\..\..\..\..\jnr_locopack\sound\00_sound\reve.wav
+15=..\..\..\..\..\..\jnr_locopack\sound\00_sound\revf.wav
+16=..\..\..\..\..\..\jnr_locopack\sound\00_sound\revf.wav
+23=..\..\..\..\..\..\Rock_On\Train\JR\Vehicle\common\Sound\P.wav
+50=..\..\..\..\..\..\jnr_locopack\sound\00_sound\reva.wav
+60=..\..\..\..\..\..\jnr_locopack\sound\00_sound\brakea.wav
+61=..\..\..\..\..\..\jnr_locopack\sound\00_sound\brakeb.wav
+
+[brake handle]
+apply=..\..\..\..\..\..\jnr_locopack\sound\00_sound\revb.wav
+release=..\..\..\..\..\..\jnr_locopack\sound\00_sound\revb.wav
+min=..\..\..\..\..\..\jnr_locopack\sound\00_sound\revb.wav
+max=..\..\..\..\..\..\jnr_locopack\sound\00_sound\revb.wav
+
+[master controller]
+up=..\..\..\..\..\..\jnr_locopack\sound\00_sound\revf.wav
+down=..\..\..\..\..\..\jnr_locopack\sound\00_sound\revf.wav
+upfast=..\..\..\..\..\..\jnr_locopack\sound\00_sound\revg.wav
+downfast=..\..\..\..\..\..\jnr_locopack\sound\00_sound\revg.wav
+min=..\..\..\..\..\..\jnr_locopack\sound\00_sound\revf.wav
+max=..\..\..\..\..\..\jnr_locopack\sound\00_sound\revf.wav
+
+[reverser]
+on=..\..\..\..\..\..\jnr_locopack\sound\00_sound\revd.wav
+off=..\..\..\..\..\..\jnr_locopack\sound\00_sound\revd.wav
+
+[pilot lamp]
+on=..\..\..\..\..\..\jnr_locopack\sound\00_sound\buzzb.wav
+
+[others]
+noise=..\..\..\..\..\..\jnr_locopack\sound\00_sound\noisea.wav
+shoe=..\..\..\..\..\..\jnr_locopack\sound\00_sound\braked.wav
