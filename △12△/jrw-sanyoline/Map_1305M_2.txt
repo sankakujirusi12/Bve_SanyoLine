@@ -216,7 +216,18 @@ CabIlluminance.Interpolate(1);
 CabIlluminance.Interpolate(0.6);
 118640+$sanyo_distance;
 CabIlluminance.Interpolate(1);
-
+128350+$sanyo_distance;
+CabIlluminance.Interpolate(1);
+128450+$sanyo_distance;
+CabIlluminance.Interpolate(0.6);
+128560+$sanyo_distance;
+CabIlluminance.Interpolate(0.4);
+128570+$sanyo_distance;
+CabIlluminance.Interpolate(0);
+129610+$sanyo_distance;
+CabIlluminance.Interpolate(0);
+129625+$sanyo_distance;
+CabIlluminance.Interpolate(0.7);
 
 #-------------------------転動音-----------------------
 #0=ロング 1=なし 3=橋梁 4=スラブ 2=25m

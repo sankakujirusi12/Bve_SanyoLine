@@ -600,9 +600,9 @@ repeater['TN_nobori'].End();
 #TN明け
 repeater['zas1'].Begin('Grass2',-9.5,0,0,0,0,0,1,10,10,'Mt_wall_18a','Mt_wall_10a','Mt_wall_14b','Mt_wall_16a',,'Mt_wall_15b','Mt_wall_13b');
 repeater['zas2'].Begin('',10.5,-1,0,0,0,0,1,10,10,'Mt_wall_10a','Mt_wall_13a','Mt_wall_14a','Mt_wall_12b',,'Mt_wall_18b','Mt_wall_12a');
-	repeater['Mt_R1'].Begin('',-76,-10,0,0,0,0,0,55,55,'Mt2','Mt2');
+	repeater['Mt_R1'].Begin('',-80,-10,0,0,0,0,0,55,55,'Mt2','Mt2');
 	Repeater['blankR1'].Begin('sanyokudari',-0.5,0,0,0,0,0,1,25,25,'blankR_01','blankR_02','blankR_03');
-Repeater['bushR1'].Begin('sanyokudari',1.5,-0.8,0,0,0,0,1,25,25,'bush_R01','bush_R03','bush_R02');
+	#Repeater['bushR1'].Begin('sanyokudari',1.5,-0.8,0,0,0,0,1,25,25,'bush_R01','bush_R03','bush_R02');
 $sanyo_distance+129980;
 curve.BeginTransition();
 $sanyo_distance+130020;
@@ -656,9 +656,9 @@ curve.Begin(-880,-0.06);
 	
 $sanyo_distance+130602;	
 	repeater['zas2'].End();
+	repeater['bushR1'].End();
 $sanyo_distance+130702;
 
-	repeater['bushR1'].End();
 $sanyo_distance+130732;
 	Track['sanyonobori'].Position(4,0,0);
 #上り本線4M右

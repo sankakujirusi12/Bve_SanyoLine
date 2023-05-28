@@ -715,7 +715,7 @@ shinkan_poleL,Structures\zacky751\新幹線架線柱\Pole_shinkansen_L.x
 shinkan_poleR,Structures\zacky751\新幹線架線柱\Pole_shinkansen_R.x
 teimen,Structures\kyoukyaku\teimen.x
 Pier_sk,Structures\Uchibo\Pier\Beam.x
-shinkan_kyoukyaku,Structures\Uchibo\Pier\PierH.x
+shinkan_kyoukyaku,Structures\kyoukyaku\kyoukyaku.x
 shinkan_wallL,Structures\Ntfiv\GeneralStr_png\Wall\Wall_QN_L5m.x
 shinkan_wallL_25,Structures\Ntfiv\GeneralStr_png\Wall\Wall_QN_L25m.x
 shinkan_wallL_p,Structures\Ntfiv\GeneralStr_png\Wall\Wall_QN_ofset_L10m.x

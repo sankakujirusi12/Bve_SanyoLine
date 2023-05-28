@@ -19,7 +19,7 @@ Train['hoshi1'].Load('Trains\223-1000_8_.txt', 'hoshiden9', -1);
 Train['hoshi2'].Load('Trains\145.txt', 'hoshiden5', -1);
 Train['hoshi3'].Load('Trains\205_7.txt', 'hoshiden4', -1);
 Train['hoshi4'].Load('Trains\225-0_12__.txt', 'hoshiden5', -1);
-Train['hoshi5'].Load('Trains\221-0_8.txt', 'gawa_hoshi1', -1);
+Train['hoshi5'].Load('Trains\221-0n_8.txt', 'gawa_hoshi1', -1);
 Train['hoshi6'].Load('Trains\225-0_8.txt', 'gawa_hoshi1', -1);
 Train['hoshi7'].Load('Trains\223-1000_8_.txt', 'hoshiden3', -1);
 Train['hoshi8'].Load('Trains\223-2000_12__.txt', 'hoshiden7', -1);
