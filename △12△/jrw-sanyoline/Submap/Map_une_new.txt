@@ -115,8 +115,8 @@ repeater['whitefence2'].End();
 #上りホーム屋根
 $sanyo_distance+112143;
 #カーブ
-structure['teimokupole2'].Put(0,-2.3,2.5,0.4,0,0,0,0,0);
-structure['retsutei'].Put(0,-2.3,2.5,0,0,0,0,0,0);
+structure['teimokupole2'].Put(0,-2.3,3.5,0.4,0,0,0,0,0);
+structure['retsutei'].Put(0,-2.3,3.5,0,0,0,0,0,0);
 curve.Begin(700,0.06);
 $sanyo_distance+112139;
 repeater['roof_nobori'].End();
@@ -144,6 +144,8 @@ repeater['Form_R'].End();
 Repeater['DikeL'].Begin0(, 0, 5, 5, 'DikeL_1','DikeL_2','DikeL_3');
 Repeater['DikeR'].Begin0('sanyonobori', 0, 5, 5, 'DikeR_1','DikeR_2','DikeR_3');
 	Track['Grass2'].Position(0,-0.45);
+$sanyo_distance+112194;
+structure['Une_annnai'].Put('grass',-17,0,0,0,0,0,0,0);
 $sanyo_distance+112000;
 repeater['Ballast_gr2'].Begin(0,8,-0.01,0,0,0,0,1,5,5,'Ballast_gr');
 $sanyo_distance+112210;

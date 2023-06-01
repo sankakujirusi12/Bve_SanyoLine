@@ -325,9 +325,6 @@ depot,Structures\サンパチタテモノ\build\syako\syako2.x
 #ホーム壁
 formwallL,../../Nagoya_Common\Build\Form\Old_Form\Roof2\WallL.x
 formwallR,../../Nagoya_Common\Build\Form\Old_Form\Roof2\WallR.x
-#有年
-formwallL2,Structures\Form\wall\Xファイル\stawallL.x
-formwallR2,Structures\Form\wall\Xファイル\stawallR.x
 #(近代型)
 formwall6L,Structures\Ntfiv\GeneralStr_png\ACCC\Station\Fence6L.x
 formwall6R,Structures\Ntfiv\GeneralStr_png\ACCC\Station\Fence6R.x
@@ -859,7 +856,11 @@ katsu_hoshi_apart1,Structures\△12△\ensen\katsu_hoshi_apart1.x
 Aboshi_kanban,Structures\△12△\ensen\Aboshi_kanban.x
 
 #有年～上郡
+Une_annnai,Structures\△12△\ensen\une_annnai.x
 Sayo_kozuki,Structures\△12△\ensen\Sayo_kozuki.x
+
+#三石
+Mitsuishi_factory,Structures\△12△\ensen\Mitsuishi_factory.x
 
 #---------------------------------------------Train----------------------------
 
@@ -878,7 +879,7 @@ suhahu14-200_b,Structures\saha209\PC14\ML\14b_1.x
 oha14-200,Structures\saha209\PC14\ML\14_2.x
 ohahu15-200,Structures\saha209\PC14\ML\14_3.x
 ohahu15-200_b,Structures\saha209\PC14\ML\14b_3.x
-#14系(サロンカーはにわ)
+#14系(サロンカーなにわ)
 surohu14,Structures\saha209\PC14\naniwa\14_1.x
 oro14,Structures\saha209\PC14\naniwa\14_2.x
 surohu14_b,Structures\saha209\PC14\naniwa\14b_1.x
