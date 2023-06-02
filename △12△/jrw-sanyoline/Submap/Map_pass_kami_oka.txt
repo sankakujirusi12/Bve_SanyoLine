@@ -1299,7 +1299,7 @@ $sanyo_distance+143594;
 	repeater['ballast103'].End();
 $sanyo_distance+143600;
 	Track[104].Position(-4,0,0,0);
-	repeater['ballast104'].Begin(104,0,0,0,0,0,0,3,5,5,'Ballast');
+	repeater['ballast104'].Begin(104,0,-0.001,0,0,0,0,3,5,5,'Ballast');
 $sanyo_distance+143616;
 	Track[105].Position(-4,0,-279,0);
 	repeater['ballast105'].Begin(105,0,0,0,0,0,0,3,5,5,'Ballast');
@@ -1337,7 +1337,7 @@ $sanyo_distance+144254;
 	Track[104].Position(-1,0,-279,0);
 $sanyo_distance+144278;
 	Track[104].Position(0,0,0,0);
-
+	repeater['ballast104'].End();
 #102 中
 
 
@@ -2303,7 +2303,7 @@ repeater['ballast126'].Begin(126,0,0,0,0,0,0,3,5,5,'Ballast');
 $sanyo_distance+171750;
 ###################読み替え 127→西引き上げ4番
 Track[127].Position(4,0,0,0);
-repeater['ballast127'].Begin(127,0,0,0,0,0,0,3,5,5,'Ballast');
+repeater['ballast127'].Begin(127,0,-0.001,0,0,0,0,3,5,5,'Ballast');
 $sanyo_distance+171756;
 Track[121].Position(15.5,0,-279,0);
 $sanyo_distance+171772;
@@ -2439,7 +2439,9 @@ Track[128].Position(8,0,2400,0);
 Track['sanyonobori'].Position(16,0,2400,0);
 Track[119].Position(20,0,1600,0);
 $sanyo_distance+172256;
-Track[131].Position(0,0,279,0);
+
+#131:岡山2番
+Track[131].Position(0,0,308,0);
 repeater['ballast131'].Begin(131,0,0,0,0,0,0,3,5,5,'Ballast');
 $sanyo_distance+172272;
 Track[125].Position(24,0,279,0);
@@ -2458,11 +2460,11 @@ Track[135].Position(24,0,-279,0);
 
 $sanyo_distance+172380;
 Track[127].Position(10.5,0,-1000,0);
-Track[128].Position(14.5,0,-1000,0);
+#Track[128].Position(14.5,0,-1000,0);
 Track['sanyonobori'].Position(22.5,0,-1000,0);
 Track[119].Position(31.5,0,-1000,0);
 Curve.Interpolate(0, 0);
-Track[131].Position(7,0,0,0);
+Track[131].Position(6,0,-2000,0);
 
 $sanyo_distance+172390;
 Track[134].Position(28,0,-1000);
@@ -2471,20 +2473,16 @@ repeater['ballast135'].Begin(135,0,0,0,0,0,0,3,5,5,'Ballast');
 
 $sanyo_distance+172410;
 Curve.Interpolate(1000, 0.04);
-$sanyo_distance+172450;
-Track[127].Position(13,0,0,0);
-Track[128].Position(17,0,0,0);
-Track[133].Position(13,0,279,0);
+$sanyo_distance+172440;
+Track[127].Position(14,0,-329,0);
+Track[133].Position(14,0,0,0);
 repeater['ballast133'].Begin(133,0,0,0,0,0,0,3,5,5,'Ballast');
+$sanyo_distance+172450;
 Track['sanyonobori'].Position(25,0,0,0);
 Track[119].Position(38,0,0,0);
 Track[125].Position(37,0,0,0);
-Track[131].Position(9,0,0,0);
+Track[131].Position(10,0,-1000,0);
 Track[134].Position(28,0,0);
-$sanyo_distance+172458;
-Track[127].Position(13,0,-279,0);
-$sanyo_distance+172474;
-Track[133].Position(14,0,-279,0);
 
 $sanyo_distance+172498;
 Track[133].Position(15,0,0,0);
@@ -2500,10 +2498,8 @@ Track[136].Position(52,0,-279,0);
 $sanyo_distance+172666;
 Track[136].Position(53,0,0,0);
 Track[119].Position(68,0,0,0);
-$sanyo_distance+172478;
-Track[127].Position(12,0,279,0);
-$sanyo_distance+172506;
-#Track[127].Position(10,0,279,0);
+$sanyo_distance+172458;
+Track[127].Position(13,0,329,0);
 $sanyo_distance+172522;
 Track[134].Position(29,0,0,0);
 Track[119].Position(50,0,0,0);
@@ -2512,32 +2508,54 @@ $sanyo_distance+172500;
 Track[131].Position(11,0,0,0);
 Track[127].Position(11,0,0,0);
 repeater['ballast127'].End();
-$sanyo_distance+172376;
-Track[132].Position(22.2,0,-279,0);
-repeater['ballast132'].Begin(132,0,0,0,0,0,0,3,5,5,'Ballast');
-$sanyo_distance+172400;
-Track[132].Position(21.7,0,-1000,0);
-$sanyo_distance+172450;
-Track[132].Position(18.2,0,0,0);
+
+
+#ここからめちゃくちゃ要修正(山陽上り→岡山3番)
+$sanyo_distance+172306;
+Track['sanyonobori'].Position(18,0,0,0);
+Track[132].Position(18,0,-400,0);
+repeater['ballast132'].Begin(132,0,-0.001,0,0,0,0,3,5,5,'Ballast');
+$sanyo_distance+172326;
+Track[132].Position(18,0,10000000,0);
+
 $sanyo_distance+172452;
-Track[128].Position(17,0,-279,0);
+
 $sanyo_distance+172476;
-Track[128].Position(16,0,279,0);
-repeater['ballast128'].End();
-Track[132].Position(16,0,279,0);
+
+#Track[132].Position(16,0,279,0);
 Curve.Interpolate(1000, 0.04);
-$sanyo_distance+172500;
-Curve.Interpolate(0, 0);
-Track[128].Position(15,0,0,0);
-Track[132].Position(15,0,0,0);
-repeater['ballast132'].End();
-##岡山ホーム
-$sanyo_distance+172470;
+
+$sanyo_distance+172340;
+#引き上げ等間隔
+Track[128].Position(11.7,0,279,0);
+$sanyo_distance+172370;
+Track[128].Position(15.5,0,-279,0);
+$sanyo_distance+172390;
+#4番のりばホーム
 repeater['Form_L2'].Begin0('sanyonobori',1,5,5,'Form_L');
-$sanyo_distance+172530;
+$sanyo_distance+172400;
+#引き上げ分岐(128)
+Track[128].Position(18,0,0,0);
+
+repeater['ballast128'].End();
+$sanyo_distance+172420;
+#1/2番のりばホーム
 repeater['Form_L'].Begin0(131,1,5,5,'Form_L');
 repeater['Form_R'].Begin0(0,1,5,5,'Form_R');
 repeater['Form_CR'].Begin0(0,1,5,5,'Form_CR');
+$sanyo_distance+172430;
+Track[132].Position(18,0,-1000,0);
+$sanyo_distance+172490;
+Track[132].Position(16.5,0,400,0);
+$sanyo_distance+172500;
+Curve.Interpolate(0, 0);
+Track[128].Position(15,0,0,0);
+
+##3番のりばホーム
+$sanyo_distance+172530;
+Track[132].Position(15,0,0,0);
+repeater['ballast132'].End();
+
 repeater['Form_R2'].Begin0(133,1,5,5,'Form_R');
 repeater['Form_CR2'].Begin0(133,1,5,5,'Form_CR');
 $sanyo_distance+172720;
