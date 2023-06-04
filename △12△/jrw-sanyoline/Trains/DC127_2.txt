@@ -1,11 +1,11 @@
 BveTs Train 1.01:UTF-8
 [structure]
-key=DC127-1000
+key=DC127_1000
 distance=0
 z=8
 span=16
 [structure]
-key=DC127-1000b
+key=DC127_1000b
 distance=21
 z=8
 span=16
