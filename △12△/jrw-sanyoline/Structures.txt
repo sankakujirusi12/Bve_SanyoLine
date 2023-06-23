@@ -836,6 +836,9 @@ Uneform_CR,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCR_une.x
 Chizu0,Structures\△12△\sta\kamigori\kami_chizu.x
 Chizu1,../../Nagoya_Common\Build\Station\Ekisya2\Obj1.x
 kami_kosen,Structures\△12△\sta\kumayama\kosen.x
+Kamigori_sign1,Structures\△12△\sta\kamigori\Kamigori_sign1.x
+Kamigori_sign2,Structures\△12△\sta\kamigori\Kamigori_sign2.x
+Kamigori_machiai,Structures\△12△\sta\kamigori\Kamigori_machiai.x
 Kamigori_tumesyo,Structures\△12△\sta\kamigori\Kamigori_tumesyo.x
 #吉永
 Yoshinaga_oidensee,Structures\△12△\sta\yoshinaga\yoshinaga_oidensee.x
@@ -1155,13 +1158,6 @@ M'116-100
 M117-100,
 Tc117-100,
 Tc117-100_e08,
-
-#205系(宮原)
-Tc205,Structures\サーバの肥やし\205kobe\Tc205.x
-M205,Structures\サーバの肥やし\205kobe\M205.x
-M204,Structures\サーバの肥やし\205kobe\M204.x
-T205,Structures\サーバの肥やし\205kobe\T205.x
-Tc204,Structures\サーバの肥やし\205kobe\Tc204.x
 
 #207系
 Tc207,Structures\207-1000\Tc207.x
