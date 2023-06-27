@@ -826,6 +826,7 @@ Katsuform_CR2,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCR_katsu2.x
 #竜野
 Tatsuno_hassyahyou,Structures\△12△\sta\tatsuno\Tatsuno_hassyahyou.x
 Tatsuno_board,Structures\△12△\sta\tatsuno\Tatsuno_board.x
+Tatsuno_EV,Structures\△12△\sta\tatsuno\Tatsuno_EV.x
 #相生
 Aioi_sta,Structures\△12△\sta\aioi\Aioi_sta.x
 Aioi_shinkansen,Structures\△12△\sta\aioi\Aioi_sks.x
