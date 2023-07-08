@@ -4,8 +4,8 @@ Format Text Ver 1.0
 Scene {
 	pos 0.0000 0.0000 309.4853
 	lookat 0.0000 0.0000 0.0000
-	head 18.2776
-	pich 0.2892
+	head 18.1476
+	pich 0.2192
 	bank 0.0000
 	ortho 0
 	zoom2 24.2329
@@ -23,7 +23,7 @@ Material 19 {
 	"tr63f" col(1.000 1.000 1.000 1.000) dif(1.000) amb(0.600) emi(0.000) spc(0.000) power(5.00) tex("TR63F.png")
 	"syarin" col(1.000 1.000 1.000 1.000) dif(1.000) amb(0.600) emi(0.000) spc(0.000) power(5.00) tex("syarin.png")
 	"syaban" col(1.000 1.000 1.000 1.000) dif(1.000) amb(0.600) emi(0.000) spc(0.000) power(5.00) tex("6274.png")
-	"mat5" col(0.329 0.329 0.329 0.660) dif(1.000) amb(0.600) emi(0.000) spc(0.000) power(5.00)
+	"kage" col(1.000 1.000 1.000 0.990) dif(1.000) amb(0.600) emi(0.000) spc(0.000) power(5.00) tex("shadow.png")
 	"nijyu" col(1.000 1.000 1.000 1.000) dif(1.000) amb(0.600) emi(0.000) spc(0.000) power(5.00) tex("ni,ji.png")
 	"2" col(1.000 1.000 1.000 1.000) dif(1.000) amb(0.600) emi(0.000) spc(0.000) power(5.00) tex("2.png")
 	"kyo aji" col(1.000 1.000 1.000 1.000) dif(1.000) amb(0.600) emi(0.000) spc(0.000) power(5.00) tex("kyo aji.png")

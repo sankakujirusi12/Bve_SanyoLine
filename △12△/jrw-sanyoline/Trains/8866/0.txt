@@ -41,12 +41,12 @@ z=8
 span=16
 [structure]
 key=chiki6383
-distance=95.7
+distance=96.7
 z=8
 span=10
 [structure]
 key=chiki6383
-distance=111.4
+distance=112.4
 z=8
 span=10
 

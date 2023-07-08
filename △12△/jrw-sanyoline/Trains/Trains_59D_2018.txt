@@ -13,7 +13,6 @@ $sandenlocal=floor(rand(15));
 Train['1322MF'].Load('Trains\115_D_'+$115D+'.txt', 'sanyonobori', -1);
 Train['1322MB'].Load('Trains\115_D_'+$115D1+'.txt', 'sanyonobori', -1);
 Train['3498M'].Load('Trains\223-1000_8.txt', 'sanyonobori', -1);
-#Train['806T'].Load('Trains\MLkyusyu.txt', 'sanyonobori', -1);
 Train['806T'].Load('Trains\221-0_8.txt', 'sanyonobori', -1);
 Train['60D'].Load('Trains\HOT7000_5.txt', 'sanyonobori', -1);
 Train['9974'].Load('Trains\9974\'+$9974+'.txt', 'sanyonobori', -1);
