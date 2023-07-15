@@ -29,6 +29,8 @@ $sanyo_distance+81000;
 	repeater['roof_nobori'].Begin('sanyonobori',-5.5,1,0,0,0,0,1,10,10,'Himeji_roof');
 	repeater['roof_kishin'].Begin('kishin',5.5,1,0,0,0,0,1,10,10,'Himeji_roof');
 
+$sanyo_distance+83845;
+structure['Himeji_tsumesyo'].Put(0,-5,1,0,0,0,0,0,0);
 $sanyo_distance+83875;
 structure['teimokupole2'].Put(0,-2.3,3.5,0.3,0,0,0,0,0);
 structure['retsutei'].Put(0,-2.3,3.5,0,0,0,0,0,0);
@@ -65,7 +67,8 @@ $sanyo_distance+83895;
 	Track['sanyonobori'].Position(15,0);
 	Track['kishin'].Position(19,0);
 	repeater['teimen2'].Begin(0,11,-0.001,0,0,0,0,1,19,19,'Slab_teimen');
-
+$sanyo_distance+83945;
+	structure['Himeji_build'].Put('Grass',46,0,0,0,0,0,0,0);
 $sanyo_distance+83965;
 	structure['seigen45R'].Put(0,-2.5,1,0,0,0,0,0,0);
 	structure['seigenpole'].Put(0,-2.5,0,0,0,0,0,0,0);

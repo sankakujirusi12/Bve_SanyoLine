@@ -80,6 +80,8 @@ $sanyo_distance+83895;
 	repeater['teimen2'].Begin('hime6',7,-0.001,0,0,0,0,1,20,20,'Slab_teimen');
 #	repeater['teimen3'].Begin('hime6',4,0,0,0,0,0,1,9,9,'Slab_teimen');
 #	repeater['teimen4'].Begin('sanyonobori',-4,-0.001,0,0,0,0,1,9,9,'Slab_teimen');
+$sanyo_distance+83945;
+	structure['Himeji_build'].Put('Grass',46,0,0,0,0,0,0,0);
 $sanyo_distance+83965;
 	structure['seigen45R'].Put('hime7',-2.5,1,0,0,0,0,0,0);
 	structure['seigenpole'].Put('hime7',-2.5,0,0,0,0,0,0,0);

@@ -147,7 +147,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "FormSide1.dds";
+    "Himeji_formside.png";
    }
   }
 
