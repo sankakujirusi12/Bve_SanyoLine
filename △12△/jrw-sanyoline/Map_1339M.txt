@@ -56,7 +56,7 @@ include '設定.txt';
 
 #環境設定
 include 'Submap\Map_night.txt';
-CabIlluminance.Interpolate(0);
+CabIlluminance.Interpolate(0.3);
 Fog.Interpolate(0.0043,0.0103,0.0103,0.0103);
 RollingNoise.Change(0);
 80000+$sanyo_distance;
@@ -65,9 +65,10 @@ RollingNoise.Change(0);
 Fog.Interpolate(0.0043,0.0103,0.0103,0.0103);
 CabIlluminance.Interpolate(0);
 
-
-
-
+83875+$sanyo_distance;
+CabIlluminance.Interpolate(0.3);
+83885+$sanyo_distance;
+CabIlluminance.Interpolate(0);
 
 #-------------------------転動音-----------------------
 #0=ロング 1=なし 2=橋梁 3=スラブ 4=25m

@@ -1,0 +1,391 @@
+BveTs Instrument Panel 2.00
+
+;ぱねる
+[This]
+Resolution = 3740
+Left   = 7
+Top    = 7
+Right  = 5985
+Bottom = 3972
+Center = 3192, 2152
+Origin = 3128, 1848
+
+;車番選択
+[PilotLamp]
+Subject = true
+Location = 1673,580
+DaytimeImage   = ../../../../../../Train\JRW_113\Panel\B-07\Tc566.png
+NighttimeImage = ../../../../../../Train\JRW_113\Panel\B-07\Tc566_n.png
+Layer = 3
+
+
+;5000番台化
+;[PilotLamp]
+;Subject = true
+;Location = 1594,531
+;DaytimeImage   = Tc5xxx.png
+;NighttimeImage = Tc5xxx_n.png
+;Layer = 4
+
+
+;ぱねる左
+[PilotLamp]
+Subject = true
+Location = 0,0
+DaytimeImage   = ../../../../../../Train\JRW_113\Panel\B-07\PanelL.png
+NighttimeImage = ../../../../../../Train\JRW_113\Panel\B-07\PanelL_n.png
+Layer = 2
+
+;ぱねる右
+[PilotLamp]
+Subject = true
+Location = 4096,0
+DaytimeImage   = ../../../../../../Train\JRW_113\Panel\B-07\PanelR.png
+NighttimeImage = ../../../../../../Train\JRW_113\Panel\B-07\PanelR_n.png
+Layer = 2
+
+;前照灯
+[PilotLamp]
+Subject = ats220
+Location = 1384,1728
+DaytimeImage   = ../../../../../../Train\JRW_113\Panel\B-07\Headlight.png
+NighttimeImage   = ../../../../../../Train\JRW_113\Panel\B-07\Headlight.png
+Layer = 1
+
+;前照灯
+[PilotLamp]
+Subject = ats221
+Location = 1384,1928
+DaytimeImage   = ../../../../../../Train\JRW_113\Panel\B-07\Headlight.png
+NighttimeImage   = ../../../../../../Train\JRW_113\Panel\B-07\Headlight.png
+Layer = 1
+
+;スタフ
+[PilotLamp]
+Subject = true
+Location = 3990,796
+DaytimeImage   = 1339M.png
+NighttimeImage = 1339M_n.png
+Layer = 3
+
+;抑え
+[PilotLamp]
+Subject = true
+Location = 2249,3010
+DaytimeImage   = ../../../../../../Train\JRW_113\Panel\B-07\Osae.png
+NighttimeImage = ../../../../../../Train\JRW_113\Panel\B-07\Osae_n.png
+Layer = 5
+
+
+;圧力計1
+[Needle]
+Layer = 3
+Subject = mr
+Location = 2403,3089
+DaytimeImage   = ../../../../../../Train\JRW_113\Panel\B-07\TK105\Needle_PrsRed_d (EL).png
+NighttimeImage = ../../../../../../Train\JRW_113\Panel\B-07\TK105\Needle_PrsRed_n (EL).png
+Origin = 122,667
+InitialAngle = -132
+LastAngle = 116
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 60
+DampingRatio = 0.02
+
+[Needle]
+Layer = 4
+Subject = er
+Location = 2403,3089
+DaytimeImage   = ../../../../../../Train\JRW_113\Panel\B-07\TK105\Needle_PrsBlack_d.png
+NighttimeImage = ../../../../../../Train\JRW_113\Panel\B-07\TK105\Needle_PrsBlack_n.png
+Origin = 122,667
+Radius = 116
+InitialAngle = -132
+LastAngle = 134
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 60
+DampingRatio = 0.02
+
+
+[Needle]
+Layer = 3
+Subject = kmph
+Location = 2862,3068
+DaytimeImage   = ../../../../../../Train\JRW_113\Panel\B-07\TK105\SpdNeedle_d.png
+NighttimeImage = ../../../../../../Train\JRW_113\Panel\B-07\TK105\SpdNeedle_n.png
+Origin = 122,800
+Radius = 135
+InitialAngle = -123
+LastAngle = 123
+Minimum = 0
+Maximum = 122
+NaturalFreq = 5
+DampingRatio = 0.5
+Tilt = 50,0
+
+;圧力計2
+[Needle]
+Layer = 3
+Subject = bc
+Location = 3652,3090
+DaytimeImage   = ../../../../../../Train\JRW_113\Panel\B-07\TK105\Needle_PrsRed_d (EL).png
+NighttimeImage = ../../../../../../Train\JRW_113\Panel\B-07\TK105\Needle_PrsRed_n (EL).png
+Origin = 122,667
+Radius = 116
+InitialAngle = -133
+LastAngle = 133
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 60
+DampingRatio = 0.02
+
+[Needle]
+Layer = 4
+Subject = sap
+Location = 3652,3090
+DaytimeImage   = ../../../../../../Train\JRW_113\Panel\B-07\TK105\Needle_PrsBlack_d.png
+NighttimeImage = ../../../../../../Train\JRW_113\Panel\B-07\TK105\Needle_PrsBlack_n.png
+Origin = 122,667
+Radius = 116
+InitialAngle = -133
+LastAngle = 133
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 60
+DampingRatio = 0.02
+
+
+;圧力計3
+[Needle]
+Layer = 3
+Subject = true
+Location = 4117,3092
+DaytimeImage   = ../../../../../../Train\JRW_113\Panel\B-07\TK105\Needle_PrsRed_d (EL).png
+NighttimeImage = ../../../../../../Train\JRW_113\Panel\B-07\TK105\Needle_PrsRed_n (EL).png
+Origin = 122,667
+Radius = 116
+InitialAngle = -3
+LastAngle = -3
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 60
+DampingRatio = 0.02
+
+[Needle]
+Layer = 4
+Subject = bp
+Location = 4117,3092
+DaytimeImage   = ../../../../../../Train\JRW_113\Panel\B-07\TK105\Needle_PrsBlack_d.png
+NighttimeImage = ../../../../../../Train\JRW_113\Panel\B-07\TK105\Needle_PrsBlack_n.png
+Origin = 122,667
+Radius = 116
+InitialAngle = -133
+LastAngle = 133
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 60
+DampingRatio = 0.02
+
+;PL
+[PilotLamp]
+Subject = door
+Location = 3132,2775
+DaytimeImage   = ../../../../../../Train\JRW_113\Panel\B-07\DoorOn.png
+Layer = 3
+
+;直通
+[PilotLamp]
+Subject = ats35
+Location = 2330,3497
+DaytimeImage   = ../../../../../../Train\JRW_113\Panel\B-07\chokutuu.png
+Layer = 3
+
+;発電
+[PilotLamp]
+Subject = ats210
+Location = 2440,3497
+DaytimeImage   = ../../../../../../Train\JRW_113\Panel\B-07\hatsuden.png
+Layer = 3
+
+;三相
+;[PilotLamp]
+;Subject = 
+;Location = 1255, 1197
+;DaytimeImage   = threephase.png
+;NighttimeImage = threephase_N.png
+;Layer = 1
+
+
+;ATS
+[PilotLamp]
+Subject = ats0
+Location = 3958,3509
+DaytimeImage   = ../../../../../../Train\JRW_113\Panel\B-07\ATS-S.png
+Layer = 3
+
+;ATS動作
+[PilotLamp]
+Subject = ats1
+Location = 4064,3501
+DaytimeImage = ../../../../../../Train\JRW_113\Panel\B-07\ATS-Swork.png
+Layer = 3
+
+;P電源
+[PilotLamp]
+Subject = ats2
+Location = 4774,2075
+DaytimeImage   = ../../../../../../Train\JRW_113\Panel\B-07\Ppower.png
+Layer = 3
+
+;P接近
+[PilotLamp]
+Subject = ats3
+Location = 4774,2168
+DaytimeImage   = ../../../../../../Train\JRW_113\Panel\B-07\Psekkin.png
+Layer = 3
+
+;B動作
+[PilotLamp]
+Subject = ats5
+Location = 4785,2316
+DaytimeImage   = ../../../../../../Train\JRW_113\Panel\B-07\Bwork.png
+Layer = 3
+
+;B開放
+[PilotLamp]
+Subject = ats4
+Location = 4784,2371
+DaytimeImage   = ../../../../../../Train\JRW_113\Panel\B-07\Bkaihou.png
+Layer = 3
+
+;ATS-P
+[PilotLamp]
+Subject = ats6
+Location = 4766,2485
+DaytimeImage   = ../../../../../../Train\JRW_113\Panel\B-07\ATS-P.png
+Layer = 3
+
+;故障
+[PilotLamp]
+Subject = ats7
+Location = 4775,2591
+DaytimeImage   = ../../../../../../Train\JRW_113\Panel\B-07\Kosyou.png
+Layer = 3
+
+;EB
+[PilotLamp]
+Subject = ats10
+Location = 3049,3471
+DaytimeImage   = ../../../../../../Train\JRW_113\Panel\B-07\EB.png
+Layer = 4
+
+
+[PilotLamp]
+Subject = true
+Location = 3010,2926
+DaytimeImage = ../../../../../../Train\JRW_113\Panel\B-07\Clock_doorOff.png
+NighttimeImage = ../../../../../../Train\JRW_113\Panel\B-07\Clock_doorOff_n.png
+Layer = 7
+
+[PilotLamp]
+Subject = door
+Location = 3010,2926
+DaytimeImage = ../../../../../../Train\JRW_113\Panel\B-07\Clock_doorOn.png
+NighttimeImage = ../../../../../../Train\JRW_113\Panel\B-07\Clock_doorOn_n.png
+Layer = 8
+
+[Needle]
+Layer = 10
+Subject = hour
+Location = 3257,3186
+DaytimeImage   = ../../../../../../Train\JRW_113\Panel\B-07\hour_d.png
+NighttimeImage = ../../../../../../Train\JRW_113\Panel\B-07\hour_n.png
+Origin = 64,384
+Radius = 64
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 12
+NaturalFreq = 60
+DampingRatio = 0.5
+
+[Needle]
+Layer = 9
+Subject = hour
+Location = 3257,3189
+DaytimeImage   = ../../../../../../Train\JRW_113\Panel\B-07\hour_shadow.png
+Origin = 64,384
+Radius = 64
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 12
+NaturalFreq = 60
+DampingRatio = 0.5
+
+[Needle]
+Layer = 12
+Subject = min
+Location = 3257,3186
+DaytimeImage   = ../../../../../../Train\JRW_113\Panel\B-07\min_d.png
+NighttimeImage = ../../../../../../Train\JRW_113\Panel\B-07\min_n.png
+Origin = 64,384
+Radius = 64
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 60
+NaturalFreq = 60
+DampingRatio = 0.5
+
+[Needle]
+Layer = 11
+Subject = min
+Location = 3257,3189
+DaytimeImage   = ../../../../../../Train\JRW_113\Panel\B-07\min_shadow.png
+Origin = 64,384
+Radius = 64
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 60
+NaturalFreq = 60
+DampingRatio = 0.5
+
+[Needle]
+Layer = 14
+Subject = sec
+Location = 3257,3186
+DaytimeImage   = ../../../../../../Train\JRW_113\Panel\B-07\sec_d.png
+NighttimeImage = ../../../../../../Train\JRW_113\Panel\B-07\sec_n.png
+Origin = 64,320
+Radius = 64
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 60
+NaturalFreq = 60
+DampingRatio = 0.5
+
+[Needle]
+Layer = 13
+Subject = sec
+Location = 3257,3189
+DaytimeImage   = ../../../../../../Train\JRW_113\Panel\B-07\sec_shadow.png
+Origin = 64,320
+Radius = 64
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 60
+NaturalFreq = 60
+DampingRatio = 0.5
+
+
+[PilotLamp]
+Subject = true
+Location = 3010,2926
+DaytimeImage = ../../../../../../Train\JRW_113\Panel\B-07\Clock_osae.png
+NighttimeImage = ../../../../../../Train\JRW_113\Panel\B-07\Clock_osae_n.png
+Layer = 17
