@@ -12,8 +12,8 @@ ReleaseStart = 0
 ReleaseStop = 0
 ApplySpeed = 623.1827
 ReleaseSpeed = 500
-;PistonArea = 0.562415		; C•Ò¬ (ƒuƒŒ[ƒL—Í‰ü‘¢Ô)
-PistonArea = 0.5		; N•Ò¬ (ƒuƒŒ[ƒL—Í–¢‰ü‘¢Ô)
+;PistonArea = 0.562415		; Cç·¨æˆ (ãƒ–ãƒ¬ãƒ¼ã‚­åŠ›æ”¹é€ è»Š)
+PistonArea = 0.5		; Nç·¨æˆ (ãƒ–ãƒ¬ãƒ¼ã‚­åŠ›æœªæ”¹é€ è»Š)
 VolumeRatio = 20
 [Sap]
 ApplySpeed = 180.7957
@@ -36,11 +36,11 @@ RegenerationLimit = 0
 NotchDelay = 0
 BrakePriority = false
 [Dynamics]
-MotorcarWeight = 43900		; ‹óÔ
-;MotorcarWeight = 50390		; ÏÔ (’èˆõ)
+MotorcarWeight = 43900		; ç©ºè»Š
+;MotorcarWeight = 50390		; ç©è»Š (å®šå“¡)
 MotorcarCount = 2
-TrailerWeight = 34000		; ‹óÔ
-;TrailerWeight = 40490		; ÏÔ (’èˆõ)
+TrailerWeight = 34000		; ç©ºè»Š
+;TrailerWeight = 40490		; ç©è»Š (å®šå“¡)
 TrailerCount = 1
 CarLength = 20
 ;RunningResistanceFactor = 0.1, 2, 763.2

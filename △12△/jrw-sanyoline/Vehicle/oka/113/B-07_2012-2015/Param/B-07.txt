@@ -1,19 +1,18 @@
 Bvets Vehicle Parameters 0.04
 FirstCar = T
-LoadCompensating = false
+LoadCompensating = true
 [Compressor]
 UpperPressure = 784000
 LowerPressure = 686000
 CompressionSpeed = 5300
 [Bc]
-ApplyStart = 0
-ApplyStop = 0
-ReleaseStart = 0
-ReleaseStop = 0
+ApplyStart = 1000
+ApplyStop = 5000
+ReleaseStart = 10000
+ReleaseStop = 5000
 ApplySpeed = 623.1827
-ReleaseSpeed = 500
-;PistonArea = 0.562415		; C編成 (ブレーキ力改造車)
-PistonArea = 0.5		; N編成 (ブレーキ力未改造車)
+ReleaseSpeed = 190
+PistonArea = 0.5
 VolumeRatio = 20
 [Sap]
 ApplySpeed = 180.7957
@@ -34,23 +33,19 @@ SapBcRatio = 0.97
 [MainCircuit]
 RegenerationLimit = 0
 NotchDelay = 0
-BrakePriority = false
+;BrakePriority = true
 [Dynamics]
-;MotorcarWeight = 43900		; 空車
-MotorcarWeight = 50390		; 積車 (定員)
-MotorcarCount = 4
-;TrailerWeight = 34000		; 空車
-TrailerWeight = 40490		; 積車 (定員)
+MotorcarWeight = 36350		; ���
+MotorcarCount = 2
+TrailerWeight = 29600		; ���
 TrailerCount = 2
 CarLength = 20
-;RunningResistanceFactor = 0.1, 2, 763.2
 RunningResistanceFactor = 0.26, 8, 500
 [Cab]
-HoldingSpeedNotchCount = 5
 BrakeNotchCount = 8
-PowerNotchCount = 5
+PowerNotchCount = 4
 AtsCancelNotch = 3
-MotorBrakeNotch = 3
+MotorBrakeNotch = 2
 [ViewPoint]
 X = -0.73
 Y = 2.7
