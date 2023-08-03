@@ -2420,27 +2420,26 @@ $sanyo_distance+94620;
 $sanyo_distance+94650;
 	Track['gawa_hoshi3'].Position(-5.5,0,0);
 	Track['gawa_hoshi1'].Position(-9.5,0,0);
+	Track['hoshiden4'].Position(-9.5,0,0);
 $sanyo_distance+94697;
 curve.BeginTransition();
 $sanyo_distance+94717;
 structure['over0'].Put(0,-6,7,0,0,0,0,0,0);
 curve.Begin(-1600,-0.03);
 #カーブ[R1600]・オーバークロス
-
+Repeater['Ballast-3'].Begin('hoshiden4',0,-0.001,0,0,0,0,3,5,5,'Ballast');
 
 $sanyo_distance+94720;
-	Track['gawa_hoshi1'].Position(-14,0);
+	Track['gawa_hoshi1'].Position(-14,0,173);
 	Track['hoshiden3'].Position(-10,0,0);
 	Track['douro2'].Position(-90,0,0);
 repeater['road_1sya_2'].End();
 Repeater['Ballast-5'].Begin('hoshiden3',0,0,0,0,0,0,3,5,5,'Ballast');
-#Repeater['Ballast-5'].Begin('hoshiden3',0,0,0,0,0,0,3,5,5,'hoshiden3');
 	Track['watari1'].Position(-10,0,0);
-	Track['gawa_hoshi3'].Position(-10,0);
+	Track['gawa_hoshi3'].Position(-10,0,-173);
 Repeater['Ballast-9'].Begin('gawa_hoshi3',0,0,0,0,0,0,3,5,5,'Ballast');
 	Track['hoshiden4'].Position(-14,0,0);
-Repeater['Ballast-3'].Begin('hoshiden4',0,0,0,0,0,0,3,5,5,'Ballast');
-#Repeater['Ballast-3'].Begin('hoshiden4',0,0,0,0,0,0,3,5,5,'hoshiden4');
+
 	Track['hoshiden2'].Position(-38,0,0);
 	Track['hoshiden1'].Position(-47,0,0);
 	Track['fence'].Position(-50,0);
@@ -2455,7 +2454,7 @@ Repeater['fence_kudari'].End();
 
 $sanyo_distance+94740;
 	Track['watari1'].Position(-13,0,0);
-	Track['gawa_hoshi3'].Position(-13,0);
+	Track['gawa_hoshi3'].Position(-13,0,137);
 	Track['gawa_hoshi1'].Position(-13,0,-173);
 $sanyo_distance+94760;
 	Track['gawa_hoshi1'].Position(-12,0);
@@ -2545,6 +2544,16 @@ structure['over0'].Put(0,-7,7,0,0,0,0,0,0);
 	Track['hoshiden1'].Position(-91,0,0);
 Repeater['Ballast-4'].End();
 Repeater['Ballast-6'].End();
+$sanyo_distance+95250;
+structure['Aboshi_bansen_hyouji'].Put(0,-46.5,7.3,0,0,0,0,0,0);
+structure['Aboshi_bansen_hyouji'].Put(0,-42,7.3,0,0,0,0,0,0);
+structure['Aboshi_bansen_hyouji'].Put(0,-36.5,7.3,0,0,0,0,0,0);
+structure['Aboshi_bansen_hyouji'].Put(0,-32.5,7.3,0,0,0,0,0,0);
+structure['Aboshi_bansen_hyouji'].Put(0,-28.5,7.3,0,0,0,0,0,0);
+structure['Aboshi_bansen_hyouji'].Put(0,-22.7,7.3,0,0,0,0,0,0);
+structure['Aboshi_bansen_hyouji2'].Put(0,-18,7.3,0,0,0,0,0,0);
+structure['Aboshi_bansen_hyouji2'].Put(0,-13.5,7.3,0,0,0,0,0,0);
+structure['Aboshi_bansen_hyouji2'].Put(0,-8,7.3,0,0,0,0,0,0);
 $sanyo_distance+95283;
 	Track['hoshiden6'].Position(-7,0,-139);
 Repeater['Ballast-6'].Begin('hoshiden6',0,0,0,0,0,0,3,5,5,'Ballast');
@@ -2575,11 +2584,15 @@ $sanyo_distance+95363;
 $sanyo_distance+95373;
 	Track['hoshiden5'].Position(-10.5,0);
 	Track['hoshiden6'].Position(-16,0);
-
+	Track['hoshiden8'].Position(-18,0,-139);
 $sanyo_distance+95383;
 	Track['watari1'].Position(-16,0,0);
 #	Track['gawa_hoshi3'].Position(-16,0);
-	Track['hoshiden8'].Position(-20,0,-139);
+
+
+$sanyo_distance+95395;
+	Track['hoshiden8'].Position(-19.3,0);
+		Repeater['Ballast-8'].End();
 $sanyo_distance+95403;
 	Track['hoshiden5'].Position(-14,0);
 Repeater['Ballast-2'].Begin('hoshiden10',0,0,0,0,0,0,3,5,5,'Ballast');
@@ -2587,14 +2600,17 @@ Repeater['Ballast-2'].Begin('hoshiden10',0,0,0,0,0,0,3,5,5,'Ballast');
 $sanyo_distance+95409;
 	Track['watari1'].Position(-20,0,0);
 #	Track['gawa_hoshi3'].Position(-20,0);
+	Track['hoshiden7'].Position(-23,0,-139);
 $sanyo_distance+95413;
 	Track['hoshiden6'].Position(-22,0);
 	Track['hoshiden8'].Position(-22,0);
-Repeater['Ballast-8'].End();
+
 $sanyo_distance+95419;
 	Track['hoshiden10'].Position(-14.5,0);
+$sanyo_distance+95430;
+	Track['hoshiden7'].Position(-25,0,0);
+	Repeater['Ballast-1'].End();
 $sanyo_distance+95433;
-	Track['hoshiden7'].Position(-27,0,-139);
 	Track['hoshiden11'].Position(-30,0);
 	Track['hoshiden12'].Position(-34,0);
 Repeater['Ballast-11'].End();
@@ -2606,7 +2622,7 @@ $sanyo_distance+95439;
 $sanyo_distance+95453;
 	Track['hoshiden6'].Position(-29,0);
 	Track['hoshiden7'].Position(-29,0);
-Repeater['Ballast-1'].End();
+
 $sanyo_distance+95469;
 	Track['watari1'].Position(-27,0,139);
 	Track['gawa_hoshi3'].Position(-27,0,139);

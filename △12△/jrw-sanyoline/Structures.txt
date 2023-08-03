@@ -611,8 +611,9 @@ jrkasenchu-11A,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleT
 jrkasenchu-11B,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs11B.x
 jrkasenchu-12A,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs12A.x
 jrkasenchu-12B,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs12B.x
-#jrkasenchu-13B,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs13B.x
+
 jrkasenchu-14A,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs14A.x
+jrkasenchu-14AR,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs14A_R.x
 jrkasenchu-tan,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\Pole\Pole1_stlB_K.x
 jrkasenchu-chou,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\Pole\Pole1_stlA_K.x
 nomalkasenchu-tan,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\Pole\Pole1AC_B.x
@@ -860,6 +861,10 @@ katsu_hoshi_apart1,Structures\△12△\ensen\katsu_hoshi_apart1.x
 
 #網干駅
 Aboshi_kanban,Structures\△12△\ensen\Aboshi_kanban.x
+
+#網干電車区
+Aboshi_bansen_hyouji,Structures\△12△\Aboshi_bansen\Aboshi_bansen_hyouji.x
+Aboshi_bansen_hyouji2,Structures\△12△\Aboshi_bansen\Aboshi_bansen_hyouji2.x
 
 #有年～上郡
 Une_annnai,Structures\△12△\ensen\une_annnai.x
