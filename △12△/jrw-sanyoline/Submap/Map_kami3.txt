@@ -51,6 +51,11 @@ Repeater['Ballast_gr'].End();
 repeater['Form_R'].Begin0(0,1,5,5,'KatsuForm_R');
 repeater['Form_L'].Begin0('nakage',1,5,5,'KatsuForm_L');
 Structure['KatsuForm_CR'].PutBetween(0,'nakage');
+	repeater['road_1sya'].Begin0('dote',1,6,6,'Road_1sya_nb');
+	Track['dote'].Position(-84,2,-400);
+Repeater['DikeL2'].Begin('dote',0,0.45,0,0,0,0,1,5,5,'DikeL_1','DikeL_2','DikeL_3');
+Repeater['DikeR2'].Begin('dote',0,0.45,0,0,0,0,1,5,5,'DikeR_1','DikeR_2','DikeR_3');
+
 #ホーム始端
 curve.BeginTransition();
 Track['sanyonobori'].Cant.Interpolate(0);
@@ -102,6 +107,7 @@ $sanyo_distance+118624;
 repeater['Form_CL'].Begin0('nakage',1,5,5,'KatsuForm_CL');
 $sanyo_distance+118630;
 #屋根
+	Track['dote'].Position(-26,2,-1000);
 Sound3D['sazanami'].Put(6.5, 4);
 	repeater['roof_kudari'].Begin(0,0,0,0,0,0,0,1,25,25,'Roof2R');
 	repeater['roof_kudari1'].Begin(0,0,0,0,0,0,0,1,25,25,'Roof2CR');
@@ -165,6 +171,7 @@ repeater['ballast15'].Begin('gawa_kami9',0,-0.002,0,0,0,0,3,5,5,'Ballast');
 structure['End2'].Put('gawa_kami9',0,0,0,0,180,0,0,2);
 	Track['gawa_kami9'].Position(-22,0);
 structure['kami_kosen'].Put('nakage',2,0,0,0,180,0,0,2);
+	Track['dote'].Position(-35,2,-200);
 #跨線橋
 $sanyo_distance+118780;
 structure['karetei'].Put(0,-2,0,0,0,0,0,0,2);
@@ -231,6 +238,10 @@ repeater['ropebase_2'].End();
 structure['seigen20R'].Put(0,-2,0.5,0,0,0,0,0,0);
 structure['seigenpole'].Put(0,-2,-0.5,0,0,0,0,0,0);
 $sanyo_distance+118867;
+	Track['dote'].Position(-100,2,0);
+Repeater['DikeL2'].End();
+Repeater['DikeR2'].End();	
+	repeater['road_1sya'].End();
 	Track['gawa_kami4'].Position(0,0,213);
 repeater['ballast7'].Begin('gawa_kami4',0,-0.001,0,0,0,0,3,5,5,'Ballast');
 $sanyo_distance+118882;

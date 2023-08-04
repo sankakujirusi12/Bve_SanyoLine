@@ -216,6 +216,8 @@ Grass,Structures\Ntfiv\GeneralStr_png\Nature\Ground\Grass.x
 GrassL,Structures\Ntfiv\GeneralStr_png\Nature\Ground\Lside_Grass.x
 GrassR,Structures\Ntfiv\GeneralStr_png\Nature\Ground\Rside_Grass.x
 
+Concrete,Structures\Ntfiv\GeneralStr_png\Nature\Ground\Concrete.x
+
 River,Structures\Ntfiv\GeneralStr_png\ACCC\Ground\River.x
 
 #茂み
@@ -875,11 +877,15 @@ Mitsuishi_factory,Structures\△12△\ensen\Mitsuishi_factory.x
 
 #---------------------------------------------Train----------------------------
 
-#12系(四国所属車)
-suhahu12,Structures\saha209\PC12\jnr\12_1.x
+#12系(宮原所属車)
+suhahu12_,Structures\saha209\PC12\jrs\12_1.x
 suhahu12_b,Structures\saha209\PC12\jnr\12b_1.x
 oha12,Structures\saha209\PC12\jnr\12_2.x
-oro12,Structures\saha209\PC12\jnr\12_3.x
+#12系(高知所属車)
+suhahu12S_,Structures\saha209\PC12\jrs\12_1.x
+suhahu12S_b,Structures\saha209\PC12\jrs\12b_1.x
+oha12S,Structures\saha209\PC12\jrs\12_2.x
+oro12S,Structures\saha209\PC12\jrs\12_3.x
 #14系(座席車)
 suhahu14,Structures\saha209\PC14\jnr\14_1.x
 oha14,Structures\saha209\PC14\jnr\14_2.x

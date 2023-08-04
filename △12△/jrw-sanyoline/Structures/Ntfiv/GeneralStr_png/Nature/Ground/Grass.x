@@ -157,7 +157,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "grd.dds";
+    "grd.png";
    }
   }
 
@@ -168,7 +168,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "grdLE.dds";
+    "grd.png";
    }
   }
  }
