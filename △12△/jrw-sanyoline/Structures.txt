@@ -279,6 +279,8 @@ kusa1,Structures\△12△\Nature\kusa1.x
 kusa2,Structures\△12△\Nature\kusa2.x
 kusa3,Structures\△12△\Nature\kusa3.x
 kusa4,Structures\△12△\Nature\kusa4.x
+kusa5,Structures\△12△\Nature\kusa5.x
+kusa6,Structures\△12△\Nature\kusa6.x
 
 #------------------------------------------------------------------横取-------------------------------------------------------------------
 yokodoriL,../../Nagoya_Common\Railway_Obj\Yokodori\1067mm_L.x
@@ -611,6 +613,7 @@ jrkasenchu-10B,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleT
 jrkasenchu-10BR,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs10B_R.x
 jrkasenchu-11A,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs11A.x
 jrkasenchu-11B,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs11B.x
+jrkasenchu-11BR,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs11B_R.x
 jrkasenchu-12A,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs12A.x
 jrkasenchu-12B,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs12B.x
 
@@ -628,9 +631,9 @@ jrkasenchu_n_5sen,Structures\Uchibo\Pole\Pole_BTA_5.x
 jrkasenchu_n_5.5sen,Structures\Uchibo\Pole\Pole_BTA_5h.x
 jrkasenchu_n_6.5sen,Structures\Uchibo\Pole\Pole_BTA_6h.x
 jrkasenchu_n_7.5sen,Structures\Uchibo\Pole\Pole_BTA_7h.x
-jrkasenchu_old_2sen,../../Nagoya_Common\Railway_Obj\Pole\Pole1_3.x
-jrkasenchu_1sen_1,../../Nagoya_Common\Railway_Obj\Pole\Pole0_3.x
-jrkasenchu_1sen_2,../../Nagoya_Common\Railway_Obj\Pole\Pole0_4.x
+jrkasenchu_old_2sen,Structures\△12△\poletruss\Pole_OLD_2.x
+jrkasenchu_1sen_1,Structures\△12△\poletruss\Pole_1sen_1.x
+jrkasenchu_1sen_2,Structures\△12△\poletruss\Pole_1sen_2.x
 jrkasenchu_1sen_3,../../Nagoya_Common\Railway_Obj\Pole\Pole0_5.x
 jrkasenchu_1sen_4,Structures\Uchibo\Pole\Pole_VCA_1.x
 jrkasenchu_1sen_5,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs04A_funasaka.x
@@ -845,6 +848,8 @@ Kamigori_sign1,Structures\△12△\sta\kamigori\Kamigori_sign1.x
 Kamigori_sign2,Structures\△12△\sta\kamigori\Kamigori_sign2.x
 Kamigori_machiai,Structures\△12△\sta\kamigori\Kamigori_machiai.x
 Kamigori_tumesyo,Structures\△12△\sta\kamigori\Kamigori_tumesyo.x
+Kamigori_kanban1,Structures\△12△\sta\kamigori\Kamigori_kanban1.x
+Kamigori_kanban2,Structures\△12△\sta\kamigori\Kamigori_kanban2.x
 #吉永
 Yoshinaga_oidensee,Structures\△12△\sta\yoshinaga\yoshinaga_oidensee.x
 #万富
@@ -867,6 +872,22 @@ Aboshi_kanban,Structures\△12△\ensen\Aboshi_kanban.x
 #網干電車区
 Aboshi_bansen_hyouji,Structures\△12△\Aboshi_bansen\Aboshi_bansen_hyouji.x
 Aboshi_bansen_hyouji2,Structures\△12△\Aboshi_bansen\Aboshi_bansen_hyouji2.x
+Aboshi_bansen_4,Structures\△12△\Aboshi_bansen\Aboshi_bansen_4.x
+Aboshi_bansen_5,Structures\△12△\Aboshi_bansen\Aboshi_bansen_5.x
+Aboshi_bansen_6,Structures\△12△\Aboshi_bansen\Aboshi_bansen_6.x
+Aboshi_bansen_7,Structures\△12△\Aboshi_bansen\Aboshi_bansen_7.x
+Aboshi_bansen_8,Structures\△12△\Aboshi_bansen\Aboshi_bansen_8.x
+Aboshi_bansen_9,Structures\△12△\Aboshi_bansen\Aboshi_bansen_9.x
+Aboshi_bansen_10,Structures\△12△\Aboshi_bansen\Aboshi_bansen_10.x
+Aboshi_bansen_11,Structures\△12△\Aboshi_bansen\Aboshi_bansen_11.x
+Aboshi_bansen_12,Structures\△12△\Aboshi_bansen\Aboshi_bansen_12.x
+Aboshi_bansen_13,Structures\△12△\Aboshi_bansen\Aboshi_bansen_13.x
+Aboshi_bansen_14,Structures\△12△\Aboshi_bansen\Aboshi_bansen_14.x
+Aboshi_bansen_15,Structures\△12△\Aboshi_bansen\Aboshi_bansen_15.x
+Aboshi_bansen_16,Structures\△12△\Aboshi_bansen\Aboshi_bansen_16.x
+Aboshi_bansen_17,Structures\△12△\Aboshi_bansen\Aboshi_bansen_17.x
+Aboshi_bansen_shi,Structures\△12△\Aboshi_bansen\Aboshi_bansen_shi.x
+Aboshi_bansen_on,Structures\△12△\Aboshi_bansen\Aboshi_bansen_on.x
 
 #有年～上郡
 Une_annnai,Structures\△12△\ensen\une_annnai.x
@@ -1213,12 +1234,12 @@ Tc222-2000,Structures\saha209\223-2000\223_2000_3.x
 #223系6000番台
 Mc223-6000,Structures\saha209\223-2000\223_6000_1.x
 #225系
-Mc225,Structures\Neya\225\Mc225.x
-Mc225_sr,Structures\Neya\225\Mc225_sr.x
-M224,Structures\Neya\225\M224.x
-M225,Structures\Neya\225\M225.x
-Mc224,Structures\Neya\225\Mc224_T.x
-Mc225_tail,Structures\Neya\225\Mc225_tail.x
+Mc225,Structures\saha209\225\225_1.x
+Mc225_sr,Structures\saha209\225\225_1.x
+M224,Structures\saha209\225\225_2.x
+M225,Structures\saha209\225\225_2P.x
+Mc224,Structures\saha209\225\225_3.x
+Mc225_tail,Structures\saha209\225\225_1b.x
 
 #321系
 Mc321,../../Nagoya_Common\Train\JRW\321\Mc321_Head.x

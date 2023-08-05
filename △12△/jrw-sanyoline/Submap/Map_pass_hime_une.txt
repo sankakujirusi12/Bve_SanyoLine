@@ -2217,8 +2217,8 @@ $sanyo_distance+94105;
 	repeater['road_1sya'].Begin0('route415',1,6,6,'Road_2sya_nb');
 	repeater['ensenR'].Begin('route415',7,0,0,0,0,0,1,50,50,'ensen10R');
 	Track['route415'].Position(13,0);
-repeater['Ballast_gr'].Begin(0,-4,-0.02,0,0,0,0,1,5,5,'Ballast_gr');
-repeater['Ballast_gr1'].Begin(0,-8,-0.03,0,0,0,0,1,5,5,'Ballast_gr');
+repeater['Ballast_gr'].Begin(0,-4,-0.002,0,0,0,0,1,25,25,'Ballast_gr_25');
+repeater['Ballast_gr1'].Begin(0,-8,-0.003,0,0,0,0,1,25,25,'Ballast_gr_25');
 $sanyo_distance+94120;
 	Track['gawa_hoshi2'].Position(-15,0,-308);
 	Track['gawa_hoshi3'].Position(-21,0,308);
@@ -2441,8 +2441,8 @@ Repeater['Ballast-5'].Begin('hoshiden3',0,0,0,0,0,0,3,5,5,'Ballast');
 Repeater['Ballast-9'].Begin('gawa_hoshi3',0,0,0,0,0,0,3,5,5,'Ballast');
 	Track['hoshiden4'].Position(-14,0,0);
 
-	Track['hoshiden2'].Position(-38,0,0);
-	Track['hoshiden1'].Position(-47,0,0);
+	Track['hoshiden2'].Position(-38,0,1000);
+	Track['hoshiden1'].Position(-47,0,1000);
 	Track['fence'].Position(-50,0);
 Repeater['fence_kudari'].End();
 

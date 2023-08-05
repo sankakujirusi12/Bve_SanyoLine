@@ -135,6 +135,8 @@ repeater['ballast13'].Begin('gawa_kami6',0,-0.001,0,0,0,0,3,5,5,'Ballast');
 	Track['gawa_kami6'].Position(-9,0);
 repeater['tigerrope5m_1'].Begin('gawa_kami6',2,0,0,0,0,0,1,5,5,'tigerrope5m');
 repeater['ropebase_1'].Begin('gawa_kami6',2,0,0,0,0,0,1,5,5,'ropebase');
+	structure['Kamigori_kanban1'].Put('sanyokudari',-22,0,0,0,0,0,0,2);
+	structure['Kamigori_kanban2'].Put('sanyokudari',-22,0,7,0,0,0,0,2);
 #左9M
 $sanyo_distance+118679;
 Sound3D['sazanami'].Put(6.5, 4);

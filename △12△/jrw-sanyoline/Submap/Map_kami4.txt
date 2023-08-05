@@ -67,6 +67,10 @@ $sanyo_distance+118467;
 repeater['ballast5'].End();
 
 $sanyo_distance+118514;
+	repeater['road_1sya'].Begin0('dote',1,6,6,'Road_1sya_nb');
+	Track['dote'].Position(-80,2,-400);
+Repeater['DikeL2'].Begin('dote',0,0.45,0,0,0,0,1,5,5,'DikeL_1','DikeL_2','DikeL_3');
+Repeater['DikeR2'].Begin('dote',0,0.45,0,0,0,0,1,5,5,'DikeR_1','DikeR_2','DikeR_3');
 	structure['Formendfence1'].Put('sanyonobori',2.8,1.3,0,0,0,0,0,2);
 Repeater['Ballast_gr'].End();
 repeater['Form_R'].Begin0('sanyokudari',1,5,5,'KatsuForm_R');
@@ -123,6 +127,7 @@ $sanyo_distance+118624;
 repeater['Form_CL'].Begin0('nakage',1,5,5,'KatsuForm_CL');
 $sanyo_distance+118630;
 #屋根
+	Track['dote'].Position(-22,2,-1000);
 #Sound3D['sazanami'].Put(6.5, 4);
 	repeater['roof_kudari'].Begin('sanyokudari',0,0,0,0,0,0,1,25,25,'Roof2R');
 	repeater['roof_kudari1'].Begin('sanyokudari',0,0,0,0,0,0,1,25,25,'Roof2CR');
@@ -150,6 +155,8 @@ repeater['ballast13'].Begin('gawa_kami6',0,-0.001,0,0,0,0,3,5,5,'Ballast');
 	Track['gawa_kami6'].Position(-5,0);
 repeater['tigerrope5m_1'].Begin('gawa_kami6',2,0,0,0,0,0,1,5,5,'tigerrope5m');
 repeater['ropebase_1'].Begin('gawa_kami6',2,0,0,0,0,0,1,5,5,'ropebase');
+	structure['Kamigori_kanban1'].Put('sanyokudari',-18,0,0,0,0,0,0,2);
+	structure['Kamigori_kanban2'].Put('sanyokudari',-18,0,7,0,0,0,0,2);
 #左9M
 $sanyo_distance+118679;
 #Sound3D['sazanami'].Put(6.5, 4);
@@ -186,6 +193,7 @@ repeater['ballast15'].Begin('gawa_kami9',0,-0.002,0,0,0,0,3,5,5,'Ballast');
 structure['End2'].Put('gawa_kami9',0,0,0,0,180,0,0,2);
 	Track['gawa_kami9'].Position(-18,0);
 structure['kami_kosen'].Put('nakage',2,0,0,0,180,0,0,2);
+	Track['dote'].Position(-31,2,-200);
 #跨線橋
 $sanyo_distance+118780;
 structure['karetei'].Put('sanyokudari',-2,0,0,0,0,0,0,2);
@@ -252,6 +260,10 @@ repeater['ropebase_2'].End();
 structure['seigen20R'].Put('sanyokudari',-2,0.5,0,0,0,0,0,0);
 structure['seigenpole'].Put('sanyokudari',-2,-0.5,0,0,0,0,0,0);
 $sanyo_distance+118867;
+	Track['dote'].Position(-100,2,0);
+Repeater['DikeL2'].End();
+Repeater['DikeR2'].End();	
+	repeater['road_1sya'].End();
 	Track['gawa_kami4'].Position(4,0,213);
 repeater['ballast7'].Begin('gawa_kami4',0,-0.001,0,0,0,0,3,5,5,'Ballast');
 $sanyo_distance+118882;
