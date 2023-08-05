@@ -1,8 +1,12 @@
 BveTs Map 2.00:UTF-8
 $sanyo_distance+80000;
 Train['1332M'].Load('Trains\night\115_D_2.txt', 'sanyonobori', -1);
+#Train['9365D'].Load('Trains\9365D\DC47_9.txt', 'gawa_hoshi1', -1);
 $sanyo_distance+83500;
 Train['1332M'].Enable('20:35:00');
 Train['1332M'].Stop(1.5, 30, 2.2, 100);
 $sanyo_distance+88265;
 Train['1332M'].Stop(3, 30, 2.2, 100);
+$sanyo_distance+93855;
+#Train['9365D'].Enable('20:35:00');
+#Train['9365D'].Stop(1.5, 30, 2.2, 100);
