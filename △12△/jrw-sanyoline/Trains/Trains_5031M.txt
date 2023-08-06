@@ -1,27 +1,2 @@
 BveTs Map 2.00:UTF-8
 $sanyo_distance+0;
-Train['8'].Load('Trains\2003\113\K\K8.txt', 'hoshiden4', -1);
-Train['7'].Load('Trains\2003\113\K\K7.txt', 'hoshiden3', -1);
-Train['6'].Load('Trains\2003\113\K\K6.txt', 'hoshiden12', -1);
-Train['5'].Load('Trains\2003\113\K\K5.txt', 'hoshiden11', -1);
-Train['4'].Load('Trains\2003\113\K\K4.txt', 'hoshiden7', -1);
-Train['3'].Load('Trains\2003\113\K\K3.txt', 'hoshiden8', -1);
-Train['2'].Load('Trains\2003\113\K\K2.txt', 'gawa_hoshi1', -1);
-Train['1'].Load('Trains\2003\113\K\K1.txt', 'hoshiden5', -1);
-Train['1'].Enable('05:20:00');
-Train['2'].Enable('05:20:00');
-Train['3'].Enable('05:20:00');
-Train['4'].Enable('05:20:00');
-Train['5'].Enable('05:20:00');
-Train['6'].Enable('05:20:00');
-Train['7'].Enable('05:20:00');
-Train['8'].Enable('05:20:00');
-$sanyo_distance+94987;
-Train['8'].Stop(0, 0, 0, 0);
-Train['7'].Stop(0, 0, 0, 0);
-Train['6'].Stop(0, 0, 0, 0);
-Train['5'].Stop(0, 0, 0, 0);
-Train['4'].Stop(0, 0, 0, 0);
-Train['3'].Stop(0, 0, 0, 0);
-Train['2'].Stop(0, 0, 0, 0);
-Train['1'].Stop(0, 0, 0, 0);

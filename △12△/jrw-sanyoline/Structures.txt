@@ -870,11 +870,22 @@ Seto_sta2,Structures\△12△\sta\seto\seto_sta2.x
 #--------------------------------------------沿線建物ストラクチャ-------------------------------------------
 #姫路
 Himeji_build,Structures\△12△\ensen\Himeji_build.x
+
+#姫路～英賀保
+Kansai_douro_anzen,Structures\△12△\ensen\Kansai_douro_anzen.x
+Himeji_agaho_nikken,Structures\△12△\ensen\Himeji_agaho_nikken.x
+Himeji_agaho_jimusyo,Structures\△12△\ensen\Himeji_agaho_jimusyo.x
+
+#英賀保～勝原
+
 #勝原～網干
 Katsu_hoshi_souko,Structures\△12△\ensen\Katsu_hoshi_souko.x
-katsu_hoshi_apart1,Structures\△12△\ensen\katsu_hoshi_apart1.x
+Katsu_hoshi_apart1,Structures\△12△\ensen\katsu_hoshi_apart1.x
+Katsu_hoshi_apart2,Structures\△12△\ensen\katsu_hoshi_apart2.x
+Katsu_hoshi_apart3,Structures\△12△\ensen\katsu_hoshi_apart3.x
+Katsu_hoshi_apart4,Structures\△12△\ensen\katsu_hoshi_apart4.x
 
-#網干駅
+#網干
 Aboshi_kanban,Structures\△12△\ensen\Aboshi_kanban.x
 
 #網干電車区
@@ -1032,11 +1043,11 @@ M'102_NA_g,Structures\saha209\103_NA\103_nara\103_M.x
 kage_20,Structures\saha209\113west\kage_20.x
 
 #115系300番台(湘南色)
-Tc115-1100,Structures\saha209\115\300_sh\Tc115.x
-Mc115-1000,Structures\saha209\115\300_sh\Mc115.x
-M'114-1000,Structures\saha209\115\300_sh\M114b.x
-M115-1000,Structures\saha209\115\300_sh\M115.x
-Tc'115-1000,Structures\saha209\115\300_sh\Tc115b.x
+Tc115-300,Structures\saha209\115\300_sh\Tc115.x
+Mc115-300,Structures\saha209\115\300_sh\Mc115.x
+M'114-300,Structures\saha209\115\300_sh\M114b.x
+M115-300,Structures\saha209\115\300_sh\M115.x
+Tc'115-300,Structures\saha209\115\300_sh\Tc115b.x
 
 #113系0/700番台(湘南色)
 #湘南白熱灯 押込通風機 AU75 非ユニット窓 スリットタイフォン スノプロ無し
