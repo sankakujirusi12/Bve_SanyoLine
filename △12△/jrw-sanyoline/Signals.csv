@@ -31,6 +31,7 @@ type400_b,Signal4L0_b,,,,
 
 #中継
 type30,Signal30L0,Signal30L3,,,Signal30L4
+,Signal30G0,Signal30G3,,,Signal30G4
 
 #進路予告機(本線用)
 CourseC,CourseOff,,CourseC,,

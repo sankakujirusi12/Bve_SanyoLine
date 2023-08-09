@@ -41,7 +41,7 @@ include 'Submap\Map_kasenchu_himeji7.txt';
 include 'Submap\Map_kasen_section.txt';
 
 #他列車
-include 'Trains\Trains_1305M_0_2018.txt';
+include 'Trains\Trains_1305M_2018.txt';
 include 'Trains\arriving_melody.txt';
 include 'Cars\Cars.txt';
 

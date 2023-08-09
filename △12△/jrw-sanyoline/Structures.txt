@@ -111,9 +111,12 @@ Signal5L2_b,Structures\FCS_TM\ColorSignal\Sig5b2.x
 Signal5L3_b,Structures\FCS_TM\ColorSignal\Sig5b3.x
 Signal5L4_b,Structures\FCS_TM\ColorSignal\Sig5b4.x
 #中継
-Signal30L0,../../Nagoya_Common\Railway_Obj\Signal\Rep\R.x
-Signal30L3,../../Nagoya_Common\Railway_Obj\Signal\Rep\Y.x
-Signal30L4,../../Nagoya_Common\Railway_Obj\Signal\Rep\G.x
+Signal30L0,Structures\FCS_TM\RelaySignal\Relay0.x
+Signal30L3,Structures\FCS_TM\RelaySignal\Relay1.x
+Signal30L4,Structures\FCS_TM\RelaySignal\Relay4.x
+Signal30G0,Structures\FCS_TM\RelaySignal\FlareR0.x
+Signal30G3,Structures\FCS_TM\RelaySignal\FlareR1.x
+Signal30G4,Structures\FCS_TM\RelaySignal\FlareR4.x
 
 #-----------------------------------------------------------------入信-------------------------------------------------------------------
 iresin0Y,../../Nagoya_Common\Railway_Obj\Signal\Switch\Switch\R_Y.x
@@ -282,21 +285,11 @@ kusa4,Structures\△12△\Nature\kusa4.x
 kusa5,Structures\△12△\Nature\kusa5.x
 kusa6,Structures\△12△\Nature\kusa6.x
 
-#------------------------------------------------------------------横取-------------------------------------------------------------------
-yokodoriL,../../Nagoya_Common\Railway_Obj\Yokodori\1067mm_L.x
-yokodoriR,../../Nagoya_Common\Railway_Obj\Yokodori\1067mm_R.x
-yokodoriCrL,../../Nagoya_Common\Railway_Obj\Yokodori\1067mm_CrL.x
-yokodoriCrR,../../Nagoya_Common\Railway_Obj\Yokodori\1067mm_CrR.x
-
 #-----------------------------------------------------------------ホーム------------------------------------------------------------------
 Form_L,Structures\Ntfiv\GeneralStr_png\ACCC\Station\Form51L.x
 Form_CL,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCL.x
 Form_CR,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCR.x
 Form_R,Structures\Ntfiv\GeneralStr_png\ACCC\Station\Form51R.x
-
-#ホーム(網干)
-Hoshiform_CL,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCL_hoshi.x
-Hoshiform_CR,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCR_hoshi.x
 
 #古ホーム
 Oldform_L,Structures\Ntfiv\GeneralStr_png\Form\Form_Conc_5mL.x
@@ -304,23 +297,6 @@ Oldform_CL,Structures\Ntfiv\GeneralStr_png\Form\Form_Conc_5mCL.x
 Oldform_CR,Structures\Ntfiv\GeneralStr_png\Form\Form_Conc_5mCR.x
 Oldform_R,Structures\Ntfiv\GeneralStr_png\Form\Form_Conc_5mR.x
 
-
-#庇っぽいやつ
-MonoroofL,../../Nagoya_Common\Build\Form\Old_Form\Roof2\RoofL.x
-MonoroofCL,../../Nagoya_Common\Build\Form\Old_Form\Roof2\RoofCL.x
-MonoroofR,../../Nagoya_Common\Build\Form\Old_Form\Roof2\RoofR.x
-MonoroofCR,../../Nagoya_Common\Build\Form\Old_Form\Roof2\RoofCR.x
-#ホーム屋根(平行)
-#姫路&有年
-Roof1L,../../Nagoya_Common\Build\Form\Plat_Form\RoofL.x
-Roof1CL,../../Nagoya_Common\Build\Form\Plat_Form\RoofCL.x
-Roof1CR,../../Nagoya_Common\Build\Form\Plat_Form\RoofCR.x
-Roof1R,../../Nagoya_Common\Build\Form\Plat_Form\RoofR.x
-#上郡
-Roof2L,../../Nagoya_Common\Build\Form\Elevated_old_Form\Roof_25L.x
-Roof2CL,../../Nagoya_Common\Build\Form\Elevated_old_Form\Roof_25CL.x
-Roof2CR,../../Nagoya_Common\Build\Form\Elevated_old_Form\Roof_25CR.x
-Roof2R,../../Nagoya_Common\Build\Form\Elevated_old_Form\Roof_25R.x
 #網干電車区建物[内房線プロジェクト]
 aboshi_depot1,Structures\Uchibo\Depot\aboshi_depot.x
 aboshi_depot2,Structures\Uchibo\Depot\chiba_depot.x
@@ -838,14 +814,23 @@ Katsuform_CR,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCR_katsu.x
 Katsuform_CL2,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCL_katsu2.x
 Katsuform_CR2,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCR_katsu2.x
 #網干
+Hoshiform_CL,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCL_hoshi.x
+Hoshiform_CR,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCR_hoshi.x
 #竜野
+Tatsuno_kudari_uwaya,Structures\△12△\sta\tatsuno\Tatsuno_kudari_uwaya.x
 Tatsuno_hassyahyou,Structures\△12△\sta\tatsuno\Tatsuno_hassyahyou.x
 Tatsuno_board,Structures\△12△\sta\tatsuno\Tatsuno_board.x
 Tatsuno_EV,Structures\△12△\sta\tatsuno\Tatsuno_EV.x
+Tatsuno_renrakutuuro,Structures\△12△\sta\tatsuno\Tatsuno_renrakutuuro.x
+Tatsuno_souko,Structures\△12△\sta\tatsuno\Tatsuno_EV.x
+Tatsuno_hassyahyou_nobori,Structures\△12△\sta\tatsuno\Tatsuno_hassyahyou_nobori.x
 #相生
 Aioi_sta,Structures\△12△\sta\aioi\Aioi_sta.x
 Aioi_shinkansen,Structures\△12△\sta\aioi\Aioi_sks.x
 #有年
+Une_uwayaL,Structures\△12△\sta\une\Une_uwayaL.x
+Une_uwayaR,Structures\△12△\sta\une\Une_uwayaR.x
+
 Uneform_CL,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCL_une.x
 Uneform_CR,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCR_une.x
 #上郡
