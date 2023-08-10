@@ -828,6 +828,7 @@ Tatsuno_hassyahyou_nobori,Structures\△12△\sta\tatsuno\Tatsuno_hassyahyou_nob
 Aioi_sta,Structures\△12△\sta\aioi\Aioi_sta.x
 Aioi_shinkansen,Structures\△12△\sta\aioi\Aioi_sks.x
 #有年
+Une_kosen_new,Structures\△12△\sta\une\Une_kosen_new.x
 Une_uwayaL,Structures\△12△\sta\une\Une_uwayaL.x
 Une_uwayaR,Structures\△12△\sta\une\Une_uwayaR.x
 
@@ -1036,56 +1037,56 @@ Tc'115-300,Structures\saha209\115\300_sh\Tc115b.x
 
 #113系0/700番台(湘南色)
 #湘南白熱灯 押込通風機 AU75 非ユニット窓 スリットタイフォン スノプロ無し
-;Tc111-0jnr_1,Structures\initG\initg_ecset\113_00.x
+Tc111-0jnr_1,Structures\initG\initg_ecset\113_00.x
 #湘南シールド 押込通風機 AU75 非ユニット窓 スリットタイフォン
-;Tc111-0jnr_2,Structures\initG\initg_ecset\113_10.x
+Tc111-0jnr_2,Structures\initG\initg_ecset\113_10.x
 #湘南白熱灯 グロベン AU75 非ユニット窓 スリットタイフォン スノプロ無し
-;Tc111-0jnr_3,Structures\initG\initg_ecset\113_20.x
+Tc111-0jnr_3,Structures\initG\initg_ecset\113_20.x
 #湘南シールド 押込通風機 AU75 ユニット窓 シャッター付きタイフォン
-;Tc111-0jnr_4,Structures\initG\initg_ecset\113_30.x
+Tc111-0jnr_4,Structures\initG\initg_ecset\113_30.x
 #湘南シールド 押込通風機 AU75 ユニット窓 鉄仮面 シャッター付きタイフォン
-;Tc111-0jnr_5,Structures\initG\initg_ecset\113_40.x
+Tc111-0jnr_5,Structures\initG\initg_ecset\113_40.x
 #湘南白熱灯 押込通風機 AU75 非ユニット窓 鉄仮面 スリットタイフォン
-;Tc111-0jnr_6,Structures\initG\initg_ecset\113_50.x
+Tc111-0jnr_6,Structures\initG\initg_ecset\113_50.x
 #湘南白熱灯 グロベン AU75 非ユニット窓 鉄仮面 スリットタイフォン
-;Tc111-0jnr_7,Structures\initG\initg_ecset\113_60.x
+Tc111-0jnr_7,Structures\initG\initg_ecset\113_60.x
 #湘南白熱灯 グロベン WAU102 非ユニット窓 スリットタイフォン
-;Tc111-0jnr_8,Structures\initG\initg_ecset\113_70.x
+Tc111-0jnr_8,Structures\initG\initg_ecset\113_70.x
 #湘南シールド 押込通風機 AU75 非ユニット窓 お椀型タイフォン
-;Tc111-0jnr_9,Structures\initG\initg_ecset\113_80.x
+Tc111-0jnr_9,Structures\initG\initg_ecset\113_80.x
 #湘南シールド グロベン AU75 非ユニット窓 お椀型タイフォン
-;Tc111-0jnr_10,Structures\initG\initg_ecset\113_90.x
+Tc111-0jnr_10,Structures\initG\initg_ecset\113_90.x
 #湘南白熱灯 グロベン WAU102 非ユニット窓 鉄仮面 スリットタイフォン
-;Tc111-0jnr_11,Structures\initG\initg_ecset\113_100.x
+Tc111-0jnr_11,Structures\initG\initg_ecset\113_100.x
 #湘南白熱灯 グロベン AU75 非ユニット窓 お椀型タイフォン スノプロ無し
-;Tc111-0jnr_12,Structures\initG\initg_ecset\113_110.x
+Tc111-0jnr_12,Structures\initG\initg_ecset\113_110.x
 #湘南白熱灯 押込通風機 AU75 非ユニット窓 お椀型タイフォン スノプロ無し
-;Tc111-0jnr_13,Structures\initG\initg_ecset\113_120.x
+Tc111-0jnr_13,Structures\initG\initg_ecset\113_120.x
 
 #押込通風機 AU75 非ユニット窓
-;Tc'111-0jnr_1,Structures\initG\initg_ecset\113_03.x
+Tc'111-0jnr_1,Structures\initG\initg_ecset\113_03.x
 #グロベン AU75 非ユニット窓
-;Tc'111-0jnr_2,Structures\initG\initg_ecset\113_23.x
+Tc'111-0jnr_2,Structures\initG\initg_ecset\113_23.x
 #押込通風機 AU75 ユニット窓
-;Tc'111-0jnr_3,Structures\initG\initg_ecset\113_33.x
+Tc'111-0jnr_3,Structures\initG\initg_ecset\113_33.x
 #グロベン WAU102 非ユニット窓
-;Tc'111-0jnr_4,Structures\initG\initg_ecset\113_43.x
+Tc'111-0jnr_4,Structures\initG\initg_ecset\113_43.x
 
 #押込通風機 AU75 非ユニット窓
-;M113-0jnr_1,Structures\initG\initg_ecset\113_01.x
+M113-0jnr_1,Structures\initG\initg_ecset\113_01.x
 #押込通風機 AU75 ユニット窓
-;M113-0jnr_2,Structures\initG\initg_ecset\113_21.x
+M113-0jnr_2,Structures\initG\initg_ecset\113_21.x
 #グロベン AU75 非ユニット窓
-;M113-0jnr_3,Structures\initG\initg_ecset\113_31.x
+M113-0jnr_3,Structures\initG\initg_ecset\113_31.x
 
 #押込通風機 AU75 非ユニット窓
-;M'112-0jnr_1,Structures\initG\initg_ecset\113_02.x
+M'112-0jnr_1,Structures\initG\initg_ecset\113_02.x
 #押込通風機 AU75 ユニット窓
-;M'112-0jnr_2,Structures\initG\initg_ecset\113_22.x
+M'112-0jnr_2,Structures\initG\initg_ecset\113_22.x
 #押込通風機 AU75 ユニット窓 Wパンタ
-;M'112-0jnr_3,Structures\initG\initg_ecset\113_32.x
+M'112-0jnr_3,Structures\initG\initg_ecset\113_32.x
 #グロベン AU75 非ユニット窓
-;M'112-0jnr_4,Structures\initG\initg_ecset\113_42.x
+M'112-0jnr_4,Structures\initG\initg_ecset\113_42.x
 
 #113系(30N)
 Tc111_30n,Structures\saha209\113west\113_30N\Tc111_1.x
