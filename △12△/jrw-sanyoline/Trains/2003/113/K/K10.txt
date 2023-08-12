@@ -65,6 +65,8 @@ span=16
 [structure]
 key=kage_20
 distance=120
+z=8
+span=16
 
 [sound3D]
 Key=115run
