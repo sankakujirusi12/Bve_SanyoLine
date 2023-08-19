@@ -827,6 +827,10 @@ Tatsuno_hassyahyou_nobori,Structures\△12△\sta\tatsuno\Tatsuno_hassyahyou_nob
 #相生
 Aioi_sta,Structures\△12△\sta\aioi\Aioi_sta.x
 Aioi_shinkansen,Structures\△12△\sta\aioi\Aioi_sks.x
+Aioi_hassyahyou,Structures\△12△\sta\aioi\Aioi_hassyahyou.x
+Aioi_meisyo,Structures\△12△\sta\aioi\Aioi_meisyo.x
+Aioi_machiaiL,Structures\△12△\sta\aioi\Aioi_machiaiL.x
+Aioi_machiaiR,Structures\△12△\sta\aioi\Aioi_machiaiR.x
 #有年
 Une_kosen_new,Structures\△12△\sta\une\Une_kosen_new.x
 Une_uwayaL,Structures\△12△\sta\une\Une_uwayaL.x
@@ -860,7 +864,9 @@ Himeji_build,Structures\△12△\ensen\Himeji_build.x
 #姫路～英賀保
 Kansai_douro_anzen,Structures\△12△\ensen\Kansai_douro_anzen.x
 Himeji_agaho_nikken,Structures\△12△\ensen\Himeji_agaho_nikken.x
+Himeji_agaho_darumaya,Structures\△12△\ensen\Himeji_agaho_darumaya.x
 Himeji_agaho_jimusyo,Structures\△12△\ensen\Himeji_agaho_jimusyo.x
+Himeji_agaho_crocs,Structures\△12△\ensen\Himeji_agaho_crocs.x
 
 #英賀保～勝原
 
