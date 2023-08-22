@@ -1,6 +1,6 @@
 BveTs Station List 2.00:UTF-8,,,,,,,,,,,,
 #stationKey,stationText,arrivalTime,depertureTime,stoppageTime,defaultTime,signalFlag,alightingTime,passengers,arrivalSoundKey,depertureSoundKey,doorReopen,stuckInDoor
-Sta-2,姫　　路,,1:36:00,10,1:33:30,1,0,0.1,,,0,0
+Sta-2,姫　　路,,1:36:00,10,1:34:00,1,0,0.1,,,0,0
 Sta-1,英 賀 保,p,,0,,0,0,0.1,,,0,0
 Sta0,はりま勝原,p,,0,,0,0,0.1,,,0,0
 Sta1,網　　干,p,,0,,0,0,0.1,,,0,0
