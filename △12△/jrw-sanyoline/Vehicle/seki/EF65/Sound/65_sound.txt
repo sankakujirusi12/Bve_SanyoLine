@@ -36,6 +36,7 @@ primaryrelease=..\..\..\..\..\..\jnr_locopack\sound\00_sound\klaxon1b.wav
 [ats]
 0=..\..\..\..\..\..\jnr_locopack\sound\00_sound\atsa.wav
 1=..\..\..\..\..\..\jnr_locopack\sound\00_sound\atsb.wav
+2=..\..\..\..\..\..\Rock_On\Train\JR\Vehicle\common\Sound\P.wav
 8=..\..\..\..\..\..\jnr_locopack\sound\00_sound\atsc.wav
 9=..\..\..\..\..\..\jnr_locopack\sound\00_sound\buzza.wav
 10=..\..\..\..\..\..\jnr_locopack\sound\65_sound\blowa.wav
@@ -45,6 +46,7 @@ primaryrelease=..\..\..\..\..\..\jnr_locopack\sound\00_sound\klaxon1b.wav
 14=..\..\..\..\..\..\jnr_locopack\sound\00_sound\reve.wav
 15=..\..\..\..\..\..\jnr_locopack\sound\00_sound\reve.wav
 16=..\..\..\..\..\..\jnr_locopack\sound\00_sound\reve.wav
+23=..\..\..\..\..\..\Rock_On\Train\JR\Vehicle\common\Sound\P.wav
 50=..\..\..\..\..\..\jnr_locopack\sound\00_sound\reva.wav
 60=..\..\..\..\..\..\jnr_locopack\sound\00_sound\brakea.wav
 61=..\..\..\..\..\..\jnr_locopack\sound\00_sound\brakeb.wav
