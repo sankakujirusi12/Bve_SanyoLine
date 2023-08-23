@@ -1156,7 +1156,7 @@ M115-3500_30n,Structures\saha209\115\1000_ok30N\3500\M115b.x
 ##115系(30N　末期色)
 #↓乗務員次位窓あり
 Tc'115-1000o_makki30n,Structures\saha209\115\1000_ok_y\Tc115b_m.x
-Tc115-1101_makki30n,Structures\saha209\FTN\JRW115-Y\Tc115-1101.x
+Tc115-1101_makki30n,Structures\saha209\115\Tc115_m.x
 Mc115-301_makki30n,Structures\FTN\JRW115-Y\Mc115-301.x
 Mc115-1653_makki30n,Structures\saha209\115\1000_ok_y\Mc115_1653_m.x
 Mc115-1501_makki30n,Structures\saha209\115\1000_ok_y\Mc115_m.x
@@ -1205,13 +1205,6 @@ M117-100,
 Tc117-100,
 Tc117-100_e08,
 
-#207系
-Tc207,Structures\207-1000\Tc207.x
-M207,Structures\207-1000\M207.x
-M206,Structures\207-1000\M206.x
-T207,Structures\207-1000\T207.x
-Tc206,Structures\207-1000\Tc206.x
-
 #213系
 Mc213,
 T213,
@@ -1229,7 +1222,6 @@ Mc221new,Structures\saha209\221\221_1_rn.x
 
 #223系1000番台
 Mc223-1000,Structures\saha209\223-2000\223_1000_1.x
-#Mc223-1000_r,Structures\saha209\223-2000\223_1000_1_r.x
 Mc223-1000_n,Structures\saha209\223-2000\223_1000_1_n.x
 M223-1000,Structures\saha209\223-2000\223_1000_2P.x
 T223-1000,Structures\saha209\223-2000\223_1000_2.x
@@ -1237,7 +1229,6 @@ Tc222-1000,Structures\saha209\223-2000\223_1000_3.x
 #223系2000番台
 Mc223-2000,Structures\saha209\223-2000\223_2000_1.x
 Mc223-2000_tail,Structures\saha209\223-2000\223_2000_1_t.x
-Mc223-2000_r,Structures\saha209\223-2000\223_2000_1_r.x
 #Tc逆
 M223-2000,Structures\saha209\223-2000\223_2000_2P.x
 T223-2000,Structures\saha209\223-2000\223_2000_2.x
@@ -1325,7 +1316,7 @@ DC127_1000b,Structures\saha209\DC122_127\127_1000b.x
 #kiha58_tailon,Structures\initg_dcset\58_04.x
 
 #HOT3500
-HOT3500,Structures\FTN\HOT3500\HOT3500.x
+HOT3500,Structures\△12△\Train\HOT3500\3500.x
 #HOT7000
 HOT7000_1,Structures\saha209\HOT7000\HOT7000_1.x
 HOT7000_1b,Structures\saha209\HOT7000\HOT7000_1b.x
@@ -1353,8 +1344,9 @@ ef66_110,Structures\△12△\Train\EF66-100\EF66 110.x
 dt133f,Structures\kiha47_san_in\EF66\dt133f.x
 dt134,Structures\kiha47_san_in\EF66\dt134.x
 dt133b,Structures\kiha47_san_in\EF66\dt133b.x
-ef210,Structures\XP_USER\EF210-0\EF210.x
-ef210_b,Structures\XP_USER\EF210-0\EF210_NON.x
+ef200,Structures\Uchibo\EF200\EF200_c.x
+ef210,Structures\XP_USER\EF210-100\EF210.x
+ef210_b,Structures\XP_USER\EF210-100\EF210_NON.x
 dd51,Structures\Nakano_Kazusa\DD51\dd51F.x
 de10_1153,Structures\FTN\JNR-DE10\DE10-1153D.x
 PS17-UP,Structures\initG\initg_lcset\PS17-UP.x
