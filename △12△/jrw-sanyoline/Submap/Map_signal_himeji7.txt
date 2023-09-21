@@ -1,6 +1,6 @@
 BveTs Map 2.00:UTF-8
 $sanyo_distance+83920;
-structure['Signalpole6'].Put(0,-2.8,2.5,0,0,0,0,0,0);
+structure['Signalpole8'].Put(0,-2.8,0,0.5,0,0,0,0,0);
 structure['7syutsu'].Put(0,-2.55,3.6,-0.1,0,0,0,0,0);
 #もとy座標↓3.4
 Signal['type3'].Put(1,0,-2.8,4.2,0.4,0,0,0,0,0);
@@ -9,13 +9,13 @@ Signal['type300'].Put(1,0,-2.2,3.6,0.4,0,0,0,0,0);
 #structure['Signal3L0'].Put(0,-2.2,3.6,0.4,0,0,0,0,0);
 structure['himesyutsu'].Put(0,-1.95,3.2,-0.1,0,0,0,0,0);
 #
-structure['Signalpole6'].Put('hime8',2,2.5,0,0,0,0,0,0);
+structure['Signalpole8'].Put('hime8',2,0,0.5,0,0,0,0,0);
 structure['8syutsu'].Put('hime8',1.75,3.7,-0.1,0,0,0,0,0);
 
 Signal['type300'].Put(1,'hime8',2,4.2,0.4,0,0,0,0,0);
 #structure['Signal3L0'].Put('hime8',2,4.2,0.4,0,0,0,0,0);
 
-structure['Signalpole6'].Put('hime6',2.8,2.5,0,0,0,0,0,0);
+structure['Signalpole8'].Put('hime6',2.8,0,0.5,0,0,0,0,0);
 structure['6syutsu'].Put('hime6',2.6,3.6,-0.1,0,0,0,0,0);
 Signal['type300'].Put(1,'hime6',3.4,3.6,0.4,0,0,0,0,0);
 #structure['Signal3L0'].Put('hime6',3.4,3.6,0.4,0,0,0,0,0);

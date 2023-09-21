@@ -136,10 +136,10 @@ Train['738T'].Stop(3, 30, 2.5, 100);
 $sanyo_distance+118587;
 #上郡
 Train['738T'].Stop(3, 30, 2.5, 100);
-$sanyo_distance+118804;
+$sanyo_distance+118814;
 Train['HOT'].Stop(0, 0, 0, 0);
 
-#56レは仮に有年発(汗)
+#56レは仮に有年発
 
 $sanyo_distance+131075;
 #三石

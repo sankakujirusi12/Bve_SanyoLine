@@ -192,7 +192,7 @@ $sanyo_distance+118774;
 repeater['ballast15'].Begin('gawa_kami9',0,-0.002,0,0,0,0,3,5,5,'Ballast');
 structure['End2'].Put('gawa_kami9',0,0,0,0,180,0,0,2);
 	Track['gawa_kami9'].Position(-18,0);
-structure['kami_kosen'].Put('nakage',2,0,0,0,180,0,0,2);
+structure['kami_kosen'].Put('nakage',6,0,0,0,0,0,0,2);
 	Track['dote'].Position(-31,2,-200);
 #跨線橋
 $sanyo_distance+118780;
@@ -208,15 +208,18 @@ repeater['Form_L'].End();
 structure['chizu1'].Put('sanyokudari',4.5,1,0,0,180,0,0,2);
 structure['chizu0'].Put('sanyokudari',6,-4,-3,0,0,0,0,2);
 
-$sanyo_distance+118796;
-	structure['Formendfence2'].Put('chizu',0,1,0,0,0,0,0,2);
+$sanyo_distance+118794;
 repeater['Form_R'].End();
 repeater['Form_CL'].End();
 repeater['Form_CR'].End();
-repeater['ballast6'].Begin('chizu',0,0,0,0,0,0,3,5,5,'Ballast');
-	Track['chizu'].Position(8,0);
 repeater['Form_R'].Begin0('chizu',1,5,5,'Form_R');
 repeater['Form_CR'].Begin0('chizu',1,5,5,'Uneform_CR');
+
+$sanyo_distance+118796;
+	structure['Formendfence2'].Put('chizu',0,1,0,0,0,0,0,2);
+
+repeater['ballast6'].Begin('chizu',0,0,0,0,0,0,3,5,5,'Ballast');
+	Track['chizu'].Position(8,0);
 	repeater['roof_chizu'].Begin('chizu',0,0,0,0,0,0,1,25,25,'Roof1R');
 structure['formwallR'].Put('chizu',-3,-1,0,0,0,0,0,0);
 #智頭急行ホーム、線路

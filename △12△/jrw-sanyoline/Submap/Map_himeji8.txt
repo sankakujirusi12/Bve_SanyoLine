@@ -141,6 +141,7 @@ $sanyo_distance+83925;
 Structure['HimeForm_CL'].PutBetween('kishin','hime2');
 $sanyo_distance+83930;
 Structure['HimeForm_CL'].PutBetween('kishin','hime2');
+	structure['Himeji_build2'].Put('Grass',130,0,0,0,0,0,0,0);
 $sanyo_distance+83935;
 Structure['HimeForm_CL'].PutBetween('kishin','hime2');
 $sanyo_distance+83940;
@@ -181,6 +182,7 @@ $sanyo_distance+83985;
 #	Track['hime1'].Position(31,0);
 	repeater['roof_hime2'].End();
 	repeater['roof_kishin'].End();
+	structure['Himeji_haikei'].Put('Grass',104,0,0,0,0,0,0,0);
 #姫新線屋根終端
 Structure['HimeForm_CL'].PutBetween('hime2','kishin');
 $sanyo_distance+83990;
