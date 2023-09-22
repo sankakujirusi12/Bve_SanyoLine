@@ -103,6 +103,8 @@ repeater['Form_CR2'].Begin0('sanyonobori',1,5,5,'KatsuForm_CR');
 $sanyo_distance+118594;
 Curve.Interpolate(-1250, -0.02);
 repeater['Form_CR'].Begin0(0,1,5,5,'KatsuForm_CR');
+$sanyo_distance+118608;
+structure['Kamigori_tsumesyo'].Put('sanyonobori',10,0,0,0,0,0,0,0);
 $sanyo_distance+118624;
 repeater['Form_CL'].Begin0('nakage',1,5,5,'KatsuForm_CL');
 $sanyo_distance+118630;
@@ -153,6 +155,9 @@ $sanyo_distance+118692;
 	repeater['roof_kudari'].End();
 	repeater['roof_kudari1'].End();
 	repeater['wall_nobori'].End();
+	
+$sanyo_distance+118713;
+structure['Kamigori_koban'].Put('sanyonobori',10,0,0,0,0,0,0,0);
 $sanyo_distance+118716;
 structure['8tei'].Put(0,-2,0,0,0,0,0,0,2);
 #8B停目

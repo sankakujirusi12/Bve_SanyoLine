@@ -847,7 +847,7 @@ kami_kosen,Structures\△12△\sta\kamigori\Kamigori_kosen.x
 Kamigori_sign1,Structures\△12△\sta\kamigori\Kamigori_sign1.x
 Kamigori_sign2,Structures\△12△\sta\kamigori\Kamigori_sign2.x
 Kamigori_machiai,Structures\△12△\sta\kamigori\Kamigori_machiai.x
-Kamigori_tumesyo,Structures\△12△\sta\kamigori\Kamigori_tumesyo.x
+Kamigori_tsumesyo,Structures\△12△\sta\kamigori\Kamigori_tsumesyo.x
 Kamigori_kanban1,Structures\△12△\sta\kamigori\Kamigori_kanban1.x
 Kamigori_kanban2,Structures\△12△\sta\kamigori\Kamigori_kanban2.x
 #吉永
@@ -912,6 +912,9 @@ Aioi_chuurinjou,Structures\△12△\ensen\Aioi_chuurinjou.x
 Une_annnai,Structures\△12△\ensen\une_annnai.x
 Sayo_kozuki,Structures\△12△\ensen\Sayo_kozuki.x
 
+#上郡
+Kamigori_koban,Structures\△12△\ensen\Kamigori_koban.x
+
 #三石
 Mitsuishi_factory,Structures\△12△\ensen\Mitsuishi_factory.x
 
@@ -926,7 +929,7 @@ suhahu12S_,Structures\saha209\PC12\jrs\12_1.x
 suhahu12S_b,Structures\saha209\PC12\jrs\12b_1.x
 oha12S,Structures\saha209\PC12\jrs\12_2.x
 oro12S,Structures\saha209\PC12\jrs\12_3.x
-#14系(座席車)
+#14系(宮原・岡山所属座席車)
 suhahu14,Structures\saha209\PC14\jnr\14_1.x
 oha14,Structures\saha209\PC14\jnr\14_2.x
 suhahu14_b,Structures\saha209\PC14\jnr\14b_1.x
