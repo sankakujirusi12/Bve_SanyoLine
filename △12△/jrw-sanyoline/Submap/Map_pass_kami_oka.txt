@@ -5,7 +5,7 @@ BveTs Map 2.00:UTF-8
 $sanyo_distance+119157;
 repeater['wallL'].End();
 repeater['wallR'].End();
-repeater['teimen'].Begin('chizu',-0.25,0,0,0,0,0,1,10,10,'WallC');
+repeater['teimen'].Begin('chizu',-0.25,0,0,0,0,0,1,14,14,'teimen');
 $sanyo_distance+119222;
 #側線終了
 repeater['ballast12'].End();

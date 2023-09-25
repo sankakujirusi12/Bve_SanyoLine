@@ -1,0 +1,13 @@
+BveTs Map 2.00:UTF-8
+#信号(有年旧2番)
+
+$sanyo_distance+111575;
+#場内
+structure['Signalpole1'].Put(0,-2.5,5,0,0,0,0,0,0);
+Signal['type3_b'].Put(1,0,-2.3,3.8);
+structure['Signal3L0_b'].Put(0,-2.7,4.8,0,0,0,0,0,0);
+
+$sanyo_distance+113280;
+structure['Signalpole1'].Put(0,-3.5,5,0,0,0,0,0,0);
+Signal['type30'].Put(1,0,-3.5,5);
+#中継

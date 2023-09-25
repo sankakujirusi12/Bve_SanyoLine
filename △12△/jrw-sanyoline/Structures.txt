@@ -134,11 +134,8 @@ Starting reaction indicator_on,Structures\Starting_reaction_indicator\Starting r
 
 #信号柱
 #真ん中に
-Signalpole1,../../Nagoya_Common\Railway_Obj\SigPole\Pole_C.x
-#左寄り
-Signalpole2,../../Nagoya_Common\Railway_Obj\SigPole\Pole_L.x
-#右寄り
-Signalpole3,../../Nagoya_Common\Railway_Obj\SigPole\Pole_R.x
+Signalpole1,Structures\FCS_TM\SigPole\Sig_Pole.x
+
 #ぶら下がり
 Signalpole4,../../Nagoya_Common\Railway_Obj\SigPole\Pole_PC.x
 #架線柱ひっつき
@@ -148,7 +145,7 @@ Signalpole6,Structures\Ntfiv\GeneralStr_png\Accessory\Posts\Signal\SigPole4.x
 #短い
 Signalpole7,../../Nagoya_Common\Railway_Obj\SigPole\PoleS.x
 #姫路
-Signalpole8,Structures\Ntfiv\GeneralStr_png\Accessory\Posts\Signal\SigPole2.x
+Signalpole8,Structures\△12△\sta\himeji\Himeji_sigpole.x
 #左腕3灯
 Clamp3L,../../Nagoya_Common\Railway_Obj\SigPole\Clamp\3L.x
 #右腕
