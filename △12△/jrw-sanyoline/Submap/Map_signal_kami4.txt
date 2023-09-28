@@ -1,4 +1,6 @@
 BveTs Map 2.00:UTF-8
+#信号(上郡4番)
+
 $sanyo_distance+118035;
 structure['Signalpole1'].Put(0,-3.5,5,0,0,0,0,0,0);
 Signal['type30'].Put(1,0,-3.5,5);

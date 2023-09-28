@@ -359,7 +359,7 @@ Ballast_n,Structures\Ntfiv\GeneralStr_png\Rail\Ballast01\BallastPC_Sanyo_5D.x
 
 Ballast_25,Structures\Ntfiv\GeneralStr_png\Rail\Ballast01\BallastPC_Sanyo_25.x
 Ballast_old,Structures\Ntfiv\GeneralStr_png\Rail\Ballast01\BallastPC_Sanyo_sokusen_5.x
-Ballast_1435,../../Nagoya_Common\Railway_Obj\Rail\Han_Line\Ballast.x
+Ballast_1435,Structures\△12△\Track\Tie_sanden.x
 Ballast_gr,Structures\Ntfiv\GeneralStr_png\Rail\Ballast01\Ballastwithoutrail.x
 Ballast_gr_25,Structures\Ntfiv\GeneralStr_png\Rail\Ballast01\Ballastwithoutrail_25.x
 
@@ -824,6 +824,13 @@ Tatsuno_renrakutuuro,Structures\△12△\sta\tatsuno\Tatsuno_renrakutuuro.x
 Tatsuno_souko,Structures\△12△\sta\tatsuno\Tatsuno_EV.x
 Tatsuno_hassyahyou_nobori,Structures\△12△\sta\tatsuno\Tatsuno_hassyahyou_nobori.x
 #相生
+Aioiform_L,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormL_aioi.x
+Aioiform_R,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormR_aioi.x
+#下り用
+Aioiform_L2,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormL_aioi2.x
+Aioiform_R2,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormR_aioi2.x
+Aioiform_CL,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCL_aioi.x
+Aioiform_CR,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCR_aioi.x
 Aioi_sta,Structures\△12△\sta\aioi\Aioi_sta.x
 Aioi_shinkansen,Structures\△12△\sta\aioi\Aioi_sks.x
 Aioi_hassyahyou,Structures\△12△\sta\aioi\Aioi_hassyahyou.x
