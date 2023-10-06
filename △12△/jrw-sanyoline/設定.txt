@@ -17,7 +17,7 @@
 
 ##重さLv=3
 
-#include 'Submap\Map_house3.txt';
+ include 'Submap\Map_house3.txt';
 
 #
 #----------------------------------------------------------

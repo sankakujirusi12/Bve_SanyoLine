@@ -817,9 +817,12 @@ Hoshiform_CL,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCL_hoshi.x
 Hoshiform_CR,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCR_hoshi.x
 #竜野
 Tatsuno_kudari_uwaya,Structures\△12△\sta\tatsuno\Tatsuno_kudari_uwaya.x
+Tatsuno_nobori_uwaya,Structures\△12△\sta\tatsuno\Tatsuno_nobori_uwaya.x
 Tatsuno_hassyahyou,Structures\△12△\sta\tatsuno\Tatsuno_hassyahyou.x
+Tatsuno_kosen,Structures\△12△\sta\tatsuno\Tatsuno_kosen.x
 Tatsuno_board,Structures\△12△\sta\tatsuno\Tatsuno_board.x
 Tatsuno_EV,Structures\△12△\sta\tatsuno\Tatsuno_EV.x
+Tatsuno_EVsign,Structures\△12△\sta\tatsuno\Tatsuno_EVsign.x
 Tatsuno_renrakutuuro,Structures\△12△\sta\tatsuno\Tatsuno_renrakutuuro.x
 Tatsuno_souko,Structures\△12△\sta\tatsuno\Tatsuno_EV.x
 Tatsuno_hassyahyou_nobori,Structures\△12△\sta\tatsuno\Tatsuno_hassyahyou_nobori.x
@@ -847,6 +850,7 @@ Uneform_CR,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCR_une.x
 #上郡
 Chizu0,Structures\△12△\sta\kamigori\kami_chizu.x
 Chizu1,../../Nagoya_Common\Build\Station\Ekisya2\Obj1.x
+Kamigori_nobori_uwaya,Structures\△12△\sta\kamigori\Kamigori_nobori_uwaya.x
 kami_kosen,Structures\△12△\sta\kamigori\Kamigori_kosen.x
 Kamigori_sign1,Structures\△12△\sta\kamigori\Kamigori_sign1.x
 Kamigori_sign2,Structures\△12△\sta\kamigori\Kamigori_sign2.x
