@@ -869,7 +869,7 @@ $sanyo_distance+117972;
 Gradient.Interpolate(-4.7);
 #-4.7‰
 $sanyo_distance+118035.3;
-structure['kanko_jounai'].Put(0,-3.5,3,0,0,0,0,0,0);
+structure['kanko_jounai'].Put(0,-3.5,3,-0.5,0,0,0,0,0);
 $sanyo_distance+118131;
 repeater['ballast9'].Begin('gawa_kami2',0,0,0,0,0,0,3,5,3,'Ballast_gr');
 	Track['gawa_kami2'].Position(4,0,0);

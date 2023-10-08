@@ -197,7 +197,7 @@ $sanyo_distance+118774;
 repeater['ballast15'].Begin('gawa_kami9',0,-0.002,0,0,0,0,3,5,5,'Ballast');
 structure['End2'].Put('gawa_kami9',0,0,0,0,180,0,0,2);
 	Track['gawa_kami9'].Position(-18,0);
-structure['kami_kosen'].Put('nakage',6,0,0,0,0,0,0,2);
+structure['kamigori_kosen'].Put('nakage',6,0,0,0,0,0,0,2);
 	Track['dote'].Position(-31,2,-200);
 #跨線橋
 $sanyo_distance+118780;

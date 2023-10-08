@@ -121,14 +121,8 @@ Sound3D['sazanami'].Put(6.5, 4);
 	Track['sanyonobori'].Position(14,0);
 	Track['gawa_kami2'].Position(22,0);
 repeater['ballast10'].End();
-structure['form_stairs'].Put(0,5,6.5,0,0,180,0,0,0);
-structure['form_stairs'].Put(0,25,6.5,0,0,180,0,0,0);
-structure['kyoujyou'].Put(0,5,6.5,0,0,0,0,0,0);
-structure['kyoujyou'].Put(0,9,6.5,0,0,0,0,0,0);
-structure['kyoujyou'].Put(0,13,6.5,0,0,0,0,0,0);
-structure['kyoujyou'].Put(0,17,6.5,0,0,0,0,0,0);
-structure['kyoujyou'].Put(0,21,6.5,0,0,0,0,0,0);
-structure['kyoujyou'].Put(0,25,6.5,0,0,0,0,0,0);
+structure['Kamigori_kosen_new'].Put('sanyokudari',3,1,0,0,0,0,0,0);
+
 #跨線橋
 $sanyo_distance+118664;
 	Repeater['Trees'].End();
@@ -177,7 +171,7 @@ $sanyo_distance+118774;
 repeater['ballast15'].Begin('gawa_kami9',0,-0.002,0,0,0,0,3,5,5,'Ballast');
 structure['End2'].Put('gawa_kami9',0,0,0,0,180,0,0,2);
 	Track['gawa_kami9'].Position(-22,0);
-structure['kami_kosen'].Put('nakage',6,0,0,0,0,0,0,2);
+structure['kamigori_kosen'].Put('nakage',6,0,0,0,0,0,0,2);
 	Track['dote'].Position(-35,2,-200);
 #跨線橋
 $sanyo_distance+118780;

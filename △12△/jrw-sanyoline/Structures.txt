@@ -301,10 +301,6 @@ aboshi_depot1,Structures\Uchibo\Depot\aboshi_depot.x
 aboshi_depot2,Structures\Uchibo\Depot\chiba_depot.x
 aboshi_depot3,Structures\Uchibo\Depot\aboshi_depot_.x
 
-#発車標
-hassya1,Structures\hassyahyou\hassya1.x
-hassya2,Structures\hassyahyou\hassya2.x
-hassya3,Structures\hassyahyou\hassya3.x
 #乗車位置(旧、△印)
 jyousyaL,Structures\jyousyaichi\jyousyaL.x
 jyousyaR,Structures\jyousyaichi\jyousyaR.x
@@ -848,7 +844,8 @@ Uneform_CR,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCR_une.x
 Chizu0,Structures\△12△\sta\kamigori\kami_chizu.x
 Chizu1,../../Nagoya_Common\Build\Station\Ekisya2\Obj1.x
 Kamigori_nobori_uwaya,Structures\△12△\sta\kamigori\Kamigori_nobori_uwaya.x
-kami_kosen,Structures\△12△\sta\kamigori\Kamigori_kosen.x
+kamigori_kosen,Structures\△12△\sta\kamigori\Kamigori_kosen.x
+Kamigori_kosen_new,Structures\△12△\sta\kamigori\Kamigori_kosen_new.x
 Kamigori_sign1,Structures\△12△\sta\kamigori\Kamigori_sign1.x
 Kamigori_sign2,Structures\△12△\sta\kamigori\Kamigori_sign2.x
 Kamigori_machiai,Structures\△12△\sta\kamigori\Kamigori_machiai.x
