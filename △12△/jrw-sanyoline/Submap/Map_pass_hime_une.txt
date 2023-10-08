@@ -1591,6 +1591,8 @@ Track['sanyonobori'].Cant.Interpolate(0);
 $sanyo_distance+92302;
 	Repeater['Ballast'].Begin(,0,0,0,0,0,0,3,25,25,'Ballast_25');
 	Repeater['Ballast1'].Begin('sanyonobori',0,0,0,0,0,0,3,25,25,'Ballast_25');
+$sanyo_distance+92317;
+	structure['katsu_hoshi_apart1'].Put('sanyonobori',20,0,0,0,0,0,0,0);
 $sanyo_distance+92335;
 Repeater['fence_nobori'].End();
 $sanyo_distance+92345;
@@ -3121,34 +3123,30 @@ repeater['fence'].Begin(0,3.9,1,0,0,0,0,1,2,2,'GreenFence');
 	Track['fence1'].Position(19,0);
 	Track['sanyonobori'].Position(11,0);
 
-
 $sanyo_distance+99905;
-structure['kami_kosen'].Put('nakage',0,0,0,0,180,0,0,2);
-#ホーム階段(上下)
+#倉庫
+structure['Tatsuno_souko'].Put('',-8,1,0,0,-90,0,0,0);
 $sanyo_distance+99915;
-#Sound3D['sazanami'].Put(-6.5, 4);
-	repeater['roof_kudari'].Begin(0,0,0,0,0,0,0,1,25,25,'Roof2L');
-	repeater['roof_kudari1'].Begin(0,0,0,0,0,0,0,1,25,25,'Roof2CL');
-	Track['Form1'].Position(2,0);
-	Track['Form2'].Position(11.5,0);
-repeater['roof_nobori'].Begin('sanyonobori',0.5,0,0,0,0,0,1,25,25,'MonoroofL');
-repeater['roof_nobori1'].Begin(0,2,0,0,0,0,0,1,25,25,'MonoroofR');
-Structure['MonoroofCL'].PutBetween('Form2','Form1');
-$sanyo_distance+99940;
-Structure['MonoroofCL'].PutBetween('Form2','Form1');
-$sanyo_distance+99965;
-Structure['MonoroofCL'].PutBetween('Form2','Form1');
+#旧こ線橋
+structure['Tatsuno_kosen'].Put('nakage',-1.5,1.5,0,0,0,0,0,2);
+
+$sanyo_distance+99920;
+	repeater['Tatsuno_kudari_uwaya'].Begin(0,-4.5,0.4,0,0,0,0,1,10,10,'Tatsuno_kudari_uwaya');
+	repeater['Tatsuno_nobori_uwaya'].Begin('sanyonobori',-4,0,5,0,0,0,1,10,10,'Tatsuno_nobori_uwaya');
+
 $sanyo_distance+99970;
 Gradient.Interpolate(-3.3);
 $sanyo_distance+99975;
 #Sound3D['sazanami'].Put(-6.5, 4);
-	repeater['roof_kudari'].End();
-	repeater['roof_kudari1'].End();
-	repeater['roof_nobori'].End();
-	repeater['roof_nobori1'].End();
+	repeater['Tatsuno_kudari_uwaya'].End();
+	repeater['Tatsuno_nobori_uwaya'].End();
+
 Gradient.Interpolate(0);
 #跨線橋
 structure['Tatsuno_EV'].Put('sanyokudari',0,1,0,0,0,0,0,0);
+$sanyo_distance+99985;
+#連絡通路
+structure['Tatsuno_renrakutuuro'].Put('sanyokudari',35,1,0,0,0,0,0,0);
 $sanyo_distance+100000;
 #0M
 #4両停目

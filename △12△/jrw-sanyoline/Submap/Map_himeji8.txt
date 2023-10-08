@@ -1,6 +1,5 @@
 BveTs Map 2.00:UTF-8
-
-#hime8を自線に、0をhime7に
+#姫路8番
 
 $sanyo_distance+81000;
 #相対座標10M正に
@@ -31,6 +30,10 @@ $sanyo_distance+81000;
 	repeater['roof_hime6'].Begin('hime6',0.6,0,0,0,0,0,1,25,25,'Roof1R');
 	repeater['roof_hime2'].Begin('hime2',0,0,0,0,0,0,1,25,25,'Roof1L');
 	repeater['roof_kishin'].Begin('kishin',0,0,0,0,0,0,1,25,25,'Roof1R');
+	repeater['Hijoubotan_L'].Begin('',-2.2,3.8,5,0,0,0,1,20,20,'Hijoubotan_L');
+	repeater['Hijoubotan_R'].Begin('hime6',2.7,3.8,5,0,0,0,1,20,20,'Hijoubotan_R');
+	repeater['Hijoubotan_R2'].Begin('hime8',2.1,3.8,5,0,0,0,1,20,20,'Hijoubotan_R');
+	
 $sanyo_distance+83825;
 Structure['HimeForm_CL'].PutBetween('kishin','hime2');
 Structure['HimeForm_CL'].PutBetween('sanyonobori','hime6');
@@ -83,6 +86,9 @@ structure['retsutei_'].Put('hime7',-2.3,2,0,0,0,0,0,0);
 	repeater['roof_hime6'].End();
 	repeater['roof_nobori'].End();
 	repeater['roof_nobori1'].End();
+	repeater['Hijoubotan_L'].End();
+	repeater['Hijoubotan_R'].End();
+	repeater['Hijoubotan_R2'].End();
 	#屋根終端
 	Track['sanyokudari'].Position(-4,0);
 Structure['HimeForm_CL'].PutBetween('kishin','hime2');

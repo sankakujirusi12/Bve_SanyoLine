@@ -300,13 +300,7 @@ Oldform_R,Structures\Ntfiv\GeneralStr_png\Form\Form_Conc_5mR.x
 aboshi_depot1,Structures\Uchibo\Depot\aboshi_depot.x
 aboshi_depot2,Structures\Uchibo\Depot\chiba_depot.x
 aboshi_depot3,Structures\Uchibo\Depot\aboshi_depot_.x
-depot,Structures\サンパチタテモノ\build\syako\syako2.x
-#ホーム壁
-formwallL,../../Nagoya_Common\Build\Form\Old_Form\Roof2\WallL.x
-formwallR,../../Nagoya_Common\Build\Form\Old_Form\Roof2\WallR.x
-#(近代型)
-formwall6L,Structures\Ntfiv\GeneralStr_png\ACCC\Station\Fence6L.x
-formwall6R,Structures\Ntfiv\GeneralStr_png\ACCC\Station\Fence6R.x
+
 #発車標
 hassya1,Structures\hassyahyou\hassya1.x
 hassya2,Structures\hassyahyou\hassya2.x
@@ -787,6 +781,9 @@ over0,../../Nagoya_Common\Build\Over\00.x
 Track_No1,Structures\△12△\TrackNo\1.x
 Track_No2,Structures\△12△\TrackNo\2.x
 Track_No3,Structures\△12△\TrackNo\3.x
+#非常ボタン標識
+Hijoubotan_L,Structures\△12△\komono\Hijoubotan_L.x
+Hijoubotan_R,Structures\△12△\komono\Hijoubotan_R.x
 
 #姫路
 Himeform_L,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormL_hime.x
@@ -824,7 +821,7 @@ Tatsuno_board,Structures\△12△\sta\tatsuno\Tatsuno_board.x
 Tatsuno_EV,Structures\△12△\sta\tatsuno\Tatsuno_EV.x
 Tatsuno_EVsign,Structures\△12△\sta\tatsuno\Tatsuno_EVsign.x
 Tatsuno_renrakutuuro,Structures\△12△\sta\tatsuno\Tatsuno_renrakutuuro.x
-Tatsuno_souko,Structures\△12△\sta\tatsuno\Tatsuno_EV.x
+Tatsuno_souko,Structures\△12△\sta\tatsuno\Tatsuno_souko.x
 Tatsuno_hassyahyou_nobori,Structures\△12△\sta\tatsuno\Tatsuno_hassyahyou_nobori.x
 #相生
 Aioiform_L,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormL_aioi.x
@@ -861,7 +858,7 @@ Kamigori_kanban2,Structures\△12△\sta\kamigori\Kamigori_kanban2.x
 #吉永
 Yoshinaga_oidensee,Structures\△12△\sta\yoshinaga\yoshinaga_oidensee.x
 #万富
-mantomi_kosen,Structures\△12△\sta\mantomi\kosen.x
+
 #瀬戸
 Seto_light,Structures\△12△\sta\seto\seto_light.x
 Seto_sta1,Structures\△12△\sta\seto\seto_sta1.x
