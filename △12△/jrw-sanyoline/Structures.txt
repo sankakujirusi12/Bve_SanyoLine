@@ -1189,6 +1189,9 @@ M225,Structures\saha209\225\225_2P.x
 Mc224,Structures\saha209\225\225_3.x
 Mc225_tail,Structures\saha209\225\225_1b.x
 
+#転落防止幌
+Tenhoro,Structures\△12△\Tenhoro\Tenhoro.x
+
 #321系
 Mc321,../../Nagoya_Common\Train\JRW\321\Mc321_Head.x
 M321,../../Nagoya_Common\Train\JRW\321\M321.x
