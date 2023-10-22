@@ -940,7 +940,7 @@ structure['wirehanger7L'].Put('sanyonobori',0,0,0,0,0,0,0,0);
 structure['wirehanger7R'].Put('nakage',0,0,0,0,0,0,0,0);
 $sanyo_distance+118488;
 structure['jrkasenchu-5A'].Put('sanyokudari',-2,-0.5,0,0,0,0,0,0);
-structure['jrkasenchu-9A'].Put('sanyokudari',11,-0.5,0,0,0,0,0,0);
+structure['jrkasenchu-9AR'].Put('sanyokudari',10.7,-0.5,0,0,0,0,0,0);
 structure['wirehanger8'].Put('gawa_kami3',0,0,0,0,0,0,0,0);
 structure['wirehanger9'].Put('nakage',0,0,0,0,0,0,0,0);
 $sanyo_distance+118524;

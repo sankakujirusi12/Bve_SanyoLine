@@ -7,12 +7,11 @@ repeater['ballast10'].Begin('gawa_kami1',0,0,0,0,0,0,3,5,5,'Ballast');
 	Track['gawa_kami3'].Position(0,0);
 	#←固定
 $sanyo_distance+118352;
-	SpeedLimit.End();
 Curve.Interpolate(0, 0);
 Track['sanyonobori'].Cant.Interpolate(0);
 
-	structure['seigen45L'].Put(0,-2.2,1,-1,0,0,0,0,0);
-	structure['seigenpole'].Put(0,-2.2,0,-1,0,0,0,0,0);
+	structure['seigen45L'].Put(0,-2.6,2,-1,0,0,0,0,0);
+	structure['seigenpole'].Put(0,-2.6,0,-1,0,0,0,0,0);
 $sanyo_distance+118359;
 Curve.Interpolate(0, 0);
 Curve.Interpolate(-308, 0);
@@ -22,6 +21,8 @@ SpeedLimit.Begin(45);
 repeater['ballast3'].Begin('sanyokudari',0,0,0,0,0,0,3,5,5,'Ballast');
 $sanyo_distance+118362;
 	Track['gawa_kami1'].Position(8,0,137);
+	structure['seigen35R'].Put('sanyokudari',-2.2,1,-1,0,0,0,0,0);
+	structure['seigenpole'].Put('sanyokudari',-2.2,-1,-1,0,0,0,0,0);
 $sanyo_distance+118382;
 repeater['ballast10'].End();
 Track['gawa_kami1'].Position(6.4,0);

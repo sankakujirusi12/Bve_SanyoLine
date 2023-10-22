@@ -43,7 +43,21 @@ seigen85,Structures\Uchibo\Limit\TypeB\Lim085_A.x
 seigen85num,Structures\Uchibo\Limit\TypeB\Lim085_Anum.x
 seigen90,Structures\Uchibo\Limit\TypeB\Lim090_A.x
 seigenEnd,Structures\Uchibo\Limit\TypeB\LimEnd_A.x
-seigenpole,../../Nagoya_Common\Railway_Obj\Sign\Limit\Pole.x
+seigenpole,Structures\NS\others\limpole0.x
+
+#距離
+Lnum_A_0,Structures\Uchibo\Limit\TypeB\Lnum_A_0.x
+Lnum_A_1,Structures\Uchibo\Limit\TypeB\Lnum_A_1.x
+Lnum_A_2,Structures\Uchibo\Limit\TypeB\Lnum_A_2.x
+Lnum_A_3,Structures\Uchibo\Limit\TypeB\Lnum_A_3.x
+Lnum_A_4,Structures\Uchibo\Limit\TypeB\Lnum_A_4.x
+Lnum_A_5,Structures\Uchibo\Limit\TypeB\Lnum_A_5.x
+Lnum_A_6,Structures\Uchibo\Limit\TypeB\Lnum_A_6.x
+Lnum_A_7,Structures\Uchibo\Limit\TypeB\Lnum_A_7.x
+Lnum_A_8,Structures\Uchibo\Limit\TypeB\Lnum_A_8.x
+Lnum_A_9,Structures\Uchibo\Limit\TypeB\Lnum_A_9.x
+
+
 #本則
 honsoku70_440,Structures\△12△\komono\honsoku70_440.x
 
@@ -283,6 +297,10 @@ kusa3,Structures\△12△\Nature\kusa3.x
 kusa4,Structures\△12△\Nature\kusa4.x
 kusa5,Structures\△12△\Nature\kusa5.x
 kusa6,Structures\△12△\Nature\kusa6.x
+kusa7,Structures\△12△\Nature\kusa7.x
+kusa8,Structures\△12△\Nature\kusa8.x
+kusa9,Structures\△12△\Nature\kusa9.x
+kusa10,Structures\△12△\Nature\kusa10.x
 
 #-----------------------------------------------------------------ホーム------------------------------------------------------------------
 Form_L,Structures\Ntfiv\GeneralStr_png\ACCC\Station\Form51L.x

@@ -2,17 +2,21 @@ BveTs Map 2.02:UTF-8
 #上郡③(本線)
 
 $sanyo_distance+118352;
-	SpeedLimit.End();
 Curve.Interpolate(0, 0);
 Track['sanyonobori'].Cant.Interpolate(0);
 repeater['ballast10'].Begin('gawa_kami1',0,0,0,0,0,0,3,5,5,'Ballast');
 	Track['gawa_kami1'].Position(9.5,0,-173);
 	Track['gawa_kami2'].Position(9.5,0,0);
-	structure['seigen45L'].Put(0,-2.2,1,-1,0,0,0,0,0);
-	structure['seigenpole'].Put(0,-2.2,0,-1,0,0,0,0,0);
+	structure['seigen45L'].Put(0,-2.6,2,-1,0,0,0,0,0);
+	structure['seigenpole'].Put(0,-2.6,0,-1,0,0,0,0,0);
 $sanyo_distance+118359;
 	Track['gawa_kami3'].Position(0,0,-308);
 repeater['ballast3'].Begin('gawa_kami3',0,-0.007,0,0,0,0,3,5,5,'Ballast');
+
+$sanyo_distance+118362;
+	structure['seigen35R'].Put(0,-2.2,1,-1,0,0,0,0,0);
+	structure['seigenpole'].Put(0,-2.2,-1,-1,0,0,0,0,0);
+
 $sanyo_distance+118372;
 	Track['gawa_kami1'].Position(7.5,0,173);
 $sanyo_distance+118387;
@@ -156,7 +160,7 @@ $sanyo_distance+118716;
 structure['8tei'].Put(0,-2,0,0,0,0,0,0,2);
 #8B停目
 structure['retsutei'].Put('nakage',-2.3,3.39,-0.1,0,0,0,0,0);
-structure['teimokupole'].Put('nakage',-2.3,3.5,0,0,0,0,0,0);
+structure['teimokupole'].Put('nakage',-3,1.2,0,0,0,0,0,0);
 $sanyo_distance+118754;
 structure['retsutei'].Put(0,-2,0,0,0,0,0,0,2);
 #全停目
