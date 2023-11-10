@@ -576,11 +576,11 @@ repeater['TN_nobori'].End();
 #TN明け
 repeater['zas1'].Begin('',-11.5,-1,0,0,0,0,1,10,10,'Mt_wall_18a','Mt_wall_10a','Mt_wall_14b','Mt_wall_16a',,'Mt_wall_15b','Mt_wall_13b');
 repeater['zas2'].Begin('',11.5,-1,0,0,0,0,1,10,10,'Mt_wall_10a','Mt_wall_13a','Mt_wall_14a','Mt_wall_12b',,'Mt_wall_18b','Mt_wall_12a');
-	repeater['Mt_R1'].Begin('',-80,-10,0,0,0,0,0,55,55,'Mt2','Mt2');
+	repeater['Mt_R1'].Begin('',-80,-10,0,0,0,0,0,55,55,'Mt2');
 	Repeater['blankR1'].Begin('sanyokudari',-0.5,0,0,0,0,0,1,25,25,'blankR_01','blankR_02','blankR_03');
 	Repeater['bushL'].Begin('sanyokudari',-4.5,-0.5,0,0,-30,0,1,9,9,'kusa7','kusa9','kusa8','kusa10');
 	Repeater['bushR'].Begin('sanyokudari',4.5,-0.5,0,0,30,0,1,9,9,'kusa8','kusa7','kusa10','kusa9','kusa7');
-	repeater['Mt_R2'].Begin('',75,-10,0,0,0,0,0,55,55,'Mt2','Mt2');
+	repeater['Mt_R2'].Begin('',75,-10,0,0,0,0,0,55,55,'Mt2');
 $sanyo_distance+129980;
 curve.BeginTransition();
 $sanyo_distance+130020;
@@ -626,6 +626,13 @@ structure['shoken1'].Put(0,1.5,0,4,0,0,0,0,2);
 
 $sanyo_distance+130449;
 curve.BeginTransition();
+
+	repeater['Mt_R2'].Begin('sanyonobori',145,-10,0,0,60,0,0,65,65,'Mt2');
+
+$sanyo_distance+130490;
+
+#R2号
+
 $sanyo_distance+130519;
 curve.Begin(-880,-0.06);
 	Track['Grass2'].Position(0,-0.45);
@@ -636,6 +643,10 @@ curve.Begin(-880,-0.06);
 $sanyo_distance+130602;
 	Track['Grass2'].Position(0,-5.45);	
 	repeater['zas2'].End();
+	
+$sanyo_distance+130647;
+	Repeater['bushR'].End();
+
 $sanyo_distance+130702;
 
 $sanyo_distance+130732;
