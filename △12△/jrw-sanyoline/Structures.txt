@@ -807,6 +807,8 @@ Himeform_CR,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCR_hime.x
 Himeji_teimoku,Structures\△12△\sta\himeji\Himeji_teimoku.x
 Himeji_roof,Structures\△12△\sta\himeji\Himeji_roof.x
 Himeji_tsumesyo,Structures\△12△\sta\himeji\Himeji_tumesyo.x
+Himeji_shinkansen_wall,Structures\△12△\sta\himeji\Himeji_shinkansen_wall.x
+
 #英賀保
 AgahoRoofL,Structures\△12△\sta\agaho\Agahoroof.x
 Agaho_EV,Structures\△12△\sta\agaho\Agaho_EV.x
@@ -816,6 +818,7 @@ Agaho_wall,Structures\△12△\sta\agaho\agaho_wall.x
 Agaho_norikosi,Structures\△12△\sta\agaho\agaho_norikosi.x
 Agaho_bridge,Structures\△12△\sta\agaho\agaho_bridge.x
 Agaho_kosen,Structures\△12△\sta\agaho\agaho_kosen.x
+
 #はりま勝原
 Katsuform_L,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormL_katsu.x
 Katsuform_R,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormR_katsu.x
@@ -894,6 +897,7 @@ Himeji_agaho_jimusyo,Structures\△12△\ensen\Himeji_agaho_jimusyo.x
 Himeji_agaho_crocs,Structures\△12△\ensen\Himeji_agaho_crocs.x
 
 #英賀保～勝原
+Agaho_chuurinjou,Structures\△12△\ensen\Agaho_chuurinjou.x
 Yagura_hoikuen,Structures\△12△\ensen\Yagura_hoikuen.x
 
 #勝原～網干

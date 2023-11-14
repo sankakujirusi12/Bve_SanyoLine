@@ -9,7 +9,6 @@ kokirun_joint,Sound3D\kty_LandscapeSounds\ƒRƒ“ƒeƒi‰İ•¨‘ÎŒü‰¹\koki_run_joint.wav
 cross,Sound3D\kty_LandscapeSounds\“¥Ø‰¹s\crossing3.wav,4
 cross2,Sound3D\kty_LandscapeSounds\“¥Ø‰¹s\crossing1.wav,4
 rain,../..\Nagoya_Common\Sound\3D\Environmental_Rain.wav
-103,Structures\harimate\103.wav
 115run,Sound3D\’Ê‰ß‰¹\115’Ê‰ß‰¹.wav,3
 221run,Sound3D\’Ê‰ß‰¹\221’Ê‰ß‰¹.wav,3
 223-1000run,Sound3D\’Ê‰ß‰¹\223-1000’Ê‰ß‰¹1.wav,8
