@@ -1,23 +1,23 @@
-BveTs Sound List 2.00:shift_jis
+BveTs Sound List 2.00:UTF-8
 
-ef65run,Sound3D\�ʉ߉�\65�ʉ߉�.wav
-kokirun_tttt,Sound3D\kty_LandscapeSounds\�R���e�i�ݕ��Ό���\koki_run_ttttt.wav
-kokirun1,Sound3D\kty_LandscapeSounds\�R���e�i�ݕ��Ό���\koki_run_01.wav
-kokirun2,Sound3D\kty_LandscapeSounds\�R���e�i�ݕ��Ό���\koki_run_02.wav
-kokirun3,Sound3D\kty_LandscapeSounds\�R���e�i�ݕ��Ό���\koki_run_03.wav
-kokirun_joint,Sound3D\kty_LandscapeSounds\�R���e�i�ݕ��Ό���\koki_run_joint.wav
-cross,Sound3D\kty_LandscapeSounds\���؉�s\crossing3.wav,4
-cross2,Sound3D\kty_LandscapeSounds\���؉�s\crossing1.wav,4
+ef65run,Sound3D\通過音\65通過音.wav
+kokirun_tttt,Sound3D\kty_LandscapeSounds\コンテナ貨物対向音\koki_run_ttttt.wav
+kokirun1,Sound3D\kty_LandscapeSounds\コンテナ貨物対向音\koki_run_01.wav
+kokirun2,Sound3D\kty_LandscapeSounds\コンテナ貨物対向音\koki_run_02.wav
+kokirun3,Sound3D\kty_LandscapeSounds\コンテナ貨物対向音\koki_run_03.wav
+kokirun_joint,Sound3D\kty_LandscapeSounds\コンテナ貨物対向音\koki_run_joint.wav
+cross,Sound3D\kty_LandscapeSounds\踏切音s\crossing3.wav,4
+cross2,Sound3D\kty_LandscapeSounds\踏切音s\crossing1.wav,4
 rain,../..\Nagoya_Common\Sound\3D\Environmental_Rain.wav
-115run,Sound3D\�ʉ߉�\115�ʉ߉�.wav,3
-221run,Sound3D\�ʉ߉�\221�ʉ߉�.wav,3
-223-1000run,Sound3D\�ʉ߉�\223-1000�ʉ߉�1.wav,8
-223-2000run,Sound3D\�ʉ߉�\223-2000�ʉ߉�.wav,6
-225run,Sound3D\�ʉ߉�\225�ʉ߉�.wav
-12run,Sound3D\�ʉ߉�\12�ʉ߉�.wav
+115run,Sound3D\通過音\115通過音.wav,3
+221run,Sound3D\通過音\221通過音.wav,3
+223-1000run,Sound3D\通過音\223-1000通過音1.wav,8
+223-2000run,Sound3D\通過音\223-2000通過音.wav,6
+225run,Sound3D\通過音\225通過音.wav
+12run,Sound3D\通過音\12通過音.wav
 213run,
-HOT7000run,Sound3D\�ʉ߉�\HOT7000�ʉ߉�.wav
-sazanami,Sound3D\��12��\sazanami.wav,6
-hyoujyun,Sound3D\��12��\hyoujyun.wav,4
-DC_engine,Sound3D\�ʉ߉�\DC187�G���W����.wav,3
-DC40run,Sound3D\�ʉ߉�\DC47W�ʉ߉�.wav
+HOT7000run,Sound3D\通過音\HOT7000通過音.wav
+sazanami,Sound3D\△12△\sazanami.wav,6
+hyoujyun,Sound3D\△12△\hyoujyun.wav,4
+DC_engine,Sound3D\通過音\DC187エンジン音.wav,3
+DC40run,Sound3D\通過音\DC47W通過音.wav

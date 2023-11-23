@@ -890,6 +890,7 @@ Himeji_mansion,Structures\△12△\ensen\Himeji_mansion.x
 Himeji_haikei,Structures\△12△\ensen\Himeji_haikei.x
 
 #姫路～英賀保
+Ogyu,Structures\△12△\ensen\Ogyu.x
 Kansai_douro_anzen,Structures\△12△\ensen\Kansai_douro_anzen.x
 Himeji_agaho_nikken,Structures\△12△\ensen\Himeji_agaho_nikken.x
 Himeji_agaho_darumaya,Structures\△12△\ensen\Himeji_agaho_darumaya.x
@@ -899,6 +900,7 @@ Himeji_agaho_crocs,Structures\△12△\ensen\Himeji_agaho_crocs.x
 #英賀保～勝原
 Agaho_chuurinjou,Structures\△12△\ensen\Agaho_chuurinjou.x
 Yagura_hoikuen,Structures\△12△\ensen\Yagura_hoikuen.x
+Kurenishigumi,Structures\△12△\ensen\Kureshimagumi.x
 
 #勝原～網干
 Katsu_hoshi_souko,Structures\△12△\ensen\Katsu_hoshi_souko.x
@@ -932,6 +934,7 @@ Aboshi_bansen_on,Structures\△12△\Aboshi_bansen\Aboshi_bansen_on.x
 
 #相生
 Aioi_chuurinjou,Structures\△12△\ensen\Aioi_chuurinjou.x
+Aioi_kyoukyaku,Structures\△12△\ensen\Aioi_kyoukyaku.x
 
 #有年～上郡
 Une_annnai,Structures\△12△\ensen\une_annnai.x

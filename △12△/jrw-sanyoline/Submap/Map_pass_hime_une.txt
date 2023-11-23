@@ -115,6 +115,10 @@ $sanyo_distance+84378;
 $sanyo_distance+84388;
 #-7.6‰
 	Gradient.Interpolate(-7.6);
+	
+$sanyo_distance+84402;
+structure['Ogyu'].Put('Grass',32,0,0,0,20,0,0,0);
+
 $sanyo_distance+84420;
 repeater['sinkan_wallL'].Begin('sinkad',0,0,0,0,0,0,1,20,20,'shinkan_wallL_25');
 repeater['sinkan_wallR'].Begin('sinkau',0,0,0,0,0,0,1,20,20,'shinkan_wallR_25');
@@ -983,6 +987,10 @@ Repeater['DikeR'].Begin0('sanyonobori', 1, 5, 5, 'DikeR_1','DikeR_2','DikeR_3');
 $sanyo_distance+88712;
 	Gradient.Interpolate(9.5);
 #+9.5‰
+
+$sanyo_distance+88728;
+structure['Kurenishigumi'].Put('Grass',-9.5,0,0,0,0,0,0,0);
+
 $sanyo_distance+88732;
 curve.Begin(800,0.06);
 Track['sanyonobori'].Cant.Interpolate(0.06);
@@ -3920,8 +3928,8 @@ $sanyo_distance+104917;
 $sanyo_distance+104940;
 repeater['kyoukyaku'].End();
 repeater['kyoukyaku1'].End();
-	Track['sinkad'].Position(25,14,-400);
-	Track['sinkau'].Position(29,14,-400);
+	Track['sinkad'].Position(25,12,-400);
+	Track['sinkau'].Position(29,12,-400);
 
 $sanyo_distance+105000;
 	Track['Grass2'].Position(0,-8);
@@ -3937,14 +3945,13 @@ repeater['DikeR1'].End();
 $sanyo_distance+105015;
 
 $sanyo_distance+105025;
-	Track['sinkad'].Position(0,14,-400);
-	Track['sinkau'].Position(4,14,-400);
+	Track['sinkad'].Position(0,10,-400);
+	Track['sinkau'].Position(4,10,-400);
 $sanyo_distance+105037;
 	repeater['densen'].End();
-$sanyo_distance+105045;
+$sanyo_distance+105055;
 
-repeater['kyoukyaku'].Begin('sinkau',0,0,0,0,0,0,0,25,25,'shinkan_kyoukyaku');
-repeater['kyoukyaku1'].Begin('sinkad',0,0,0,0,0,0,0,25,25,'shinkan_kyoukyaku');
+repeater['kyoukyaku'].Begin('sinkau',-1,0,0,0,0,0,0,25,25,'Aioi_kyoukyaku');
 $sanyo_distance+105069.6;
 structure['kanko_6'].Put(0,-2.6,3,0,0,0,0,0,0);
 $sanyo_distance+105077;
@@ -3984,7 +3991,6 @@ repeater['sinkan_wallR'].End();
 repeater['teimen'].End();
 repeater['teimen1'].End();
 repeater['kyoukyaku'].End();
-repeater['kyoukyaku1'].End();
 	Track['sinkad'].Position(-207,11,0,0);
 	Track['sinkau'].Position(-202,11,0,0);
 
@@ -3992,23 +3998,7 @@ $sanyo_distance+105310;
 #山
 	Track['Mt_L'].Position(-60,-5,0,0);
 $sanyo_distance+105556;
-structure['factory2'].Put('route2',22,0,0,0,0,0,0,0);
-structure['factory2'].Put('route2',32,0,0,0,0,0,0,0);
-structure['factory2'].Put('route2',22,0,10,0,0,0,0,0);
-structure['factory2'].Put('route2',32,0,10,0,0,0,0,0);
-structure['factory2'].Put('route2',22,0,20,0,0,0,0,0);
-structure['factory2'].Put('route2',32,0,20,0,0,0,0,0);
-structure['factory2'].Put('route2',22,0,30,0,0,0,0,0);
-structure['factory2'].Put('route2',32,0,30,0,0,0,0,0);
-structure['factory2'].Put('route2',22,0,40,0,0,0,0,0);
-structure['factory2'].Put('route2',32,0,40,0,0,0,0,0);
-
-
-
-
-
-
-
+#工場
 
 
 
