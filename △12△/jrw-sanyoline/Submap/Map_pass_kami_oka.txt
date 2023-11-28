@@ -5,7 +5,7 @@ BveTs Map 2.00:UTF-8
 $sanyo_distance+119157;
 repeater['wallL'].End();
 repeater['wallR'].End();
-repeater['teimen'].Begin('chizu',-0.25,0,0,0,0,0,1,14,14,'teimen');
+#repeater['teimen'].Begin('chizu',-0.25,0,0,0,0,0,1,14,14,'teimen');
 $sanyo_distance+119222;
 #側線終了
 repeater['ballast12'].End();
@@ -88,8 +88,7 @@ structure['Levee_B'].Put(0,-0.5,0,0,0,0,0,0,2);
 	Track['sanyonobori'].Position(10,0);
 	Track['chizu'].Position(124,7.5,0);
 repeater['teimen'].End();
-repeater['wallL'].End();
-repeater['wallR'].End();
+repeater['Chizu_wall'].End();
 Repeater['DikeL'].End();
 Repeater['DikeR'].End();
 repeater['ballast6'].End();

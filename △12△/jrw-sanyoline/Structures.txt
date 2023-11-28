@@ -189,6 +189,7 @@ kanko_syuppatsu,Structures\FCS_TM\kanko\shuppatsu_n.x
 6syutsu,Structures\△12△\singoumei\6syutsu.x
 7syutsu,Structures\△12△\singoumei\7syutsu.x
 8syutsu,Structures\△12△\singoumei\8syutsu.x
+9syutsu,Structures\△12△\singoumei\9syutsu.x
 himesyutsu,Structures\△12△\singoumei\himesyutsu.x
 1akosyutsu,Structures\△12△\singoumei\1akosyutsu.x
 2akosyutsu,Structures\△12△\singoumei\2akosyutsu.x
@@ -888,6 +889,10 @@ Himeji_build,Structures\△12△\ensen\Himeji_build.x
 Himeji_build2,Structures\△12△\ensen\Himeji_build2.x
 Himeji_mansion,Structures\△12△\ensen\Himeji_mansion.x
 Himeji_haikei,Structures\△12△\ensen\Himeji_haikei.x
+Himeji_minsyo,Structures\△12△\ensen\Himeji_minsyo.x
+Himeji_aeon,Structures\△12△\ensen\Himeji_aeon.x
+Holiday_sports,Structures\△12△\ensen\Holiday_sports.x
+Himeji_wide_road,Structures\△12△\ensen\Himeji_wide_road.x
 
 #姫路～英賀保
 Ogyu,Structures\△12△\ensen\Ogyu.x
@@ -942,6 +947,9 @@ Sayo_kozuki,Structures\△12△\ensen\Sayo_kozuki.x
 
 #上郡
 Kamigori_koban,Structures\△12△\ensen\Kamigori_koban.x
+
+#上郡～三石
+Chizu_wall,Structures\△12△\ensen\Chizu_wall.x
 
 #三石
 Mitsuishi_factory,Structures\△12△\ensen\Mitsuishi_factory.x

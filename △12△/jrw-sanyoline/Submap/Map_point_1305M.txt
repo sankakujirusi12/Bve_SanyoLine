@@ -1,8 +1,28 @@
 BveTs Map 2.00:UTF-8
+$sanyo_distance+83969;
+$distance=distance;
+$point='hime7';
+$point1='watari3';
+include 'Submap\PointR.txt';
+
+$sanyo_distance+83970;
+$distance=distance;
+$point='hime6';
+$point1='watari2';
+include 'Submap\PointL.txt';
+
 $sanyo_distance+87872;
 $distance=distance;
-$point='nakage';
+$point='sanyokudari';
+$point1='nakage';
 include 'Submap\PointR.txt';
+
+$sanyo_distance+88486;
+$distance=distance;
+$point='nakajou';
+$point1='nakage';
+include 'Submap\PointL.txt';
+
 $sanyo_distance+93554;
 $distance=distance;
 $point='watari2';

@@ -73,7 +73,7 @@ Curve.Interpolate(0,0);
 	#Curve.BeginTransition();
 $sanyo_distance+84228;
 #橋梁
-$sanyo_distance+84250;
+$sanyo_distance+84300;
 repeater['kyoukyaku'].End();
 repeater['kyoukyaku1'].End();
 $sanyo_distance+84274;
@@ -112,12 +112,14 @@ Track['sanyonobori'].Cant.Interpolate(-0.105);
 Curve.Interpolate(-400,-0.105);
 $sanyo_distance+84378;
 	Gradient.Interpolate(-10);
+structure['Holiday_sports'].Put('Grass',-151,0,40,0,10,0,0,0);
+
 $sanyo_distance+84388;
 #-7.6‰
 	Gradient.Interpolate(-7.6);
 	
 $sanyo_distance+84402;
-structure['Ogyu'].Put('Grass',32,0,0,0,20,0,0,0);
+structure['Ogyu'].Put('Grass',32,0,0,0,50,0,0,0);
 
 $sanyo_distance+84420;
 repeater['sinkan_wallL'].Begin('sinkad',0,0,0,0,0,0,1,20,20,'shinkan_wallL_25');
@@ -127,6 +129,8 @@ repeater['sinkan_wallR'].Begin('sinkau',0,0,0,0,0,0,1,20,20,'shinkan_wallR_25');
 $sanyo_distance+84426;
 	Repeater['Ballast_s2'].End();
 	Track['sandenkudari'].Position(-169,-7);
+structure['Himeji_minsyo'].Put('Grass',-23,0,0,0,30,0,0,0);
+
 $sanyo_distance+84430;
 repeater['kyoukyaku'].End();
 repeater['kyoukyaku1'].End();
@@ -137,19 +141,23 @@ $sanyo_distance+84450;
 repeater['sinkan_wallL'].Begin('sinkad',0,0,0,0,0,0,0,25,24,'shinkan_wallL_25');
 	Track['sinkad'].Position(-6,8,400,0);
 	Track['sinkau'].Position(0,8,400,0);
+	Track['Route62'].Position(120,-5,400,0);
+	repeater['Himeji_wide_road'].Begin('Route62',0,0,0,0,0,0,0,8,8,'Himeji_wide_road');
+$sanyo_distance+84460;
+structure['Himeji_aeon'].Put('Grass',-65,0,0,0,30,0,0,0);	
+
 $sanyo_distance+84500;
 	repeater['kyoukyaku'].Begin('sinkau',0,0,0,0,0,0,0,25,25,'shinkan_kyoukyaku');
 	repeater['kyoukyaku1'].Begin('sinkad',0,0,0,0,0,0,0,25,25,'shinkan_kyoukyaku');
+	Track['kishin'].Position(9,0,0);
+	
 $sanyo_distance+84612;
 	Track['sinkad'].Position(106,8,400,0);
 	Track['sinkau'].Position(112,8,400,0);
+
 Curve.Interpolate(-400,-0.105);
 Track['sanyonobori'].Cant.Interpolate(-0.105);
-$sanyo_distance+84712;
-	Track['sinkad'].Position(166,8,0,0);
-	Track['sinkau'].Position(172,8,0,0);
-Curve.Interpolate(0,0);
-Track['sanyonobori'].Cant.Interpolate(0);
+
 $sanyo_distance+84680;
 repeater['sinkan_pole'].End();
 repeater['sinkan_wallL'].End();
@@ -166,6 +174,13 @@ $sanyo_distance+84700;
 	Repeater['Ballast8'].Begin('kishin',0,0,0,0,0,0,3,5,5,'Ballast');
 $sanyo_distance+84707;
 	Gradient.Interpolate(-7.6);
+
+$sanyo_distance+84712;
+	Track['sinkad'].Position(166,8,0,0);
+	Track['sinkau'].Position(172,8,0,0);
+Curve.Interpolate(0,0);
+Track['sanyonobori'].Cant.Interpolate(0);
+
 $sanyo_distance+84717;
 	Gradient.Interpolate(-8.5);
 $sanyo_distance+84732;
@@ -175,6 +190,9 @@ $sanyo_distance+84747;
 	Gradient.Interpolate(0);
 #L
 	Track['Grass'].Position(0,-5.45);
+	Track['Route62'].Position(-170,-5,0,0);
+	repeater['Himeji_wide_road'].End();
+
 $sanyo_distance+84780;
 repeater['sinkan_pole'].End();
 repeater['sinkan_wallL'].End();
@@ -865,7 +883,7 @@ $sanyo_distance+88469;
 $sanyo_distance+88487;
 	structure['pointsw'].Put('nakage',2,0,0,0,0,0,0,0);
 	Repeater['Ballast2'].Begin('nakajou',0,-0.01,0,0,0,0,3,5,5,'Ballast');
-	Track['nakage'].Position(4.5,0,-173);
+	Track['nakage'].Position(4.5,-0.01,-173);
 	Track['nakajou'].Position(4.5,0,800);
 	#上下中線分岐
 	structure['seigen35L'].Put('nakage',2.5,2,-1,0,0,0,0,0);

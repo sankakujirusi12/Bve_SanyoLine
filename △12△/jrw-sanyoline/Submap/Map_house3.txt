@@ -93,10 +93,7 @@ $sanyo_distance+93050;
 structure['3dhouse4'].Put('Grass',-12,0,0,0,0,0,0,2);
 $sanyo_distance+93065;
 structure['3dhouse11'].Put('Grass',-12,0,0,0,0,0,0,2);
-$sanyo_distance+93242;
-Repeater['house'].Begin('sanyonobori',17,0,0,0,0,0,0,25,25,'3dhouse1','3dhouse2','3dhouse4','3dhouse3','3dhouse5',,'3dhouse8',,'3dhouse9','3dhouse15','3dhouse12','3dhouse11','3dhouse22','3dhouse23','3dhouse14','3dhouse9','3dhouse10','3dhouse16','3dhouse18');
-$sanyo_distance+93382;
-Repeater['house'].End();
+
 $sanyo_distance+93466;
 Repeater['house'].Begin('sanyonobori',24,0,0,0,0,0,0,10,20,'3dhouse1','3dhouse2','3dhouse4','3dhouse3','3dhouse5',,'3dhouse8',,'3dhouse9','3dhouse15','3dhouse12','3dhouse11','3dhouse22','3dhouse23','3dhouse14','3dhouse9','3dhouse10','3dhouse16','3dhouse18');
 $sanyo_distance+93624;
