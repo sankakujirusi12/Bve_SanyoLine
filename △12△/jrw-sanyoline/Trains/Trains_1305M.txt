@@ -41,7 +41,7 @@ Train['738T'].Enable('07:04:00');
 Train['822D'].Enable('07:03:00');
 Train['5732T'].Enable('07:07:30');
 Train['56'].Enable('07:04:00');
-Train['sandenlocal'].Enable('07:05:45');
+Train['sandenlocal'].Enable('07:05:55');
 Train['738T'].Stop(3, 30, 2.5, 100);
 Train['3426M'].Stop(3, 30, 2.5, 100);
 Train['hoshi12'].Stop(3, 30, 2.5, 100);

@@ -893,6 +893,8 @@ Himeji_minsyo,Structures\△12△\ensen\Himeji_minsyo.x
 Himeji_aeon,Structures\△12△\ensen\Himeji_aeon.x
 Holiday_sports,Structures\△12△\ensen\Holiday_sports.x
 Himeji_wide_road,Structures\△12△\ensen\Himeji_wide_road.x
+Shinki_bus,Structures\△12△\ensen\Shinki_bus.x
+Sanden_wall,Structures\△12△\ensen\Sanden_wall.x
 
 #姫路～英賀保
 Ogyu,Structures\△12△\ensen\Ogyu.x

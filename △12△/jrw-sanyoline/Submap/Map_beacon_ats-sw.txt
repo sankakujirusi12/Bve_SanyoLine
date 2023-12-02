@@ -5,7 +5,7 @@ BveTs Map 2.02:UTF-8
 #直下地上子
 $dis -20;
 	Beacon.Put(1,1,0);
-	Structure['SW_stop'].Put(0, 0, 0, 0, 0, 0, 0, 3, 5);
+	Structure['SW_faildepart'].Put(0, 0, 0, 0, 0, 0, 0, 3, 5);
 #-----------------------------
 #ロング地上子
 $dis -600;

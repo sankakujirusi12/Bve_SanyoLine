@@ -44,14 +44,17 @@ structure['pointsw'].Put(0,-2,0,0,0,0,0,0,0);
 	Track['sinkau'].Position(-35,8,0,0);
 
 repeater['teimen1'].Begin('sanyonobori',0,0,0,0,0,0,1,25,25,'WallUnder');
-	Repeater['Ballast_s1'].Begin('sandennobori',0,0,0,0,0,0,3,5,3,'Ballast_1435');
+	Repeater['Ballast_s1'].Begin('sandennobori',0,-0.4,0,0,0,0,3,3,3,'Ballast_1435');
+	Repeater['Sanden_wallL'].Begin('sandennobori',-3,0,0,0,0,0,3,6,6,'Sanden_wall');
+	Repeater['Sanden_wallR'].Begin('sandenkudari',3,0,0,0,0,0,3,6,6,'Sanden_wall');
+
 	Track['sandennobori'].Position(169,-7);
 	Track['sanyonobori'].Position(12,0,0);
 	Track['kishin'].Position(18,0,0);
 	Track['Grass'].Position(0,-7.45);
 	# 7番、8番とも本線に合流
 $sanyo_distance+84146;
-	Repeater['Ballast_s2'].Begin('sandenkudari',0,0,0,0,0,0,3,5,3,'Ballast_1435');
+	Repeater['Ballast_s2'].Begin('sandenkudari',0,-0.4,0,0,0,0,3,3,3,'Ballast_1435');
 	Track['sandenkudari'].Position(169,-7);
 $sanyo_distance+84170;
 	repeater['WallR1'].Begin('sanyonobori',0,0,0,0,0,0,1,5,5,'WallR');
@@ -63,6 +66,10 @@ $sanyo_distance+84182;
 	Track['sinkad'].Position(-45,8,0,0);
 	Track['sinkau'].Position(-40,8,0,0);
 	Gradient.Interpolate(-8.5);
+
+$sanyo_distance+84210;
+	structure['Shinki_bus'].Put('Grass',-15,0.7,0,0,0,0,0,0);	
+
 $sanyo_distance+84220;
 	structure['Himeji_mansion'].Put('Grass',27,0,0,0,0,0,0,0);
 
@@ -125,6 +132,8 @@ $sanyo_distance+84420;
 repeater['sinkan_wallL'].Begin('sinkad',0,0,0,0,0,0,1,20,20,'shinkan_wallL_25');
 repeater['sinkan_wallR'].Begin('sinkau',0,0,0,0,0,0,1,20,20,'shinkan_wallR_25');
 	Repeater['Ballast_s1'].End();
+	Repeater['Sanden_wallL'].End();
+	Repeater['Sanden_wallR'].End();
 	Track['sandennobori'].Position(-169,-7);
 $sanyo_distance+84426;
 	Repeater['Ballast_s2'].End();

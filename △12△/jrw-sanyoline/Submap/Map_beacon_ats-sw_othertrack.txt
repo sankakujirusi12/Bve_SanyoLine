@@ -4,8 +4,8 @@ BveTs Map 2.02:UTF-8
 #-----------------------------
 #直下地上子
 $dis -20;
-	Structure['SW_stop'].Put('+$Track+', 0, 0, 0, 0, 0, 0, 3, 5);
+	Structure['SW_faildepart'].Put(''+$Track+'', 0, 0, 0, 0, 0, 0, 3, 5);
 #-----------------------------
 #ロング地上子
 $dis -600;
-	Structure['SW'].Put('+$Track+', 0, 0, 0, 0, 0, 0, 3, 5);
+	Structure['SW'].Put(''+$Track+'', 0, 0, 0, 0, 0, 0, 3, 5);
