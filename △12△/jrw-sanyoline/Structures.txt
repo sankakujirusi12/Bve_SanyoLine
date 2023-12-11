@@ -320,9 +320,6 @@ aboshi_depot1,Structures\Uchibo\Depot\aboshi_depot.x
 aboshi_depot2,Structures\Uchibo\Depot\chiba_depot.x
 aboshi_depot3,Structures\Uchibo\Depot\aboshi_depot_.x
 
-#乗車位置(旧、△印)
-jyousyaL,Structures\jyousyaichi\jyousyaL.x
-jyousyaR,Structures\jyousyaichi\jyousyaR.x
 
 #--------------------------------------------------------------小物---------------------------------------------------------------------
 
@@ -556,9 +553,16 @@ teimokupole_short,Structures\△12△\teimoku\teimokupole_short.x
 8tei,Structures\△12△\teimoku\8.x
 6tei,Structures\△12△\teimoku\6.x
 4tei,Structures\△12△\teimoku\4.x
+3tei,Structures\△12△\teimoku\3.x
+2tei,Structures\△12△\teimoku\2.x
 retsutei,Structures\△12△\teimoku\retsu.x
 karetei,Structures\△12△\teimoku\kare.x
 kyaku8tei,Structures\△12△\teimoku\kyaku8.x
+
+	#英賀保中線用
+8_kyaku8,Structures\△12△\teimoku\8_kyaku8.x
+ori3,4tei,Structures\△12△\teimoku\ori3.x
+retsu_kyaku,Structures\△12△\teimoku\retsu_kyaku.x
 2you,Structures\△12△\komono\2you.x
 #--------------------------------------------------------------------ATS-----------------------------------------------------------------------
 #SW地上子
@@ -799,6 +803,9 @@ Track_No3,Structures\△12△\TrackNo\3.x
 #非常ボタン標識
 Hijoubotan_L,Structures\△12△\komono\Hijoubotan_L.x
 Hijoubotan_R,Structures\△12△\komono\Hijoubotan_R.x
+#乗車位置(旧、△印)
+jyousyaL,Structures\△12△\jyousyaichi\jyousyaL.x
+jyousyaR,Structures\△12△\jyousyaichi\jyousyaR.x
 
 #姫路
 Himeform_L,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormL_hime.x
