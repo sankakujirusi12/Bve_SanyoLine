@@ -1446,8 +1446,10 @@ Repeater['fence_kudari'].End();
 Repeater['fence_nobori'].End();
 	Track['fence'].Position(-2.5,0);
 	Track['fence1'].Position(6.5,0);
-	repeater['Wall_kudari'].Begin(0,1,0,0,0,0,0,1,5,5,'formwall6R');
-	repeater['Wall_nobori'].Begin('sanyonobori',-1,0,0,0,0,0,1,5,5,'formwall6L');
+	repeater['Wall_kudari'].Begin(0,-4,1,0,0,0,0,1,2,2,'Whitefence_katsuhara');
+	repeater['Wall_kudari1'].Begin(0,-4,2,0,0,0,0,1,2,2,'Whitefence_katsuhara');
+	repeater['Wall_nobori'].Begin('sanyonobori',4,1,0,0,0,0,1,2,2,'Whitefence_katsuhara');
+	repeater['Wall_nobori1'].Begin('sanyonobori',4,2,0,0,0,0,1,2,2,'Whitefence_katsuhara');
 	repeater['Form_L'].Begin0(0,1,5,4.8,'Katsuform_L');
 	repeater['Form_CL'].Begin0(0,1,5,4.8,'Katsuform_CL2');
 	repeater['Form_R'].Begin0('sanyonobori',1,5,4.8,'Katsuform_R');
@@ -1468,9 +1470,24 @@ $sanyo_distance+91246;
 	#上下屋根始端
 	Track['douro1'].Position(25,0);
 #Sound3D['sazanami'].Put(-6.5, 4);
+
+$sanyo_distance+91287;
+	repeater['Wall_kudari'].End();
+	repeater['Wall_nobori'].End();
+	repeater['Wall_kudari1'].End();
+	repeater['Wall_nobori1'].End();
+	
+$sanyo_distance+91288;
+	structure['Whitefence_End'].Put(0,-4,1,0,0,0,0,0,0);
+	structure['Whitefence_End'].Put('sanyonobori',4,1,0,0,0,0,0,0);
+	structure['Whitefence_End'].Put(0,-4,2,0,0,0,0,0,0);
+	structure['Whitefence_End'].Put('sanyonobori',4,2,0,0,0,0,0,0);
 $sanyo_distance+91289;
-	repeater['Wall_kudari'].Begin(0,2.5,0,0,0,0,0,1,5,5,'formwall6R');
-	repeater['Wall_nobori'].Begin('sanyonobori',-3.5,0,0,0,0,0,1,5,5,'formwall6L');
+	structure['Katsuhara_fence'].Put(0,-5.5,1,0,0,0,0,0,0);
+	structure['Katsuhara_fence'].Put('sanyonobori',5.5,1,0,0,0,0,0,0);
+	repeater['Wall_kudari'].Begin(0,-7.4,1,1.2,0,-90,0,1,2.4,2.4,'Katsuhara_fence');
+	repeater['Wall_nobori'].Begin('sanyonobori',7.4,1,1.2,0,90,0,1,2.4,2.4,'Katsuhara_fence');
+
 	repeater['Form_CL'].Begin0(0,1,5,4.8,'Katsuform_CL');
 	repeater['Form_CR'].Begin0('sanyonobori',1,5,4.8,'Katsuform_CR');
 $sanyo_distance+91296;
@@ -1478,8 +1495,12 @@ $sanyo_distance+91296;
 #structure['hassya3'].Put(0,-3.5,4.5,0,0,0,0,0,0);
 	#発車標
 #Sound3D['sazanami'].Put(-6.5, 4);
-$sanyo_distance+91316;
 
+$sanyo_distance+91306;
+	repeater['Wall_kudari'].End();
+	repeater['Wall_nobori'].End();
+$sanyo_distance+91316;
+	structure['Katsuhara_kosen'].Put(0,2,1,0,0,0,0,0,0);
 	#橋上駅舎
 	repeater['Wall_nobori'].End();
 	repeater['fence_kudari'].Begin(0,-7,1,0,0,0,0,0,5,5,'WhiteFence1');

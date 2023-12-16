@@ -330,7 +330,12 @@ pointsw,Structures\Ntfiv\GeneralStr_png\Rail\Point\PointM_NS.x
 #フェンスの類
 Whitefence,Structures\Uchibo\Fence\Fence.x
 Whitefence1,Structures\Uchibo\Fence\Fence_Soga_5m.x
+Whitefence_end,Structures\Uchibo\Fence\FenceGrayE.x
+Whitefence_katsuhara,Structures\Uchibo\Fence\Fence_katsuhara.x
+
 GreenFence,Structures\Uchibo\Fence\FenceGreen.x
+Greenfence_end,Structures\Uchibo\Fence\FenceGreenE.x
+
 PoleFence1,Structures\Uchibo\Fence\PoleFence01a.x
 #小さい
 Formendfence1,Structures\Uchibo\Sta_Fence\F_endfence_A1.x
@@ -561,7 +566,7 @@ kyaku8tei,Structures\△12△\teimoku\kyaku8.x
 
 	#英賀保中線用
 8_kyaku8,Structures\△12△\teimoku\8_kyaku8.x
-ori3,4tei,Structures\△12△\teimoku\ori3.x
+ori3,Structures\△12△\teimoku\ori3.x
 retsu_kyaku,Structures\△12△\teimoku\retsu_kyaku.x
 2you,Structures\△12△\komono\2you.x
 #--------------------------------------------------------------------ATS-----------------------------------------------------------------------
@@ -708,9 +713,9 @@ Bridge1L,Structures\Ntfiv\GeneralStr_png\Bridge\blue5_bL.x
 Bridge1R,Structures\Ntfiv\GeneralStr_png\Bridge\blue5_bR.x
 
 #新幹線
-shinkan_pole,Structures\zacky751\新幹線架線柱\Pole_shinkansen.x
-shinkan_poleL,Structures\zacky751\新幹線架線柱\Pole_shinkansen_L.x
-shinkan_poleR,Structures\zacky751\新幹線架線柱\Pole_shinkansen_R.x
+shinkan_pole,
+shinkan_poleL,
+shinkan_poleR,
 teimen,Structures\△12△\kyoukyaku\teimen.x
 Pier_sk,Structures\Uchibo\Pier\Beam.x
 shinkan_kyoukyaku,Structures\△12△\kyoukyaku\kyoukyaku.x
@@ -828,6 +833,9 @@ Agaho_bridge,Structures\△12△\sta\agaho\agaho_bridge.x
 Agaho_kosen,Structures\△12△\sta\agaho\agaho_kosen.x
 
 #はりま勝原
+Katsuhara_kosen,Structures\△12△\sta\katsuhara\Katsuhara_kosen.x
+Katsuhara_hassyahyou,Structures\△12△\sta\katsuhara\Katsuhara_hassyahyou.x
+Katsuhara_fence,Structures\△12△\sta\katsuhara\Katsuhara_fence.x
 Katsuform_L,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormL_katsu.x
 Katsuform_R,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormR_katsu.x
 Katsuform_CL,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCL_katsu.x
