@@ -473,8 +473,8 @@ Keiyon3,Structures\Hiyodori1914\Automobile\Keiyon1_3.x
 Keiyon3Rev,Structures\Hiyodori1914\Automobile\Keiyon1_3Rev.x
 Keiyon4,Structures\Hiyodori1914\Automobile_FMC\Keiyon2\Keiyon2_4F.x
 Keiyon4Rev,Structures\Hiyodori1914\Automobile_FMC\Keiyon2\Keiyon2_4R.x
-Keiyon5,Structures\Hiyodori1914\Automobile_FMC\Keiyon2\Keiyon2_5.x
-Keiyon5Rev,Structures\Hiyodori1914\Automobile_FMC\Keiyon2\Keiyon2_5R.x
+Keiyon5,
+Keiyon5Rev,
 Keiyon6,Structures\Hiyodori1914\Automobile_FMC\Keiyon2\Keiyon2_6F.x
 Keiyon6Rev,Structures\Hiyodori1914\Automobile_FMC\Keiyon2\Keiyon2_6R.x
 Keiyon7,Structures\Hiyodori1914\Automobile\Keiyon3_2.x
@@ -883,12 +883,14 @@ Chizu1,../../Nagoya_Common\Build\Station\Ekisya2\Obj1.x
 Kamigori_nobori_uwaya,Structures\△12△\sta\kamigori\Kamigori_nobori_uwaya.x
 kamigori_kosen,Structures\△12△\sta\kamigori\Kamigori_kosen.x
 Kamigori_kosen_new,Structures\△12△\sta\kamigori\Kamigori_kosen_new.x
+Kamigori_hassyahyou,Structures\△12△\sta\kamigori\Kamigori_hassyahyou.x
 Kamigori_sign1,Structures\△12△\sta\kamigori\Kamigori_sign1.x
 Kamigori_sign2,Structures\△12△\sta\kamigori\Kamigori_sign2.x
 Kamigori_machiai,Structures\△12△\sta\kamigori\Kamigori_machiai.x
 Kamigori_tsumesyo,Structures\△12△\sta\kamigori\Kamigori_tsumesyo.x
 Kamigori_kanban1,Structures\△12△\sta\kamigori\Kamigori_kanban1.x
 Kamigori_kanban2,Structures\△12△\sta\kamigori\Kamigori_kanban2.x
+Kamigori_chizu_wall,Structures\△12△\sta\kamigori\Kamigori_chizu_wall.x
 #吉永
 Yoshinaga_oidensee,Structures\△12△\sta\yoshinaga\yoshinaga_oidensee.x
 #万富
@@ -918,6 +920,7 @@ Himeji_agaho_nikken,Structures\△12△\ensen\Himeji_agaho_nikken.x
 Himeji_agaho_darumaya,Structures\△12△\ensen\Himeji_agaho_darumaya.x
 Himeji_agaho_jimusyo,Structures\△12△\ensen\Himeji_agaho_jimusyo.x
 Himeji_agaho_crocs,Structures\△12△\ensen\Himeji_agaho_crocs.x
+Shinei_unyu,Structures\△12△\ensen\Shinei_unyu.x
 
 #英賀保～勝原
 Agaho_chuurinjou,Structures\△12△\ensen\Agaho_chuurinjou.x
@@ -968,6 +971,7 @@ Kamigori_koban,Structures\△12△\ensen\Kamigori_koban.x
 
 #上郡～三石
 Chizu_wall,Structures\△12△\ensen\Chizu_wall.x
+Tonguu_unsou,Structures\△12△\ensen\Tonguu_unsou.x
 
 #三石
 Mitsuishi_factory,Structures\△12△\ensen\Mitsuishi_factory.x

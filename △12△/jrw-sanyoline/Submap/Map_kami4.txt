@@ -220,7 +220,7 @@ repeater['Form_CL'].End();
 repeater['Form_CR'].End();
 repeater['Form_R'].Begin0('chizu',1,5,5,'Form_R');
 repeater['Form_CR'].Begin0('chizu',1,5,5,'Uneform_CR');
-
+	structure['Kamigori_chizu_wall'].Put('chizu',2,1,0,0,0,0,0,0);
 $sanyo_distance+118796;
 	structure['Formendfence2'].Put('chizu',0,1,0,0,0,0,0,2);
 
