@@ -163,6 +163,7 @@ Sound3D['cross2'].Put(5.5, 2.3);
 Curve.Interpolate(600, 0.085);
 Track['sanyonobori'].Cant.Interpolate(0.085);
 	Track['Grass2'].Position(0,-0.45);
+
 $sanyo_distance+113469;
 	Track['Grass2'].Position(0,-1);
 Curve.Interpolate(0, 0);
@@ -171,13 +172,24 @@ Track['sanyonobori'].Cant.Interpolate(0);
 	Track['Route373'].Position(-35,0);
 $sanyo_distance+113569;
 	Track['Route373'].Position(-60,0,600);
+	
+$sanyo_distance+113685;
+#変電所建屋
+
 $sanyo_distance+113724;
 Gradient.Interpolate(0);
+
 $sanyo_distance+113754;
 Gradient.Interpolate(10);
 #+10.0‰
+structure['Tettou'].Put('Grass2',-22,0,0,0,0,0,0,0);
+
+$sanyo_distance+113817;
+structure['Tettou2'].Put('Grass2',-18,0,0,0,0,0,0,0);
+
 $sanyo_distance+113823;
 	Track['Route373'].Position(-32,0,-600);
+	
 $sanyo_distance+113902;
 repeater['DikeL'].End();
 repeater['DikeR'].End();
@@ -320,9 +332,11 @@ $sanyo_distance+114513;
 #カーブ[R1200左]
 curve.Begin(-800,-0.06);
 Track['sanyonobori'].Cant.Interpolate(-0.06);
+
 $sanyo_distance+114548;
 repeater['road_1sya'].End();
 Repeater['bushes2'].End();
+
 $sanyo_distance+114558;
 repeater['DikeL'].End();
 repeater['DikeR'].End();

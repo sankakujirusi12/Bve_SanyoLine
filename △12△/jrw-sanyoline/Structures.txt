@@ -958,13 +958,23 @@ Aboshi_bansen_17,Structures\△12△\Aboshi_bansen\Aboshi_bansen_17.x
 Aboshi_bansen_shi,Structures\△12△\Aboshi_bansen\Aboshi_bansen_shi.x
 Aboshi_bansen_on,Structures\△12△\Aboshi_bansen\Aboshi_bansen_on.x
 
+#竜野～相生
+Tettou3,Structures\△12△\tettou\Tettou3.x
+
 #相生
 Aioi_chuurinjou,Structures\△12△\ensen\Aioi_chuurinjou.x
 Aioi_kyoukyaku,Structures\△12△\ensen\Aioi_kyoukyaku.x
 
+#相生～有年
+Aioi_une_factory1,Structures\△12△\ensen\Aioi_une_factory1.x
+Aioi_une_factory2,Structures\△12△\ensen\Aioi_une_factory2.x
+
 #有年～上郡
 Une_annnai,Structures\△12△\ensen\une_annnai.x
 Sayo_kozuki,Structures\△12△\ensen\Sayo_kozuki.x
+
+Tettou,Structures\△12△\tettou\Tettou.x
+Tettou2,Structures\△12△\tettou\Tettou2.x
 
 #上郡
 Kamigori_koban,Structures\△12△\ensen\Kamigori_koban.x
