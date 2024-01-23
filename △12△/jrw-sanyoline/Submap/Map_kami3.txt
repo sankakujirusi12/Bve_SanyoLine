@@ -31,11 +31,11 @@ repeater['ballast10'].End();
 	Track['gawa_kami1'].Position(6,0,0);
 $sanyo_distance+118389;
 	Track['gawa_kami3'].Position(-2,0,308);
-$sanyo_distance+118404;
-curve.BeginTransition();
+$sanyo_distance+118389;
+Curve.Interpolate(0, 0);
 Track['sanyonobori'].Cant.Interpolate(0);
 $sanyo_distance+118419;
-curve.Begin(2000,0.02);
+Curve.Interpolate(1200, 0.03);
 $sanyo_distance+118427;
 	Track['nakage'].Position(2,0,-600);
 	Track['nakajou'].Position(5,0,308);
@@ -43,13 +43,14 @@ $sanyo_distance+118419;
 	Repeater['Trees'].Begin('gawa_kami3',-25,-10,0,0,0,0,1,10,10,'tree21','tree22','tree23','tree24','tree25');
 	Track['gawa_kami3'].Position(-4,0);
 $sanyo_distance+118454;
-Curve.Interpolate(0, 0);
+Curve.Interpolate(1200, 0.03);
 $sanyo_distance+118467;
 	Track['nakage'].Position(4,0,0);
 	Track['nakajou'].Position(4,0,0);
 repeater['ballast5'].End();
 
 $sanyo_distance+118514;
+Curve.Interpolate(0, 0);
 	structure['Formendfence1'].Put(0,2.8,1.3,0,0,0,0,0,2);
 Repeater['Ballast_gr'].End();
 repeater['Form_R'].Begin0(0,1,5,5,'KatsuForm_R');
@@ -61,7 +62,7 @@ Repeater['DikeL2'].Begin('dote',0,0.45,0,0,0,0,1,5,5,'DikeL_1','DikeL_2','DikeL_
 Repeater['DikeR2'].Begin('dote',0,0.45,0,0,0,0,1,5,5,'DikeR_1','DikeR_2','DikeR_3');
 
 #ホーム始端
-curve.BeginTransition();
+Curve.Interpolate(0, 0);
 Track['sanyonobori'].Cant.Interpolate(0);
 $sanyo_distance+118514+5;
 Structure['KatsuForm_CR'].PutBetween(0,'nakage');
@@ -103,9 +104,9 @@ repeater['ballast9'].End();
 repeater['Form_R2'].Begin0('sanyonobori',1,5,5,'KatsuForm_R');
 repeater['Form_CR2'].Begin0('sanyonobori',1,5,5,'KatsuForm_CR');
 	structure['Formendfence2'].Put('sanyonobori',4,1,0,0,0,0,0,2);
-#上りホーム始端[左R1250]
+#上りホーム始端[左R1200]
 $sanyo_distance+118594;
-Curve.Interpolate(-1250, -0.02);
+Curve.Interpolate(-1200, -0.03);
 repeater['Form_CR'].Begin0(0,1,5,5,'KatsuForm_CR');
 $sanyo_distance+118608;
 structure['Kamigori_tsumesyo'].Put('sanyonobori',10,0,0,0,0,0,0,0);
@@ -161,6 +162,8 @@ structure['8tei'].Put(0,-2,0,0,0,0,0,0,2);
 #8B停目
 structure['retsutei'].Put('nakage',-2.3,3.39,-0.1,0,0,0,0,0);
 structure['teimokupole'].Put('nakage',-3,1.2,0,0,0,0,0,0);
+#ここから曲線半径変化
+Curve.Interpolate(-1200, -0.03);
 $sanyo_distance+118754;
 structure['retsutei'].Put(0,-2,0,0,0,0,0,0,2);
 #全停目

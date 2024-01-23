@@ -282,10 +282,10 @@ $sanyo_distance+121263;
 	Track['Grass2'].Position(0,-1.45);
 $sanyo_distance+121333;
 Track['sanyonobori'].Cant.Interpolate(-0.105);
-Curve.Interpolate(-440, -0.105);
+Curve.Interpolate(-442, -0.105);
 
 $sanyo_distance+121855;
-Curve.Interpolate(-440, -0.105);
+Curve.Interpolate(-442, -0.105);
 Track['sanyonobori'].Cant.Interpolate(-0.105);
 $sanyo_distance+121900;
 	Track['Grass2'].Position(0,-5.45);
@@ -304,14 +304,14 @@ $sanyo_distance+122175;
 curve.BeginTransition();
 
 $sanyo_distance+122233;
-curve.Begin(-800,-0.06);
+curve.Begin(-804,-0.06);
 Gradient.Interpolate(9);
 
 $sanyo_distance+122238;
 Gradient.Interpolate(9.3);
 
 $sanyo_distance+122446;
-curve.Begin(-800,-0.06);
+curve.Begin(-804,-0.06);
 #カーブ[R800左]
 
 $sanyo_distance+122506;
@@ -343,13 +343,13 @@ Curve.Interpolate(0, 0);
 
 $sanyo_distance+123474;
 Curve.Interpolate(0, 0);
-#カーブ[R450左]
+#カーブ[R402左]
 
 $sanyo_distance+123574;
-Curve.Interpolate(-450, -0.105);
+Curve.Interpolate(-402, -0.105);
 
 $sanyo_distance+123766;
-Curve.Interpolate(-450, -0.105);
+Curve.Interpolate(-402, -0.105);
 
 $sanyo_distance+123866;
 Curve.Interpolate(0, 0);
@@ -357,13 +357,13 @@ Curve.Interpolate(0, 0);
 
 $sanyo_distance+124045;
 Curve.Interpolate(0, 0);
-#カーブ[R1250右]
+#カーブ[R1207右]
 
 $sanyo_distance+124080;
-Curve.Interpolate(1250, 0.04);
+Curve.Interpolate(1207, 0.04);
 
 $sanyo_distance+124289;
-Curve.Interpolate(1250, 0.04);
+Curve.Interpolate(1207, 0.04);
 
 $sanyo_distance+124329;
 Curve.Interpolate(0, 0);
@@ -405,10 +405,10 @@ Curve.Interpolate(0, 0);
 #カーブ[R600左]
 
 $sanyo_distance+125449;
-Curve.Interpolate(600, 0.08);
+Curve.Interpolate(-600, 0.08);
 
 $sanyo_distance+125669;
-Curve.Interpolate(600, 0.08);
+Curve.Interpolate(-600, 0.08);
 
 $sanyo_distance+125769;
 Curve.Interpolate(0, 0);
@@ -449,7 +449,7 @@ Curve.Interpolate(600, 0.08);
 #カーブ[R600右]
 
 $sanyo_distance+127370;
-Curve.Interpolate(-600, -0.08);
+Curve.Interpolate(600, -0.08);
 
 $sanyo_distance+127450;
 Curve.Interpolate(0, 0);
@@ -507,14 +507,16 @@ structure['TN1_ent'].Put('sanyonobori',0,0,0,0,0,0,1,5);
 repeater['TN_nobori'].Begin0('sanyonobori',1,5,5,'TN1_lp');
 repeater['Ballast_gr'].End();
 	Track['Mt_R'].Position(52,25,0,0);
-#上り線TN
+#上り船坂TN
 
 	Repeater['Conc'].Begin(0,1,0,0,0,0,0,1,10,10,'Rside_Conc1','Rside_Conc2');
 Curve.Interpolate(0,0);
 
-
+$sanyo_distance+128378;
+Gradient.Interpolate(10);
 $sanyo_distance+128408;
 Curve.Interpolate(-800, -0.06);
+#一度+5‰になる
 Gradient.Interpolate(5);
 $sanyo_distance+128438;
 	Repeater['Trees4'].Begin(0,22,2,0,0,0,0,1,7,7,'tree12',,'tree11','tree13','tree14','tree18',,'tree15','tree16',,'tree17');
@@ -522,16 +524,16 @@ $sanyo_distance+128470;
 Curve.Interpolate(-800, -0.06);
 $sanyo_distance+128510;
 Curve.Interpolate(0, 0);
-$sanyo_distance+128517;
+$sanyo_distance+128527;
 Gradient.Interpolate(5);
 $sanyo_distance+128540;
-Curve.Interpolate(1000, 0.04);
+Curve.Interpolate(800, 0.06);
 $sanyo_distance+128557;
 Gradient.Interpolate(10);
 #+10‰
 
 $sanyo_distance+128560;
-#下り線TN
+#下り船坂TN
 structure['TN1_potal'].Put(0,0,0,0,0,0,0,1,2);
 structure['TN1_ent'].Put(0,0,0,0,0,0,0,1,5);
 structure['TN1_potal'].Put(0,9,0,0,0,0,0,1,2);
@@ -554,7 +556,7 @@ $sanyo_distance+128595;
 	Repeater['Trees2'].End();
 	Repeater['Trees3'].End();
 	Repeater['Trees4'].End();
-Curve.Interpolate(1000, 0.04);
+Curve.Interpolate(800, 0.06);
 	repeater['Mt_R1'].End();
 $sanyo_distance+128615;
 Curve.Interpolate(0, 0);

@@ -713,7 +713,7 @@ Bridge1L,Structures\Ntfiv\GeneralStr_png\Bridge\blue5_bL.x
 Bridge1R,Structures\Ntfiv\GeneralStr_png\Bridge\blue5_bR.x
 
 #新幹線
-shinkan_pole,
+shinkan_pole,Structures\△12△\poletruss\Shinkansen\Pole_2.x
 shinkan_poleL,
 shinkan_poleR,
 teimen,Structures\△12△\kyoukyaku\teimen.x

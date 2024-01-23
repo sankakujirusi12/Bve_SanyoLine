@@ -168,7 +168,7 @@ $sanyo_distance+113469;
 	Track['Grass2'].Position(0,-1);
 Curve.Interpolate(0, 0);
 Track['sanyonobori'].Cant.Interpolate(0);
-#終わり(R373の横、古墳の山の近くの駐車場の５つめの区画)
+#終わり(R373の横、古墳の山の近くの駐車場の５つめの区画付近)
 	Track['Route373'].Position(-35,0);
 $sanyo_distance+113569;
 	Track['Route373'].Position(-60,0,600);
@@ -282,7 +282,7 @@ structure['Cr_R1'].Put('sanyonobori',0,0,0,0,0,0,0,2);
 Sound3D['cross2'].Put(-1.5, 2.3);
 Sound3D['cross2'].Put(5.5, 2.3);
 Repeater['Grass2'].Begin('Grass2',0,0,0,0,0,0,1,25,25,'Grass');
-Curve.Interpolate(1200, 0.03);
+Curve.Interpolate(1207, 0.03);
 Track['sanyonobori'].Cant.Interpolate(0.03);
 #踏切3
 $sanyo_distance+114039;
@@ -290,7 +290,7 @@ Repeater['bushes2'].Begin(0,-2.5,-5,0,0,0,0,0,20,20,'bush1','bush2','bush3');
 Repeater['DikeL'].Begin0(, 0, 5, 5, 'DikeL_1','DikeL_2','DikeL_3');
 Repeater['DikeR'].Begin0('sanyonobori', 0, 5, 5, 'DikeR_1','DikeR_2','DikeR_3');
 $sanyo_distance+114129;
-Curve.Interpolate(1200, 0.03);
+Curve.Interpolate(1207, 0.03);
 Track['sanyonobori'].Cant.Interpolate(0.03);
 $sanyo_distance+114159;
 Curve.Interpolate(0, 0);
@@ -325,12 +325,12 @@ Gradient.Interpolate(10);
 $sanyo_distance+114591-264;
 Gradient.Interpolate(0);
 #L
-$sanyo_distance+114473;
+$sanyo_distance+114453;
 curve.BeginTransition();
 Track['sanyonobori'].Cant.Interpolate(0);
 $sanyo_distance+114513;
-#カーブ[R1200左]
-curve.Begin(-800,-0.06);
+#カーブ[R804左]
+curve.Begin(-804,-0.06);
 Track['sanyonobori'].Cant.Interpolate(-0.06);
 
 $sanyo_distance+114548;
@@ -394,7 +394,7 @@ repeater['River'].Begin('Grass2',0,0,0,0,0,0,1,26,26,'River');
 structure['Levee_B'].Put(0,-0.5,0,0,0,0,0,0,2);
 #トラス橋
 $sanyo_distance+114643;
-Curve.Interpolate(-800, -0.06);
+Curve.Interpolate(-804, -0.06);
 Track['sanyonobori'].Cant.Interpolate(-0.06);
 $sanyo_distance+114658;
 repeater['Bridge'].End();
@@ -597,23 +597,16 @@ Track['sanyonobori'].Cant.Interpolate(0);
 $sanyo_distance+116090;
 curve.Begin(-800,-0.06);
 Track['sanyonobori'].Cant.Interpolate(-0.06);
-#Rカーブ[R800]
+#Lカーブ[R800]
 $sanyo_distance+116142;
 repeater['road_1sya_1'].End();
 	Track['Grass2'].Position(0,-1.45);
 	Track['douro2'].Position(-10,-1,0);
 $sanyo_distance+116194;
 	Track['Grass2'].Position(0,-0.45);
-structure['Cr_L1'].Put(0,0,0,0,0,0,0,0,2);
-structure['Cr_L2'].Put(0,0,0,0,0,0,0,0,2);
-structure['Cr_R2'].Put(0,0,0,0,0,0,0,0,2);
-structure['Cr_L3'].Put(0,0,0,0,0,0,0,0,2);
-structure['Cr_L3'].Put('sanyonobori',0,0,0,0,0,0,0,2);
-structure['Cr_L2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
-structure['Cr_R2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
-structure['Cr_R1'].Put('sanyonobori',0,0,0,0,0,0,0,2);
-Sound3D['cross2'].Put(-1.5, 2.3);
-Sound3D['cross2'].Put(5.5, 2.3);
+
+
+
 #踏切9
 	Track['douro2'].Position(-14,0,0);
 repeater['road_1sya'].Begin0('douro2',1,6,6,'Road_1sya_nb');
@@ -633,16 +626,9 @@ $sanyo_distance+116306;
 	Track['douro2'].Position(-10,-2.5,0);
 $sanyo_distance+116336;
 	Track['Grass2'].Position(0,-0.45);
-structure['Cr_L1'].Put(0,0,0,0,0,0,0,0,2);
-structure['Cr_L2'].Put(0,0,0,0,0,0,0,0,2);
-structure['Cr_R2'].Put(0,0,0,0,0,0,0,0,2);
-structure['Cr_L3'].Put(0,0,0,0,0,0,0,0,2);
-structure['Cr_L3'].Put('sanyonobori',0,0,0,0,0,0,0,2);
-structure['Cr_L2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
-structure['Cr_R2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
-structure['Cr_R1'].Put('sanyonobori',0,0,0,0,0,0,0,2);
-Sound3D['cross2'].Put(-1.5, 2.3);
-Sound3D['cross2'].Put(5.5, 2.3);
+
+
+
 #踏切10
 	Track['douro2'].Position(-10,0,0);
 $sanyo_distance+116346;
@@ -730,15 +716,16 @@ $sanyo_distance+117307;
 $sanyo_distance+117340;
 	Track['douro1'].Position(-32,-6,0);
 	Track['douro2'].Position(-127,-6,0);
+$sanyo_distance+117329;
+Curve.Interpolate(-563, -0.09);
+Track['sanyonobori'].Cant.Interpolate(-0.09);
 $sanyo_distance+117357;
-#Lカーブ[R1000]
+#Lカーブ[R563]
 	Track['sanyonobori'].Position(4,0);
 	Track['Mt_R'].Position(44,25,0,0);
 $sanyo_distance+117397;
 #第1閉塞
-$sanyo_distance+117329;
-Curve.Interpolate(-560, -0.09);
-Track['sanyonobori'].Cant.Interpolate(-0.09);
+
 $sanyo_distance+117429;
 Curve.Interpolate(0, 0);
 Track['sanyonobori'].Cant.Interpolate(0);
