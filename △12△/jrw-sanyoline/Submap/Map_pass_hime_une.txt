@@ -502,6 +502,7 @@ repeater['road_1sya_2'].Begin0('douro2',1,7,6.9,'Road_1sya_nb');
 $sanyo_distance+87261;
 #structure['tikei2(hime_aho)'].Put(0,0,0,0,0,0,0,0,0);
 $sanyo_distance+87140;
+	structure['Shinei_unyu'].Put('Route415',-40,0,0,0,-60,0,0,2);
 	Track['douro2'].Position(61,0);
 	structure['Road_1sya_nb_L'].Put('Grass',-10,0.2,0,0,0,0,0,2);
 	structure['Road_1sya_nb_R'].Put('Grass',10,0.2,0,0,0,0,0,2);

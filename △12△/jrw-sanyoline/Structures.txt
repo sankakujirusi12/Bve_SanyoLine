@@ -758,20 +758,6 @@ shinkan_wallR_p,Structures\Ntfiv\GeneralStr_png\Wall\Wall_QN_ofset_R10m.x
 #アパート(3D)
 3dapart1,Structures\Ntfiv\lopoli_houses\x\apart\AP01_51.x
 3dapart2,Structures\Ntfiv\lopoli_houses\x\apart\AP01_51R.x
-#マンション
-Mansion7,../../Nagoya_Common\Build\mansion\07.x
-Mansion8,../../Nagoya_Common\Build\mansion\08.x
-Mansion9,../../Nagoya_Common\Build\mansion\09.x
-Mansion10,../../Nagoya_Common\Build\mansion\10.x
-
-#四角い建物
-サンパチ05,Structures\サンパチタテモノ\build\build\05.x
-サンパチ02,Structures\サンパチタテモノ\build\build\02.x
-サンパチ03,Structures\サンパチタテモノ\build\build\03.x
-サンパチ04,Structures\サンパチタテモノ\build\build\04.x
-#工場
-factory1,../../Nagoya_Common\Build\Factory\Factory0.x
-factory2,../../Nagoya_Common\Build\Factory\Factory1.x
 
 #歩道橋
 StairsL,..\..\Nagoya_Common\Build\Footbridge\StairsL.x
@@ -793,8 +779,6 @@ WallR_p,Structures\Ntfiv\GeneralStr_png\Wall\Wall_QN_ofset_R5m.x
 #モニタ
 Mon,Structures\△12△\monitor\monitor.x
 Mon1,Structures\△12△\monitor\monitor_wide.x
-#オーバークロス
-over0,../../Nagoya_Common\Build\Over\00.x
 
 #-------------------------------------------------------------------------駅名標-----------------------------------------------------------------------------
 
@@ -938,7 +922,7 @@ Katsu_hoshi_apart4,Structures\△12△\ensen\katsu_hoshi_apart4.x
 #網干
 Aboshi_kanban,Structures\△12△\ensen\Aboshi_kanban.x
 
-#網干電車区
+#網干電車区　通電表示・番線表示
 Aboshi_bansen_hyouji,Structures\△12△\Aboshi_bansen\Aboshi_bansen_hyouji.x
 Aboshi_bansen_hyouji2,Structures\△12△\Aboshi_bansen\Aboshi_bansen_hyouji2.x
 Aboshi_bansen_4,Structures\△12△\Aboshi_bansen\Aboshi_bansen_4.x
@@ -1114,16 +1098,6 @@ T111_40n,Structures\saha209\113west\113_30N\T111.x
 Tc'111_30n,Structures\saha209\113west\113_30N\Tc111_1b.x
 
 #113,115系(瀬戸内色)
-;Tc111-811_setouchi,Structures\FTN\JRW113-30N_setouchi\Tc111-811.x
-;Tc111-812_setouchi,Structures\FTN\JRW113-30N_setouchi\Tc111-812.x
-;Tc111-0_setouchi,Structures\FTN\JRW113-30N_setouchi\Tc111-0.x
-;Tc111-300_setouchi,Structures\FTN\JRW113-30N_setouchi\Tc111-300.x
-;Tc115-556_setouchi,Structures\FTN\JRW113-30N_setouchi\Tc115-556.x
-;Tc111-261_setouchi,Structures\FTN\JRW113-30N_setouchi\Tc111-261.x
-;Tc115-2616_setouchi30n,Structures\FTN\JRW113-30N_setouchi\Tc115-2616.x
-;Tc115-2520_setouchi30n,Structures\FTN\JRW113-30N_setouchi\Tc115-2520.x
-;M114-1193_setouchi,Structures\FTN\JRW113-30N_setouchi\M114-1193.x
-;M115-1109_setouchi,Structures\FTN\JRW113-30N_setouchi\M115-1109.x
 
 #113系(30N 末期色)
 
@@ -1166,18 +1140,17 @@ M115-1000_30n,Structures\saha209\115\1000_ok30N\M115b.x
 M115-3500_30n,Structures\saha209\115\1000_ok30N\3500\M115b.x
 
 ##115系(30N　末期色)
-#↓乗務員次位窓あり
-Tc'115-1000o_makki30n,Structures\saha209\115\1000_ok_y\Tc115b_m.x
-Tc115-1101_makki30n,Structures\saha209\115\Tc115_m.x
-Mc115-301_makki30n,Structures\FTN\JRW115-Y\Mc115-301.x
-Mc115-1653_makki30n,Structures\saha209\115\1000_ok_y\Mc115_1653_m.x
-Mc115-1501_makki30n,Structures\saha209\115\1000_ok_y\Mc115_m.x
-Tc115-301o_makki30n,Structures\FTN\JRW115-Y\Tc115-301o.x
-Tc'115-302o_makki30n,Structures\FTN\JRW115-Y\Tc115-302o.x
-M'114-300_makki30n,Structures\FTN\JRW115-Y\M114-300o.x
-M'114-1000No_makki30n,Structures\saha209\115\1000_ok_y\M114_m.x
-M'114-1034No_makki30n,Structures\FTN\JRW115-Y\M114-1034No.x
-M115-1000No_makki30n,Structures\FTN\JRW115-Y\M115-1000No.x
+Tc'115-1000o_makki30n,Structures\saha209\115\1000_ok30N_y\Tc115b_m.x
+Tc115-1101_makki30n,Structures\saha209\115\1000_ok30N_y\Tc115_m.x
+Mc115-301_makki30n,
+Mc115-1653_makki30n,Structures\saha209\115\1000_ok30N_y\Mc115_1653_m.x
+Mc115-1501_makki30n,Structures\saha209\115\1000_ok30N_y\Mc115_m.x
+Tc115-301o_makki30n,
+Tc'115-302o_makki30n,
+M'114-300_makki30n,
+M'114-1000No_makki30n,Structures\saha209\115\1000_ok30N_y\M114_m.x
+M'114-1034No_makki30n,
+M115-1000No_makki30n,Structures\saha209\115\1000_ok30N_y\M115_m.x
 
 
 #115系(40N)
@@ -1206,6 +1179,7 @@ Tc111_30n_hiro,Structures\saha209\113west\113_30Nhiro\Tc111_1.x
 M'112_30n_hiro,Structures\saha209\113west\113_30Nhiro\M112.x
 M113_30n_hiro,Structures\saha209\113west\113_30Nhiro\M113.x
 Tc'111_30n_hiro,Structures\saha209\113west\113_30Nhiro\Tc111_1b.x
+
 #117系
 Tc'116-0,
 M'116-0
@@ -1259,10 +1233,10 @@ Mc225_tail,Structures\saha209\225\225_1b.x
 Tenhoro,Structures\△12△\Tenhoro\Tenhoro.x
 
 #321系
-Mc321,../../Nagoya_Common\Train\JRW\321\Mc321_Head.x
-M321,../../Nagoya_Common\Train\JRW\321\M321.x
-M320,../../Nagoya_Common\Train\JRW\321\M320_T321.x
-Mc320,../../Nagoya_Common\Train\JRW\321\Mc320.x
+#Mc321,../../Nagoya_Common\Train\JRW\321\Mc321_Head.x
+#M321,../../Nagoya_Common\Train\JRW\321\M321.x
+#M320,../../Nagoya_Common\Train\JRW\321\M320_T321.x
+#Mc320,../../Nagoya_Common\Train\JRW\321\Mc320.x
 
 #キヤ141
 Mzc141,Structures\Shirasagi\jr141dc\Mzc.x
@@ -1397,7 +1371,7 @@ chiki6394,Structures\△12△\chiki6000\chiki6394.x
 chiki6410,Structures\△12△\chiki6000\chiki6410.x
 chiki6274,Structures\△12△\chiki6000\chiki6274.x
 
-#踏切
+#踏切番号標(近統)
 1,Structures\△12△\komono\1.x
 2,Structures\△12△\komono\2.x
 3,Structures\△12△\komono\3.x
@@ -1411,6 +1385,8 @@ chiki6274,Structures\△12△\chiki6000\chiki6274.x
 11,Structures\△12△\komono\11.x
 12,Structures\△12△\komono\12.x
 13,Structures\△12△\komono\13.x
+
+#踏切名称標
 aho_katsu_1,Structures\△12△\komono\aho_katsu_1.x
 aho_katsu_2,Structures\△12△\komono\aho_katsu_2.x
 aho_katsu_3,Structures\△12△\komono\aho_katsu_3.x
