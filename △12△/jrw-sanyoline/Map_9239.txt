@@ -12,6 +12,9 @@ Structure.Load('Structures.txt');
 Station.Load('Stations_9239.csv');
 Signal.Load('Signals.csv');
 
+#環境設定
+include 'Submap\Map_night.txt';
+include '設定.txt';
 
 #駅位置定義
 include 'Submap\stop_9239.txt';
@@ -52,19 +55,15 @@ include 'Submap\Map_pretrain_9239.txt';
 #ATS
 include 'Submap\Map_beacon_9239.txt';
 
-#環境設定
-include 'Submap\Map_night.txt';
-include '設定.txt';
-
 
 Curve.SetGauge(1.067);
 CabIlluminance.Interpolate(0);
-Fog.Interpolate(0.01,0.0103,0.0103,0.0103);
+#Fog.Interpolate(0.01,0.0103,0.0103,0.0103);
 RollingNoise.Change(0);
 80000+$sanyo_distance;
 	Background.Change('');
 140000+$sanyo_distance;
-Fog.Interpolate(0.01,0.0103,0.0103,0.0103);
+#Fog.Interpolate(0.01,0.0103,0.0103,0.0103);
 CabIlluminance.Interpolate(0);
 
 

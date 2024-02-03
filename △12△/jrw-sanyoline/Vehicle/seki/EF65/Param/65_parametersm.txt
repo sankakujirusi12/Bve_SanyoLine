@@ -1,6 +1,6 @@
 ﻿bvets vehicle parameters 2.01
 
-firstcar=m
+firstcar=t
 loadcompensating=false
 
 [compressor]

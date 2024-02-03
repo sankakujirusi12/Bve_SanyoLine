@@ -1958,6 +1958,9 @@ repeater['Ballast_gr'].End();
 	Track['sanyonobori'].Position(4,0,0);
 Curve.Interpolate(0,0);
 #上り4m右
+
+	structure['Depot_light'].Put('sanyokudari',-13.4,6.9,0,0,0,0,0,0);
+	structure['Depot_light_hansya'].Put('sanyokudari',-13.4,0,0,0,0,0,0,0);
 $sanyo_distance+93443;
 	Repeater['Ballast'].Begin(,0,0,0,0,0,0,3,25,25,'Ballast_25');
 	Repeater['Ballast1'].Begin('sanyonobori',0,0,0,0,0,0,3,25,25,'Ballast_25');
@@ -1967,6 +1970,12 @@ $sanyo_distance+93453;
 Repeater['Ballast-0'].Begin('watari2',0,-0.001,0,0,0,0,3,5,5,'Ballast');
 structure['pointsw'].Put('watari2',2,0,0,0,0,0,0,0);
 	Track['watari2'].Position(4,0,-308);
+$sanyo_distance+93472;
+	structure['Depot_light'].Put('sanyokudari',-4.9,6.9,0,0,0,0,0,0);
+	structure['Depot_light_hansya'].Put('sanyokudari',-4.9,0,0,0,0,0,0,0);
+$sanyo_distance+93505;
+	structure['Depot_light'].Put('sanyokudari',-12.6,6.9,0,0,0,0,0,0);
+	structure['Depot_light_hansya'].Put('sanyokudari',-12.6,0,0,0,0,0,0,0);
 $sanyo_distance+93493;
 	Track['watari2'].Position(2,0,308);
 $sanyo_distance+93533;
@@ -2131,6 +2140,8 @@ structure['name_hoshi'].Put('sanyonobori',3.7,0.6,0,0,0,0,0,0);
 $sanyo_distance+93950;
 	repeater['dentouW'].End();
 	repeater['dentou2'].End();
+	
+	structure['Depot_light'].Put('sanyokudari',-27.3,6.7,0,0,0,0,0,0);
 Repeater['Ballast3'].End();
 $sanyo_distance+93972;
 repeater['roof_nobori'].Begin0('sanyonobori',6,25,25,'MonoroofR');

@@ -2,8 +2,10 @@ BveTs Map 2.00:UTF-8
 #山陽本線・夜設定
 
 0;
-Light.Ambient(0.17, 0.17, 0.17);
-Light.Diffuse(0.13, 0.13, 0.13);
+Light.Direction(5,0);
+Light.Ambient(0.05, 0.05, 0.05);
+Light.Diffuse(0.05, 0.03, 0.01);
+Fog.Interpolate(0.00001,0,0,0);
 $sanyo_distance+83000;
 
 $sanyo_distance+85095;
@@ -48,6 +50,13 @@ $sanyo_distance+91410;
 repeater['Roadlight'].Begin('douro',0,0.3,0,0,0,0,0,40,40,'light_circle');
 $sanyo_distance+91963;
 repeater['Roadlight'].End();
+$sanyo_distance+93432;
+Signal['Depot_light_night'].Put(1,'sanyokudari',-13.4,6.9,0,0,0,0,0,0);
+$sanyo_distance+93472;
+Signal['Depot_light_night'].Put(1,'sanyokudari',-4.9,6.9,0,0,0,0,0,0);
+$sanyo_distance+93505;
+Signal['Depot_light_night'].Put(1,'sanyokudari',-12.6,6.9,0,0,0,0,0,0);
+
 $sanyo_distance+93857;
 repeater['Formlight'].Begin(0,-5,1.2,0,0,0,0,0,20,20,'light_circle');
 $sanyo_distance+93900;
@@ -55,6 +64,8 @@ repeater['Formlight2'].Begin('sanyonobori',5,1.2,0,0,0,0,0,20,20,'light_circle')
 $sanyo_distance+93950;
 repeater['Formlight'].End();
 repeater['Formlight2'].End();
+
+Signal['Depot_light_night'].Put(1,'sanyokudari',-27.3,6.7,0,0,0,0,0,0);
 $sanyo_distance+93970;
 repeater['Formlight'].Begin(0,-4,1.2,0,0,0,0,0,4.5,4.5,'light');
 repeater['Formlight2'].Begin('sanyonobori',4,1.2,0,0,0,0,0,4.5,4.5,'light');

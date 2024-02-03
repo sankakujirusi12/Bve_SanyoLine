@@ -105,12 +105,7 @@ $sanyo_distance+83895;
 	repeater['Form_L1'].End();
 	repeater['Form_R1'].End();
 	#ホーム終端
-	structure['Formendfence2'].Put(0,-3,1.3,0,0,0,0,0,2);
-	structure['Formendfence3'].Put('hime8',5,1.3,0,0,0,0,0,2);
-	structure['Formendfence2'].Put('hime8',3,1.3,0,0,0,0,0,2);
-	structure['Formendfence2'].Put('sanyonobori',-3,1.3,0,0,0,0,0,2);
-	structure['Formendfence3'].Put('hime6',6,1.3,0,0,0,0,0,2);
-	structure['Formendfence4'].Put('hime6',3.5,1.3,0,0,0,0,0,2);
+	structure['Himeji_formendwall'].Put(0,-4.8,1,0,0,0,0,0,2);
 	Track['sanyokudari'].Position(-14,0);
 	Track['hime8'].Position(-10,0);
 	#網干回送325M用

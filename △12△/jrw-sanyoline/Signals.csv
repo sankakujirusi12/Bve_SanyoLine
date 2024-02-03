@@ -34,9 +34,14 @@ type30,Signal30L0,Signal30L3,,,Signal30L4
 ,Signal30G0,Signal30G3,,,Signal30G4
 
 #進路予告機(本線用)
-CourseC,CourseOff,,CourseC,,
+CourseC,CourseOff,,,CourseC,
 CourseL,CourseOff,,CourseL,,
 CourseR,CourseOff,,CourseR,,
 
 #出発反応標識
 StartReact,Starting reaction indicator,Starting reaction indicator_on,,,
+
+#夜間情景用
+#電車区照明
+Depot_light_night,Depot_light_night,,,,
+,Depot_light_night_glow,,,,

@@ -606,6 +606,7 @@ jrkasenchu-10B,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleT
 jrkasenchu-10BR,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs10B_R.x
 jrkasenchu-11A,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs11A.x
 jrkasenchu-11B,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs11B.x
+jrkasenchu-11B_wide,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs11B_wide.x
 jrkasenchu-11BR,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs11B_R.x
 jrkasenchu-12A,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs12A.x
 jrkasenchu-12B,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs12B.x
@@ -804,6 +805,7 @@ Himeform_CR,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCR_hime.x
 Himeji_teimoku,Structures\△12△\sta\himeji\Himeji_teimoku.x
 Himeji_roof,Structures\△12△\sta\himeji\Himeji_roof.x
 Himeji_tsumesyo,Structures\△12△\sta\himeji\Himeji_tumesyo.x
+Himeji_formendwall,Structures\△12△\sta\himeji\Himeji_formendwall.x
 Himeji_shinkansen_wall,Structures\△12△\sta\himeji\Himeji_shinkansen_wall.x
 
 #英賀保
@@ -941,6 +943,15 @@ Aboshi_bansen_16,Structures\△12△\Aboshi_bansen\Aboshi_bansen_16.x
 Aboshi_bansen_17,Structures\△12△\Aboshi_bansen\Aboshi_bansen_17.x
 Aboshi_bansen_shi,Structures\△12△\Aboshi_bansen\Aboshi_bansen_shi.x
 Aboshi_bansen_on,Structures\△12△\Aboshi_bansen\Aboshi_bansen_on.x
+#網干電車区 電灯
+	#本体
+Depot_light,Structures\△12△\light\Depot\Depot_light.x
+	#夜間用
+Depot_light_night,Structures\△12△\light\Depot\Depot_light_night.x
+	#グロー
+Depot_light_night_glow,Structures\△12△\light\Depot\Depot_light_night_glow.x
+	#反射光
+Depot_light_hansya,Structures\△12△\light\Depot\Depot_light_hansya.x
 
 #竜野～相生
 Tettou3,Structures\△12△\tettou\Tettou3.x

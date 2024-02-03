@@ -1,6 +1,6 @@
 bvets vehicle 2.00
 performancecurve=..\..\..\..\..\..\jnr_locopack\notch\65_notch.txt
-parameters=..\parameters\65_parametersm.txt
+parameters=..\Param\65_parametersm.txt
 panel=..\Panel\65_panelm.txt
 sound=..\Sound\65_sound.txt
 ats32=..\Detail\ATS-SW\DetailManager.dll
