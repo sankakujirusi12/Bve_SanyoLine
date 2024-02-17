@@ -397,7 +397,7 @@ CrossTrap,..\..\Nagoya_Common\Railway_Obj\Cross\General\signal\A_Trap.x
 #遮断機
 #箱
 #250の場合のみbox
-GateBox,..\..\Nagoya_Common\Railway_Obj\Cross\General\gate\GateBox.x"
+GateBox,..\..\Nagoya_Common\Railway_Obj\Cross\General\gate\GateBox.x
 GateL,..\..\Nagoya_Common\Railway_Obj\Cross\General\gate\GateL.x
 GateR,..\..\Nagoya_Common\Railway_Obj\Cross\General\gate\GateR.x
 #竿
@@ -438,7 +438,7 @@ Road_1sya_R,Structures\サンパチタテモノ\road\road_045R.x
 #道路用信号機
 
 
-#あなたの車←京急ェ
+#自動車
 Compact1,Structures\Hiyodori1914\Automobile_FMC\Compact1\Compact1_1F.x
 Compact1Rev,Structures\Hiyodori1914\Automobile_FMC\Compact1\Compact1_1R.x
 Compact2,Structures\Hiyodori1914\Automobile_FMC\Compact1\Compact1_3F.x
@@ -565,9 +565,9 @@ karetei,Structures\△12△\teimoku\kare.x
 kyaku8tei,Structures\△12△\teimoku\kyaku8.x
 
 	#英賀保中線用
-8_kyaku8,Structures\△12△\teimoku\8_kyaku8.x
-ori3,Structures\△12△\teimoku\ori3.x
-retsu_kyaku,Structures\△12△\teimoku\retsu_kyaku.x
+Agaho_teimoku_8_kyaku8,Structures\△12△\sta\agaho\Agaho_teimoku_8_kyaku8.x
+Agaho_teimoku_ori3,Structures\△12△\sta\agaho\Agaho_teimoku_ori3.x
+Agaho_teimoku_retsu_kyaku,Structures\△12△\sta\agaho\Agaho_teimoku_retsu_kyaku.x
 2you,Structures\△12△\komono\2you.x
 #--------------------------------------------------------------------ATS-----------------------------------------------------------------------
 #SW地上子
@@ -898,6 +898,9 @@ Holiday_sports,Structures\△12△\ensen\Holiday_sports.x
 Himeji_wide_road,Structures\△12△\ensen\Himeji_wide_road.x
 Shinki_bus,Structures\△12△\ensen\Shinki_bus.x
 Sanden_wall,Structures\△12△\ensen\Sanden_wall.x
+Himeji_haikan_cover1,Structures\△12△\ensen\Himeji_haikan_cover1.x
+Himeji_haikan_cover2,Structures\△12△\ensen\Himeji_haikan_cover2.x
+Himeji_speaker,Structures\△12△\ensen\Himeji_speaker.x
 
 #姫路～英賀保
 Ogyu,Structures\△12△\ensen\Ogyu.x

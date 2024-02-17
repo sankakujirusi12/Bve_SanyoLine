@@ -57,7 +57,7 @@ include '設定.txt';
 
 80000+$sanyo_distance;
 	Background.Change('Bg-sunrise');
-
+Curve.SetGauge(1.067);
 CabIlluminance.Interpolate(0.4);
 #Fog.Interpolate(0.01,0.053,0.053,0.053);
 RollingNoise.Change(0);

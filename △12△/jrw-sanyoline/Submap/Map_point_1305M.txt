@@ -23,9 +23,10 @@ $point='nakajou';
 $point1='nakage';
 include 'Submap\PointL.txt';
 
-$sanyo_distance+93554;
+$sanyo_distance+93543.4;
 $distance=distance;
-$point='watari2';
+$point='sanyokudari';
+$point1='watari2';
 include 'Submap\PointL.txt';
 $sanyo_distance+94330;
 $distance=distance;
