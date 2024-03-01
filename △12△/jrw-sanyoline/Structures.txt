@@ -133,8 +133,12 @@ Signal30G3,Structures\FCS_TM\RelaySignal\FlareR1.x
 Signal30G4,Structures\FCS_TM\RelaySignal\FlareR4.x
 
 #-----------------------------------------------------------------入信-------------------------------------------------------------------
-iresin0Y,../../Nagoya_Common\Railway_Obj\Signal\Switch\Switch\R_Y.x
-iresin0R,../../Nagoya_Common\Railway_Obj\Signal\Switch\Switch\R_R.x
+iresin0W,Structures\FCS_TM\SwitchSig\SigSb_0W.x
+iresin0R,Structures\FCS_TM\SwitchSig\SigSb_0R.x
+iresin_arm,Structures\FCS_TM\SwitchSig\SigSb_arm.x
+#識別灯
+Sigib_off,Structures\FCS_TM\SwitchSig\Sigib_off.x
+Sigib_on,Structures\FCS_TM\SwitchSig\Sigib_on.x
 
 #-----------------------------------------------------------------進路-------------------------------------------------------------------
 CourseC,../../Nagoya_Common\Railway_Obj\Signal\Switch\Course\warning\On.x
@@ -151,7 +155,8 @@ Starting reaction indicator_on,Structures\Starting_reaction_indicator\Starting r
 Signalpole1,Structures\FCS_TM\SigPole\Sig_Pole.x
 
 #ぶら下がり
-Signalpole4,../../Nagoya_Common\Railway_Obj\SigPole\Pole_PC.x
+Signalpole4,Structures\FCS_TM\SigPole\Sig_Base.x
+Sig_Base_Aboshi,Structures\FCS_TM\SigPole\Sig_Base_Aboshi.x
 #架線柱ひっつき
 Signalpole5,../../Nagoya_Common\Railway_Obj\SigPole\HS\HS_TrapR.x
 #古い
@@ -186,11 +191,15 @@ kanko_syuppatsu,Structures\FCS_TM\kanko\shuppatsu_n.x
 1syutsu,Structures\△12△\singoumei\1syutsu.x
 2syutsu,Structures\△12△\singoumei\2syutsu.x
 3syutsu,Structures\△12△\singoumei\3syutsu.x
+4syutsu,Structures\△12△\singoumei\4syutsu.x
+5syutsu,Structures\△12△\singoumei\5syutsu.x
 6syutsu,Structures\△12△\singoumei\6syutsu.x
 7syutsu,Structures\△12△\singoumei\7syutsu.x
 8syutsu,Structures\△12△\singoumei\8syutsu.x
 9syutsu,Structures\△12△\singoumei\9syutsu.x
 himesyutsu,Structures\△12△\singoumei\himesyutsu.x
+honsyutsu,Structures\△12△\singoumei\honsyutsu.x
+chizusyutsu,Structures\△12△\singoumei\chizusyutsu.x
 1akosyutsu,Structures\△12△\singoumei\1akosyutsu.x
 2akosyutsu,Structures\△12△\singoumei\2akosyutsu.x
 1jou,Structures\△12△\singoumei\1jou.x
@@ -802,11 +811,18 @@ Himeform_L,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormL_hime.x
 Himeform_R,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormR_hime.x
 Himeform_CL,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCL_hime.x
 Himeform_CR,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCR_hime.x
-Himeji_teimoku,Structures\△12△\sta\himeji\Himeji_teimoku.x
 Himeji_roof,Structures\△12△\sta\himeji\Himeji_roof.x
 Himeji_tsumesyo,Structures\△12△\sta\himeji\Himeji_tumesyo.x
 Himeji_formendwall,Structures\△12△\sta\himeji\Himeji_formendwall.x
 Himeji_shinkansen_wall,Structures\△12△\sta\himeji\Himeji_shinkansen_wall.x
+Himeji_teimoku,Structures\△12△\sta\himeji\Himeji_teimoku.x
+Himeji_teimoku1,Structures\△12△\sta\himeji\Himeji_teimoku1.x
+Himeji_teimoku2,Structures\△12△\sta\himeji\Himeji_teimoku2.x
+Himeji_teimoku3,Structures\△12△\sta\himeji\Himeji_teimoku3.x
+Himeji_box,Structures\△12△\sta\himeji\Himeji_box.x
+Himeji_haikan_cover1,Structures\△12△\sta\himeji\Himeji_haikan_cover1.x
+Himeji_haikan_cover2,Structures\△12△\sta\himeji\Himeji_haikan_cover2.x
+Himeji_speaker,Structures\△12△\sta\himeji\Himeji_speaker.x
 
 #英賀保
 AgahoRoofL,Structures\△12△\sta\agaho\Agahoroof.x
@@ -898,12 +914,10 @@ Holiday_sports,Structures\△12△\ensen\Holiday_sports.x
 Himeji_wide_road,Structures\△12△\ensen\Himeji_wide_road.x
 Shinki_bus,Structures\△12△\ensen\Shinki_bus.x
 Sanden_wall,Structures\△12△\ensen\Sanden_wall.x
-Himeji_haikan_cover1,Structures\△12△\ensen\Himeji_haikan_cover1.x
-Himeji_haikan_cover2,Structures\△12△\ensen\Himeji_haikan_cover2.x
-Himeji_speaker,Structures\△12△\ensen\Himeji_speaker.x
 
 #姫路～英賀保
 Ogyu,Structures\△12△\ensen\Ogyu.x
+Himeji_agaho_oflat,Structures\△12△\ensen\Himeji_agaho_oflat.x
 Kansai_douro_anzen,Structures\△12△\ensen\Kansai_douro_anzen.x
 Himeji_agaho_nikken,Structures\△12△\ensen\Himeji_agaho_nikken.x
 Himeji_agaho_darumaya,Structures\△12△\ensen\Himeji_agaho_darumaya.x
@@ -923,6 +937,8 @@ Katsu_hoshi_apart1,Structures\△12△\ensen\katsu_hoshi_apart1.x
 Katsu_hoshi_apart2,Structures\△12△\ensen\katsu_hoshi_apart2.x
 Katsu_hoshi_apart3,Structures\△12△\ensen\katsu_hoshi_apart3.x
 Katsu_hoshi_apart4,Structures\△12△\ensen\katsu_hoshi_apart4.x
+Katsu_hoshi_kosen,Structures\△12△\ensen\Katsu_hoshi_kosen.x
+Katsu_hoshi_mansion1,Structures\△12△\ensen\Katsu_hoshi_mansion1.x
 
 #網干
 Aboshi_kanban,Structures\△12△\ensen\Aboshi_kanban.x
@@ -1027,7 +1043,8 @@ orone15-3000,Structures\saha209\PC14_sl\153000.x
 
 
 #103系
-
+Mc103-3500_40N,Structures\△12△\Train\103\Mc103-3500_40N.x
+Mc102-3500_40N,Structures\△12△\Train\103\Mc102-3500_40N.x
 
 T103_40n_o,Structures\103_40N\T103.x
 Tc103_NA_b,Structures\saha209\103_NA\103_hine\103_Tc.x

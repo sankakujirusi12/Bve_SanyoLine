@@ -25,7 +25,6 @@ repeater['teimen1_'].Begin('sinkad',0,-1,0,0,0,0,0,14,14,'teimen');
 	repeater['kyoukyaku1'].Begin('sinkad',0,-1.5,0,0,0,0,0,20,20,'shinkan_kyoukyaku');
 	repeater['wall_sinka'].Begin('sinkau',0,-2,0,0,0,0,1,25,24,'formwallR');
 	repeater['sinkan_pole'].Begin('sinkau',0,0,0,0,0,0,0,50,50,'shinkan_poleR');
-	repeater['sinkan_pole1'].Begin('sinkad',0,0,0,0,0,0,0,50,50,'shinkan_pole');
 $sanyo_distance+83895;
 	#山陽線ホーム終端
 $sanyo_distance+84010;
@@ -33,7 +32,6 @@ $sanyo_distance+84010;
 	repeater['wall_sinka'].End();
 	repeater['roof_sinka1'].End();
 repeater['sinkan_wallR'].Begin('sinkau',0,0,0,0,0,0,1,25,24,'shinkan_wallR_25');
-repeater['sinkan_pole1'].End();
 $sanyo_distance+84125;
 	repeater['WallL'].Begin('sanyokudari',0,0,0,0,0,0,1,5,5,'WallL_p');
 $sanyo_distance+84135;
@@ -213,6 +211,10 @@ repeater['kyoukyaku1'].End();
 	Track['sinkad'].Position(156,10,0,0);
 	Track['sinkau'].Position(162,10,0,0);
 	Track['kishin'].Position(15,-5.2,600);
+	
+$sanyo_distance+85038;
+structure['Himeji_agaho_oflat'].Put('Grass',20,0,0,0,40,0,0,0);
+
 $sanyo_distance+85065;
 	Gradient.Interpolate(0);
 $sanyo_distance+85095;
@@ -1706,7 +1708,7 @@ structure['shoken1'].Put('sanyonobori',-2,0,6,0,0,0,0,2);
 #踏切(小)
 repeater['fence_kudari'].Begin('fence',-1,0,0,0,0,0,0,5,5,'WhiteFence1');
 $sanyo_distance+92690;
-structure['over0'].Put(0,0,7,0,0,0,0,0,0);
+structure['Katsu_hoshi_kosen'].Put(0,2,-0.3,0,0,0,0,0,0);
 #オーバークロス
 	Track['Mt_R'].Position(370,-5,0,0);
 repeater['Mt_R1'].End();

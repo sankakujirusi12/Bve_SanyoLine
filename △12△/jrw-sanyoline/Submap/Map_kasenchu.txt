@@ -513,7 +513,7 @@ structure['jrkasenchu-8A'].Put('sanyokudari',3,-0.5,0,0,0,0,0,0);
 structure['wirehanger10'].Put('sanyokudari',0,0,0,0,0,0,0,0);
 $sanyo_distance+94085;
 structure['jrkasenchu-8A'].Put('sanyokudari',3,-0.5,0,0,0,0,0,0);
-structure['jrkasenchu_n_4sen'].Put('gawa_hoshi3',0,0,0,0,0,0,0,0);
+structure['jrkasenchu_n_4sen'].Put('gawa_hoshi3',0.5,0.5,0,0,0,0,0,0);
 structure['wirehanger9'].Put('sanyokudari',0,0,0,0,0,0,0,0);
 $sanyo_distance+94125;
 structure['jrkasenchu-8A'].Put('sanyokudari',2,-0.5,0,0,0,0,0,0);
