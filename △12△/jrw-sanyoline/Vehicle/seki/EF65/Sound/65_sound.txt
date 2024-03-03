@@ -41,7 +41,7 @@ primaryrelease=..\..\..\..\..\..\jnr_locopack\sound\00_sound\klaxon1b.wav
 9=..\..\..\..\..\..\jnr_locopack\sound\00_sound\buzza.wav
 10=..\..\..\..\..\..\jnr_locopack\sound\65_sound\blowa.wav
 11=..\..\..\..\..\..\jnr_locopack\sound\65_sound\blowb.wav
-12=..\..\..\..\..\..\jnr_locopack\sound\65_sound\blowc.wav
+112=..\..\..\..\..\..\jnr_locopack\sound\65_sound\blowc.wav
 13=..\..\..\..\..\..\jnr_locopack\sound\00_sound\reve.wav
 14=..\..\..\..\..\..\jnr_locopack\sound\00_sound\reve.wav
 15=..\..\..\..\..\..\jnr_locopack\sound\00_sound\reve.wav
@@ -50,6 +50,7 @@ primaryrelease=..\..\..\..\..\..\jnr_locopack\sound\00_sound\klaxon1b.wav
 50=..\..\..\..\..\..\jnr_locopack\sound\00_sound\reva.wav
 60=..\..\..\..\..\..\jnr_locopack\sound\00_sound\brakea.wav
 61=..\..\..\..\..\..\jnr_locopack\sound\00_sound\brakeb.wav
+
 
 [brake handle]
 apply=..\..\..\..\..\..\jnr_locopack\sound\00_sound\revb.wav

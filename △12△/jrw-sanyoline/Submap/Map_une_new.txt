@@ -235,22 +235,25 @@ repeater['ballast7'].Begin('gawa_une1',0,0,0,0,0,0,3,5,5,'Ballast_old');
 #もがれた中線の残骸(6m右)
 $sanyo_distance+112445;
 Curve.Interpolate(0, 0);
-$sanyo_distance+112517;
-repeater['ballast8'].Begin('gawa_une2',0,0,0,0,0,0,3,5,5,'Ballast_old');
-	Track['sanyonobori'].Position(10,0,0);
-	Track['gawa_une1'].Position(5,0,213);
-	Track['gawa_une2'].Position(5,0,0);
+
+$sanyo_distance+112497;
+repeater['ballast8'].Begin('gawa_une2',0,-0.01,0,0,0,0,3,5,5,'Ballast_old');
+$sanyo_distance+112502;
+
+	Track['sanyonobori'].Position(9.2,0,0);
+	Track['gawa_une1'].Position(5.3,0,213);
+	Track['gawa_une2'].Position(5.3,0,0);
 #中線分岐(5m右)(上り10m右)
-$sanyo_distance+112534;
-	Track['gawa_une1'].Position(7.5,0,-213);
+$sanyo_distance+112524;
+	Track['gawa_une1'].Position(7,0,-213);
 $sanyo_distance+112551;
-	Track['sanyonobori'].Position(10,0,0);
-	Track['gawa_une1'].Position(10,0,0);
-	Track['gawa_une2'].Position(5,0,-213);
+	Track['sanyonobori'].Position(8,0,0);
+	Track['gawa_une1'].Position(8,0,0);
+	Track['gawa_une2'].Position(4,0,-213);
 repeater['ballast7'].End();
 #中線上りへ合流
 $sanyo_distance+112569;
-	Track['gawa_une2'].Position(2.5,0,213);
+	Track['gawa_une2'].Position(2,0,213);
 $sanyo_distance+112588;
 	Track['gawa_une2'].Position(0,0,0);
 repeater['ballast8'].End();

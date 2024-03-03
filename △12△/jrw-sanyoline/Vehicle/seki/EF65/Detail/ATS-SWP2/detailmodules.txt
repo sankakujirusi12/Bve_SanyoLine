@@ -1,3 +1,4 @@
-../../../../../../../jnr_locopack\plugins\65_ats.dll
 ../../../../../../../GeneralAtsPlugin\Rock_On\ATS_West\swp2.dll
+../../../../../../../jnr_locopack\plugins\65_ats.dll
 sankakujirusi12\ATS-P_re_x86.dll
+../common/Blower_x86.dll
