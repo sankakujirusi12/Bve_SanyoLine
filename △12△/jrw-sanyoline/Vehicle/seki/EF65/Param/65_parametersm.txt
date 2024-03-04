@@ -33,7 +33,7 @@ pressurerates=0,0.5,1,1
 sapbcratio=0.94
 sapbcoffset=30000
 bpinitialpressure=495000
-leverdelay=0.1
+leverdelay=0.3
 
 [maincircuit]
 regenerationlimit=200

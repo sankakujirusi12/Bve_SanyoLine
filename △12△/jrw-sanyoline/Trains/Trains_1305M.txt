@@ -14,7 +14,6 @@ Train['5732T'].Load('Trains\221-0n_8.txt', 'sanyonobori', -1);
 Train['56'].Load('Trains\ef210+koki17b_56.txt', 'sanyonobori', -1);
 Train['HOT'].Load('Trains\HOT3500.txt', 'chizu', -1);
 Train['822D'].Load('Trains\DC127_2.txt', 'kishin', -1);
-
 Train['hoshi1'].Load('Trains\223-1000_8_.txt', 'hoshiden9', -1);
 Train['hoshi2'].Load('Trains\145.txt', 'hoshiden5', -1);
 #Train['hoshi3'].Load('Trains\205_7.txt', 'hoshiden4', -1);

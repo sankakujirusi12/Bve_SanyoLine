@@ -53,23 +53,33 @@ repeater['Roadlight'].End();
 $sanyo_distance+93432;
 	Signal['Depot_light_night'].Put(1,'sanyokudari',-13.4,6.7,0,0,0,0,0,0);
 	structure['Depot_light_hansya'].Put('sanyokudari',-13.4,0,0,0,0,0,0,0);
+	structure['light_line_20m'].Put('gawa_hoshi1',0,0,0,0,0,0,0,0);
+	structure['light_line_20m'].Put('hoshi3',0,0,0,0,0,0,0,0);
 	
 $sanyo_distance+93472;
 	Signal['Depot_light_night'].Put(1,'sanyokudari',-9.9,6.7,0,0,0,0,0,0);
 	structure['Depot_light_hansya'].Put('sanyokudari',-9.9,0,0,0,0,0,0,0);
+	structure['light_line_20m'].Put('gawa_hoshi1',0,0,0,0,0,0,0,0);
+	structure['light_line_20m'].Put('hoshi3',0,0,0,0,0,0,0,0);
 	
 $sanyo_distance+93505;
 	Signal['Depot_light_night'].Put(1,'sanyokudari',-14.3,6.7,0,0,0,0,0,0);
 	structure['Depot_light_hansya'].Put('sanyokudari',-14.3,0,0,0,0,0,0,0);
+	structure['light_line_20m'].Put('gawa_hoshi1',0,0,0,0,0,0,0,0);
+	structure['light_line_20m'].Put('hoshi3',0,0,0,0,0,0,0,0);
 	
 $sanyo_distance+93545;
 	Signal['Depot_light_night'].Put(1,'sanyokudari',-9.9,6.7,0,0,0,0,0,0);
 	structure['Depot_light_hansya'].Put('sanyokudari',-9.9,0,0,0,0,0,0,0);
-
+	structure['light_line_20m'].Put('gawa_hoshi1',0,0,0,0,0,0,0,0);
+	structure['light_line_20m'].Put('hoshi3',0,0,0,0,0,0,0,0);
+	
 $sanyo_distance+93595;
 	Signal['Depot_light_night'].Put(1,'sanyokudari',-14.3,6.7,0,0,0,0,0,0);
 	structure['Depot_light_hansya'].Put('sanyokudari',-14.3,0,0,0,0,0,0,0);
-
+	structure['light_line_20m'].Put('gawa_hoshi1',0,0,0,0,0,0,0,0);
+	structure['light_line_20m'].Put('hoshi3',0,0,0,0,0,0,0,0);
+	
 $sanyo_distance+93640;
 	Signal['Depot_light_night'].Put(1,'sanyokudari',-9.7,6.7,0,0,0,0,0,0);
 	structure['Depot_light_hansya'].Put('sanyokudari',-9.7,0,0,0,0,0,0,0);
@@ -77,7 +87,7 @@ $sanyo_distance+93640;
 $sanyo_distance+93680;
 	Signal['Depot_light_night'].Put(1,'sanyokudari',-17,6.7,0,0,0,0,0,0);
 	structure['Depot_light_hansya'].Put('sanyokudari',-17,0,0,0,0,0,0,0);
-
+	
 $sanyo_distance+93857;
 repeater['Formlight'].Begin(0,-5,1.2,0,0,0,0,0,20,20,'light_circle');
 $sanyo_distance+93900;

@@ -902,6 +902,10 @@ Seto_light,Structures\△12△\sta\seto\seto_light.x
 Seto_sta1,Structures\△12△\sta\seto\seto_sta1.x
 Seto_sta2,Structures\△12△\sta\seto\seto_sta2.x
 
+#共通
+Shadow_formL,Structures\kuusemi\Shadow\Shadow_formL.x
+Shadow_formR,Structures\kuusemi\Shadow\Shadow_formR.x
+
 #--------------------------------------------沿線建物ストラクチャ-------------------------------------------
 #姫路
 Himeji_build,Structures\△12△\ensen\Himeji_build.x
@@ -1269,6 +1273,20 @@ Tenhoro,Structures\△12△\Tenhoro\Tenhoro.x
 #M320,../../Nagoya_Common\Train\JRW\321\M320_T321.x
 #Mc320,../../Nagoya_Common\Train\JRW\321\Mc320.x
 
+#485系
+Tsc481-2000,Structures\n209\485jnr\Tsc481-2000.x
+Tsc481-2100,Structures\n209\485jnr\Tsc481-2100.x
+Tsc481-2300,Structures\saha209\485_1000\485_1.x
+Tsc480-2300,Structures\saha209\485_1000\485_6.x
+M485-0,Structures\saha209\485_0\485_2.x
+M484-0,Structures\saha209\485_0\485_3.x
+M485-200,Structures\saha209\485_1000\485_2.x
+M484-200,Structures\saha209\485_1000\485_3.x
+T481-500,Structures\saha209\485_1000\485_7.x
+T481-600,Structures\saha209\485_1000\485_4.x
+T481-700,Structures\saha209\485_1000\485_5.x
+Tc481,Structures\saha209\485_1000\485_1b.x
+
 #キヤ141
 Mzc141,Structures\Shirasagi\jr141dc\Mzc.x
 Tzc141,Structures\Shirasagi\jr141dc\Tzc.x
@@ -1497,6 +1515,8 @@ light_circle,Structures\△12△\light\light_circle.x
 light_signal_g,Structures\△12△\light\light_signal_g.x
 light_signal_y,Structures\△12△\light\light_signal_y.x
 light_signal_r,Structures\△12△\light\light_signal_r.x
+light_line_st,Structures\△12△\light\light_line_st.x
+light_line_20m,Structures\△12△\light\light_line_20m.x
 
 #113系用
 for_Local_big,Structures\initG\initg_ecset\113_05_n.x
@@ -1523,3 +1543,6 @@ for_White,Structures\initG\initg_ecset\113_18_n.x
 EF210light,Structures\△12△\headlight\light_EF210.x
 #キハ40用
 DC40light,Structures\△12△\headlight\light_DC40.x
+
+#汎用(車外)
+Light_side,Structures\△12△\light\Light_side.x
