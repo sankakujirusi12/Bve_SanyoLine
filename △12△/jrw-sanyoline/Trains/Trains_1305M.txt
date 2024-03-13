@@ -47,7 +47,7 @@ Train['3426M'].Stop(3, 30, 2.5, 100);
 Train['hoshi12'].Stop(3, 30, 2.5, 100);
 Train['5730M'].Stop(3, 30, 2.5, 100);
 Train['5732T'].Stop(3, 30, 2.5, 100);
-$sanyo_distance+83700;
+$sanyo_distance+83860;
 Train['822D'].Stop(1.3, 0, 0, 0);
 $sanyo_distance+84000;
 Train['hoshi4'].Enable('07:24:00');

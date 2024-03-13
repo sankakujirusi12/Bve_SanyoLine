@@ -736,7 +736,7 @@ repeater['fence_kudari'].Begin(0,-4,1,0,0,0,0,0,2,2,'WhiteFence');
 	Track['Route415L'].Position(-15,0);
 	Track['Route415R'].Position(-11,0);
 	repeater['Form_L'].Begin0(0,1,5,4.9,'Oldform_L');
-	repeater['Form_CL'].Begin0(0,1,5,4.9,'Katsuform_CL2');
+	repeater['Form_CL'].Begin0(0,1,5,4.9,'Agahoform_CL3');
 	structure['Formendfence2'].Put(0,-3,1.3,0,0,0,0,0,2);
 	#英賀保下りホーム始端
 
@@ -745,12 +745,12 @@ $sanyo_distance+88215;
 	repeater['Form_L'].End();
 	repeater['Form_CL'].End();
 repeater['fence_kudari'].Begin('Form',2.7,1,0,0,0,0,0,2,2,'WhiteFence');
-	Structure['Katsuform_CL'].PutBetween(0,'Form');
+	Structure['Agahoform_CL'].PutBetween(0,'Form');
 	Track['Form'].Position(-6.7,0);
 	repeater['seigen50_road'].End();
 $sanyo_distance+88220;
-	repeater['Form_L'].Begin0(0,1,5,5,'Katsuform_L');
-	Structure['Katsuform_CL'].PutBetween(0,'Form');
+	repeater['Form_L'].Begin0(0,1,5,5,'Agahoform_L');
+	Structure['Agahoform_CL'].PutBetween(0,'Form');
 $sanyo_distance+88225;
 repeater['Ballast_gr'].End();
 repeater['Ballast_gr1'].End();
@@ -760,24 +760,24 @@ repeater['Ballast_gr1'].End();
 	#英賀保上りホーム始端
 	structure['Formendfence4'].Put('nakage',3.5,1.3,0,0,0,0,0,2);
 	structure['Formendfence2'].Put('sanyonobori',-2.8,1.3,0,0,0,0,0,2);
-	repeater['Form_R'].Begin0('nakage',1,5,4.9,'Katsuform_R');
-	repeater['Form_CR'].Begin0('nakage',1,5,4.9,'Katsuform_CR');
-	repeater['Form_L1'].Begin0('sanyonobori',1,5,4.9,'Katsuform_L');
-	Structure['Katsuform_CL'].PutBetween(0,'Form');
+	repeater['Form_R'].Begin0('nakage',1,5,4.9,'Agahoform_R');
+	repeater['Form_CR'].Begin0('nakage',1,5,4.9,'Agahoform_CR');
+	repeater['Form_L1'].Begin0('sanyonobori',1,5,4.9,'Agahoform_L');
+	Structure['Agahoform_CL'].PutBetween(0,'Form');
 $sanyo_distance+88230;
-	Structure['Katsuform_CL'].PutBetween(0,'Form');
+	Structure['Agahoform_CL'].PutBetween(0,'Form');
 $sanyo_distance+88235;
 	repeater['dentouW'].Begin('nakage',5,0,0,0,0,0,1,20,20,'dentouW');
-	Structure['Katsuform_CL'].PutBetween(0,'Form');
+	Structure['Agahoform_CL'].PutBetween(0,'Form');
 $sanyo_distance+88240;
 	Track['sanyonobori'].Position(13,0,0);
-	Structure['Katsuform_CL'].PutBetween(0,'Form');
+	Structure['Agahoform_CL'].PutBetween(0,'Form');
 $sanyo_distance+88245;
 repeater['fence_kudari'].Begin(0,-6.7,1,0,0,0,0,0,2,2,'WhiteFence');
-	Structure['Katsuform_CL'].PutBetween(0,'Form');
+	Structure['Agahoform_CL'].PutBetween(0,'Form');
 	Track['Form'].Position(-9,0);
 $sanyo_distance+88250;
-	repeater['Form_CL'].Begin0(0,1,5,5,'KatsuForm_CL');
+	repeater['Form_CL'].Begin0(0,1,5,5,'AgahoForm_CL');
 $sanyo_distance+88325;
 	Track['douro3'].Position(25,0);
 	repeater['dentou2'].End();
@@ -796,7 +796,6 @@ Repeater['fence_kudari'].End();
 repeater['roof_kudari'].Begin(0,-4,0.3,0,0,0,0,1,10,10,'AgahoroofL');
 repeater['keikoutou'].Begin(0,-4,4.1,3,0,0,0,1,10,10,'Agaho_keikoutou');
 repeater['roof_nobori'].Begin('sanyonobori',0.5,0,0,0,0,0,1,25,25,'MonoroofL');
-repeater['roof_nobori2'].Begin('nakage',-0.5,0,0,0,0,0,1,25,25,'MonoroofR');
 #repeater['wall_kudari'].Begin(0,0,0,0,0,0,0,1,25,25,'formwallL');
 Structure['MonoroofCL'].PutBetween('Form2','Form1');
 structure['Agaho_wall'].Put(0,-7,1.6,5,0,0,0,0,0);
@@ -805,36 +804,42 @@ $sanyo_distance+88340+25;
 Structure['MonoroofCL'].PutBetween('Form2','Form1');
 $sanyo_distance+88340+50;
 #Structure['MonoroofCL'].PutBetween('Form2','Form1');
-$sanyo_distance+88375;
-repeater['keikoutou'].End();
-$sanyo_distance+88385;
-structure['Agaho_kosen'].Put(0,1,0,0,0,0,0,0,0);
-$sanyo_distance+88389;
-structure['Agaho_EVsign'].Put(0,-4,4.1,0,0,0,0,0,0);
-structure['Agaho_EVsign'].Put(0,8,4.1,0,0,0,0,0,0);
-$sanyo_distance+88392;
-structure['Agaho_EV'].Put(0,-5,1,0,0,0,0,0,0);
-structure['Agaho_EV'].Put(0,9,1,0,0,0,0,0,0);
+
 $sanyo_distance+88370;
-#Sound3D['sazanami'].Put(-6.5, 4);
 	Track['Form1'].Position(3.5,0);
 	Track['Form2'].Position(13.5,0);
 repeater['wall_kudari'].End();
 repeater['roof_kudari'].End();
-repeater['roof_kudari1'].End();
 repeater['roof_nobori'].End();
-repeater['roof_nobori1'].End();
-repeater['roof_nobori2'].End();
 	#英賀保上下屋根終端
+
+$sanyo_distance+88375;
+repeater['keikoutou'].End();
+
+$sanyo_distance+88380;
+structure['Agaho_kosen'].Put(0,1,0,0,0,0,0,0,0);
+structure['Agaho_EVsign'].Put(0,-4,4.1,0,0,0,0,0,0);
+structure['Agaho_EVsign'].Put(0,8,4.1,0,0,0,0,0,0);
+
+$sanyo_distance+88385;
+structure['Agaho_EV'].Put(0,-5,1,0,0,0,0,0,0);
+structure['Agaho_EV'].Put(0,9,1,0,0,0,0,0,0);
+	repeater['Form_CL'].Begin0(0,1,5,4.9,'Agahoform_CL2');
+
 $sanyo_distance+88390;
-	repeater['dentou2'].Begin('Form',2.5,0,0,0,0,0,1,20,20,'dentou2');
-	repeater['dentouW'].Begin('nakage',5,0,0,0,0,0,1,20,20,'dentouW');
-	repeater['fence_kudari'].Begin(0,-6.7,1,0,0,0,0,0,2,2,'WhiteFence');
+	repeater['fence_kudari'].Begin(0,-6,1,0,0,0,0,0,2,2,'BrownFence');
+
+$sanyo_distance+88392;
+	structure['Agaho_formpole2'].Put('sanyonobori',-4.5,1,0,0,0,0,0,0);
+
 $sanyo_distance+88404;
 structure['4tei'].Put(0,-2.3,3.4,-0.1,0,0,0,0,0);
 structure['teimokupole'].Put(0,-2.8,1.2,0,0,0,0,0,0);
 #4両停目
 	Gradient.Interpolate(0);
+	structure['Agaho_formpole1'].Put(0,-5.5,1,0,0,0,0,0,0);
+	structure['Hijoubotan_L'].Put(0,-5.4,3.7,-0.001,0,0,0,0,0);
+	
 $sanyo_distance+88410;
 	structure['Agaho_bridge'].Put('',-2,1,-2,0,0,0,0,2);
 $sanyo_distance+88424;
@@ -853,8 +858,11 @@ $sanyo_distance+88432;
 structure['8tei'].Put(0,-2.3,3.39,-0.1,0,0,0,0,0);
 structure['teimokupole'].Put(0,-2.8,1.2,0,0,0,0,0,0);
 #8両停目
+	structure['Agaho_formpole2'].Put('sanyonobori',-4.5,1,0,0,0,0,0,0);
+
 $sanyo_distance+88443;
-	repeater['dentou2'].End();	
+	structure['Agaho_formpole1'].Put(0,-5.5,1,0,0,0,0,0,0);
+	structure['Hijoubotan_L'].Put(0,-5.4,3.7,-0.001,0,0,0,0,0);
 	structure['Agaho_chuurinjou'].Put(0,-10,-0.5,-2,0,0,0,0,0);
 $sanyo_distance+88453;
 structure['retsutei'].Put(0,-2.3,3.39,-0.1,0,0,0,0,0);
@@ -864,6 +872,8 @@ structure['retsutei'].Put('nakage',-2.3,1.1,0,0,0,0,0,0);
 structure['karetei'].Put('nakage',-2.3,0.8,0,0,0,0,0,0);
 structure['2you'].Put('nakage',-2.3,0,0,0,0,0,0,0);
 structure['teimokupole_short'].Put('nakage',-2.3,0.3,0.1,0,0,0,0,0);
+	structure['Agaho_formpole2'].Put('sanyonobori',-4.5,1,0,0,0,0,0,0);
+
 $sanyo_distance+88457;
 	Repeater['Grass'].Begin('Grass',0,0,0,0,0,0,1,25,25,'Grass');
 	repeater['Form_L'].End();
@@ -872,7 +882,7 @@ $sanyo_distance+88457;
 	#英賀保下りホーム終端
 	repeater['fence_kudari'].End();
 	structure['Formendfence4'].Put(0,-3.5,1.3,0,0,0,0,0,2);
-	repeater['dentouW'].End();
+
 	Track['nakage'].Position(4,0);
 	Track['nakajou'].Position(4,0);
 	Structure['SW_faildepart'].Put('nakage', 0, 0, 0, 0, 0, 0, 3, 5);

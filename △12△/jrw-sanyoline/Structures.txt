@@ -341,7 +341,8 @@ Whitefence,Structures\Uchibo\Fence\Fence.x
 Whitefence1,Structures\Uchibo\Fence\Fence_Soga_5m.x
 Whitefence_end,Structures\Uchibo\Fence\FenceGrayE.x
 Whitefence_katsuhara,Structures\Uchibo\Fence\Fence_katsuhara.x
-
+BrownFence,Structures\Uchibo\Fence\FenceBrown.x
+BrownFence_end,Structures\Uchibo\Fence\FenceBrownE.x
 GreenFence,Structures\Uchibo\Fence\FenceGreen.x
 Greenfence_end,Structures\Uchibo\Fence\FenceGreenE.x
 
@@ -791,8 +792,16 @@ Mon,Structures\△12△\monitor\monitor.x
 Mon1,Structures\△12△\monitor\monitor_wide.x
 
 #-------------------------------------------------------------------------駅名標-----------------------------------------------------------------------------
-
-
+Himeji_ekimei,Structures\△12△\ekimeihyou\Himeji_ekimei.x
+Agaho_ekimei,Structures\△12△\ekimeihyou\Agaho_ekimei.x
+Agaho_ekimei_H,Structures\△12△\ekimeihyou\Agaho_ekimei_H.x
+Katsuhara_ekimei,Structures\△12△\ekimeihyou\Katsuhara_ekimei.x
+Aboshi_ekimei,Structures\△12△\ekimeihyou\Aboshi_ekimei.x
+Aboshi_ekimei_H,Structures\△12△\ekimeihyou\Aboshi_ekimei_H.x
+Aioi_ekimei,Structures\△12△\ekimeihyou\Aioi_ekimei.x
+Aioi_ekimei_H,Structures\△12△\ekimeihyou\Aioi_ekimei_H.x
+Aioi_ekimei,Structures\△12△\ekimeihyou\Aioi_ekimei.x
+Aioi_ekimei_H,Structures\△12△\ekimeihyou\Aioi_ekimei_H.x
 #------------------------------------------------------------------------駅ストラクチャ-------------------------------------------------------------------------
 #共通
 #番線表示
@@ -805,6 +814,10 @@ Hijoubotan_R,Structures\△12△\komono\Hijoubotan_R.x
 #乗車位置(旧、△印)
 jyousyaL,Structures\△12△\jyousyaichi\jyousyaL.x
 jyousyaR,Structures\△12△\jyousyaichi\jyousyaR.x
+#時計
+Station_Clock1,Structures\△12△\sta\common\Station_clock.x
+Station_Clock2,Structures\△12△\sta\common\Station_clock2.x
+
 
 #姫路
 Himeform_L,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormL_hime.x
@@ -825,6 +838,12 @@ Himeji_haikan_cover2,Structures\△12△\sta\himeji\Himeji_haikan_cover2.x
 Himeji_speaker,Structures\△12△\sta\himeji\Himeji_speaker.x
 
 #英賀保
+Agahoform_L,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormL_agaho.x
+Agahoform_CL,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCL_agaho.x
+Agahoform_CL2,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCL_agaho2.x
+Agahoform_CL3,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCL_agaho3.x
+Agahoform_R,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormR_agaho.x
+Agahoform_CR,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCR_agaho.x
 AgahoRoofL,Structures\△12△\sta\agaho\Agahoroof.x
 Agaho_EV,Structures\△12△\sta\agaho\Agaho_EV.x
 Agaho_EVsign,Structures\△12△\sta\agaho\Agaho_EVsign.x
@@ -833,6 +852,11 @@ Agaho_wall,Structures\△12△\sta\agaho\agaho_wall.x
 Agaho_norikosi,Structures\△12△\sta\agaho\agaho_norikosi.x
 Agaho_bridge,Structures\△12△\sta\agaho\agaho_bridge.x
 Agaho_kosen,Structures\△12△\sta\agaho\agaho_kosen.x
+Agaho_formpole1,Structures\△12△\sta\agaho\Agaho_formpole1.x
+Agaho_formpole2,Structures\△12△\sta\agaho\Agaho_formpole2.x
+Agaho_formpole3,Structures\△12△\sta\agaho\Agaho_formpole3.x
+Agaho_formpole4,Structures\△12△\sta\agaho\Agaho_formpole4.x
+Agaho_form_saku,Structures\△12△\sta\agaho\Agaho_form_saku.x
 
 #はりま勝原
 Katsuhara_kosen,Structures\△12△\sta\katsuhara\Katsuhara_kosen.x
@@ -844,6 +868,7 @@ Katsuform_CL,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCL_katsu.x
 Katsuform_CR,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCR_katsu.x
 Katsuform_CL2,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCL_katsu2.x
 Katsuform_CR2,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCR_katsu2.x
+
 #網干
 Hoshiform_CL,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCL_hoshi.x
 Hoshiform_CR,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCR_hoshi.x
@@ -1050,7 +1075,7 @@ orone15-3000,Structures\saha209\PC14_sl\153000.x
 Mc103-3500_40N,Structures\△12△\Train\103\Mc103-3500_40N.x
 Mc102-3500_40N,Structures\△12△\Train\103\Mc102-3500_40N.x
 
-T103_40n_o,Structures\103_40N\T103.x
+T103_40n_o,Structures\△12△\Train\103\T103_o_40N.x
 Tc103_NA_b,Structures\saha209\103_NA\103_hine\103_Tc.x
 Tc'103_NA_b,Structures\saha209\103_NA\103_hine\103_Tc2.x
 M103_NA_b,Structures\saha209\103_NA\103_hine\103_MP.x

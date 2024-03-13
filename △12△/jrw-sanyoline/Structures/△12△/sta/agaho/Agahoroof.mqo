@@ -4,8 +4,8 @@ Format Text Ver 1.0
 Scene {
 	pos 0.0000 0.0000 3118.5154
 	lookat 15.4168 157.0410 -253.0983
-	head -0.4836
-	pich 0.1092
+	head -0.3836
+	pich -0.1508
 	bank 0.0000
 	ortho 0
 	zoom2 2.4050
@@ -20,7 +20,7 @@ Scene {
 Material 3 {
 	"mat1" col(1.000 1.000 1.000 1.000) dif(0.800) amb(0.600) emi(0.600) spc(0.000) power(5.00) tex("Agahoformpole1.png")
 	"mat2" col(1.000 1.000 1.000 1.000) dif(0.800) amb(0.600) emi(0.000) spc(0.000) power(5.00) tex("agahoformroof2.png") proj_type(1) proj_pos(0.000 0.000 0.000) proj_scale(100.000 100.000 100.000) proj_angle(-89.500 -0.000 -10.500)
-	"mat3" col(1.000 1.000 1.000 1.000) dif(0.800) amb(0.600) emi(0.600) spc(0.000) power(5.00) tex("formroof.png") proj_type(1) proj_pos(0.000 0.000 0.000) proj_scale(165.490 165.490 165.490) proj_angle(3.823 66.944 4.937)
+	"mat3" col(1.000 1.000 1.000 1.000) dif(0.800) amb(0.600) emi(0.250) spc(0.000) power(5.00) tex("formroof.png") proj_type(1) proj_pos(0.000 0.000 0.000) proj_scale(165.490 165.490 165.490) proj_angle(3.823 66.944 4.937)
 }
 Object "obj1" {
 	visible 15
