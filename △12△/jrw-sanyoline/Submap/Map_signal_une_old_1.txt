@@ -7,8 +7,8 @@ structure['Signalpole1'].Put(0,-2.5,5,0,0,0,0,0,0);
 Signal['type3_b'].Put(1,0,-2.7,5.6,0.4,0,0,0,0,0);
 structure['Signal3L0_b'].Put(0,-2.3,4.6,0,0,0,0,0,0);
 
-$sanyo_distance+112106;
+$sanyo_distance+112192;
 #中継
-structure['Signalpole4'].Put(0,-5.5,6,0,0,0,0,0,0);
-$sanyo_distance+112106-1;
-Signal['type30'].Put(1,0,-5.5,5.4);
+structure['Signalpole1'].Put(0,-4.3,0.5,0,0,0,0,0,0);
+structure['Signalpole4'].Put(0,-4.3,0.5,0,0,0,0,0,0);
+Signal['type30'].Put(1,'sanyokudari',-4.3,5);

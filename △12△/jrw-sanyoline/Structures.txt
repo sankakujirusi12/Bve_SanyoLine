@@ -169,7 +169,8 @@ Signalpole8,Structures\△12△\sta\himeji\Himeji_sigpole.x
 Clamp3L,../../Nagoya_Common\Railway_Obj\SigPole\Clamp\3L.x
 #右腕
 Clamp3R,../../Nagoya_Common\Railway_Obj\SigPole\Clamp\3R.x
-
+#はしご
+Sig_base_step,Structures\FCS_TM\SigPole\Sig_Base_Step.x
 
 #信号喚呼位置標
 kanko_0,Structures\FCS_TM\kanko\0_o.x
@@ -345,6 +346,7 @@ BrownFence,Structures\Uchibo\Fence\FenceBrown.x
 BrownFence_end,Structures\Uchibo\Fence\FenceBrownE.x
 GreenFence,Structures\Uchibo\Fence\FenceGreen.x
 Greenfence_end,Structures\Uchibo\Fence\FenceGreenE.x
+GreenFence2,Structures\Uchibo\Fence\FenceGreen2.x
 
 PoleFence1,Structures\Uchibo\Fence\PoleFence01a.x
 #小さい
@@ -601,12 +603,14 @@ jrkasenchu-6BR,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleT
 jrkasenchu-7A,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs07A.x
 jrkasenchu-7AR,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs07A_R.x
 jrkasenchu-7B,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs07B.x
+jrkasenchu-7B_wide,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs07B_wide.x
 jrkasenchu-7BR,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs07B_R.x
 jrkasenchu-8A,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs08A.x
 jrkasenchu-8AR,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs08A_R.x
 jrkasenchu-8B,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs08B.x
 jrtetsukasenchu-8,Structures\Uchibo\Pole\Pole_VTA_3hL.x
 jrtetsukasenchu-12,Structures\Uchibo\Pole\Pole_VTA_4.x
+jrtetsukasenchu-12A,Structures\Uchibo\Pole\Pole_VTA_4A.x
 jrkasenchu-9A,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs09A.x
 jrkasenchu-9AR,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs09A_R.x
 jrkasenchu-9B,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs09B.x
@@ -798,8 +802,6 @@ Agaho_ekimei_H,Structures\△12△\ekimeihyou\Agaho_ekimei_H.x
 Katsuhara_ekimei,Structures\△12△\ekimeihyou\Katsuhara_ekimei.x
 Aboshi_ekimei,Structures\△12△\ekimeihyou\Aboshi_ekimei.x
 Aboshi_ekimei_H,Structures\△12△\ekimeihyou\Aboshi_ekimei_H.x
-Aioi_ekimei,Structures\△12△\ekimeihyou\Aioi_ekimei.x
-Aioi_ekimei_H,Structures\△12△\ekimeihyou\Aioi_ekimei_H.x
 Aioi_ekimei,Structures\△12△\ekimeihyou\Aioi_ekimei.x
 Aioi_ekimei_H,Structures\△12△\ekimeihyou\Aioi_ekimei_H.x
 #------------------------------------------------------------------------駅ストラクチャ-------------------------------------------------------------------------

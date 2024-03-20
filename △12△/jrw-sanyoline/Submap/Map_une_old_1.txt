@@ -68,46 +68,42 @@ repeater['Trees'].End();
 repeater['Trees1'].End();
 repeater['Trees2'].End();
 $sanyo_distance+111973;
-structure['Cr_L1'].Put(0,0,0,0,0,0,0,0,5);
-structure['Cr_L2'].Put(0,0,0,0,0,0,0,0,5);
-structure['Cr_R2'].Put(0,0,0,0,0,0,0,0,5);
-structure['Cr_R2'].Put(0,0.5,0,0,0,0,0,0,5);
-structure['Cr_R2'].Put(0,1,0,0,0,0,0,0,5);
-structure['Cr_R2'].Put(0,1.5,0,0,0,0,0,0,5);
-structure['Cr_R2'].Put(0,2,0,0,0,0,0,0,5);
-structure['Cr_R2'].Put(0,2.5,0,0,0,0,0,0,5);
-structure['Cr_R2'].Put(0,3,0,0,0,0,0,0,5);
-structure['Cr_R2'].Put(0,3.5,0,0,0,0,0,0,5);
-structure['Cr_L3'].Put(0,0,0,0,0,0,0,0,5);
-structure['Cr_L3'].Put('nakajou2',0,0.001,0,0,0,0,0,5);
-structure['Cr_L3'].Put('sanyonobori',0,0,0,0,0,0,0,5);
-structure['Cr_R2'].Put('sanyonobori',0,0,0,0,0,0,0,5);
-structure['Cr_R1'].Put('sanyonobori',0,0,0,0,0,0,0,5);
+
+
 Sound3D['cross2'].Put(-1.5, 2.3);
 Sound3D['cross2'].Put(5.5, 2.3);
 #踏切13
 $sanyo_distance+112010;
 repeater['ballast5'].Begin('gawa_une1',0,-0.01,0,0,0,0,3,5,5,'Ballast');
 	Track['gawa_une1'].Position(4,0,173);
+
+$sanyo_distance+112025;
+structure['seigen85num'].Put('sanyokudari',-3.3,1.4,0,0,0,0,0,0);
+structure['seigenpole'].Put('sanyokudari',-3.3,-0.6,0,0,0,0,0,0);
+	structure['Lnum_A_4'].Put(0,-3.45,1.4,-0.001,0,0,0,0,0);
+	structure['Lnum_A_8'].Put(0,-3.3,1.4,-0.001,0,0,0,0,0);
+	structure['Lnum_A_5'].Put(0,-3.15,1.4,-0.001,0,0,0,0,0);
+	
 $sanyo_distance+112030;
 	Track['gawa_une1'].Position(6,0,-173);
-structure['seigen85'].Put(0,-3.5,0.7,0,0,0,10,0,0);
-structure['seigenpole'].Put(0,-3.5,-0.3,0,0,0,10,0,0);
+	
 $sanyo_distance+112033;
-	Track['nakajou'].Position(11,0,1500);
-	Track['sanyonobori'].Position(15,0,1500);
+	Track['nakajou'].Position(11.5,0,1500);
+	Track['sanyonobori'].Position(15.5,0,1500);
 curve.BeginTransition();
-	repeater['Form_L'].Begin0(0,1,5,4.9,'Katsuform_L');
-	repeater['Form_CL'].Begin0(0,1,5,4.9,'Katsuform_CL2');
-	structure['Formendfence2'].Put(0,-3,1.3,0,0,0,0,0,2);
+	repeater['Form_L'].Begin0('sanyokudari',1,5,4.9,'Katsuform_L');
+	repeater['Form_CL'].Begin0('sanyokudari',1,5,4.9,'Katsuform_CL2');
+	structure['GreenFence2'].Put('sanyokudari',-2.2,1,0.1,0,-90,0,0,0);
+	repeater['FormFence_L'].Begin('sanyokudari',-4.15,1,0,0,0,0,3,2,2,'GreenFence');
 #下りホーム始端
+
 $sanyo_distance+112050;
 	Track['gawa_une1'].Position(8,0);
 $sanyo_distance+112068;
-	Track['nakajou'].Position(13,0,$sanyo_distance+60000);
-	Track['sanyonobori'].Position(17,0,$sanyo_distance+60000);
-$sanyo_distance+112093;
-
+	Track['nakajou'].Position(13,0,60000);
+	Track['sanyonobori'].Position(17,0,60000);
+$sanyo_distance+112086;
+	repeater['FormFence_L'].Begin('sanyokudari',-4.15,1,0,0,0,0,3,2,2,'WhiteFence');
 $sanyo_distance+112103;
 repeater['ballast5'].End();
 	repeater['Form_R'].Begin0('nakage',1,5,4.9,'Katsuform_R');
@@ -116,12 +112,20 @@ repeater['ballast5'].End();
 	repeater['Form_CL1'].Begin0('nakajou',1,5,4.9,'Katsuform_CL');
 	Track['nakajou'].Position(15,0,-3000);
 	Track['sanyonobori'].Position(19,0,-3000);
+	structure['GreenFence2'].Put('nakage',2.5,1,0.1,0,90,0,0,0);
+	structure['GreenFence2'].Put('nakage',4.5,1,0.1,0,90,0,0,0);
+	structure['GreenFence_end'].Put('nakage',6.5,1,0.1,0,90,0,0,0);		
+	structure['GreenFence2'].Put('nakajou',-2.45,1,0.1,0,-90,0,0,0);
 #上りホーム始端
 $sanyo_distance+112113;
 curve.Begin(600,0.08);
 $sanyo_distance+112163;
 	repeater['Form_CL'].Begin0(0,1,5,4.9,'Katsuform_CL');
 #ホーム広し
+
+$sanyo_distance+112170;
+	repeater['FormFence_L'].End();
+
 $sanyo_distance+112190;
 #出発中継の中継
 $sanyo_distance+112298;
