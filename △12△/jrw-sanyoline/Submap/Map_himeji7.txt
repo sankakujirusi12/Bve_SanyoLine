@@ -14,6 +14,7 @@ $sanyo_distance+83000;
 	Repeater['Ballast9'].Begin('hime1',0,0,0,0,0,0,3,5,4.5,'Slab');
 	Repeater['Ballast10'].Begin('hime2',0,0,0,0,0,0,3,5,4.5,'Slab');
 	Track['hime8'].Position(-10,0);
+	Track['hime7'].Position(0,0);
 	Track['hime6'].Position(4,0);
 	repeater['Form_L'].Begin0(0,1,5,5,'Himeform_L');
 	repeater['Form_L1'].Begin0('sanyonobori',1,5,5,'Himeform_L');
