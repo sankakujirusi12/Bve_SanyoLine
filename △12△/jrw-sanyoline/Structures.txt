@@ -430,6 +430,18 @@ Cr_Crossing_DL,Structures\Uchibo\Crossing\Cr_CrossingDL.x
 Cr_Crossing_DR,Structures\Uchibo\Crossing\Cr_CrossingDR.x
 Crossing_D,Structures\Uchibo\Crossing\CrossingD.x
 
+#柵(_横幅_高さ)
+Fumikiri_saku_gyakuL_3_2,Structures\△12△\Fumikiri\Fumikiri_saku_gyakuL_3_2.x
+Fumikiri_saku_omote_2_2,Structures\△12△\Fumikiri\Fumikiri_saku_omote_2_2.x
+Fumikiri_saku_omote_3_1,Structures\△12△\Fumikiri\Fumikiri_saku_omote_3_1.x
+Fumikiri_saku_omote_3_2,Structures\△12△\Fumikiri\Fumikiri_saku_omote_3_2.x
+Fumikiri_saku_ura_2.5_2L,Structures\△12△\Fumikiri\Fumikiri_saku_ura_2.5_2L.x
+Fumikiri_saku_ura_2_2,Structures\△12△\Fumikiri\Fumikiri_saku_ura_2_2.x
+Fumikiri_saku_ura_3_1,Structures\△12△\Fumikiri\Fumikiri_saku_ura_3_1.x
+Fumikiri_saku_ura_3_1.5,Structures\△12△\Fumikiri\Fumikiri_saku_ura_3_1.5.x
+Fumikiri_saku_ura_3_2,Structures\△12△\Fumikiri\Fumikiri_saku_ura_3_2.x
+Fumikiri_saku_ura_3to2_2,Structures\△12△\Fumikiri\Fumikiri_saku_ura_3_2.x
+
 shoken2,Structures\Ntfiv\GeneralStr_png\Accessory\Cross\CrossAcc\shoken2.x
 FmBox,Structures\Ntfiv\GeneralStr_png\Accessory\Cross\CrossAcc\FmBox.x
 shoken1,Structures\Ntfiv\GeneralStr_png\Accessory\Cross\CrossAcc\shoken1.x
