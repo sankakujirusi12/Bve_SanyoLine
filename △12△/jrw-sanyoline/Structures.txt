@@ -229,8 +229,10 @@ gradientpost_UL,Structures\Ntfiv\GeneralStr_png\Accessory\Posts\GradientPost\Gp_
 gradientpost_UU,Structures\Ntfiv\GeneralStr_png\Accessory\Posts\GradientPost\Gp_UU.x
 #-----------------------------------------------------------------タイロー------------------------------------------------------------------
 tigerrope5m,Structures\Ntfiv\GeneralStr_png\Accessory\rope5m.x
+#虎柄
 ropebase,Structures\Ntfiv\GeneralStr_png\Accessory\ropebase.x
-
+#黄一色
+ropebase1,Structures\Ntfiv\GeneralStr_png\Accessory\ropebase1.x
 
 #-----------------------------------------------------------------背景--------------------------------------------------------------------
 Bg,Structures\車警定位\shuijing\bg1.x

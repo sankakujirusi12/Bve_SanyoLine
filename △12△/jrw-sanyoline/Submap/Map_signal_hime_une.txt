@@ -195,12 +195,20 @@ structure['iresin0W'].Put('gawa_hoshi1',-2,5.6,-0.5,0,0,0,0,0);
 structure['iresin_arm'].Put('gawa_hoshi1',-2,5.6,-0.5,0,0,0,0,0);
 structure['4syutsu'].Put('gawa_hoshi1',-1.75,6.9,-0.95,0,0,0,0,0);
 
-structure['Sig_Base_Aboshi'].Put('gawa_hoshi2',-2,0,0,0,0,0,0,0);
-structure['Signal3L0'].Put('gawa_hoshi2',-2,6.2,-0.5,0,0,0,0,0);
-structure['iresin0W'].Put('gawa_hoshi2',-2,5.2,-0.5,0,0,0,0,0);
-structure['Sig_Base_Aboshi'].Put('gawa_hoshi3',-2,0,0,0,0,0,0,0);
-structure['Signal3L0'].Put('gawa_hoshi3',-2,6.2,-0.5,0,0,0,0,0);
-structure['iresin0W'].Put('gawa_hoshi3',-2,5.2,-0.5,0,0,0,0,0);
+structure['Sig_Base_Aboshi'].Put('gawa_hoshi2',-2,1.8,-0.5,0,0,0,0,0);
+structure['Signal3L0'].Put('gawa_hoshi2',-2,7.4,-0.5,0,0,0,0,0);
+structure['Sigib_off'].Put('gawa_hoshi2',-2,6.2,-0.5,0,0,0,0,0);
+structure['iresin0W'].Put('gawa_hoshi2',-2,5.6,-0.5,0,0,0,0,0);
+structure['iresin_arm'].Put('gawa_hoshi2',-2,5.6,-0.5,0,0,0,0,0);
+structure['5syutsu'].Put('gawa_hoshi2',-1.75,6.9,-0.95,0,0,0,0,0);
+
+structure['Sig_Base_Aboshi'].Put('gawa_hoshi3',-2,1.8,-0.5,0,0,0,0,0);
+structure['Signal3L0'].Put('gawa_hoshi3',-2,7.4,-0.5,0,0,0,0,0);
+structure['Sigib_off'].Put('gawa_hoshi3',-2,6.2,-0.5,0,0,0,0,0);
+structure['iresin0W'].Put('gawa_hoshi3',-2,5.6,-0.5,0,0,0,0,0);
+structure['iresin_arm'].Put('gawa_hoshi3',-2,5.6,-0.5,0,0,0,0,0);
+structure['6syutsu'].Put('gawa_hoshi3',-1.75,6.9,-0.95,0,0,0,0,0);
+
 $sanyo_distance+104586;
 structure['Signalpole1'].Put('nakage',2.8,0,0,0,0,0,0,0);
 structure['Signal3L0'].Put('nakage',2.8,5.1,0,0,0,0,0,0);

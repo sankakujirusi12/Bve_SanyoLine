@@ -16,7 +16,7 @@ $sanyo_distance+112785;
 Gradient.Interpolate(6.2);
 #+6.2‰
 $sanyo_distance+112785;
-curve.BeginTransition();
+curve.Interpolate(0,0);
 Track['sanyonobori'].Cant.Interpolate(0);
 $sanyo_distance+112794;
 structure['Levee_B'].Put(0,-0.5,0,0,0,0,0,0,2);
@@ -53,7 +53,7 @@ Repeater['DikeR'].Begin0('sanyonobori', 0, 5, 5, 'DikeR_1','DikeR_2','DikeR_3');
 $sanyo_distance+112885;
 #	Track['Grass2'].Position(0,-1.5);
 #カーブ(二本の架線柱の間)[R600]
-curve.Begin(600,0.085);
+curve.Interpolate(600,0.085);
 Track['sanyonobori'].Cant.Interpolate(0.085);
 	Track['Route373'].Position(-135,-1);
 repeater['road_2sya'].Begin0('route373',1,6,5,'Road_2sya_nb');
@@ -326,11 +326,11 @@ $sanyo_distance+114591-264;
 Gradient.Interpolate(0);
 #L
 $sanyo_distance+114453;
-curve.BeginTransition();
+curve.Interpolate(0,0);
 Track['sanyonobori'].Cant.Interpolate(0);
 $sanyo_distance+114513;
 #カーブ[R804左]
-curve.Begin(-804,-0.06);
+curve.Interpolate(-804,-0.06);
 Track['sanyonobori'].Cant.Interpolate(-0.06);
 
 $sanyo_distance+114548;
@@ -592,10 +592,10 @@ $sanyo_distance+115824;
 repeater['road_1sya_1'].Begin0('douro2',1,10,9,'Azemichi');
 	Track['douro2'].Position(-10,-2,0);
 $sanyo_distance+116030;
-curve.BeginTransition();
+curve.Interpolate(0,0);
 Track['sanyonobori'].Cant.Interpolate(0);
 $sanyo_distance+116090;
-curve.Begin(-800,-0.06);
+curve.Interpolate(-800,-0.06);
 Track['sanyonobori'].Cant.Interpolate(-0.06);
 #Lカーブ[R800]
 $sanyo_distance+116142;
