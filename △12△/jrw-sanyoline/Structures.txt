@@ -158,7 +158,7 @@ Signalpole1,Structures\FCS_TM\SigPole\Sig_Pole.x
 Signalpole4,Structures\FCS_TM\SigPole\Sig_Base.x
 Sig_Base_Aboshi,Structures\FCS_TM\SigPole\Sig_Base_Aboshi.x
 #架線柱ひっつき
-Signalpole5,../../Nagoya_Common\Railway_Obj\SigPole\HS\HS_TrapR.x
+Signalpole5,Structures\Uchibo\SigPole\tenkendai_L.x
 #古い
 Signalpole6,Structures\Ntfiv\GeneralStr_png\Accessory\Posts\Signal\SigPole4.x
 #短い
@@ -171,6 +171,14 @@ Clamp3L,../../Nagoya_Common\Railway_Obj\SigPole\Clamp\3L.x
 Clamp3R,../../Nagoya_Common\Railway_Obj\SigPole\Clamp\3R.x
 #はしご
 Sig_base_step,Structures\FCS_TM\SigPole\Sig_Base_Step.x
+
+#腕
+Back_Arm_LD,Structures\FCS_TM\SigPole\Back_Arm_LD.x
+Back_Arm_LU,Structures\FCS_TM\SigPole\Back_Arm_LU.x
+Back_Arm_MD,Structures\FCS_TM\SigPole\Back_Arm_MD.x
+Back_Arm_MU,Structures\FCS_TM\SigPole\Back_Arm_MU.x
+Back_Arm_SD,Structures\FCS_TM\SigPole\Back_Arm_SD.x
+Back_Arm_SU,Structures\FCS_TM\SigPole\Back_Arm_SU.x
 
 #信号喚呼位置標
 kanko_0,Structures\FCS_TM\kanko\0_o.x
@@ -451,15 +459,24 @@ shoken1,Structures\Ntfiv\GeneralStr_png\Accessory\Cross\CrossAcc\shoken1.x
 #-------------------------------------------------------------------道路関係---------------------------------------------------------------------
 
 #道路(nb=nonblock)
-Road_1sya_nb,Structures\サンパチタテモノ\road\road_045a.x
-Road_2sya,Structures\サンパチタテモノ\road\road_070a.x
-Road_2sya_nb,Structures\サンパチタテモノ\road\road_070a.x
+Road_045_a,Structures\Uchibo\Road\road_045_a.x
+Road_045_b,Structures\Uchibo\Road\road_045_b.x
+Road_045_c,Structures\Uchibo\Road\road_045_c.x
+Road_045_d,Structures\Uchibo\Road\road_045_d.x
+Road_0702_a,Structures\Uchibo\Road\road_0702_a.x
+Road_0702_b,Structures\Uchibo\Road\road_0702_b.x
+Road_0702_c,Structures\Uchibo\Road\road_0702_c.x
+Road_0702_d,Structures\Uchibo\Road\road_0702_d.x
 Road_4sya,../../Nagoya_Common\Build\Road\Road4.x
-peopleroad_L,Structures\サンパチタテモノ\road\peopleroad_070L.x
-peopleroad_R,Structures\サンパチタテモノ\road\peopleroad_070R.x
+
+
 seigen50_road,../../Nagoya_Common\Build\Road\Sign\50.x
 Road_1sya_L,Structures\サンパチタテモノ\road\road_045L.x
 Road_1sya_R,Structures\サンパチタテモノ\road\road_045R.x
+
+#ガードレール
+Guardrail_25mL,Structures\Uchibo\Road\Guardrail_25mL.x
+Guardrail_25mR,Structures\Uchibo\Road\Guardrail_25mR.x
 
 #道路用信号機
 
@@ -647,9 +664,13 @@ nomalkasenchu-tan,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\Pole\Pole1AC
 nomalkasenchu-chou,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\Pole\Pole1AC_A.x
 nomalkasenchu-tan_bridge,../../Nagoya_Common\Railway_Obj\Pole\Pole0_8.x
 nomalkasenchu-chou_bridge,../../Nagoya_Common\Railway_Obj\Pole\Pole0_9.x
+
+#BTA:鉄骨 BCA:コンクリ柱
 jrkasenchu_n_2sen,Structures\Uchibo\Pole\Pole_BTA_2.x
 jrkasenchu_n_4sen,Structures\Uchibo\Pole\Pole_BTA_4.x
+jrkasenchu_n_4sen_1,Structures\Uchibo\Pole\Pole_BCA_4.x
 jrkasenchu_n_5sen,Structures\Uchibo\Pole\Pole_BTA_5.x
+jrkasenchu_n_5sen_1,Structures\Uchibo\Pole\Pole_BCA_5.x
 jrkasenchu_n_5.5sen,Structures\Uchibo\Pole\Pole_BTA_5h.x
 jrkasenchu_n_6.5sen,Structures\Uchibo\Pole\Pole_BTA_6h.x
 jrkasenchu_n_7.5sen,Structures\Uchibo\Pole\Pole_BTA_7h.x
@@ -659,13 +680,6 @@ jrkasenchu_1sen_2,Structures\△12△\poletruss\Pole_1sen_2.x
 jrkasenchu_1sen_3,../../Nagoya_Common\Railway_Obj\Pole\Pole0_5.x
 jrkasenchu_1sen_4,Structures\Uchibo\Pole\Pole_VCA_1.x
 jrkasenchu_1sen_5,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs04A_funasaka.x
-#架線柱(パイプ型)　1は端が角形、2は丸型
-Pype_1L,..\..\Nagoya_Common\Railway_Obj\Pole\Pype_1L.x
-Pype_1R,..\..\Nagoya_Common\Railway_Obj\Pole\Pype_1R.x
-Pype_2L,..\..\Nagoya_Common\Railway_Obj\Pole\Pype_2L.x
-Pype_2R,..\..\Nagoya_Common\Railway_Obj\Pole\Pype_2R.x
-Pype_CL,..\..\Nagoya_Common\Railway_Obj\Pole\Pype_CL.x
-Pype_CR,..\..\Nagoya_Common\Railway_Obj\Pole\Pype_CR.x
 
 Himeji_kasenchu_1,Structures\△12△\sta\himeji\Himeji_kasenchu.x
 Himeji_kasenchu_2,Structures\△12△\sta\himeji\Himeji_kasenchu2.x
@@ -675,6 +689,7 @@ Himeji_kasenchu_5,Structures\△12△\sta\himeji\Himeji_kasenchu5.x
 Himeji_kasenchu_6,Structures\△12△\sta\himeji\Himeji_kasenchu6.x
 Himeji_kasenchu_7,Structures\△12△\sta\himeji\Himeji_kasenchu7.x
 Himeji_kasenchu_8,Structures\△12△\sta\himeji\Himeji_kasenchu8.x
+Himeji_kasenchu_9,Structures\△12△\sta\himeji\Himeji_kasenchu9.x
 
 Sanden_kasenchu1,Structures\△12△\sta\himeji\Sanden_kasenchu1.x
 Sanden_kasenchu2,Structures\△12△\sta\himeji\Sanden_kasenchu2.x
