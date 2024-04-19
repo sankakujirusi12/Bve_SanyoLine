@@ -4,9 +4,9 @@ BveTs Map 2.00:UTF-8
 #参考になるかは分かりませんが、おおまかな地形・設備については#で記述してあります。
 
 $sanyo_distance+111677;
-curve.BeginTransition();
+curve.Interpolate(0,0);
 $sanyo_distance+111687;
-curve.Begin(2000,0.02);
+curve.Interpolate(2000,0.02);
 #R1000
 $sanyo_distance+111630;
 structure['kanko_6'].Put(0,-2.5,3,0,0,0,0,0,0);
@@ -16,13 +16,13 @@ Curve.Interpolate(2000, 0.02);
 $sanyo_distance+111790;
 Curve.Interpolate(0, 0);
 #
-curve.BeginTransition();
+curve.Interpolate(0,0);
 $sanyo_distance+111733;
 repeater['tigerrope5m'].End();
 $sanyo_distance+111738;
 repeater['ropebase'].End();
 $sanyo_distance+111800;
-curve.Begin(-2500,-0.02);
+curve.Interpolate(-2500,-0.02);
 #L2500
 $sanyo_distance+111843;
 Curve.Interpolate(-2500, -0.02);
@@ -85,7 +85,7 @@ repeater['Form_CL'].Begin0(0,1,5,5,'Uneform_CL');
 repeater['whitefence1'].Begin(,-4.2,1,0,0,0,0,1,2,2,'Whitefence');
 $sanyo_distance+111908;
 Curve.Interpolate(0, 0);
-structure['Mon1'].Put(0,-4,1.2,0,0,0,0,0,0);
+structure['Une_monitor2'].Put(0,-3.5,1,0,0,0,0,0,0);
 #下りホーム
 $sanyo_distance+111918;
 Curve.Interpolate(2600, 0.02);
@@ -95,17 +95,37 @@ repeater['Form_CR'].Begin0('sanyonobori',1,5,5,'Uneform_CR');
 repeater['Form_R'].Begin('sanyonobori',0,0,0,0,0,0,1,5,5,'KatsuForm_R');
 #上りホーム
 repeater['whitefence2'].Begin('sanyonobori',4.2,1,0,0,180,0,1,2,2,'Whitefence');
+
+$sanyo_distance+111929;
+structure['Une_teimoku_ura'].Put('sanyonobori',3,1,0,0,0,0,0,0);
+
 $sanyo_distance+111964;
 Curve.Interpolate(2600, 0.02);
-structure['Mon1'].Put(0,-4,1.2,0,0,0,0,0,0);
+structure['Une_monitor2'].Put(0,-3.5,1,0,0,0,0,0,0);
 $sanyo_distance+111974;
 Curve.Interpolate(0, 0);
+
+$sanyo_distance+111976;
+structure['Une_teimoku_ura'].Put('sanyonobori',3,1,0,0,0,0,0,0);
+
 $sanyo_distance+112004;
-structure['Mon'].Put(0,-4,1.2,0,0,0,0,0,0);
+structure['Une_monitor1'].Put(0,-3.5,1,0,0,0,0,0,0);
+
+$sanyo_distance+112016;
+structure['Une_teimoku_ura'].Put('sanyonobori',3,1,0,0,0,0,0,0);
+
 $sanyo_distance+112024;
-structure['Mon'].Put(0,-4,1.2,0,0,0,0,0,0);
+structure['Une_monitor1'].Put(0,-3.5,1,0,0,0,0,0,0);
+
+$sanyo_distance+112036;
+structure['Une_teimoku_ura'].Put('sanyonobori',3,1,0,0,0,0,0,0);
+
 $sanyo_distance+112044;
-structure['Mon'].Put(0,-4,1.2,0,0,0,0,0,0);
+structure['Une_monitor1'].Put(0,-3.5,1,0,0,0,0,0,0);
+
+$sanyo_distance+112056;
+structure['Une_teimoku_ura'].Put('sanyonobori',3,1,0,0,0,0,0,0);
+
 $sanyo_distance+112064;
 repeater['Form_CL'].End();
 repeater['Form_CL1'].Begin0(0,1,5,5,'Form_CL');
@@ -115,7 +135,7 @@ repeater['Form_CR1'].Begin0('sanyonobori',1,5,5,'Form_CR');
 repeater['whitefence1'].Begin(,-7,1,0,0,0,0,1,2,2,'Whitefence');
 repeater['whitefence2'].Begin('sanyonobori',7,1,0,0,180,0,1,2,2,'Whitefence');
 $sanyo_distance+112084;
-curve.BeginTransition();
+curve.Interpolate(0,0);
 structure['Mon'].Put(0,-6,1.2,0,0,0,0,0,0);
 $sanyo_distance+112104;
 structure['Mon'].Put(0,-6,1.2,0,0,0,0,0,0);
@@ -149,7 +169,7 @@ $sanyo_distance+112143;
 #カーブ
 structure['teimokupole2'].Put(0,-2.3,3.5,0.4,0,0,0,0,0);
 structure['retsutei'].Put(0,-2.3,3.5,0,0,0,0,0,0);
-curve.Begin(700,0.06);
+curve.Interpolate(700,0.06);
 $sanyo_distance+112139;
 repeater['wall_nobori'].End();
 repeater['wall_kudari'].End();
@@ -197,6 +217,10 @@ structure['Gate450R'].Put(0,-2,0,-4.5,0,90,0,0,2);
 
 structure['TollBarDLt'].Put(0,0,0,-2,0,0,0,0,2);
 structure['Cr_Crossing_DR'].Put(0,0,0,-2,0,0,0,0,2);
+structure['Cr_Crossing_DR'].Put(0,2,0,-2,0,0,0,0,2);
+structure['Cr_Crossing_DR'].Put(0,4,0,-2,0,0,0,0,2);
+structure['Cr_Crossing_DL'].Put('sanyonobori',0,0,-2,0,0,0,0,2);
+
 structure['Crossing_D'].Put(0,0,0,-2,0,0,0,0,2);
 structure['Crossing_D'].Put('sanyonobori',0,0,-2,0,0,0,0,2);
 structure['TollBarDRt'].Put('sanyonobori',0,0,-2,0,0,0,0,2);
@@ -249,11 +273,11 @@ $sanyo_distance+112524;
 $sanyo_distance+112551;
 	Track['sanyonobori'].Position(8,0,0);
 	Track['gawa_une1'].Position(8,0,0);
-	Track['gawa_une2'].Position(4,0,-213);
+	Track['gawa_une2'].Position(4,0,-173);
 repeater['ballast7'].End();
 #中線上りへ合流
 $sanyo_distance+112569;
-	Track['gawa_une2'].Position(2,0,213);
+	Track['gawa_une2'].Position(1.5,0,173);
 $sanyo_distance+112588;
 	Track['gawa_une2'].Position(0,0,0);
 repeater['ballast8'].End();

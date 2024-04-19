@@ -380,8 +380,8 @@ repeater['ballast7'].End();
 structure['seigen15'].Put('chizu',-2.5,1.7,0,0,0,0,0,0);
 structure['seigenpole'].Put('chizu',-2.5,0.7,0,0,0,0,0,0);
 #接合点
-$sanyo_distance+119083;
 
+$sanyo_distance+119083;
 repeater['Dike_L2'].Begin('chizu',1,0,0,0,0,10,1,5,5,'DikeCnL_1');
 repeater['Dike_R2'].Begin('chizu',-1,0,0,0,0,-10,1,5,5,'DikeCnR_1');
 	Track['chizu'].Position(8,0,-308);

@@ -348,8 +348,12 @@ $sanyo_distance+119015;
 	Track['sanyonobori'].Position(9,0);
 	#Track['gawa_kami5'].Position(4,0,-173);
 repeater['ballast7'].Begin('nakage',0,0,0,0,0,0,3,5,5,'Ballast');
-$sanyo_distance+119047;
-	Track['nakage'].Position(2,0,173);
+
+$sanyo_distance+119025;
+	Track['nakage'].Position(4.5,0,0);
+
+$sanyo_distance+119059;
+	Track['nakage'].Position(0.8,0,173);
 $sanyo_distance+119072;
 #制限80
 structure['seigen80'].Put(0,-2,1.7,0,0,0,0,0,0);
@@ -362,8 +366,6 @@ structure['seigen15'].Put('chizu',-2.5,1.7,0,0,0,0,0,0);
 structure['seigenpole'].Put('chizu',-2.5,0.7,0,0,0,0,0,0);
 #接合点
 
-$sanyo_distance+119079;
-#接合点
 $sanyo_distance+119083;
 
 repeater['Dike_L2'].Begin('chizu',1,0,0,0,0,10,1,5,5,'DikeCnL_1');

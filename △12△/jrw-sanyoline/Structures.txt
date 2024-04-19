@@ -408,6 +408,7 @@ Point2R,Structures\Ntfiv\GeneralStr_png\Rail\Point\point2R.x
 #---------------------------------------------------------------------踏切-----------------------------------------------------------------------
 #警報機
 CrossSign,..\..\Nagoya_Common\Railway_Obj\Cross\General\signal\Mei\CrossSign.x
+CrossSign1,..\..\Nagoya_Common\Railway_Obj\Cross\General\signal\A_CrossSign.x
 CrossPole,..\..\Nagoya_Common\Railway_Obj\Cross\General\signal\A_Pole.x
 #左滅右点
 CrossSig,..\..\Nagoya_Common\Railway_Obj\Cross\General\signal\A_Sig.x
@@ -820,10 +821,6 @@ WallR,Structures\Ntfiv\GeneralStr_png\Wall\Wall_QN_R5m.x
 WallR25,Structures\Ntfiv\GeneralStr_png\Wall\Wall_QN_R25m.x
 WallR_p,Structures\Ntfiv\GeneralStr_png\Wall\Wall_QN_ofset_R5m.x
 
-#モニタ
-Mon,Structures\△12△\monitor\monitor.x
-Mon1,Structures\△12△\monitor\monitor_wide.x
-
 #-------------------------------------------------------------------------駅名標-----------------------------------------------------------------------------
 Himeji_ekimei,Structures\△12△\ekimeihyou\Himeji_ekimei.x
 Agaho_ekimei,Structures\△12△\ekimeihyou\Agaho_ekimei.x
@@ -932,9 +929,13 @@ Aioi_machiaiR,Structures\△12△\sta\aioi\Aioi_machiaiR.x
 Une_kosen_new,Structures\△12△\sta\une\Une_kosen_new.x
 Une_uwayaL,Structures\△12△\sta\une\Une_uwayaL.x
 Une_uwayaR,Structures\△12△\sta\une\Une_uwayaR.x
-
 Uneform_CL,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCL_une.x
 Uneform_CR,Structures\Ntfiv\GeneralStr_png\ACCC\Station\FormCR_une.x
+Une_monitor1,Structures\△12△\sta\une\Une_monitor1.x
+Une_monitor2,Structures\△12△\sta\une\Une_monitor2.x
+Une_syoumei,Structures\△12△\sta\une\Une_syoumei.x
+Une_teimoku_ura,Structures\△12△\sta\une\Une_teimoku_ura.x
+
 #上郡
 Chizu0,Structures\△12△\sta\kamigori\kami_chizu.x
 Chizu1,../../Nagoya_Common\Build\Station\Ekisya2\Obj1.x
