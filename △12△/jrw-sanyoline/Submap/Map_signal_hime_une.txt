@@ -18,10 +18,10 @@ structure['Back_Arm_MD'].Put(0,-2.3,4.2,0,0,-20,0,0,0);
 structure['Back_Arm_MU'].Put(0,-2.3,5.5,0,0,-20,0,0,0);
 
 $sanyo_distance+85259;
-Signal['type3'].Put(1,0,-1.5,5.8);
-structure['Signalpole5'].Put(0,-1.5,0,0,0,0,0,0,0);
-structure['Signalpole7'].Put(0,-1.5,6.3,0,0,0,0,0,0);
-structure['4hei'].Put(0,-1.5,4.6,0,0,0,0,0,0);
+structure['Signalpole5'].Put(0,-2.3,5.3,0,0,0,0,0,0);
+structure['4hei'].Put(0,-2.3,4,-0.5,0,0,0,0,0);
+structure['Back_Arm_MD'].Put(0,-2.3,4.2,0,0,-20,0,0,0);
+structure['Back_Arm_MU'].Put(0,-2.3,5.5,0,0,-20,0,0,0);
 
 $sanyo_distance+85744;
 Signal['type3'].Put(1,0,-2.5,5.1,0,0,0,0,0,0);

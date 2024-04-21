@@ -659,12 +659,15 @@ jrkasenchu-12B,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleT
 
 jrkasenchu-14A,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs14A.x
 jrkasenchu-14AR,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs14A_R.x
-jrkasenchu-tan,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\Pole\Pole1_stlB_K.x
-jrkasenchu-chou,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\Pole\Pole1_stlA_K.x
-nomalkasenchu-tan,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\Pole\Pole1AC_B.x
-nomalkasenchu-chou,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\Pole\Pole1AC_A.x
-nomalkasenchu-tan_bridge,../../Nagoya_Common\Railway_Obj\Pole\Pole0_8.x
-nomalkasenchu-chou_bridge,../../Nagoya_Common\Railway_Obj\Pole\Pole0_9.x
+Pole1AC_B,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\Pole\Pole1AC_B.x
+Pole1AC_A,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\Pole\Pole1AC_A.x
+Pole2AC_B,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\Pole\Pole2AC_B.x
+Pole2AC_A,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\Pole\Pole2AC_A.x
+Pole1AC_B_bridge,../../Nagoya_Common\Railway_Obj\Pole\Pole0_8.x
+Pole1AC_A_bridge,../../Nagoya_Common\Railway_Obj\Pole\Pole0_9.x
+Pole2AC_BS,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\Pole\Pole2AC_BS.x
+Pole2AC_AS,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\Pole\Pole2AC_AS.x
+
 
 #BTA:鉄骨 BCA:コンクリ柱
 jrkasenchu_n_2sen,Structures\Uchibo\Pole\Pole_BTA_2.x
@@ -691,6 +694,9 @@ Himeji_kasenchu_6,Structures\△12△\sta\himeji\Himeji_kasenchu6.x
 Himeji_kasenchu_7,Structures\△12△\sta\himeji\Himeji_kasenchu7.x
 Himeji_kasenchu_8,Structures\△12△\sta\himeji\Himeji_kasenchu8.x
 Himeji_kasenchu_9,Structures\△12△\sta\himeji\Himeji_kasenchu9.x
+Himeji_kasenchu_10,Structures\△12△\sta\himeji\Himeji_kasenchu10.x
+Himeji_kasenchu_11,Structures\△12△\sta\himeji\Himeji_kasenchu11.x
+Himeji_kasenchu_12,Structures\△12△\sta\himeji\Himeji_kasenchu12.x
 
 Sanden_kasenchu1,Structures\△12△\sta\himeji\Sanden_kasenchu1.x
 Sanden_kasenchu2,Structures\△12△\sta\himeji\Sanden_kasenchu2.x

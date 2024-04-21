@@ -246,23 +246,26 @@ $sanyo_distance+84048;
 	Track['hime6'].Position(9,0,-600);
 	Track['watari3'].Position(9,0);
 	Curve.End();
+
+$sanyo_distance+84060;
 	repeater['WallL1'].Begin('hime6',0,0,0,0,0,0,1,5,5,'WallL');
 	repeater['WallR'].Begin(0,0,0,0,0,0,0,1,5,5,'WallR');
-$sanyo_distance+84060;
 	Repeater['Ballast9'].End();
 	Track['hime1'].Position(20,0);
 	Track['hime2'].Position(20,0);
 	repeater['WallR2'].Begin('hime2',0,0,0,0,0,0,1,5,5,'WallR');
 $sanyo_distance+84070;
-	Track['hime8'].Position(-2.5,0,-308);
-	Track['watari3'].Position(-2.5,0,-308);
 	Track['sanyokudari'].Position(-6.5,0);
 $sanyo_distance+84074;
 #	Track['hime6'].Position(10.5,0,-308);
+	Track['hime8'].Position(-1.5,0,-308);
+	Track['watari3'].Position(-1.5,0,-308);
+
 $sanyo_distance+84085;
 	Track['hime2'].Position(18,0,-308);
 $sanyo_distance+84090;
 	Repeater['WallR'].End();
+
 $sanyo_distance+84093;
 	structure['WallR_p'].Put(0,0,0,0,0,0,0,0,2);
 
