@@ -61,6 +61,10 @@ Lnum_A_9,Structures\Uchibo\Limit\TypeB\Lnum_A_9.x
 #本則
 honsoku70_440,Structures\△12△\komono\honsoku70_440.x
 
+#補助
+except187,Structures\△12△\komono\187.x
+hidari,Structures\△12△\komono\hidari.x
+migi,Structures\△12△\komono\migi.x
 
 #-------------------------------------------------------------------信号-------------------------------------------------------------------------
 #3灯
@@ -396,7 +400,9 @@ Ballast_1435,Structures\△12△\Track\Tie_sanden.x
 Ballast_gr,Structures\Ntfiv\GeneralStr_png\Rail\Ballast01\Ballastwithoutrail.x
 Ballast_gr_25,Structures\Ntfiv\GeneralStr_png\Rail\Ballast01\Ballastwithoutrail_25.x
 
+
 Slab,Structures\Ntfiv\GeneralStr_png\Wall\Slab_W2_5m.x
+Slab_point,Structures\Ntfiv\GeneralStr_png\Wall\Slab_W2_5m_point.x
 Slab_teimen,Structures\Ntfiv\GeneralStr_png\Wall\teimen.x
 Rail_5,Structures\Ntfiv\GeneralStr_png\Rail\Rail_5m.x
 BridgeBan_25,Structures\Ntfiv\GeneralStr_png\Rail\BridgeBan_25.x
@@ -404,6 +410,30 @@ Point1L,Structures\Ntfiv\GeneralStr_png\Rail\Point\point1L.x
 Point1R,Structures\Ntfiv\GeneralStr_png\Rail\Point\point1R.x
 Point2L,Structures\Ntfiv\GeneralStr_png\Rail\Point\point2L.x
 Point2R,Structures\Ntfiv\GeneralStr_png\Rail\Point\point2R.x
+
+Point_shadow,Structures\△12△\Shadow\Point_shadow.x
+
+Sw8_FL,Structures\Uchibo\Track\Sw8_FL.x
+Sw8_FR,Structures\Uchibo\Track\Sw8_FR.x
+Sw8_ML,Structures\Uchibo\Track\Sw8_ML.x
+Sw8_MR,Structures\Uchibo\Track\Sw8_MR.x
+Sw8_FLM,Structures\Uchibo\Track\Sw8_FLM.x
+Sw8_FRM,Structures\Uchibo\Track\Sw8_FRM.x
+Sw8_MLM,Structures\Uchibo\Track\Sw8_MLM.x
+Sw8_MRM,Structures\Uchibo\Track\Sw8_MRM.x
+Sw8_MLB,Structures\Uchibo\Track\Sw8_MLB.x
+Sw8_MRB,Structures\Uchibo\Track\Sw8_MRB.x
+
+Sw10_FL,Structures\Uchibo\Track\Sw10_FL.x
+Sw10_FR,Structures\Uchibo\Track\Sw10_FR.x
+Sw10_ML,Structures\Uchibo\Track\Sw10_ML.x
+Sw10_MR,Structures\Uchibo\Track\Sw10_MR.x
+Sw10_FLM,Structures\Uchibo\Track\Sw10_FLM.x
+Sw10_FRM,Structures\Uchibo\Track\Sw10_FRM.x
+Sw10_MLM,Structures\Uchibo\Track\Sw10_MLM.x
+Sw10_MRM,Structures\Uchibo\Track\Sw10_MRM.x
+Sw10_MLB,Structures\Uchibo\Track\Sw10_MLB.x
+Sw10_MRB,Structures\Uchibo\Track\Sw10_MRB.x
 
 #---------------------------------------------------------------------踏切-----------------------------------------------------------------------
 #警報機
@@ -1475,7 +1505,7 @@ Con_ZM8C_11111_50k,Structures\Ntfiv\_Containers50k\Con_ZM8C_11111.x
 Tora45000,Structures\initG\initg_fcset\55000_1.x
 Toki25000,Structures\initG\initg_fcset\25000.x
 Hoki800,Structures\FTN\JNR-hoki800\hoki800.x
-Yo8000,Structures\Nakano_Kazusa\taki40000\yo8000.x
+Yo8000,Structures\Nakano_Kazusa\yo8000\yo8000.x
 chiki5500,Structures\Ntfiv\ContainerCar\chiki5500\_chiki5500.x
 chiki5600,Structures\Ntfiv\ContainerCar\chiki5500\_chiki5600.x
 chiki6383,Structures\△12△\chiki6000\chiki6383.x

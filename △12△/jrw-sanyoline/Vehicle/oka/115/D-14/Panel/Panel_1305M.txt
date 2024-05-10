@@ -336,7 +336,7 @@ DaytimeImage   = ../../../../../../../Rock_On\Train\JR\Vehicle\115\panel_O\p_ats
 NighttimeImage = ../../../../../../../Rock_On\Train\JR\Vehicle\115\panel_O\p_atspN.png
 Layer = 1
 
-;ATS-P(SW拠点P区間用)
+;ATS-P(拠点用)
 [PilotLamp]
 Subject = ats64
 Location = 1774, 762

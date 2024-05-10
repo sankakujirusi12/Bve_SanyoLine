@@ -23,6 +23,7 @@ include 'Submap\Map_une_old_1.txt';
 include 'Submap\Map_pass_une_kami.txt';
 include 'Submap\Map_kami4.txt';
 include 'Submap\Map_pass_kami_oka.txt';
+include 'Submap\Map_mitsuishi_old.txt';
 include 'Submap\jyousyaichi.txt';
 include 'Submap\Map_crossNo_2012.txt';
 include 'Submap\Gradient&CurvePosts.txt';

@@ -5,52 +5,22 @@ $point='hime7';
 $point1='watari3';
 include 'Submap\PointR.txt';
 
-$sanyo_distance+83970;
+$sanyo_distance+83969;
 $distance=distance;
 $point='hime6';
 $point1='watari2';
 include 'Submap\PointL.txt';
 
 $sanyo_distance+87872;
-$distance=distance;
-$point='sanyokudari';
-$point1='nakage';
-include 'Submap\PointR.txt';
+#英賀保下本～中
+structure['Sw8_FRM'].Put('sanyokudari',0,0.005,0,0,0,0,1,15);
 
-$sanyo_distance+88486;
-$distance=distance;
-$point='nakajou';
-$point1='nakage';
-include 'Submap\PointL.txt';
+#中合流
+$sanyo_distance+87916;
+structure['Sw8_MR'].Put('nakage',0,0.005,0,0,0,0,1,14);
 
-$sanyo_distance+93543.4;
-$distance=distance;
-$point='sanyokudari';
-$point1='watari2';
-include 'Submap\PointL.txt';
-$sanyo_distance+94330;
-$distance=distance;
-$point='hoshi3';
-include 'Submap\PointR.txt';
-$sanyo_distance+94390;
-$distance=distance;
-$point='watari1';
-include 'Submap\PointL2.txt';
-$sanyo_distance+104000;
-$distance=distance;
-$point='nakage';
-include 'Submap\PointR.txt';
-$sanyo_distance+118360;
-$distance=distance;
-$point='gawa_kami3';
-include 'Submap\PointL.txt';
-$sanyo_distance+118397.3;
-$distance=distance;
-$point='nakage';
-include 'Submap\PointR.txt';
-
-
-
+$sanyo_distance+119016.5;
+structure['Sw8_FLM'].Put('chizu',0,0.005,0,0,0,0,1,15);
 
 
 

@@ -1,39 +1,41 @@
 BveTs Map 2.00:UTF-8
 
 #拠点P
+0;
+Beacon.Put(25,0,211);
 #絶対信号機用
 $sanyo_distance+83920;
 $Absolute=distance;
 include 'Submap\Absolute_ATS-P_380.txt';
-Beacon.Put(25,0,2);
+Beacon.Put(25,0,211);
 $sanyo_distance+87786;
 $Absolute=distance;
 include 'Submap\Absolute_ATS-P_380.txt';
-Beacon.Put(25,0,2);
+Beacon.Put(25,0,211);
 $sanyo_distance+88489;
 $Absolute=distance;
 include 'Submap\Absolute_ATS-P_380.txt';
-Beacon.Put(25,0,2);
+Beacon.Put(25,0,211);
 $sanyo_distance+94130;
 $Absolute=distance;
 include 'Submap\Absolute_ATS-P_380.txt';
-Beacon.Put(25,0,2);
+Beacon.Put(25,0,211);
 $sanyo_distance+103828;
 $Absolute=distance;
 include 'Submap\Absolute_ATS-P_380.txt';
-Beacon.Put(25,0,2);
+Beacon.Put(25,0,211);
 $sanyo_distance+104629;
 $Absolute=distance;
 include 'Submap\Absolute_ATS-P_380.txt';
-Beacon.Put(25,0,2);
+Beacon.Put(25,0,211);
 $sanyo_distance+118251;
 $Absolute=distance;
 include 'Submap\Absolute_ATS-P_380.txt';
-Beacon.Put(25,0,2);
+Beacon.Put(25,0,211);
 $sanyo_distance+118965;
 $Absolute=distance;
 include 'Submap\Absolute_ATS-P_380.txt';
-Beacon.Put(25,0,2);
+Beacon.Put(25,0,211);
 #SW
 #全信号機用
 $sanyo_distance+83920;
@@ -138,7 +140,7 @@ $Absolute=distance;
 $Track='hime6';
 include 'Submap\Absolute_ATS-P_380_othertrack.txt';
 
-
+#停車パターン
 $sanyo_distance+88432-600;
 Beacon.Put(12, , 615);
 $sanyo_distance+91366-600;

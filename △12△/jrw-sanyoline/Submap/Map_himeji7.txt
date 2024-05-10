@@ -68,6 +68,8 @@ $sanyo_distance+83865;
 Structure['HimeForm_CL'].PutBetween('hime2','kishin');
 Structure['HimeForm_CL'].PutBetween('sanyonobori','hime6');
 Structure['HimeForm_CR'].PutBetween('hime8','hime7');
+	Track['sanyonobori'].Position(15,0,-3000);
+
 $sanyo_distance+83870;
 Structure['HimeForm_CL'].PutBetween('hime2','kishin');
 Structure['HimeForm_CL'].PutBetween('sanyonobori','hime6');
@@ -93,6 +95,7 @@ $sanyo_distance+83880;
 Structure['HimeForm_CL'].PutBetween('hime2','kishin');
 Structure['KatsuForm_CL'].PutBetween('sanyonobori','hime6');
 Structure['KatsuForm_CR'].PutBetween('hime8','hime7');
+
 $sanyo_distance+83885;
 Structure['HimeForm_CL'].PutBetween('hime2','kishin');
 Structure['KatsuForm_CL'].PutBetween('sanyonobori','hime6');
@@ -123,8 +126,7 @@ $sanyo_distance+83895;
 	#網干回送325M用
 	Track['watari1'].Position(-10,0);
 	Track['hime6'].Position(4,0);
-	Track['sanyonobori'].Position(15,0);
-	Track['kishin'].Position(19,0);
+	Track['kishin'].Position(19,0,-2500);
 	repeater['teimen2'].Begin(0,11,-0.001,0,0,0,0,1,19,19,'Slab_teimen');
 Structure['HimeForm_CL'].PutBetween('hime2','kishin');
 
@@ -171,8 +173,8 @@ Structure['HimeForm_CL'].PutBetween('hime2','kishin');
 	#シーサス
 	Repeater['Ballast5'].Begin('watari3',0,-0.01,0,0,0,0,3,5,5,'Slab');
 	Repeater['Ballast6'].Begin('watari2',0,-0.011,0,0,0,0,3,5,5,'Slab');
-	Track['watari3'].Position(0,0,308);
-	Track['watari2'].Position(4,0,-308);
+	Track['watari3'].Position(0,0,173);
+	Track['watari2'].Position(4,0,-173);
 	Track['sanyokudari'].Position(-13,0);
 	Track['hime8'].Position(-9,0);
 	Track['watari1'].Position(-9,0);
@@ -183,6 +185,8 @@ $sanyo_distance+83975;
 Structure['HimeForm_CL'].PutBetween('hime2','kishin');
 $sanyo_distance+83980;
 Structure['HimeForm_CL'].PutBetween('hime2','kishin');
+	Track['watari3'].Position(0.5,0);
+	Track['watari2'].Position(3.5,0);
 $sanyo_distance+83985;
 	repeater['Himeji_shinkansen_wall'].End();
 	repeater['roof_kishin'].End();
@@ -191,12 +195,13 @@ Structure['HimeForm_CL'].PutBetween('hime2','kishin');
 $sanyo_distance+83990;
 Structure['HimeForm_CL'].PutBetween('hime2','kishin');
 $sanyo_distance+83995;
-Structure['HimeForm_CL'].PutBetween('hime2','kishin');
-$sanyo_distance+84000;
-	Track['watari2'].Position(2.3,0,308);
-	Track['watari3'].Position(2.3,0,-800);
+	Track['watari2'].Position(2,0,308);
+	Track['watari3'].Position(2,0,308);
 	Curve.Interpolate(0, 0);
 	Curve.Interpolate(-308, 0);
+Structure['HimeForm_CL'].PutBetween('hime2','kishin');
+$sanyo_distance+84000;
+
 Structure['HimeForm_CL'].PutBetween('hime2','kishin');
 $sanyo_distance+83405;
 Structure['HimeForm_CL'].PutBetween('hime2','kishin');
@@ -214,12 +219,15 @@ $sanyo_distance+84010;
 	repeater['Form_R2'].End();
 	repeater['Form_CL2'].End();
 	repeater['Form_CR3'].End();
-	Track['sanyonobori'].Position(12,0,308);
-	Track['kishin'].Position(16,0,308);
+	Track['sanyonobori'].Position(11,0,308);
+	Track['kishin'].Position(15,0,308);
 	#repeater['teimen5'].Begin(0,4,-0.001,0,0,0,0,1,9,9,'Slab_teimen');
 #姫新線ホーム終端
 	repeater['WallR2'].Begin('hime1',0,0,0,0,0,0,1,5,4.5,'WallR');
 	structure['Himeji_haikei'].Put('Grass',104,0,0,0,0,0,0,0);
+
+$sanyo_distance+84015;
+	Track['watari3'].Position(4.8,0,-173);
 $sanyo_distance+84030;
 	structure['pointsw'].Put(0,-2,0,0,0,0,0,0,0);
 	Repeater['Ballast6'].End();

@@ -178,6 +178,9 @@ $sanyo_distance+128366;
 	#三石下り2
 	Section.Begin(0,2,3,4);
 
+$sanyo_distance+129865;
+	#三石下り1
+
 $sanyo_distance+144165;
 #和気出発
 Section.Begin(0,2,4);

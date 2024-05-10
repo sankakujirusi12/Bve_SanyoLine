@@ -211,6 +211,8 @@ repeater['ballast6'].Begin('chizu',0,0,0,0,0,0,3,5,5,'Ballast');
 structure['formwallR'].Put('chizu',-3,-1,0,0,0,0,0,0);
 #智頭急行ホーム、線路
 $sanyo_distance+118801;
+Curve.Interpolate(-580, -0.09);
+
 repeater['Form_R2'].End();
 repeater['Form_CR2'].End();
 repeater['tigerrope5m'].Begin(0,2,0,0,0,0,0,1,5,5,'tigerrope5m');
@@ -221,8 +223,9 @@ $sanyo_distance+118821;
 repeater['whitefence2'].Begin('chizu',4.2,1,0,0,0,0,1,2,2,'Whitefence');
 $sanyo_distance+118827;
 	repeater['roof_chizu'].End();
-curve.BeginTransition();
 Track['sanyonobori'].Cant.Interpolate(-0.06);
+Curve.Interpolate(-580, -0.09);
+
 $sanyo_distance+118832;
 	Track['gawa_kami9'].Position(-19.5,0,-173);
 $sanyo_distance+118844;
@@ -244,43 +247,61 @@ repeater['whitefence2'].End();
 	Track['gawa_kami9'].Position(-17,0);
 repeater['ballast15'].End();
 $sanyo_distance+118862;
+Curve.Interpolate(-1500, -0.051);
+
 repeater['ropebase'].End();
 repeater['ropebase_1'].End();
 repeater['ropebase_2'].End();
 structure['seigen20R'].Put(0,-2,0.5,0,0,0,0,0,0);
-structure['seigenpole'].Put(0,-2,-0.5,0,0,0,0,0,0);
+structure['seigenpole'].Put(0,-2,-1.5,0,0,0,0,0,0);
+
 $sanyo_distance+118867;
+structure['Sw8_FRM'].Put('sanyokudari',0,0.005,0,0,0,0,1,14);
+	structure['pointsw'].Put('sanyokudari',2,0,0,0,0,0,0,0);
+
+curve.Interpolate(0,0);
 	Track['dote'].Position(-100,2,0);
 Repeater['DikeL2'].End();
 Repeater['DikeR2'].End();	
 	repeater['road_1sya'].End();
 	Track['gawa_kami4'].Position(0,0,213);
-repeater['ballast7'].Begin('gawa_kami4',0,-0.001,0,0,0,0,3,5,5,'Ballast');
+
+
 $sanyo_distance+118882;
+repeater['ballast7'].Begin('gawa_kami4',0,-0.001,0,0,0,0,3,5,5,'Ballast');
+
+curve.Interpolate(0,0);
+	Track['gawa_kami4'].Position(0.95,0);
 	Track['nakajou'].Position(10,0);
 	Track['sanyonobori'].Position(14,0);
 	Track['nakage'].Position(10,0);
 repeater['ballast5'].Begin('nakajou',0,0,0,0,0,0,3,5,5,'Ballast');
 $sanyo_distance+118897;
-	Track['gawa_kami4'].Position(3,0,-308);
+
 $sanyo_distance+118900;
 	Track['gawa_kami8'].Position(-17,0,173);
-$sanyo_distance+118909;
+
+
+$sanyo_distance+118912;
+structure['Sw8_MRM'].Put('chizu',0,0.005,0,0,0,0,1,14);
+	Track['gawa_kami4'].Position(4.8,0,-173);
+repeater['ballast7'].End();
 
 $sanyo_distance+118915;
 	Track['gawa_kami8'].Position(-15,0);
 $sanyo_distance+118924;
-repeater['ballast7'].End();
+
 $sanyo_distance+118928;
 	Track['chizu'].Position(6,0);
 	Track['gawa_kami4'].Position(6,0);
 structure['seigen20'].Put('chizu',-2.5,0.5,0,0,0,0,0,0);
-structure['seigenpole'].Put('chizu',-2.5,-0.5,0,0,0,0,0,0);
+structure['seigenpole'].Put('chizu',-2.5,-1.5,0,0,0,0,0,0);
 $sanyo_distance+118915;
 	Track['gawa_kami7'].Position(-13,0,173);
 $sanyo_distance+118935;
 repeater['ballast14'].End();
 $sanyo_distance+118940;
+curve.Interpolate(-800,-0.051);
 	Track['gawa_kami7'].Position(-11.5,0);
 $sanyo_distance+118945;
 Gradient.Interpolate(1.2);
@@ -302,42 +323,25 @@ $sanyo_distance+118970;
 
 $sanyo_distance+118977;
 structure['seigen30'].Put('gawa_kami8',-2.5,1.5,0,0,0,0,0,0);
-structure['seigenpole'].Put('gawa_kami8',-2.5,0.5,0,0,0,0,0,0);
+structure['seigenpole'].Put('gawa_kami8',-2.5,-0.5,0,0,0,0,0,0);
 	Track['gawa_kami8'].Position(-6,0,-173);
+
 $sanyo_distance+118997;
 repeater['ballast8'].End();
 	Track['gawa_kami8'].Position(-4,0);
 structure['seigen15L'].Put('chizu',-2.2,0.5,0,0,0,0,0,0);
-structure['seigenpole'].Put('chizu',-2.2,-0.5,0,0,0,0,0,0);
+structure['seigenpole'].Put('chizu',-2.2,-1.5,0,0,0,0,0,0);
 $sanyo_distance+119007;
-#Curve.Interpolate(0, 0);
 Track['sanyonobori'].Cant.Interpolate(0);
-#curve.BeginTransition();
-structure['Cr_L1'].Put('gawa_kami3',0,0,0,0,0,0,0,2);
-structure['Cr_L2'].Put(0,0,0,0,0,0,0,0,2);
-structure['Cr_R2'].Put(0,0,0,0,0,0,0,0,2);
-structure['Cr_R2'].Put(0,0.5,0,0,0,0,0,0,2);
-structure['Cr_L3'].Put(0,0,0,0,0,0,0,0,2);
-structure['Cr_L3'].Put('sanyonobori',0,0,0,0,0,0,0,2);
-structure['Cr_L2'].Put('sanyonobori',0,-0.5,0,0,0,0,0,2);
-structure['Cr_L2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
-structure['Cr_R2'].Put('sanyonobori',0,0,0,0,0,0,0,2);
-structure['Cr_L3'].Put('chizu',0,0,0,0,0,0,0,2);
-structure['Cr_L2'].Put('chizu',-0.5,0,0,0,0,0,0,2);
-structure['Cr_L2'].Put('chizu',0,0,0,0,0,0,0,2);
-structure['Cr_R2'].Put('chizu',0,0,0,0,0,0,0,2);
-structure['Cr_R2'].Put('chizu',0.5,0,0,0,0,0,0,2);
-structure['Cr_L3'].Put('gawa_kami3',0,0,0,0,0,0,0,2);
-structure['Cr_L2'].Put('gawa_kami3',0,0,0,0,0,0,0,2);
-structure['Cr_R2'].Put('gawa_kami3',0,0,0,0,0,0,0,2);
-structure['Cr_R1'].Put('sanyonobori',0,0,0,0,0,0,0,2);
+
 Sound3D['cross2'].Put(-5.5, 2.3);
 Sound3D['cross2'].Put(10.5, 2.3);
-$sanyo_distance+119011;
-#Curve.Interpolate(-1400, -0.051);
 #踏切1
+
+
 Gradient.Interpolate(0.2);
 $sanyo_distance+119017;
+Curve.Interpolate(-1400, -0.051);
 Repeater['bushL'].Begin0('gawa_kami12', 1, 25, 25, 'bush_L01','bush_L02','bush_L03');
 Repeater['bushR'].Begin0('sanyonobori', 1, 25, 25, 'bush_R01','bush_R02','bush_R03');
 Gradient.Interpolate(3.9);
@@ -347,23 +351,29 @@ $sanyo_distance+119015;
 	Track['nakage'].Position(5,0,-173);
 	Track['sanyonobori'].Position(9,0);
 	#Track['gawa_kami5'].Position(4,0,-173);
-repeater['ballast7'].Begin('nakage',0,0,0,0,0,0,3,5,5,'Ballast');
 
 $sanyo_distance+119025;
 	Track['nakage'].Position(4.5,0,0);
+
+$sanyo_distance+119030;
+repeater['ballast7'].Begin('nakage',0,0,0,0,0,0,3,5,5,'Ballast');
 
 $sanyo_distance+119059;
 	Track['nakage'].Position(0.8,0,173);
 $sanyo_distance+119072;
 #制限80
-structure['seigen80'].Put(0,-2,1.7,0,0,0,0,0,0);
-structure['seigenpole'].Put(0,-2,0.7,0,0,0,0,0,0);
+structure['seigenEnd'].Put(0,-2,1,0,0,0,0,0,0);
+structure['seigen80'].Put(0,-2,0.5,0,0,0,0,0,0);
+structure['seigenpole'].Put(0,-2,-1,0,0,0,0,0,0);
 	Track['gawa_kami3'].Position(-4,0,308);
+
 $sanyo_distance+119079;
+Curve.Interpolate(-1400, -0.051);
 	Track['nakage'].Position(0,0);
 	repeater['ballast7'].End();
-structure['seigen15'].Put('chizu',-2.5,1.7,0,0,0,0,0,0);
-structure['seigenpole'].Put('chizu',-2.5,0.7,0,0,0,0,0,0);
+structure['seigen15'].Put('chizu',-2.5,0.7,0,0,0,0,0,0);
+structure['hidari'].Put('chizu',-2.5,0.1,0,0,0,0,0,0);
+structure['seigenpole'].Put('chizu',-2.5,-1.3,0,0,0,0,0,0);
 #接合点
 
 $sanyo_distance+119083;
@@ -380,11 +390,15 @@ repeater['ballast12'].Begin('gawa_kami12',0,-0.01,0,0,0,0,3,5,5,'Ballast');
 $sanyo_distance+119107;
 	Track['gawa_kami3'].Position(-2,0,-308);
 $sanyo_distance+119122;
-repeater['Chizu_wall'].Begin('chizu',0,-0.5,0,0,0,0,3,5,5,'Chizu_wall');
+repeater['Chizu_wall'].Begin('chizu',0,-0.8,0,0,0,0,3,5,5,'Chizu_wall');
 	Track['gawa_kami12'].Position(-3,0,173);
+
+$sanyo_distance+119127;	
+structure['Sw8_MRM'].Put('sanyokudari',0,0.005,0,0,0,0,3,14);
 $sanyo_distance+119137;
 	Track['gawa_kami12'].Position(-4,0);
 $sanyo_distance+119142;
 #側線合流
+
 	Track['gawa_kami3'].Position(0,0);
 repeater['ballast3'].End();

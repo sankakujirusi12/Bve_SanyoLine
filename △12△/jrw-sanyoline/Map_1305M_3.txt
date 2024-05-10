@@ -22,6 +22,7 @@ include 'Submap\Map_une_new.txt';
 include 'Submap\Map_pass_une_kami.txt';
 include 'Submap\Map_kami3.txt';
 include 'Submap\Map_pass_kami_oka.txt';
+include 'Submap\Map_mitsuishi_new.txt';
 include 'Submap\Map_point_1305M.txt';
 include 'Submap\jyousyaichi.txt';
 include 'Submap\Map_crossNo.txt';
