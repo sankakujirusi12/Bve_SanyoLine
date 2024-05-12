@@ -48,7 +48,7 @@ Signal['type300_b'].Put(1,0,-2.2,4.8,0,0,0,0,0,0);
 structure['2jou'].Put(0,-1.95,4.2,-0.2,0,0,0,0,0);
 
 $sanyo_distance+87964;
-structure['Signalpole1'].Put(0,-2.7,4.6,0,0,0,0,0,0);
+structure['Signalpole1'].Put(0,-2.7,0,0,0,0,0,0,0);
 Signal['type30'].Put(1,0,-2.7,4.7);
 
 $sanyo_distance+88489;

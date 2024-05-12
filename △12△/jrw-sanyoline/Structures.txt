@@ -435,6 +435,17 @@ Sw10_MRM,Structures\Uchibo\Track\Sw10_MRM.x
 Sw10_MLB,Structures\Uchibo\Track\Sw10_MLB.x
 Sw10_MRB,Structures\Uchibo\Track\Sw10_MRB.x
 
+Sw_FL,Structures\Uchibo\Track\Sw_FL.x
+Sw_FR,Structures\Uchibo\Track\Sw_FR.x
+Sw_ML,Structures\Uchibo\Track\Sw_ML.x
+Sw_MR,Structures\Uchibo\Track\Sw_MR.x
+Sw_FLM,Structures\Uchibo\Track\Sw_FLM.x
+Sw_FRM,Structures\Uchibo\Track\Sw_FRM.x
+Sw_MLM,Structures\Uchibo\Track\Sw_MLM.x
+Sw_MRM,Structures\Uchibo\Track\Sw_MRM.x
+Sw_MLB,Structures\Uchibo\Track\Sw_MLB.x
+Sw_MRB,Structures\Uchibo\Track\Sw_MRB.x
+
 #---------------------------------------------------------------------踏切-----------------------------------------------------------------------
 #警報機
 CrossSign,..\..\Nagoya_Common\Railway_Obj\Cross\General\signal\Mei\CrossSign.x

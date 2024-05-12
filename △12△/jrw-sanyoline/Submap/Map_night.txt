@@ -4,7 +4,7 @@ BveTs Map 2.00:UTF-8
 0;
 Light.Direction(5,0);
 Light.Ambient(0.05, 0.05, 0.05);
-Light.Diffuse(0.05, 0.03, 0.01);
+Light.Diffuse(0.04, 0.03, 0.01);
 Fog.Interpolate(0.00001,0,0,0);
 $sanyo_distance+83000;
 
