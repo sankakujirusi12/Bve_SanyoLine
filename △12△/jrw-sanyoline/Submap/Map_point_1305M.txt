@@ -65,16 +65,56 @@ $sanyo_distance+93684;
 #3番～4番
 structure['Sw8_FLM'].Put('hoshi3',0,0.005,0,0,0,0,1,15);
 
+$sanyo_distance+93708;
+#保守用側線
+structure['Sw8_MRM'].Put('gawa_hoshi7',0,0.005,0,0,0,0,1,15);
+
 $sanyo_distance+93717;
 #3番～4番
 structure['Sw8_MLM'].Put('gawa_hoshi1',0,0.005,0,0,0,0,1,15);
 
+$sanyo_distance+93737;
+#4番～5-7番方
+structure['Sw8_FLM'].Put('gawa_hoshi1',0,0.005,0,0,0,0,1,15);
 
-$sanyo_distance+93708;
-structure['Sw8_MRM'].Put('gawa_hoshi7',0,0.005,0,0,0,0,1,15);
+$sanyo_distance+93759;
+#4番～5番
+structure['Sw8_FRM'].Put('gawa_hoshi4',0,0.005,0,0,0,0,1,15);
+
+$sanyo_distance+93782;
+#4番～6番
+structure['Sw8_FRM'].Put('gawa_hoshi4',0,0.005,0,0,0,0,1,15);
 
 $sanyo_distance+93803;
 structure['Sw8_FR'].Put('gawa_hoshi7',0,0.005,0,0,0,0,1,15);
+
+$sanyo_distance+94142.5;
+#4番～6番
+structure['Sw8_MLM'].Put('gawa_hoshi2',0,0.005,0,0,0,0,1,15);
+
+$sanyo_distance+94165;
+#6番～5番
+structure['Sw8_MRM'].Put('gawa_hoshi2',0,0.005,0,0,0,0,1,15);
+
+$sanyo_distance+94195;
+#3番～下本
+structure['Sw10_MRM'].Put('hoshi3',0,0.005,0,0,0,0,1,20);
+
+$sanyo_distance+94250;
+#3番～入出庫
+structure['Sw8_FLM'].Put('hoshi3',0,0.005,3,0,0,0,1,15);
+
+$sanyo_distance+94305;
+#3番～下本
+structure['Sw10_MRM'].Put('sanyokudari',0,0.005,0,0,0,0,1,20);
+
+$sanyo_distance+94310;
+#入出庫分岐
+structure['Sw8_FL'].Put('gawa_hoshi1',0,0.005,0,0,0,0,1,15);
+
+$sanyo_distance+94330;
+#下本～上本
+structure['Sw10_FRM'].Put('sanyokudari',0,0.005,0,0,0,0,1,20);
 
 $sanyo_distance+119016.5;
 structure['Sw8_FLM'].Put('chizu',0,0.005,0,0,0,0,1,15);
