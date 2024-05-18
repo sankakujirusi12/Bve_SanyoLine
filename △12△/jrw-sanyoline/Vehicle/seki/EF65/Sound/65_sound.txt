@@ -16,6 +16,7 @@ version 1.0
 
 [switch]
 0=..\..\..\..\..\..\jnr_locopack\sound\00_sound\pointb.wav
+2=Joint_Cross.wav
 
 [suspension]
 left=..\..\..\..\..\..\jnr_locopack\sound\00_sound\noiseb.wav

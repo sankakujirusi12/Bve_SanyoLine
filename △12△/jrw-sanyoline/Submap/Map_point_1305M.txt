@@ -116,6 +116,36 @@ $sanyo_distance+94330;
 #下本～上本
 structure['Sw10_FRM'].Put('sanyokudari',0,0.005,0,0,0,0,1,20);
 
+$sanyo_distance+94370;
+#下本～入出庫
+structure['Sw10_FLM'].Put('sanyokudari',0,0.005,0,0,0,0,1,20);
+
+$sanyo_distance+94375;
+#下本～上本
+structure['Sw10_MRM'].Put('sanyonobori',0,0.005,0,0,0,0,1,20);
+
+$sanyo_distance+94415;
+#下本～入出庫
+structure['Sw10_MLM'].Put('gawa_hoshi3',0,0.005,0,0,0,0,1,20);
+
+$sanyo_distance+94443;
+#入出庫～旧下本
+structure['Sw8_FLM'].Put('gawa_hoshi1',0,0.005,0,0,0,0,1,15);
+
+$sanyo_distance+94710;
+#網干入出庫シーサス
+structure['Sw8_FRM'].Put('hoshiden4',0,0.005,0,0,0,0,1,15);
+structure['Sw8_FLM'].Put('hoshiden3',0,0.005,0,0,0,0,1,15);
+
+$sanyo_distance+94745;
+#網干入出庫シーサス
+structure['Sw8_MLM'].Put('hoshiden4',0,0.005,0,0,0,0,1,15);
+structure['Sw8_MRM'].Put('hoshiden3',0,0.005,0,0,0,0,1,15);
+
+$sanyo_distance+94805;
+#網干電留
+structure['Sw8_FRM'].Put('gawa_hoshi1',0,0.005,0,0,0,0,1,15);
+
 $sanyo_distance+119016.5;
 structure['Sw8_FLM'].Put('chizu',0,0.005,0,0,0,0,1,15);
 

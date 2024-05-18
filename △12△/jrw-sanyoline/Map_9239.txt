@@ -47,7 +47,7 @@ include 'Trains\Trains_9239.txt';
 include 'Submap\Map_pretrain_9239.txt';
 
 #音
-#include 'Submap\joint_1305M.txt';
+include 'Submap\joint_9239.txt';
 
 #ATS
 include 'Submap\Map_beacon_9239.txt';
