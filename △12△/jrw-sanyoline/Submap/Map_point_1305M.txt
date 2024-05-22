@@ -158,6 +158,24 @@ structure['Sw8_FRM'].Put('hoshiden3',0,0.005,0,0,0,0,1,15);
 $sanyo_distance+94853;
 structure['Sw8_MRB'].Put('hoshiden5',0,0.005,0,0,0,0,1,15);
 
+$sanyo_distance+94875;
+structure['Sw8_FRM'].Put('hoshiden3',0,0.005,0,0,0,0,1,15);
+
+$sanyo_distance+94900;
+structure['Sw8_FRM'].Put('hoshiden3',0,0.005,0,0,0,0,1,15);
+
+$sanyo_distance+95278;
+structure['Sw8_FLM'].Put('hoshiden5',0,0.005,0,0,0,0,1,15);
+
+$sanyo_distance+95328;
+structure['Sw8_MLM'].Put('gawa_hoshi1',0,0.005,0,0,0,0,1,15);
+
+$sanyo_distance+95333;
+structure['Sw8_FLM'].Put('hoshiden9',0,0.005,0,0,0,0,1,15);
+
+$sanyo_distance+95407.5;
+structure['Sw8_FRM'].Put('hoshiden5',0,0.005,0,0,0,0,1,15);
+
 $sanyo_distance+119016.5;
 structure['Sw8_FLM'].Put('chizu',0,0.005,0,0,0,0,1,15);
 
