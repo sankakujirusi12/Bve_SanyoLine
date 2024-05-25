@@ -121,7 +121,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "8_kyaku8.png";
+    "Aioi_teimoku_8_kyaku8.png";
    }
   }
  }

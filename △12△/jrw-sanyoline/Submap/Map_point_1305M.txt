@@ -15,6 +15,10 @@ $sanyo_distance+87872;
 #英賀保下本～中
 structure['Sw8_FRM'].Put('sanyokudari',0,0.005,0,0,0,0,1,15);
 
+$sanyo_distance+88065;
+#英賀保下本～中
+structure['Sw8_MLM'].Put('sanyonobori',0,0.005,0,0,0,0,1,15);
+
 $sanyo_distance+87907;
 #中合流
 structure['Sw8_MR'].Put('nakage',0,0.005,0,0,0,0,1,15);
@@ -175,6 +179,36 @@ structure['Sw8_FLM'].Put('hoshiden9',0,0.005,0,0,0,0,1,15);
 
 $sanyo_distance+95407.5;
 structure['Sw8_FRM'].Put('hoshiden5',0,0.005,0,0,0,0,1,15);
+
+$sanyo_distance+103980;
+#上本～中
+structure['Sw_FLM'].Put('sanyonobori',0,0.005,0,0,0,0,1,25);
+
+$sanyo_distance+103990;
+#下本～中
+structure['Sw_FRM'].Put('sanyokudari',0,0.005,0,0,0,0,1,25);
+
+$sanyo_distance+104055;
+#下本～中
+structure['Sw10_ML'].Put('nakajou',0,0.005,0,0,0,0,1,20);
+
+$sanyo_distance+104594;
+#中～上本
+structure['Sw8_FRM'].Put('nakage',0,0.005,0,0,0,0,1,15);
+
+$sanyo_distance+104642;
+structure['Sw8_MRM'].Put('sanyonobori',0,0.005,0,0,0,0,1,15);
+
+$sanyo_distance+104660;
+structure['Sw8_MLM'].Put('sanyokudari',0,0.005,0,0,0,0,1,15);
+
+$sanyo_distance+104717;
+#中～上本
+structure['Sw8_FLM'].Put('sanyokudari',0,0.005,0,0,0,0,1,15);
+
+$sanyo_distance+104762;
+#中～上本
+structure['Sw8_ML'].Put('akose',0,0.005,0,0,0,0,1,15);
 
 $sanyo_distance+119016.5;
 structure['Sw8_FLM'].Put('chizu',0,0.005,0,0,0,0,1,15);
