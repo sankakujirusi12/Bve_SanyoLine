@@ -229,7 +229,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "Tie_brg.dds";
+    "Tie_brg3.png";
    }
   }
 

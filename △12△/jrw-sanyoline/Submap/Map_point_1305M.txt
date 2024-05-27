@@ -192,6 +192,9 @@ $sanyo_distance+104055;
 #下本～中
 structure['Sw10_ML'].Put('nakajou',0,0.005,0,0,0,0,1,20);
 
+$sanyo_distance+104075;
+structure['Sw8_FRM'].Put('sanyonobori',0,0.005,0,0,0,0,1,15);
+
 $sanyo_distance+104594;
 #中～上本
 structure['Sw8_FRM'].Put('nakage',0,0.005,0,0,0,0,1,15);
@@ -202,9 +205,16 @@ structure['Sw8_MRM'].Put('sanyonobori',0,0.005,0,0,0,0,1,15);
 $sanyo_distance+104660;
 structure['Sw8_MLM'].Put('sanyokudari',0,0.005,0,0,0,0,1,15);
 
-$sanyo_distance+104717;
+$sanyo_distance+104675;
+#中分岐
+structure['Sw10_FLM'].Put('sanyonobori',0,0.005,0,0,0,0,1,20);
+
+$sanyo_distance+104739;
+structure['Sw10_MLM'].Put('sanyokudari',0,0.005,0,0,0,0,1,20);
+
+$sanyo_distance+104702;
 #中～上本
-structure['Sw8_FLM'].Put('sanyokudari',0,0.005,0,0,0,0,1,15);
+structure['Sw10_FLM'].Put('sanyokudari',0,0.005,0,0,0,0,1,20);
 
 $sanyo_distance+104762;
 #中～上本

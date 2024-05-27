@@ -44,8 +44,8 @@ $sanyo_distance+112106;
 #中継信号
 structure['wirehanger7L'].Put(0,0,0,0,0,0,0,0,0);
 structure['wirehanger7L'].Put('sanyonobori',0,0,0,0,0,0,0,0);
-structure['jrkasenchu-9B'].Put(0,2,-0.1,0,0,0,0,0,0);
-$sanyo_distance+112146;
+structure['jrkasenchu-9B'].Put(0,2,-0.5,0,0,0,0,0,0);
+$sanyo_distance+112136;
 structure['wirehanger7L'].Put(0,0,0,0,0,0,0,0,0);
 structure['wirehanger7L'].Put('sanyonobori',0,0,0,0,0,0,0,0);
 structure['jrkasenchu-9B'].Put(0,2,-0.5,0,0,0,0,0,0);
