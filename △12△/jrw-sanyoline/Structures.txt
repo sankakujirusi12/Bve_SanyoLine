@@ -493,6 +493,7 @@ Fumikiri_saku_omote_2_2,Structures\△12△\Fumikiri\Fumikiri_saku_omote_2_2.x
 Fumikiri_saku_omote_3_1,Structures\△12△\Fumikiri\Fumikiri_saku_omote_3_1.x
 Fumikiri_saku_omote_3_2,Structures\△12△\Fumikiri\Fumikiri_saku_omote_3_2.x
 Fumikiri_saku_ura_2.5_2L,Structures\△12△\Fumikiri\Fumikiri_saku_ura_2.5_2L.x
+Fumikiri_saku_ura_2_1,Structures\△12△\Fumikiri\Fumikiri_saku_ura_2_1.x
 Fumikiri_saku_ura_2_2,Structures\△12△\Fumikiri\Fumikiri_saku_ura_2_2.x
 Fumikiri_saku_ura_3_1,Structures\△12△\Fumikiri\Fumikiri_saku_ura_3_1.x
 Fumikiri_saku_ura_3_1.5,Structures\△12△\Fumikiri\Fumikiri_saku_ura_3_1.5.x
@@ -516,6 +517,9 @@ Road_0702_c,Structures\Uchibo\Road\road_0702_c.x
 Road_0702_d,Structures\Uchibo\Road\road_0702_d.x
 Road_4sya,../../Nagoya_Common\Build\Road\Road4.x
 
+Himeji_agaho_douro1,Structures\△12△\Road\Himeji_agaho_douro1.x
+Himeji_agaho_douro2,Structures\△12△\Road\Himeji_agaho_douro2.x
+Himeji_agaho_douro3,Structures\△12△\Road\Himeji_agaho_douro3.x
 
 seigen50_road,../../Nagoya_Common\Build\Road\Sign\50.x
 Road_1sya_L,Structures\サンパチタテモノ\road\road_045L.x
@@ -702,7 +706,8 @@ jrkasenchu-11B_wide,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\
 jrkasenchu-11BR,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs11B_R.x
 jrkasenchu-12A,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs12A.x
 jrkasenchu-12B,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs12B.x
-
+jrkasenchu-13B,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs13B.x
+jrkasenchu-13B_2_wide,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs13B_2_wide.x
 jrkasenchu-14A,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs14A.x
 jrkasenchu-14AR,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs14A_R.x
 Pole1AC_B,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\Pole\Pole1AC_B.x
@@ -1107,6 +1112,8 @@ Tettou2,Structures\△12△\tettou\Tettou2.x
 
 #上郡
 Kamigori_koban,Structures\△12△\ensen\Kamigori_koban.x
+Kamigori_mansion,Structures\△12△\ensen\Kamigori_mansion.x
+Kamigori_chizu_ekisya,Structures\△12△\sta\kamigori\Kamigori_chizu_ekisya.x
 
 #上郡～三石
 Chizu_wall,Structures\△12△\ensen\Chizu_wall.x

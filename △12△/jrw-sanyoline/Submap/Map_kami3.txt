@@ -32,18 +32,25 @@ repeater['ballast10'].End();
 $sanyo_distance+118389;
 	Track['gawa_kami3'].Position(-2,0,308);
 $sanyo_distance+118389;
-Curve.Interpolate(0, 0);
 Track['sanyonobori'].Cant.Interpolate(0);
 $sanyo_distance+118419;
-Curve.Interpolate(1200, 0.03);
-$sanyo_distance+118427;
-	Track['nakage'].Position(2,0,-600);
-	Track['nakajou'].Position(5,0,308);
-$sanyo_distance+118419;
+Curve.Interpolate(0, 0);
 	Repeater['Trees'].Begin('gawa_kami3',-25,-10,0,0,0,0,1,10,10,'tree21','tree22','tree23','tree24','tree25');
 	Track['gawa_kami3'].Position(-4,0);
-$sanyo_distance+118454;
+	
+$sanyo_distance+118427;
+
+	Track['nakage'].Position(2,0,-600);
+	Track['nakajou'].Position(5,0,308);
+
+$sanyo_distance+118429;
 Curve.Interpolate(1200, 0.03);
+
+$sanyo_distance+118444;
+Curve.Interpolate(1200, 0.03);
+
+$sanyo_distance+118454;
+Curve.Interpolate(0, 0);
 $sanyo_distance+118467;
 	Track['nakage'].Position(4,0,0);
 	Track['nakajou'].Position(4,0,0);
@@ -178,7 +185,7 @@ $sanyo_distance+118774;
 repeater['ballast15'].Begin('gawa_kami9',0,-0.002,0,0,0,0,3,5,5,'Ballast');
 structure['End2'].Put('gawa_kami9',0,0,0,0,180,0,0,2);
 	Track['gawa_kami9'].Position(-22,0);
-structure['kamigori_kosen'].Put('nakage',6,0,0,0,0,0,0,2);
+structure['kamigori_kosen'].Put('nakage',5,1,-7,0,0,0,0,15);
 	Track['dote'].Position(-35,2,-200);
 #跨線橋
 $sanyo_distance+118780;
@@ -191,8 +198,7 @@ repeater['Form_L'].End();
 #ホーム終端(智頭急駅舎)
 	Track['nakage'].Position(12,0,0);
 	Track['sanyonobori'].Position(16,0);
-structure['chizu1'].Put(0,4.5,1,0,0,180,0,0,2);
-structure['chizu0'].Put(0,6,-4,-3,0,0,0,0,2);
+structure['Kamigori_chizu_ekisya'].Put('sanyokudari',4.2,1,0,0,0,0,0,2);
 
 $sanyo_distance+118794;
 repeater['Form_R'].End();
@@ -228,6 +234,9 @@ Curve.Interpolate(-580, -0.09);
 
 $sanyo_distance+118832;
 	Track['gawa_kami9'].Position(-19.5,0,-173);
+
+structure['Kamigori_mansion'].Put('sanyokudari',-22,0,0,0,0,0,0,20);
+
 $sanyo_distance+118844;
 #智頭急行停止位置
 $sanyo_distance+118851;
