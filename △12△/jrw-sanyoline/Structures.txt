@@ -674,7 +674,7 @@ P2,../../Nagoya_Common\Railway_Obj\Signal\Beacon\P2.x
 #P標識
 p chijou,Structures\△12△\ats\p chijou.x
 #-------------------------------------------------------------------架線柱----------------------------------------------------------------------
-#Bは端が扁平、Rは片側
+#Bは端が扁平、LRは片側
 jrkasenchu-5A,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs05A.x
 jrkasenchu-5B,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs05B.x
 jrkasenchu-5BR,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs05B_R.x
@@ -688,6 +688,7 @@ jrkasenchu-7B,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTr
 jrkasenchu-7B_wide,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs07B_wide.x
 jrkasenchu-7BR,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs07B_R.x
 jrkasenchu-8A,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs08A.x
+jrkasenchu-8AL,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs08A_L.x
 jrkasenchu-8AR,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs08A_R.x
 jrkasenchu-8B,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs08B.x
 jrtetsukasenchu-8,Structures\Uchibo\Pole\Pole_VTA_3hL.x
@@ -721,15 +722,19 @@ Pole2AC_AS,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\Pole\Pole2AC_AS.x
 
 
 #BTA:鉄骨 BCA:コンクリ柱
-jrkasenchu_n_2sen,Structures\Uchibo\Pole\Pole_BTA_2.x
-jrkasenchu_n_4sen,Structures\Uchibo\Pole\Pole_BTA_4.x
-jrkasenchu_n_4sen_1,Structures\Uchibo\Pole\Pole_BCA_4.x
-jrkasenchu_n_5sen,Structures\Uchibo\Pole\Pole_BTA_5.x
-jrkasenchu_n_5sen_1,Structures\Uchibo\Pole\Pole_BCA_5.x
-jrkasenchu_n_5.5sen,Structures\Uchibo\Pole\Pole_BTA_5h.x
-jrkasenchu_n_6.5sen,Structures\Uchibo\Pole\Pole_BTA_6h.x
-jrkasenchu_n_7.5sen,Structures\Uchibo\Pole\Pole_BTA_7h.x
-jrkasenchu_old_2sen,Structures\△12△\poletruss\Pole_OLD_2.x
+#0:柱単体
+Pole_BTA_0,Structures\Uchibo\Pole\Pole_BTA_0.x
+Pole_BTA_2,Structures\Uchibo\Pole\Pole_BTA_2.x
+Pole_BTA_4,Structures\Uchibo\Pole\Pole_BTA_4.x
+Pole_BCA_4,Structures\Uchibo\Pole\Pole_BCA_4.x
+Pole_VTA_4_agaho,Structures\Uchibo\Pole\Pole_VTA_4_agaho.x
+Pole_BTA_5,Structures\Uchibo\Pole\Pole_BTA_5.x
+Pole_BCA_5,Structures\Uchibo\Pole\Pole_BCA_5.x
+Pole_BTA_5_agaho,Structures\Uchibo\Pole\Pole_VTA_5_agaho.x
+Pole_BTA_5h,Structures\Uchibo\Pole\Pole_BTA_5h.x
+Pole_BTA_6h,Structures\Uchibo\Pole\Pole_BTA_6h.x
+Pole_BTA_7h,Structures\Uchibo\Pole\Pole_BTA_7h.x
+Pole_OLD_2,Structures\△12△\poletruss\Pole_OLD_2.x
 jrkasenchu_1sen_1,Structures\△12△\poletruss\Pole_1sen_1.x
 jrkasenchu_1sen_2,Structures\△12△\poletruss\Pole_1sen_2.x
 jrkasenchu_1sen_3,../../Nagoya_Common\Railway_Obj\Pole\Pole0_5.x

@@ -11,6 +11,10 @@ $point='hime6';
 $point1='watari2';
 include 'Submap\PointL.txt';
 
+$sanyo_distance+87862;
+#英賀保上本～中
+structure['Sw8_FLM'].Put('sanyonobori',0,0.005,0,0,0,0,1,14);
+
 $sanyo_distance+87872;
 #英賀保下本～中
 structure['Sw8_FRM'].Put('sanyokudari',0,0.005,0,0,0,0,1,15);
