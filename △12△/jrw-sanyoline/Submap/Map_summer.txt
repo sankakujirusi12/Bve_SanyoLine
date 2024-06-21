@@ -3,6 +3,6 @@ BveTs Map 2.00:UTF-8
 #夏
 
 $sanyo_distance+0;
-Light.Ambient(0.9, 0.86, 0.86);
+Light.Ambient(0.86, 0.86, 0.86);
 Light.Diffuse(1, 1, 1);
 Light.Direction(55, 20);

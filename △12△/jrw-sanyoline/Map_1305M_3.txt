@@ -30,16 +30,15 @@ include 'Submap\Gradient&CurvePosts.txt';
 
 #信号&閉塞
 include 'Submap\Map_signal_himeji7.txt';
-include 'Submap\Map_signal_hime_une.txt';
+include 'Submap\Map_signal_pass.txt';
 include 'Submap\Map_signal_une_new.txt';
-include 'Submap\Map_signal_une_kami.txt';
 include 'Submap\Map_signal_kami3.txt';
 include 'Submap\Map_section.txt';
 
 #架線&架線柱
 include 'Submap\Map_kasenchu.txt';
 include 'Submap\Map_kasenchu_une_new.txt';
-include 'Submap\Map_kasenchu_himeji7.txt';
+include 'Submap\Map_kasenchu_himeji.txt';
 include 'Submap\Map_kasen_section.txt';
 
 #他列車

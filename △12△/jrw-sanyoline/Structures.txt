@@ -583,7 +583,7 @@ Miniban1,Structures\Hiyodori1914\Automobile\Miniban1_4.x
 miniban1Rev,Structures\Hiyodori1914\Automobile\miniban1_4Rev.x
 Miniban2,Structures\Hiyodori1914\Automobile\Miniban1_5.x
 miniban2Rev,Structures\Hiyodori1914\Automobile\miniban1_5Rev.x
-Sports1,Structures\Hiyodori1914\Automobile\Sports1_1.x
+Sports1,Structures\△12△\car\ae86.x
 Sports1Rev,Structures\Hiyodori1914\Automobile\Sports1_1Rev.x
 Sports2,Structures\Hiyodori1914\Automobile\Sports1_4.x
 Sports2Rev,Structures\Hiyodori1914\Automobile\Sports1_4Rev.x
@@ -753,6 +753,8 @@ Himeji_kasenchu_9,Structures\△12△\sta\himeji\Himeji_kasenchu9.x
 Himeji_kasenchu_10,Structures\△12△\sta\himeji\Himeji_kasenchu10.x
 Himeji_kasenchu_11,Structures\△12△\sta\himeji\Himeji_kasenchu11.x
 Himeji_kasenchu_12,Structures\△12△\sta\himeji\Himeji_kasenchu12.x
+Himeji_kasenchu_13,Structures\△12△\sta\himeji\Himeji_kasenchu13.x
+Himeji_kasenchu_14,Structures\△12△\sta\himeji\Himeji_kasenchu14.x
 
 Sanden_kasenchu1,Structures\△12△\sta\himeji\Sanden_kasenchu1.x
 Sanden_kasenchu2,Structures\△12△\sta\himeji\Sanden_kasenchu2.x
@@ -778,6 +780,13 @@ wirehanger8,Structures\とまり\Structures\Pole\DropR2A.x
 wirehanger9,Structures\とまり\Structures\Pole\DropR2B.x
 wirehanger10,Structures\とまり\Structures\Pole\DropR2C.x
 wirehanger11,Structures\とまり\Structures\Pole\DropR2D.x
+
+#バランサ、アンカ
+WireBalancerEnd,Structures\とまり\Structures\Wire\WireBalancerEnd.x
+WireBalancerStart,Structures\とまり\Structures\Wire\WireBalancerStart.x
+WireAnchorEnd,Structures\とまり\Structures\Wire\WireAnchorEnd.x
+WireAnchorStart,Structures\とまり\Structures\Wire\WireAnchorStart.x
+
 
 #セクションクリア標
 section,Structures\△12△\komono\section.x

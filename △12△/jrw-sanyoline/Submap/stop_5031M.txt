@@ -1,5 +1,5 @@
 BveTs Map 2.00:UTF-8
-$sanyo_distance+83875;
+$sanyo_distance+83910;
 Station['Sta-2'].Put(-1,-2,2);
 $sanyo_distance+88453;
 Station['Sta-1'].Put(-1,-2,2);

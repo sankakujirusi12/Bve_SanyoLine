@@ -2,8 +2,8 @@ BveTs Map 2.00:UTF-8
 #セクション(架線ストラクチャ、クリア標)
 
 $sanyo_distance+85309;
-Repeater['section架線'].Begin0('section', 1, 20, 20, 'kasen_20');
-Repeater['section架線1'].Begin0('section1', 1, 20, 20, 'kasen_20');
+Repeater['section架線'].Begin0('section', 1, 10, 10, 'kasen_10');
+Repeater['section架線1'].Begin0('section1', 1, 10, 10, 'kasen_10');
 	Track['section'].Position(-3,0);
 	Track['section1'].Position(7,0);
 $sanyo_distance+85398;
@@ -18,8 +18,8 @@ $sanyo_distance+85487;
 Repeater['section架線'].End();
 Repeater['section架線1'].End();
 $sanyo_distance+85771;
-Repeater['section架線'].Begin0('section', 1, 20, 20, 'kasen_20');
-Repeater['section架線1'].Begin0('section1', 1, 20, 20, 'kasen_20');
+Repeater['section架線'].Begin0('section', 1, 10, 10, 'kasen_10');
+Repeater['section架線1'].Begin0('section1', 1, 10, 10, 'kasen_10');
 	Track['section'].Position(-3,0);
 	Track['section1'].Position(7,0);
 $sanyo_distance+85801;

@@ -14,7 +14,7 @@ Signal.Load('Signals.csv');
 
 
 #駅位置定義
-include 'Submap\stop_3533M.txt';
+include 'Submap\stop_833T.txt';
 
 #曲線&勾配&風景
 include 'Submap\Map_himeji8.txt';
@@ -30,14 +30,14 @@ include 'Submap\Gradient&CurvePosts.txt';
 
 #信号&閉塞
 include 'Submap\Map_signal_himeji8.txt';
-include 'Submap\Map_signal_1305M.txt';
+include 'Submap\Map_signal_pass.txt';
 include 'Submap\Map_signal_kami3.txt';
 include 'Submap\Map_section.txt';
 
 #架線&架線柱
 include 'Submap\Map_kasenchu.txt';
 include 'Submap\Map_kasenchu_une_new.txt';
-include 'Submap\Map_kasenchu_himeji8.txt';
+include 'Submap\Map_kasenchu_himeji.txt';
 #他列車
 #include 'Trains\Trains_1339M.txt';
 

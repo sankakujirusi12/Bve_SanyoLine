@@ -2,7 +2,7 @@ BveTs Map 2.00:UTF-8
 #モード切替
 #SW
 #全信号機用
-$sanyo_distance+83920;
+$sanyo_distance+83965;
 $dis=distance;
 include 'Submap\Map_beacon_ats-sw.txt';
 $sanyo_distance+84613;
@@ -94,11 +94,15 @@ $dis=distance;
 include 'Submap\Map_beacon_ats-sw.txt';
 
 #他線
-$sanyo_distance+83920;
+$sanyo_distance+83965;
 $dis=distance;
 $Track='hime6';
 include 'Submap\Map_beacon_ats-sw_othertrack.txt';
 
+$sanyo_distance+83965;
+$Absolute=distance;
+$Track='hime6';
+include 'Submap\Absolute_ATS-P_380_othertrack.txt';
 
 
 

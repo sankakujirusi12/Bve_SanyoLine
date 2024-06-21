@@ -32,7 +32,7 @@ $sanyo_distance+118585;
 Beacon.Put(25,0,211);
 #拠点P
 #絶対信号機用
-$sanyo_distance+83920;
+$sanyo_distance+83965;
 $Absolute=distance;
 include 'Submap\Absolute_ATS-P_380.txt';
 Beacon.Put(25,0,2);
@@ -158,7 +158,12 @@ $dis=distance;
 include 'Submap\Map_beacon_ats-sw.txt';
 
 #他線
-$sanyo_distance+83920;
+$sanyo_distance+83965;
 $dis=distance;
 $Track='hime6';
 include 'Submap\Map_beacon_ats-sw_othertrack.txt';
+
+$sanyo_distance+83965;
+$Absolute=distance;
+$Track='hime6';
+include 'Submap\Absolute_ATS-P_380_othertrack.txt';
