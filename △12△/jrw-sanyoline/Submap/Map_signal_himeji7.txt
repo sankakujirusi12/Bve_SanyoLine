@@ -1,5 +1,5 @@
 BveTs Map 2.00:UTF-8
-$sanyo_distance+83965;
+$sanyo_distance+83964;
 structure['Signalpole8'].Put(0,-2.8,0,0.5,0,0,0,0,0);
 structure['7syutsu'].Put(0,-2.55,4.1,-0.1,0,0,0,0,0);
 #もとy座標↓3.4

@@ -755,6 +755,7 @@ Himeji_kasenchu_11,Structures\△12△\sta\himeji\Himeji_kasenchu11.x
 Himeji_kasenchu_12,Structures\△12△\sta\himeji\Himeji_kasenchu12.x
 Himeji_kasenchu_13,Structures\△12△\sta\himeji\Himeji_kasenchu13.x
 Himeji_kasenchu_14,Structures\△12△\sta\himeji\Himeji_kasenchu14.x
+Himeji_kasenchu_15,Structures\△12△\sta\himeji\Himeji_kasenchu15.x
 
 Sanden_kasenchu1,Structures\△12△\sta\himeji\Sanden_kasenchu1.x
 Sanden_kasenchu2,Structures\△12△\sta\himeji\Sanden_kasenchu2.x
@@ -763,6 +764,7 @@ Sanden_kasenchu2,Structures\△12△\sta\himeji\Sanden_kasenchu2.x
 kasen_10,Structures\Uchibo\Pole\kasen\kasen+10S.x
 #kasen_15,Structures\Uchibo\Pole\kasen\kasen15S.x
 kasen_20,Structures\Uchibo\Pole\kasen\kasen20S.x
+kasen_25,Structures\Uchibo\Pole\kasen\kasen25S.x
 kasen_30,Structures\Uchibo\Pole\kasen\kasen30S.x
 kasen_35,Structures\Uchibo\Pole\kasen\kasen35S.x
 kasen_40,Structures\Uchibo\Pole\kasen\kasen40S.x

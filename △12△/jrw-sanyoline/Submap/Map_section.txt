@@ -2,7 +2,7 @@ BveTs Map 2.00:UTF-8
 #閉塞区間
 $sanyo_distance+80000;
 Section.Begin(0,2,4);
-$sanyo_distance+83920;
+$sanyo_distance+83964;
 #姫路出発
 Section.Begin(0,2,4);
 $sanyo_distance+84613;
