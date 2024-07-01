@@ -713,13 +713,18 @@ jrkasenchu-14A,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleT
 jrkasenchu-14AR,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs14A_R.x
 Pole1AC_B,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\Pole\Pole1AC_B.x
 Pole1AC_A,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\Pole\Pole1AC_A.x
+Pole1AC_BS,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\Pole\Pole1AC_BS.x
+Pole1AC_AS,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\Pole\Pole1AC_AS.x
 Pole2AC_B,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\Pole\Pole2AC_B.x
 Pole2AC_A,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\Pole\Pole2AC_A.x
 Pole1AC_B_bridge,../../Nagoya_Common\Railway_Obj\Pole\Pole0_8.x
 Pole1AC_A_bridge,../../Nagoya_Common\Railway_Obj\Pole\Pole0_9.x
 Pole2AC_BS,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\Pole\Pole2AC_BS.x
 Pole2AC_AS,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\Pole\Pole2AC_AS.x
-
+Pole2AC_BS2,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\Pole\Pole2AC_BS2.x
+Pole2AC_AS2,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\Pole\Pole2AC_AS2.x
+Pole3AC_B,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\Pole\Pole3AC_B.x
+Pole3AC_A,Structures\Ntfiv\GeneralStr_png\Accessory\E_Poles\Pole\Pole3AC_A.x
 
 #BTA:鉄骨 BCA:コンクリ柱
 #0:柱単体
@@ -756,6 +761,7 @@ Himeji_kasenchu_12,Structures\△12△\sta\himeji\Himeji_kasenchu12.x
 Himeji_kasenchu_13,Structures\△12△\sta\himeji\Himeji_kasenchu13.x
 Himeji_kasenchu_14,Structures\△12△\sta\himeji\Himeji_kasenchu14.x
 Himeji_kasenchu_15,Structures\△12△\sta\himeji\Himeji_kasenchu15.x
+Himeji_kasenchu_16,Structures\△12△\sta\himeji\Himeji_kasenchu16.x
 
 Sanden_kasenchu1,Structures\△12△\sta\himeji\Sanden_kasenchu1.x
 Sanden_kasenchu2,Structures\△12△\sta\himeji\Sanden_kasenchu2.x
@@ -1054,6 +1060,8 @@ Sanden_wall,Structures\△12△\ensen\Sanden_wall.x
 #姫路～英賀保
 Ogyu,Structures\△12△\ensen\Ogyu.x
 Himeji_agaho_oflat,Structures\△12△\ensen\Himeji_agaho_oflat.x
+Himeji_agaho_wink_sports_ground,Structures\△12△\ensen\Himeji_agaho_wink_sports_ground.x
+Himeji_agaho_kosen,Structures\△12△\ensen\Himeji_agaho_kosen.x
 Kansai_douro_anzen,Structures\△12△\ensen\Kansai_douro_anzen.x
 Himeji_agaho_nikken,Structures\△12△\ensen\Himeji_agaho_nikken.x
 Himeji_agaho_darumaya,Structures\△12△\ensen\Himeji_agaho_darumaya.x

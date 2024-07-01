@@ -268,9 +268,10 @@ repeater['teimen1'].End();
 	repeater['fence_nobori'].Begin('sanyonobori',2.9,-0.45,0,0,0,0,0,5,5,'WhiteFence1');
 Repeater['DikeL'].Begin0(, 0, 5, 5, 'DikeL_1','DikeL_2','DikeL_3');
 Repeater['DikeR'].Begin0('sanyonobori', 0, 5, 5, 'DikeR_1','DikeR_2','DikeR_3');
-$sanyo_distance+85756;
-structure['over0'].Put('sanyokudari',0,7,0,0,0,0,0,0);
-structure['over0'].Put('sanyokudari',0,7,5,0,0,0,0,0);
+structure['Himeji_agaho_wink_sports_ground'].Put('Grass',-60,-0.5,0,0,-50,0,0,0);
+
+$sanyo_distance+85696;
+structure['Himeji_agaho_kosen'].Put('sanyokudari',2,-0.5,0,0,10,0,0,0);
 	Track['Route415'].Position(-9,0);
 	Track['Route415L'].Position(-11,0);
 	Track['Route415R'].Position(-7,0);

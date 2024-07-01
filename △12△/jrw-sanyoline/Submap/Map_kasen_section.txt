@@ -1,22 +1,28 @@
 BveTs Map 2.00:UTF-8
 #セクション(架線ストラクチャ、クリア標)
 
-$sanyo_distance+85309;
+$sanyo_distance+85308;
 Repeater['section架線'].Begin0('section', 1, 10, 10, 'kasen_10');
 Repeater['section架線1'].Begin0('section1', 1, 10, 10, 'kasen_10');
-	Track['section'].Position(-3,0);
-	Track['section1'].Position(7,0);
-$sanyo_distance+85398;
+	Track['section'].Position(-3.5,0);
+	Track['section1'].Position(7.5,0);
+structure['WireanchorStart'].Put('section',0,0,0,0,0,0,1,0);
+structure['WireanchorStart'].Put('section1',0,0,0,0,0,0,1,0);
+$sanyo_distance+85358;
 	Track['section'].Position(-0.2,0);
 	Track['section1'].Position(4.2,0);
-$sanyo_distance+85447;
+$sanyo_distance+85408;
 	Track['section'].Position(-0.2,0);
 	Track['section1'].Position(4.2,0);
-$sanyo_distance+85487;
-	Track['section'].Position(-3,0);
-	Track['section1'].Position(7,0);
+$sanyo_distance+85458;
+	Track['section'].Position(-3.5,0);
+	Track['section1'].Position(7.5,0);
 Repeater['section架線'].End();
 Repeater['section架線1'].End();
+structure['WireBalancerEnd'].Put('section',0,0,-1,0,-4,0,1,10);
+structure['WireBalancerEnd'].Put('section1',0,0,-1,0,4,0,1,10);
+structure['WireanchorEnd'].Put('section',0,0,0,0,0,0,1,0);
+structure['WireanchorEnd'].Put('section1',0,0,0,0,0,0,1,0);
 $sanyo_distance+85771;
 Repeater['section架線'].Begin0('section', 1, 10, 10, 'kasen_10');
 Repeater['section架線1'].Begin0('section1', 1, 10, 10, 'kasen_10');
